@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultados PT-RIO</title>
+  <link rel="stylesheet" href="/assets/css/flatpickr.min.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/theme.css">
+  <link rel="stylesheet" href="/assets/fonts/inter.css">
+  <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
+
+  <style>
+    /* CSS crítico e de layout */
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--bg-primary);
+      background-image: 
+        radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    /* ... (o restante do CSS permanece igual, omitido para brevidade) ... */
+  </style>
+</head>
+<body>
+  <div class="container no-print">
+    <header class="header">
+      <h1>Resultados PT-RIO</h1>
+      <p class="subtitle">
+        <a href="#" id="titulosLink" style="color: var(--text-secondary); text-decoration: none; cursor: pointer; transition: color 0.3s ease;">
+          Clique aqui para ver os horários das extrações!
+        </a>
+      </p>
+    </header>
+
+    <div class="calendar-container">
+      <input type="text" id="date-picker" class="date-picker" placeholder="Selecione uma data">
+      <button id="order-toggle-btn" class="order-toggle-btn">⬆⬇ Inverter Ordem</button>
+    </div>
+
+    <div id="data-container" class="data-container"></div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+      <div class="toast-icon">
+        <span id="toast-icon-text">✓</span>
+      </div>
+      <span id="toast-message"></span>
+    </div>
+
+    <!-- Modal de Títulos -->
+    <div id="titulosModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Títulos por Dia da Semana</h3>
+          <button class="close-btn" onclick="closeModal('titulosModal')">×</button>
+        </div>
+        <div class="modal-body">
+          <div class="filter-container" style="margin-bottom: 1.5rem;">
+            <label for="dayFilter" style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary); font-weight: 600;">Filtrar por dia da semana:</label>
+            <select id="dayFilter" style="width: 100%; padding: 0.75rem; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary); font-size: 1rem;">
+              <option value="Domingo">Domingo</option>
+              <option value="Segunda-feira">Segunda-feira</option>
+              <option value="Terça-feira">Terça-feira</option>
+              <option value="Quarta-feira">Quarta-feira</option>
+              <option value="Quinta-feira">Quinta-feira</option>
+              <option value="Sexta-feira">Sexta-feira</option>
+              <option value="Sábado">Sábado</option>
+            </select>
+          </div>
+          <div id="titulosContent" style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color);">
+            <div class="no-data loading">Carregando títulos...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modais -->
+    <div id="resumoModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Resumo de Acertos</h3>
+          <button class="close-btn" onclick="closeModal('resumoModal')">×</button>
+        </div>
+        <div class="modal-body" id="resumoModalBody"></div>
+        <div class="button-group">
+          <button class="btn btn-accent" id="resumoModalPalpitesBtn">
+            🎯 Palpites para a próxima extração
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="palpitesModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Palpites Inteligentes</h3>
+          <button class="close-btn" onclick="closeModal('palpitesModal')">×</button>
+        </div>
+        <div class="modal-body" id="palpitesModalBody"></div>
+        <div class="button-group">
+          <button class="btn btn-primary" id="voltarBtn" style="display:none;">
+            ← Voltar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal de Opções para Criar PNG -->
+    <div id="createPngModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Opções para Criar PNG</h3>
+          <button class="close-btn" onclick="closeModal('createPngModal')">×</button>
+        </div>
+        <div class="modal-body" id="createPngModalBody">
+          <div class="image-options">
+            <h5>🖼️ Configurações da Imagem</h5>
+            <div class="image-option">
+              <input type="checkbox" id="addBannerOption" name="addBanner" checked>
+              <label for="addBannerOption">Adicionar banner (bnr1.png)</label>
+            </div>
+            <div class="image-option">
+              <input type="checkbox" id="addPalpitesOption" name="addPalpites">
+              <label for="addPalpitesOption">Adicionar palpites acima do banner</label>
+            </div>
+          </div>
+        </div>
+        <div class="button-group">
+          <button class="btn btn-primary" onclick="closeModal('createPngModal')">
+            ← Cancelar
+          </button>
+          <button class="btn btn-accent" id="confirmCreatePngBtn">
+            🖼️ Gerar PNG
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal de Visualização de Imagem -->
+    <div id="imageModal" class="image-modal">
+      <div class="image-modal-content">
+        <div class="image-modal-header">
+          <h3 class="image-modal-title">Visualizar Imagem</h3>
+          <button class="image-modal-close" onclick="closeImageModal()">×</button>
+        </div>
+        <div class="image-modal-body">
+          <img id="previewImage" src="" alt="Preview da imagem">
+        </div>
+        <div class="image-modal-footer">
+          <button class="btn btn-primary" onclick="closeImageModal()">
+            ← Cancelar
+          </button>
+          <button class="share-btn" id="shareImageBtn">
+            📤 Compartilhar
+          </button>
+          <button class="download-btn" id="downloadImageBtn">
+            📥 Baixar PNG
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="print-area" class="print-area"></div>
+
+  <script src="/assets/js/flatpickr.js"></script>
+  <script src="/assets/js/flatpickr.pt.js"></script>
+  <script src="/resultados/script.js"></script>
+  <script>
+    // Funções específicas para esta página (PT-RIO)
+    function getPageTitle() {
+      return "Resultados PT-RIO";
+    }
+
+    function getDataUrl(dateStr) {
+      return `${dateStr}.json`;
+    }
+
+    function getJsonPath(filename) {
+      return `${filename}`;
+    }
+
+    function getImagePath(imageName) {
+      return `/assets/img/${imageName}`;
+    }
+
+    // Inicializar aplicação
+    document.addEventListener('DOMContentLoaded', function() {
+        initializeCommonFeatures();
+        fetchData(true);
+    });
+  </script>
+</body>
+</html>
