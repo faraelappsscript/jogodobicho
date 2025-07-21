@@ -51,14 +51,30 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1411": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1411"
+        ],
+        "1416": [
+          "BORBOLETA 🦋 no segundo prêmio!<br>com o palpite 1416"
+        ],
+        "1811": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1811"
+        ],
+        "1816": [
+          "BORBOLETA 🦋 no segundo prêmio!<br>com o palpite 1816"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦋",
+          "🐴"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6136, 6146, 6436, 6446, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 1411, 1416, 1811, 1816"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,14 +127,23 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1416": [
+          "BORBOLETA 🦋 no quinto prêmio!<br>com o palpite 1416"
+        ],
+        "1816": [
+          "BORBOLETA 🦋 no quinto prêmio!<br>com o palpite 1816"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6136, 6146, 6436, 6446, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 1411, 1416, 1811, 1816"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -171,49 +196,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "6136": [
-          "Dezena no quarto prêmio!<br>com o palpite 6136",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 6136"
-        ],
-        "6146": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6146",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6146",
-          "Dezena no terceiro prêmio!<br>com o palpite 6146",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6146"
-        ],
-        "6436": [
-          "Dezena no quarto prêmio!<br>com o palpite 6436",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 6436"
-        ],
-        "6446": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 6446",
-          "Dezena no primeiro prêmio!<br>com o palpite 6446",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6446",
-          "Dezena no terceiro prêmio!<br>com o palpite 6446",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6446"
-        ],
-        "6836": [
-          "Dezena no quarto prêmio!<br>com o palpite 6836",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 6836"
-        ],
-        "6846": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6846",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6846",
-          "Dezena no terceiro prêmio!<br>com o palpite 6846",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6846"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 9,
-        "Grupo": [
-          "🐘",
-          "🐍"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6136, 6146, 6436, 6446, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 1411, 1416, 1811, 1816"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -267,25 +257,28 @@
         }
       ],
       "frases": {
-        "6146": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6146"
+        "1411": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1411",
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1411",
+          "Dezena no terceiro prêmio!<br>com o palpite 1411",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1411"
         ],
-        "6446": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6446"
-        ],
-        "6846": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6846"
+        "1811": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1811",
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1811",
+          "Dezena no terceiro prêmio!<br>com o palpite 1811",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1811"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 4,
         "Grupo": [
-          "🐘"
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6136, 6146, 6436, 6446, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 1411, 1416, 1811, 1816"
     }
   },
   "1-10": {
@@ -358,14 +351,30 @@
           "Bicho": "Macaco"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1411": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1411"
+        ],
+        "1416": [
+          "BORBOLETA 🦋 no segundo prêmio!<br>com o palpite 1416"
+        ],
+        "1811": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1811"
+        ],
+        "1816": [
+          "BORBOLETA 🦋 no segundo prêmio!<br>com o palpite 1816"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦋",
+          "🐴"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6136, 6146, 6436, 6446, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 1411, 1416, 1811, 1816"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -436,14 +445,23 @@
           "Bicho": "Jacaré"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1416": [
+          "BORBOLETA 🦋 no quinto prêmio!<br>com o palpite 1416"
+        ],
+        "1816": [
+          "BORBOLETA 🦋 no quinto prêmio!<br>com o palpite 1816"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6136, 6146, 6436, 6446, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 1411, 1416, 1811, 1816"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -514,49 +532,14 @@
           "Bicho": "Camelo"
         }
       ],
-      "frases": {
-        "6136": [
-          "Dezena no quarto prêmio!<br>com o palpite 6136",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 6136"
-        ],
-        "6146": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6146",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6146",
-          "Dezena no terceiro prêmio!<br>com o palpite 6146",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6146"
-        ],
-        "6436": [
-          "Dezena no quarto prêmio!<br>com o palpite 6436",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 6436"
-        ],
-        "6446": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 6446",
-          "Dezena no primeiro prêmio!<br>com o palpite 6446",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6446",
-          "Dezena no terceiro prêmio!<br>com o palpite 6446",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6446"
-        ],
-        "6836": [
-          "Dezena no quarto prêmio!<br>com o palpite 6836",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 6836"
-        ],
-        "6846": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6846",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6846",
-          "Dezena no terceiro prêmio!<br>com o palpite 6846",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6846"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 9,
-        "Grupo": [
-          "🐘",
-          "🐍"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6136, 6146, 6436, 6446, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 1411, 1416, 1811, 1816"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -628,25 +611,34 @@
         }
       ],
       "frases": {
-        "6146": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6146"
+        "1411": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1411",
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1411",
+          "Dezena no terceiro prêmio!<br>com o palpite 1411",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1411",
+          "Milhar e Centena no oitavo prêmio!<br>com o palpite 1411",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 1411",
+          "Dezena no oitavo prêmio!<br>com o palpite 1411",
+          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 1411"
         ],
-        "6446": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6446"
-        ],
-        "6846": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6846"
+        "1811": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1811",
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1811",
+          "Dezena no terceiro prêmio!<br>com o palpite 1811",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1811",
+          "Dezena no oitavo prêmio!<br>com o palpite 1811",
+          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 1811"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 6,
         "Grupo": [
-          "🐘"
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6136, 6146, 6436, 6446, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 1411, 1416, 1811, 1816"
     }
   }
 }
