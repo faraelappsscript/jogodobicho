@@ -52,20 +52,19 @@
         }
       ],
       "frases": {
-        "8883": [
-          "Dezena no primeiro prêmio!<br>com o palpite 8883",
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 8883"
+        "8885": [
+          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 8885"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐂"
+          "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8883"
+      "resumo": "Palpites dados para esta extração: 8885"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,21 +117,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "8883": [
-          "TOURO 🐂 no segundo prêmio!<br>com o palpite 8883",
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 8883"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐂"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 8883"
+      "resumo": "Palpites dados para esta extração: 8885"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -192,7 +184,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 8883"
+      "resumo": "Palpites dados para esta extração: 8885"
     }
   },
   "1-10": {
