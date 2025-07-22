@@ -51,6 +51,84 @@
           "Bicho": ""
         }
       ],
+      "frases": {
+        "8536": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8536",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 8536",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 8536"
+        ],
+        "8736": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8736",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 8736",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 8736"
+        ],
+        "8836": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8836",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 8836",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 8836"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 3,
+        "Grupo": [
+          "🐍"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 8536, 8538, 8539, 8736, 8738, 8739, 8836, 8838, 8839"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8657",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "8884",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8071",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3315",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6584",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "5511",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "908",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
       "frases": {},
       "acertos": {
         "Milhar": 0,
@@ -58,7 +136,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 2318, 2338, 2518, 2538, 2918, 2938, 4318, 4338, 4518, 4538, 4918, 4938, 7318, 7338, 7518, 7538, 7918, 7938, 8318, 8338, 8518, 8538, 8918, 8938"
+      "resumo": "Palpites dados para esta extração: 8536, 8538, 8539, 8736, 8738, 8739, 8836, 8838, 8839"
     }
   },
   "1-10": {
@@ -132,64 +210,129 @@
         }
       ],
       "frases": {
-        "2338": [
-          "Dezena no sétimo prêmio!<br>com o palpite 2338",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 2338"
-        ],
-        "2538": [
-          "Dezena no sétimo prêmio!<br>com o palpite 2538",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 2538"
-        ],
-        "2938": [
-          "Dezena no sétimo prêmio!<br>com o palpite 2938",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 2938"
-        ],
-        "4338": [
-          "Dezena no sétimo prêmio!<br>com o palpite 4338",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4338"
-        ],
-        "4538": [
-          "Dezena no sétimo prêmio!<br>com o palpite 4538",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4538"
-        ],
-        "4938": [
-          "Dezena no sétimo prêmio!<br>com o palpite 4938",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4938"
-        ],
-        "7338": [
-          "Dezena no sétimo prêmio!<br>com o palpite 7338",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7338"
-        ],
-        "7538": [
-          "Dezena no sétimo prêmio!<br>com o palpite 7538",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7538"
-        ],
-        "7938": [
-          "Dezena no sétimo prêmio!<br>com o palpite 7938",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7938"
-        ],
-        "8338": [
-          "Dezena no sétimo prêmio!<br>com o palpite 8338",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8338"
+        "8536": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8536",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 8536"
         ],
         "8538": [
           "Dezena no sétimo prêmio!<br>com o palpite 8538",
           "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8538"
         ],
-        "8938": [
-          "Dezena no sétimo prêmio!<br>com o palpite 8938",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8938"
+        "8539": [
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8539"
+        ],
+        "8736": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8736",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 8736"
+        ],
+        "8738": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 8738",
+          "Dezena no sétimo prêmio!<br>com o palpite 8738",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8738"
+        ],
+        "8739": [
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8739"
+        ],
+        "8836": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8836",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 8836"
+        ],
+        "8838": [
+          "Dezena no sétimo prêmio!<br>com o palpite 8838",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8838"
+        ],
+        "8839": [
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8839"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 12,
+        "Centena": 1,
+        "Dezena": 6,
         "Grupo": [
+          "🐍",
           "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2318, 2338, 2518, 2538, 2918, 2938, 4318, 4338, 4518, 4538, 4918, 4938, 7318, 7338, 7518, 7538, 7918, 7938, 8318, 8338, 8518, 8538, 8918, 8938"
+      "resumo": "Palpites dados para esta extração: 8536, 8538, 8539, 8736, 8738, 8739, 8836, 8838, 8839"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8657",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "8884",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8071",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3315",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6584",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "8883",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6803",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "5871",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "7415",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "4483",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 8536, 8538, 8539, 8736, 8738, 8739, 8836, 8838, 8839"
     }
   }
 }
