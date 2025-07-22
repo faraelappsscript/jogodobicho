@@ -1,1 +1,195 @@
-{}
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9183",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2759",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1336",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3829",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1887",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "8994",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "335",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 2318, 2338, 2518, 2538, 2918, 2938, 4318, 4338, 4518, 4538, 4918, 4938, 7318, 7338, 7518, 7538, 7918, 7938, 8318, 8338, 8518, 8538, 8918, 8938"
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9183",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2759",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1336",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3829",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1887",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "9213",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1738",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "8532",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "3969",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "2446",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        }
+      ],
+      "frases": {
+        "2338": [
+          "Dezena no sétimo prêmio!<br>com o palpite 2338",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 2338"
+        ],
+        "2538": [
+          "Dezena no sétimo prêmio!<br>com o palpite 2538",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 2538"
+        ],
+        "2938": [
+          "Dezena no sétimo prêmio!<br>com o palpite 2938",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 2938"
+        ],
+        "4338": [
+          "Dezena no sétimo prêmio!<br>com o palpite 4338",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4338"
+        ],
+        "4538": [
+          "Dezena no sétimo prêmio!<br>com o palpite 4538",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4538"
+        ],
+        "4938": [
+          "Dezena no sétimo prêmio!<br>com o palpite 4938",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4938"
+        ],
+        "7338": [
+          "Dezena no sétimo prêmio!<br>com o palpite 7338",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7338"
+        ],
+        "7538": [
+          "Dezena no sétimo prêmio!<br>com o palpite 7538",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7538"
+        ],
+        "7938": [
+          "Dezena no sétimo prêmio!<br>com o palpite 7938",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7938"
+        ],
+        "8338": [
+          "Dezena no sétimo prêmio!<br>com o palpite 8338",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8338"
+        ],
+        "8538": [
+          "Dezena no sétimo prêmio!<br>com o palpite 8538",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8538"
+        ],
+        "8938": [
+          "Dezena no sétimo prêmio!<br>com o palpite 8938",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8938"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 12,
+        "Grupo": [
+          "🐇"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2318, 2338, 2518, 2538, 2918, 2938, 4318, 4338, 4518, 4538, 4918, 4938, 7318, 7338, 7518, 7538, 7918, 7938, 8318, 8338, 8518, 8538, 8918, 8938"
+    }
+  }
+}
