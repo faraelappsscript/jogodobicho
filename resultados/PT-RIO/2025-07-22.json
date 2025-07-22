@@ -51,14 +51,106 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "5194": [
+          "Dezena no sexto prêmio!<br>com o palpite 5194",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 5194"
+        ],
+        "5195": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 5195"
+        ],
+        "5594": [
+          "Dezena no sexto prêmio!<br>com o palpite 5594",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 5594"
+        ],
+        "5595": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 5595"
+        ],
+        "5994": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 5994",
+          "Dezena no sexto prêmio!<br>com o palpite 5994",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 5994"
+        ],
+        "5995": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 5995"
+        ],
+        "7194": [
+          "Dezena no sexto prêmio!<br>com o palpite 7194",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 7194"
+        ],
+        "7195": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 7195"
+        ],
+        "7594": [
+          "Dezena no sexto prêmio!<br>com o palpite 7594",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 7594"
+        ],
+        "7595": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 7595"
+        ],
+        "7994": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 7994",
+          "Dezena no sexto prêmio!<br>com o palpite 7994",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 7994"
+        ],
+        "7995": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 7995"
+        ],
+        "8194": [
+          "Dezena no sexto prêmio!<br>com o palpite 8194",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 8194"
+        ],
+        "8195": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 8195"
+        ],
+        "8594": [
+          "Dezena no sexto prêmio!<br>com o palpite 8594",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 8594"
+        ],
+        "8595": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 8595"
+        ],
+        "8994": [
+          "Milhar e Centena no sexto prêmio!<br>com o palpite 8994",
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 8994",
+          "Dezena no sexto prêmio!<br>com o palpite 8994",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 8994"
+        ],
+        "8995": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 8995"
+        ],
+        "9194": [
+          "Dezena no sexto prêmio!<br>com o palpite 9194",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 9194"
+        ],
+        "9195": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 9195"
+        ],
+        "9594": [
+          "Dezena no sexto prêmio!<br>com o palpite 9594",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 9594"
+        ],
+        "9595": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 9595"
+        ],
+        "9994": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 9994",
+          "Dezena no sexto prêmio!<br>com o palpite 9994",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 9994"
+        ],
+        "9995": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 9995"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1204, 1207, 1504, 1507, 1704, 1707, 5204, 5207, 5504, 5507, 5704, 5707"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 12,
+        "Grupo": [
+          "🦌"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5194, 5195, 5197, 5199, 5594, 5595, 5597, 5599, 5994, 5995, 5997, 5999, 7194, 7195, 7197, 7199, 7594, 7595, 7597, 7599, 7994, 7995, 7997, 7999, 8194, 8195, 8197, 8199, 8594, 8595, 8597, 8599, 8994, 8995, 8997, 8999, 9194, 9195, 9197, 9199, 9594, 9595, 9597, 9599, 9994, 9995, 9997, 9999"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,35 +203,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1207": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 1207"
-        ],
-        "1507": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 1507"
-        ],
-        "1707": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 1707"
-        ],
-        "5207": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 5207"
-        ],
-        "5507": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 5507"
-        ],
-        "5707": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 5707"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🦅"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1204, 1207, 1504, 1507, 1704, 1707, 5204, 5207, 5504, 5507, 5704, 5707"
+      "resumo": "Palpites dados para esta extração: 5194, 5195, 5197, 5199, 5594, 5595, 5597, 5599, 5994, 5995, 5997, 5999, 7194, 7195, 7197, 7199, 7594, 7595, 7597, 7599, 7994, 7995, 7997, 7999, 8194, 8195, 8197, 8199, 8594, 8595, 8597, 8599, 8994, 8995, 8997, 8999, 9194, 9195, 9197, 9199, 9594, 9595, 9597, 9599, 9994, 9995, 9997, 9999"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -199,7 +270,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1204, 1207, 1504, 1507, 1704, 1707, 5204, 5207, 5504, 5507, 5704, 5707"
+      "resumo": "Palpites dados para esta extração: 5194, 5195, 5197, 5199, 5594, 5595, 5597, 5599, 5994, 5995, 5997, 5999, 7194, 7195, 7197, 7199, 7594, 7595, 7597, 7599, 7994, 7995, 7997, 7999, 8194, 8195, 8197, 8199, 8594, 8595, 8597, 8599, 8994, 8995, 8997, 8999, 9194, 9195, 9197, 9199, 9594, 9595, 9597, 9599, 9994, 9995, 9997, 9999"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -252,68 +323,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1204": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1204",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1204"
-        ],
-        "1207": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 1207",
-          "Dezena no quarto prêmio!<br>com o palpite 1207",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 1207"
-        ],
-        "1504": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1504",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1504"
-        ],
-        "1507": [
-          "Dezena no quarto prêmio!<br>com o palpite 1507",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 1507"
-        ],
-        "1704": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1704",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1704"
-        ],
-        "1707": [
-          "Dezena no quarto prêmio!<br>com o palpite 1707",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 1707"
-        ],
-        "5204": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5204",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5204"
-        ],
-        "5207": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 5207",
-          "Dezena no quarto prêmio!<br>com o palpite 5207",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5207"
-        ],
-        "5504": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5504",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5504"
-        ],
-        "5507": [
-          "Dezena no quarto prêmio!<br>com o palpite 5507",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5507"
-        ],
-        "5704": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5704",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5704"
-        ],
-        "5707": [
-          "Dezena no quarto prêmio!<br>com o palpite 5707",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5707"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 12,
-        "Grupo": [
-          "🪶",
-          "🦅"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1204, 1207, 1504, 1507, 1704, 1707, 5204, 5207, 5504, 5507, 5704, 5707"
+      "resumo": "Palpites dados para esta extração: 5194, 5195, 5197, 5199, 5594, 5595, 5597, 5599, 5994, 5995, 5997, 5999, 7194, 7195, 7197, 7199, 7594, 7595, 7597, 7599, 7994, 7995, 7997, 7999, 8194, 8195, 8197, 8199, 8594, 8595, 8597, 8599, 8994, 8995, 8997, 8999, 9194, 9195, 9197, 9199, 9594, 9595, 9597, 9599, 9994, 9995, 9997, 9999"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -366,14 +383,130 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "5197": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5197",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5197"
+        ],
+        "5199": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 5199",
+          "Dezena no terceiro prêmio!<br>com o palpite 5199",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5199",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5199"
+        ],
+        "5597": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5597",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5597"
+        ],
+        "5599": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5599",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5599",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5599"
+        ],
+        "5997": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5997",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5997"
+        ],
+        "5999": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5999",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5999",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5999"
+        ],
+        "7197": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7197",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 7197"
+        ],
+        "7199": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 7199",
+          "Dezena no terceiro prêmio!<br>com o palpite 7199",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7199",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 7199"
+        ],
+        "7597": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7597",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 7597"
+        ],
+        "7599": [
+          "Dezena no terceiro prêmio!<br>com o palpite 7599",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7599",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 7599"
+        ],
+        "7997": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7997",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 7997"
+        ],
+        "7999": [
+          "Dezena no terceiro prêmio!<br>com o palpite 7999",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7999",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 7999"
+        ],
+        "8197": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 8197",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 8197"
+        ],
+        "8199": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 8199",
+          "Dezena no terceiro prêmio!<br>com o palpite 8199",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 8199",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 8199"
+        ],
+        "8597": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 8597",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 8597"
+        ],
+        "8599": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8599",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 8599",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 8599"
+        ],
+        "8997": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 8997",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 8997"
+        ],
+        "8999": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8999",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 8999",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 8999"
+        ],
+        "9197": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 9197",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 9197"
+        ],
+        "9199": [
+          "Milhar e Centena no terceiro prêmio!<br>com o palpite 9199",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 9199",
+          "Dezena no terceiro prêmio!<br>com o palpite 9199",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 9199",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 9199"
+        ],
+        "9597": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 9597",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 9597"
+        ],
+        "9599": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9599",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 9599",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 9599"
+        ],
+        "9997": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 9997",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 9997"
+        ],
+        "9999": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9999",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 9999",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 9999"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1204, 1207, 1504, 1507, 1704, 1707, 5204, 5207, 5504, 5507, 5704, 5707"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 12,
+        "Grupo": [
+          "🐄"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5194, 5195, 5197, 5199, 5594, 5595, 5597, 5599, 5994, 5995, 5997, 5999, 7194, 7195, 7197, 7199, 7594, 7595, 7597, 7599, 7994, 7995, 7997, 7999, 8194, 8195, 8197, 8199, 8594, 8595, 8597, 8599, 8994, 8995, 8997, 8999, 9194, 9195, 9197, 9199, 9594, 9595, 9597, 9599, 9994, 9995, 9997, 9999"
     }
   },
   "1-10": {
