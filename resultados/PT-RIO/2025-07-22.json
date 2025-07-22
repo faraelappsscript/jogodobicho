@@ -210,51 +210,20 @@
         }
       ],
       "frases": {
-        "8536": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8536",
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 8536"
-        ],
-        "8538": [
-          "Dezena no sétimo prêmio!<br>com o palpite 8538",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8538"
-        ],
-        "8539": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8539"
-        ],
-        "8736": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8736",
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 8736"
-        ],
-        "8738": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 8738",
-          "Dezena no sétimo prêmio!<br>com o palpite 8738",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8738"
-        ],
-        "8739": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8739"
-        ],
-        "8836": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8836",
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 8836"
-        ],
-        "8838": [
-          "Dezena no sétimo prêmio!<br>com o palpite 8838",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8838"
-        ],
-        "8839": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8839"
+        "8883": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8883",
+          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 8883"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 6,
+        "Centena": 0,
+        "Dezena": 1,
         "Grupo": [
-          "🐍",
-          "🐇"
+          "🐂"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8536, 8538, 8539, 8736, 8738, 8739, 8836, 8838, 8839"
+      "resumo": "Palpites dados para esta extração: 8883"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -325,14 +294,27 @@
           "Bicho": "Touro"
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "8883": [
+          "TOURO 🐂 no segundo prêmio!<br>com o palpite 8883",
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 8883",
+          "Milhar e Centena no sexto prêmio!<br>com o palpite 8883",
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 8883",
+          "Dezena no sexto prêmio!<br>com o palpite 8883",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 8883",
+          "Dezena no décimo prêmio!<br>com o palpite 8883",
+          "TOURO 🐂 no décimo prêmio!<br>com o palpite 8883"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 8536, 8538, 8539, 8736, 8738, 8739, 8836, 8838, 8839"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 2,
+        "Grupo": [
+          "🐂"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 8883"
     }
   }
 }
