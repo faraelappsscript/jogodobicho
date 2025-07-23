@@ -104,21 +104,10 @@ async function shareImage() {
     if (navigator.share && navigator.canShare) {
       const file = new File([currentImageBlob], 'resultado.png', { type: 'image/png' });
       
-      // Preparar texto com link armazenado
-      let shareText = 'Confira este resultado!';
-      const pageUrl = generateURLWithLink();
-      const storedLink = getStoredURLLink();
-      
-      if (storedLink) {
-        shareText += `\n\nVeja mais em: ${pageUrl}\nLink relacionado: ${storedLink}`;
-      } else {
-        shareText += `\n\nVeja mais em: ${pageUrl}`;
-      }
-      
       if (navigator.canShare({ files: [file] })) {
         await navigator.share({
           title: getPageTitle(),
-          text: shareText,
+          text: 'Confira este resultado!',
           files: [file]
         });
         showToast('Imagem compartilhada com sucesso!');
@@ -127,7 +116,7 @@ async function shareImage() {
         const imageUrl = URL.createObjectURL(currentImageBlob);
         await navigator.share({
           title: getPageTitle(),
-          text: shareText,
+          text: 'Confira este resultado!',
           url: imageUrl
         });
         showToast('Link compartilhado com sucesso!');
@@ -996,7 +985,7 @@ function getFormattedTimestamp(dateStr) {
 async function generateText(type, cardId) {
     const [version, titleKey] = getCardDetails(cardId);
     const data = globalData[version][titleKey];
-    const pageUrl = generateURLWithLink(); // Usar URL com link armazenado
+    const pageUrl = window.location.href;
     const timestamp = getFormattedTimestamp(selectedDateStr);
 
     if (type === 'result') {
@@ -1005,13 +994,6 @@ async function generateText(type, cardId) {
             text += `${row['Prêmio'] || ''}: *${row['Milhar'] || ''}* - ${row['Grupo'] || ''} ${row['Bicho'] || ''}\n`;
         });
         text += `\nVeja mais em: ${pageUrl}`;
-        
-        // Adicionar link armazenado se existir
-        const storedLink = getStoredURLLink();
-        if (storedLink) {
-            text += `\n\nLink relacionado: ${storedLink}`;
-        }
-        
         return text;
     }
 
@@ -1026,13 +1008,6 @@ async function generateText(type, cardId) {
         } else {
             text = "Nenhuma frase de acerto para este resultado.";
         }
-        
-        // Adicionar link armazenado se existir
-        const storedLink = getStoredURLLink();
-        if (storedLink) {
-            text += `\n\nLink relacionado: ${storedLink}`;
-        }
-        
         return text;
     }
 
@@ -1043,13 +1018,6 @@ async function generateText(type, cardId) {
             const palpitesData = await response.json();
             const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
             let text = `*${frase}*\n\n${palpitesData.palpites.join(', ')}\n\nConfira os resultados em: ${pageUrl}`;
-            
-            // Adicionar link armazenado se existir
-            const storedLink = getStoredURLLink();
-            if (storedLink) {
-                text += `\n\nLink relacionado: ${storedLink}`;
-            }
-            
             return text;
         } catch { 
             return "Erro ao gerar texto dos palpites."; 
