@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5085"
+      "resumo": "Palpites dados para esta extração: 1085, 5085, 9085"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5085"
+      "resumo": "Palpites dados para esta extração: 1085, 5085, 9085"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -172,20 +172,28 @@
         }
       ],
       "frases": {
+        "1085": [
+          "Dezena no terceiro prêmio!<br>com o palpite 1085",
+          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 1085"
+        ],
         "5085": [
           "Dezena no terceiro prêmio!<br>com o palpite 5085",
           "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 5085"
+        ],
+        "9085": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9085",
+          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 9085"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 3,
         "Grupo": [
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5085"
+      "resumo": "Palpites dados para esta extração: 1085, 5085, 9085"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -245,7 +253,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5085"
+      "resumo": "Palpites dados para esta extração: 1085, 5085, 9085"
     }
   },
   "1-10": {
@@ -325,7 +333,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5085"
+      "resumo": "Palpites dados para esta extração: 1085, 5085, 9085"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -397,8 +405,14 @@
         }
       ],
       "frases": {
+        "1085": [
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 1085"
+        ],
         "5085": [
           "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 5085"
+        ],
+        "9085": [
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 9085"
         ]
       },
       "acertos": {
@@ -409,7 +423,7 @@
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5085"
+      "resumo": "Palpites dados para esta extração: 1085, 5085, 9085"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -481,22 +495,34 @@
         }
       ],
       "frases": {
+        "1085": [
+          "Dezena no terceiro prêmio!<br>com o palpite 1085",
+          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 1085",
+          "Dezena no oitavo prêmio!<br>com o palpite 1085",
+          "TIGRE 🐅 no oitavo prêmio!<br>com o palpite 1085"
+        ],
         "5085": [
           "Dezena no terceiro prêmio!<br>com o palpite 5085",
           "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 5085",
           "Dezena no oitavo prêmio!<br>com o palpite 5085",
           "TIGRE 🐅 no oitavo prêmio!<br>com o palpite 5085"
+        ],
+        "9085": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9085",
+          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 9085",
+          "Dezena no oitavo prêmio!<br>com o palpite 9085",
+          "TIGRE 🐅 no oitavo prêmio!<br>com o palpite 9085"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 6,
         "Grupo": [
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5085"
+      "resumo": "Palpites dados para esta extração: 1085, 5085, 9085"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -574,7 +600,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5085"
+      "resumo": "Palpites dados para esta extração: 1085, 5085, 9085"
     }
   }
 }
