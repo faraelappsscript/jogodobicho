@@ -17,6 +17,56 @@ let currentCreatePngType = null;
 let currentCreatePngCardId = null;
 let titulosData = null;
 
+// === FUNCIONALIDADES DE PARÂMETRO DE URL ===
+
+// Função para capturar parâmetro de URL e armazenar no navegador
+function captureAndStoreUrlParameter() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const referrerLink = urlParams.get('ref') || urlParams.get('referrer') || urlParams.get('link');
+  
+  if (referrerLink) {
+    // Validar se é uma URL válida
+    try {
+      new URL(referrerLink);
+      // Armazenar no localStorage
+      localStorage.setItem('referrerLink', referrerLink);
+      console.log('Link de referência armazenado:', referrerLink);
+    } catch (error) {
+      console.warn('Link de referência inválido:', referrerLink);
+    }
+  }
+}
+
+// Função para recuperar o link armazenado
+function getStoredReferrerLink() {
+  return localStorage.getItem('referrerLink');
+}
+
+// Função para limpar o link armazenado (opcional)
+function clearStoredReferrerLink() {
+  localStorage.removeItem('referrerLink');
+}
+
+// Função para adicionar parâmetro de referência a uma URL
+function addReferrerToUrl(baseUrl) {
+  const referrerLink = getStoredReferrerLink();
+  
+  if (!referrerLink) {
+    return baseUrl;
+  }
+  
+  try {
+    const url = new URL(baseUrl);
+    url.searchParams.set('ref', encodeURIComponent(referrerLink));
+    return url.toString();
+  } catch (error) {
+    console.warn('Erro ao adicionar referência à URL:', error);
+    return baseUrl;
+  }
+}
+
+// === FUNÇÕES ORIGINAIS ===
+
 // Função para obter a data atual no fuso horário do usuário
 function getCurrentDateString() {
   const now = new Date();
@@ -112,12 +162,13 @@ async function shareImage() {
         });
         showToast('Imagem compartilhada com sucesso!');
       } else {
-        // Fallback para compartilhamento de URL
+        // Fallback para compartilhamento de URL com referência
         const imageUrl = URL.createObjectURL(currentImageBlob);
+        const shareUrl = addReferrerToUrl(window.location.href);
         await navigator.share({
           title: getPageTitle(),
           text: 'Confira este resultado!',
-          url: imageUrl
+          url: shareUrl
         });
         showToast('Link compartilhado com sucesso!');
       }
@@ -981,11 +1032,12 @@ function getFormattedTimestamp(dateStr) {
     });
 }
 
-// Gerar texto para compartilhamento/cópia
+// Gerar texto para compartilhamento/cópia - ATUALIZADO COM REFERÊNCIA
 async function generateText(type, cardId) {
     const [version, titleKey] = getCardDetails(cardId);
     const data = globalData[version][titleKey];
-    const pageUrl = window.location.href;
+    const baseUrl = window.location.href;
+    const pageUrl = addReferrerToUrl(baseUrl); // Adicionar referência se existir
     const timestamp = getFormattedTimestamp(selectedDateStr);
 
     if (type === 'result') {
@@ -1025,11 +1077,18 @@ async function generateText(type, cardId) {
     }
 }
 
-// Compartilhar conteúdo
+// Compartilhar conteúdo - ATUALIZADO COM REFERÊNCIA
 async function shareContent(type, cardId) {
     const text = await generateText(type, cardId);
+    const baseUrl = window.location.href;
+    const shareUrl = addReferrerToUrl(baseUrl); // Adicionar referência se existir
+    
     if (navigator.share) {
-        navigator.share({ title: 'Resultado/Palpites', text }).catch(console.error);
+        navigator.share({ 
+            title: getPageTitle(), 
+            text: text,
+            url: shareUrl 
+        }).catch(console.error);
     } else {
         showToast('Compartilhamento não suportado neste dispositivo.');
     }
@@ -1074,8 +1133,11 @@ function findLastResultTitle(data) {
     return lastTitle;
 }
 
-// Inicialização comum
+// Inicialização comum - ATUALIZADA COM CAPTURA DE PARÂMETRO
 function initializeCommonFeatures() {
+    // Capturar e armazenar parâmetro de URL na inicialização
+    captureAndStoreUrlParameter();
+    
     // Configurar o botão de inverter ordem
     const orderToggleBtn = document.getElementById('order-toggle-btn');
     if (orderToggleBtn) {
