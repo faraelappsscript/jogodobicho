@@ -1443,3 +1443,20 @@ tbody tr:last-child td {
     border-radius: 8px;
   }
 }
+
+
+
+
+/* Estilos para o ícone do calendário do Flatpickr */
+.flatpickr-calendar .flatpickr-input[data-input] + .flatpickr-calendar-icon {
+  color: white !important; /* Cor branca para o ícone */
+  font-size: 1.2rem !important; /* Aumenta o tamanho do ícone */
+  right: 1rem; /* Ajusta a posição para a direita */
+  top: 50%; /* Centraliza verticalmente */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.flatpickr-calendar .flatpickr-input[data-input] {
+  padding-right: 2.5rem; /* Adiciona padding para o ícone não sobrepor o texto */
+}
