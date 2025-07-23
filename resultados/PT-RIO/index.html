@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -31,6 +30,11 @@
 </head>
 <body>
   <div class="container no-print">
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb-nav" id="breadcrumbNav">
+      <!-- O breadcrumb será gerado dinamicamente pelo JavaScript -->
+    </nav>
+
     <header class="header">
       <h1>Resultados PT-RIO</h1>
       <p class="subtitle">
@@ -174,6 +178,7 @@
   <script src="/assets/js/flatpickr.js"></script>
   <script src="/assets/js/flatpickr.pt.js"></script>
   <script src="/resultados/script.js"></script>
+  <script src="/script2.js"></script>
   <script>
     // Funções específicas para esta página (PT-RIO)
     function getPageTitle() {
@@ -195,6 +200,7 @@
     // Inicializar aplicação
     document.addEventListener('DOMContentLoaded', function() {
         initializeCommonFeatures();
+        initializeBreadcrumb(); // Inicializar o breadcrumb
         fetchData(true);
     });
   </script>
