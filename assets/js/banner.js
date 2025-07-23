@@ -12,7 +12,9 @@
     
     // Função para recuperar o link armazenado no navegador
     function getStoredReferrerLink() {
-        return localStorage.getItem('referrerLink');
+        const link = localStorage.getItem('referrerLink');
+        console.log('Banner: Tentando recuperar link armazenado:', link);
+        return link;
     }
     
     // Função para extrair domínio de uma URL
@@ -280,11 +282,15 @@
     
     // Função para exibir o banner
     function showBanner() {
+        console.log('Banner: Iniciando showBanner()');
+        
         if (!shouldShowBanner()) {
+            console.log('Banner: Banner não deve ser exibido');
             return;
         }
         
         const referrerLink = getStoredReferrerLink();
+        console.log('Banner: Link recuperado para exibição:', referrerLink);
         
         // Criar estilos CSS
         createBannerStyles();
@@ -303,6 +309,7 @@
             const banner = document.getElementById('promotional-banner');
             if (banner) {
                 banner.classList.add('show');
+                console.log('Banner: Banner exibido com sucesso');
             }
         }, 100);
         
@@ -317,14 +324,17 @@
     
     // Função principal de inicialização
     function initBanner() {
+        console.log('Banner: Inicializando banner em', BANNER_CONFIG.showDelay, 'ms');
         // Aguardar o tempo configurado antes de mostrar o banner
         setTimeout(showBanner, BANNER_CONFIG.showDelay);
     }
     
     // Inicializar quando o DOM estiver carregado
     if (document.readyState === 'loading') {
+        console.log('Banner: DOM ainda carregando, aguardando DOMContentLoaded');
         document.addEventListener('DOMContentLoaded', initBanner);
     } else {
+        console.log('Banner: DOM já carregado, inicializando imediatamente');
         initBanner();
     }
     
@@ -336,4 +346,3 @@
     };
     
 })();
-
