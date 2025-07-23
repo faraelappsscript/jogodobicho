@@ -30,26 +30,8 @@
 
 /* === BREADCRUMB STYLES === */
 .breadcrumb-nav {
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  padding: 0.75rem 1.25rem;
+  padding: 0.75rem 0;
   margin-bottom: 2rem;
-  backdrop-filter: blur(10px);
-  box-shadow: var(--shadow-md);
-  position: relative;
-  overflow: hidden;
-}
-
-.breadcrumb-nav::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: var(--gradient-primary);
-  opacity: 0.6;
 }
 
 .breadcrumb {
@@ -80,62 +62,18 @@
 .breadcrumb-link {
   color: var(--text-secondary);
   text-decoration: none;
-  padding: 0.25rem 0.5rem;
-  border-radius: 6px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-  overflow: hidden;
-}
-
-.breadcrumb-link::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
-  transition: left 0.5s ease;
-}
-
-.breadcrumb-link:hover {
-  color: var(--accent-primary);
-  background: var(--bg-card-hover);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-sm);
-}
-
-.breadcrumb-link:hover::before {
-  left: 100%;
 }
 
 .breadcrumb-current {
   color: var(--text-primary);
   font-weight: 600;
-  padding: 0.25rem 0.5rem;
-  background: var(--bg-card);
-  border-radius: 6px;
-  border: 1px solid var(--border-accent);
-  position: relative;
-}
-
-.breadcrumb-current::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: var(--gradient-primary);
-  opacity: 0.8;
 }
 
 /* Responsive breadcrumb */
 @media (max-width: 767px) {
   .breadcrumb-nav {
-    padding: 0.625rem 1rem;
+    padding: 0.625rem 0;
     margin-bottom: 1.5rem;
-    border-radius: 10px;
   }
   
   .breadcrumb {
@@ -147,19 +85,12 @@
     margin-left: 0.375rem;
     font-size: 0.75rem;
   }
-  
-  .breadcrumb-link,
-  .breadcrumb-current {
-    padding: 0.25rem 0.375rem;
-    border-radius: 4px;
-  }
 }
 
 @media (max-width: 480px) {
   .breadcrumb-nav {
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 0;
     margin-bottom: 1.25rem;
-    border-radius: 8px;
   }
   
   .breadcrumb {
@@ -169,12 +100,6 @@
   
   .breadcrumb-item:not(:last-child)::after {
     margin-left: 0.25rem;
-  }
-  
-  .breadcrumb-link,
-  .breadcrumb-current {
-    padding: 0.25rem;
-    font-size: 0.75rem;
   }
   
   /* Quebra de linha para breadcrumbs muito longos em telas pequenas */
@@ -1614,4 +1539,3 @@ tbody tr:last-child td {
 .flatpickr-calendar .flatpickr-input[data-input] {
   padding-right: 2.5rem; /* Adiciona padding para o ícone não sobrepor o texto */
 }
-
