@@ -1,4 +1,4 @@
-// === BANNER FLUTUANTE COM LINK DINÂMICO ===
+// === BANNER FLUTUANTE COM LINK DINÂMICO - VERSÃO CORRIGIDA ===
 
 (function() {
     'use strict';
@@ -203,6 +203,10 @@
         const targetLink = hasSavedLink ? referrerLink : BANNER_CONFIG.defaultLink;
         const domain = hasSavedLink ? extractDomain(referrerLink) : extractDomain(BANNER_CONFIG.defaultLink);
         
+        console.log('Banner: Criando HTML com link:', targetLink);
+        console.log('Banner: Domínio extraído:', domain);
+        console.log('Banner: Tem link salvo?', hasSavedLink);
+        
         let bannerHTML = `
             <div id="promotional-banner">
                 <div class="banner-header">
@@ -269,11 +273,13 @@
     function shouldShowBanner() {
         // Não mostrar se já foi fechado nesta sessão
         if (sessionStorage.getItem('bannerClosed') === 'true') {
+            console.log('Banner: Banner foi fechado nesta sessão');
             return false;
         }
         
         // Não mostrar se já existe um banner na página
         if (document.getElementById('promotional-banner')) {
+            console.log('Banner: Banner já existe na página');
             return false;
         }
         
@@ -289,8 +295,16 @@
             return;
         }
         
+        // Recuperar o link aqui, após o delay de 10 segundos
         const referrerLink = getStoredReferrerLink();
-        console.log('Banner: Link recuperado para exibição:', referrerLink);
+        console.log('Banner: Link recuperado para exibição (após delay):', referrerLink);
+        
+        // Verificar novamente se há link no localStorage
+        console.log('Banner: Verificando localStorage completo:');
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            console.log(`  ${key}: ${localStorage.getItem(key)}`);
+        }
         
         // Criar estilos CSS
         createBannerStyles();
@@ -324,25 +338,42 @@
     
     // Função principal de inicialização
     function initBanner() {
-        console.log('Banner: Inicializando banner em', BANNER_CONFIG.showDelay, 'ms');
+        console.log('Banner: Inicializando banner. Aguardando', BANNER_CONFIG.showDelay, 'ms');
+        
+        // Verificar se há link no localStorage imediatamente
+        const currentLink = getStoredReferrerLink();
+        console.log('Banner: Link atual no localStorage (na inicialização):', currentLink);
+        
         // Aguardar o tempo configurado antes de mostrar o banner
         setTimeout(showBanner, BANNER_CONFIG.showDelay);
     }
     
-    // Inicializar quando o DOM estiver carregado
+    // Aguardar que todos os scripts sejam carregados
+    function waitForScriptsAndInit() {
+        // Aguardar um pouco mais para garantir que o script principal teve tempo de processar
+        setTimeout(() => {
+            console.log('Banner: Iniciando após aguardar scripts carregarem');
+            initBanner();
+        }, 1000); // 1 segundo adicional
+    }
+    
+    // Inicializar quando o DOM estiver completamente carregado
     if (document.readyState === 'loading') {
-        console.log('Banner: DOM ainda carregando, aguardando DOMContentLoaded');
-        document.addEventListener('DOMContentLoaded', initBanner);
+        document.addEventListener('DOMContentLoaded', waitForScriptsAndInit);
     } else {
-        console.log('Banner: DOM já carregado, inicializando imediatamente');
-        initBanner();
+        waitForScriptsAndInit();
     }
     
     // Exportar funções para uso externo se necessário
     window.BannerManager = {
         show: showBanner,
         close: closeBanner,
-        getStoredLink: getStoredReferrerLink
+        getStoredLink: getStoredReferrerLink,
+        forceShow: () => {
+            sessionStorage.removeItem('bannerClosed');
+            showBanner();
+        }
     };
     
 })();
+
