@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resultados PT-RIO</title>
   <link rel="stylesheet" href="/assets/css/flatpickr.min.css">
+  <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/theme.css">
   <link rel="stylesheet" href="/assets/fonts/inter.css">
   <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
@@ -62,7 +63,7 @@
     <div id="titulosModal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title">Títulos por Dia da Semana</h3>
+          <h3 class="modal-title">Horários das extrações</h3>
           <button class="close-btn" onclick="closeModal('titulosModal')">×</button>
         </div>
         <div class="modal-body">
@@ -79,7 +80,7 @@
             </select>
           </div>
           <div id="titulosContent" style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color);">
-            <div class="no-data loading">Carregando títulos...</div>
+            <div class="no-data loading">Carregando...</div>
           </div>
         </div>
       </div>
@@ -104,7 +105,7 @@
     <div id="palpitesModal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title">Palpites Inteligentes</h3>
+          <h3 class="modal-title">Palpites</h3>
           <button class="close-btn" onclick="closeModal('palpitesModal')">×</button>
         </div>
         <div class="modal-body" id="palpitesModalBody"></div>
@@ -128,7 +129,7 @@
             <h5>🖼️ Configurações da Imagem</h5>
             <div class="image-option">
               <input type="checkbox" id="addBannerOption" name="addBanner" checked>
-              <label for="addBannerOption">Adicionar banner (bnr1.png)</label>
+              <label for="addBannerOption">Adicionar banner da banca</label>
             </div>
             <div class="image-option">
               <input type="checkbox" id="addPalpitesOption" name="addPalpites">
@@ -174,13 +175,10 @@
 
   <div id="print-area" class="print-area"></div>
 
-  <!-- Scripts principais - APENAS O SCRIPT UNIFICADO -->
   <script src="/assets/js/flatpickr.js"></script>
   <script src="/assets/js/flatpickr.pt.js"></script>
-  <!-- SCRIPT UNIFICADO - substitui tanto o script.js quanto o banner.js -->
   <script src="/resultados/script.js"></script>
-  <script src="/assets/js/breadcrumb.js"></script>
-  
+  <script src="/breadcrumb.js"></script>
   <script>
     // Funções específicas para esta página (PT-RIO)
     function getPageTitle() {
@@ -201,7 +199,6 @@
 
     // Inicializar aplicação
     document.addEventListener('DOMContentLoaded', function() {
-        console.log('HTML: DOMContentLoaded disparado');
         initializeCommonFeatures();
         initializeBreadcrumb(); // Inicializar o breadcrumb
         fetchData(true);
