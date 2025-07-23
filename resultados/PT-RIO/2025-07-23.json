@@ -51,14 +51,35 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "3138": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 3138"
+        ],
+        "3438": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 3438"
+        ],
+        "4138": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 4138"
+        ],
+        "4438": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 4438"
+        ],
+        "5138": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 5138"
+        ],
+        "5438": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 5438"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐇"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 4175, 4178, 4179, 4195, 4198, 4199, 5175, 5178, 5179, 5195, 5198, 5199, 8175, 8178, 8179, 8195, 8198, 8199, 9175, 9178, 9179, 9195, 9198, 9199"
+      "resumo": "Palpites dados para esta extração: 3133, 3138, 3173, 3178, 3433, 3438, 3473, 3478, 4133, 4138, 4173, 4178, 4433, 4438, 4473, 4478, 5133, 5138, 5173, 5178, 5433, 5438, 5473, 5478"
     }
   },
   "1-10": {
@@ -132,44 +153,78 @@
         }
       ],
       "frases": {
+        "3133": [
+          "COBRA 🐍 no décimo prêmio!<br>com o palpite 3133"
+        ],
+        "3138": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 3138"
+        ],
+        "3178": [
+          "Dezena no nono prêmio!<br>com o palpite 3178",
+          "PERU 🦃 no nono prêmio!<br>com o palpite 3178"
+        ],
+        "3433": [
+          "COBRA 🐍 no décimo prêmio!<br>com o palpite 3433"
+        ],
+        "3438": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 3438"
+        ],
+        "3478": [
+          "Dezena no nono prêmio!<br>com o palpite 3478",
+          "PERU 🦃 no nono prêmio!<br>com o palpite 3478"
+        ],
+        "4133": [
+          "COBRA 🐍 no décimo prêmio!<br>com o palpite 4133"
+        ],
+        "4138": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 4138"
+        ],
         "4178": [
           "Dezena no nono prêmio!<br>com o palpite 4178",
           "PERU 🦃 no nono prêmio!<br>com o palpite 4178"
         ],
-        "4179": [
-          "PERU 🦃 no nono prêmio!<br>com o palpite 4179"
+        "4433": [
+          "COBRA 🐍 no décimo prêmio!<br>com o palpite 4433"
+        ],
+        "4438": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 4438"
+        ],
+        "4478": [
+          "Dezena no nono prêmio!<br>com o palpite 4478",
+          "PERU 🦃 no nono prêmio!<br>com o palpite 4478"
+        ],
+        "5133": [
+          "COBRA 🐍 no décimo prêmio!<br>com o palpite 5133"
+        ],
+        "5138": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 5138"
         ],
         "5178": [
           "Dezena no nono prêmio!<br>com o palpite 5178",
           "PERU 🦃 no nono prêmio!<br>com o palpite 5178"
         ],
-        "5179": [
-          "PERU 🦃 no nono prêmio!<br>com o palpite 5179"
+        "5433": [
+          "COBRA 🐍 no décimo prêmio!<br>com o palpite 5433"
         ],
-        "8178": [
-          "Dezena no nono prêmio!<br>com o palpite 8178",
-          "PERU 🦃 no nono prêmio!<br>com o palpite 8178"
+        "5438": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 5438"
         ],
-        "8179": [
-          "PERU 🦃 no nono prêmio!<br>com o palpite 8179"
-        ],
-        "9178": [
-          "Dezena no nono prêmio!<br>com o palpite 9178",
-          "PERU 🦃 no nono prêmio!<br>com o palpite 9178"
-        ],
-        "9179": [
-          "PERU 🦃 no nono prêmio!<br>com o palpite 9179"
+        "5478": [
+          "Dezena no nono prêmio!<br>com o palpite 5478",
+          "PERU 🦃 no nono prêmio!<br>com o palpite 5478"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 4,
+        "Dezena": 6,
         "Grupo": [
-          "🦃"
+          "🐇",
+          "🦃",
+          "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4175, 4178, 4179, 4195, 4198, 4199, 5175, 5178, 5179, 5195, 5198, 5199, 8175, 8178, 8179, 8195, 8198, 8199, 9175, 9178, 9179, 9195, 9198, 9199"
+      "resumo": "Palpites dados para esta extração: 3133, 3138, 3173, 3178, 3433, 3438, 3473, 3478, 4133, 4138, 4173, 4178, 4433, 4438, 4473, 4478, 5133, 5138, 5173, 5178, 5433, 5438, 5473, 5478"
     }
   }
 }
