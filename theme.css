@@ -1,3 +1,4 @@
+
 /* === TEMA ULTRA-MODERNO E SOFISTICADO === */
 :root {
   --bg-primary: #0f0f23;
@@ -1360,3 +1361,85 @@ tbody tr:last-child td {
   }
 }
 
+
+/* Estilos para o campo de data e o botão de inversão de ordem */
+.calendar-container {
+  display: flex;
+  flex-direction: column; /* Para empilhar a data e o botão */
+  gap: 0.75rem; /* Espaçamento entre a data e o botão */
+  max-width: 400px;
+  margin: 0 auto 1rem;
+  position: relative;
+}
+
+.date-picker {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-family: 'JetBrains Mono', monospace; /* Para o formato da data */
+  transition: all 0.3s ease;
+}
+
+.date-picker:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.order-toggle-btn {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.order-toggle-btn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Ajustes para mobile */
+@media (max-width: 767px) {
+  .calendar-container {
+    padding: 0 0.5rem;
+  }
+  .date-picker {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 10px;
+  }
+  .order-toggle-btn {
+    padding: 0.625rem 1rem;
+    font-size: 0.75rem;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .date-picker {
+    padding: 0.625rem 0.875rem;
+    font-size: 0.875rem;
+    border-radius: 8px;
+  }
+  .order-toggle-btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    border-radius: 8px;
+  }
+}
