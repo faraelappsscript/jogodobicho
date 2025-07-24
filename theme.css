@@ -1552,19 +1552,9 @@ tbody tr:last-child td {
   height: auto;
   min-height: 280px;
   max-height: 350px;
-  /* Gradiente sofisticado e moderno */
-  background: linear-gradient(135deg, 
-    #667eea 0%, 
-    #764ba2 25%, 
-    #f093fb 50%, 
-    #f5576c 75%, 
-    #4facfe 100%);
-  background-size: 400% 400%;
-  animation: gradientShift 8s ease infinite;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 -15px 40px rgba(0, 0, 0, 0.3), 
-              0 -5px 20px rgba(102, 126, 234, 0.2),
-              inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.5), var(--shadow-xl);
   transform: translateY(100%);
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 9999;
@@ -1576,35 +1566,6 @@ tbody tr:last-child td {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   backdrop-filter: blur(10px);
-  position: relative;
-}
-
-/* Animação do gradiente de fundo */
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-/* Efeito de brilho sutil no banner */
-.sliding-banner::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, 
-    transparent, 
-    rgba(255, 255, 255, 0.1), 
-    transparent);
-  animation: shimmer 3s infinite;
-  z-index: 1;
-}
-
-@keyframes shimmer {
-  0% { left: -100%; }
-  100% { left: 100%; }
 }
 
 .sliding-banner.show {
@@ -1631,18 +1592,23 @@ tbody tr:last-child td {
   }
 }
 
-/* Remover imagem de fundo - não será mais usada */
 .sliding-banner .banner-image {
-  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  z-index: 1;
 }
 
-/* Botão X com efeitos sofisticados */
 .sliding-banner .close-banner-btn {
   position: absolute;
   top: 15px;
   right: 15px;
-  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 50%, #d63031 100%);
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: rgba(239, 68, 68, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
@@ -1657,28 +1623,12 @@ tbody tr:last-child td {
   align-items: center;
   justify-content: center;
   line-height: 1;
-  box-shadow: 0 4px 15px rgba(214, 48, 49, 0.4),
-              inset 0 1px 0 rgba(255, 255, 255, 0.2);
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { 
-    transform: scale(1);
-    box-shadow: 0 4px 15px rgba(214, 48, 49, 0.4);
-  }
-  50% { 
-    transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(214, 48, 49, 0.6);
-  }
 }
 
 .sliding-banner .close-banner-btn:hover {
-  background: linear-gradient(135deg, #ff5252 0%, #d32f2f 50%, #b71c1c 100%);
-  transform: scale(1.1) rotate(90deg);
-  box-shadow: 0 6px 25px rgba(214, 48, 49, 0.6),
-              inset 0 1px 0 rgba(255, 255, 255, 0.3);
-  animation: none;
+  background: rgba(239, 68, 68, 1);
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
 }
 
 .sliding-banner .banner-content {
@@ -1694,67 +1644,30 @@ tbody tr:last-child td {
   max-width: 600px;
 }
 
-/* Logo com efeito de movimento e brilho */
 .sliding-banner .banner-logo {
   max-width: 140px;
   height: auto;
   margin-bottom: 10px;
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3))
-          drop-shadow(0 0 20px rgba(255, 255, 255, 0.2));
-  transition: all 0.3s ease;
-  animation: logoFloat 3s ease-in-out infinite;
-  z-index: 10;
-}
-
-@keyframes logoFloat {
-  0%, 100% { 
-    transform: translateY(0px) scale(1);
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3))
-            drop-shadow(0 0 20px rgba(255, 255, 255, 0.2));
-  }
-  50% { 
-    transform: translateY(-8px) scale(1.02);
-    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))
-            drop-shadow(0 0 30px rgba(255, 255, 255, 0.4));
-  }
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  transition: transform 0.3s ease;
 }
 
 .sliding-banner .banner-logo:hover {
-  transform: scale(1.1) rotate(5deg);
-  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.4))
-          drop-shadow(0 0 40px rgba(255, 255, 255, 0.6));
-  animation: none;
+  transform: scale(1.05);
 }
 
-/* Texto com efeito de brilho */
 .sliding-banner .banner-text {
   color: #ffffff;
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 20px;
   line-height: 1.4;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5),
-               0 0 10px rgba(255, 255, 255, 0.3);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   max-width: 90%;
-  animation: textGlow 4s ease-in-out infinite alternate;
-  z-index: 10;
 }
 
-@keyframes textGlow {
-  0% { 
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5),
-                 0 0 10px rgba(255, 255, 255, 0.3);
-  }
-  100% { 
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5),
-                 0 0 20px rgba(255, 255, 255, 0.5);
-  }
-}
-
-/* Botão Cadastre-se com gradiente e efeitos */
 .sliding-banner .banner-btn {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 50%, #4facfe 100%);
-  background-size: 200% 200%;
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
   color: white;
   padding: 12px 30px;
   border-radius: 25px;
@@ -1762,87 +1675,30 @@ tbody tr:last-child td {
   font-weight: bold;
   font-size: 1rem;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(79, 172, 254, 0.4),
-              inset 0 1px 0 rgba(255, 255, 255, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+  border: 2px solid transparent;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  position: relative;
-  overflow: hidden;
-  animation: buttonPulse 3s ease-in-out infinite;
-  z-index: 10;
-}
-
-@keyframes buttonPulse {
-  0%, 100% { 
-    background-position: 0% 50%;
-    box-shadow: 0 4px 15px rgba(79, 172, 254, 0.4);
-  }
-  50% { 
-    background-position: 100% 50%;
-    box-shadow: 0 6px 20px rgba(79, 172, 254, 0.6);
-  }
-}
-
-.sliding-banner .banner-btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, 
-    transparent, 
-    rgba(255, 255, 255, 0.3), 
-    transparent);
-  transition: left 0.5s ease;
 }
 
 .sliding-banner .banner-btn:hover {
-  background: linear-gradient(135deg, #00f2fe 0%, #4facfe 50%, #00f2fe 100%);
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 8px 25px rgba(79, 172, 254, 0.6),
-              inset 0 1px 0 rgba(255, 255, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.5);
-  animation: none;
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
-.sliding-banner .banner-btn:hover::before {
-  left: 100%;
-}
-
-/* Link Saiba Mais com efeito */
 .sliding-banner .banner-link {
-  color: rgba(255, 255, 255, 0.9);
+  color: #94a3b8;
   text-decoration: underline;
   font-size: 0.9rem;
   transition: all 0.3s ease;
   margin-top: 5px;
-  position: relative;
-  z-index: 10;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-.sliding-banner .banner-link::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(90deg, #4facfe, #00f2fe);
-  transition: width 0.3s ease;
 }
 
 .sliding-banner .banner-link:hover {
-  color: #ffffff;
+  color: #e2e8f0;
   text-decoration: none;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-  transform: translateY(-1px);
-}
-
-.sliding-banner .banner-link:hover::after {
-  width: 100%;
 }
 
 /* Responsive adjustments for the banner */
@@ -1932,7 +1788,7 @@ tbody tr:last-child td {
 }
 
 /* Adicionar um overlay sutil quando o banner estiver ativo */
-.sliding-banner.show::after {
+.sliding-banner.show::before {
   content: '';
   position: fixed;
   top: 0;
