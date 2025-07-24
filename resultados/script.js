@@ -1176,3 +1176,35 @@ document.addEventListener('DOMContentLoaded', function() {
     fetchData(true);
 });
 
+
+
+// === SLIDING BANNER LOGIC ===
+function initializeSlidingBanner() {
+  const slidingBanner = document.getElementById("slidingBanner");
+  const closeBannerBtn = document.getElementById("closeBannerBtn");
+  const registerBtn = document.getElementById("registerBtn");
+  const learnMoreLink = document.getElementById("learnMoreLink");
+
+  const defaultCode = "PACruTth";
+  let productCode = getStoredProductCode();
+  if (!productCode) {
+    productCode = defaultCode;
+  }
+
+  // Set dynamic links
+  registerBtn.href = `https://app.77xbrasil.com.br/pr/${productCode}`;
+  learnMoreLink.href = `https://77xxbrasil.com/pr/${productCode}`;
+
+  // Show banner after 5 seconds
+  setTimeout(() => {
+    slidingBanner.classList.add("show");
+  }, 5000);
+
+  // Close banner functionality
+  closeBannerBtn.addEventListener("click", () => {
+    slidingBanner.classList.remove("show");
+  });
+}
+
+// Call initializeSlidingBanner when DOM is loaded
+document.addEventListener("DOMContentLoaded", initializeSlidingBanner);
