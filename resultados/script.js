@@ -1056,8 +1056,7 @@ async function shareContent(type, cardId) {
     if (navigator.share) {
         navigator.share({ 
             title: getPageTitle(), 
-            text: text,
-            url: shareUrl 
+            text: text
         }).catch(console.error);
     } else {
         showToast('Compartilhamento não suportado neste dispositivo.');
