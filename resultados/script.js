@@ -1,1248 +1,1969 @@
-// === SCRIPT COMPARTILHADO PARA MÚLTIPLAS PÁGINAS ===
-
-// Variáveis globais compartilhadas
-let globalData = {};
-let activeCardId = null;
-let selectedDateStr = getCurrentDateString();
-let lastModifiedHeader = null;
-let autoUpdateInterval = null;
-let toastTimeout = null;
-let orderPreference = localStorage.getItem('orderPreference') || 'ascending';
-let currentImageBlob = null;
-let imageOptions = {
-  includeBanner: true,
-  includeGuesses: false
-};
-let currentCreatePngType = null;
-let currentCreatePngCardId = null;
-let titulosData = null;
-
-// === FUNCIONALIDADES DE PARÂMETRO DE URL ===
-
-// Função para capturar parâmetro de URL e armazenar no navegador
-function captureAndStoreUrlParameter() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const codeParam = urlParams.get('pr');
-  
-  if (codeParam) {
-    localStorage.setItem("productCode", codeParam);
-    console.log("Código do produto armazenado:", codeParam);
-  }
+/* === TEMA ULTRA-MODERNO E SOFISTICADO === */
+:root {
+  --bg-primary: #0f0f23;
+  --bg-secondary: #1a1a2e;
+  --bg-card: #16213e;
+  --bg-card-hover: #1e2a4a;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --border-color: #334155;
+  --border-accent: #475569;
+  --accent-primary: #3b82f6;
+  --accent-secondary: #8b5cf6;
+  --accent-success: #10b981;
+  --accent-warning: #f59e0b;
+  --accent-danger: #ef4444;
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  --gradient-success: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-glow: 0 0 20px rgba(59, 130, 246, 0.15);
 }
 
-// Função para recuperar o código armazenado
-function getStoredProductCode() {
-  return localStorage.getItem("productCode");
+* {
+  box-sizing: border-box;
 }
 
-// === FUNÇÕES ORIGINAIS ===
-
-// Função para obter a data atual no fuso horário do usuário
-function getCurrentDateString() {
-  const now = new Date();
-  const year = now.getFullYear();
-  const month = String(now.getMonth() + 1).padStart(2, '0');
-  const day = String(now.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
+/* === BREADCRUMB STYLES === */
+.breadcrumb-nav {
+  padding: 0.75rem 0;
+  margin-bottom: 2rem;
 }
 
-// Função para obter a data máxima (hoje) no fuso horário do usuário
-function getTodayDateString() {
-  return getCurrentDateString();
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
-// Função para obter o dia da semana atual em português
-function getCurrentDayOfWeek() {
-  const days = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
-  const today = new Date();
-  return days[today.getDay()];
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-// Função para carregar e exibir os títulos
-async function loadTitulos() {
-  try {
-    const response = await fetch(getJsonPath('titulos.json') + '?t=' + new Date().getTime());
-    if (!response.ok) throw new Error('Não foi possível carregar os títulos.');
-    
-    titulosData = await response.json();
-    
-    // Definir o dia atual como padrão
-    const currentDay = getCurrentDayOfWeek();
-    document.getElementById('dayFilter').value = currentDay;
-    
-    // Exibir títulos do dia atual
-    displayTitulos(currentDay);
-    
-  } catch (error) {
-    document.getElementById('titulosContent').innerHTML = `<div class="no-data">Erro ao carregar títulos: ${error.message}</div>`;
-  }
+.breadcrumb-item:not(:last-child)::after {
+  content: ">";
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-left: 0.5rem;
 }
 
-// Função para exibir os títulos de um dia específico
-function displayTitulos(dayOfWeek) {
-  const content = document.getElementById('titulosContent');
-  
-  if (!titulosData || !titulosData['1-5'] || !titulosData['1-5'][dayOfWeek]) {
-    content.innerHTML = `<div class="no-data">Nenhum título encontrado para ${dayOfWeek}.</div>`;
-    return;
+.breadcrumb-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.breadcrumb-current {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Responsive breadcrumb */
+@media (max-width: 767px) {
+  .breadcrumb-nav {
+    padding: 0.625rem 0;
+    margin-bottom: 1.5rem;
   }
   
-  const titulos = titulosData['1-5'][dayOfWeek];
-  
-  let html = `<h4 style="margin: 0 0 1rem 0; color: var(--text-primary); font-size: 1.125rem;">📅 ${dayOfWeek}</h4>`;
-  html += '<div style="display: flex; flex-direction: column; gap: 0.75rem;">';
-  
-  titulos.forEach((titulo, index) => {
-    html += `
-      <div style="
-        background: var(--bg-card); 
-        border: 1px solid var(--border-color); 
-        border-radius: 8px; 
-        padding: 0.75rem 1rem; 
-        transition: all 0.2s ease;
-        cursor: default;
-      " onmouseover="this.style.background='var(--bg-card-hover)'" onmouseout="this.style.background='var(--bg-card)'">
-        <span style="color: var(--text-primary); font-weight: 500; font-family: 'JetBrains Mono', monospace;">
-          ${titulo}
-        </span>
-      </div>
-    `;
-  });
-  
-  html += '</div>';
-  content.innerHTML = html;
-}
-
-// Função para compartilhar imagem
-async function shareImage() {
-  if (!currentImageBlob) {
-    showToast('Nenhuma imagem disponível para compartilhar.');
-    return;
-  }
-
-  try {
-    if (navigator.share && navigator.canShare) {
-      const file = new File([currentImageBlob], 'resultado.png', { type: 'image/png' });
-      
-      if (navigator.canShare({ files: [file] })) {
-        await navigator.share({
-          title: getPageTitle(),
-          text: 'Confira este resultado!',
-          files: [file]
-        });
-        showToast('Imagem compartilhada com sucesso!');
-      } else {
-        // Fallback para compartilhamento de URL com código
-        const imageUrl = URL.createObjectURL(currentImageBlob);
-        const shareUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
-        await navigator.share({
-          title: getPageTitle(),
-          text: 'Confira este resultado!',
-          url: shareUrl
-        });
-        showToast('Link compartilhado com sucesso!');
-      }
-    } else {
-      // Fallback: copiar para clipboard ou mostrar opções
-      showToast('Compartilhamento não suportado. Use o botão Baixar PNG.');
-    }
-  } catch (error) {
-    if (error.name !== 'AbortError') {
-      console.error('Erro ao compartilhar:', error);
-      showToast('Erro ao compartilhar imagem.');
-    }
-  }
-}
-
-// Função para abrir o modal de opções para criar PNG
-function openCreatePngModal(type, cardId) {
-  currentCreatePngType = type;
-  currentCreatePngCardId = cardId;
-  
-  // Para palpites, não mostrar opções (sempre incluir apenas banner)
-  if (type === 'palpites') {
-    generateImage(type, cardId);
-    return;
+  .breadcrumb {
+    font-size: 0.75rem;
+    gap: 0.375rem;
   }
   
-  // Para resultados, mostrar modal com opções
-  const modalBody = document.getElementById('createPngModalBody');
-  modalBody.innerHTML = `
-    <div class="image-options">
-      <h5>🖼️ Configurações da Imagem</h5>
-      <div class="image-option">
-        <input type="checkbox" id="addBannerOption" name="addBanner" ${imageOptions.includeBanner ? 'checked' : ''}>
-        <label for="addBannerOption">Adicionar banner (bnr1.png)</label>
-      </div>
-      <div class="image-option">
-        <input type="checkbox" id="addPalpitesOption" name="addPalpites" ${imageOptions.includeGuesses ? 'checked' : ''}>
-        <label for="addPalpitesOption">Adicionar palpites acima do banner</label>
-      </div>
-    </div>
-  `;
-  
-  // Configurar botão de confirmação
-  document.getElementById('confirmCreatePngBtn').onclick = () => {
-    const addBanner = document.getElementById('addBannerOption').checked;
-    const addPalpites = document.getElementById('addPalpitesOption').checked;
-    imageOptions.includeBanner = addBanner;
-    imageOptions.includeGuesses = addPalpites;
-    closeModal('createPngModal');
-    generateImage(currentCreatePngType, currentCreatePngCardId);
-  };
-  
-  openModal('createPngModal');
-}
-
-// Inicialização do Flatpickr com configurações melhoradas
-function initializeFlatpickr() {
-  flatpickr("#date-picker", {
-    dateFormat: "Y-m-d",
-    maxDate: getTodayDateString(),
-    locale: "pt",
-    defaultDate: getCurrentDateString(),
-    allowInput: false,
-    clickOpens: true,
-    disableMobile: false,
-    position: "auto center",
-    onChange: (selectedDates, dateStr) => {
-      selectedDateStr = dateStr;
-      fetchData(true);
-    },
-    onOpen: function() {
-      setTimeout(() => {
-        const calendar = document.querySelector('.flatpickr-calendar');
-        if (calendar) {
-          calendar.style.zIndex = '9999';
-        }
-      }, 10);
-    }
-  });
-}
-
-// Função para alternar a ordem dos cards
-function toggleOrder() {
-  orderPreference = orderPreference === 'ascending' ? 'descending' : 'ascending';
-  localStorage.setItem('orderPreference', orderPreference);
-  document.getElementById('order-toggle-btn').textContent = orderPreference === 'ascending' ? '⬆⬇ Inverter Ordem (Mais recente primeiro)' : '⬆⬇ Inverter Ordem (Mais antigo primeiro)';
-  renderData();
-}
-
-// Funções de Modal com controle de rolagem do body
-function openModal(modalId) {
-  document.getElementById(modalId).style.display = 'flex';
-  document.body.classList.add('modal-open');
-}
-
-function closeModal(modalId) {
-  document.getElementById(modalId).style.display = 'none';
-  document.body.classList.remove('modal-open');
-}
-
-// Funções do Modal de Imagem com controle de rolagem
-function openImageModal() {
-  document.getElementById('imageModal').style.display = 'block';
-  document.body.classList.add('modal-open');
-}
-
-function closeImageModal() {
-  document.getElementById('imageModal').style.display = 'none';
-  document.body.classList.remove('modal-open');
-  currentImageBlob = null;
-}
-
-// Função principal para buscar dados
-async function fetchData(isManualAction = false) {
-  const isToday = (selectedDateStr === getCurrentDateString());
-  
-  if (isManualAction) {
-    lastModifiedHeader = null;
-    if (autoUpdateInterval) clearInterval(autoUpdateInterval);
-    document.getElementById('data-container').innerHTML = '<div class="no-data loading">Carregando dados...</div>';
-  }
-
-  const url = getDataUrl(selectedDateStr);
-  try {
-    const response = await fetch(url, { cache: "no-store" });
-    if (!response.ok) throw new Error(`Resultados para ${selectedDateStr} não encontrados.`);
-    
-    const newLastModified = response.headers.get('Last-Modified');
-    if (newLastModified && newLastModified === lastModifiedHeader) {
-      return;
-    }
-    lastModifiedHeader = newLastModified;
-
-    const newData = await response.json();
-    const oldDataString = JSON.stringify(globalData);
-    const newDataString = JSON.stringify(newData);
-
-    if (oldDataString !== newDataString) {
-        globalData = newData;
-        renderData();
-        if (!isManualAction) {
-            const lastTitle = findLastResultTitle(globalData);
-            showToast(`Resultado ${lastTitle} atualizado!`);
-        }
-    }
-  } catch (error) {
-    if (isManualAction) {
-        document.getElementById('data-container').innerHTML = `<div class="no-data">${error.message}</div>`;
-    }
-  } finally {
-    if (isToday && !autoUpdateInterval) {
-        autoUpdateInterval = setInterval(() => fetchData(false), 60000);
-    } else if (!isToday && autoUpdateInterval) {
-        clearInterval(autoUpdateInterval);
-        autoUpdateInterval = null;
-    }
+  .breadcrumb-item:not(:last-child)::after {
+    margin-left: 0.375rem;
+    font-size: 0.75rem;
   }
 }
 
-// Renderizar dados na página
-function renderData() {
-  const container = document.getElementById('data-container');
-  container.innerHTML = '';
-  let hasContent = false;
-
-  const versions = ['1-5', '1-10'];
-  let cards = [];
-
-  versions.forEach(version => {
-    if (globalData[version]) {
-      for (const title in globalData[version]) {
-        hasContent = true;
-        const resultData = globalData[version][title];
-        const cardId = `${version}-${title.replace(/[^a-zA-Z0-9]/g, '')}`;
-        const card = createCard(cardId, version, title, resultData);
-        cards.push({ card, title, version });
-      }
-    }
-  });
-
-  // Ordenar os cards com base na preferência
-  cards.sort((a, b) => {
-    const timeA = extractTime(a.title);
-    const timeB = extractTime(b.title);
-    return orderPreference === 'ascending' ? timeA - timeB : timeB - timeA;
-  });
-
-  cards.forEach(({ card }) => {
-    container.appendChild(card);
-  });
-
-  if (!hasContent) {
-    container.innerHTML = '<div class="no-data">Nenhum resultado disponível para a data selecionada.</div>';
+@media (max-width: 480px) {
+  .breadcrumb-nav {
+    padding: 0.5rem 0;
+    margin-bottom: 1.25rem;
   }
   
-  toggleResultView();
-}
-
-// Função para extrair o horário do título para ordenação
-function extractTime(title) {
-  const match = title.match(/(\d{2}:\d{2})/);
-  if (match) {
-    const [hours, minutes] = match[1].split(':').map(Number);
-    return hours * 60 + minutes;
+  .breadcrumb {
+    font-size: 0.75rem;
+    gap: 0.25rem;
   }
-  return 0;
+  
+  .breadcrumb-item:not(:last-child)::after {
+    margin-left: 0.25rem;
+  }
+  
+  /* Quebra de linha para breadcrumbs muito longos em telas pequenas */
+  .breadcrumb {
+    flex-wrap: wrap;
+  }
 }
 
-// Criar card de resultado
-function createCard(cardId, version, title, data) {
-    const card = document.createElement('div');
-    card.className = 'card';
-    card.id = cardId;
-    card.dataset.version = version;
-
-    // Header do card
-    const header = document.createElement('div');
-    header.className = 'card-header';
-    const cardTitle = document.createElement('h2');
-    cardTitle.className = 'card-title';
-    cardTitle.textContent = title;
-    header.appendChild(cardTitle);
-    card.appendChild(header);
-
-    // Body do card
-    const body = document.createElement('div');
-    body.className = 'card-body';
-    
-    if (data.dados && data.dados.some(d => d.Milhar)) {
-        // Container da tabela
-        const tableContainer = document.createElement('div');
-        tableContainer.className = 'table-container';
-        
-        const table = document.createElement('table');
-        table.innerHTML = `
-            <thead>
-                <tr>${data.cabecalhos.map(h => `<th>${h}</th>`).join('')}</tr>
-            </thead>
-            <tbody>
-                ${data.dados.map(row => `<tr>${data.cabecalhos.map(h => `<td>${row[h] || '-'}</td>`).join('')}</tr>`).join('')}
-            </tbody>
-        `;
-        tableContainer.appendChild(table);
-        body.appendChild(tableContainer);
-
-        // Timestamp usando horário do sistema
-        const timestamp = document.createElement('div');
-        timestamp.className = 'timestamp';
-        timestamp.textContent = getFormattedTimestamp(selectedDateStr);
-        body.appendChild(timestamp);
-
-        // Actions bar
-        const actionsBar = document.createElement('div');
-        actionsBar.className = 'actions-bar';
-        actionsBar.innerHTML = `
-            <button class="btn btn-primary" onclick="shareContent('result', '${cardId}')">
-                📤 Compartilhar
-            </button>
-            <button class="btn btn-primary" onclick="copyContent('result', '${cardId}')">
-                📋 Copiar
-            </button>
-            <button class="btn btn-accent" onclick="openCreatePngModal('result', '${cardId}')">
-                🖼️ Criar PNG
-            </button>
-        `;
-        body.appendChild(actionsBar);
-
-    } else {
-        body.innerHTML = '<div class="no-data">Aguardando resultados...</div>';
-    }
-    card.appendChild(body);
-
-    // Footer com balões de acertos
-    const footer = document.createElement('div');
-    footer.className = 'card-footer';
-    if (data.acertos) {
-        for (let i = 0; i < (data.acertos.Milhar || 0); i++) {
-            footer.innerHTML += `<div class="acerto-balao milhar" title="Milhar e Centena">M</div>`;
-        }
-        for (let i = 0; i < (data.acertos.Centena || 0); i++) {
-            footer.innerHTML += `<div class="acerto-balao centena" title="Centena e Dezena">C</div>`;
-        }
-        if (data.acertos.Dezena > 0) {
-            footer.innerHTML += `<div class="acerto-balao dezena" title="Dezenas">${data.acertos.Dezena}</div>`;
-        }
-        if (data.acertos.Grupo) {
-            data.acertos.Grupo.forEach(emoji => {
-                footer.innerHTML += `<div class="acerto-balao grupo" title="Grupo">${emoji}</div>`;
-            });
-        }
-    }
-    card.appendChild(footer);
-
-    // Button group
-    const buttonGroup = document.createElement('div');
-    buttonGroup.className = 'button-group';
-    buttonGroup.innerHTML = `
-        <button class="btn btn-primary toggle-view-btn">
-            👁️ Ver do 1º ao 10º
-        </button>
-        <button class="btn btn-primary" onclick="showResumo('${cardId}')">
-            📊 Ver resumo de acertos
-        </button>
-        <button class="btn btn-accent" onclick="showPalpites(false, '${cardId}')">
-            🎯 Palpites para a próxima extração
-        </button>
-    `;
-    card.appendChild(buttonGroup);
-
-    return card;
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
 }
 
-// Alternar visualização entre 1-5 e 1-10
-function toggleResultView() {
-    const has1to5 = document.querySelector('[data-version="1-5"]');
-    const has1to10 = document.querySelector('[data-version="1-10"]');
-    let show1to10 = localStorage.getItem('viewPreference') === '1-10';
-
-    if (!has1to5 && has1to10) show1to10 = true;
-
-    document.querySelectorAll('.card').forEach(card => {
-        card.style.display = (show1to10 ? card.dataset.version === '1-10' : card.dataset.version === '1-5') ? 'block' : 'none';
-    });
-
-    document.querySelectorAll('.toggle-view-btn').forEach(btn => {
-        btn.innerHTML = show1to10 ? '👁️ Ver do 1º ao 5º' : '👁️ Ver do 1º ao 10º';
-        btn.onclick = () => {
-            localStorage.setItem('viewPreference', localStorage.getItem('viewPreference') === '1-10' ? '1-5' : '1-10');
-            toggleResultView();
-        };
-    });
+.header::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background: var(--gradient-primary);
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.3;
+  z-index: -1;
 }
 
-// Mostrar resumo de acertos
-function showResumo(cardId) {
-    activeCardId = cardId;
-    const [version, titleKey] = getCardDetails(cardId);
-    const data = globalData[version][titleKey];
-
-    const modalBody = document.getElementById('resumoModalBody');
-    let content = '<h4>📊 Resultados</h4>';
-    
-    content += `
-        <div class="table-container">
-            <table>
-                <thead>
-                    <tr>${data.cabecalhos.map(h => `<th>${h}</th>`).join('')}</tr>
-                </thead>
-                <tbody>
-                    ${data.dados.map(row => `<tr>${data.cabecalhos.map(h => `<td>${row[h] || '-'}</td>`).join('')}</tr>`).join('')}
-                </tbody>
-            </table>
-        </div>
-    `;
-
-    content += `<div class="timestamp">${getFormattedTimestamp(selectedDateStr)}</div>`;
-    
-    content += `
-        <div class="actions-bar">
-            <button class="btn btn-primary" onclick="shareContent('result', '${cardId}')">
-                📤 Compartilhar
-            </button>
-            <button class="btn btn-primary" onclick="copyContent('result', '${cardId}')">
-                📋 Copiar Resultado
-            </button>
-            <button class="btn btn-accent" onclick="openCreatePngModal('result', '${cardId}')">
-                🖼️ Criar PNG
-            </button>
-        </div>
-    `;
-
-    content += '<h4 style="margin-top: 2rem;">🎯 Frases de Acertos</h4>';
-    const frasesContainer = document.createElement('div');
-    frasesContainer.className = 'frases-acertos';
-    
-    if (data.frases && Object.keys(data.frases).length > 0) {
-        for (const palpite in data.frases) {
-            data.frases[palpite].forEach(frase => {
-                frasesContainer.innerHTML += `<p><strong>Palpite ${palpite}:</strong><br>${frase.replace(/<br>/g, ' ')}</p>`;
-            });
-        }
-        content += frasesContainer.outerHTML;
-        content += `
-            <div class="actions-bar" style="padding-top:0;">
-                <button class="btn btn-primary" onclick="copyContent('frases', '${cardId}')">
-                    📋 Copiar Frases de Acertos
-                </button>
-            </div>
-        `;
-    } else {
-        frasesContainer.innerHTML = '<p>Nenhum acerto com os palpites fornecidos.</p>';
-        content += frasesContainer.outerHTML;
-    }
-    
-    content += `<p style="margin-top: 2rem; font-style: italic; color: var(--text-secondary);">${data.resumo || ''}</p>`;
-    
-    modalBody.innerHTML = content;
-    document.getElementById('resumoModalPalpitesBtn').onclick = () => showPalpites(true, cardId);
-    openModal('resumoModal');
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  background: var(--gradient-primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  letter-spacing: -0.02em;
+  position: relative;
 }
 
-// Mostrar palpites
-async function showPalpites(fromResumo, cardId) {
-    activeCardId = cardId;
-    const modalBody = document.getElementById('palpitesModalBody');
-    modalBody.innerHTML = '<div class="no-data loading">Carregando palpites...</div>';
-    
-    document.getElementById('voltarBtn').style.display = fromResumo ? 'inline-flex' : 'none';
-    document.getElementById('voltarBtn').onclick = () => {
-        closeModal('palpitesModal');
-        openModal('resumoModal');
-    };
-
-    try {
-        const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
-        if (!response.ok) throw new Error('Não foi possível carregar os palpites.');
-        const palpitesData = await response.json();
-        
-        const [version, ] = getCardDetails(cardId);
-        const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
-        
-        let content = `<h4>🎯 ${frase}</h4>`;
-        content += `<div class="font-mono" style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 12px; word-break: break-word; line-height: 1.8;">${palpitesData.palpites.join(', ')}</div>`;
-        
-        content += `
-            <div class="actions-bar" style="margin-top: 2rem;">
-                <button class="btn btn-primary" onclick="shareContent('palpites', '${cardId}')">
-                    📤 Compartilhar
-                </button>
-                <button class="btn btn-primary" onclick="copyContent('palpites', '${cardId}')">
-                    📋 Copiar Palpites
-                </button>
-                <button class="btn btn-accent" onclick="generateImage('palpites', '${cardId}')">
-                    🖼️ Criar PNG
-                </button>
-            </div>
-        `;
-        modalBody.innerHTML = content;
-    } catch (error) {
-        modalBody.innerHTML = `<div class="no-data">${error.message}</div>`;
-    }
-
-    if (fromResumo) closeModal('resumoModal');
-    openModal('palpitesModal');
+.subtitle {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  font-weight: 400;
 }
 
-// Função para gerar imagem PNG usando Canvas nativo com layout melhorado
-async function generateImage(type, cardId) {
-    try {
-        const [version, titleKey] = getCardDetails(cardId);
-        const data = globalData[version][titleKey];
-        
-        // Verificar opções de imagem para resultados
-        if (type === 'result') {
-            const selectedOption = document.querySelector('input[name="imageContent"]:checked');
-            if (selectedOption) {
-                imageOptions.includeBanner = selectedOption.value === 'banner';
-                imageOptions.includeGuesses = selectedOption.value === 'guesses';
-            }
-        }
-        
-        // Criar canvas com tamanho otimizado
-        const canvas = document.createElement('canvas');
-        const ctx = canvas.getContext('2d');
-        
-        // Configurar tamanho do canvas no formato 9:16 para mobile
-        canvas.width = 720;
-        canvas.height = 1280;
-        
-        // Tentar carregar e desenhar bkg.png como plano de fundo
-        try {
-            const bkgImg = new Image();
-            bkgImg.crossOrigin = 'anonymous';
-            await new Promise((resolve, reject) => {
-                bkgImg.onload = resolve;
-                bkgImg.onerror = resolve;
-                bkgImg.src = getImagePath('bkg.png');
-                setTimeout(resolve, 2000);
-            });
-            
-            if (bkgImg.complete && bkgImg.naturalWidth > 0) {
-                ctx.drawImage(bkgImg, 0, 0, canvas.width, canvas.height);
-            } else {
-                // Fallback: usar gradiente se bkg.png não carregar
-                const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-                gradient.addColorStop(0, '#1a1a2e');
-                gradient.addColorStop(0.3, '#16213e');
-                gradient.addColorStop(0.7, '#0f0f23');
-                gradient.addColorStop(1, '#0a0a1a');
-                ctx.fillStyle = gradient;
-                ctx.fillRect(0, 0, canvas.width, canvas.height);
-            }
-        } catch (error) {
-            console.log('bkg.png não carregada, usando gradiente padrão');
-            const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-            gradient.addColorStop(0, '#1a1a2e');
-            gradient.addColorStop(0.3, '#16213e');
-            gradient.addColorStop(0.7, '#0f0f23');
-            gradient.addColorStop(1, '#0a0a1a');
-            ctx.fillStyle = gradient;
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-        }
-        
-        // Adicionar efeito de borda sutil
-        ctx.strokeStyle = 'rgba(59, 130, 246, 0.3)';
-        ctx.lineWidth = 2;
-        ctx.strokeRect(10, 10, canvas.width - 20, canvas.height - 20);
-        
-        let yPosition = 80;
-        
-        // Tentar carregar e desenhar logo
-        try {
-            const logoImg = new Image();
-            logoImg.crossOrigin = 'anonymous';
-            await new Promise((resolve, reject) => {
-                logoImg.onload = resolve;
-                logoImg.onerror = resolve;
-                logoImg.src = getImagePath('logo.png');
-                setTimeout(resolve, 2000);
-            });
-            
-            if (logoImg.complete && logoImg.naturalWidth > 0) {
-                const originalLogoHeight = 80;
-                const logoHeight = originalLogoHeight * 1.5;
-                const logoWidth = (logoImg.naturalWidth / logoImg.naturalHeight) * logoHeight;
-                const logoX = (canvas.width - logoWidth) / 2;
-                ctx.drawImage(logoImg, logoX, 30, logoWidth, logoHeight);
-                yPosition = 30 + logoHeight + 60;
-            }
-        } catch (error) {
-            console.log('Logo não carregada, continuando sem ela');
-        }
-        
-        // Configurar fonte principal
-        ctx.textAlign = 'center';
-        ctx.fillStyle = '#ffffff';
-        
-        if (type === 'result') {
-            // Título principal com estilo melhorado
-            ctx.font = 'bold 36px Inter, Arial, sans-serif';
-            ctx.fillStyle = '#ffffff';
-            ctx.fillText(titleKey, canvas.width / 2, yPosition);
-            yPosition += 50;
-            
-            // Data abaixo do título
-            ctx.font = 'bold 20px Inter, Arial, sans-serif';
-            ctx.fillStyle = '#94a3b8';
-            ctx.fillText(getFormattedTimestamp(selectedDateStr), canvas.width / 2, yPosition);
-            yPosition += 80;
-            
-            // Desenhar tabela ocupando toda a largura com fonte maior e espaçamento reduzido
-            ctx.font = '32px JetBrains Mono, monospace';
-            
-            // Cabeçalhos da tabela - largura total
-            const tableWidth = canvas.width - 40;
-            const colWidth = tableWidth / data.cabecalhos.length;
-            const startX = 20;
-            
-            // Fundo dos cabeçalhos
-            ctx.fillStyle = 'rgba(59, 130, 246, 0.2)';
-            ctx.fillRect(startX, yPosition - 20, tableWidth, 32);
-            
-            // Texto dos cabeçalhos
-            ctx.fillStyle = '#3b82f6';
-            ctx.font = 'bold 28px Inter, Arial, sans-serif';
-            data.cabecalhos.forEach((header, index) => {
-                ctx.fillText(header, startX + (index + 0.5) * colWidth, yPosition);
-            });
-            yPosition += 40;
-            
-            // Dados da tabela com espaçamento reduzido
-            ctx.font = '30px JetBrains Mono, monospace';
-            data.dados.forEach((row, rowIndex) => {
-                // Alternar cor de fundo das linhas
-                if (rowIndex % 2 === 0) {
-                    ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
-                    ctx.fillRect(startX, yPosition - 15, tableWidth, 25);
-                }
-                
-                data.cabecalhos.forEach((header, colIndex) => {
-                    // Destacar primeira linha (1º lugar)
-                    ctx.fillStyle = rowIndex === 0 ? '#FFD700' : '#e2e8f0';
-                    const text = row[header] || '-';
-                    
-                    // Adicionar coroa para o primeiro lugar
-                    if (rowIndex === 0 && colIndex === 0) {
-                        ctx.fillText('👑 ' + text, startX + (colIndex + 0.5) * colWidth, yPosition);
-                    } else {
-                        ctx.fillText(text, startX + (colIndex + 0.5) * colWidth, yPosition);
-                    }
-                });
-                yPosition += 30;
-            });
-            
-            // Verificar se deve incluir palpites em vez do banner
-            if (imageOptions.includeGuesses) {
-                try {
-                    const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
-                    const palpitesData = await response.json();
-                    const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
-                    
-                    yPosition += 40;
-                    
-                    // Título dos palpites
-                    ctx.font = 'bold 24px Inter, Arial, sans-serif';
-                    ctx.fillStyle = '#ffffff';
-                    
-                    // Quebrar título em múltiplas linhas se necessário
-                    const words = frase.split(' ');
-                    let line = '';
-                    const maxWidth = canvas.width - 40;
-                    
-                    for (let n = 0; n < words.length; n++) {
-                        const testLine = line + words[n] + ' ';
-                        const metrics = ctx.measureText(testLine);
-                        
-                        if (metrics.width > maxWidth && n > 0) {
-                            ctx.fillText(line, canvas.width / 2, yPosition);
-                            line = words[n] + ' ';
-                            yPosition += 30;
-                        } else {
-                            line = testLine;
-                        }
-                    }
-                    ctx.fillText(line, canvas.width / 2, yPosition);
-                    yPosition += 40;
-                    
-                    // Data abaixo do título dos palpites
-                    ctx.font = 'bold 18px Inter, Arial, sans-serif';
-                    ctx.fillStyle = '#94a3b8';
-                    ctx.fillText(getFormattedTimestamp(selectedDateStr), canvas.width / 2, yPosition);
-                    yPosition += 60;
-                    
-                    // Configurar grade de 5 colunas para os palpites (mobile-friendly)
-                    const gridCols = 5;
-                    const gridStartX = 20;
-                    const gridWidth = canvas.width - 40;
-                    const cellWidth = gridWidth / gridCols;
-                    const cellHeight = 60;
-                    const fontSize = 24;
-                    
-                    ctx.font = `bold ${fontSize}px JetBrains Mono, monospace`;
-                    ctx.textAlign = 'center';
-                    
-                    // Fundo para a grade de palpites - alinhamento perfeito
-                    const gridRows = Math.ceil(palpitesData.palpites.length / gridCols);
-                    const gridHeight = gridRows * cellHeight;
-                    ctx.fillStyle = 'rgba(59, 130, 246, 0.1)';
-                    ctx.fillRect(gridStartX, yPosition - cellHeight/2, gridWidth, gridHeight);
-                    
-                    // Desenhar os palpites em grade
-                    palpitesData.palpites.forEach((palpite, index) => {
-                        const row = Math.floor(index / gridCols);
-                        const col = index % gridCols;
-                        
-                        const cellX = gridStartX + col * cellWidth;
-                        const cellY = yPosition + row * cellHeight;
-                        
-                        // Fundo alternado para as células - alinhamento correto
-                        if ((row + col) % 2 === 0) {
-                            ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
-                            ctx.fillRect(cellX, cellY - cellHeight/2, cellWidth, cellHeight);
-                        }
-                        
-                        // Texto do palpite
-                        ctx.fillStyle = '#e2e8f0';
-                        ctx.fillText(palpite, cellX + cellWidth/2, cellY + fontSize/3);
-                    });
-                    
-                    yPosition += gridHeight + 10;
-                    
-                } catch (error) {
-                    console.log('Erro ao carregar palpites para imagem');
-                }
-            }
-            
-        } else if (type === 'palpites') {
-            try {
-                const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
-                const palpitesData = await response.json();
-                const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
-                
-                // Título dos palpites
-                ctx.font = 'bold 28px Inter, Arial, sans-serif';
-                ctx.fillStyle = '#ffffff';
-                
-                // Quebrar título em múltiplas linhas se necessário
-                const words = frase.split(' ');
-                let line = '';
-                const maxWidth = canvas.width - 40;
-                
-                for (let n = 0; n < words.length; n++) {
-                    const testLine = line + words[n] + ' ';
-                    const metrics = ctx.measureText(testLine);
-                    
-                    if (metrics.width > maxWidth && n > 0) {
-                        ctx.fillText(line, canvas.width / 2, yPosition);
-                        line = words[n] + ' ';
-                        yPosition += 35;
-                    } else {
-                        line = testLine;
-                    }
-                }
-                ctx.fillText(line, canvas.width / 2, yPosition);
-                yPosition += 40;
-                
-                // Data abaixo do título dos palpites
-                ctx.font = 'bold 18px Inter, Arial, sans-serif';
-                ctx.fillStyle = '#94a3b8';
-                ctx.fillText(getFormattedTimestamp(selectedDateStr), canvas.width / 2, yPosition);
-                yPosition += 80;
-                
-                // Configurar grade de 5 colunas para os palpites (mobile-friendly)
-                const gridCols = 5;
-                const gridStartX = 20;
-                const gridWidth = canvas.width - 40;
-                const cellWidth = gridWidth / gridCols;
-                const cellHeight = 60;
-                const fontSize = 24;
-                
-                ctx.font = `bold ${fontSize}px JetBrains Mono, monospace`;
-                ctx.textAlign = 'center';
-                
-                // Fundo para a grade de palpites - alinhamento perfeito
-                const gridRows = Math.ceil(palpitesData.palpites.length / gridCols);
-                const gridHeight = gridRows * cellHeight;
-                ctx.fillStyle = 'rgba(59, 130, 246, 0.1)';
-                ctx.fillRect(gridStartX, yPosition - cellHeight/2, gridWidth, gridHeight);
-                
-                // Desenhar os palpites em grade
-                palpitesData.palpites.forEach((palpite, index) => {
-                    const row = Math.floor(index / gridCols);
-                    const col = index % gridCols;
-                    
-                    const cellX = gridStartX + col * cellWidth;
-                    const cellY = yPosition + row * cellHeight;
-                    
-                    // Fundo alternado para as células - alinhamento correto
-                    if ((row + col) % 2 === 0) {
-                        ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
-                        ctx.fillRect(cellX, cellY - cellHeight/2, cellWidth, cellHeight);
-                    }
-                    
-                    // Texto do palpite
-                    ctx.fillStyle = '#e2e8f0';
-                    ctx.fillText(palpite, cellX + cellWidth/2, cellY + fontSize/3);
-                });
-                
-                yPosition += gridHeight + 10;
-                
-            } catch (error) {
-                ctx.fillText('Erro ao carregar palpites', canvas.width / 2, yPosition);
-                yPosition += 60;
-            }
-        }
-        
-        // Espaço para a imagem bnr1.png (condicional baseado nas opções)
-        if (type === 'palpites' || (type === 'result' && imageOptions.includeBanner)) {
-            yPosition += 10;
-            
-            // Tentar carregar e desenhar bnr1.png com dimensões ajustadas automaticamente
-            try {
-                const bnrImg = new Image();
-                bnrImg.crossOrigin = 'anonymous';
-                await new Promise((resolve, reject) => {
-                    bnrImg.onload = resolve;
-                    bnrImg.onerror = resolve;
-                    bnrImg.src = getImagePath('bnr1.png');
-                    setTimeout(resolve, 2000);
-                });
-                
-                if (bnrImg.complete && bnrImg.naturalWidth > 0) {
-                    // Calcular espaço disponível até o domínio - largura total da imagem
-                    const availableHeight = canvas.height - yPosition - 120;
-                    const availableWidth = canvas.width;
-                    
-                    // Calcular dimensões mantendo proporção e usando a largura total
-                    const bnrAspectRatio = bnrImg.naturalWidth / bnrImg.naturalHeight;
-                    let bnrWidth = availableWidth;
-                    let bnrHeight = bnrWidth / bnrAspectRatio;
-                    
-                    // Se a altura calculada exceder o espaço disponível, ajustar pela altura
-                    if (bnrHeight > availableHeight) {
-                        bnrHeight = availableHeight;
-                        bnrWidth = bnrHeight * bnrAspectRatio;
-                    }
-                    
-                    // Centralizar horizontalmente (mesmo que use largura total)
-                    const bnrX = (canvas.width - bnrWidth) / 2;
-                    
-                    ctx.drawImage(bnrImg, bnrX, yPosition, bnrWidth, bnrHeight);
-                    yPosition += bnrHeight + 20;
-                }
-            } catch (error) {
-                console.log('Banner não carregado, continuando sem ele');
-            }
-        }
-        
-        // Domínio do site na parte inferior com fonte muito maior
-        ctx.font = 'bold 48px Inter, Arial, sans-serif';
-        ctx.fillStyle = '#94a3b8';
-        ctx.fillText(window.location.hostname, canvas.width / 2, canvas.height - 60);
-        
-        // Converter canvas para blob
-        canvas.toBlob((blob) => {
-            if (!blob) {
-                throw new Error('Falha ao gerar imagem');
-            }
-            
-            currentImageBlob = blob;
-            
-            // Criar URL para preview
-            const imageUrl = URL.createObjectURL(blob);
-            document.getElementById('previewImage').src = imageUrl;
-            
-            // Configurar botão de download
-            document.getElementById('downloadImageBtn').onclick = () => {
-                const link = document.createElement('a');
-                link.href = imageUrl;
-                link.download = `${type}_${titleKey.replace(/[^a-zA-Z0-9]/g, '_')}_${selectedDateStr}.png`;
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-            };
-            
-            // Abrir modal de visualização
-            openImageModal();
-        }, 'image/png', 0.9);
-        
-    } catch (error) {
-        console.error('Erro ao gerar imagem:', error);
-        alert('Erro ao gerar imagem: ' + error.message);
-    }
+/* Calendar Styles - Melhorado para mobile */
+.calendar-container {
+  max-width: 400px;
+  margin: 0 auto 1rem;
+  position: relative;
 }
 
-// Mostrar notificação toast
-function showToast(message) {
-    const toast = document.getElementById("toast");
-    const messageSpan = document.getElementById("toast-message");
-
-    if (toastTimeout) {
-        clearTimeout(toastTimeout);
-    }
-
-    messageSpan.textContent = message;
-    toast.classList.add("show");
-
-    toastTimeout = setTimeout(() => {
-        toast.classList.remove("show");
-    }, 4000);
+/* Data Container */
+.data-container {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 320px));
 }
 
-// Formatar timestamp usando horário do sistema
-function getFormattedTimestamp(dateStr) {
-    const date = new Date(dateStr + 'T12:00:00');
-    return date.toLocaleDateString('pt-BR', { 
-        weekday: 'long', 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
-    });
+/* Card Styles */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 24px;
+  overflow: hidden;
+  display: none;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(10px);
+  position: relative;
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-// Gerar texto para compartilhamento/cópia - ATUALIZADO COM CÓDIGO
-async function generateText(type, cardId) {
-    const [version, titleKey] = getCardDetails(cardId);
-    const data = globalData[version][titleKey];
-    const baseUrl = window.location.href;
-    const pageUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
-    const timestamp = getFormattedTimestamp(selectedDateStr);
-
-    if (type === 'result') {
-        let text = `*Resultado ${titleKey}*\n_${timestamp}_\n\n`;
-        data.dados.forEach(row => {
-            text += `${row['Prêmio'] || ''}: *${row['Milhar'] || ''}* - ${row['Grupo'] || ''} ${row['Bicho'] || ''}\n`;
-        });
-        text += `\nVeja mais em: ${pageUrl}`;
-        return text;
-    }
-
-    if (type === 'frases') {
-        let text = `*Frases de Acertos - ${titleKey}*\n\n`;
-        if (data.frases && Object.keys(data.frases).length > 0) {
-            for (const palpite in data.frases) {
-                data.frases[palpite].forEach(frase => {
-                    text += `Palpite ${palpite}: ${frase.replace(/<br>/g, ' ')}\n`;
-                });
-            }
-        } else {
-            text = "Nenhuma frase de acerto para este resultado.";
-        }
-        return text;
-    }
-
-    if (type === 'palpites') {
-        try {
-            const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
-            if (!response.ok) return "Não foi possível carregar os palpites.";
-            const palpitesData = await response.json();
-            const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
-            let text = `*${frase}*\n\n${palpitesData.palpites.join(', ')}\n\nConfira os resultados em: ${pageUrl}`;
-            return text;
-        } catch { 
-            return "Erro ao gerar texto dos palpites."; 
-        }
-    }
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--gradient-primary);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-// Compartilhar conteúdo - ATUALIZADO COM CÓDIGO
-async function shareContent(type, cardId) {
-    const text = await generateText(type, cardId);
-    const baseUrl = window.location.href;
-    const shareUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
-    
-    if (navigator.share) {
-        navigator.share({ 
-            title: getPageTitle(), 
-            text: text
-        }).catch(console.error);
-    } else {
-        showToast('Compartilhamento não suportado neste dispositivo.');
-    }
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--border-accent);
 }
 
-// Copiar conteúdo
-async function copyContent(type, cardId) {
-    const text = await generateText(type, cardId);
-    try {
-        await navigator.clipboard.writeText(text);
-        showToast('Conteúdo copiado com sucesso!');
-    } catch (err) {
-        showToast('Falha ao copiar conteúdo.');
-    }
+.card:hover::before {
+  opacity: 1;
 }
 
-// Obter detalhes do card
-function getCardDetails(cardId) {
-    const card = document.getElementById(cardId);
-    const version = card.dataset.version;
-    const titleKey = Object.keys(globalData[version]).find(key => 
-        key.replace(/[^a-zA-Z0-9]/g, '') === cardId.replace(version + '-', '')
-    );
-    return [version, titleKey];
+.card-header {
+  background: var(--gradient-primary);
+  padding: 1rem 1.5rem;
+  position: relative;
+  overflow: hidden;
 }
 
-// Encontrar último título de resultado
-function findLastResultTitle(data) {
-    let lastTitle = "desconhecido";
-    const versions = ['1-10', '1-5'];
-    for (const version of versions) {
-        if (data[version]) {
-            const titles = Object.keys(data[version]);
-            for (let i = titles.length - 1; i >= 0; i--) {
-                const title = titles[i];
-                if (data[version][title].dados && data[version][title].dados.some(d => d.Milhar)) {
-                    return title;
-                }
-            }
-        }
-    }
-    return lastTitle;
+.card-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  transition: left 0.5s ease;
 }
 
-// Inicialização comum - ATUALIZADA COM CAPTURA DE PARÂMETRO
-function initializeCommonFeatures() {
-    captureAndStoreUrlParameter();
-    
-    // Configurar o botão de inverter ordem
-    const orderToggleBtn = document.getElementById('order-toggle-btn');
-    if (orderToggleBtn) {
-        orderToggleBtn.addEventListener('click', toggleOrder);
-        orderToggleBtn.textContent = orderPreference === 'ascending' ? '⬆⬇ Inverter Ordem (Mais recente primeiro)' : '⬆⬇ Inverter Ordem (Mais antigo primeiro)';
-    }
-
-    // Event listener para o link dos títulos
-    const titulosLink = document.getElementById('titulosLink');
-    if (titulosLink) {
-        titulosLink.addEventListener('click', function(e) {
-            e.preventDefault();
-            loadTitulos();
-            openModal('titulosModal');
-        });
-        
-        // Efeito hover no link
-        titulosLink.addEventListener('mouseenter', function() {
-            this.style.color = 'var(--accent-primary)';
-        });
-        
-        titulosLink.addEventListener('mouseleave', function() {
-            this.style.color = 'var(--text-secondary)';
-        });
-    }
-
-    // Event listener para o filtro de dia da semana
-    const dayFilter = document.getElementById('dayFilter');
-    if (dayFilter) {
-        dayFilter.addEventListener('change', function() {
-            const selectedDay = this.value;
-            displayTitulos(selectedDay);
-        });
-    }
-
-    // Event listener para o botão de compartilhar imagem
-    const shareImageBtn = document.getElementById('shareImageBtn');
-    if (shareImageBtn) {
-        shareImageBtn.addEventListener('click', function() {
-            shareImage();
-        });
-    }
-
-    // Fechar modal clicando fora com controle de rolagem
-    window.onclick = (event) => {
-        if (event.target.classList.contains('modal')) {
-            closeModal(event.target.id);
-        }
-        if (event.target.classList.contains('image-modal')) {
-            closeImageModal();
-        }
-    };
-
-    // Inicializar Flatpickr
-    initializeFlatpickr();
+.card:hover .card-header::before {
+  left: 100%;
 }
 
-// Funções que devem ser implementadas em cada página específica:
-// - getPageTitle() - retorna o título da página
-// - getDataUrl(dateStr) - retorna a URL dos dados JSON para a data
-// - getJsonPath(filename) - retorna o caminho para arquivos JSON
-// - getImagePath(imageName) - retorna o caminho para imagens
+.card-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.025em;
+  position: relative;
+  z-index: 1;
+}
 
-// Inicializar quando o DOM estiver carregado
-document.addEventListener('DOMContentLoaded', function() {
-    initializeCommonFeatures();
-    fetchData(true);
-});
+.card-body {
+  padding: 1.5rem;
+}
 
+/* Table Styles */
+.table-container {
+  overflow-x: auto;
+  border-radius: 12px;
+  background: var(--bg-secondary);
+  margin-bottom: 1rem;
+}
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'JetBrains Mono', monospace;
+}
 
-// === SLIDING BANNER LOGIC ===
-function initializeSlidingBanner() {
-  const slidingBanner = document.getElementById("slidingBanner");
-  const closeBannerBtn = document.getElementById("closeBannerBtn");
-  const registerBtn = document.getElementById("registerBtn");
-  const learnMoreLink = document.getElementById("learnMoreLink");
+th {
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+}
 
-  // Verificar se os elementos existem
-  if (!slidingBanner || !closeBannerBtn || !registerBtn || !learnMoreLink) {
-    console.log("Elementos do banner não encontrados");
-    return;
+td {
+  padding: 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: background-color 0.2s ease;
+}
+
+tbody tr:hover td {
+  background: var(--bg-card-hover);
+}
+
+/* Estilo para toda a primeira linha de cada tabela */
+tbody tr:first-child {
+  font-weight: 700;
+  color: #FFD700; /* Amarelo claro */
+}
+
+/* Emoji de coroa dentro da primeira célula da primeira linha, antes do texto */
+tbody tr:first-child td:first-child::before {
+  content: '👑 ';
+  font-size: 0.75rem;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Timestamp */
+.timestamp {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+/* Actions Bar */
+.actions-bar {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+}
+
+/* Button Styles */
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.btn:hover::before {
+  left: 100%;
+}
+
+.btn-primary {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.btn-primary:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-accent {
+  background: var(--gradient-primary);
+  color: white;
+  border: 1px solid transparent;
+}
+
+.btn-accent:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
+
+/* Card Footer */
+.card-footer {
+  padding: 0.75rem 1.5rem;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* Acerto Balões */
+.acerto-balao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 0.75rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.acerto-balao:hover {
+  transform: scale(1.1);
+}
+
+.acerto-balao.milhar {
+  background: var(--gradient-success);
+  color: white;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.acerto-balao.centena {
+  background: var(--gradient-secondary);
+  color: white;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+.acerto-balao.dezena {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border: 2px solid var(--border-accent);
+}
+
+.acerto-balao.grupo {
+  background: none;
+  font-size: 1.25rem;
+  width: auto;
+  height: auto;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-5px); }
+  60% { transform: translateY(-3px); }
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 15, 35, 0.8);
+  backdrop-filter: blur(8px);
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.modal-content {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 24px;
+  width: 90%;
+  max-width: 700px;
+  max-height: 90vh; /* Reduzido de 95vh para 90vh para dar mais espaço */
+  overflow: hidden;
+  position: relative;
+  box-shadow: var(--shadow-xl);
+  animation: slideUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column; /* Adicionado para melhor controle do layout */
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0;
+    transform: translateY(50px) scale(0.95);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.modal-header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0; /* Impede que o header encolha */
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.close-btn:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.modal-body {
+  padding: 1.5rem;
+  max-height: 60vh; /* Reduzido de 75vh para 60vh para dar espaço ao botão */
+  overflow-y: auto;
+  flex: 1; /* Permite que o body ocupe o espaço disponível */
+}
+
+.modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+  border-radius: 4px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background: var(--border-accent);
+  border-radius: 4px;
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+}
+
+/* Frases de Acertos */
+.frases-acertos p {
+  background: var(--bg-secondary);
+  border-left: 4px solid var(--accent-primary);
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+  border-radius: 8px;
+  color: var(--text-primary);
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.frases-acertos p:hover {
+  background: var(--bg-card-hover);
+  transform: translateX(4px);
+}
+
+/* No Data */
+.no-data {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 2rem 1rem;
+  font-style: italic;
+  background: var(--bg-card);
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+}
+
+/* Toast Notification */
+.toast {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  min-width: 250px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  z-index: 2000;
+  box-shadow: var(--shadow-xl);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(-20px) translateX(20px);
+}
+
+.toast.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0) translateX(0);
+}
+
+.toast-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  background: var(--gradient-success);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+/* Modal de Visualização de Imagem */
+.image-modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+.image-modal-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-modal-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(15, 15, 35, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2001;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.image-modal-title {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.image-modal-close {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.image-modal-close:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+}
+
+.image-modal-body {
+  flex: 1;
+  padding: 5rem 1rem 6rem;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-modal-body img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: var(--shadow-xl);
+}
+
+.image-modal-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(15, 15, 35, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 2001;
+  border-top: 1px solid var(--border-color);
+}
+
+.image-modal-footer .btn,
+.image-modal-footer .download-btn,
+.image-modal-footer .share-btn {
+  min-width: 120px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .image-modal-footer {
+    padding: 0.75rem;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .image-modal-footer .btn,
+  .image-modal-footer .download-btn,
+  .image-modal-footer .share-btn {
+    min-width: 100px;
+    max-width: 140px;
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+    flex: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-modal-footer {
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+  
+  .image-modal-footer .btn,
+  .image-modal-footer .download-btn,
+  .image-modal-footer .share-btn {
+    min-width: 90px;
+    max-width: 120px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    flex: 1;
+  }
+}
+
+.image-modal-footer .btn {
+  background: var(--bg-card);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.image-modal-footer .btn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.image-modal-footer .download-btn {
+  background: var(--gradient-primary);
+  color: white;
+}
+
+.image-modal-footer .download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
+
+.image-modal-footer .share-btn {
+  background: var(--gradient-secondary);
+  color: white;
+}
+
+.image-modal-footer .share-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+}
+
+/* Estilos para opções de imagem no modal */
+.image-options {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.image-options h5 {
+  margin: 0 0 0.75rem 0;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.image-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.image-option input[type="radio"] {
+  margin: 0;
+  accent-color: var(--accent-primary);
+}
+
+.image-option label {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  cursor: pointer;
+  flex: 1;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+  
+  .no-print, .modal-header .close-btn, .button-group, .actions-bar, .card-footer, .toast, .image-modal {
+    display: none !important;
+  }
+  
+  .modal {
+    position: static;
+    display: block !important;
+    background: none;
+  }
+  
+  .modal-content {
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .print-area {
+    display: block !important;
+  }
+}
+
+.print-area {
+  display: none;
+}
+
+/* Loading Animation */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.loading {
+  animation: pulse 2s infinite;
+}
+
+/* Utility Classes */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.font-mono { font-family: 'JetBrains Mono', monospace; }
+.font-bold { font-weight: 700; }
+.font-semibold { font-weight: 600; }
+.font-medium { font-weight: 500; }
+
+/* Classe para bloquear rolagem do body quando modal estiver ativo */
+.modal-open {
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* === ESTILOS ESPECÍFICOS DO TEMA E FLATPICKR === */
+
+/* Melhorias específicas para o calendário Flatpickr em mobile */
+.flatpickr-calendar {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 16px !important;
+  box-shadow: var(--shadow-xl) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.flatpickr-months {
+  background: var(--bg-secondary) !important;
+  border-radius: 16px 16px 0 0 !important;
+}
+
+.flatpickr-month {
+  color: var(--text-primary) !important;
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+}
+
+.flatpickr-current-month input.cur-year {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 8px !important;
+}
+
+.flatpickr-weekdays {
+  background: var(--bg-secondary) !important;
+}
+
+.flatpickr-weekday {
+  color: var(--text-secondary) !important;
+  font-weight: 600 !important;
+}
+
+.flatpickr-days {
+  background: var(--bg-card) !important;
+}
+
+.flatpickr-day {
+  color: var(--text-primary) !important;
+  border-radius: 8px !important;
+  margin: 2px !important;
+  transition: all 0.2s ease !important;
+}
+
+.flatpickr-day:hover {
+  background: var(--bg-card-hover) !important;
+  border-color: var(--accent-primary) !important;
+}
+
+.flatpickr-day.selected {
+  background: var(--accent-primary) !important;
+  border-color: var(--accent-primary) !important;
+  color: white !important;
+}
+
+.flatpickr-day.today {
+  border-color: var(--accent-secondary) !important;
+  color: var(--accent-secondary) !nimportant;
+}
+
+.flatpickr-day.today.selected {
+  background: var(--accent-primary) !important;
+  color: white !important;
+}
+
+.flatpickr-prev-month, .flatpickr-next-month {
+  color: var(--text-secondary) !important;
+  fill: var(--text-secondary) !important;
+  transition: all 0.2s ease !important;
+}
+
+.flatpickr-prev-month:hover, .flatpickr-next-month:hover {
+  color: var(--accent-primary) !important;
+  fill: var(--accent-primary) !important;
+}
+
+/* Responsive Design - Melhorado para mobile */
+@media (min-width: 1024px) {
+  .data-container {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 320px));
+  }
+  .card {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .data-container {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  .card {
+    max-width: 100%;
+  }
+  .card-header {
+    padding: 1rem;
+  }
+  .card-body {
+    padding: 1.25rem;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+  th, td {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+  }
+  .btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+  }
+  .acerto-balao {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.7rem;
+  }
+  .acerto-balao.grupo {
+    font-size: 1rem;
+  }
+  
+  /* Melhorias no calendário para tablet */
+  .flatpickr-calendar {
+    font-size: 14px !important;
+  }
+  
+  .flatpickr-day {
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 1rem;
+  }
+  .data-container {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .card-body {
+    padding: 1rem;
+  }
+  .card-header {
+    padding: 0.75rem 1rem;
+  }
+  .card-title {
+    font-size: 0.875rem;
+  }
+  .button-group {
+    padding: 0.75rem;
+    flex-direction: column;
+  }
+  .btn {
+    width: 100%;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+  }
+  th, td {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+  }
+  .modal-content {
+    width: 95%;
+    max-height: 95vh; /* Aumentado para mobile para dar mais espaço */
+    margin: 1rem;
+  }
+  .modal-body {
+    padding: 1rem;
+    max-height: 70vh; /* Aumentado para mobile */
+  }
+  .modal-title {
+    font-size: 1rem;
+  }
+  .close-btn {
+    font-size: 1rem;
+  }
+  .acerto-balao {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.7rem;
+  }
+  .acerto-balao.grupo {
+    font-size: 1rem;
+  }
+  .calendar-container {
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+  .date-picker {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 12px;
+  }
+  .order-toggle-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .toast {
+    min-width: 200px;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.5rem 0.75rem;
+  }
+  .toast-icon {
+    width: 1rem;
+    height: 1rem;
+    font-size: 0.625rem;
+  }
+  
+  /* Melhorias específicas do calendário para mobile */
+  .flatpickr-calendar {
+    width: 100% !important;
+    max-width: 320px !important;
+    font-size: 16px !important; /* Evita zoom no iOS */
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+  
+  .flatpickr-months {
+    padding: 0.5rem !important;
+  }
+  
+  .flatpickr-month {
+    height: auto !important;
+  }
+  
+  .flatpickr-current-month {
+    font-size: 1rem !important;
+    padding: 0.5rem 0 !important;
+  }
+  
+  .flatpickr-weekdays {
+    padding: 0.25rem 0 !important;
+  }
+  
+  .flatpickr-weekday {
+    font-size: 0.75rem !important;
+    padding: 0.5rem 0 !important;
+  }
+  
+  .flatpickr-days {
+    padding: 0.5rem !important;
+  }
+  
+  .flatpickr-day {
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    font-size: 0.875rem !important;
+    margin: 1px !important;
+    border-radius: 8px !important;
+  }
+  
+  .flatpickr-prev-month, .flatpickr-next-month {
+    width: 32px !important;
+    height: 32px !important;
+    padding: 8px !important;
+  }
+  
+  .flatpickr-prev-month svg, .flatpickr-next-month svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  
+  /* Melhor posicionamento do calendário em mobile */
+  .flatpickr-calendar.open {
+    margin-top: 8px !important;
   }
 
-  const defaultCode = "PACruTth";
-  let productCode = getStoredProductCode();
-  if (!productCode) {
-    productCode = defaultCode;
+  /* Modal de imagem responsivo */
+  .image-modal-header {
+    padding: 0.75rem;
   }
-
-  // Set dynamic links
-  registerBtn.href = `https://app.77xbrasil.com.br/pr/${productCode}`;
-  learnMoreLink.href = `https://77xxbrasil.com/pr/${productCode}`;
-
-  // Verificar se o banner já foi fechado pelo usuário
-  const bannerClosed = localStorage.getItem('bannerClosed');
-  if (bannerClosed === 'true') {
-    return; // Não mostrar o banner se foi fechado anteriormente
+  
+  .image-modal-title {
+    font-size: 1rem;
   }
-
-  // Show banner after 3 seconds (reduzido de 5 para 3)
-  setTimeout(() => {
-    if (slidingBanner) {
-      slidingBanner.classList.add("show");
-      console.log("Banner mostrado com animação slide-up");
-    }
-  }, 3000);
-
-  // Close banner functionality with improved UX
-  closeBannerBtn.addEventListener("click", (e) => {
-    e.preventDefault();
-    slidingBanner.classList.remove("show");
-    
-    // Salvar preferência do usuário
-    localStorage.setItem('bannerClosed', 'true');
-    
-    console.log("Banner fechado pelo usuário");
-  });
-
-  // Adicionar funcionalidade para fechar o banner clicando fora dele
-  document.addEventListener('click', (e) => {
-    if (slidingBanner.classList.contains('show') && 
-        !slidingBanner.contains(e.target) && 
-        e.target !== slidingBanner) {
-      // Não fechar automaticamente - deixar apenas o botão X
-    }
-  });
-
-  // Adicionar suporte para tecla ESC para fechar o banner
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && slidingBanner.classList.contains('show')) {
-      slidingBanner.classList.remove("show");
-      localStorage.setItem('bannerClosed', 'true');
-      console.log("Banner fechado com tecla ESC");
-    }
-  });
+  
+  .image-modal-close {
+    font-size: 1.25rem;
+  }
+  
+  .image-modal-body {
+    padding: 4rem 0.5rem 5rem;
+  }
+  
+  .image-modal-footer {
+    padding: 0.75rem;
+  }
+  
+  .download-btn {
+    padding: 0.625rem 1.5rem;
+    font-size: 0.875rem;
+  }
 }
 
-// Call initializeSlidingBanner when DOM is loaded
-document.addEventListener("DOMContentLoaded", initializeSlidingBanner);
+/* Melhorias adicionais para touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .btn {
+    min-height: 44px; /* Tamanho mínimo recomendado para touch */
+    font-size: 0.875rem;
+  }
+  
+  .date-picker {
+    min-height: 48px;
+    font-size: 1rem;
+  }
+  
+  .order-toggle-btn {
+    min-height: 44px;
+    font-size: 0.875rem;
+  }
+  
+  .flatpickr-day {
+    min-width: 44px !important;
+    min-height: 44px !important;
+    font-size: 1rem !important;
+  }
+  
+  .close-btn {
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.5rem;
+  }
+  
+  .image-modal-close {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  
+  .download-btn {
+    min-height: 48px;
+  }
+  
+  /* Melhor espaçamento para touch */
+  .actions-bar {
+    gap: 1rem;
+  }
+  
+  .button-group {
+    gap: 1rem;
+  }
+  
+  /* Tabelas mais legíveis em touch */
+  th, td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  /* Modal mais acessível em touch */
+  .modal-header {
+    padding: 1.25rem 1.5rem;
+  }
+  
+  .modal-body {
+    padding: 1.25rem;
+  }
+}
+
+/* Melhorias específicas para dispositivos pequenos */
+@media (max-width: 480px) {
+  .container {
+    padding: 0.75rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .header {
+    margin-bottom: 2rem;
+  }
+  
+  .calendar-container {
+    padding: 0;
+  }
+  
+  .date-picker {
+    padding: 0.875rem 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+  
+  .order-toggle-btn {
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 8px;
+  }
+  
+  .card {
+    border-radius: 16px;
+  }
+  
+  .card-header {
+    padding: 0.875rem 1rem;
+    border-radius: 16px 16px 0 0;
+  }
+  
+  .card-title {
+    font-size: 0.875rem;
+  }
+  
+  .card-body {
+    padding: 0.875rem;
+  }
+  
+  .table-container {
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+  }
+  
+  th, td {
+    padding: 0.5rem 0.25rem;
+    font-size: 0.75rem;
+  }
+  
+  .btn {
+    padding: 0.625rem 0.875rem;
+    font-size: 0.75rem;
+    border-radius: 8px;
+  }
+  
+  .button-group {
+    padding: 0.875rem;
+    gap: 0.75rem;
+  }
+  
+  .actions-bar {
+    gap: 0.5rem;
+    margin: 0.75rem 0;
+  }
+  
+  .modal-content {
+    width: 98%;
+    margin: 0.5rem;
+    border-radius: 16px;
+  }
+  
+  .modal-header {
+    padding: 1rem;
+  }
+  
+  .modal-title {
+    font-size: 0.875rem;
+  }
+  
+  .modal-body {
+    padding: 0.875rem;
+  }
+  
+  .close-btn {
+    font-size: 1.25rem;
+    padding: 0.375rem;
+  }
+  
+  .acerto-balao {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.625rem;
+  }
+  
+  .acerto-balao.grupo {
+    font-size: 0.875rem;
+  }
+  
+  .toast {
+    min-width: 180px;
+    top: 0.25rem;
+    right: 0.25rem;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 8px;
+  }
+  
+  .toast-icon {
+    width: 0.875rem;
+    height: 0.875rem;
+    font-size: 0.5rem;
+  }
+  
+  /* Calendário ainda mais otimizado para telas pequenas */
+  .flatpickr-calendar {
+    max-width: 280px !important;
+    font-size: 14px !important;
+  }
+  
+  .flatpickr-day {
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    font-size: 0.75rem !important;
+  }
+  
+  .flatpickr-weekday {
+    font-size: 0.625rem !important;
+    padding: 0.375rem 0 !important;
+  }
+  
+  .flatpickr-current-month {
+    font-size: 0.875rem !important;
+  }
+}
+
+/* Melhorias para orientação landscape em mobile */
+@media (max-width: 767px) and (orientation: landscape) {
+  .container {
+    padding: 0.75rem;
+  }
+  
+  .header {
+    margin-bottom: 1.5rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  .data-container {
+    gap: 1rem;
+  }
+  
+  .card-body {
+    padding: 0.875rem;
+  }
+  
+  .modal-content {
+    max-height: 85vh;
+  }
+  
+  .modal-body {
+    max-height: 50vh;
+  }
+}
+
+
+/* Estilos para o campo de data e o botão de inversão de ordem */
+.calendar-container {
+  display: flex;
+  flex-direction: column; /* Para empilhar a data e o botão */
+  gap: 0.75rem; /* Espaçamento entre a data e o botão */
+  max-width: 400px;
+  margin: 0 auto 1rem;
+  position: relative;
+}
+
+.date-picker {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-family: 'JetBrains Mono', monospace; /* Para o formato da data */
+  transition: all 0.3s ease;
+}
+
+.date-picker:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.order-toggle-btn {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.order-toggle-btn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Ajustes para mobile */
+@media (max-width: 767px) {
+  .calendar-container {
+    padding: 0 0.5rem;
+  }
+  .date-picker {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 10px;
+  }
+  .order-toggle-btn {
+    padding: 0.625rem 1rem;
+    font-size: 0.75rem;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .date-picker {
+    padding: 0.625rem 0.875rem;
+    font-size: 0.875rem;
+    border-radius: 8px;
+  }
+  .order-toggle-btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    border-radius: 8px;
+  }
+}
+
+
+
+
+/* Estilos para o ícone do calendário do Flatpickr */
+.flatpickr-calendar .flatpickr-input[data-input] + .flatpickr-calendar-icon {
+  color: white !important; /* Cor branca para o ícone */
+  font-size: 1.2rem !important; /* Aumenta o tamanho do ícone */
+  right: 1rem; /* Ajusta a posição para a direita */
+  top: 50%; /* Centraliza verticalmente */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.flatpickr-calendar .flatpickr-input[data-input] {
+  padding-right: 2.5rem; /* Adiciona padding para o ícone não sobrepor o texto */
+}
+
+
+
+/* === SLIDING BANNER ULTRA-MODERNO === */
+.sliding-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 340px;
+  background: 
+    linear-gradient(135deg, rgba(59, 130, 246, 0.95) 0%, rgba(139, 92, 246, 0.95) 50%, rgba(236, 72, 153, 0.95) 100%),
+    radial-gradient(circle at 30% 20%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 70% 80%, rgba(139, 92, 246, 0.3) 0%, transparent 50%),
+    var(--bg-primary);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    0 -20px 40px rgba(0, 0, 0, 0.3),
+    0 -1px 0 rgba(255, 255, 255, 0.1) inset,
+    var(--shadow-glow);
+  transform: translateY(100%);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 9999; /* Aumentado para garantir que fique sobre todo o conteúdo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  position: relative;
+  pointer-events: auto; /* Garantir que seja clicável */
+}
+
+.sliding-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.05) 50%, transparent 70%),
+    radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(236, 72, 153, 0.1) 0%, transparent 40%);
+  animation: bannerShimmer 8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes bannerShimmer {
+  0%, 100% { opacity: 0.3; transform: translateX(-100%); }
+  50% { opacity: 0.6; transform: translateX(100%); }
+}
+
+.sliding-banner.show {
+  transform: translateY(0);
+  animation: bannerSlideUp 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes bannerSlideUp {
+  0% {
+    transform: translateY(100%) scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.sliding-banner .banner-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.1;
+  z-index: -1;
+  filter: blur(2px);
+  transition: all 0.3s ease;
+}
+
+.sliding-banner:hover .banner-image {
+  opacity: 0.15;
+  filter: blur(1px);
+  transform: scale(1.02);
+}
+
+.sliding-banner .close-banner-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 12px;
+  z-index: 10;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.sliding-banner .close-banner-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1) rotate(90deg);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.sliding-banner .banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 5;
+  text-align: center;
+  padding: 32px 24px 60px 24px;
+  max-width: 600px;
+  position: relative;
+}
+
+.sliding-banner .banner-logo {
+  max-width: 140px;
+  height: auto;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: logoFloat 3s ease-in-out infinite;
+}
+
+@keyframes logoFloat {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-8px) scale(1.05); }
+}
+
+.sliding-banner:hover .banner-logo {
+  transform: scale(1.1);
+  filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.4));
+}
+
+.sliding-banner .banner-text {
+  color: white;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  margin: 0;
+  letter-spacing: -0.01em;
+  position: relative;
+}
+
+.sliding-banner .banner-text::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+  border-radius: 1px;
+}
+
+.sliding-banner .banner-btn {
+  background: 
+    linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%);
+  color: var(--bg-primary);
+  padding: 16px 32px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.125rem;
+  letter-spacing: 0.025em;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 
+    0 8px 25px rgba(0, 0, 0, 0.2),
+    0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.sliding-banner .banner-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.6s ease;
+}
+
+.sliding-banner .banner-btn:hover::before {
+  left: 100%;
+}
+
+.sliding-banner .banner-btn:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 
+    0 15px 35px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+  background: 
+    linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.95) 100%);
+}
+
+.sliding-banner .banner-btn:active {
+  transform: translateY(-2px) scale(1.02);
+  transition: all 0.1s ease;
+}
+
+.sliding-banner .banner-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+  padding: 8px 16px;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.sliding-banner .banner-link::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.6);
+  transition: width 0.3s ease;
+}
+
+.sliding-banner .banner-link:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.sliding-banner .banner-link:hover::after {
+  width: 80%;
+}
+
+/* Responsive Design para o Banner */
+@media (max-width: 1024px) {
+  .sliding-banner {
+    height: 320px;
+  }
+  
+  .sliding-banner .banner-content {
+    padding: 28px 20px 50px 20px;
+    gap: 18px;
+  }
+  
+  .sliding-banner .banner-logo {
+    max-width: 120px;
+  }
+  
+  .sliding-banner .banner-text {
+    font-size: 1.25rem;
+  }
+  
+  .sliding-banner .banner-btn {
+    padding: 14px 28px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .sliding-banner {
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .sliding-banner .banner-content {
+    padding: 24px 16px 45px 16px;
+    gap: 16px;
+  }
+  
+  .sliding-banner .banner-logo {
+    max-width: 100px;
+  }
+  
+  .sliding-banner .banner-text {
+    font-size: 1.125rem;
+    line-height: 1.3;
+  }
+  
+  .sliding-banner .banner-btn {
+    padding: 12px 24px;
+    font-size: 0.9375rem;
+    border-radius: 14px;
+  }
+  
+  .sliding-banner .banner-link {
+    font-size: 0.8125rem;
+  }
+  
+  .sliding-banner .close-banner-btn {
+    top: 12px;
+    right: 12px;
+    width: 36px;
+    height: 36px;
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sliding-banner {
+    height: 280px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  .sliding-banner .banner-content {
+    padding: 20px 12px 40px 12px;
+    gap: 14px;
+  }
+  
+  .sliding-banner .banner-logo {
+    max-width: 85px;
+  }
+  
+  .sliding-banner .banner-text {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+  
+  .sliding-banner .banner-btn {
+    padding: 10px 20px;
+    font-size: 0.875rem;
+    border-radius: 12px;
+  }
+  
+  .sliding-banner .banner-link {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+  }
+  
+  .sliding-banner .close-banner-btn {
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+}
+
+/* Melhorias para dispositivos touch */
+@media (hover: none) and (pointer: coarse) {
+  .sliding-banner .banner-btn {
+    min-height: 48px;
+    padding: 14px 28px;
+  }
+  
+  .sliding-banner .close-banner-btn {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  
+  .sliding-banner .banner-link {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+  }
+}
+
+/* Animação de entrada mais suave para o banner */
+@media (prefers-reduced-motion: no-preference) {
+  .sliding-banner {
+    animation: none;
+  }
+  
+  .sliding-banner.show {
+    animation: bannerSlideUpSmooth 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  @keyframes bannerSlideUpSmooth {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    60% {
+      transform: translateY(-10px);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+/* Para usuários que preferem movimento reduzido */
+@media (prefers-reduced-motion: reduce) {
+  .sliding-banner,
+  .sliding-banner .banner-logo,
+  .sliding-banner .banner-btn,
+  .sliding-banner .banner-link,
+  .sliding-banner .close-banner-btn {
+    animation: none !important;
+    transition: opacity 0.3s ease, transform 0.3s ease !important;
+  }
+  
+  .sliding-banner::before {
+    animation: none !important;
+  }
+}
