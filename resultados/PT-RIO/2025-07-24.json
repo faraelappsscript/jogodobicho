@@ -52,36 +52,104 @@
         }
       ],
       "frases": {
-        "1019": [
-          "Dezena no sexto prêmio!<br>com o palpite 1019",
-          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 1019"
+        "3079": [
+          "Dezena no segundo prêmio!<br>com o palpite 3079",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 3079",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3079",
+          "Dezena no terceiro prêmio!<br>com o palpite 3079",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3079"
         ],
-        "1022": [
-          "CABRA 🐐 no quinto prêmio!<br>com o palpite 1022"
+        "3084": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 3084",
+          "Dezena no quarto prêmio!<br>com o palpite 3084",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3084"
         ],
-        "1079": [
-          "Dezena no segundo prêmio!<br>com o palpite 1079",
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 1079",
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1079",
-          "Dezena no terceiro prêmio!<br>com o palpite 1079",
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 1079"
+        "3179": [
+          "Dezena no segundo prêmio!<br>com o palpite 3179",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 3179",
+          "Dezena no terceiro prêmio!<br>com o palpite 3179",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3179"
         ],
-        "1082": [
-          "TOURO 🐂 no quarto prêmio!<br>com o palpite 1082"
+        "3184": [
+          "Dezena no quarto prêmio!<br>com o palpite 3184",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3184"
+        ],
+        "3379": [
+          "Dezena no segundo prêmio!<br>com o palpite 3379",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 3379",
+          "Dezena no terceiro prêmio!<br>com o palpite 3379",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3379"
+        ],
+        "3384": [
+          "Dezena no quarto prêmio!<br>com o palpite 3384",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3384"
+        ],
+        "3979": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 3979",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 3979",
+          "Dezena no segundo prêmio!<br>com o palpite 3979",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 3979",
+          "Dezena no terceiro prêmio!<br>com o palpite 3979",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3979"
+        ],
+        "3984": [
+          "Dezena no quarto prêmio!<br>com o palpite 3984",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3984"
+        ],
+        "4079": [
+          "Dezena no segundo prêmio!<br>com o palpite 4079",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4079",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 4079",
+          "Dezena no terceiro prêmio!<br>com o palpite 4079",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 4079"
+        ],
+        "4084": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 4084",
+          "Dezena no quarto prêmio!<br>com o palpite 4084",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 4084"
+        ],
+        "4179": [
+          "Dezena no segundo prêmio!<br>com o palpite 4179",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4179",
+          "Dezena no terceiro prêmio!<br>com o palpite 4179",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 4179"
+        ],
+        "4184": [
+          "Dezena no quarto prêmio!<br>com o palpite 4184",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 4184"
+        ],
+        "4379": [
+          "Dezena no segundo prêmio!<br>com o palpite 4379",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4379",
+          "Dezena no terceiro prêmio!<br>com o palpite 4379",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 4379"
+        ],
+        "4384": [
+          "Dezena no quarto prêmio!<br>com o palpite 4384",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 4384"
+        ],
+        "4979": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 4979",
+          "Dezena no segundo prêmio!<br>com o palpite 4979",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4979",
+          "Dezena no terceiro prêmio!<br>com o palpite 4979",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 4979"
+        ],
+        "4984": [
+          "Dezena no quarto prêmio!<br>com o palpite 4984",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 4984"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 3,
+        "Milhar": 1,
+        "Centena": 6,
+        "Dezena": 24,
         "Grupo": [
           "🦃",
-          "🐂",
-          "🐐",
-          "🐕"
+          "🐂"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1012, 1019, 1022, 1029, 1072, 1079, 1082, 1089"
+      "resumo": "Palpites dados para esta extração: 3074, 3079, 3084, 3089, 3174, 3179, 3184, 3189, 3374, 3379, 3384, 3389, 3974, 3979, 3984, 3989, 4074, 4079, 4084, 4089, 4174, 4179, 4184, 4189, 4374, 4379, 4384, 4389, 4974, 4979, 4984, 4989"
     }
   },
   "1-10": {
@@ -155,32 +223,112 @@
         }
       ],
       "frases": {
-        "1022": [
-          "CABRA 🐐 no quinto prêmio!<br>com o palpite 1022"
+        "3079": [
+          "Dezena no segundo prêmio!<br>com o palpite 3079",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 3079",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3079",
+          "Dezena no terceiro prêmio!<br>com o palpite 3079",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3079",
+          "PERU 🦃 no oitavo prêmio!<br>com o palpite 3079"
         ],
-        "1079": [
-          "Dezena no segundo prêmio!<br>com o palpite 1079",
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 1079",
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1079",
-          "Dezena no terceiro prêmio!<br>com o palpite 1079",
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 1079",
-          "PERU 🦃 no oitavo prêmio!<br>com o palpite 1079"
+        "3084": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 3084",
+          "Dezena no quarto prêmio!<br>com o palpite 3084",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3084"
         ],
-        "1082": [
-          "TOURO 🐂 no quarto prêmio!<br>com o palpite 1082"
+        "3179": [
+          "Dezena no segundo prêmio!<br>com o palpite 3179",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 3179",
+          "Dezena no terceiro prêmio!<br>com o palpite 3179",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3179",
+          "PERU 🦃 no oitavo prêmio!<br>com o palpite 3179"
+        ],
+        "3184": [
+          "Dezena no quarto prêmio!<br>com o palpite 3184",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3184"
+        ],
+        "3379": [
+          "Dezena no segundo prêmio!<br>com o palpite 3379",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 3379",
+          "Dezena no terceiro prêmio!<br>com o palpite 3379",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3379",
+          "PERU 🦃 no oitavo prêmio!<br>com o palpite 3379"
+        ],
+        "3384": [
+          "Dezena no quarto prêmio!<br>com o palpite 3384",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3384"
+        ],
+        "3979": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 3979",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 3979",
+          "Dezena no segundo prêmio!<br>com o palpite 3979",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 3979",
+          "Dezena no terceiro prêmio!<br>com o palpite 3979",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3979",
+          "PERU 🦃 no oitavo prêmio!<br>com o palpite 3979"
+        ],
+        "3984": [
+          "Dezena no quarto prêmio!<br>com o palpite 3984",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3984"
+        ],
+        "4079": [
+          "Dezena no segundo prêmio!<br>com o palpite 4079",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4079",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 4079",
+          "Dezena no terceiro prêmio!<br>com o palpite 4079",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 4079",
+          "PERU 🦃 no oitavo prêmio!<br>com o palpite 4079"
+        ],
+        "4084": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 4084",
+          "Dezena no quarto prêmio!<br>com o palpite 4084",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 4084"
+        ],
+        "4179": [
+          "Dezena no segundo prêmio!<br>com o palpite 4179",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4179",
+          "Dezena no terceiro prêmio!<br>com o palpite 4179",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 4179",
+          "PERU 🦃 no oitavo prêmio!<br>com o palpite 4179"
+        ],
+        "4184": [
+          "Dezena no quarto prêmio!<br>com o palpite 4184",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 4184"
+        ],
+        "4379": [
+          "Dezena no segundo prêmio!<br>com o palpite 4379",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4379",
+          "Dezena no terceiro prêmio!<br>com o palpite 4379",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 4379",
+          "PERU 🦃 no oitavo prêmio!<br>com o palpite 4379"
+        ],
+        "4384": [
+          "Dezena no quarto prêmio!<br>com o palpite 4384",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 4384"
+        ],
+        "4979": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 4979",
+          "Dezena no segundo prêmio!<br>com o palpite 4979",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4979",
+          "Dezena no terceiro prêmio!<br>com o palpite 4979",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 4979",
+          "PERU 🦃 no oitavo prêmio!<br>com o palpite 4979"
+        ],
+        "4984": [
+          "Dezena no quarto prêmio!<br>com o palpite 4984",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 4984"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 2,
+        "Milhar": 1,
+        "Centena": 6,
+        "Dezena": 24,
         "Grupo": [
           "🦃",
-          "🐂",
-          "🐐"
+          "🐂"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1012, 1019, 1022, 1029, 1072, 1079, 1082, 1089"
+      "resumo": "Palpites dados para esta extração: 3074, 3079, 3084, 3089, 3174, 3179, 3184, 3189, 3374, 3379, 3384, 3389, 3974, 3979, 3984, 3989, 4074, 4079, 4084, 4089, 4174, 4179, 4184, 4189, 4374, 4379, 4384, 4389, 4974, 4979, 4984, 4989"
     }
   }
 }
