@@ -1209,48 +1209,25 @@ function initializeSlidingBanner() {
     learnMoreLink.rel = "noopener noreferrer";
   }
 
-  // Check if banner was already closed in this session
-  const bannerClosed = sessionStorage.getItem('bannerClosed');
-  if (bannerClosed === 'true') {
-    return;
-  }
-
-  // Show banner after 3 seconds with smooth animation
+  // Show banner after 5 seconds when page is fully loaded
   const showBannerTimeout = setTimeout(() => {
     if (slidingBanner && !slidingBanner.classList.contains('show')) {
       slidingBanner.classList.add("show");
       
       // Add subtle body padding to prevent content jump
       document.body.style.paddingBottom = '20px';
-      
-      // Auto-hide after 15 seconds if not interacted with
-      const autoHideTimeout = setTimeout(() => {
-        if (slidingBanner.classList.contains('show')) {
-          hideBanner();
-        }
-      }, 15000);
-      
-      // Clear auto-hide if user interacts with banner
-      const bannerElements = [registerBtn, learnMoreLink];
-      bannerElements.forEach(element => {
-        if (element) {
-          element.addEventListener('click', () => {
-            clearTimeout(autoHideTimeout);
-          });
-        }
-      });
     }
-  }, 3000);
+  }, 5000);
 
   // Close banner functionality
   function hideBanner() {
     if (slidingBanner) {
       slidingBanner.classList.remove("show");
       document.body.style.paddingBottom = '';
-      sessionStorage.setItem('bannerClosed', 'true');
     }
   }
 
+  // Close banner when clicking X button
   if (closeBannerBtn) {
     closeBannerBtn.addEventListener("click", (e) => {
       e.preventDefault();
@@ -1260,16 +1237,19 @@ function initializeSlidingBanner() {
     });
   }
 
-  // Close banner when clicking outside (optional)
-  document.addEventListener('click', (e) => {
-    if (slidingBanner && slidingBanner.classList.contains('show')) {
-      const isClickInsideBanner = slidingBanner.contains(e.target);
-      if (!isClickInsideBanner) {
-        // Optional: uncomment to close banner when clicking outside
-        // hideBanner();
-      }
-    }
-  });
+  // Close banner when clicking on register button
+  if (registerBtn) {
+    registerBtn.addEventListener("click", () => {
+      hideBanner();
+    });
+  }
+
+  // Close banner when clicking on learn more link
+  if (learnMoreLink) {
+    learnMoreLink.addEventListener("click", () => {
+      hideBanner();
+    });
+  }
 
   // Handle escape key to close banner
   document.addEventListener('keydown', (e) => {
@@ -1292,8 +1272,8 @@ function initializeSlidingBanner() {
   });
 }
 
-// Initialize banner when DOM is loaded
-document.addEventListener("DOMContentLoaded", () => {
+// Initialize banner when page is fully loaded
+window.addEventListener('load', () => {
   // Small delay to ensure all other scripts are loaded
   setTimeout(initializeSlidingBanner, 100);
 });
