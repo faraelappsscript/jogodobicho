@@ -22,47 +22,17 @@ let titulosData = null;
 // Função para capturar parâmetro de URL e armazenar no navegador
 function captureAndStoreUrlParameter() {
   const urlParams = new URLSearchParams(window.location.search);
-  const referrerLink = urlParams.get('ref') || urlParams.get('referrer') || urlParams.get('link');
+  const codeParam = urlParams.get('pr');
   
-  if (referrerLink) {
-    // Validar se é uma URL válida
-    try {
-      new URL(referrerLink);
-      // Armazenar no localStorage
-      localStorage.setItem('referrerLink', referrerLink);
-      console.log('Link de referência armazenado:', referrerLink);
-    } catch (error) {
-      console.warn('Link de referência inválido:', referrerLink);
-    }
+  if (codeParam) {
+    localStorage.setItem("productCode", codeParam);
+    console.log("Código do produto armazenado:", codeParam);
   }
 }
 
-// Função para recuperar o link armazenado
-function getStoredReferrerLink() {
-  return localStorage.getItem('referrerLink');
-}
-
-// Função para limpar o link armazenado (opcional)
-function clearStoredReferrerLink() {
-  localStorage.removeItem('referrerLink');
-}
-
-// Função para adicionar parâmetro de referência a uma URL
-function addReferrerToUrl(baseUrl) {
-  const referrerLink = getStoredReferrerLink();
-  
-  if (!referrerLink) {
-    return baseUrl;
-  }
-  
-  try {
-    const url = new URL(baseUrl);
-    url.searchParams.set('ref', encodeURIComponent(referrerLink));
-    return url.toString();
-  } catch (error) {
-    console.warn('Erro ao adicionar referência à URL:', error);
-    return baseUrl;
-  }
+// Função para recuperar o código armazenado
+function getStoredProductCode() {
+  return localStorage.getItem("productCode");
 }
 
 // === FUNÇÕES ORIGINAIS ===
@@ -162,9 +132,9 @@ async function shareImage() {
         });
         showToast('Imagem compartilhada com sucesso!');
       } else {
-        // Fallback para compartilhamento de URL com referência
+        // Fallback para compartilhamento de URL com código
         const imageUrl = URL.createObjectURL(currentImageBlob);
-        const shareUrl = addReferrerToUrl(window.location.href);
+        const shareUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
         await navigator.share({
           title: getPageTitle(),
           text: 'Confira este resultado!',
@@ -1032,12 +1002,12 @@ function getFormattedTimestamp(dateStr) {
     });
 }
 
-// Gerar texto para compartilhamento/cópia - ATUALIZADO COM REFERÊNCIA
+// Gerar texto para compartilhamento/cópia - ATUALIZADO COM CÓDIGO
 async function generateText(type, cardId) {
     const [version, titleKey] = getCardDetails(cardId);
     const data = globalData[version][titleKey];
     const baseUrl = window.location.href;
-    const pageUrl = addReferrerToUrl(baseUrl); // Adicionar referência se existir
+    const pageUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
     const timestamp = getFormattedTimestamp(selectedDateStr);
 
     if (type === 'result') {
@@ -1077,11 +1047,11 @@ async function generateText(type, cardId) {
     }
 }
 
-// Compartilhar conteúdo - ATUALIZADO COM REFERÊNCIA
+// Compartilhar conteúdo - ATUALIZADO COM CÓDIGO
 async function shareContent(type, cardId) {
     const text = await generateText(type, cardId);
     const baseUrl = window.location.href;
-    const shareUrl = addReferrerToUrl(baseUrl); // Adicionar referência se existir
+    const shareUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
     
     if (navigator.share) {
         navigator.share({ 
@@ -1135,7 +1105,6 @@ function findLastResultTitle(data) {
 
 // Inicialização comum - ATUALIZADA COM CAPTURA DE PARÂMETRO
 function initializeCommonFeatures() {
-    // Capturar e armazenar parâmetro de URL na inicialização
     captureAndStoreUrlParameter();
     
     // Configurar o botão de inverter ordem
@@ -1206,3 +1175,4 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeCommonFeatures();
     fetchData(true);
 });
+
