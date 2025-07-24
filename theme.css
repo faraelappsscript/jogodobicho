@@ -1550,9 +1550,10 @@ tbody tr:last-child td {
   right: 0;
   width: 100%;
   height: auto;
-  min-height: 280px;
-  max-height: 350px;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%);
+  min-height: 300px;
+  max-height: 380px;
+  /* Gradiente que combina com o tema do site - mais claro no topo, mais escuro embaixo */
+  background: linear-gradient(180deg, #2d3748 0%, #1a202c 30%, #16213e 70%, #0f0f23 100%);
   border: 1px solid var(--border-color);
   box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.5), var(--shadow-xl);
   transform: translateY(100%);
@@ -1592,15 +1593,9 @@ tbody tr:last-child td {
   }
 }
 
+/* Remover imagem de fundo - não será mais usada */
 .sliding-banner .banner-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.3;
-  z-index: 1;
+  display: none;
 }
 
 .sliding-banner .close-banner-btn {
@@ -1638,7 +1633,7 @@ tbody tr:last-child td {
   gap: 15px;
   z-index: 10;
   text-align: center;
-  padding: 30px 20px 20px;
+  padding: 40px 20px 25px; /* Aumentado padding superior e inferior */
   position: relative;
   width: 100%;
   max-width: 600px;
@@ -1647,7 +1642,8 @@ tbody tr:last-child td {
 .sliding-banner .banner-logo {
   max-width: 140px;
   height: auto;
-  margin-bottom: 10px;
+  margin-bottom: 15px; /* Aumentado espaço abaixo da logo */
+  margin-top: 10px; /* Adicionado espaço acima da logo */
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
   transition: transform 0.3s ease;
 }
@@ -1693,7 +1689,8 @@ tbody tr:last-child td {
   text-decoration: underline;
   font-size: 0.9rem;
   transition: all 0.3s ease;
-  margin-top: 5px;
+  margin-top: 8px; /* Aumentado espaço acima do link */
+  margin-bottom: 15px; /* Adicionado espaço abaixo do link */
 }
 
 .sliding-banner .banner-link:hover {
@@ -1704,17 +1701,19 @@ tbody tr:last-child td {
 /* Responsive adjustments for the banner */
 @media (max-width: 767px) {
   .sliding-banner {
-    min-height: 260px;
-    max-height: 320px;
+    min-height: 280px;
+    max-height: 350px;
   }
   
   .sliding-banner .banner-content {
-    padding: 25px 15px 15px;
+    padding: 35px 15px 20px; /* Ajustado para mobile */
     gap: 12px;
   }
   
   .sliding-banner .banner-logo {
     max-width: 120px;
+    margin-top: 8px;
+    margin-bottom: 12px;
   }
   
   .sliding-banner .banner-text {
@@ -1729,6 +1728,8 @@ tbody tr:last-child td {
   
   .sliding-banner .banner-link {
     font-size: 0.8rem;
+    margin-top: 6px;
+    margin-bottom: 12px;
   }
   
   .sliding-banner .close-banner-btn {
@@ -1742,19 +1743,21 @@ tbody tr:last-child td {
 
 @media (max-width: 480px) {
   .sliding-banner {
-    min-height: 240px;
-    max-height: 300px;
+    min-height: 260px;
+    max-height: 320px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
   }
   
   .sliding-banner .banner-content {
-    padding: 20px 12px 12px;
+    padding: 30px 12px 18px; /* Ajustado para telas pequenas */
     gap: 10px;
   }
   
   .sliding-banner .banner-logo {
     max-width: 100px;
+    margin-top: 6px;
+    margin-bottom: 10px;
   }
   
   .sliding-banner .banner-text {
@@ -1771,6 +1774,8 @@ tbody tr:last-child td {
   
   .sliding-banner .banner-link {
     font-size: 0.75rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
   
   .sliding-banner .close-banner-btn {
