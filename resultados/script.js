@@ -1184,6 +1184,12 @@ function initializeSlidingBanner() {
   const registerBtn = document.getElementById("registerBtn");
   const learnMoreLink = document.getElementById("learnMoreLink");
 
+  // Verificar se os elementos existem
+  if (!slidingBanner || !closeBannerBtn || !registerBtn || !learnMoreLink) {
+    console.log("Elementos do banner não encontrados");
+    return;
+  }
+
   const defaultCode = "PACruTth";
   let productCode = getStoredProductCode();
   if (!productCode) {
@@ -1194,14 +1200,47 @@ function initializeSlidingBanner() {
   registerBtn.href = `https://app.77xbrasil.com.br/pr/${productCode}`;
   learnMoreLink.href = `https://77xxbrasil.com/pr/${productCode}`;
 
-  // Show banner after 5 seconds
-  setTimeout(() => {
-    slidingBanner.classList.add("show");
-  }, 5000);
+  // Verificar se o banner já foi fechado pelo usuário
+  const bannerClosed = localStorage.getItem('bannerClosed');
+  if (bannerClosed === 'true') {
+    return; // Não mostrar o banner se foi fechado anteriormente
+  }
 
-  // Close banner functionality
-  closeBannerBtn.addEventListener("click", () => {
+  // Show banner after 3 seconds (reduzido de 5 para 3)
+  setTimeout(() => {
+    if (slidingBanner) {
+      slidingBanner.classList.add("show");
+      console.log("Banner mostrado com animação slide-up");
+    }
+  }, 3000);
+
+  // Close banner functionality with improved UX
+  closeBannerBtn.addEventListener("click", (e) => {
+    e.preventDefault();
     slidingBanner.classList.remove("show");
+    
+    // Salvar preferência do usuário
+    localStorage.setItem('bannerClosed', 'true');
+    
+    console.log("Banner fechado pelo usuário");
+  });
+
+  // Adicionar funcionalidade para fechar o banner clicando fora dele
+  document.addEventListener('click', (e) => {
+    if (slidingBanner.classList.contains('show') && 
+        !slidingBanner.contains(e.target) && 
+        e.target !== slidingBanner) {
+      // Não fechar automaticamente - deixar apenas o botão X
+    }
+  });
+
+  // Adicionar suporte para tecla ESC para fechar o banner
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && slidingBanner.classList.contains('show')) {
+      slidingBanner.classList.remove("show");
+      localStorage.setItem('bannerClosed', 'true');
+      console.log("Banner fechado com tecla ESC");
+    }
   });
 }
 
