@@ -1548,8 +1548,8 @@ tbody tr:last-child td {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 280px; /* Altura do banner ajustada para acomodar todos os elementos */
-  background-color: var(--bg-card);
+  height: 320px; /* Aumentado para 320px */
+  background: linear-gradient(to top, #0f0f23, #1a1a2e); /* Gradiente de cor */
   box-shadow: var(--shadow-xl);
   transform: translateY(100%); /* Escondido inicialmente */
   transition: transform 0.5s ease-out;
@@ -1561,6 +1561,7 @@ tbody tr:last-child td {
   overflow: hidden;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+  padding-bottom: 40px; /* Espaço extra na parte inferior */
 }
 
 .sliding-banner.show {
@@ -1603,7 +1604,7 @@ tbody tr:last-child td {
   gap: 10px;
   z-index: 5; /* Acima da imagem */
   text-align: center;
-  padding: 20px;
+  padding: 20px 20px 50px 20px; /* Aumentado o padding inferior */
 }
 
 .sliding-banner .banner-btn {
@@ -1622,22 +1623,9 @@ tbody tr:last-child td {
   box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4); /* Sombra maior no hover */
 }
 
-.sliding-banner .banner-link {
-  color: white; /* Cor branca */
-  text-decoration: underline;
-  font-size: 0.9rem;
-  transition: color 0.3s ease;
-  margin-bottom: 20px; /* Espaçamento adicionado */
-}
-
-.sliding-banner .banner-link:hover {
-  color: #e2e8f0;
-}
-
-/* Responsive adjustments for the banner */
-@media (max-width: 767px) {
+.sliding-ban@media (max-width: 767px) {
   .sliding-banner {
-    height: 250px; /* Ajuste para telas menores */
+    height: 280px; /* Ajuste para telas menores */
   }
   .sliding-banner .banner-btn {
     padding: 8px 15px;
@@ -1650,7 +1638,7 @@ tbody tr:last-child td {
 
 @media (max-width: 480px) {
   .sliding-banner {
-    height: 220px; /* Ajuste para telas muito pequenas */
+    height: 250px; /* Ajuste para telas muito pequenas */
   }
   .sliding-banner .banner-btn {
     padding: 6px 12px;
@@ -1664,7 +1652,6 @@ tbody tr:last-child td {
     padding: 0.1rem 0.4rem;
   }
 }
-
 
 
 
