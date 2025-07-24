@@ -1633,6 +1633,7 @@ tbody tr:last-child td {
   }
   .sliding-banner .banner-link {
     font-size: 0.8rem;
+    margin-bottom: 20px;
   }
 }
 
@@ -1646,6 +1647,7 @@ tbody tr:last-child td {
   }
   .sliding-banner .banner-link {
     font-size: 0.7rem;
+    margin-bottom: 20px;
   }
   .sliding-banner .close-banner-btn {
     font-size: 1.2rem;
