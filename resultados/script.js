@@ -1185,6 +1185,11 @@ function initializeSlidingBanner() {
   const registerBtn = document.getElementById("registerBtn");
   const learnMoreLink = document.getElementById("learnMoreLink");
 
+  if (!slidingBanner) {
+    console.warn("Banner element not found");
+    return;
+  }
+
   const defaultCode = "PACruTth";
   let productCode = getStoredProductCode();
   if (!productCode) {
@@ -1192,19 +1197,103 @@ function initializeSlidingBanner() {
   }
 
   // Set dynamic links
-  registerBtn.href = `https://app.77xbrasil.com.br/pr/${productCode}`;
-  learnMoreLink.href = `https://77xxbrasil.com/pr/${productCode}`;
+  if (registerBtn) {
+    registerBtn.href = `https://app.77xbrasil.com.br/pr/${productCode}`;
+    registerBtn.target = "_blank";
+    registerBtn.rel = "noopener noreferrer";
+  }
+  
+  if (learnMoreLink) {
+    learnMoreLink.href = `https://77xxbrasil.com/pr/${productCode}`;
+    learnMoreLink.target = "_blank";
+    learnMoreLink.rel = "noopener noreferrer";
+  }
 
-  // Show banner after 5 seconds
-  setTimeout(() => {
-    slidingBanner.classList.add("show");
-  }, 5000);
+  // Check if banner was already closed in this session
+  const bannerClosed = sessionStorage.getItem('bannerClosed');
+  if (bannerClosed === 'true') {
+    return;
+  }
+
+  // Show banner after 3 seconds with smooth animation
+  const showBannerTimeout = setTimeout(() => {
+    if (slidingBanner && !slidingBanner.classList.contains('show')) {
+      slidingBanner.classList.add("show");
+      
+      // Add subtle body padding to prevent content jump
+      document.body.style.paddingBottom = '20px';
+      
+      // Auto-hide after 15 seconds if not interacted with
+      const autoHideTimeout = setTimeout(() => {
+        if (slidingBanner.classList.contains('show')) {
+          hideBanner();
+        }
+      }, 15000);
+      
+      // Clear auto-hide if user interacts with banner
+      const bannerElements = [registerBtn, learnMoreLink];
+      bannerElements.forEach(element => {
+        if (element) {
+          element.addEventListener('click', () => {
+            clearTimeout(autoHideTimeout);
+          });
+        }
+      });
+    }
+  }, 3000);
 
   // Close banner functionality
-  closeBannerBtn.addEventListener("click", () => {
-    slidingBanner.classList.remove("show");
+  function hideBanner() {
+    if (slidingBanner) {
+      slidingBanner.classList.remove("show");
+      document.body.style.paddingBottom = '';
+      sessionStorage.setItem('bannerClosed', 'true');
+    }
+  }
+
+  if (closeBannerBtn) {
+    closeBannerBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      hideBanner();
+      clearTimeout(showBannerTimeout);
+    });
+  }
+
+  // Close banner when clicking outside (optional)
+  document.addEventListener('click', (e) => {
+    if (slidingBanner && slidingBanner.classList.contains('show')) {
+      const isClickInsideBanner = slidingBanner.contains(e.target);
+      if (!isClickInsideBanner) {
+        // Optional: uncomment to close banner when clicking outside
+        // hideBanner();
+      }
+    }
+  });
+
+  // Handle escape key to close banner
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && slidingBanner && slidingBanner.classList.contains('show')) {
+      hideBanner();
+    }
+  });
+
+  // Prevent banner from showing on print
+  window.addEventListener('beforeprint', () => {
+    if (slidingBanner) {
+      slidingBanner.style.display = 'none';
+    }
+  });
+
+  window.addEventListener('afterprint', () => {
+    if (slidingBanner) {
+      slidingBanner.style.display = 'flex';
+    }
   });
 }
 
-// Call initializeSlidingBanner when DOM is loaded
-document.addEventListener("DOMContentLoaded", initializeSlidingBanner);
+// Initialize banner when DOM is loaded
+document.addEventListener("DOMContentLoaded", () => {
+  // Small delay to ensure all other scripts are loaded
+  setTimeout(initializeSlidingBanner, 100);
+});
