@@ -1,1 +1,186 @@
-{}
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5154",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3979",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6079",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7084",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3323",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "5619",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "507",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "1019": [
+          "Dezena no sexto prêmio!<br>com o palpite 1019",
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 1019"
+        ],
+        "1022": [
+          "CABRA 🐐 no quinto prêmio!<br>com o palpite 1022"
+        ],
+        "1079": [
+          "Dezena no segundo prêmio!<br>com o palpite 1079",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 1079",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1079",
+          "Dezena no terceiro prêmio!<br>com o palpite 1079",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 1079"
+        ],
+        "1082": [
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 1082"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 1,
+        "Dezena": 3,
+        "Grupo": [
+          "🦃",
+          "🐂",
+          "🐐",
+          "🐕"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 1012, 1019, 1022, 1029, 1072, 1079, 1082, 1089"
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5154",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3979",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6079",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7084",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3323",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "5367",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1900",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "5778",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "4994",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "3658",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        }
+      ],
+      "frases": {
+        "1022": [
+          "CABRA 🐐 no quinto prêmio!<br>com o palpite 1022"
+        ],
+        "1079": [
+          "Dezena no segundo prêmio!<br>com o palpite 1079",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 1079",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1079",
+          "Dezena no terceiro prêmio!<br>com o palpite 1079",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 1079",
+          "PERU 🦃 no oitavo prêmio!<br>com o palpite 1079"
+        ],
+        "1082": [
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 1082"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 1,
+        "Dezena": 2,
+        "Grupo": [
+          "🦃",
+          "🐂",
+          "🐐"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 1012, 1019, 1022, 1029, 1072, 1079, 1082, 1089"
+    }
+  }
+}
