@@ -1056,7 +1056,8 @@ async function shareContent(type, cardId) {
     if (navigator.share) {
         navigator.share({ 
             title: getPageTitle(), 
-            text: text
+            text: text,
+            url: shareUrl 
         }).catch(console.error);
     } else {
         showToast('Compartilhamento não suportado neste dispositivo.');
@@ -1184,12 +1185,6 @@ function initializeSlidingBanner() {
   const registerBtn = document.getElementById("registerBtn");
   const learnMoreLink = document.getElementById("learnMoreLink");
 
-  // Verificar se os elementos existem
-  if (!slidingBanner || !closeBannerBtn || !registerBtn || !learnMoreLink) {
-    console.log("Elementos do banner não encontrados");
-    return;
-  }
-
   const defaultCode = "PACruTth";
   let productCode = getStoredProductCode();
   if (!productCode) {
@@ -1200,53 +1195,14 @@ function initializeSlidingBanner() {
   registerBtn.href = `https://app.77xbrasil.com.br/pr/${productCode}`;
   learnMoreLink.href = `https://77xxbrasil.com/pr/${productCode}`;
 
-  // Verificar se o banner já foi fechado pelo usuário
-  const bannerClosed = localStorage.getItem('bannerClosed');
-  if (bannerClosed === 'true') {
-    console.log("Banner não será mostrado - foi fechado anteriormente pelo usuário");
-    return; // Não mostrar o banner se foi fechado anteriormente
-  }
+  // Show banner after 5 seconds
+  setTimeout(() => {
+    slidingBanner.classList.add("show");
+  }, 5000);
 
-  // Aguardar carregamento completo da página e depois mostrar banner após 5 segundos
-  function showBannerAfterDelay() {
-    setTimeout(() => {
-      if (slidingBanner && !slidingBanner.classList.contains("show")) {
-        slidingBanner.classList.add("show");
-        console.log("Banner mostrado com animação slide-up após carregamento completo + 5 segundos");
-      }
-    }, 5000); // 5 segundos após o carregamento completo
-  }
-
-  // Verificar se a página já está totalmente carregada
-  if (document.readyState === 'complete') {
-    console.log("Página já carregada completamente, iniciando timer do banner");
-    showBannerAfterDelay();
-  } else {
-    // Aguardar carregamento completo da página (incluindo imagens, CSS, etc.)
-    window.addEventListener('load', () => {
-      console.log("Página carregada completamente, iniciando timer do banner");
-      showBannerAfterDelay();
-    });
-  }
-
-  // Close banner functionality with improved UX
-  closeBannerBtn.addEventListener("click", (e) => {
-    e.preventDefault();
+  // Close banner functionality
+  closeBannerBtn.addEventListener("click", () => {
     slidingBanner.classList.remove("show");
-    
-    // Salvar preferência do usuário
-    localStorage.setItem('bannerClosed', 'true');
-    
-    console.log("Banner fechado pelo usuário");
-  });
-
-  // Adicionar suporte para tecla ESC para fechar o banner
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && slidingBanner.classList.contains('show')) {
-      slidingBanner.classList.remove("show");
-      localStorage.setItem('bannerClosed', 'true');
-      console.log("Banner fechado com tecla ESC");
-    }
   });
 }
 
