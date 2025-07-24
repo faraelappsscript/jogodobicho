@@ -52,24 +52,123 @@
         }
       ],
       "frases": {
+        "7406": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 7406"
+        ],
+        "7408": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 7408"
+        ],
+        "7418": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 7418"
+        ],
+        "7419": [
+          "Dezena no sexto prêmio!<br>com o palpite 7419",
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 7419"
+        ],
+        "7606": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 7606"
+        ],
+        "7608": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 7608"
+        ],
         "7618": [
           "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 7618"
         ],
-        "7678": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 7678",
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 7678"
+        "7619": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 7619",
+          "Dezena no sexto prêmio!<br>com o palpite 7619",
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 7619"
+        ],
+        "7706": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 7706"
+        ],
+        "7708": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 7708"
+        ],
+        "7718": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 7718"
+        ],
+        "7719": [
+          "Dezena no sexto prêmio!<br>com o palpite 7719",
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 7719"
+        ],
+        "7906": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 7906"
+        ],
+        "7908": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 7908"
+        ],
+        "7918": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 7918"
+        ],
+        "7919": [
+          "Dezena no sexto prêmio!<br>com o palpite 7919",
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 7919"
+        ],
+        "8406": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 8406"
+        ],
+        "8408": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 8408"
+        ],
+        "8418": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 8418"
+        ],
+        "8419": [
+          "Dezena no sexto prêmio!<br>com o palpite 8419",
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 8419"
+        ],
+        "8606": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 8606"
+        ],
+        "8608": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 8608"
+        ],
+        "8618": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 8618"
+        ],
+        "8619": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 8619",
+          "Dezena no sexto prêmio!<br>com o palpite 8619",
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 8619"
+        ],
+        "8706": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 8706"
+        ],
+        "8708": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 8708"
+        ],
+        "8718": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 8718"
+        ],
+        "8719": [
+          "Dezena no sexto prêmio!<br>com o palpite 8719",
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 8719"
+        ],
+        "8906": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 8906"
+        ],
+        "8908": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 8908"
+        ],
+        "8918": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 8918"
+        ],
+        "8919": [
+          "Dezena no sexto prêmio!<br>com o palpite 8919",
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 8919"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 2,
+        "Dezena": 8,
         "Grupo": [
-          "🦃",
-          "🐕"
+          "🐕",
+          "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7618, 7678"
+      "resumo": "Palpites dados para esta extração: 7403, 7406, 7408, 7409, 7413, 7416, 7418, 7419, 7433, 7436, 7438, 7439, 7603, 7606, 7608, 7609, 7613, 7616, 7618, 7619, 7633, 7636, 7638, 7639, 7703, 7706, 7708, 7709, 7713, 7716, 7718, 7719, 7733, 7736, 7738, 7739, 7903, 7906, 7908, 7909, 7913, 7916, 7918, 7919, 7933, 7936, 7938, 7939, 8403, 8406, 8408, 8409, 8413, 8416, 8418, 8419, 8433, 8436, 8438, 8439, 8603, 8606, 8608, 8609, 8613, 8616, 8618, 8619, 8633, 8636, 8638, 8639, 8703, 8706, 8708, 8709, 8713, 8716, 8718, 8719, 8733, 8736, 8738, 8739, 8903, 8906, 8908, 8909, 8913, 8916, 8918, 8919, 8933, 8936, 8938, 8939"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -123,28 +222,157 @@
         }
       ],
       "frases": {
+        "7406": [
+          "Dezena no quarto prêmio!<br>com o palpite 7406",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7406"
+        ],
+        "7408": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7408"
+        ],
+        "7409": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 7409"
+        ],
+        "7418": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7418"
+        ],
+        "7419": [
+          "Dezena no segundo prêmio!<br>com o palpite 7419",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7419"
+        ],
+        "7606": [
+          "Dezena no quarto prêmio!<br>com o palpite 7606",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7606"
+        ],
+        "7608": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7608"
+        ],
+        "7609": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 7609"
+        ],
         "7618": [
           "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7618"
         ],
-        "7678": [
-          "Milhar e Centena no primeiro prêmio!<br>com o palpite 7678",
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7678",
-          "Dezena no primeiro prêmio!<br>com o palpite 7678",
-          "PERU 🦃 no primeiro prêmio!<br>com o palpite 7678",
-          "Dezena no quinto prêmio!<br>com o palpite 7678",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 7678"
+        "7619": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 7619",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 7619",
+          "Dezena no segundo prêmio!<br>com o palpite 7619",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7619"
+        ],
+        "7706": [
+          "Dezena no quarto prêmio!<br>com o palpite 7706",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7706"
+        ],
+        "7708": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7708"
+        ],
+        "7709": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 7709"
+        ],
+        "7718": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7718"
+        ],
+        "7719": [
+          "Dezena no segundo prêmio!<br>com o palpite 7719",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7719"
+        ],
+        "7906": [
+          "Dezena no quarto prêmio!<br>com o palpite 7906",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7906"
+        ],
+        "7908": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7908"
+        ],
+        "7909": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 7909"
+        ],
+        "7918": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7918"
+        ],
+        "7919": [
+          "Dezena no segundo prêmio!<br>com o palpite 7919",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7919"
+        ],
+        "8406": [
+          "Dezena no quarto prêmio!<br>com o palpite 8406",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8406"
+        ],
+        "8408": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8408"
+        ],
+        "8409": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 8409"
+        ],
+        "8418": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8418"
+        ],
+        "8419": [
+          "Dezena no segundo prêmio!<br>com o palpite 8419",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8419"
+        ],
+        "8606": [
+          "Dezena no quarto prêmio!<br>com o palpite 8606",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8606"
+        ],
+        "8608": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8608"
+        ],
+        "8609": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 8609"
+        ],
+        "8618": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8618"
+        ],
+        "8619": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 8619",
+          "Dezena no segundo prêmio!<br>com o palpite 8619",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8619"
+        ],
+        "8706": [
+          "Dezena no quarto prêmio!<br>com o palpite 8706",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8706"
+        ],
+        "8708": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8708"
+        ],
+        "8709": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 8709"
+        ],
+        "8718": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8718"
+        ],
+        "8719": [
+          "Dezena no segundo prêmio!<br>com o palpite 8719",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8719"
+        ],
+        "8906": [
+          "Dezena no quarto prêmio!<br>com o palpite 8906",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8906"
+        ],
+        "8908": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8908"
+        ],
+        "8909": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 8909"
+        ],
+        "8918": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8918"
+        ],
+        "8919": [
+          "Dezena no segundo prêmio!<br>com o palpite 8919",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8919"
         ]
       },
       "acertos": {
         "Milhar": 1,
-        "Centena": 1,
-        "Dezena": 2,
+        "Centena": 2,
+        "Dezena": 16,
         "Grupo": [
-          "🦃",
-          "🐕"
+          "🐕",
+          "🦅",
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7618, 7678"
+      "resumo": "Palpites dados para esta extração: 7403, 7406, 7408, 7409, 7413, 7416, 7418, 7419, 7433, 7436, 7438, 7439, 7603, 7606, 7608, 7609, 7613, 7616, 7618, 7619, 7633, 7636, 7638, 7639, 7703, 7706, 7708, 7709, 7713, 7716, 7718, 7719, 7733, 7736, 7738, 7739, 7903, 7906, 7908, 7909, 7913, 7916, 7918, 7919, 7933, 7936, 7938, 7939, 8403, 8406, 8408, 8409, 8413, 8416, 8418, 8419, 8433, 8436, 8438, 8439, 8603, 8606, 8608, 8609, 8613, 8616, 8618, 8619, 8633, 8636, 8638, 8639, 8703, 8706, 8708, 8709, 8713, 8716, 8718, 8719, 8733, 8736, 8738, 8739, 8903, 8906, 8908, 8909, 8913, 8916, 8918, 8919, 8933, 8936, 8938, 8939"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -198,19 +426,309 @@
         }
       ],
       "frases": {
+        "7403": [
+          "Dezena no quinto prêmio!<br>com o palpite 7403",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7403"
+        ],
+        "7418": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7418"
+        ],
+        "7419": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7419",
+          "Dezena no primeiro prêmio!<br>com o palpite 7419",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7419"
+        ],
+        "7433": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7433"
+        ],
+        "7436": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7436"
+        ],
+        "7603": [
+          "Dezena no quinto prêmio!<br>com o palpite 7603",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7603"
+        ],
         "7618": [
           "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7618"
+        ],
+        "7619": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7619",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7619"
+        ],
+        "7633": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7633"
+        ],
+        "7636": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7636"
+        ],
+        "7703": [
+          "Dezena no quinto prêmio!<br>com o palpite 7703",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7703"
+        ],
+        "7718": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7718"
+        ],
+        "7719": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7719",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7719"
+        ],
+        "7733": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7733"
+        ],
+        "7736": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7736"
+        ],
+        "7903": [
+          "Dezena no quinto prêmio!<br>com o palpite 7903",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7903"
+        ],
+        "7918": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7918"
+        ],
+        "7919": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7919",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7919"
+        ],
+        "7933": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7933"
+        ],
+        "7936": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7936"
+        ],
+        "8403": [
+          "Dezena no quinto prêmio!<br>com o palpite 8403",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8403"
+        ],
+        "8418": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8418"
+        ],
+        "8419": [
+          "Milhar e Centena no primeiro prêmio!<br>com o palpite 8419",
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 8419",
+          "Dezena no primeiro prêmio!<br>com o palpite 8419",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8419"
+        ],
+        "8433": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8433"
+        ],
+        "8436": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8436"
+        ],
+        "8603": [
+          "Dezena no quinto prêmio!<br>com o palpite 8603",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8603"
+        ],
+        "8618": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8618"
+        ],
+        "8619": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8619",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8619"
+        ],
+        "8633": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8633"
+        ],
+        "8636": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8636"
+        ],
+        "8703": [
+          "Dezena no quinto prêmio!<br>com o palpite 8703",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8703"
+        ],
+        "8718": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8718"
+        ],
+        "8719": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8719",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8719"
+        ],
+        "8733": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8733"
+        ],
+        "8736": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8736"
+        ],
+        "8903": [
+          "Dezena no quinto prêmio!<br>com o palpite 8903",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8903"
+        ],
+        "8918": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8918"
+        ],
+        "8919": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8919",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8919"
+        ],
+        "8933": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8933"
+        ],
+        "8936": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8936"
+        ]
+      },
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 16,
+        "Grupo": [
+          "🐕",
+          "🐍",
+          "🪶"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 7403, 7406, 7408, 7409, 7413, 7416, 7418, 7419, 7433, 7436, 7438, 7439, 7603, 7606, 7608, 7609, 7613, 7616, 7618, 7619, 7633, 7636, 7638, 7639, 7703, 7706, 7708, 7709, 7713, 7716, 7718, 7719, 7733, 7736, 7738, 7739, 7903, 7906, 7908, 7909, 7913, 7916, 7918, 7919, 7933, 7936, 7938, 7939, 8403, 8406, 8408, 8409, 8413, 8416, 8418, 8419, 8433, 8436, 8438, 8439, 8603, 8606, 8608, 8609, 8613, 8616, 8618, 8619, 8633, 8636, 8638, 8639, 8703, 8706, 8708, 8709, 8713, 8716, 8718, 8719, 8733, 8736, 8738, 8739, 8903, 8906, 8908, 8909, 8913, 8916, 8918, 8919, 8933, 8936, 8938, 8939"
+    },
+    "PT-RIO, RJ, 16:00, PTV": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7772",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2366",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5248",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2624",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3303",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "1313",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "388",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "7403": [
+          "Dezena no quinto prêmio!<br>com o palpite 7403",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7403"
+        ],
+        "7413": [
+          "Dezena no sexto prêmio!<br>com o palpite 7413",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 7413"
+        ],
+        "7416": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 7416"
+        ],
+        "7603": [
+          "Dezena no quinto prêmio!<br>com o palpite 7603",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7603"
+        ],
+        "7613": [
+          "Dezena no sexto prêmio!<br>com o palpite 7613",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 7613"
+        ],
+        "7616": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 7616"
+        ],
+        "7703": [
+          "Dezena no quinto prêmio!<br>com o palpite 7703",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7703"
+        ],
+        "7713": [
+          "Dezena no sexto prêmio!<br>com o palpite 7713",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 7713"
+        ],
+        "7716": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 7716"
+        ],
+        "7903": [
+          "Dezena no quinto prêmio!<br>com o palpite 7903",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7903"
+        ],
+        "7913": [
+          "Dezena no sexto prêmio!<br>com o palpite 7913",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 7913"
+        ],
+        "7916": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 7916"
+        ],
+        "8403": [
+          "Dezena no quinto prêmio!<br>com o palpite 8403",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8403"
+        ],
+        "8413": [
+          "Dezena no sexto prêmio!<br>com o palpite 8413",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 8413"
+        ],
+        "8416": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 8416"
+        ],
+        "8603": [
+          "Dezena no quinto prêmio!<br>com o palpite 8603",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8603"
+        ],
+        "8613": [
+          "Dezena no sexto prêmio!<br>com o palpite 8613",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 8613"
+        ],
+        "8616": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 8616"
+        ],
+        "8703": [
+          "Dezena no quinto prêmio!<br>com o palpite 8703",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8703"
+        ],
+        "8713": [
+          "Dezena no sexto prêmio!<br>com o palpite 8713",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 8713"
+        ],
+        "8716": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 8716"
+        ],
+        "8903": [
+          "Dezena no quinto prêmio!<br>com o palpite 8903",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8903"
+        ],
+        "8913": [
+          "Dezena no sexto prêmio!<br>com o palpite 8913",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 8913"
+        ],
+        "8916": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 8916"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 16,
         "Grupo": [
-          "🐕"
+          "🪶",
+          "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7618, 7678"
+      "resumo": "Palpites dados para esta extração: 7403, 7406, 7408, 7409, 7413, 7416, 7418, 7419, 7433, 7436, 7438, 7439, 7603, 7606, 7608, 7609, 7613, 7616, 7618, 7619, 7633, 7636, 7638, 7639, 7703, 7706, 7708, 7709, 7713, 7716, 7718, 7719, 7733, 7736, 7738, 7739, 7903, 7906, 7908, 7909, 7913, 7916, 7918, 7919, 7933, 7936, 7938, 7939, 8403, 8406, 8408, 8409, 8413, 8416, 8418, 8419, 8433, 8436, 8438, 8439, 8603, 8606, 8608, 8609, 8613, 8616, 8618, 8619, 8633, 8636, 8638, 8639, 8703, 8706, 8708, 8709, 8713, 8716, 8718, 8719, 8733, 8736, 8738, 8739, 8903, 8906, 8908, 8909, 8913, 8916, 8918, 8919, 8933, 8936, 8938, 8939"
     }
   },
   "1-10": {
@@ -283,23 +801,14 @@
           "Bicho": "Jacaré"
         }
       ],
-      "frases": {
-        "7678": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 7678",
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 7678",
-          "Dezena no oitavo prêmio!<br>com o palpite 7678",
-          "PERU 🦃 no oitavo prêmio!<br>com o palpite 7678"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
-        "Grupo": [
-          "🦃"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 7618, 7678"
+      "resumo": "Palpites dados para esta extração: 7403, 7406, 7408, 7409, 7413, 7416, 7418, 7419, 7433, 7436, 7438, 7439, 7603, 7606, 7608, 7609, 7613, 7616, 7618, 7619, 7633, 7636, 7638, 7639, 7703, 7706, 7708, 7709, 7713, 7716, 7718, 7719, 7733, 7736, 7738, 7739, 7903, 7906, 7908, 7909, 7913, 7916, 7918, 7919, 7933, 7936, 7938, 7939, 8403, 8406, 8408, 8409, 8413, 8416, 8418, 8419, 8433, 8436, 8438, 8439, 8603, 8606, 8608, 8609, 8613, 8616, 8618, 8619, 8633, 8636, 8638, 8639, 8703, 8706, 8708, 8709, 8713, 8716, 8718, 8719, 8733, 8736, 8738, 8739, 8903, 8906, 8908, 8909, 8913, 8916, 8918, 8919, 8933, 8936, 8938, 8939"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -371,29 +880,218 @@
         }
       ],
       "frases": {
+        "7406": [
+          "Dezena no quarto prêmio!<br>com o palpite 7406",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7406"
+        ],
+        "7408": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7408"
+        ],
+        "7413": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 7413"
+        ],
+        "7416": [
+          "Dezena no nono prêmio!<br>com o palpite 7416",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 7416"
+        ],
+        "7418": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7418",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7418"
+        ],
+        "7419": [
+          "Dezena no segundo prêmio!<br>com o palpite 7419",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7419",
+          "Dezena no décimo prêmio!<br>com o palpite 7419",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7419"
+        ],
+        "7606": [
+          "Dezena no quarto prêmio!<br>com o palpite 7606",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7606"
+        ],
+        "7608": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7608"
+        ],
+        "7613": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 7613"
+        ],
+        "7616": [
+          "Dezena no nono prêmio!<br>com o palpite 7616",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 7616"
+        ],
         "7618": [
           "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7618",
           "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7618"
         ],
-        "7678": [
-          "Milhar e Centena no primeiro prêmio!<br>com o palpite 7678",
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7678",
-          "Dezena no primeiro prêmio!<br>com o palpite 7678",
-          "PERU 🦃 no primeiro prêmio!<br>com o palpite 7678",
-          "Dezena no quinto prêmio!<br>com o palpite 7678",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 7678"
+        "7619": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 7619",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 7619",
+          "Dezena no segundo prêmio!<br>com o palpite 7619",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7619",
+          "Dezena no décimo prêmio!<br>com o palpite 7619",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7619"
+        ],
+        "7706": [
+          "Dezena no quarto prêmio!<br>com o palpite 7706",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7706"
+        ],
+        "7708": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7708"
+        ],
+        "7713": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 7713"
+        ],
+        "7716": [
+          "Dezena no nono prêmio!<br>com o palpite 7716",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 7716"
+        ],
+        "7718": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7718",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7718"
+        ],
+        "7719": [
+          "Dezena no segundo prêmio!<br>com o palpite 7719",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7719",
+          "Dezena no décimo prêmio!<br>com o palpite 7719",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7719"
+        ],
+        "7906": [
+          "Dezena no quarto prêmio!<br>com o palpite 7906",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7906"
+        ],
+        "7908": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 7908"
+        ],
+        "7913": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 7913"
+        ],
+        "7916": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 7916",
+          "Dezena no nono prêmio!<br>com o palpite 7916",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 7916"
+        ],
+        "7918": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7918",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7918"
+        ],
+        "7919": [
+          "Dezena no segundo prêmio!<br>com o palpite 7919",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7919",
+          "Centena e Dezena no décimo prêmio!<br>com o palpite 7919",
+          "Dezena no décimo prêmio!<br>com o palpite 7919",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7919"
+        ],
+        "8406": [
+          "Dezena no quarto prêmio!<br>com o palpite 8406",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8406"
+        ],
+        "8408": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8408"
+        ],
+        "8413": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 8413"
+        ],
+        "8416": [
+          "Dezena no nono prêmio!<br>com o palpite 8416",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 8416"
+        ],
+        "8418": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8418",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8418"
+        ],
+        "8419": [
+          "Dezena no segundo prêmio!<br>com o palpite 8419",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8419",
+          "Dezena no décimo prêmio!<br>com o palpite 8419",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8419"
+        ],
+        "8606": [
+          "Dezena no quarto prêmio!<br>com o palpite 8606",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8606"
+        ],
+        "8608": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8608"
+        ],
+        "8613": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 8613"
+        ],
+        "8616": [
+          "Dezena no nono prêmio!<br>com o palpite 8616",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 8616"
+        ],
+        "8618": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8618",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8618"
+        ],
+        "8619": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 8619",
+          "Dezena no segundo prêmio!<br>com o palpite 8619",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8619",
+          "Dezena no décimo prêmio!<br>com o palpite 8619",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8619"
+        ],
+        "8706": [
+          "Dezena no quarto prêmio!<br>com o palpite 8706",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8706"
+        ],
+        "8708": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8708"
+        ],
+        "8713": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 8713"
+        ],
+        "8716": [
+          "Dezena no nono prêmio!<br>com o palpite 8716",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 8716"
+        ],
+        "8718": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8718",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8718"
+        ],
+        "8719": [
+          "Dezena no segundo prêmio!<br>com o palpite 8719",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8719",
+          "Dezena no décimo prêmio!<br>com o palpite 8719",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8719"
+        ],
+        "8906": [
+          "Dezena no quarto prêmio!<br>com o palpite 8906",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8906"
+        ],
+        "8908": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 8908"
+        ],
+        "8913": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 8913"
+        ],
+        "8916": [
+          "Milhar e Centena no nono prêmio!<br>com o palpite 8916",
+          "Centena e Dezena no nono prêmio!<br>com o palpite 8916",
+          "Dezena no nono prêmio!<br>com o palpite 8916",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 8916"
+        ],
+        "8918": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8918",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8918"
+        ],
+        "8919": [
+          "Dezena no segundo prêmio!<br>com o palpite 8919",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8919",
+          "Centena e Dezena no décimo prêmio!<br>com o palpite 8919",
+          "Dezena no décimo prêmio!<br>com o palpite 8919",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8919"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 1,
-        "Dezena": 2,
+        "Milhar": 2,
+        "Centena": 6,
+        "Dezena": 32,
         "Grupo": [
-          "🦃",
-          "🐕"
+          "🐕",
+          "🦅",
+          "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7618, 7678"
+      "resumo": "Palpites dados para esta extração: 7403, 7406, 7408, 7409, 7413, 7416, 7418, 7419, 7433, 7436, 7438, 7439, 7603, 7606, 7608, 7609, 7613, 7616, 7618, 7619, 7633, 7636, 7638, 7639, 7703, 7706, 7708, 7709, 7713, 7716, 7718, 7719, 7733, 7736, 7738, 7739, 7903, 7906, 7908, 7909, 7913, 7916, 7918, 7919, 7933, 7936, 7938, 7939, 8403, 8406, 8408, 8409, 8413, 8416, 8418, 8419, 8433, 8436, 8438, 8439, 8603, 8606, 8608, 8609, 8613, 8616, 8618, 8619, 8633, 8636, 8638, 8639, 8703, 8706, 8708, 8709, 8713, 8716, 8718, 8719, 8733, 8736, 8738, 8739, 8903, 8906, 8908, 8909, 8913, 8916, 8918, 8919, 8933, 8936, 8938, 8939"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -465,19 +1163,418 @@
         }
       ],
       "frases": {
+        "7403": [
+          "Dezena no quinto prêmio!<br>com o palpite 7403",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7403"
+        ],
+        "7406": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 7406",
+          "Dezena no décimo prêmio!<br>com o palpite 7406",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7406"
+        ],
+        "7408": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 7408",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7408"
+        ],
+        "7418": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7418"
+        ],
+        "7419": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7419",
+          "Dezena no primeiro prêmio!<br>com o palpite 7419",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7419"
+        ],
+        "7433": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7433",
+          "Dezena no oitavo prêmio!<br>com o palpite 7433",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 7433"
+        ],
+        "7436": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7436",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 7436"
+        ],
+        "7603": [
+          "Dezena no quinto prêmio!<br>com o palpite 7603",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7603"
+        ],
+        "7606": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 7606",
+          "Dezena no décimo prêmio!<br>com o palpite 7606",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7606"
+        ],
+        "7608": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 7608",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7608"
+        ],
         "7618": [
           "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7618"
+        ],
+        "7619": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7619",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7619"
+        ],
+        "7633": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7633",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 7633",
+          "Dezena no oitavo prêmio!<br>com o palpite 7633",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 7633"
+        ],
+        "7636": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7636",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 7636"
+        ],
+        "7703": [
+          "Dezena no quinto prêmio!<br>com o palpite 7703",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7703"
+        ],
+        "7706": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 7706",
+          "Dezena no décimo prêmio!<br>com o palpite 7706",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7706"
+        ],
+        "7708": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 7708",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7708"
+        ],
+        "7718": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7718"
+        ],
+        "7719": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7719",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7719"
+        ],
+        "7733": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7733",
+          "Dezena no oitavo prêmio!<br>com o palpite 7733",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 7733"
+        ],
+        "7736": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7736",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 7736"
+        ],
+        "7903": [
+          "Dezena no quinto prêmio!<br>com o palpite 7903",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7903"
+        ],
+        "7906": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 7906",
+          "Dezena no décimo prêmio!<br>com o palpite 7906",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7906"
+        ],
+        "7908": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 7908",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7908"
+        ],
+        "7918": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7918"
+        ],
+        "7919": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7919",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7919"
+        ],
+        "7933": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7933",
+          "Dezena no oitavo prêmio!<br>com o palpite 7933",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 7933"
+        ],
+        "7936": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7936",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 7936"
+        ],
+        "8403": [
+          "Dezena no quinto prêmio!<br>com o palpite 8403",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8403"
+        ],
+        "8406": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 8406",
+          "Dezena no décimo prêmio!<br>com o palpite 8406",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 8406"
+        ],
+        "8408": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 8408",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 8408"
+        ],
+        "8418": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8418"
+        ],
+        "8419": [
+          "Milhar e Centena no primeiro prêmio!<br>com o palpite 8419",
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 8419",
+          "Dezena no primeiro prêmio!<br>com o palpite 8419",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8419"
+        ],
+        "8433": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8433",
+          "Dezena no oitavo prêmio!<br>com o palpite 8433",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 8433"
+        ],
+        "8436": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8436",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 8436"
+        ],
+        "8603": [
+          "Dezena no quinto prêmio!<br>com o palpite 8603",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8603"
+        ],
+        "8606": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 8606",
+          "Dezena no décimo prêmio!<br>com o palpite 8606",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 8606"
+        ],
+        "8608": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 8608",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 8608"
+        ],
+        "8618": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8618"
+        ],
+        "8619": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8619",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8619"
+        ],
+        "8633": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8633",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 8633",
+          "Dezena no oitavo prêmio!<br>com o palpite 8633",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 8633"
+        ],
+        "8636": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8636",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 8636"
+        ],
+        "8703": [
+          "Dezena no quinto prêmio!<br>com o palpite 8703",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8703"
+        ],
+        "8706": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 8706",
+          "Dezena no décimo prêmio!<br>com o palpite 8706",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 8706"
+        ],
+        "8708": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 8708",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 8708"
+        ],
+        "8718": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8718"
+        ],
+        "8719": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8719",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8719"
+        ],
+        "8733": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8733",
+          "Dezena no oitavo prêmio!<br>com o palpite 8733",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 8733"
+        ],
+        "8736": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8736",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 8736"
+        ],
+        "8903": [
+          "Dezena no quinto prêmio!<br>com o palpite 8903",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8903"
+        ],
+        "8906": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 8906",
+          "Dezena no décimo prêmio!<br>com o palpite 8906",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 8906"
+        ],
+        "8908": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 8908",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 8908"
+        ],
+        "8918": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8918"
+        ],
+        "8919": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8919",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 8919"
+        ],
+        "8933": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8933",
+          "Dezena no oitavo prêmio!<br>com o palpite 8933",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 8933"
+        ],
+        "8936": [
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 8936",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 8936"
+        ]
+      },
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 32,
+        "Grupo": [
+          "🐕",
+          "🐍",
+          "🪶",
+          "🦅"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 7403, 7406, 7408, 7409, 7413, 7416, 7418, 7419, 7433, 7436, 7438, 7439, 7603, 7606, 7608, 7609, 7613, 7616, 7618, 7619, 7633, 7636, 7638, 7639, 7703, 7706, 7708, 7709, 7713, 7716, 7718, 7719, 7733, 7736, 7738, 7739, 7903, 7906, 7908, 7909, 7913, 7916, 7918, 7919, 7933, 7936, 7938, 7939, 8403, 8406, 8408, 8409, 8413, 8416, 8418, 8419, 8433, 8436, 8438, 8439, 8603, 8606, 8608, 8609, 8613, 8616, 8618, 8619, 8633, 8636, 8638, 8639, 8703, 8706, 8708, 8709, 8713, 8716, 8718, 8719, 8733, 8736, 8738, 8739, 8903, 8906, 8908, 8909, 8913, 8916, 8918, 8919, 8933, 8936, 8938, 8939"
+    },
+    "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7772",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2366",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5248",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2624",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3303",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7252",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "7326",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "7642",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "2684",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "6217",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        }
+      ],
+      "frases": {
+        "7403": [
+          "Dezena no quinto prêmio!<br>com o palpite 7403",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7403"
+        ],
+        "7418": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7418"
+        ],
+        "7419": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7419"
+        ],
+        "7603": [
+          "Dezena no quinto prêmio!<br>com o palpite 7603",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7603"
+        ],
+        "7618": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7618"
+        ],
+        "7619": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7619"
+        ],
+        "7703": [
+          "Dezena no quinto prêmio!<br>com o palpite 7703",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7703"
+        ],
+        "7718": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7718"
+        ],
+        "7719": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7719"
+        ],
+        "7903": [
+          "Dezena no quinto prêmio!<br>com o palpite 7903",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7903"
+        ],
+        "7918": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7918"
+        ],
+        "7919": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 7919"
+        ],
+        "8403": [
+          "Dezena no quinto prêmio!<br>com o palpite 8403",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8403"
+        ],
+        "8418": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8418"
+        ],
+        "8419": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8419"
+        ],
+        "8603": [
+          "Dezena no quinto prêmio!<br>com o palpite 8603",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8603"
+        ],
+        "8618": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8618"
+        ],
+        "8619": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8619"
+        ],
+        "8703": [
+          "Dezena no quinto prêmio!<br>com o palpite 8703",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8703"
+        ],
+        "8718": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8718"
+        ],
+        "8719": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8719"
+        ],
+        "8903": [
+          "Dezena no quinto prêmio!<br>com o palpite 8903",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8903"
+        ],
+        "8918": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8918"
+        ],
+        "8919": [
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8919"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 8,
         "Grupo": [
+          "🪶",
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7618, 7678"
+      "resumo": "Palpites dados para esta extração: 7403, 7406, 7408, 7409, 7413, 7416, 7418, 7419, 7433, 7436, 7438, 7439, 7603, 7606, 7608, 7609, 7613, 7616, 7618, 7619, 7633, 7636, 7638, 7639, 7703, 7706, 7708, 7709, 7713, 7716, 7718, 7719, 7733, 7736, 7738, 7739, 7903, 7906, 7908, 7909, 7913, 7916, 7918, 7919, 7933, 7936, 7938, 7939, 8403, 8406, 8408, 8409, 8413, 8416, 8418, 8419, 8433, 8436, 8438, 8439, 8603, 8606, 8608, 8609, 8613, 8616, 8618, 8619, 8633, 8636, 8638, 8639, 8703, 8706, 8708, 8709, 8713, 8716, 8718, 8719, 8733, 8736, 8738, 8739, 8903, 8906, 8908, 8909, 8913, 8916, 8918, 8919, 8933, 8936, 8938, 8939"
     }
   }
 }
