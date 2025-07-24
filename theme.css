@@ -1607,17 +1607,19 @@ tbody tr:last-child td {
 }
 
 .sliding-banner .banner-btn {
-  background-color: #3b82f6; /* Cor azul */
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); /* Gradiente */
   color: white; /* Fonte branca */
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3); /* Sombra para destaque */
 }
 
 .sliding-banner .banner-btn:hover {
-  background-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4); /* Sombra maior no hover */
 }
 
 .sliding-banner .banner-link {
@@ -1625,6 +1627,7 @@ tbody tr:last-child td {
   text-decoration: underline;
   font-size: 0.9rem;
   transition: color 0.3s ease;
+  margin-bottom: 20px; /* Espaçamento adicionado */
 }
 
 .sliding-banner .banner-link:hover {
@@ -1668,12 +1671,13 @@ tbody tr:last-child td {
 .sliding-banner .banner-logo {
   max-width: 120px; /* Ajuste conforme necessário */
   height: auto;
-  margin-bottom: 10px; /* Espaçamento entre a logo e o texto */
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .sliding-banner .banner-text {
   color: white;
-  font-size: 0.9rem;
+  font-size: 1.2rem; /* Aumentado para 1.2rem */
   margin-bottom: 15px; /* Espaçamento entre o texto e o botão */
   line-height: 1.3;
 }
