@@ -1661,3 +1661,37 @@ tbody tr:last-child td {
     padding: 0.1rem 0.4rem;
   }
 }
+
+
+
+
+.sliding-banner .banner-logo {
+  max-width: 120px; /* Ajuste conforme necessário */
+  height: auto;
+  margin-bottom: 10px; /* Espaçamento entre a logo e o texto */
+}
+
+.sliding-banner .banner-text {
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 15px; /* Espaçamento entre o texto e o botão */
+  line-height: 1.3;
+}
+
+@media (max-width: 767px) {
+  .sliding-banner .banner-logo {
+    max-width: 100px;
+  }
+  .sliding-banner .banner-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sliding-banner .banner-logo {
+    max-width: 80px;
+  }
+  .sliding-banner .banner-text {
+    font-size: 0.7rem;
+  }
+}
