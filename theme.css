@@ -954,7 +954,7 @@ tbody tr:last-child td {
 
 .flatpickr-day.today {
   border-color: var(--accent-secondary) !important;
-  color: var(--accent-secondary) !important;
+  color: var(--accent-secondary) !nimportant;
 }
 
 .flatpickr-day.today.selected {
@@ -1548,7 +1548,7 @@ tbody tr:last-child td {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 200px; /* Altura do banner */
+  height: 280px; /* Altura do banner ajustada para acomodar todos os elementos */
   background-color: var(--bg-card);
   box-shadow: var(--shadow-xl);
   transform: translateY(100%); /* Escondido inicialmente */
@@ -1634,7 +1634,7 @@ tbody tr:last-child td {
 /* Responsive adjustments for the banner */
 @media (max-width: 767px) {
   .sliding-banner {
-    height: 180px;
+    height: 250px; /* Ajuste para telas menores */
   }
   .sliding-banner .banner-btn {
     padding: 8px 15px;
@@ -1647,7 +1647,7 @@ tbody tr:last-child td {
 
 @media (max-width: 480px) {
   .sliding-banner {
-    height: 150px;
+    height: 220px; /* Ajuste para telas muito pequenas */
   }
   .sliding-banner .banner-btn {
     padding: 6px 12px;
