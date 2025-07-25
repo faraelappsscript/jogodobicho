@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3940, 4940, 5940"
+      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3940, 4940, 5940"
+      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -172,28 +172,29 @@
         }
       ],
       "frases": {
-        "3940": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3940",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 3940"
+        "9930": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 9930",
+          "Dezena no quarto prêmio!<br>com o palpite 9930",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9930"
         ],
-        "4940": [
-          "Dezena no terceiro prêmio!<br>com o palpite 4940",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 4940"
+        "9931": [
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9931"
         ],
-        "5940": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5940",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 5940"
+        "9940": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9940",
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 9940"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 3,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
-          "🐇"
+          "🐇",
+          "🐪"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3940, 4940, 5940"
+      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -246,14 +247,93 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "9930": [
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9930"
+        ],
+        "9931": [
+          "Milhar e Centena no terceiro prêmio!<br>com o palpite 9931",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 9931",
+          "Dezena no terceiro prêmio!<br>com o palpite 9931",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9931"
+        ]
+      },
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 1,
+        "Grupo": [
+          "🐪"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
+    },
+    "PT-RIO, RJ, 18:20, PTN": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2981",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5313",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "3976",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7359",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1110",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "0739",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "838",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "9940": [
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 9940",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9940"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐇"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3940, 4940, 5940"
+      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
     }
   },
   "1-10": {
@@ -333,7 +413,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3940, 4940, 5940"
+      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -404,14 +484,23 @@
           "Bicho": "Camelo"
         }
       ],
-      "frases": {},
+      "frases": {
+        "9930": [
+          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 9930"
+        ],
+        "9931": [
+          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 9931"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐪"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3940, 4940, 5940"
+      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -483,40 +572,39 @@
         }
       ],
       "frases": {
-        "3940": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3940",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 3940",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 3940",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 3940",
-          "Dezena no décimo prêmio!<br>com o palpite 3940",
-          "COELHO 🐇 no décimo prêmio!<br>com o palpite 3940"
+        "9930": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 9930",
+          "Dezena no quarto prêmio!<br>com o palpite 9930",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9930",
+          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 9930"
         ],
-        "4940": [
-          "Dezena no terceiro prêmio!<br>com o palpite 4940",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 4940",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4940",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 4940",
-          "Dezena no décimo prêmio!<br>com o palpite 4940",
-          "COELHO 🐇 no décimo prêmio!<br>com o palpite 4940"
+        "9931": [
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9931",
+          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 9931"
         ],
-        "5940": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5940",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 5940",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 5940",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 5940",
-          "Dezena no décimo prêmio!<br>com o palpite 5940",
-          "COELHO 🐇 no décimo prêmio!<br>com o palpite 5940"
+        "9940": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9940",
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 9940",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9940",
+          "Centena e Dezena no décimo prêmio!<br>com o palpite 9940",
+          "Dezena no décimo prêmio!<br>com o palpite 9940",
+          "COELHO 🐇 no décimo prêmio!<br>com o palpite 9940"
+        ],
+        "9941": [
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 9941"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 3,
-        "Dezena": 6,
+        "Centena": 2,
+        "Dezena": 3,
         "Grupo": [
-          "🐇"
+          "🐇",
+          "🐪",
+          "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3940, 4940, 5940"
+      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -587,14 +675,114 @@
           "Bicho": "Cavalo"
         }
       ],
-      "frases": {},
+      "frases": {
+        "9930": [
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9930"
+        ],
+        "9931": [
+          "Milhar e Centena no terceiro prêmio!<br>com o palpite 9931",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 9931",
+          "Dezena no terceiro prêmio!<br>com o palpite 9931",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9931"
+        ],
+        "9941": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 9941"
+        ]
+      },
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 1,
+        "Grupo": [
+          "🐪",
+          "🐎"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
+    },
+    "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2981",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5313",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "3976",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7359",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1110",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "2537",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "9393",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "8175",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "1369",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "2213",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        }
+      ],
+      "frases": {
+        "9940": [
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 9940"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐇"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3940, 4940, 5940"
+      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
     }
   }
 }
