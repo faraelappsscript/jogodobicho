@@ -51,14 +51,30 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "9317": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9317",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 9317"
+        ],
+        "9517": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 9517",
+          "Dezena no primeiro prêmio!<br>com o palpite 9517",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 9517"
+        ],
+        "9917": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9917",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 9917"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 1,
+        "Dezena": 3,
+        "Grupo": [
+          "🐕"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
+      "resumo": "Palpites dados para esta extração: 9311, 9313, 9317, 9331, 9333, 9337, 9351, 9353, 9357, 9391, 9393, 9397, 9511, 9513, 9517, 9531, 9533, 9537, 9551, 9553, 9557, 9591, 9593, 9597, 9911, 9913, 9917, 9931, 9933, 9937, 9951, 9953, 9957, 9991, 9993, 9997"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,14 +127,43 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "9311": [
+          "Dezena no segundo prêmio!<br>com o palpite 9311",
+          "BURRO 🐴 no segundo prêmio!<br>com o palpite 9311"
+        ],
+        "9391": [
+          "Dezena no quinto prêmio!<br>com o palpite 9391",
+          "URSO 🐻 no quinto prêmio!<br>com o palpite 9391"
+        ],
+        "9511": [
+          "Dezena no segundo prêmio!<br>com o palpite 9511",
+          "BURRO 🐴 no segundo prêmio!<br>com o palpite 9511"
+        ],
+        "9591": [
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 9591",
+          "Dezena no quinto prêmio!<br>com o palpite 9591",
+          "URSO 🐻 no quinto prêmio!<br>com o palpite 9591"
+        ],
+        "9911": [
+          "Dezena no segundo prêmio!<br>com o palpite 9911",
+          "BURRO 🐴 no segundo prêmio!<br>com o palpite 9911"
+        ],
+        "9991": [
+          "Dezena no quinto prêmio!<br>com o palpite 9991",
+          "URSO 🐻 no quinto prêmio!<br>com o palpite 9991"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 1,
+        "Dezena": 6,
+        "Grupo": [
+          "🐴",
+          "🐻"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
+      "resumo": "Palpites dados para esta extração: 9311, 9313, 9317, 9331, 9333, 9337, 9351, 9353, 9357, 9391, 9393, 9397, 9511, 9513, 9517, 9531, 9533, 9537, 9551, 9553, 9557, 9591, 9593, 9597, 9911, 9913, 9917, 9931, 9933, 9937, 9951, 9953, 9957, 9991, 9993, 9997"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -172,29 +217,48 @@
         }
       ],
       "frases": {
-        "9930": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 9930",
-          "Dezena no quarto prêmio!<br>com o palpite 9930",
-          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9930"
+        "9331": [
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9331"
+        ],
+        "9337": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 9337"
+        ],
+        "9351": [
+          "GALO 🐓 no primeiro prêmio!<br>com o palpite 9351",
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 9351"
+        ],
+        "9531": [
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9531"
+        ],
+        "9537": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 9537"
+        ],
+        "9551": [
+          "GALO 🐓 no primeiro prêmio!<br>com o palpite 9551",
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 9551"
         ],
         "9931": [
           "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9931"
         ],
-        "9940": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9940",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 9940"
+        "9937": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 9937"
+        ],
+        "9951": [
+          "GALO 🐓 no primeiro prêmio!<br>com o palpite 9951",
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 9951"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 2,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
+          "🐓",
           "🐇",
           "🐪"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
+      "resumo": "Palpites dados para esta extração: 9311, 9313, 9317, 9331, 9333, 9337, 9351, 9353, 9357, 9391, 9393, 9397, 9511, 9513, 9517, 9531, 9533, 9537, 9551, 9553, 9557, 9591, 9593, 9597, 9911, 9913, 9917, 9931, 9933, 9937, 9951, 9953, 9957, 9991, 9993, 9997"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -248,25 +312,63 @@
         }
       ],
       "frases": {
-        "9930": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9930"
+        "9317": [
+          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 9317"
+        ],
+        "9331": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9331",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9331"
+        ],
+        "9353": [
+          "GATO 🐈 no segundo prêmio!<br>com o palpite 9353",
+          "GATO 🐈 no quinto prêmio!<br>com o palpite 9353"
+        ],
+        "9397": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 9397"
+        ],
+        "9517": [
+          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 9517"
+        ],
+        "9531": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9531",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9531"
+        ],
+        "9553": [
+          "GATO 🐈 no segundo prêmio!<br>com o palpite 9553",
+          "GATO 🐈 no quinto prêmio!<br>com o palpite 9553"
+        ],
+        "9597": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 9597"
+        ],
+        "9917": [
+          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 9917"
         ],
         "9931": [
           "Milhar e Centena no terceiro prêmio!<br>com o palpite 9931",
           "Centena e Dezena no terceiro prêmio!<br>com o palpite 9931",
           "Dezena no terceiro prêmio!<br>com o palpite 9931",
           "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9931"
+        ],
+        "9953": [
+          "GATO 🐈 no segundo prêmio!<br>com o palpite 9953",
+          "GATO 🐈 no quinto prêmio!<br>com o palpite 9953"
+        ],
+        "9997": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 9997"
         ]
       },
       "acertos": {
         "Milhar": 1,
         "Centena": 1,
-        "Dezena": 1,
+        "Dezena": 3,
         "Grupo": [
-          "🐪"
+          "🐄",
+          "🐈",
+          "🐪",
+          "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
+      "resumo": "Palpites dados para esta extração: 9311, 9313, 9317, 9331, 9333, 9337, 9351, 9353, 9357, 9391, 9393, 9397, 9511, 9513, 9517, 9531, 9533, 9537, 9551, 9553, 9557, 9591, 9593, 9597, 9911, 9913, 9917, 9931, 9933, 9937, 9951, 9953, 9957, 9991, 9993, 9997"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -320,20 +422,62 @@
         }
       ],
       "frases": {
-        "9940": [
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 9940",
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9940"
+        "9311": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 9311"
+        ],
+        "9313": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 9313",
+          "Dezena no segundo prêmio!<br>com o palpite 9313",
+          "BORBOLETA 🦋 no segundo prêmio!<br>com o palpite 9313"
+        ],
+        "9337": [
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 9337",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9337"
+        ],
+        "9357": [
+          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 9357"
+        ],
+        "9511": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 9511"
+        ],
+        "9513": [
+          "Dezena no segundo prêmio!<br>com o palpite 9513",
+          "BORBOLETA 🦋 no segundo prêmio!<br>com o palpite 9513"
+        ],
+        "9537": [
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 9537",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9537"
+        ],
+        "9557": [
+          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 9557"
+        ],
+        "9911": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 9911"
+        ],
+        "9913": [
+          "Dezena no segundo prêmio!<br>com o palpite 9913",
+          "BORBOLETA 🦋 no segundo prêmio!<br>com o palpite 9913"
+        ],
+        "9937": [
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 9937",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9937"
+        ],
+        "9957": [
+          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 9957"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 1,
+        "Dezena": 3,
         "Grupo": [
+          "🦋",
+          "🐊",
+          "🐴",
           "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9930, 9931, 9940, 9941"
+      "resumo": "Palpites dados para esta extração: 9311, 9313, 9317, 9331, 9333, 9337, 9351, 9353, 9357, 9391, 9393, 9397, 9511, 9513, 9517, 9531, 9533, 9537, 9551, 9553, 9557, 9591, 9593, 9597, 9911, 9913, 9917, 9931, 9933, 9937, 9951, 9953, 9957, 9991, 9993, 9997"
     }
   },
   "1-10": {
