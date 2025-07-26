@@ -1371,5 +1371,3 @@ function setCopyrightText() {
 
 // Chamar a função ao carregar a página
 document.addEventListener("DOMContentLoaded", setCopyrightText);
-
-
