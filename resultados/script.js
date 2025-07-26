@@ -135,7 +135,7 @@ async function shareImage() {
       } else {
         // Fallback para compartilhamento de URL com código
         const imageUrl = URL.createObjectURL(currentImageBlob);
-        const shareUrl = generateShareUrl();
+        const shareUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
         await navigator.share({
           title: getPageTitle(),
           text: 'Confira este resultado!',
@@ -153,20 +153,6 @@ async function shareImage() {
       showToast('Erro ao compartilhar imagem.');
     }
   }
-}
-
-// Função para gerar URL de compartilhamento correta
-function generateShareUrl() {
-  const storedCode = getStoredProductCode();
-  const baseUrl = `${window.location.origin}${window.location.pathname}`;
-  
-  // Se não há código armazenado, retorna URL sem parâmetro
-  if (!storedCode) {
-    return baseUrl;
-  }
-  
-  // Se há código armazenado, adiciona o parâmetro pr
-  return `${baseUrl}?pr=${storedCode}`;
 }
 
 // Função para abrir o modal de opções para criar PNG
@@ -491,7 +477,7 @@ function toggleResultView() {
     document.querySelectorAll('.toggle-view-btn').forEach(btn => {
         btn.innerHTML = show1to10 ? '👁️ Ver do 1º ao 5º' : '👁️ Ver do 1º ao 10º';
         btn.onclick = () => {
-            localStorage.setItem('viewPreference', show1to10 ? '1-5' : '1-10');
+            localStorage.setItem('viewPreference', localStorage.getItem('viewPreference') === '1-10' ? '1-5' : '1-10');
             toggleResultView();
         };
     });
@@ -499,225 +485,419 @@ function toggleResultView() {
 
 // Mostrar resumo de acertos
 function showResumo(cardId) {
+    activeCardId = cardId;
     const [version, titleKey] = getCardDetails(cardId);
     const data = globalData[version][titleKey];
-    
+
     const modalBody = document.getElementById('resumoModalBody');
+    let content = '<h4>📊 Resultados</h4>';
     
-    if (!data.acertos || Object.keys(data.acertos).length === 0) {
-        modalBody.innerHTML = '<div class="no-data">Nenhum acerto registrado para este resultado.</div>';
+    content += `
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>${data.cabecalhos.map(h => `<th>${h}</th>`).join('')}</tr>
+                </thead>
+                <tbody>
+                    ${data.dados.map(row => `<tr>${data.cabecalhos.map(h => `<td>${row[h] || '-'}</td>`).join('')}</tr>`).join('')}
+                </tbody>
+            </table>
+        </div>
+    `;
+
+    content += `<div class="timestamp">${getFormattedTimestamp(selectedDateStr)}</div>`;
+    
+    content += `
+        <div class="actions-bar">
+            <button class="btn btn-primary" onclick="shareContent('result', '${cardId}')">
+                📤 Compartilhar
+            </button>
+            <button class="btn btn-primary" onclick="copyContent('result', '${cardId}')">
+                📋 Copiar Resultado
+            </button>
+            <button class="btn btn-accent" onclick="openCreatePngModal('result', '${cardId}')">
+                🖼️ Criar PNG
+            </button>
+        </div>
+    `;
+
+    content += '<h4 style="margin-top: 2rem;">🎯 Frases de Acertos</h4>';
+    const frasesContainer = document.createElement('div');
+    frasesContainer.className = 'frases-acertos';
+    
+    if (data.frases && Object.keys(data.frases).length > 0) {
+        for (const palpite in data.frases) {
+            data.frases[palpite].forEach(frase => {
+                frasesContainer.innerHTML += `<p><strong>Palpite ${palpite}:</strong><br>${frase.replace(/<br>/g, ' ')}</p>`;
+            });
+        }
+        content += frasesContainer.outerHTML;
+        content += `
+            <div class="actions-bar" style="padding-top:0;">
+                <button class="btn btn-primary" onclick="copyContent('frases', '${cardId}')">
+                    📋 Copiar Frases de Acertos
+                </button>
+            </div>
+        `;
     } else {
-        let html = '<div class="acertos-summary">';
-        
-        if (data.acertos.Milhar > 0) {
-            html += `<div class="acerto-item"><span class="acerto-label">Milhares:</span> <span class="acerto-value">${data.acertos.Milhar}</span></div>`;
-        }
-        if (data.acertos.Centena > 0) {
-            html += `<div class="acerto-item"><span class="acerto-label">Centenas:</span> <span class="acerto-value">${data.acertos.Centena}</span></div>`;
-        }
-        if (data.acertos.Dezena > 0) {
-            html += `<div class="acerto-item"><span class="acerto-label">Dezenas:</span> <span class="acerto-value">${data.acertos.Dezena}</span></div>`;
-        }
-        if (data.acertos.Grupo && data.acertos.Grupo.length > 0) {
-            html += `<div class="acerto-item"><span class="acerto-label">Grupos:</span> <span class="acerto-value">${data.acertos.Grupo.join(' ')}</span></div>`;
-        }
-        
-        html += '</div>';
-        
-        // Adicionar frases de acertos se existirem
-        if (data.frases && Object.keys(data.frases).length > 0) {
-            html += '<div class="frases-acertos"><h4>Frases de Acertos:</h4>';
-            for (const palpite in data.frases) {
-                data.frases[palpite].forEach(frase => {
-                    html += `<p><strong>Palpite ${palpite}:</strong> ${frase}</p>`;
-                });
-            }
-            html += '</div>';
-        }
-        
-        modalBody.innerHTML = html;
+        frasesContainer.innerHTML = '<p>Nenhum acerto com os palpites fornecidos.</p>';
+        content += frasesContainer.outerHTML;
     }
     
-    // Configurar botão de palpites
-    document.getElementById('resumoModalPalpitesBtn').onclick = () => {
-        closeModal('resumoModal');
-        showPalpites(false, cardId);
-    };
+    content += `<p style="margin-top: 2rem; font-style: italic; color: var(--text-secondary);">${data.resumo || ''}</p>`;
     
+    modalBody.innerHTML = content;
+    document.getElementById('resumoModalPalpitesBtn').onclick = () => showPalpites(true, cardId);
     openModal('resumoModal');
 }
 
 // Mostrar palpites
-function showPalpites(fromResumo = false, cardId = null) {
+async function showPalpites(fromResumo, cardId) {
+    activeCardId = cardId;
     const modalBody = document.getElementById('palpitesModalBody');
     modalBody.innerHTML = '<div class="no-data loading">Carregando palpites...</div>';
     
-    // Configurar botão voltar
-    const voltarBtn = document.getElementById('voltarBtn');
-    if (fromResumo && cardId) {
-        voltarBtn.style.display = 'block';
-        voltarBtn.onclick = () => {
-            closeModal('palpitesModal');
-            showResumo(cardId);
-        };
-    } else {
-        voltarBtn.style.display = 'none';
+    document.getElementById('voltarBtn').style.display = fromResumo ? 'inline-flex' : 'none';
+    document.getElementById('voltarBtn').onclick = () => {
+        closeModal('palpitesModal');
+        openModal('resumoModal');
+    };
+
+    try {
+        const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
+        if (!response.ok) throw new Error('Não foi possível carregar os palpites.');
+        const palpitesData = await response.json();
+        
+        const [version, ] = getCardDetails(cardId);
+        const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
+        
+        let content = `<h4>🎯 ${frase}</h4>`;
+        content += `<div class="font-mono" style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 12px; word-break: break-word; line-height: 1.8;">${palpitesData.palpites.join(', ')}</div>`;
+        
+        content += `
+            <div class="actions-bar" style="margin-top: 2rem;">
+                <button class="btn btn-primary" onclick="shareContent('palpites', '${cardId}')">
+                    📤 Compartilhar
+                </button>
+                <button class="btn btn-primary" onclick="copyContent('palpites', '${cardId}')">
+                    📋 Copiar Palpites
+                </button>
+                <button class="btn btn-accent" onclick="generateImage('palpites', '${cardId}')">
+                    🖼️ Criar PNG
+                </button>
+            </div>
+        `;
+        modalBody.innerHTML = content;
+    } catch (error) {
+        modalBody.innerHTML = `<div class="no-data">${error.message}</div>`;
     }
-    
+
+    if (fromResumo) closeModal('resumoModal');
     openModal('palpitesModal');
-    
-    // Carregar palpites
-    fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime())
-        .then(response => {
-            if (!response.ok) throw new Error('Não foi possível carregar os palpites.');
-            return response.json();
-        })
-        .then(data => {
-            let html = '<div class="palpites-container">';
-            
-            // Frase personalizada
-            if (data.frase_1_5) {
-                html += `<div class="palpites-frase"><h4>${data.frase_1_5}</h4></div>`;
-            }
-            
-            // Lista de palpites
-            if (data.palpites && data.palpites.length > 0) {
-                html += '<div class="palpites-list">';
-                data.palpites.forEach((palpite, index) => {
-                    html += `<div class="palpite-item">${palpite}</div>`;
-                });
-                html += '</div>';
-                
-                // Botão para compartilhar palpites
-                html += `
-                    <div class="palpites-actions">
-                        <button class="btn btn-primary" onclick="shareContent('palpites', '${cardId || 'default'}')">
-                            📤 Compartilhar
-                        </button>
-                        <button class="btn btn-primary" onclick="copyContent('palpites', '${cardId || 'default'}')">
-                            📋 Copiar
-                        </button>
-                        <button class="btn btn-accent" onclick="openCreatePngModal('palpites', '${cardId || 'default'}')">
-                            🖼️ Criar PNG
-                        </button>
-                    </div>
-                `;
-            } else {
-                html += '<div class="no-data">Nenhum palpite disponível no momento.</div>';
-            }
-            
-            html += '</div>';
-            modalBody.innerHTML = html;
-        })
-        .catch(error => {
-            modalBody.innerHTML = `<div class="no-data">Erro ao carregar palpites: ${error.message}</div>`;
-        });
 }
 
-// Gerar imagem
+// Função para gerar imagem PNG usando Canvas nativo com layout melhorado
 async function generateImage(type, cardId) {
     try {
         const [version, titleKey] = getCardDetails(cardId);
         const data = globalData[version][titleKey];
         
-        // Criar canvas
+        // Verificar opções de imagem para resultados
+        if (type === 'result') {
+            const selectedOption = document.querySelector('input[name="imageContent"]:checked');
+            if (selectedOption) {
+                imageOptions.includeBanner = selectedOption.value === 'banner';
+                imageOptions.includeGuesses = selectedOption.value === 'guesses';
+            }
+        }
+        
+        // Criar canvas com tamanho otimizado
         const canvas = document.createElement('canvas');
         const ctx = canvas.getContext('2d');
         
-        // Configurações do canvas
-        canvas.width = 800;
-        canvas.height = 1200;
+        // Configurar tamanho do canvas no formato 9:16 para mobile
+        canvas.width = 720;
+        canvas.height = 1280;
         
-        // Fundo gradiente
-        const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
-        gradient.addColorStop(0, '#0f0f23');
-        gradient.addColorStop(1, '#1a1a2e');
+        // Sempre usar gradiente como plano de fundo
+        const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+        gradient.addColorStop(0, '#0f0f23'); // --bg-primary
+        gradient.addColorStop(0.3, '#16213e'); // --bg-card
+        gradient.addColorStop(0.7, '#1a1a2e'); // --bg-secondary
+        gradient.addColorStop(1, '#0f0f23'); // --bg-primary
         ctx.fillStyle = gradient;
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         
-        // Configurações de texto
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'middle';
+        // Adicionar efeito de borda sutil
+        ctx.strokeStyle = 'rgba(59, 130, 246, 0.3)';
+        ctx.lineWidth = 2;
+        ctx.strokeRect(10, 10, canvas.width - 20, canvas.height - 20);
         
         let yPosition = 80;
         
-        if (type === 'result') {
-            // Título
-            ctx.font = 'bold 32px Inter, Arial, sans-serif';
-            ctx.fillStyle = '#e2e8f0';
-            ctx.fillText(titleKey, canvas.width / 2, yPosition);
-            yPosition += 60;
+        // Tentar carregar e desenhar logo
+        try {
+            const logoImg = new Image();
+            logoImg.crossOrigin = 'anonymous';
+            await new Promise((resolve, reject) => {
+                logoImg.onload = resolve;
+                logoImg.onerror = resolve;
+                logoImg.src = getImagePath('logo.png');
+                setTimeout(resolve, 2000);
+            });
             
-            // Data
-            ctx.font = '20px Inter, Arial, sans-serif';
+            if (logoImg.complete && logoImg.naturalWidth > 0) {
+                const originalLogoHeight = 80;
+                const logoHeight = originalLogoHeight * 1.5;
+                const logoWidth = (logoImg.naturalWidth / logoImg.naturalHeight) * logoHeight;
+                const logoX = (canvas.width - logoWidth) / 2;
+                ctx.drawImage(logoImg, logoX, 30, logoWidth, logoHeight);
+                yPosition = 30 + logoHeight + 60;
+            }
+        } catch (error) {
+            console.log('Logo não carregada, continuando sem ela');
+        }
+        
+        // Configurar fonte principal
+        ctx.textAlign = 'center';
+        ctx.fillStyle = '#ffffff';
+        
+        if (type === 'result') {
+            // Título principal com estilo melhorado
+            ctx.font = 'bold 36px Inter, Arial, sans-serif';
+            ctx.fillStyle = '#ffffff';
+            ctx.fillText(titleKey, canvas.width / 2, yPosition);
+            yPosition += 50;
+            
+            // Data abaixo do título
+            ctx.font = 'bold 24px Inter, Arial, sans-serif'; // Aumentado de 20px para 24px
             ctx.fillStyle = '#94a3b8';
             ctx.fillText(getFormattedTimestamp(selectedDateStr), canvas.width / 2, yPosition);
             yPosition += 80;
             
-            // Resultados
-            if (data.dados && data.dados.length > 0) {
-                data.dados.forEach((row, index) => {
-                    const prêmio = row['Prêmio'] || '';
-                    const milhar = row['Milhar'] || '';
-                    const grupo = row['Grupo'] || '';
-                    const bicho = row['Bicho'] || '';
-                    
-                    // Prêmio
-                    ctx.font = 'bold 24px Inter, Arial, sans-serif';
-                    ctx.fillStyle = index === 0 ? '#FFD700' : '#3b82f6';
-                    ctx.fillText(`${prêmio}: ${milhar} - ${grupo} ${bicho}`, canvas.width / 2, yPosition);
-                    yPosition += 50;
-                });
-            }
-        } else if (type === 'palpites') {
-            // Carregar dados dos palpites
-            const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
-            const palpitesData = await response.json();
+            // Desenhar tabela ocupando toda a largura com fonte maior e espaçamento reduzido
+            ctx.font = '32px JetBrains Mono, monospace';
             
-            // Título
+            // Cabeçalhos da tabela - largura total
+            const tableWidth = canvas.width - 40;
+            const colWidth = tableWidth / data.cabecalhos.length;
+            const startX = 20;
+            
+            // Fundo dos cabeçalhos
+            ctx.fillStyle = 'rgba(59, 130, 246, 0.2)';
+            ctx.fillRect(startX, yPosition - 20, tableWidth, 32);
+            
+            // Texto dos cabeçalhos
+            ctx.fillStyle = '#3b82f6';
             ctx.font = 'bold 28px Inter, Arial, sans-serif';
-            ctx.fillStyle = '#e2e8f0';
-            ctx.fillText(palpitesData.frase_1_5 || 'Palpites para a próxima extração', canvas.width / 2, yPosition);
-            yPosition += 80;
+            data.cabecalhos.forEach((header, index) => {
+                ctx.fillText(header, startX + (index + 0.5) * colWidth, yPosition);
+            });
+            yPosition += 40;
             
-            // Palpites
-            if (palpitesData.palpites && palpitesData.palpites.length > 0) {
-                ctx.font = '22px Inter, Arial, sans-serif';
-                ctx.fillStyle = '#94a3b8';
-                const palpitesText = palpitesData.palpites.join(', ');
+            // Dados da tabela com espaçamento reduzido
+            ctx.font = '30px JetBrains Mono, monospace';
+            data.dados.forEach((row, rowIndex) => {
+                // Alternar cor de fundo das linhas
+                if (rowIndex % 2 === 0) {
+                    ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+                    ctx.fillRect(startX, yPosition - 15, tableWidth, 25);
+                }
                 
-                // Quebrar texto em linhas
-                const words = palpitesText.split(' ');
-                let line = '';
-                const maxWidth = canvas.width - 100;
-                
-                for (let i = 0; i < words.length; i++) {
-                    const testLine = line + words[i] + ' ';
-                    const metrics = ctx.measureText(testLine);
-                    const testWidth = metrics.width;
+                data.cabecalhos.forEach((header, colIndex) => {
+                    // Destacar primeira linha (1º lugar)
+                    ctx.fillStyle = rowIndex === 0 ? '#FFD700' : '#e2e8f0';
+                    const text = row[header] || '-';
                     
-                    if (testWidth > maxWidth && i > 0) {
+                    // Adicionar coroa para o primeiro lugar
+                    if (rowIndex === 0 && colIndex === 0) {
+                        ctx.fillText('👑 ' + text, startX + (colIndex + 0.5) * colWidth, yPosition);
+                    } else {
+                        ctx.fillText(text, startX + (colIndex + 0.5) * colWidth, yPosition);
+                    }
+                });
+                yPosition += 30;
+            });
+            
+            // Verificar se deve incluir palpites em vez do banner
+            if (imageOptions.includeGuesses) {
+                try {
+                    const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
+                    const palpitesData = await response.json();
+                    const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
+                    
+                    yPosition += 40;
+                    
+                    // Título dos palpites
+                    ctx.font = 'bold 24px Inter, Arial, sans-serif';
+                    ctx.fillStyle = '#ffffff';
+                    
+                    // Quebrar título em múltiplas linhas se necessário
+                    const words = frase.split(' ');
+                    let line = '';
+                    const maxWidth = canvas.width - 40;
+                    
+                    for (let n = 0; n < words.length; n++) {
+                        const testLine = line + words[n] + ' ';
+                        const metrics = ctx.measureText(testLine);
+                        
+                        if (metrics.width > maxWidth && n > 0) {
+                            ctx.fillText(line, canvas.width / 2, yPosition);
+                            line = words[n] + ' ';
+                            yPosition += 30;
+                        } else {
+                            line = testLine;
+                        }
+                    }
+                    ctx.fillText(line, canvas.width / 2, yPosition);
+                    yPosition += 40;
+                    
+                    // Data abaixo do título dos palpites
+                    ctx.font = 'bold 18px Inter, Arial, sans-serif';
+                    ctx.fillStyle = '#94a3b8';
+                    ctx.fillText(getFormattedTimestamp(selectedDateStr), canvas.width / 2, yPosition);
+                    yPosition += 60;
+                    
+                    // Configurar grade de 5 colunas para os palpites (mobile-friendly)
+                    const gridCols = 5;
+                    const gridStartX = 20;
+                    const gridWidth = canvas.width - 40;
+                    const cellWidth = gridWidth / gridCols;
+                    const cellHeight = 60;
+                    const fontSize = 24;
+                    
+                    ctx.font = `bold ${fontSize}px JetBrains Mono, monospace`;
+                    ctx.textAlign = 'center';
+                    
+                    // Fundo para a grade de palpites - alinhamento perfeito
+                    const gridRows = Math.ceil(palpitesData.palpites.length / gridCols);
+                    const gridHeight = gridRows * cellHeight;
+                    ctx.fillStyle = 'rgba(59, 130, 246, 0.1)';
+                    ctx.fillRect(gridStartX, yPosition - cellHeight/2, gridWidth, gridHeight);
+                    
+                    // Desenhar os palpites em grade
+                    palpitesData.palpites.forEach((palpite, index) => {
+                        const row = Math.floor(index / gridCols);
+                        const col = index % gridCols;
+                        
+                        const cellX = gridStartX + col * cellWidth;
+                        const cellY = yPosition + row * cellHeight;
+                        
+                        // Fundo alternado para as células - alinhamento correto
+                        if ((row + col) % 2 === 0) {
+                            ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+                            ctx.fillRect(cellX, cellY - cellHeight/2, cellWidth, cellHeight);
+                        }
+                        
+                        // Texto do palpite
+                        ctx.fillStyle = '#e2e8f0';
+                        ctx.fillText(palpite, cellX + cellWidth/2, cellY + fontSize/3);
+                    });
+                    
+                    yPosition += gridHeight + 10;
+                    
+                } catch (error) {
+                    console.log('Erro ao carregar palpites para imagem');
+                }
+            }
+            
+        } else if (type === 'palpites') {
+            try {
+                const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
+                const palpitesData = await response.json();
+                const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
+                
+                // Título dos palpites
+                ctx.font = 'bold 28px Inter, Arial, sans-serif';
+                ctx.fillStyle = '#ffffff';
+                
+                // Quebrar título em múltiplas linhas se necessário
+                const words = frase.split(' ');
+                let line = '';
+                const maxWidth = canvas.width - 40;
+                
+                for (let n = 0; n < words.length; n++) {
+                    const testLine = line + words[n] + ' ';
+                    const metrics = ctx.measureText(testLine);
+                    
+                    if (metrics.width > maxWidth && n > 0) {
                         ctx.fillText(line, canvas.width / 2, yPosition);
-                        line = words[i] + ' ';
+                        line = words[n] + ' ';
                         yPosition += 35;
                     } else {
                         line = testLine;
                     }
                 }
                 ctx.fillText(line, canvas.width / 2, yPosition);
+                yPosition += 40;
+                
+                // Data abaixo do título dos palpites
+                ctx.font = 'bold 18px Inter, Arial, sans-serif';
+                ctx.fillStyle = '#94a3b8';
+                ctx.fillText(getFormattedTimestamp(selectedDateStr), canvas.width / 2, yPosition);
+                yPosition += 80;
+                
+                // Configurar grade de 5 colunas para os palpites (mobile-friendly)
+                const gridCols = 5;
+                const gridStartX = 20;
+                const gridWidth = canvas.width - 40;
+                const cellWidth = gridWidth / gridCols;
+                const cellHeight = 60;
+                const fontSize = 24;
+                
+                ctx.font = `bold ${fontSize}px JetBrains Mono, monospace`;
+                ctx.textAlign = 'center';
+                
+                // Fundo para a grade de palpites - alinhamento perfeito
+                const gridRows = Math.ceil(palpitesData.palpites.length / gridCols);
+                const gridHeight = gridRows * cellHeight;
+                ctx.fillStyle = 'rgba(59, 130, 246, 0.1)';
+                ctx.fillRect(gridStartX, yPosition - cellHeight/2, gridWidth, gridHeight);
+                
+                // Desenhar os palpites em grade
+                palpitesData.palpites.forEach((palpite, index) => {
+                    const row = Math.floor(index / gridCols);
+                    const col = index % gridCols;
+                    
+                    const cellX = gridStartX + col * cellWidth;
+                    const cellY = yPosition + row * cellHeight;
+                    
+                    // Fundo alternado para as células - alinhamento correto
+                    if ((row + col) % 2 === 0) {
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+                        ctx.fillRect(cellX, cellY - cellHeight/2, cellWidth, cellHeight);
+                    }
+                    
+                    // Texto do palpite
+                    ctx.fillStyle = '#e2e8f0';
+                    ctx.fillText(palpite, cellX + cellWidth/2, cellY + fontSize/3);
+                });
+                
+                yPosition += gridHeight + 10;
+                
+            } catch (error) {
+                ctx.fillText('Erro ao carregar palpites', canvas.width / 2, yPosition);
                 yPosition += 60;
             }
         }
         
-        // Adicionar propaganda da banca se selecionado
-        if (imageOptions.includeBankAd) {
-            const adText = "Na 77x Brasil, o seu 1 Real vale 8 Mil!\nCadastre-se agora e ganhe 20% na sua primeira recarga!";
-            const adLines = adText.split('\n');
-            
-            // Calcular altura total do texto do anúncio
-            const adAreaHeight = 120;
-            const adAreaStart = canvas.height - 200;
-            let totalTextHeight = adLines.length * 35;
+        // Espaço para a propaganda da banca (condicional baseado nas opções)
+        if (type === 'palpites' || (type === 'result' && imageOptions.includeBankAd)) {
+            // Definir o espaço disponível para a propaganda da banca
+            const adAreaStart = yPosition + 10;
+            const adAreaEnd = canvas.height - 120; // Considerando o espaço para o domínio do site
+            const adAreaHeight = adAreaEnd - adAreaStart;
+
+            const adText = "Na 77x Brasil, o seu 1 Real vale 8 Mil!\nBônus de 20% na sua primeira recarga!\nAcesse o site para mais!";
+            const adLines = adText.split("\n");
+
+            // Calcular a altura total do texto da propaganda
+            let totalTextHeight = 0;
+            // Altura da primeira linha (maior fonte)
+            ctx.font = 'bold 40px Inter, Arial, sans-serif';
+            totalTextHeight += 40; // Aproximadamente a altura da fonte
+            // Altura das linhas seguintes (menor fonte)
+            ctx.font = 'bold 28px Inter, Arial, sans-serif';
             totalTextHeight += (adLines.length - 1) * 35; // 35 é o espaçamento entre as linhas
 
             // Calcular a posição Y inicial para centralizar verticalmente
@@ -727,11 +907,8 @@ async function generateImage(type, cardId) {
             ctx.font = 'bold 36px Inter, Arial, sans-serif'; // Fonte um pouco menor
             ctx.fillStyle = '#FFFF00'; // Amarelo vibrante
             ctx.fillText(adLines[0], canvas.width / 2, currentY);
-            currentY += 40; // Ajustar para a próxima linha
-
-            // Desenhar as linhas seguintes com fonte menor e fundo azul escuro
-            ctx.font = 'bold 36px Inter, Arial, sans-serif'; // Aumentado de 32px para 36px
-            ctx.fillStyle = '#ffffff'; // Cor do texto para as linhas restantes
+            currentY += 40; // Ajustar para a próxi            // Desenhar as linhas seguintes com fonte menor e fundo azul escuro
+            ctx.font = 'bold 36px Inter, Arial, sans-serif'; // Aumentado de 32px para 36px         ctx.fillStyle = '#ffffff'; // Cor do texto para as linhas restantes
             for (let i = 1; i < adLines.length; i++) {
                 // Calcular largura do texto para o fundo
                 const textWidth = ctx.measureText(adLines[i]).width;
@@ -817,24 +994,25 @@ function getFormattedTimestamp(dateStr) {
     });
 }
 
-// Gerar texto para compartilhamento/cópia - CORRIGIDO
+// Gerar texto para compartilhamento/cópia - ATUALIZADO COM CÓDIGO
 async function generateText(type, cardId) {
     const [version, titleKey] = getCardDetails(cardId);
     const data = globalData[version][titleKey];
-    const pageUrl = generateShareUrl(); // Usar a nova função
+    const baseUrl = window.location.href;
+    const pageUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
     const timestamp = getFormattedTimestamp(selectedDateStr);
 
     if (type === 'result') {
-        let text = `Resultado ${titleKey}\n${timestamp}\n\n`;
+        let text = `*Resultado ${titleKey}*\n_${timestamp}_\n\n`;
         data.dados.forEach(row => {
-            text += `${row['Prêmio'] || ''}: ${row['Milhar'] || ''} - ${row['Grupo'] || ''} ${row['Bicho'] || ''}\n`;
+            text += `${row['Prêmio'] || ''}: *${row['Milhar'] || ''}* - ${row['Grupo'] || ''} ${row['Bicho'] || ''}\n`;
         });
         text += `\nVeja mais em: ${pageUrl}`;
         return text;
     }
 
     if (type === 'frases') {
-        let text = `Frases de Acertos - ${titleKey}\n\n`;
+        let text = `*Frases de Acertos - ${titleKey}*\n\n`;
         if (data.frases && Object.keys(data.frases).length > 0) {
             for (const palpite in data.frases) {
                 data.frases[palpite].forEach(frase => {
@@ -853,7 +1031,7 @@ async function generateText(type, cardId) {
             if (!response.ok) return "Não foi possível carregar os palpites.";
             const palpitesData = await response.json();
             const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
-            let text = `${frase}\n\n${palpitesData.palpites.join(', ')}\n\nConfira os resultados em: ${pageUrl}`;
+            let text = `*${frase}*\n\n${palpitesData.palpites.join(', ')}\n\nConfira os resultados em: ${pageUrl}`;
             return text;
         } catch { 
             return "Erro ao gerar texto dos palpites."; 
@@ -861,14 +1039,17 @@ async function generateText(type, cardId) {
     }
 }
 
-// Compartilhar conteúdo - CORRIGIDO
+// Compartilhar conteúdo - ATUALIZADO COM CÓDIGO
 async function shareContent(type, cardId) {
     const text = await generateText(type, cardId);
+    const baseUrl = window.location.href;
+    const shareUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
     
     if (navigator.share) {
         navigator.share({ 
             title: getPageTitle(), 
-            text: text
+            text: text,
+            url: shareUrl 
         }).catch(console.error);
     } else {
         showToast('Compartilhamento não suportado neste dispositivo.');
@@ -944,90 +1125,147 @@ function initializeCommonFeatures() {
         });
     }
 
-    // Event listener para o filtro de dia
+    // Event listener para o filtro de dia da semana
     const dayFilter = document.getElementById('dayFilter');
     if (dayFilter) {
         dayFilter.addEventListener('change', function() {
-            displayTitulos(this.value);
+            const selectedDay = this.value;
+            displayTitulos(selectedDay);
         });
     }
+
+    // Event listener para o botão de compartilhar imagem
+    const shareImageBtn = document.getElementById('shareImageBtn');
+    if (shareImageBtn) {
+        shareImageBtn.addEventListener('click', function() {
+            shareImage();
+        });
+    }
+
+    // Fechar modal clicando fora com controle de rolagem
+    window.onclick = (event) => {
+        if (event.target.classList.contains('modal')) {
+            closeModal(event.target.id);
+        }
+        if (event.target.classList.contains('image-modal')) {
+            closeImageModal();
+        }
+    };
 
     // Inicializar Flatpickr
     initializeFlatpickr();
-
-    // Configurar banner deslizante
-    setupSlidingBanner();
-
-    // Configurar fechamento de modais com ESC
-    document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-            // Fechar modal de imagem primeiro se estiver aberto
-            const imageModal = document.getElementById('imageModal');
-            if (imageModal && imageModal.style.display === 'block') {
-                closeImageModal();
-                return;
-            }
-            
-            // Fechar outros modais
-            const modals = document.querySelectorAll('.modal');
-            modals.forEach(modal => {
-                if (modal.style.display === 'flex') {
-                    closeModal(modal.id);
-                }
-            });
-        }
-    });
-
-    // Configurar fechamento de modais clicando fora
-    document.addEventListener('click', function(e) {
-        if (e.target.classList.contains('modal')) {
-            closeModal(e.target.id);
-        }
-        if (e.target.classList.contains('image-modal')) {
-            closeImageModal();
-        }
-    });
 }
 
-// Configurar banner deslizante
-function setupSlidingBanner() {
-    const banner = document.getElementById('slidingBanner');
-    const closeBtn = document.getElementById('closeBannerBtn');
-    const registerBtn = document.getElementById('registerBtn');
-    const learnMoreLink = document.getElementById('learnMoreLink');
+// Funções que devem ser implementadas em cada página específica:
+// - getPageTitle() - retorna o título da página
+// - getDataUrl(dateStr) - retorna a URL dos dados JSON para a data
+// - getJsonPath(filename) - retorna o caminho para arquivos JSON
+// - getImagePath(imageName) - retorna o caminho para imagens
 
-    if (!banner) return;
+// Inicializar quando o DOM estiver carregado
+document.addEventListener('DOMContentLoaded', function() {
+    initializeCommonFeatures();
+    fetchData(true);
+});
 
-    // Mostrar banner após 3 segundos
-    setTimeout(() => {
-        banner.classList.add('show');
-    }, 3000);
 
-    // Fechar banner
-    if (closeBtn) {
-        closeBtn.addEventListener('click', () => {
-            banner.classList.remove('show');
-        });
+
+// === SLIDING BANNER LOGIC ===
+function initializeSlidingBanner() {
+  const slidingBanner = document.getElementById("slidingBanner");
+  const closeBannerBtn = document.getElementById("closeBannerBtn");
+  const registerBtn = document.getElementById("registerBtn");
+  const learnMoreLink = document.getElementById("learnMoreLink");
+
+  if (!slidingBanner) {
+    console.warn("Banner element not found");
+    return;
+  }
+
+  const defaultCode = "PACruTth";
+  let productCode = getStoredProductCode();
+  if (!productCode) {
+    productCode = defaultCode;
+  }
+
+  // Set dynamic links
+  if (registerBtn) {
+    registerBtn.href = `https://app.77xbrasil.com.br/pr/${productCode}`;
+    registerBtn.target = "_blank";
+    registerBtn.rel = "noopener noreferrer";
+  }
+  
+  if (learnMoreLink) {
+    learnMoreLink.href = `https://77xxbrasil.com/pr/${productCode}`;
+    learnMoreLink.target = "_blank";
+    learnMoreLink.rel = "noopener noreferrer";
+  }
+
+  // Show banner after 5 seconds when page is fully loaded
+  const showBannerTimeout = setTimeout(() => {
+    if (slidingBanner && !slidingBanner.classList.contains('show')) {
+      slidingBanner.classList.add("show");
+      
+      // Add subtle body padding to prevent content jump
+      document.body.style.paddingBottom = '20px';
     }
+  }, 5000);
 
-    // Links do banner
-    if (registerBtn) {
-        registerBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            window.open('https://77xbrasil.com/register', '_blank');
-        });
+  // Close banner functionality
+  function hideBanner() {
+    if (slidingBanner) {
+      slidingBanner.classList.remove("show");
+      document.body.style.paddingBottom = '';
     }
+  }
 
-    if (learnMoreLink) {
-        learnMoreLink.addEventListener('click', (e) => {
-            e.preventDefault();
-            window.open('https://77xbrasil.com', '_blank');
-        });
+  // Close banner when clicking X button
+  if (closeBannerBtn) {
+    closeBannerBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      hideBanner();
+      clearTimeout(showBannerTimeout);
+    });
+  }
+
+  // Close banner when clicking on register button
+  if (registerBtn) {
+    registerBtn.addEventListener("click", () => {
+      hideBanner();
+    });
+  }
+
+  // Close banner when clicking on learn more link
+  if (learnMoreLink) {
+    learnMoreLink.addEventListener("click", () => {
+      hideBanner();
+    });
+  }
+
+  // Handle escape key to close banner
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && slidingBanner && slidingBanner.classList.contains('show')) {
+      hideBanner();
     }
+  });
 
-    // Auto-fechar banner após 15 segundos
-    setTimeout(() => {
-        banner.classList.remove('show');
-    }, 18000);
+  // Prevent banner from showing on print
+  window.addEventListener('beforeprint', () => {
+    if (slidingBanner) {
+      slidingBanner.style.display = 'none';
+    }
+  });
+
+  window.addEventListener('afterprint', () => {
+    if (slidingBanner) {
+      slidingBanner.style.display = 'flex';
+    }
+  });
 }
 
+// Initialize banner when page is fully loaded
+window.addEventListener('load', () => {
+  // Small delay to ensure all other scripts are loaded
+  setTimeout(initializeSlidingBanner, 100);
+});
