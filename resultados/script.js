@@ -1,36 +1,6 @@
-// === SCRIPT OTIMIZADO PARA MÚLTIPLAS PÁGINAS ===
+// === SCRIPT COMPARTILHADO PARA MÚLTIPLAS PÁGINAS ===
 
-// Utilitários de performance
-const debounce = (func, wait) => {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
-      clearTimeout(timeout);
-      func(...args);
-    };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-  };
-};
-
-const throttle = (func, limit) => {
-  let inThrottle;
-  return function() {
-    const args = arguments;
-    const context = this;
-    if (!inThrottle) {
-      func.apply(context, args);
-      inThrottle = true;
-      setTimeout(() => inThrottle = false, limit);
-    }
-  };
-};
-
-// Cache para melhor performance
-const cache = new Map();
-const imageCache = new Map();
-
-// Variáveis globais otimizadas
+// Variáveis globais compartilhadas
 let globalData = {};
 let activeCardId = null;
 let selectedDateStr = getCurrentDateString();
@@ -46,10 +16,11 @@ let imageOptions = {
 let currentCreatePngType = null;
 let currentCreatePngCardId = null;
 let titulosData = null;
-let modalHistory = [];
+let modalHistory = []; // Histórico de modais para navegação
 
 // === FUNCIONALIDADES DE PARÂMETRO DE URL ===
 
+// Função para capturar parâmetro de URL e armazenar no navegador
 function captureAndStoreUrlParameter() {
   const urlParams = new URLSearchParams(window.location.search);
   const codeParam = urlParams.get('pr');
@@ -60,12 +31,14 @@ function captureAndStoreUrlParameter() {
   }
 }
 
+// Função para recuperar o código armazenado
 function getStoredProductCode() {
   return localStorage.getItem("productCode");
 }
 
-// === FUNÇÕES DE DATA OTIMIZADAS ===
+// === FUNÇÕES ORIGINAIS ===
 
+// Função para obter a data atual no fuso horário do usuário
 function getCurrentDateString() {
   const now = new Date();
   const year = now.getFullYear();
@@ -74,56 +47,39 @@ function getCurrentDateString() {
   return `${year}-${month}-${day}`;
 }
 
+// Função para obter a data máxima (hoje) no fuso horário do usuário
 function getTodayDateString() {
   return getCurrentDateString();
 }
 
+// Função para obter o dia da semana atual em português
 function getCurrentDayOfWeek() {
   const days = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
   const today = new Date();
   return days[today.getDay()];
 }
 
-// === CARREGAMENTO DE TÍTULOS OTIMIZADO ===
-
+// Função para carregar e exibir os títulos
 async function loadTitulos() {
-  const cacheKey = 'titulos_data';
-  
-  // Verificar cache primeiro
-  if (cache.has(cacheKey)) {
-    const cachedData = cache.get(cacheKey);
-    if (Date.now() - cachedData.timestamp < 300000) { // 5 minutos
-      titulosData = cachedData.data;
-      displayTitulosFromCache();
-      return;
-    }
-  }
-  
   try {
     const response = await fetch(getJsonPath('titulos.json') + '?t=' + new Date().getTime());
     if (!response.ok) throw new Error('Não foi possível carregar os títulos.');
     
     titulosData = await response.json();
     
-    // Armazenar no cache
-    cache.set(cacheKey, {
-      data: titulosData,
-      timestamp: Date.now()
-    });
+    // Definir o dia atual como padrão
+    const currentDay = getCurrentDayOfWeek();
+    document.getElementById('dayFilter').value = currentDay;
     
-    displayTitulosFromCache();
+    // Exibir títulos do dia atual
+    displayTitulos(currentDay);
     
   } catch (error) {
     document.getElementById('titulosContent').innerHTML = `<div class="no-data">Erro ao carregar títulos: ${error.message}</div>`;
   }
 }
 
-function displayTitulosFromCache() {
-  const currentDay = getCurrentDayOfWeek();
-  document.getElementById('dayFilter').value = currentDay;
-  displayTitulos(currentDay);
-}
-
+// Função para exibir os títulos de um dia específico
 function displayTitulos(dayOfWeek) {
   const content = document.getElementById('titulosContent');
   
@@ -134,51 +90,31 @@ function displayTitulos(dayOfWeek) {
   
   const titulos = titulosData['1-5'][dayOfWeek];
   
-  // Usar DocumentFragment para melhor performance
-  const fragment = document.createDocumentFragment();
-  
-  const header = document.createElement('h4');
-  header.style.cssText = 'margin: 0 0 1rem 0; color: var(--text-primary); font-size: 1.125rem;';
-  header.textContent = `📅 ${dayOfWeek}`;
-  fragment.appendChild(header);
-  
-  const container = document.createElement('div');
-  container.style.cssText = 'display: flex; flex-direction: column; gap: 0.75rem;';
+  let html = `<h4 style="margin: 0 0 1rem 0; color: var(--text-primary); font-size: 1.125rem;">📅 ${dayOfWeek}</h4>`;
+  html += '<div style="display: flex; flex-direction: column; gap: 0.75rem;">';
   
   titulos.forEach((titulo, index) => {
-    const div = document.createElement('div');
-    div.style.cssText = `
-      background: var(--bg-card); 
-      border: 1px solid var(--border-color); 
-      border-radius: 8px; 
-      padding: 0.75rem 1rem; 
-      transition: all 0.2s ease;
-      cursor: default;
+    html += `
+      <div style="
+        background: var(--bg-card); 
+        border: 1px solid var(--border-color); 
+        border-radius: 8px; 
+        padding: 0.75rem 1rem; 
+        transition: all 0.2s ease;
+        cursor: default;
+      " onmouseover="this.style.background='var(--bg-card-hover)'" onmouseout="this.style.background='var(--bg-card)'">
+        <span style="color: var(--text-primary); font-weight: 500; font-family: 'JetBrains Mono', monospace;">
+          ${titulo}
+        </span>
+      </div>
     `;
-    
-    // Otimização: usar event delegation em vez de inline handlers
-    div.addEventListener('mouseenter', function() {
-      this.style.background = 'var(--bg-card-hover)';
-    });
-    div.addEventListener('mouseleave', function() {
-      this.style.background = 'var(--bg-card)';
-    });
-    
-    const span = document.createElement('span');
-    span.style.cssText = 'color: var(--text-primary); font-weight: 500; font-family: "JetBrains Mono", monospace;';
-    span.textContent = titulo;
-    
-    div.appendChild(span);
-    container.appendChild(div);
   });
   
-  fragment.appendChild(container);
-  content.innerHTML = '';
-  content.appendChild(fragment);
+  html += '</div>';
+  content.innerHTML = html;
 }
 
-// === COMPARTILHAMENTO OTIMIZADO ===
-
+// Função para compartilhar imagem
 async function shareImage() {
   if (!currentImageBlob) {
     showToast('Nenhuma imagem disponível para compartilhar.');
@@ -197,6 +133,8 @@ async function shareImage() {
         });
         showToast('Imagem compartilhada com sucesso!');
       } else {
+        // Fallback para compartilhamento de URL com código
+        const imageUrl = URL.createObjectURL(currentImageBlob);
         const shareUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
         await navigator.share({
           title: getPageTitle(),
@@ -206,6 +144,7 @@ async function shareImage() {
         showToast('Link compartilhado com sucesso!');
       }
     } else {
+      // Fallback: copiar para clipboard ou mostrar opções
       showToast('Compartilhamento não suportado. Use o botão Baixar PNG.');
     }
   } catch (error) {
@@ -216,17 +155,18 @@ async function shareImage() {
   }
 }
 
-// === MODAL DE PNG OTIMIZADO ===
-
+// Função para abrir o modal de opções para criar PNG
 function openCreatePngModal(type, cardId) {
   currentCreatePngType = type;
   currentCreatePngCardId = cardId;
   
+  // Para palpites, não mostrar opções (sempre incluir apenas banner)
   if (type === 'palpites') {
     generateImage(type, cardId);
     return;
   }
   
+  // Para resultados, mostrar modal com opções
   const modalBody = document.getElementById('createPngModalBody');
   modalBody.innerHTML = `
     <div class="image-options">
@@ -242,6 +182,7 @@ function openCreatePngModal(type, cardId) {
     </div>
   `;
   
+  // Configurar botão de confirmação
   document.getElementById('confirmCreatePngBtn').onclick = () => {
     const addBankAd = document.getElementById("addBankAdOption").checked;
     const addPalpites = document.getElementById("addPalpitesOption").checked;
@@ -254,16 +195,8 @@ function openCreatePngModal(type, cardId) {
   openModal('createPngModal');
 }
 
-// === INICIALIZAÇÃO FLATPICKR OTIMIZADA ===
-
+// Inicialização do Flatpickr com configurações melhoradas
 function initializeFlatpickr() {
-  // Lazy load do Flatpickr se não estiver disponível
-  if (typeof flatpickr === 'undefined') {
-    console.warn('Flatpickr não carregado ainda, tentando novamente...');
-    setTimeout(initializeFlatpickr, 100);
-    return;
-  }
-  
   flatpickr("#date-picker", {
     dateFormat: "Y-m-d",
     maxDate: getTodayDateString(),
@@ -273,10 +206,10 @@ function initializeFlatpickr() {
     clickOpens: true,
     disableMobile: false,
     position: "auto center",
-    onChange: debounce((selectedDates, dateStr) => {
+    onChange: (selectedDates, dateStr) => {
       selectedDateStr = dateStr;
       fetchData(true);
-    }, 300),
+    },
     onOpen: function() {
       setTimeout(() => {
         const calendar = document.querySelector('.flatpickr-calendar');
@@ -288,52 +221,32 @@ function initializeFlatpickr() {
   });
 }
 
-// === ALTERNÂNCIA DE ORDEM OTIMIZADA ===
-
-const toggleOrder = debounce(() => {
+// Função para alternar a ordem dos cards
+function toggleOrder() {
   orderPreference = orderPreference === 'ascending' ? 'descending' : 'ascending';
   localStorage.setItem('orderPreference', orderPreference);
-  const btn = document.getElementById('order-toggle-btn');
-  if (btn) {
-    btn.textContent = orderPreference === 'ascending' ? 
-      '⬆⬇ Inverter Ordem (Mais recente primeiro)' : 
-      '⬆⬇ Inverter Ordem (Mais antigo primeiro)';
-  }
+  document.getElementById('order-toggle-btn').textContent = orderPreference === 'ascending' ? '⬆⬇ Inverter Ordem (Mais recente primeiro)' : '⬆⬇ Inverter Ordem (Mais antigo primeiro)';
   renderData();
-}, 150);
+}
 
-// === FUNÇÕES DE MODAL OTIMIZADAS ===
-
+// Funções de Modal com controle de rolagem do body
 function openModal(modalId) {
   modalHistory.push(modalId);
-  const modal = document.getElementById(modalId);
-  if (modal) {
-    modal.style.display = 'flex';
-    modal.setAttribute('aria-hidden', 'false');
-    document.body.classList.add('modal-open');
-    
-    // Focus management para acessibilidade
-    const firstFocusable = modal.querySelector('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
-    if (firstFocusable) {
-      firstFocusable.focus();
-    }
-  }
+  document.getElementById(modalId).style.display = 'flex';
+  document.body.classList.add('modal-open');
 }
 
 function closeModal(modalId) {
-  const modal = document.getElementById(modalId);
-  if (modal) {
-    modal.style.display = 'none';
-    modal.setAttribute('aria-hidden', 'true');
-    document.body.classList.remove('modal-open');
-    
-    const index = modalHistory.indexOf(modalId);
-    if (index > -1) {
-      modalHistory.splice(index, 1);
-    }
+  document.getElementById(modalId).style.display = 'none';
+  document.body.classList.remove('modal-open');
+  // Remover o modal atual do histórico
+  const index = modalHistory.indexOf(modalId);
+  if (index > -1) {
+    modalHistory.splice(index, 1);
   }
 }
 
+// Funções do Modal de Imagem com controle de rolagem
 function openImageModal() {
   document.getElementById('imageModal').style.display = 'block';
   document.body.classList.add('modal-open');
@@ -343,46 +256,25 @@ function closeImageModal() {
   document.getElementById("imageModal").style.display = "none";
   document.body.classList.remove("modal-open");
   currentImageBlob = null;
-  modalHistory.pop();
+  modalHistory.pop(); // Remove o modal de imagem do histórico
   if (modalHistory.length > 0) {
-    openModal(modalHistory[modalHistory.length - 1]);
+    openModal(modalHistory[modalHistory.length - 1]); // Abre o modal anterior
   }
 }
 
-// === FETCH DE DADOS OTIMIZADO ===
-
-const fetchData = debounce(async (isManualAction = false) => {
+// Função principal para buscar dados
+async function fetchData(isManualAction = false) {
   const isToday = (selectedDateStr === getCurrentDateString());
-  const cacheKey = `data_${selectedDateStr}`;
   
   if (isManualAction) {
     lastModifiedHeader = null;
     if (autoUpdateInterval) clearInterval(autoUpdateInterval);
-    const container = document.getElementById('data-container');
-    if (container) {
-      container.innerHTML = '<div class="no-data loading">Carregando dados...</div>';
-    }
-  }
-
-  // Verificar cache primeiro (apenas para dados não de hoje)
-  if (!isToday && cache.has(cacheKey)) {
-    const cachedData = cache.get(cacheKey);
-    if (Date.now() - cachedData.timestamp < 600000) { // 10 minutos
-      globalData = cachedData.data;
-      renderData();
-      return;
-    }
+    document.getElementById('data-container').innerHTML = '<div class="no-data loading">Carregando dados...</div>';
   }
 
   const url = getDataUrl(selectedDateStr);
   try {
-    const response = await fetch(url, { 
-      cache: isToday ? "no-store" : "default",
-      headers: {
-        'Cache-Control': isToday ? 'no-cache' : 'max-age=300'
-      }
-    });
-    
+    const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) throw new Error(`Resultados para ${selectedDateStr} não encontrados.`);
     
     const newLastModified = response.headers.get('Last-Modified');
@@ -396,47 +288,31 @@ const fetchData = debounce(async (isManualAction = false) => {
     const newDataString = JSON.stringify(newData);
 
     if (oldDataString !== newDataString) {
-      globalData = newData;
-      
-      // Armazenar no cache (apenas dados não de hoje)
-      if (!isToday) {
-        cache.set(cacheKey, {
-          data: newData,
-          timestamp: Date.now()
-        });
-      }
-      
-      renderData();
-      if (!isManualAction) {
-        const lastTitle = findLastResultTitle(globalData);
-        showToast(`Resultado ${lastTitle} atualizado!`);
-      }
+        globalData = newData;
+        renderData();
+        if (!isManualAction) {
+            const lastTitle = findLastResultTitle(globalData);
+            showToast(`Resultado ${lastTitle} atualizado!`);
+        }
     }
   } catch (error) {
     if (isManualAction) {
-      const container = document.getElementById('data-container');
-      if (container) {
-        container.innerHTML = `<div class="no-data">${error.message}</div>`;
-      }
+        document.getElementById('data-container').innerHTML = `<div class="no-data">${error.message}</div>`;
     }
   } finally {
     if (isToday && !autoUpdateInterval) {
-      autoUpdateInterval = setInterval(() => fetchData(false), 60000);
+        autoUpdateInterval = setInterval(() => fetchData(false), 60000);
     } else if (!isToday && autoUpdateInterval) {
-      clearInterval(autoUpdateInterval);
-      autoUpdateInterval = null;
+        clearInterval(autoUpdateInterval);
+        autoUpdateInterval = null;
     }
   }
-}, 300);
+}
 
-// === RENDERIZAÇÃO OTIMIZADA ===
-
+// Renderizar dados na página
 function renderData() {
   const container = document.getElementById('data-container');
-  if (!container) return;
-  
-  // Usar DocumentFragment para melhor performance
-  const fragment = document.createDocumentFragment();
+  container.innerHTML = '';
   let hasContent = false;
 
   const versions = ['1-5', '1-10'];
@@ -462,23 +338,17 @@ function renderData() {
   });
 
   cards.forEach(({ card }) => {
-    fragment.appendChild(card);
+    container.appendChild(card);
   });
 
   if (!hasContent) {
-    const noDataDiv = document.createElement('div');
-    noDataDiv.className = 'no-data';
-    noDataDiv.textContent = 'Nenhum resultado disponível para a data selecionada.';
-    fragment.appendChild(noDataDiv);
+    container.innerHTML = '<div class="no-data">Nenhum resultado disponível para a data selecionada.</div>';
   }
-  
-  // Limpar container e adicionar novo conteúdo
-  container.innerHTML = '';
-  container.appendChild(fragment);
   
   toggleResultView();
 }
 
+// Função para extrair o horário do título para ordenação
 function extractTime(title) {
   const match = title.match(/(\d{2}:\d{2})/);
   if (match) {
@@ -488,936 +358,1018 @@ function extractTime(title) {
   return 0;
 }
 
-// === CRIAÇÃO DE CARD OTIMIZADA ===
-
+// Criar card de resultado
 function createCard(cardId, version, title, data) {
-  const card = document.createElement('div');
-  card.className = 'card';
-  card.id = cardId;
-  card.dataset.version = version;
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.id = cardId;
+    card.dataset.version = version;
 
-  // Header do card
-  const header = document.createElement('div');
-  header.className = 'card-header';
-  const cardTitle = document.createElement('h2');
-  cardTitle.className = 'card-title';
-  cardTitle.textContent = title;
-  header.appendChild(cardTitle);
-  card.appendChild(header);
+    // Header do card
+    const header = document.createElement('div');
+    header.className = 'card-header';
+    const cardTitle = document.createElement('h2');
+    cardTitle.className = 'card-title';
+    cardTitle.textContent = title;
+    header.appendChild(cardTitle);
+    card.appendChild(header);
 
-  // Body do card
-  const body = document.createElement('div');
-  body.className = 'card-body';
-  
-  if (data.dados && data.dados.some(d => d.Milhar)) {
-    // Container da tabela
-    const tableContainer = document.createElement('div');
-    tableContainer.className = 'table-container';
+    // Body do card
+    const body = document.createElement('div');
+    body.className = 'card-body';
     
-    const table = document.createElement('table');
-    
-    // Criar thead
-    const thead = document.createElement('thead');
-    const headerRow = document.createElement('tr');
-    data.cabecalhos.forEach(h => {
-      const th = document.createElement('th');
-      th.textContent = h;
-      headerRow.appendChild(th);
-    });
-    thead.appendChild(headerRow);
-    table.appendChild(thead);
-    
-    // Criar tbody
-    const tbody = document.createElement('tbody');
-    data.dados.forEach(row => {
-      const tr = document.createElement('tr');
-      data.cabecalhos.forEach(h => {
-        const td = document.createElement('td');
-        td.textContent = row[h] || '-';
-        tr.appendChild(td);
-      });
-      tbody.appendChild(tr);
-    });
-    table.appendChild(tbody);
-    
-    tableContainer.appendChild(table);
-    body.appendChild(tableContainer);
+    if (data.dados && data.dados.some(d => d.Milhar)) {
+        // Container da tabela
+        const tableContainer = document.createElement('div');
+        tableContainer.className = 'table-container';
+        
+        const table = document.createElement('table');
+        table.innerHTML = `
+            <thead>
+                <tr>${data.cabecalhos.map(h => `<th>${h}</th>`).join('')}</tr>
+            </thead>
+            <tbody>
+                ${data.dados.map(row => `<tr>${data.cabecalhos.map(h => `<td>${row[h] || '-'}</td>`).join('')}</tr>`).join('')}
+            </tbody>
+        `;
+        tableContainer.appendChild(table);
+        body.appendChild(tableContainer);
 
-    // Timestamp
-    const timestamp = document.createElement('div');
-    timestamp.className = 'timestamp';
-    timestamp.textContent = getFormattedTimestamp(selectedDateStr);
-    body.appendChild(timestamp);
+        // Timestamp usando horário do sistema
+        const timestamp = document.createElement('div');
+        timestamp.className = 'timestamp';
+        timestamp.textContent = getFormattedTimestamp(selectedDateStr);
+        body.appendChild(timestamp);
 
-    // Actions bar
-    const actionsBar = document.createElement('div');
-    actionsBar.className = 'actions-bar';
-    
-    // Criar botões individualmente para melhor performance
-    const shareBtn = document.createElement('button');
-    shareBtn.className = 'btn btn-primary';
-    shareBtn.innerHTML = '📤 Compartilhar';
-    shareBtn.onclick = () => shareContent('result', cardId);
-    
-    const copyBtn = document.createElement('button');
-    copyBtn.className = 'btn btn-primary';
-    copyBtn.innerHTML = '📋 Copiar';
-    copyBtn.onclick = () => copyContent('result', cardId);
-    
-    const pngBtn = document.createElement('button');
-    pngBtn.className = 'btn btn-accent';
-    pngBtn.innerHTML = '🖼️ Criar PNG';
-    pngBtn.onclick = () => openCreatePngModal('result', cardId);
-    
-    actionsBar.appendChild(shareBtn);
-    actionsBar.appendChild(copyBtn);
-    actionsBar.appendChild(pngBtn);
-    body.appendChild(actionsBar);
+        // Actions bar
+        const actionsBar = document.createElement('div');
+        actionsBar.className = 'actions-bar';
+        actionsBar.innerHTML = `
+            <button class="btn btn-primary" onclick="shareContent('result', '${cardId}')">
+                📤 Compartilhar
+            </button>
+            <button class="btn btn-primary" onclick="copyContent('result', '${cardId}')">
+                📋 Copiar
+            </button>
+            <button class="btn btn-accent" onclick="openCreatePngModal('result', '${cardId}')">
+                🖼️ Criar PNG
+            </button>
+        `;
+        body.appendChild(actionsBar);
 
-  } else {
-    const noDataDiv = document.createElement('div');
-    noDataDiv.className = 'no-data';
-    noDataDiv.textContent = 'Aguardando resultados...';
-    body.appendChild(noDataDiv);
-  }
-  card.appendChild(body);
-
-  // Footer com balões de acertos
-  const footer = document.createElement('div');
-  footer.className = 'card-footer';
-  if (data.acertos) {
-    // Criar balões de forma otimizada
-    const createBalloon = (className, content, title) => {
-      const balloon = document.createElement('div');
-      balloon.className = `acerto-balao ${className}`;
-      balloon.title = title;
-      balloon.textContent = content;
-      return balloon;
-    };
-    
-    for (let i = 0; i < (data.acertos.Milhar || 0); i++) {
-      footer.appendChild(createBalloon('milhar', 'M', 'Milhar e Centena'));
+    } else {
+        body.innerHTML = '<div class="no-data">Aguardando resultados...</div>';
     }
-    for (let i = 0; i < (data.acertos.Centena || 0); i++) {
-      footer.appendChild(createBalloon('centena', 'C', 'Centena e Dezena'));
-    }
-    if (data.acertos.Dezena > 0) {
-      footer.appendChild(createBalloon('dezena', data.acertos.Dezena, 'Dezenas'));
-    }
-    if (data.acertos.Grupo) {
-      data.acertos.Grupo.forEach(emoji => {
-        footer.appendChild(createBalloon('grupo', emoji, 'Grupo'));
-      });
-    }
-  }
-  card.appendChild(footer);
+    card.appendChild(body);
 
-  // Button group
-  const buttonGroup = document.createElement('div');
-  buttonGroup.className = 'button-group';
-  
-  const toggleBtn = document.createElement('button');
-  toggleBtn.className = 'btn btn-primary toggle-view-btn';
-  toggleBtn.innerHTML = '👁️ Ver do 1º ao 10º';
-  
-  const resumoBtn = document.createElement('button');
-  resumoBtn.className = 'btn btn-primary';
-  resumoBtn.innerHTML = '📊 Ver resumo de acertos';
-  resumoBtn.onclick = () => showResumo(cardId);
-  
-  const palpitesBtn = document.createElement('button');
-  palpitesBtn.className = 'btn btn-accent';
-  palpitesBtn.innerHTML = '🎯 Palpites para a próxima extração';
-  palpitesBtn.onclick = () => showPalpites(false, cardId);
-  
-  buttonGroup.appendChild(toggleBtn);
-  buttonGroup.appendChild(resumoBtn);
-  buttonGroup.appendChild(palpitesBtn);
-  card.appendChild(buttonGroup);
+    // Footer com balões de acertos
+    const footer = document.createElement('div');
+    footer.className = 'card-footer';
+    if (data.acertos) {
+        for (let i = 0; i < (data.acertos.Milhar || 0); i++) {
+            footer.innerHTML += `<div class="acerto-balao milhar" title="Milhar e Centena">M</div>`;
+        }
+        for (let i = 0; i < (data.acertos.Centena || 0); i++) {
+            footer.innerHTML += `<div class="acerto-balao centena" title="Centena e Dezena">C</div>`;
+        }
+        if (data.acertos.Dezena > 0) {
+            footer.innerHTML += `<div class="acerto-balao dezena" title="Dezenas">${data.acertos.Dezena}</div>`;
+        }
+        if (data.acertos.Grupo) {
+            data.acertos.Grupo.forEach(emoji => {
+                footer.innerHTML += `<div class="acerto-balao grupo" title="Grupo">${emoji}</div>`;
+            });
+        }
+    }
+    card.appendChild(footer);
 
-  return card;
+    // Button group
+    const buttonGroup = document.createElement('div');
+    buttonGroup.className = 'button-group';
+    buttonGroup.innerHTML = `
+        <button class="btn btn-primary toggle-view-btn">
+            👁️ Ver do 1º ao 10º
+        </button>
+        <button class="btn btn-primary" onclick="showResumo('${cardId}')">
+            📊 Ver resumo de acertos
+        </button>
+        <button class="btn btn-accent" onclick="showPalpites(false, '${cardId}')">
+            🎯 Palpites para a próxima extração
+        </button>
+    `;
+    card.appendChild(buttonGroup);
+
+    return card;
 }
 
-// === ALTERNÂNCIA DE VISUALIZAÇÃO OTIMIZADA ===
-
+// Alternar visualização entre 1-5 e 1-10
 function toggleResultView() {
-  const has1to5 = document.querySelector('[data-version="1-5"]');
-  const has1to10 = document.querySelector('[data-version="1-10"]');
-  let show1to10 = localStorage.getItem('viewPreference') === '1-10';
+    const has1to5 = document.querySelector('[data-version="1-5"]');
+    const has1to10 = document.querySelector('[data-version="1-10"]');
+    let show1to10 = localStorage.getItem('viewPreference') === '1-10';
 
-  if (!has1to5 && has1to10) show1to10 = true;
+    if (!has1to5 && has1to10) show1to10 = true;
 
-  // Usar requestAnimationFrame para melhor performance
-  requestAnimationFrame(() => {
     document.querySelectorAll('.card').forEach(card => {
-      card.style.display = (show1to10 ? card.dataset.version === '1-10' : card.dataset.version === '1-5') ? 'block' : 'none';
+        card.style.display = (show1to10 ? card.dataset.version === '1-10' : card.dataset.version === '1-5') ? 'block' : 'none';
     });
 
     document.querySelectorAll('.toggle-view-btn').forEach(btn => {
-      btn.innerHTML = show1to10 ? '👁️ Ver do 1º ao 5º' : '👁️ Ver do 1º ao 10º';
-      btn.onclick = () => {
-        localStorage.setItem('viewPreference', localStorage.getItem('viewPreference') === '1-10' ? '1-5' : '1-10');
-        toggleResultView();
-      };
+        btn.innerHTML = show1to10 ? '👁️ Ver do 1º ao 5º' : '👁️ Ver do 1º ao 10º';
+        btn.onclick = () => {
+            localStorage.setItem('viewPreference', localStorage.getItem('viewPreference') === '1-10' ? '1-5' : '1-10');
+            toggleResultView();
+        };
     });
-  });
 }
 
-// === MOSTRAR RESUMO OTIMIZADO ===
-
+// Mostrar resumo de acertos
 function showResumo(cardId) {
-  activeCardId = cardId;
-  const [version, titleKey] = getCardDetails(cardId);
-  const data = globalData[version][titleKey];
-
-  const modalBody = document.getElementById('resumoModalBody');
-  
-  // Usar DocumentFragment para melhor performance
-  const fragment = document.createDocumentFragment();
-  
-  const header = document.createElement('h4');
-  header.textContent = '📊 Resultados';
-  fragment.appendChild(header);
-  
-  // Criar tabela
-  const tableContainer = document.createElement('div');
-  tableContainer.className = 'table-container';
-  
-  const table = document.createElement('table');
-  const thead = document.createElement('thead');
-  const headerRow = document.createElement('tr');
-  data.cabecalhos.forEach(h => {
-    const th = document.createElement('th');
-    th.textContent = h;
-    headerRow.appendChild(th);
-  });
-  thead.appendChild(headerRow);
-  table.appendChild(thead);
-  
-  const tbody = document.createElement('tbody');
-  data.dados.forEach(row => {
-    const tr = document.createElement('tr');
-    data.cabecalhos.forEach(h => {
-      const td = document.createElement('td');
-      td.textContent = row[h] || '-';
-      tr.appendChild(td);
-    });
-    tbody.appendChild(tr);
-  });
-  table.appendChild(tbody);
-  
-  tableContainer.appendChild(table);
-  fragment.appendChild(tableContainer);
-
-  // Timestamp
-  const timestamp = document.createElement('div');
-  timestamp.className = 'timestamp';
-  timestamp.textContent = getFormattedTimestamp(selectedDateStr);
-  fragment.appendChild(timestamp);
-  
-  // Actions bar
-  const actionsBar = document.createElement('div');
-  actionsBar.className = 'actions-bar';
-  
-  const shareBtn = document.createElement('button');
-  shareBtn.className = 'btn btn-primary';
-  shareBtn.innerHTML = '📤 Compartilhar';
-  shareBtn.onclick = () => shareContent('result', cardId);
-  
-  const copyBtn = document.createElement('button');
-  copyBtn.className = 'btn btn-primary';
-  copyBtn.innerHTML = '📋 Copiar Resultado';
-  copyBtn.onclick = () => copyContent('result', cardId);
-  
-  const pngBtn = document.createElement('button');
-  pngBtn.className = 'btn btn-accent';
-  pngBtn.innerHTML = '🖼️ Criar PNG';
-  pngBtn.onclick = () => openCreatePngModal('result', cardId);
-  
-  actionsBar.appendChild(shareBtn);
-  actionsBar.appendChild(copyBtn);
-  actionsBar.appendChild(pngBtn);
-  fragment.appendChild(actionsBar);
-
-  // Frases de acertos
-  const frasesHeader = document.createElement('h4');
-  frasesHeader.style.marginTop = '2rem';
-  frasesHeader.textContent = '🎯 Frases de Acertos';
-  fragment.appendChild(frasesHeader);
-  
-  const frasesContainer = document.createElement('div');
-  frasesContainer.className = 'frases-acertos';
-  
-  if (data.frases && Object.keys(data.frases).length > 0) {
-    for (const palpite in data.frases) {
-      data.frases[palpite].forEach(frase => {
-        const p = document.createElement('p');
-        p.innerHTML = `<strong>Palpite ${palpite}:</strong><br>${frase.replace(/<br>/g, ' ')}`;
-        frasesContainer.appendChild(p);
-      });
-    }
-    fragment.appendChild(frasesContainer);
-    
-    const copyFrasesBar = document.createElement('div');
-    copyFrasesBar.className = 'actions-bar';
-    copyFrasesBar.style.paddingTop = '0';
-    
-    const copyFrasesBtn = document.createElement('button');
-    copyFrasesBtn.className = 'btn btn-primary';
-    copyFrasesBtn.innerHTML = '📋 Copiar Frases de Acertos';
-    copyFrasesBtn.onclick = () => copyContent('frases', cardId);
-    
-    copyFrasesBar.appendChild(copyFrasesBtn);
-    fragment.appendChild(copyFrasesBar);
-  } else {
-    const noFrases = document.createElement('p');
-    noFrases.textContent = 'Nenhum acerto com os palpites fornecidos.';
-    frasesContainer.appendChild(noFrases);
-    fragment.appendChild(frasesContainer);
-  }
-  
-  if (data.resumo) {
-    const resumoP = document.createElement('p');
-    resumoP.style.cssText = 'margin-top: 2rem; font-style: italic; color: var(--text-secondary);';
-    resumoP.textContent = data.resumo;
-    fragment.appendChild(resumoP);
-  }
-  
-  modalBody.innerHTML = '';
-  modalBody.appendChild(fragment);
-  
-  document.getElementById('resumoModalPalpitesBtn').onclick = () => showPalpites(true, cardId);
-  openModal('resumoModal');
-}
-
-// === MOSTRAR PALPITES OTIMIZADO ===
-
-const showPalpites = debounce(async (fromResumo, cardId) => {
-  activeCardId = cardId;
-  const modalBody = document.getElementById('palpitesModalBody');
-  modalBody.innerHTML = '<div class="no-data loading">Carregando palpites...</div>';
-  
-  const voltarBtn = document.getElementById('voltarBtn');
-  voltarBtn.style.display = fromResumo ? 'inline-flex' : 'none';
-  voltarBtn.onclick = () => {
-    closeModal('palpitesModal');
-    openModal('resumoModal');
-  };
-
-  const cacheKey = 'palpites_data';
-  let palpitesData;
-  
-  // Verificar cache primeiro
-  if (cache.has(cacheKey)) {
-    const cachedData = cache.get(cacheKey);
-    if (Date.now() - cachedData.timestamp < 300000) { // 5 minutos
-      palpitesData = cachedData.data;
-      renderPalpites(palpitesData, cardId, modalBody);
-      if (fromResumo) closeModal('resumoModal');
-      openModal('palpitesModal');
-      return;
-    }
-  }
-
-  try {
-    const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
-    if (!response.ok) throw new Error('Não foi possível carregar os palpites.');
-    palpitesData = await response.json();
-    
-    // Armazenar no cache
-    cache.set(cacheKey, {
-      data: palpitesData,
-      timestamp: Date.now()
-    });
-    
-    renderPalpites(palpitesData, cardId, modalBody);
-  } catch (error) {
-    modalBody.innerHTML = `<div class="no-data">${error.message}</div>`;
-  }
-
-  if (fromResumo) closeModal('resumoModal');
-  openModal('palpitesModal');
-}, 200);
-
-function renderPalpites(palpitesData, cardId, modalBody) {
-  const [version] = getCardDetails(cardId);
-  const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
-  
-  const fragment = document.createDocumentFragment();
-  
-  const header = document.createElement('h4');
-  header.textContent = `🎯 ${frase}`;
-  fragment.appendChild(header);
-  
-  const palpitesDiv = document.createElement('div');
-  palpitesDiv.className = 'font-mono';
-  palpitesDiv.style.cssText = 'background: var(--bg-secondary); padding: 1.5rem; border-radius: 12px; word-break: break-word; line-height: 1.8;';
-  palpitesDiv.textContent = palpitesData.palpites.join(', ');
-  fragment.appendChild(palpitesDiv);
-  
-  const actionsBar = document.createElement('div');
-  actionsBar.className = 'actions-bar';
-  actionsBar.style.marginTop = '2rem';
-  
-  const shareBtn = document.createElement('button');
-  shareBtn.className = 'btn btn-primary';
-  shareBtn.innerHTML = '📤 Compartilhar';
-  shareBtn.onclick = () => shareContent('palpites', cardId);
-  
-  const copyBtn = document.createElement('button');
-  copyBtn.className = 'btn btn-primary';
-  copyBtn.innerHTML = '📋 Copiar Palpites';
-  copyBtn.onclick = () => copyContent('palpites', cardId);
-  
-  const pngBtn = document.createElement('button');
-  pngBtn.className = 'btn btn-accent';
-  pngBtn.innerHTML = '🖼️ Criar PNG';
-  pngBtn.onclick = () => generateImage('palpites', cardId);
-  
-  actionsBar.appendChild(shareBtn);
-  actionsBar.appendChild(copyBtn);
-  actionsBar.appendChild(pngBtn);
-  fragment.appendChild(actionsBar);
-  
-  modalBody.innerHTML = '';
-  modalBody.appendChild(fragment);
-}
-
-// === GERAÇÃO DE IMAGEM OTIMIZADA ===
-
-async function generateImage(type, cardId) {
-  try {
+    activeCardId = cardId;
     const [version, titleKey] = getCardDetails(cardId);
     const data = globalData[version][titleKey];
+
+    const modalBody = document.getElementById('resumoModalBody');
+    let content = '<h4>📊 Resultados</h4>';
     
-    // Verificar cache de imagem
-    const cacheKey = `image_${type}_${cardId}_${JSON.stringify(imageOptions)}`;
-    if (imageCache.has(cacheKey)) {
-      const cachedImage = imageCache.get(cacheKey);
-      if (Date.now() - cachedImage.timestamp < 600000) { // 10 minutos
-        currentImageBlob = cachedImage.blob;
-        displayImagePreview(cachedImage.url);
-        return;
-      }
+    content += `
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>${data.cabecalhos.map(h => `<th>${h}</th>`).join('')}</tr>
+                </thead>
+                <tbody>
+                    ${data.dados.map(row => `<tr>${data.cabecalhos.map(h => `<td>${row[h] || '-'}</td>`).join('')}</tr>`).join('')}
+                </tbody>
+            </table>
+        </div>
+    `;
+
+    content += `<div class="timestamp">${getFormattedTimestamp(selectedDateStr)}</div>`;
+    
+    content += `
+        <div class="actions-bar">
+            <button class="btn btn-primary" onclick="shareContent('result', '${cardId}')">
+                📤 Compartilhar
+            </button>
+            <button class="btn btn-primary" onclick="copyContent('result', '${cardId}')">
+                📋 Copiar Resultado
+            </button>
+            <button class="btn btn-accent" onclick="openCreatePngModal('result', '${cardId}')">
+                🖼️ Criar PNG
+            </button>
+        </div>
+    `;
+
+    content += '<h4 style="margin-top: 2rem;">🎯 Frases de Acertos</h4>';
+    const frasesContainer = document.createElement('div');
+    frasesContainer.className = 'frases-acertos';
+    
+    if (data.frases && Object.keys(data.frases).length > 0) {
+        for (const palpite in data.frases) {
+            data.frases[palpite].forEach(frase => {
+                frasesContainer.innerHTML += `<p><strong>Palpite ${palpite}:</strong><br>${frase.replace(/<br>/g, ' ')}</p>`;
+            });
+        }
+        content += frasesContainer.outerHTML;
+        content += `
+            <div class="actions-bar" style="padding-top:0;">
+                <button class="btn btn-primary" onclick="copyContent('frases', '${cardId}')">
+                    📋 Copiar Frases de Acertos
+                </button>
+            </div>
+        `;
+    } else {
+        frasesContainer.innerHTML = '<p>Nenhum acerto com os palpites fornecidos.</p>';
+        content += frasesContainer.outerHTML;
     }
     
-    // Verificar opções de imagem para resultados
-    if (type === 'result') {
-      const selectedOption = document.querySelector('input[name="imageContent"]:checked');
-      if (selectedOption) {
-        imageOptions.includeBanner = selectedOption.value === 'banner';
-        imageOptions.includeGuesses = selectedOption.value === 'guesses';
-      }
-    }
+    content += `<p style="margin-top: 2rem; font-style: italic; color: var(--text-secondary);">${data.resumo || ''}</p>`;
     
-    // Criar canvas com tamanho otimizado
-    const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
-    
-    // Configurar tamanho do canvas no formato 9:16 para mobile
-    canvas.width = 720;
-    canvas.height = 1280;
-    
-    // Sempre usar gradiente como plano de fundo
-    const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-    gradient.addColorStop(0, '#0f0f23');
-    gradient.addColorStop(0.3, '#16213e');
-    gradient.addColorStop(0.7, '#1a1a2e');
-    gradient.addColorStop(1, '#0f0f23');
-    ctx.fillStyle = gradient;
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-    
-    // Adicionar efeito de borda sutil
-    ctx.strokeStyle = 'rgba(59, 130, 246, 0.3)';
-    ctx.lineWidth = 2;
-    ctx.strokeRect(10, 10, canvas.width - 20, canvas.height - 20);
-    
-    let yPosition = 80;
-    
-    // Tentar carregar e desenhar logo (com cache)
-    try {
-      const logoImg = await loadImageWithCache(getImagePath('logo.png'));
-      if (logoImg) {
-        const logoHeight = 120;
-        const logoWidth = (logoImg.naturalWidth / logoImg.naturalHeight) * logoHeight;
-        const logoX = (canvas.width - logoWidth) / 2;
-        ctx.drawImage(logoImg, logoX, 30, logoWidth, logoHeight);
-        yPosition = 30 + logoHeight + 60;
-      }
-    } catch (error) {
-      console.log('Logo não carregada, continuando sem ela');
-    }
-    
-    // Configurar fonte principal
-    ctx.textAlign = 'center';
-    ctx.fillStyle = '#ffffff';
-    
-    if (type === 'result') {
-      await renderResultImage(ctx, data, titleKey, yPosition, version);
-    } else if (type === 'palpites') {
-      await renderPalpitesImage(ctx, version, yPosition);
-    }
-    
-    // Domínio do site na parte inferior
-    ctx.font = 'bold 48px Inter, Arial, sans-serif';
-    ctx.fillStyle = '#94a3b8';
-    ctx.fillText(window.location.hostname, canvas.width / 2, canvas.height - 60);
-    
-    // Converter canvas para blob
-    canvas.toBlob((blob) => {
-      if (!blob) {
-        throw new Error('Falha ao gerar imagem');
-      }
-      
-      currentImageBlob = blob;
-      const imageUrl = URL.createObjectURL(blob);
-      
-      // Armazenar no cache
-      imageCache.set(cacheKey, {
-        blob: blob,
-        url: imageUrl,
-        timestamp: Date.now()
-      });
-      
-      displayImagePreview(imageUrl);
-    }, 'image/png', 0.9);
-    
-  } catch (error) {
-    console.error('Erro ao gerar imagem:', error);
-    showToast('Erro ao gerar imagem. Tente novamente.');
-  }
+    modalBody.innerHTML = content;
+    document.getElementById('resumoModalPalpitesBtn').onclick = () => showPalpites(true, cardId);
+    openModal('resumoModal');
 }
 
-// === FUNÇÕES AUXILIARES OTIMIZADAS ===
-
-async function loadImageWithCache(src) {
-  const cacheKey = `img_${src}`;
-  
-  if (imageCache.has(cacheKey)) {
-    const cached = imageCache.get(cacheKey);
-    if (Date.now() - cached.timestamp < 3600000) { // 1 hora
-      return cached.image;
-    }
-  }
-  
-  return new Promise((resolve) => {
-    const img = new Image();
-    img.crossOrigin = 'anonymous';
-    img.onload = () => {
-      imageCache.set(cacheKey, {
-        image: img,
-        timestamp: Date.now()
-      });
-      resolve(img);
+// Mostrar palpites
+async function showPalpites(fromResumo, cardId) {
+    activeCardId = cardId;
+    const modalBody = document.getElementById('palpitesModalBody');
+    modalBody.innerHTML = '<div class="no-data loading">Carregando palpites...</div>';
+    
+    document.getElementById('voltarBtn').style.display = fromResumo ? 'inline-flex' : 'none';
+    document.getElementById('voltarBtn').onclick = () => {
+        closeModal('palpitesModal');
+        openModal('resumoModal');
     };
-    img.onerror = () => resolve(null);
-    img.src = src;
-    setTimeout(() => resolve(null), 3000); // Timeout de 3 segundos
-  });
+
+    try {
+        const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
+        if (!response.ok) throw new Error('Não foi possível carregar os palpites.');
+        const palpitesData = await response.json();
+        
+        const [version, ] = getCardDetails(cardId);
+        const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
+        
+        let content = `<h4>🎯 ${frase}</h4>`;
+        content += `<div class="font-mono" style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 12px; word-break: break-word; line-height: 1.8;">${palpitesData.palpites.join(', ')}</div>`;
+        
+        content += `
+            <div class="actions-bar" style="margin-top: 2rem;">
+                <button class="btn btn-primary" onclick="shareContent('palpites', '${cardId}')">
+                    📤 Compartilhar
+                </button>
+                <button class="btn btn-primary" onclick="copyContent('palpites', '${cardId}')">
+                    📋 Copiar Palpites
+                </button>
+                <button class="btn btn-accent" onclick="generateImage('palpites', '${cardId}')">
+                    🖼️ Criar PNG
+                </button>
+            </div>
+        `;
+        modalBody.innerHTML = content;
+    } catch (error) {
+        modalBody.innerHTML = `<div class="no-data">${error.message}</div>`;
+    }
+
+    if (fromResumo) closeModal('resumoModal');
+    openModal('palpitesModal');
 }
 
-function displayImagePreview(imageUrl) {
-  const previewImg = document.getElementById('previewImage');
-  if (previewImg) {
-    previewImg.src = imageUrl;
-  }
-  
-  const downloadBtn = document.getElementById('downloadImageBtn');
-  if (downloadBtn) {
-    downloadBtn.onclick = () => downloadImage();
-  }
-  
-  const shareBtn = document.getElementById('shareImageBtn');
-  if (shareBtn) {
-    shareBtn.onclick = () => shareImage();
-  }
-  
-  openImageModal();
+// Função para gerar imagem PNG usando Canvas nativo com layout melhorado
+async function generateImage(type, cardId) {
+    try {
+        const [version, titleKey] = getCardDetails(cardId);
+        const data = globalData[version][titleKey];
+        
+        // Verificar opções de imagem para resultados
+        if (type === 'result') {
+            const selectedOption = document.querySelector('input[name="imageContent"]:checked');
+            if (selectedOption) {
+                imageOptions.includeBanner = selectedOption.value === 'banner';
+                imageOptions.includeGuesses = selectedOption.value === 'guesses';
+            }
+        }
+        
+        // Criar canvas com tamanho otimizado
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        // Configurar tamanho do canvas no formato 9:16 para mobile
+        canvas.width = 720;
+        canvas.height = 1280;
+        
+        // Sempre usar gradiente como plano de fundo
+        const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+        gradient.addColorStop(0, '#0f0f23'); // --bg-primary
+        gradient.addColorStop(0.3, '#16213e'); // --bg-card
+        gradient.addColorStop(0.7, '#1a1a2e'); // --bg-secondary
+        gradient.addColorStop(1, '#0f0f23'); // --bg-primary
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+        // Adicionar efeito de borda sutil
+        ctx.strokeStyle = 'rgba(59, 130, 246, 0.3)';
+        ctx.lineWidth = 2;
+        ctx.strokeRect(10, 10, canvas.width - 20, canvas.height - 20);
+        
+        let yPosition = 80;
+        
+        // Tentar carregar e desenhar logo
+        try {
+            const logoImg = new Image();
+            logoImg.crossOrigin = 'anonymous';
+            await new Promise((resolve, reject) => {
+                logoImg.onload = resolve;
+                logoImg.onerror = resolve;
+                logoImg.src = getImagePath('logo.png');
+                setTimeout(resolve, 2000);
+            });
+            
+            if (logoImg.complete && logoImg.naturalWidth > 0) {
+                const originalLogoHeight = 80;
+                const logoHeight = originalLogoHeight * 1.5;
+                const logoWidth = (logoImg.naturalWidth / logoImg.naturalHeight) * logoHeight;
+                const logoX = (canvas.width - logoWidth) / 2;
+                ctx.drawImage(logoImg, logoX, 30, logoWidth, logoHeight);
+                yPosition = 30 + logoHeight + 60;
+            }
+        } catch (error) {
+            console.log('Logo não carregada, continuando sem ela');
+        }
+        
+        // Configurar fonte principal
+        ctx.textAlign = 'center';
+        ctx.fillStyle = '#ffffff';
+        
+        if (type === 'result') {
+            // Título principal com estilo melhorado
+            ctx.font = 'bold 36px Inter, Arial, sans-serif';
+            ctx.fillStyle = '#ffffff';
+            ctx.fillText(titleKey, canvas.width / 2, yPosition);
+            yPosition += 50;
+            
+            // Data abaixo do título
+            ctx.font = 'bold 24px Inter, Arial, sans-serif'; // Aumentado de 20px para 24px
+            ctx.fillStyle = '#94a3b8';
+            ctx.fillText(getFormattedTimestamp(selectedDateStr), canvas.width / 2, yPosition);
+            yPosition += 80;
+            
+            // Desenhar tabela ocupando toda a largura com fonte maior e espaçamento reduzido
+            ctx.font = '32px JetBrains Mono, monospace';
+            
+            // Cabeçalhos da tabela - largura total
+            const tableWidth = canvas.width - 40;
+            const colWidth = tableWidth / data.cabecalhos.length;
+            const startX = 20;
+            
+            // Fundo dos cabeçalhos
+            ctx.fillStyle = 'rgba(59, 130, 246, 0.2)';
+            ctx.fillRect(startX, yPosition - 20, tableWidth, 32);
+            
+            // Texto dos cabeçalhos
+            ctx.fillStyle = '#3b82f6';
+            ctx.font = 'bold 28px Inter, Arial, sans-serif';
+            data.cabecalhos.forEach((header, index) => {
+                ctx.fillText(header, startX + (index + 0.5) * colWidth, yPosition);
+            });
+            yPosition += 40;
+            
+            // Dados da tabela com espaçamento reduzido
+            ctx.font = '30px JetBrains Mono, monospace';
+            data.dados.forEach((row, rowIndex) => {
+                // Alternar cor de fundo das linhas
+                if (rowIndex % 2 === 0) {
+                    ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+                    ctx.fillRect(startX, yPosition - 15, tableWidth, 25);
+                }
+                
+                data.cabecalhos.forEach((header, colIndex) => {
+                    // Destacar primeira linha (1º lugar)
+                    ctx.fillStyle = rowIndex === 0 ? '#FFD700' : '#e2e8f0';
+                    const text = row[header] || '-';
+                    
+                    // Adicionar coroa para o primeiro lugar
+                    if (rowIndex === 0 && colIndex === 0) {
+                        ctx.fillText('👑 ' + text, startX + (colIndex + 0.5) * colWidth, yPosition);
+                    } else {
+                        ctx.fillText(text, startX + (colIndex + 0.5) * colWidth, yPosition);
+                    }
+                });
+                yPosition += 30;
+            });
+            
+            // Verificar se deve incluir palpites em vez do banner
+            if (imageOptions.includeGuesses) {
+                try {
+                    const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
+                    const palpitesData = await response.json();
+                    const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
+                    
+                    yPosition += 40;
+                    
+                    // Título dos palpites
+                    ctx.font = 'bold 24px Inter, Arial, sans-serif';
+                    ctx.fillStyle = '#ffffff';
+                    
+                    // Quebrar título em múltiplas linhas se necessário
+                    const words = frase.split(' ');
+                    let line = '';
+                    const maxWidth = canvas.width - 40;
+                    
+                    for (let n = 0; n < words.length; n++) {
+                        const testLine = line + words[n] + ' ';
+                        const metrics = ctx.measureText(testLine);
+                        
+                        if (metrics.width > maxWidth && n > 0) {
+                            ctx.fillText(line, canvas.width / 2, yPosition);
+                            line = words[n] + ' ';
+                            yPosition += 30;
+                        } else {
+                            line = testLine;
+                        }
+                    }
+                    ctx.fillText(line, canvas.width / 2, yPosition);
+                    yPosition += 60;
+                    
+                    // Configurar grade de 5 colunas para os palpites (mobile-friendly)
+                    const gridCols = 5;
+                    const gridStartX = 20;
+                    const gridWidth = canvas.width - 40;
+                    const cellWidth = gridWidth / gridCols;
+                    const cellHeight = 60;
+                    const fontSize = 24;
+                    
+                    ctx.font = `bold ${fontSize}px JetBrains Mono, monospace`;
+                    ctx.textAlign = 'center';
+                    
+                    // Fundo para a grade de palpites - alinhamento perfeito
+                    const gridRows = Math.ceil(palpitesData.palpites.length / gridCols);
+                    const gridHeight = gridRows * cellHeight;
+                    ctx.fillStyle = 'rgba(59, 130, 246, 0.1)';
+                    ctx.fillRect(gridStartX, yPosition - cellHeight/2, gridWidth, gridHeight);
+                    
+                    // Desenhar os palpites em grade
+                    palpitesData.palpites.forEach((palpite, index) => {
+                        const row = Math.floor(index / gridCols);
+                        const col = index % gridCols;
+                        
+                        const cellX = gridStartX + col * cellWidth;
+                        const cellY = yPosition + row * cellHeight;
+                        
+                        // Fundo alternado para as células - alinhamento correto
+                        if ((row + col) % 2 === 0) {
+                            ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+                            ctx.fillRect(cellX, cellY - cellHeight/2, cellWidth, cellHeight);
+                        }
+                        
+                        // Texto do palpite
+                        ctx.fillStyle = '#e2e8f0';
+                        ctx.fillText(palpite, cellX + cellWidth/2, cellY + fontSize/3);
+                    });
+                    
+                    yPosition += gridHeight + 10;
+                    
+                } catch (error) {
+                    console.log('Erro ao carregar palpites para imagem');
+                }
+            }
+            
+        } else if (type === 'palpites') {
+            try {
+                const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
+                const palpitesData = await response.json();
+                const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
+                
+                // Título dos palpites
+                ctx.font = 'bold 28px Inter, Arial, sans-serif';
+                ctx.fillStyle = '#ffffff';
+                
+                // Quebrar título em múltiplas linhas se necessário
+                const words = frase.split(' ');
+                let line = '';
+                const maxWidth = canvas.width - 40;
+                
+                for (let n = 0; n < words.length; n++) {
+                    const testLine = line + words[n] + ' ';
+                    const metrics = ctx.measureText(testLine);
+                    
+                    if (metrics.width > maxWidth && n > 0) {
+                        ctx.fillText(line, canvas.width / 2, yPosition);
+                        line = words[n] + ' ';
+                        yPosition += 35;
+                    } else {
+                        line = testLine;
+                    }
+                }
+                ctx.fillText(line, canvas.width / 2, yPosition);
+                yPosition += 40;
+                
+                // Data abaixo do título dos palpites
+                ctx.font = 'bold 18px Inter, Arial, sans-serif';
+                ctx.fillStyle = '#94a3b8';
+                ctx.fillText(getFormattedTimestamp(selectedDateStr), canvas.width / 2, yPosition);
+                yPosition += 80;
+                
+                // Configurar grade de 5 colunas para os palpites (mobile-friendly)
+                const gridCols = 5;
+                const gridStartX = 20;
+                const gridWidth = canvas.width - 40;
+                const cellWidth = gridWidth / gridCols;
+                const cellHeight = 60;
+                const fontSize = 24;
+                
+                ctx.font = `bold ${fontSize}px JetBrains Mono, monospace`;
+                ctx.textAlign = 'center';
+                
+                // Fundo para a grade de palpites - alinhamento perfeito
+                const gridRows = Math.ceil(palpitesData.palpites.length / gridCols);
+                const gridHeight = gridRows * cellHeight;
+                ctx.fillStyle = 'rgba(59, 130, 246, 0.1)';
+                ctx.fillRect(gridStartX, yPosition - cellHeight/2, gridWidth, gridHeight);
+                
+                // Desenhar os palpites em grade
+                palpitesData.palpites.forEach((palpite, index) => {
+                    const row = Math.floor(index / gridCols);
+                    const col = index % gridCols;
+                    
+                    const cellX = gridStartX + col * cellWidth;
+                    const cellY = yPosition + row * cellHeight;
+                    
+                    // Fundo alternado para as células - alinhamento correto
+                    if ((row + col) % 2 === 0) {
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+                        ctx.fillRect(cellX, cellY - cellHeight/2, cellWidth, cellHeight);
+                    }
+                    
+                    // Texto do palpite
+                    ctx.fillStyle = '#e2e8f0';
+                    ctx.fillText(palpite, cellX + cellWidth/2, cellY + fontSize/3);
+                });
+                
+                yPosition += gridHeight + 10;
+                
+            } catch (error) {
+                ctx.fillText('Erro ao carregar palpites', canvas.width / 2, yPosition);
+                yPosition += 60;
+            }
+        }
+        
+        // Espaço para a propaganda da banca (condicional baseado nas opções)
+        if (type === 'palpites' || (type === 'result' && imageOptions.includeBankAd)) {
+            // Definir o espaço disponível para a propaganda da banca
+            const adAreaStart = yPosition + 10;
+            const adAreaEnd = canvas.height - 120; // Considerando o espaço para o domínio do site
+            const adAreaHeight = adAreaEnd - adAreaStart;
+
+            const adText = "Na 77x Brasil, o seu 1 Real vale 8 Mil!\nBônus de 20% na sua primeira recarga!\nAcesse o site para mais!";
+            const adLines = adText.split("\n");
+
+            // Calcular a altura total do texto da propaganda
+            let totalTextHeight = 0;
+            // Altura da primeira linha (maior fonte)
+            ctx.font = 'bold 40px Inter, Arial, sans-serif';
+            totalTextHeight += 40; // Aproximadamente a altura da fonte
+            // Altura das linhas seguintes (menor fonte)
+            ctx.font = 'bold 28px Inter, Arial, sans-serif';
+            totalTextHeight += (adLines.length - 1) * 35; // 35 é o espaçamento entre as linhas
+
+            // Calcular a posição Y inicial para centralizar verticalmente
+            let currentY = adAreaStart + (adAreaHeight - totalTextHeight) / 2;
+
+            // Desenhar a primeira linha com fonte maior e cor amarela vibrante
+            ctx.font = 'bold 36px Inter, Arial, sans-serif'; // Fonte um pouco menor
+            ctx.fillStyle = '#FFFF00'; // Amarelo vibrante
+            ctx.fillText(adLines[0], canvas.width / 2, currentY);
+            currentY += 40; // Ajustar para a próxi            // Desenhar as linhas seguintes com fonte menor e fundo azul escuro
+            ctx.font = 'bold 36px Inter, Arial, sans-serif'; // Aumentado de 32px para 36px         ctx.fillStyle = '#ffffff'; // Cor do texto para as linhas restantes
+            for (let i = 1; i < adLines.length; i++) {
+                // Calcular largura do texto para o fundo
+                const textWidth = ctx.measureText(adLines[i]).width;
+                const backgroundPadding = 20; // Preenchimento para o fundo
+                const backgroundX = (canvas.width / 2) - (textWidth / 2) - (backgroundPadding / 2);
+                const backgroundY = currentY - 28; // Ajustar para a posição vertical do texto
+                const backgroundHeight = 35; // Altura do fundo
+
+                // Desenhar fundo azul escuro
+                ctx.fillStyle = 'rgba(0, 0, 128, 0.7)'; // Azul escuro com transparência
+                ctx.fillRect(backgroundX, backgroundY, textWidth + backgroundPadding, backgroundHeight);
+                
+                // Desenhar texto
+                ctx.fillStyle = '#ffffff'; // Cor do texto
+                ctx.fillText(adLines[i], canvas.width / 2, currentY);
+                currentY += 35; // Espaçamento entre as linhas
+            }
+            yPosition = currentY + 20; // Atualizar yPosition para o próximo elemento
+        }
+        
+        // Domínio do site na parte inferior com fonte muito maior
+        ctx.font = 'bold 48px Inter, Arial, sans-serif';
+        ctx.fillStyle = '#94a3b8';
+        ctx.fillText(window.location.hostname, canvas.width / 2, canvas.height - 60);
+        
+        // Converter canvas para blob
+        canvas.toBlob((blob) => {
+            if (!blob) {
+                throw new Error('Falha ao gerar imagem');
+            }
+            
+            currentImageBlob = blob;
+            
+            // Criar URL para preview
+            const imageUrl = URL.createObjectURL(blob);
+            document.getElementById('previewImage').src = imageUrl;
+            
+            // Configurar botão de download
+            document.getElementById('downloadImageBtn').onclick = () => {
+                const link = document.createElement('a');
+                link.href = imageUrl;
+                link.download = `${type}_${titleKey.replace(/[^a-zA-Z0-9]/g, '_')}_${selectedDateStr}.png`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            };
+            
+            // Abrir modal de visualização
+            openImageModal();
+        }, 'image/png', 0.9);
+        
+    } catch (error) {
+        console.error('Erro ao gerar imagem:', error);
+        alert('Erro ao gerar imagem: ' + error.message);
+    }
 }
 
-function downloadImage() {
-  if (!currentImageBlob) {
-    showToast('Nenhuma imagem disponível para download.');
+// Mostrar notificação toast
+function showToast(message) {
+    const toast = document.getElementById("toast");
+    const messageSpan = document.getElementById("toast-message");
+
+    if (toastTimeout) {
+        clearTimeout(toastTimeout);
+    }
+
+    messageSpan.textContent = message;
+    toast.classList.add("show");
+
+    toastTimeout = setTimeout(() => {
+        toast.classList.remove("show");
+    }, 4000);
+}
+
+// Formatar timestamp usando horário do sistema
+function getFormattedTimestamp(dateStr) {
+    const date = new Date(dateStr + 'T12:00:00');
+    return date.toLocaleDateString('pt-BR', { 
+        weekday: 'long', 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric' 
+    });
+}
+
+// Gerar texto para compartilhamento/cópia - ATUALIZADO COM CÓDIGO
+async function generateText(type, cardId) {
+    const [version, titleKey] = getCardDetails(cardId);
+    const data = globalData[version][titleKey];
+    const baseUrl = window.location.href;
+    
+    // Construir URL apenas com código se existir
+    const storedCode = getStoredProductCode();
+    const pageUrl = storedCode ? 
+        `${window.location.origin}${window.location.pathname}?pr=${storedCode}` : 
+        `${window.location.origin}${window.location.pathname}`;
+    
+    const timestamp = getFormattedTimestamp(selectedDateStr);
+
+    if (type === 'result') {
+        let text = `*Resultado ${titleKey}*\n_${timestamp}_\n\n`;
+        data.dados.forEach(row => {
+            text += `${row['Prêmio'] || ''}: *${row['Milhar'] || ''}* - ${row['Grupo'] || ''} ${row['Bicho'] || ''}\n`;
+        });
+        text += `\nVeja mais em: ${pageUrl}`;
+        return text;
+    }
+
+    if (type === 'frases') {
+        let text = `*Frases de Acertos - ${titleKey}*\n\n`;
+        if (data.frases && Object.keys(data.frases).length > 0) {
+            for (const palpite in data.frases) {
+                data.frases[palpite].forEach(frase => {
+                    text += `Palpite ${palpite}: ${frase.replace(/<br>/g, ' ')}\n`;
+                });
+            }
+        } else {
+            text = "Nenhuma frase de acerto para este resultado.";
+        }
+        return text;
+    }
+
+    if (type === 'palpites') {
+        try {
+            const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
+            if (!response.ok) return "Não foi possível carregar os palpites.";
+            const palpitesData = await response.json();
+            const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
+            let text = `*${frase}*\n\n${palpitesData.palpites.join(', ')}\n\nConfira os resultados em: ${pageUrl}`;
+            return text;
+        } catch { 
+            return "Erro ao gerar texto dos palpites."; 
+        }
+    }
+}
+
+// Compartilhar conteúdo - ATUALIZADO COM CÓDIGO
+async function shareContent(type, cardId) {
+    const text = await generateText(type, cardId);
+    
+    if (navigator.share) {
+        navigator.share({ 
+            title: getPageTitle(), 
+            text: text
+            // Removido o parâmetro url para evitar duplicação, pois o link já está no texto
+        }).catch(console.error);
+    } else {
+        showToast('Compartilhamento não suportado neste dispositivo.');
+    }
+}
+
+// Copiar conteúdo
+async function copyContent(type, cardId) {
+    const text = await generateText(type, cardId);
+    try {
+        await navigator.clipboard.writeText(text);
+        showToast('Conteúdo copiado com sucesso!');
+    } catch (err) {
+        showToast('Falha ao copiar conteúdo.');
+    }
+}
+
+// Obter detalhes do card
+function getCardDetails(cardId) {
+    const card = document.getElementById(cardId);
+    const version = card.dataset.version;
+    const titleKey = Object.keys(globalData[version]).find(key => 
+        key.replace(/[^a-zA-Z0-9]/g, '') === cardId.replace(version + '-', '')
+    );
+    return [version, titleKey];
+}
+
+// Encontrar último título de resultado
+function findLastResultTitle(data) {
+    let lastTitle = "desconhecido";
+    const versions = ['1-10', '1-5'];
+    for (const version of versions) {
+        if (data[version]) {
+            const titles = Object.keys(data[version]);
+            for (let i = titles.length - 1; i >= 0; i--) {
+                const title = titles[i];
+                if (data[version][title].dados && data[version][title].dados.some(d => d.Milhar)) {
+                    return title;
+                }
+            }
+        }
+    }
+    return lastTitle;
+}
+
+// Inicialização comum - ATUALIZADA COM CAPTURA DE PARÂMETRO
+function initializeCommonFeatures() {
+    captureAndStoreUrlParameter();
+    
+    // Configurar o botão de inverter ordem
+    const orderToggleBtn = document.getElementById('order-toggle-btn');
+    if (orderToggleBtn) {
+        orderToggleBtn.addEventListener('click', toggleOrder);
+        orderToggleBtn.textContent = orderPreference === 'ascending' ? '⬆⬇ Inverter Ordem (Mais recente primeiro)' : '⬆⬇ Inverter Ordem (Mais antigo primeiro)';
+    }
+
+    // Event listener para o link dos títulos
+    const titulosLink = document.getElementById('titulosLink');
+    if (titulosLink) {
+        titulosLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            loadTitulos();
+            openModal('titulosModal');
+        });
+        
+        // Efeito hover no link
+        titulosLink.addEventListener('mouseenter', function() {
+            this.style.color = 'var(--accent-primary)';
+        });
+        
+        titulosLink.addEventListener('mouseleave', function() {
+            this.style.color = 'var(--text-secondary)';
+        });
+    }
+
+    // Event listener para o filtro de dia da semana
+    const dayFilter = document.getElementById('dayFilter');
+    if (dayFilter) {
+        dayFilter.addEventListener('change', function() {
+            const selectedDay = this.value;
+            displayTitulos(selectedDay);
+        });
+    }
+
+    // Event listener para o botão de compartilhar imagem
+    const shareImageBtn = document.getElementById('shareImageBtn');
+    if (shareImageBtn) {
+        shareImageBtn.addEventListener('click', function() {
+            shareImage();
+        });
+    }
+
+    // Fechar modal clicando fora com controle de rolagem
+    window.onclick = (event) => {
+        if (event.target.classList.contains('modal')) {
+            closeModal(event.target.id);
+        }
+        if (event.target.classList.contains('image-modal')) {
+            closeImageModal();
+        }
+    };
+
+    // Inicializar Flatpickr
+    initializeFlatpickr();
+}
+
+// Funções que devem ser implementadas em cada página específica:
+// - getPageTitle() - retorna o título da página
+// - getDataUrl(dateStr) - retorna a URL dos dados JSON para a data
+// - getJsonPath(filename) - retorna o caminho para arquivos JSON
+// - getImagePath(imageName) - retorna o caminho para imagens
+
+// Inicializar quando o DOM estiver carregado
+document.addEventListener('DOMContentLoaded', function() {
+    initializeCommonFeatures();
+    fetchData(true);
+});
+
+
+
+// === SLIDING BANNER LOGIC ===
+function initializeSlidingBanner() {
+  const slidingBanner = document.getElementById("slidingBanner");
+  const closeBannerBtn = document.getElementById("closeBannerBtn");
+  const registerBtn = document.getElementById("registerBtn");
+  const learnMoreLink = document.getElementById("learnMoreLink");
+
+  if (!slidingBanner) {
+    console.warn("Banner element not found");
     return;
   }
-  
-  const url = URL.createObjectURL(currentImageBlob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `resultado_${selectedDateStr}_${Date.now()}.png`;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-  showToast('Imagem baixada com sucesso!');
-}
 
-// === FUNÇÕES DE RENDERIZAÇÃO DE IMAGEM ===
+  const defaultCode = "PACruTth";
+  let productCode = getStoredProductCode();
+  if (!productCode) {
+    productCode = defaultCode;
+  }
 
-async function renderResultImage(ctx, data, titleKey, yPosition, version) {
-  // Título principal
-  ctx.font = 'bold 36px Inter, Arial, sans-serif';
-  ctx.fillStyle = '#ffffff';
-  ctx.fillText(titleKey, ctx.canvas.width / 2, yPosition);
-  yPosition += 50;
+  // Set dynamic links
+  if (registerBtn) {
+    registerBtn.href = `https://app.77xbrasil.com.br/pr/${productCode}`;
+    registerBtn.target = "_blank";
+    registerBtn.rel = "noopener noreferrer";
+  }
   
-  // Data
-  ctx.font = 'bold 24px Inter, Arial, sans-serif';
-  ctx.fillStyle = '#94a3b8';
-  ctx.fillText(getFormattedTimestamp(selectedDateStr), ctx.canvas.width / 2, yPosition);
-  yPosition += 80;
-  
-  // Desenhar tabela
-  const tableWidth = ctx.canvas.width - 40;
-  const colWidth = tableWidth / data.cabecalhos.length;
-  const startX = 20;
-  
-  // Cabeçalhos
-  ctx.fillStyle = 'rgba(59, 130, 246, 0.2)';
-  ctx.fillRect(startX, yPosition - 20, tableWidth, 32);
-  
-  ctx.fillStyle = '#3b82f6';
-  ctx.font = 'bold 28px Inter, Arial, sans-serif';
-  data.cabecalhos.forEach((header, index) => {
-    ctx.fillText(header, startX + (index + 0.5) * colWidth, yPosition);
-  });
-  yPosition += 40;
-  
-  // Dados da tabela
-  ctx.font = '30px JetBrains Mono, monospace';
-  data.dados.forEach((row, rowIndex) => {
-    if (rowIndex % 2 === 0) {
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
-      ctx.fillRect(startX, yPosition - 15, tableWidth, 25);
-    }
-    
-    data.cabecalhos.forEach((header, colIndex) => {
-      ctx.fillStyle = rowIndex === 0 ? '#FFD700' : '#e2e8f0';
-      const text = row[header] || '-';
+  if (learnMoreLink) {
+    learnMoreLink.href = `https://77xxbrasil.com/pr/${productCode}`;
+    learnMoreLink.target = "_blank";
+    learnMoreLink.rel = "noopener noreferrer";
+  }
+
+  // Show banner after 5 seconds when page is fully loaded
+  const showBannerTimeout = setTimeout(() => {
+    if (slidingBanner && !slidingBanner.classList.contains('show')) {
+      slidingBanner.classList.add("show");
       
-      if (rowIndex === 0 && colIndex === 0) {
-        ctx.fillText('👑 ' + text, startX + (colIndex + 0.5) * colWidth, yPosition);
-      } else {
-        ctx.fillText(text, startX + (colIndex + 0.5) * colWidth, yPosition);
-      }
+      // Add subtle body padding to prevent content jump
+      document.body.style.paddingBottom = '20px';
+    }
+  }, 5000);
+
+  // Close banner functionality
+  function hideBanner() {
+    if (slidingBanner) {
+      slidingBanner.classList.remove("show");
+      document.body.style.paddingBottom = '';
+    }
+  }
+
+  // Close banner when clicking X button
+  if (closeBannerBtn) {
+    closeBannerBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      hideBanner();
+      clearTimeout(showBannerTimeout);
     });
-    yPosition += 30;
+  }
+
+  // Close banner when clicking on register button
+  if (registerBtn) {
+    registerBtn.addEventListener("click", () => {
+      hideBanner();
+    });
+  }
+
+  // Close banner when clicking on learn more link
+  if (learnMoreLink) {
+    learnMoreLink.addEventListener("click", () => {
+      hideBanner();
+    });
+  }
+
+  // Handle escape key to close banner
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && slidingBanner && slidingBanner.classList.contains('show')) {
+      hideBanner();
+    }
   });
-  
-  // Verificar se deve incluir palpites
-  if (imageOptions.includeGuesses) {
-    await renderPalpitesInResult(ctx, version, yPosition);
-  }
-  
-  // Propaganda da banca (se habilitada)
-  if (imageOptions.includeBankAd) {
-    renderBankAd(ctx, yPosition);
-  }
+
+  // Prevent banner from showing on print
+  window.addEventListener('beforeprint', () => {
+    if (slidingBanner) {
+      slidingBanner.style.display = 'none';
+    }
+  });
+
+  window.addEventListener('afterprint', () => {
+    if (slidingBanner) {
+      slidingBanner.style.display = 'flex';
+    }
+  });
 }
 
-async function renderPalpitesImage(ctx, version, yPosition) {
+// Initialize banner when page is fully loaded
+window.addEventListener('load', () => {
+  // Small delay to ensure all other scripts are loaded
+  setTimeout(initializeSlidingBanner, 100);
+});
+
+// === FUNCIONALIDADE DO MODAL DE SELEÇÃO DE LOTERIA ===
+
+// Função para carregar e exibir o modal de seleção de loteria
+async function showLotteryModal() {
   try {
-    const cacheKey = 'palpites_data';
-    let palpitesData;
-    
-    if (cache.has(cacheKey)) {
-      palpitesData = cache.get(cacheKey).data;
-    } else {
-      const response = await fetch(getJsonPath('palpites.json') + '?t=' + new Date().getTime());
-      palpitesData = await response.json();
+    const response = await fetch('/resultados/lottery.json');
+    if (!response.ok) {
+      throw new Error('Erro ao carregar lista de loterias');
     }
     
-    const frase = palpitesData[`frase_${version}`] || "Palpites para a próxima extração:";
+    const lotteries = await response.json();
+    const lotteryList = document.getElementById('lotteryList');
     
-    // Título dos palpites
-    ctx.font = 'bold 28px Inter, Arial, sans-serif';
-    ctx.fillStyle = '#ffffff';
+    // Limpar lista existente
+    lotteryList.innerHTML = '';
     
-    // Quebrar título em múltiplas linhas se necessário
-    const words = frase.split(' ');
-    let line = '';
-    const maxWidth = ctx.canvas.width - 40;
-    
-    for (let n = 0; n < words.length; n++) {
-      const testLine = line + words[n] + ' ';
-      const metrics = ctx.measureText(testLine);
+    // Adicionar cada loteria à lista
+    lotteries.forEach(lottery => {
+      const listItem = document.createElement('li');
+      const link = document.createElement('a');
       
-      if (metrics.width > maxWidth && n > 0) {
-        ctx.fillText(line, ctx.canvas.width / 2, yPosition);
-        line = words[n] + ' ';
-        yPosition += 35;
-      } else {
-        line = testLine;
-      }
-    }
-    ctx.fillText(line, ctx.canvas.width / 2, yPosition);
-    yPosition += 40;
+      link.textContent = lottery.name;
+      link.href = '#';
+      link.onclick = (e) => {
+        e.preventDefault();
+        redirectToLottery(lottery.path);
+      };
+      
+      listItem.appendChild(link);
+      lotteryList.appendChild(listItem);
+    });
     
-    // Data
-    ctx.font = 'bold 18px Inter, Arial, sans-serif';
-    ctx.fillStyle = '#94a3b8';
-    ctx.fillText(getFormattedTimestamp(selectedDateStr), ctx.canvas.width / 2, yPosition);
-    yPosition += 80;
-    
-    // Grade de palpites
-    renderPalpitesGrid(ctx, palpitesData.palpites, yPosition);
+    // Exibir o modal
+    openModal('lotteryModal');
     
   } catch (error) {
-    ctx.fillText('Erro ao carregar palpites', ctx.canvas.width / 2, yPosition);
+    console.error('Erro ao carregar loterias:', error);
+    showToast('Erro ao carregar lista de loterias', 'error');
   }
 }
 
-function renderPalpitesGrid(ctx, palpites, yPosition) {
-  const gridCols = 5;
-  const gridStartX = 20;
-  const gridWidth = ctx.canvas.width - 40;
-  const cellWidth = gridWidth / gridCols;
-  const cellHeight = 60;
-  const fontSize = 24;
+// Função para redirecionar para a página da loteria selecionada
+function redirectToLottery(lotteryPath) {
+  // Obter a raiz do repositório (assumindo que estamos em /resultados/nome-da-banca/)
+  const currentPath = window.location.pathname;
+  const pathParts = currentPath.split('/');
   
-  ctx.font = `bold ${fontSize}px JetBrains Mono, monospace`;
-  ctx.textAlign = 'center';
+  // Encontrar o índice de 'resultados' no caminho
+  const resultadosIndex = pathParts.indexOf('resultados');
   
-  // Fundo para a grade
-  const gridRows = Math.ceil(palpites.length / gridCols);
-  const gridHeight = gridRows * cellHeight;
-  ctx.fillStyle = 'rgba(59, 130, 246, 0.1)';
-  ctx.fillRect(gridStartX, yPosition - cellHeight/2, gridWidth, gridHeight);
-  
-  // Desenhar os palpites
-  palpites.forEach((palpite, index) => {
-    const row = Math.floor(index / gridCols);
-    const col = index % gridCols;
+  if (resultadosIndex !== -1) {
+    // Construir o novo caminho
+    const basePath = pathParts.slice(0, resultadosIndex + 1).join('/');
+    const newPath = `${basePath}/${lotteryPath}/`;
     
-    const cellX = gridStartX + col * cellWidth;
-    const cellY = yPosition + row * cellHeight;
-    
-    // Fundo alternado
-    if ((row + col) % 2 === 0) {
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
-      ctx.fillRect(cellX, cellY - cellHeight/2, cellWidth, cellHeight);
-    }
-    
-    // Texto do palpite
-    ctx.fillStyle = '#e2e8f0';
-    ctx.fillText(palpite, cellX + cellWidth/2, cellY + fontSize/3);
-  });
-}
-
-function renderBankAd(ctx, yPosition) {
-  const adAreaStart = yPosition + 10;
-  const adAreaEnd = ctx.canvas.height - 120;
-  const adAreaHeight = adAreaEnd - adAreaStart;
-
-  const adText = "Na 77x Brasil, o seu 1 Real vale 8 Mil!\nBônus de 20% na sua primeira recarga!\nAcesse o site para mais!";
-  const adLines = adText.split("\n");
-
-  let totalTextHeight = 40 + (adLines.length - 1) * 35;
-  let currentY = adAreaStart + (adAreaHeight - totalTextHeight) / 2;
-
-  // Primeira linha
-  ctx.font = 'bold 36px Inter, Arial, sans-serif';
-  ctx.fillStyle = '#FFFF00';
-  ctx.fillText(adLines[0], ctx.canvas.width / 2, currentY);
-  currentY += 40;
-
-  // Linhas seguintes
-  ctx.font = 'bold 36px Inter, Arial, sans-serif';
-  ctx.fillStyle = '#ffffff';
-  for (let i = 1; i < adLines.length; i++) {
-    const textWidth = ctx.measureText(adLines[i]).width;
-    const backgroundPadding = 20;
-    const backgroundX = (ctx.canvas.width / 2) - (textWidth / 2) - (backgroundPadding / 2);
-    const backgroundY = currentY - 28;
-    const backgroundHeight = 35;
-
-    ctx.fillStyle = 'rgba(0, 0, 128, 0.7)';
-    ctx.fillRect(backgroundX, backgroundY, textWidth + backgroundPadding, backgroundHeight);
-    
-    ctx.fillStyle = '#ffffff';
-    ctx.fillText(adLines[i], ctx.canvas.width / 2, currentY);
-    currentY += 35;
+    // Redirecionar
+    window.location.href = newPath;
+  } else {
+    // Fallback: assumir que estamos na raiz
+    window.location.href = `/resultados/${lotteryPath}/`;
   }
 }
 
-// === FUNÇÕES AUXILIARES RESTANTES ===
-
-function getCardDetails(cardId) {
-  const parts = cardId.split('-');
-  const version = parts[0] + '-' + parts[1];
-  const titleKey = Object.keys(globalData[version] || {})[0];
-  return [version, titleKey];
-}
-
-function getFormattedTimestamp(dateStr) {
-  const date = new Date(dateStr + 'T00:00:00');
-  return date.toLocaleDateString('pt-BR', {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  });
-}
-
-function findLastResultTitle(data) {
-  let lastTitle = '';
-  const versions = ['1-5', '1-10'];
-  
-  versions.forEach(version => {
-    if (data[version]) {
-      const titles = Object.keys(data[version]);
-      if (titles.length > 0) {
-        lastTitle = titles[titles.length - 1];
-      }
-    }
-  });
-  
-  return lastTitle;
-}
-
-// === TOAST OTIMIZADO ===
-
-const showToast = debounce((message, type = 'success') => {
-  const toast = document.getElementById('toast');
-  const toastMessage = document.getElementById('toast-message');
-  const toastIcon = document.getElementById('toast-icon-text');
-  
-  if (!toast || !toastMessage || !toastIcon) return;
-  
-  if (toastTimeout) {
-    clearTimeout(toastTimeout);
-  }
-  
-  toastMessage.textContent = message;
-  toastIcon.textContent = type === 'success' ? '✓' : '⚠';
-  
-  toast.classList.add('show');
-  
-  toastTimeout = setTimeout(() => {
-    toast.classList.remove('show');
-  }, 3000);
-}, 100);
-
-// === FUNÇÕES DE COMPARTILHAMENTO E CÓPIA ===
-
-async function shareContent(type, cardId) {
-  // Implementação das funções de compartilhamento
-  // (código similar ao original, mas otimizado)
-  showToast('Funcionalidade de compartilhamento em desenvolvimento');
-}
-
-async function copyContent(type, cardId) {
-  // Implementação das funções de cópia
-  // (código similar ao original, mas otimizado)
-  showToast('Conteúdo copiado para a área de transferência');
-}
-
-// === INICIALIZAÇÃO OTIMIZADA ===
-
-function initializeCommonFeatures() {
-  // Capturar parâmetros da URL
-  captureAndStoreUrlParameter();
-  
-  // Inicializar Flatpickr
-  initializeFlatpickr();
-  
-  // Configurar event listeners com debounce
-  const orderBtn = document.getElementById('order-toggle-btn');
-  if (orderBtn) {
-    orderBtn.addEventListener('click', toggleOrder);
-    orderBtn.textContent = orderPreference === 'ascending' ? 
-      '⬆⬇ Inverter Ordem (Mais recente primeiro)' : 
-      '⬆⬇ Inverter Ordem (Mais antigo primeiro)';
-  }
-  
-  // Configurar links
-  const titulosLink = document.getElementById('titulosLink');
-  if (titulosLink) {
-    titulosLink.addEventListener('click', (e) => {
+// Função para inicializar o evento do link de seleção de loteria
+function initializeLotterySelector() {
+  const selectLotteryLink = document.getElementById('selectLotteryLink');
+  if (selectLotteryLink) {
+    selectLotteryLink.addEventListener('click', (e) => {
       e.preventDefault();
-      loadTitulos();
-      openModal('titulosModal');
+      showLotteryModal();
     });
   }
-  
-  // Configurar filtro de dia
-  const dayFilter = document.getElementById('dayFilter');
-  if (dayFilter) {
-    dayFilter.addEventListener('change', debounce((e) => {
-      displayTitulos(e.target.value);
-    }, 200));
-  }
-  
-  // Event listeners para modais (ESC key)
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && modalHistory.length > 0) {
-      const lastModal = modalHistory[modalHistory.length - 1];
-      closeModal(lastModal);
-    }
-  });
-  
-  // Cleanup de cache periodicamente
-  setInterval(() => {
-    const now = Date.now();
-    for (const [key, value] of cache.entries()) {
-      if (now - value.timestamp > 3600000) { // 1 hora
-        cache.delete(key);
-      }
-    }
-    for (const [key, value] of imageCache.entries()) {
-      if (now - value.timestamp > 3600000) { // 1 hora
-        if (value.url) URL.revokeObjectURL(value.url);
-        imageCache.delete(key);
-      }
-    }
-  }, 600000); // Limpar a cada 10 minutos
 }
 
-// === FUNÇÕES PLACEHOLDER ===
 
-function initializeBreadcrumb() {
-  // Implementação do breadcrumb
-  console.log('Breadcrumb inicializado');
-}
 
-function initializeLotterySelector() {
-  // Implementação do seletor de loteria
-  console.log('Seletor de loteria inicializado');
-}
+// === FUNCIONALIDADE DE DOMÍNIO AUTOMÁTICO NO FOOTER ===
 
 function setAutomaticDomain() {
-  const domainElement = document.getElementById('siteDomain');
-  if (domainElement) {
-    domainElement.textContent = window.location.hostname;
+  const siteDomainElement = document.getElementById('siteDomain');
+  if (siteDomainElement) {
+    siteDomainElement.textContent = window.location.hostname;
   }
 }
+
+// Chamar a função ao carregar a página
+document.addEventListener('DOMContentLoaded', setAutomaticDomain);
+
+
+
+
+// === FUNCIONALIDADE DE DIREITOS AUTORAIS AUTOMÁTICOS NO FOOTER ===
 
 function setCopyrightText() {
-  const copyrightElement = document.getElementById('copyrightText');
-  if (copyrightElement) {
+  const copyrightTextElement = document.getElementById("copyrightText");
+  if (copyrightTextElement) {
     const currentYear = new Date().getFullYear();
-    copyrightElement.textContent = `© ${currentYear} Todos os direitos reservados`;
+    copyrightTextElement.textContent = `© ${currentYear} Todos os direitos reservados.`;
   }
 }
 
-// === EXPORT PARA COMPATIBILIDADE ===
+// Chamar a função ao carregar a página
+document.addEventListener("DOMContentLoaded", setCopyrightText);
 
-// Garantir que as funções estejam disponíveis globalmente
-window.initializeCommonFeatures = initializeCommonFeatures;
-window.fetchData = fetchData;
-window.toggleOrder = toggleOrder;
-window.openModal = openModal;
-window.closeModal = closeModal;
-window.showResumo = showResumo;
-window.showPalpites = showPalpites;
-window.generateImage = generateImage;
-window.shareContent = shareContent;
-window.copyContent = copyContent;
-window.openCreatePngModal = openCreatePngModal;
-window.closeImageModal = closeImageModal;
-window.shareImage = shareImage;
-window.initializeBreadcrumb = initializeBreadcrumb;
-window.initializeLotterySelector = initializeLotterySelector;
-window.setAutomaticDomain = setAutomaticDomain;
-window.setCopyrightText = setCopyrightText;
 
