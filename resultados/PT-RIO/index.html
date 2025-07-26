@@ -233,6 +233,7 @@
         initializeLotterySelector(); // Inicializar o seletor de loteria
         fetchData(true);
         setAutomaticDomain(); // Definir o domínio automaticamente
+        setCopyrightText(); // Definir o texto de direitos autorais automaticamente
     });
   </script>
 </body>
@@ -242,7 +243,8 @@
   <footer class="site-footer">
     <div class="footer-content">
       <img src="/assets/img/logo.png" alt="Logo do Site" class="footer-logo">
-      <p class="site-domain" id="siteDomain">seusite.com.br</p>
+      <p class="site-domain" id="siteDomain"></p>
+      <p class="copyright-text" id="copyrightText"></p>
     </div>
   </footer>
 
