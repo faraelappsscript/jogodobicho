@@ -227,12 +227,23 @@
     }
 
     // Inicializar aplicação
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener("DOMContentLoaded", function() {
         initializeCommonFeatures();
         initializeBreadcrumb(); // Inicializar o breadcrumb
         initializeLotterySelector(); // Inicializar o seletor de loteria
         fetchData(true);
+        setAutomaticDomain(); // Definir o domínio automaticamente
     });
   </script>
 </body>
 </html>
+
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <img src="/assets/img/logo.png" alt="Logo do Site" class="footer-logo">
+      <p class="site-domain" id="siteDomain">seusite.com.br</p>
+    </div>
+  </footer>
+
+
