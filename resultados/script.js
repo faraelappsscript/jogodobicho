@@ -1341,3 +1341,19 @@ function initializeLotterySelector() {
     });
   }
 }
+
+
+
+// === FUNCIONALIDADE DE DOMÍNIO AUTOMÁTICO NO FOOTER ===
+
+function setAutomaticDomain() {
+  const siteDomainElement = document.getElementById('siteDomain');
+  if (siteDomainElement) {
+    siteDomainElement.textContent = window.location.hostname;
+  }
+}
+
+// Chamar a função ao carregar a página
+document.addEventListener('DOMContentLoaded', setAutomaticDomain);
+
+
