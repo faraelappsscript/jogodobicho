@@ -16,6 +16,7 @@ let imageOptions = {
 let currentCreatePngType = null;
 let currentCreatePngCardId = null;
 let titulosData = null;
+let modalHistory = []; // Histórico de modais para navegação
 
 // === FUNCIONALIDADES DE PARÂMETRO DE URL ===
 
@@ -230,6 +231,7 @@ function toggleOrder() {
 
 // Funções de Modal com controle de rolagem do body
 function openModal(modalId) {
+  modalHistory.push(modalId);
   document.getElementById(modalId).style.display = 'flex';
   document.body.classList.add('modal-open');
 }
@@ -237,6 +239,11 @@ function openModal(modalId) {
 function closeModal(modalId) {
   document.getElementById(modalId).style.display = 'none';
   document.body.classList.remove('modal-open');
+  // Remover o modal atual do histórico
+  const index = modalHistory.indexOf(modalId);
+  if (index > -1) {
+    modalHistory.splice(index, 1);
+  }
 }
 
 // Funções do Modal de Imagem com controle de rolagem
@@ -245,12 +252,13 @@ function openImageModal() {
   document.body.classList.add('modal-open');
 }
 
-function closeImageModal(returnToPrevious = false) {
+function closeImageModal() {
   document.getElementById("imageModal").style.display = "none";
   document.body.classList.remove("modal-open");
   currentImageBlob = null;
-  if (returnToPrevious) {
-    openModal("createPngModal");
+  modalHistory.pop(); // Remove o modal de imagem do histórico
+  if (modalHistory.length > 0) {
+    openModal(modalHistory[modalHistory.length - 1]); // Abre o modal anterior
   }
 }
 
