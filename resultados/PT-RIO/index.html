@@ -3,59 +3,161 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resultados PT-RIO</title>
   
-  <!-- Preload recursos críticos -->
-  <link rel="preload" href="/theme.css" as="style">
+  <!-- Meta tags otimizadas para SEO -->
+  <title>Resultados PT-RIO - Resultados em Tempo Real</title>
+  <meta name="description" content="Acompanhe os resultados da PT-RIO em tempo real. Resultados atualizados automaticamente com palpites para próximas extrações.">
+  <meta name="keywords" content="PT-RIO, resultados, loteria, palpites, tempo real">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph para compartilhamento -->
+  <meta property="og:title" content="Resultados PT-RIO - Resultados em Tempo Real">
+  <meta property="og:description" content="Acompanhe os resultados da PT-RIO em tempo real">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  
+  <!-- Preload de recursos críticos -->
   <link rel="preload" href="/assets/fonts/inter.css" as="style">
-  <link rel="preload" href="/resultados/script.js" as="script">
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.css" as="style">
+  <link rel="preload" href="/assets/css/flatpickr.min.css" as="style">
+  
+  <!-- DNS prefetch para recursos externos -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
   
   <!-- CSS crítico inline -->
   <style>
-    /* CSS crítico para evitar FOUC */
+    /* CSS crítico para renderização inicial */
+    :root {
+      --bg-primary: #0f0f23;
+      --bg-secondary: #1a1a2e;
+      --bg-card: #16213e;
+      --bg-card-hover: #1e2a4a;
+      --text-primary: #e2e8f0;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --border-color: #334155;
+      --border-accent: #475569;
+      --accent-primary: #3b82f6;
+      --accent-secondary: #8b5cf6;
+      --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       margin: 0;
       padding: 0;
-      background: #0f0f23;
-      color: #e2e8f0;
+      background: var(--bg-primary);
+      background-image: 
+        radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+      color: var(--text-primary);
       min-height: 100vh;
       line-height: 1.6;
       overflow-x: hidden;
     }
-    .container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
-    .loading { opacity: 0.7; animation: pulse 2s infinite; }
-    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 3rem;
+      position: relative;
+    }
+    
+    h1 {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 800;
+      background: var(--gradient-primary);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0;
+      letter-spacing: -0.02em;
+    }
+    
+    .subtitle {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+      margin-top: 0.5rem;
+      font-weight: 400;
+    }
+    
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 200px;
+      color: var(--text-secondary);
+    }
+    
+    .loading::after {
+      content: '';
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--text-secondary);
+      border-top: 2px solid var(--accent-primary);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-left: 10px;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    /* Prevenção de layout shift */
+    .calendar-container {
+      max-width: 400px;
+      margin: 0 auto 1rem;
+      position: relative;
+      min-height: 60px;
+    }
+    
+    .data-container {
+      display: grid;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      justify-content: center;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 320px));
+      min-height: 200px;
+    }
   </style>
   
   <!-- CSS não crítico carregado de forma assíncrona -->
+  <link rel="preload" href="/theme_otimizado.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/theme_otimizado.css"></noscript>
+  
+  <!-- Carregamento assíncrono de CSS externo -->
   <link rel="stylesheet" href="/assets/css/flatpickr.min.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="/theme.css" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="/assets/fonts/inter.css" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css" media="print" onload="this.media='all'">
-  
-  <!-- Fallback para navegadores sem suporte a onload -->
-  <noscript>
-    <link rel="stylesheet" href="/assets/css/flatpickr.min.css">
-    <link rel="stylesheet" href="/theme.css">
-    <link rel="stylesheet" href="/assets/fonts/inter.css">
-    <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
-  </noscript>
 </head>
 <body>
   <div class="container no-print">
     <!-- Breadcrumb Navigation -->
-    <nav class="breadcrumb-nav" id="breadcrumbNav" aria-label="Navegação estrutural"></nav>
+    <nav class="breadcrumb-nav" id="breadcrumbNav" aria-label="Navegação estrutural">
+      <!-- O breadcrumb será gerado dinamicamente pelo JavaScript -->
+    </nav>
 
     <header class="header">
       <p class="subtitle">
-        <a href="#" id="selectLotteryLink" class="lottery-selector-link">
+        <a href="#" id="selectLotteryLink" style="color: var(--text-secondary); text-decoration: none; cursor: pointer; transition: color 0.3s ease;" aria-label="Selecionar loteria">
           [Selecionar loteria]
         </a>
       </p>
       <h1>Resultados PT-RIO</h1>
       <p class="subtitle">
-        <a href="#" id="titulosLink" class="schedule-link">
+        <a href="#" id="titulosLink" style="color: var(--text-secondary); text-decoration: none; cursor: pointer; transition: color 0.3s ease;" aria-label="Ver horários das extrações">
           Clique aqui para ver os horários das extrações!
         </a>
       </p>
@@ -66,7 +168,9 @@
       <button id="order-toggle-btn" class="order-toggle-btn" aria-label="Inverter ordem dos resultados">⬆⬇ Inverter Ordem</button>
     </div>
 
-    <main id="data-container" class="data-container" role="main" aria-live="polite"></main>
+    <div id="data-container" class="data-container" role="main" aria-live="polite">
+      <div class="loading">Carregando dados...</div>
+    </div>
 
     <!-- Toast Notification -->
     <div id="toast" class="toast" role="alert" aria-live="assertive">
@@ -76,17 +180,17 @@
       <span id="toast-message"></span>
     </div>
 
-    <!-- Modais -->
-    <div id="titulosModal" class="modal" role="dialog" aria-labelledby="titulos-modal-title" aria-hidden="true">
+    <!-- Modal de Títulos -->
+    <div id="titulosModal" class="modal" role="dialog" aria-labelledby="titulosModalTitle" aria-hidden="true">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 id="titulos-modal-title" class="modal-title">Horários das extrações</h3>
+          <h3 class="modal-title" id="titulosModalTitle">Horários das extrações</h3>
           <button class="close-btn" onclick="closeModal('titulosModal')" aria-label="Fechar modal">×</button>
         </div>
         <div class="modal-body">
-          <div class="filter-container">
-            <label for="dayFilter" class="filter-label">Filtrar por dia da semana:</label>
-            <select id="dayFilter" class="day-filter-select">
+          <div class="filter-container" style="margin-bottom: 1.5rem;">
+            <label for="dayFilter" style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary); font-weight: 600;">Filtrar por dia da semana:</label>
+            <select id="dayFilter" style="width: 100%; padding: 0.75rem; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary); font-size: 1rem;" aria-label="Selecionar dia da semana">
               <option value="Domingo">Domingo</option>
               <option value="Segunda-feira">Segunda-feira</option>
               <option value="Terça-feira">Terça-feira</option>
@@ -96,29 +200,31 @@
               <option value="Sábado">Sábado</option>
             </select>
           </div>
-          <div id="titulosContent" class="titulos-content">
+          <div id="titulosContent" style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color);">
             <div class="no-data loading">Carregando...</div>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="lotteryModal" class="modal" role="dialog" aria-labelledby="lottery-modal-title" aria-hidden="true">
+    <!-- Modal de Seleção de Loteria -->
+    <div id="lotteryModal" class="modal" role="dialog" aria-labelledby="lotteryModalTitle" aria-hidden="true">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 id="lottery-modal-title" class="modal-title">Selecionar Loteria</h3>
+          <h3 class="modal-title" id="lotteryModalTitle">Selecionar Loteria</h3>
           <button class="close-btn" onclick="closeModal('lotteryModal')" aria-label="Fechar modal">×</button>
         </div>
         <div class="modal-body">
-          <ul id="lotteryList" class="lottery-list"></ul>
+          <ul id="lotteryList" class="lottery-list" role="list"></ul>
         </div>
       </div>
     </div>
 
-    <div id="resumoModal" class="modal" role="dialog" aria-labelledby="resumo-modal-title" aria-hidden="true">
+    <!-- Modais -->
+    <div id="resumoModal" class="modal" role="dialog" aria-labelledby="resumoModalTitle" aria-hidden="true">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 id="resumo-modal-title" class="modal-title">Resumo de Acertos</h3>
+          <h3 class="modal-title" id="resumoModalTitle">Resumo de Acertos</h3>
           <button class="close-btn" onclick="closeModal('resumoModal')" aria-label="Fechar modal">×</button>
         </div>
         <div class="modal-body" id="resumoModalBody"></div>
@@ -130,10 +236,10 @@
       </div>
     </div>
 
-    <div id="palpitesModal" class="modal" role="dialog" aria-labelledby="palpites-modal-title" aria-hidden="true">
+    <div id="palpitesModal" class="modal" role="dialog" aria-labelledby="palpitesModalTitle" aria-hidden="true">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 id="palpites-modal-title" class="modal-title">Palpites</h3>
+          <h3 class="modal-title" id="palpitesModalTitle">Palpites</h3>
           <button class="close-btn" onclick="closeModal('palpitesModal')" aria-label="Fechar modal">×</button>
         </div>
         <div class="modal-body" id="palpitesModalBody"></div>
@@ -145,10 +251,11 @@
       </div>
     </div>
 
-    <div id="createPngModal" class="modal" role="dialog" aria-labelledby="create-png-modal-title" aria-hidden="true">
+    <!-- Modal de Opções para Criar PNG -->
+    <div id="createPngModal" class="modal" role="dialog" aria-labelledby="createPngModalTitle" aria-hidden="true">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 id="create-png-modal-title" class="modal-title">Opções para Criar PNG</h3>
+          <h3 class="modal-title" id="createPngModalTitle">Opções para Criar PNG</h3>
           <button class="close-btn" onclick="closeModal('createPngModal')" aria-label="Fechar modal">×</button>
         </div>
         <div class="modal-body" id="createPngModalBody">
@@ -175,14 +282,15 @@
       </div>
     </div>
 
-    <div id="imageModal" class="image-modal" role="dialog" aria-labelledby="image-modal-title" aria-hidden="true">
+    <!-- Modal de Visualização de Imagem -->
+    <div id="imageModal" class="image-modal" role="dialog" aria-labelledby="imageModalTitle" aria-hidden="true">
       <div class="image-modal-content">
         <div class="image-modal-header">
-          <h3 id="image-modal-title" class="image-modal-title">Visualizar Imagem</h3>
+          <h3 class="image-modal-title" id="imageModalTitle">Visualizar Imagem</h3>
           <button class="image-modal-close" onclick="closeImageModal(true)" aria-label="Fechar modal">×</button>
         </div>
         <div class="image-modal-body">
-          <img id="previewImage" src="" alt="Preview da imagem">
+          <img id="previewImage" src="" alt="Preview da imagem" loading="lazy">
         </div>
         <div class="image-modal-footer">
           <button class="btn btn-primary" onclick="closeImageModal(true)">
@@ -201,21 +309,21 @@
 
   <div id="print-area" class="print-area"></div>
 
-  <!-- Sliding Banner -->
-  <aside id="slidingBanner" class="sliding-banner" aria-label="Banner promocional">
+  <!-- Sliding Banner com lazy loading -->
+  <div id="slidingBanner" class="sliding-banner">
     <button class="close-banner-btn" id="closeBannerBtn" aria-label="Fechar banner">×</button>
-    <img src="/assets/img/banner.webp" alt="Banner Promocional" class="banner-image">
+    <img src="/assets/img/banner.webp" alt="Banner Promocional" class="banner-image" loading="lazy">
     <div class="banner-content">
-      <img src="/assets/img/logo.png" alt="Logo 77x Brasil" class="banner-logo">
+      <img src="/assets/img/logo.png" alt="Logo 77x Brasil" class="banner-logo" loading="lazy">
       <p class="banner-text">Na 77x Brasil, o seu 1 Real vale 8 Mil! <br> Cadastre-se agora e ganhe 20% na sua primeira recarga!</p>
       <a href="#" id="registerBtn" class="banner-btn">Cadastre-se</a>
       <a href="#" id="learnMoreLink" class="banner-link">Saiba mais sobre a 77x Brasil</a>
     </div>
-  </aside>
+  </div>
 
   <footer class="site-footer">
     <div class="footer-content">
-      <img src="/assets/img/logo.png" alt="Logo do Site" class="footer-logo">
+      <img src="/assets/img/logo.png" alt="Logo do Site" class="footer-logo" loading="lazy">
       <p class="site-domain" id="siteDomain"></p>
       <p class="copyright-text" id="copyrightText"></p>
     </div>
@@ -223,30 +331,27 @@
 
   <!-- Scripts carregados de forma otimizada -->
   <script>
-    // Funções críticas inline para evitar FOUC
-    function getCurrentDateString() {
-      const now = new Date();
-      const year = now.getFullYear();
-      const month = String(now.getMonth() + 1).padStart(2, '0');
-      const day = String(now.getDate()).padStart(2, '0');
-      return `${year}-${month}-${day}`;
+    // Polyfill para loading="lazy" em navegadores antigos
+    if ('loading' in HTMLImageElement.prototype) {
+      const images = document.querySelectorAll('img[loading="lazy"]');
+      images.forEach(img => {
+        img.src = img.src;
+      });
+    } else {
+      // Fallback para navegadores sem suporte
+      const script = document.createElement('script');
+      script.src = '/assets/js/lazysizes.min.js';
+      document.body.appendChild(script);
     }
-
-    function setAutomaticDomain() {
-      const siteDomainElement = document.getElementById('siteDomain');
-      if (siteDomainElement) {
-        siteDomainElement.textContent = window.location.hostname;
-      }
-    }
-
-    function setCopyrightText() {
-      const copyrightTextElement = document.getElementById('copyrightText');
-      if (copyrightTextElement) {
-        const currentYear = new Date().getFullYear();
-        copyrightTextElement.textContent = `© ${currentYear} Todos os direitos reservados.`;
-      }
-    }
-
+  </script>
+  
+  <!-- Carregamento assíncrono de scripts não críticos -->
+  <script src="/assets/js/flatpickr.js" defer></script>
+  <script src="/assets/js/flatpickr.pt.js" defer></script>
+  <script src="/script_otimizado.js" defer></script>
+  <script src="/assets/js/breadcrumb.js" defer></script>
+  
+  <script>
     // Funções específicas para esta página (PT-RIO)
     function getPageTitle() {
       return "Resultados PT-RIO";
@@ -263,42 +368,32 @@
     function getImagePath(imageName) {
       return `/assets/img/${imageName}`;
     }
-  </script>
 
-  <!-- Scripts não críticos carregados de forma assíncrona -->
-  <script src="/assets/js/flatpickr.js" defer></script>
-  <script src="/assets/js/flatpickr.pt.js" defer></script>
-  <script src="/assets/js/breadcrumb.js" defer></script>
-  <script src="/resultados/script.js" defer></script>
-
-  <!-- Inicialização da aplicação -->
-  <script>
-    // Aguardar carregamento completo dos scripts
-    document.addEventListener("DOMContentLoaded", function() {
-      // Executar funções críticas imediatamente
-      setAutomaticDomain();
-      setCopyrightText();
-      
-      // Aguardar scripts externos e inicializar funcionalidades
-      const initApp = () => {
-        if (typeof initializeCommonFeatures === 'function' &&
-            typeof initializeBreadcrumb === 'function' &&
-            typeof initializeLotterySelector === 'function' &&
-            typeof fetchData === 'function') {
-          
+    // Inicialização otimizada com debounce
+    let initTimeout;
+    function debouncedInit() {
+      clearTimeout(initTimeout);
+      initTimeout = setTimeout(() => {
+        if (typeof initializeCommonFeatures === 'function') {
           initializeCommonFeatures();
           initializeBreadcrumb();
           initializeLotterySelector();
           fetchData(true);
+          setAutomaticDomain();
+          setCopyrightText();
         } else {
-          // Tentar novamente em 100ms se as funções ainda não estiverem disponíveis
-          setTimeout(initApp, 100);
+          // Retry se as funções ainda não estiverem carregadas
+          debouncedInit();
         }
-      };
-      
-      // Iniciar aplicação
-      initApp();
-    });
+      }, 100);
+    }
+
+    // Inicializar quando DOM estiver pronto
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', debouncedInit);
+    } else {
+      debouncedInit();
+    }
   </script>
 </body>
 </html>
