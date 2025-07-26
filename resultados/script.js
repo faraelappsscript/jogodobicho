@@ -662,7 +662,7 @@ async function generateImage(type, cardId) {
             yPosition += 50;
             
             // Data abaixo do título
-            ctx.font = 'bold 20px Inter, Arial, sans-serif';
+            ctx.font = 'bold 24px Inter, Arial, sans-serif'; // Aumentado de 20px para 24px
             ctx.fillStyle = '#94a3b8';
             ctx.fillText(getFormattedTimestamp(selectedDateStr), canvas.width / 2, yPosition);
             yPosition += 80;
@@ -899,11 +899,8 @@ async function generateImage(type, cardId) {
             ctx.font = 'bold 36px Inter, Arial, sans-serif'; // Fonte um pouco menor
             ctx.fillStyle = '#FFFF00'; // Amarelo vibrante
             ctx.fillText(adLines[0], canvas.width / 2, currentY);
-            currentY += 40; // Ajustar para a próxima linha
-
-            // Desenhar as linhas restantes com fundo azul escuro
-            ctx.font = 'bold 28px Inter, Arial, sans-serif';
-            ctx.fillStyle = '#ffffff'; // Cor do texto para as linhas restantes
+            currentY += 40; // Ajustar para a próxi            // Desenhar as linhas seguintes com fonte menor e fundo azul escuro
+            ctx.font = 'bold 36px Inter, Arial, sans-serif'; // Aumentado de 32px para 36px         ctx.fillStyle = '#ffffff'; // Cor do texto para as linhas restantes
             for (let i = 1; i < adLines.length; i++) {
                 // Calcular largura do texto para o fundo
                 const textWidth = ctx.measureText(adLines[i]).width;
