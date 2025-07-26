@@ -1357,3 +1357,19 @@ function setAutomaticDomain() {
 document.addEventListener('DOMContentLoaded', setAutomaticDomain);
 
 
+
+
+// === FUNCIONALIDADE DE DIREITOS AUTORAIS AUTOMÁTICOS NO FOOTER ===
+
+function setCopyrightText() {
+  const copyrightTextElement = document.getElementById("copyrightText");
+  if (copyrightTextElement) {
+    const currentYear = new Date().getFullYear();
+    copyrightTextElement.textContent = `© ${currentYear} Todos os direitos reservados.`;
+  }
+}
+
+// Chamar a função ao carregar a página
+document.addEventListener("DOMContentLoaded", setCopyrightText);
+
+
