@@ -1877,3 +1877,11 @@ tbody tr:last-child td {
   margin: 0;
 }
 
+
+
+.copyright-text {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
