@@ -245,10 +245,13 @@ function openImageModal() {
   document.body.classList.add('modal-open');
 }
 
-function closeImageModal() {
-  document.getElementById('imageModal').style.display = 'none';
-  document.body.classList.remove('modal-open');
+function closeImageModal(returnToPrevious = false) {
+  document.getElementById("imageModal").style.display = "none";
+  document.body.classList.remove("modal-open");
   currentImageBlob = null;
+  if (returnToPrevious) {
+    openModal("createPngModal");
+  }
 }
 
 // Função principal para buscar dados
@@ -892,15 +895,29 @@ async function generateImage(type, cardId) {
             // Calcular a posição Y inicial para centralizar verticalmente
             let currentY = adAreaStart + (adAreaHeight - totalTextHeight) / 2;
 
-            // Desenhar a primeira linha com fonte maior
-            ctx.font = 'bold 40px Inter, Arial, sans-serif';
-            ctx.fillStyle = '#ffffff';
+            // Desenhar a primeira linha com fonte maior e cor amarela vibrante
+            ctx.font = 'bold 36px Inter, Arial, sans-serif'; // Fonte um pouco menor
+            ctx.fillStyle = '#FFFF00'; // Amarelo vibrante
             ctx.fillText(adLines[0], canvas.width / 2, currentY);
             currentY += 40; // Ajustar para a próxima linha
 
-            // Desenhar as linhas restantes com fonte menor
+            // Desenhar as linhas restantes com fundo azul escuro
             ctx.font = 'bold 28px Inter, Arial, sans-serif';
+            ctx.fillStyle = '#ffffff'; // Cor do texto para as linhas restantes
             for (let i = 1; i < adLines.length; i++) {
+                // Calcular largura do texto para o fundo
+                const textWidth = ctx.measureText(adLines[i]).width;
+                const backgroundPadding = 20; // Preenchimento para o fundo
+                const backgroundX = (canvas.width / 2) - (textWidth / 2) - (backgroundPadding / 2);
+                const backgroundY = currentY - 28; // Ajustar para a posição vertical do texto
+                const backgroundHeight = 35; // Altura do fundo
+
+                // Desenhar fundo azul escuro
+                ctx.fillStyle = 'rgba(0, 0, 128, 0.7)'; // Azul escuro com transparência
+                ctx.fillRect(backgroundX, backgroundY, textWidth + backgroundPadding, backgroundHeight);
+                
+                // Desenhar texto
+                ctx.fillStyle = '#ffffff'; // Cor do texto
                 ctx.fillText(adLines[i], canvas.width / 2, currentY);
                 currentY += 35; // Espaçamento entre as linhas
             }
