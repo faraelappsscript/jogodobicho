@@ -4,76 +4,89 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resultados PT-RIO</title>
-  <link rel="stylesheet" href="/assets/css/flatpickr.min.css">
-  <link rel="stylesheet" href="/theme.css">
-  <link rel="stylesheet" href="/assets/fonts/inter.css">
-  <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
-
+  
+  <!-- Preload recursos críticos -->
+  <link rel="preload" href="/theme.css" as="style">
+  <link rel="preload" href="/assets/fonts/inter.css" as="style">
+  <link rel="preload" href="/resultados/script.js" as="script">
+  
+  <!-- CSS crítico inline -->
   <style>
-    /* CSS crítico e de layout */
+    /* CSS crítico para evitar FOUC */
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       margin: 0;
       padding: 0;
-      background: var(--bg-primary);
-      background-image: 
-        radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 75% 75%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
-      color: var(--text-primary);
+      background: #0f0f23;
+      color: #e2e8f0;
       min-height: 100vh;
       line-height: 1.6;
       overflow-x: hidden;
     }
-    /* ... (o restante do CSS permanece igual, omitido para brevidade) ... */
+    .container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+    .loading { opacity: 0.7; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
   </style>
+  
+  <!-- CSS não crítico carregado de forma assíncrona -->
+  <link rel="stylesheet" href="/assets/css/flatpickr.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/theme.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/fonts/inter.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css" media="print" onload="this.media='all'">
+  
+  <!-- Fallback para navegadores sem suporte a onload -->
+  <noscript>
+    <link rel="stylesheet" href="/assets/css/flatpickr.min.css">
+    <link rel="stylesheet" href="/theme.css">
+    <link rel="stylesheet" href="/assets/fonts/inter.css">
+    <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
+  </noscript>
 </head>
 <body>
   <div class="container no-print">
     <!-- Breadcrumb Navigation -->
-    <nav class="breadcrumb-nav" id="breadcrumbNav">
-      <!-- O breadcrumb será gerado dinamicamente pelo JavaScript -->
-    </nav>
+    <nav class="breadcrumb-nav" id="breadcrumbNav" aria-label="Navegação estrutural"></nav>
 
     <header class="header">
       <p class="subtitle">
-        <a href="#" id="selectLotteryLink" style="color: var(--text-secondary); text-decoration: none; cursor: pointer; transition: color 0.3s ease;">
+        <a href="#" id="selectLotteryLink" class="lottery-selector-link">
           [Selecionar loteria]
         </a>
       </p>
       <h1>Resultados PT-RIO</h1>
       <p class="subtitle">
-        <a href="#" id="titulosLink" style="color: var(--text-secondary); text-decoration: none; cursor: pointer; transition: color 0.3s ease;">
+        <a href="#" id="titulosLink" class="schedule-link">
           Clique aqui para ver os horários das extrações!
         </a>
       </p>
     </header>
 
     <div class="calendar-container">
-      <input type="text" id="date-picker" class="date-picker" placeholder="Selecione uma data">
-      <button id="order-toggle-btn" class="order-toggle-btn">⬆⬇ Inverter Ordem</button>
+      <input type="text" id="date-picker" class="date-picker" placeholder="Selecione uma data" aria-label="Seletor de data">
+      <button id="order-toggle-btn" class="order-toggle-btn" aria-label="Inverter ordem dos resultados">⬆⬇ Inverter Ordem</button>
     </div>
 
-    <div id="data-container" class="data-container"></div>
+    <main id="data-container" class="data-container" role="main" aria-live="polite"></main>
 
     <!-- Toast Notification -->
-    <div id="toast" class="toast">
+    <div id="toast" class="toast" role="alert" aria-live="assertive">
       <div class="toast-icon">
         <span id="toast-icon-text">✓</span>
       </div>
       <span id="toast-message"></span>
     </div>
 
-    <!-- Modal de Títulos -->
-    <div id="titulosModal" class="modal">
+    <!-- Modais -->
+    <div id="titulosModal" class="modal" role="dialog" aria-labelledby="titulos-modal-title" aria-hidden="true">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title">Horários das extrações</h3>
-          <button class="close-btn" onclick="closeModal('titulosModal')">×</button>
+          <h3 id="titulos-modal-title" class="modal-title">Horários das extrações</h3>
+          <button class="close-btn" onclick="closeModal('titulosModal')" aria-label="Fechar modal">×</button>
         </div>
         <div class="modal-body">
-          <div class="filter-container" style="margin-bottom: 1.5rem;">
-            <label for="dayFilter" style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary); font-weight: 600;">Filtrar por dia da semana:</label>
-            <select id="dayFilter" style="width: 100%; padding: 0.75rem; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary); font-size: 1rem;">
+          <div class="filter-container">
+            <label for="dayFilter" class="filter-label">Filtrar por dia da semana:</label>
+            <select id="dayFilter" class="day-filter-select">
               <option value="Domingo">Domingo</option>
               <option value="Segunda-feira">Segunda-feira</option>
               <option value="Terça-feira">Terça-feira</option>
@@ -83,19 +96,18 @@
               <option value="Sábado">Sábado</option>
             </select>
           </div>
-          <div id="titulosContent" style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-color);">
+          <div id="titulosContent" class="titulos-content">
             <div class="no-data loading">Carregando...</div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Modal de Seleção de Loteria -->
-    <div id="lotteryModal" class="modal">
+    <div id="lotteryModal" class="modal" role="dialog" aria-labelledby="lottery-modal-title" aria-hidden="true">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title">Selecionar Loteria</h3>
-          <button class="close-btn" onclick="closeModal('lotteryModal')">×</button>
+          <h3 id="lottery-modal-title" class="modal-title">Selecionar Loteria</h3>
+          <button class="close-btn" onclick="closeModal('lotteryModal')" aria-label="Fechar modal">×</button>
         </div>
         <div class="modal-body">
           <ul id="lotteryList" class="lottery-list"></ul>
@@ -103,12 +115,11 @@
       </div>
     </div>
 
-    <!-- Modais -->
-    <div id="resumoModal" class="modal">
+    <div id="resumoModal" class="modal" role="dialog" aria-labelledby="resumo-modal-title" aria-hidden="true">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title">Resumo de Acertos</h3>
-          <button class="close-btn" onclick="closeModal('resumoModal')">×</button>
+          <h3 id="resumo-modal-title" class="modal-title">Resumo de Acertos</h3>
+          <button class="close-btn" onclick="closeModal('resumoModal')" aria-label="Fechar modal">×</button>
         </div>
         <div class="modal-body" id="resumoModalBody"></div>
         <div class="button-group">
@@ -119,11 +130,11 @@
       </div>
     </div>
 
-    <div id="palpitesModal" class="modal">
+    <div id="palpitesModal" class="modal" role="dialog" aria-labelledby="palpites-modal-title" aria-hidden="true">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title">Palpites</h3>
-          <button class="close-btn" onclick="closeModal('palpitesModal')">×</button>
+          <h3 id="palpites-modal-title" class="modal-title">Palpites</h3>
+          <button class="close-btn" onclick="closeModal('palpitesModal')" aria-label="Fechar modal">×</button>
         </div>
         <div class="modal-body" id="palpitesModalBody"></div>
         <div class="button-group">
@@ -134,12 +145,11 @@
       </div>
     </div>
 
-    <!-- Modal de Opções para Criar PNG -->
-    <div id="createPngModal" class="modal">
+    <div id="createPngModal" class="modal" role="dialog" aria-labelledby="create-png-modal-title" aria-hidden="true">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title">Opções para Criar PNG</h3>
-          <button class="close-btn" onclick="closeModal('createPngModal')">×</button>
+          <h3 id="create-png-modal-title" class="modal-title">Opções para Criar PNG</h3>
+          <button class="close-btn" onclick="closeModal('createPngModal')" aria-label="Fechar modal">×</button>
         </div>
         <div class="modal-body" id="createPngModalBody">
           <div class="image-options">
@@ -165,15 +175,14 @@
       </div>
     </div>
 
-    <!-- Modal de Visualização de Imagem -->
-    <div id="imageModal" class="image-modal">
+    <div id="imageModal" class="image-modal" role="dialog" aria-labelledby="image-modal-title" aria-hidden="true">
       <div class="image-modal-content">
         <div class="image-modal-header">
-          <h3 class="image-modal-title">Visualizar Imagem</h3>
-          <button class="image-modal-close" onclick="closeImageModal(true)">×</button>
+          <h3 id="image-modal-title" class="image-modal-title">Visualizar Imagem</h3>
+          <button class="image-modal-close" onclick="closeImageModal(true)" aria-label="Fechar modal">×</button>
         </div>
         <div class="image-modal-body">
-          <img id="previewImage" src="" alt="Preview da imagem">
+          <img id="previewImage" src="" alt="Preview da imagem" loading="lazy">
         </div>
         <div class="image-modal-footer">
           <button class="btn btn-primary" onclick="closeImageModal(true)">
@@ -193,22 +202,51 @@
   <div id="print-area" class="print-area"></div>
 
   <!-- Sliding Banner -->
-  <div id="slidingBanner" class="sliding-banner">
-    <button class="close-banner-btn" id="closeBannerBtn">×</button>
-    <img src="/assets/img/banner.webp" alt="Banner Promocional" class="banner-image">
+  <aside id="slidingBanner" class="sliding-banner" aria-label="Banner promocional">
+    <button class="close-banner-btn" id="closeBannerBtn" aria-label="Fechar banner">×</button>
+    <img src="/assets/img/banner.webp" alt="Banner Promocional" class="banner-image" loading="lazy">
     <div class="banner-content">
-      <img src="/assets/img/logo.png" alt="Logo 77x Brasil" class="banner-logo">
+      <img src="/assets/img/logo.png" alt="Logo 77x Brasil" class="banner-logo" loading="lazy">
       <p class="banner-text">Na 77x Brasil, o seu 1 Real vale 8 Mil! <br> Cadastre-se agora e ganhe 20% na sua primeira recarga!</p>
       <a href="#" id="registerBtn" class="banner-btn">Cadastre-se</a>
       <a href="#" id="learnMoreLink" class="banner-link">Saiba mais sobre a 77x Brasil</a>
     </div>
-  </div>
+  </aside>
 
-  <script src="/assets/js/flatpickr.js"></script>
-  <script src="/assets/js/flatpickr.pt.js"></script>
-  <script src="/resultados/script.js"></script>
-  <script src="/assets/js/breadcrumb.js"></script>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <img src="/assets/img/logo.png" alt="Logo do Site" class="footer-logo" loading="lazy">
+      <p class="site-domain" id="siteDomain"></p>
+      <p class="copyright-text" id="copyrightText"></p>
+    </div>
+  </footer>
+
+  <!-- Scripts carregados de forma otimizada -->
   <script>
+    // Funções críticas inline para evitar FOUC
+    function getCurrentDateString() {
+      const now = new Date();
+      const year = now.getFullYear();
+      const month = String(now.getMonth() + 1).padStart(2, '0');
+      const day = String(now.getDate()).padStart(2, '0');
+      return `${year}-${month}-${day}`;
+    }
+
+    function setAutomaticDomain() {
+      const siteDomainElement = document.getElementById('siteDomain');
+      if (siteDomainElement) {
+        siteDomainElement.textContent = window.location.hostname;
+      }
+    }
+
+    function setCopyrightText() {
+      const copyrightTextElement = document.getElementById('copyrightText');
+      if (copyrightTextElement) {
+        const currentYear = new Date().getFullYear();
+        copyrightTextElement.textContent = `© ${currentYear} Todos os direitos reservados.`;
+      }
+    }
+
     // Funções específicas para esta página (PT-RIO)
     function getPageTitle() {
       return "Resultados PT-RIO";
@@ -225,27 +263,42 @@
     function getImagePath(imageName) {
       return `/assets/img/${imageName}`;
     }
+  </script>
 
-    // Inicializar aplicação
+  <!-- Scripts não críticos carregados de forma assíncrona -->
+  <script src="/assets/js/flatpickr.js" defer></script>
+  <script src="/assets/js/flatpickr.pt.js" defer></script>
+  <script src="/assets/js/breadcrumb.js" defer></script>
+  <script src="/resultados/script.js" defer></script>
+
+  <!-- Inicialização da aplicação -->
+  <script>
+    // Aguardar carregamento completo dos scripts
     document.addEventListener("DOMContentLoaded", function() {
-        initializeCommonFeatures();
-        initializeBreadcrumb(); // Inicializar o breadcrumb
-        initializeLotterySelector(); // Inicializar o seletor de loteria
-        fetchData(true);
-        setAutomaticDomain(); // Definir o domínio automaticamente
-        setCopyrightText(); // Definir o texto de direitos autorais automaticamente
+      // Executar funções críticas imediatamente
+      setAutomaticDomain();
+      setCopyrightText();
+      
+      // Aguardar scripts externos e inicializar funcionalidades
+      const initApp = () => {
+        if (typeof initializeCommonFeatures === 'function' &&
+            typeof initializeBreadcrumb === 'function' &&
+            typeof initializeLotterySelector === 'function' &&
+            typeof fetchData === 'function') {
+          
+          initializeCommonFeatures();
+          initializeBreadcrumb();
+          initializeLotterySelector();
+          fetchData(true);
+        } else {
+          // Tentar novamente em 100ms se as funções ainda não estiverem disponíveis
+          setTimeout(initApp, 100);
+        }
+      };
+      
+      // Iniciar aplicação
+      initApp();
     });
   </script>
 </body>
 </html>
-
-
-  <footer class="site-footer">
-    <div class="footer-content">
-      <img src="/assets/img/logo.png" alt="Logo do Site" class="footer-logo">
-      <p class="site-domain" id="siteDomain"></p>
-      <p class="copyright-text" id="copyrightText"></p>
-    </div>
-  </footer>
-
-
