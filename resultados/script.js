@@ -750,12 +750,6 @@ async function generateImage(type, cardId) {
                         }
                     }
                     ctx.fillText(line, canvas.width / 2, yPosition);
-                    yPosition += 40;
-                    
-                    // Data abaixo do título dos palpites
-                    ctx.font = 'bold 18px Inter, Arial, sans-serif';
-                    ctx.fillStyle = '#94a3b8';
-                    ctx.fillText(getFormattedTimestamp(selectedDateStr), canvas.width / 2, yPosition);
                     yPosition += 60;
                     
                     // Configurar grade de 5 colunas para os palpites (mobile-friendly)
