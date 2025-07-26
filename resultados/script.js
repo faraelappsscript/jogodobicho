@@ -1267,3 +1267,77 @@ window.addEventListener('load', () => {
   // Small delay to ensure all other scripts are loaded
   setTimeout(initializeSlidingBanner, 100);
 });
+
+// === FUNCIONALIDADE DO MODAL DE SELEÇÃO DE LOTERIA ===
+
+// Função para carregar e exibir o modal de seleção de loteria
+async function showLotteryModal() {
+  try {
+    const response = await fetch('/resultados/lottery.json');
+    if (!response.ok) {
+      throw new Error('Erro ao carregar lista de loterias');
+    }
+    
+    const lotteries = await response.json();
+    const lotteryList = document.getElementById('lotteryList');
+    
+    // Limpar lista existente
+    lotteryList.innerHTML = '';
+    
+    // Adicionar cada loteria à lista
+    lotteries.forEach(lottery => {
+      const listItem = document.createElement('li');
+      const link = document.createElement('a');
+      
+      link.textContent = lottery.name;
+      link.href = '#';
+      link.onclick = (e) => {
+        e.preventDefault();
+        redirectToLottery(lottery.path);
+      };
+      
+      listItem.appendChild(link);
+      lotteryList.appendChild(listItem);
+    });
+    
+    // Exibir o modal
+    openModal('lotteryModal');
+    
+  } catch (error) {
+    console.error('Erro ao carregar loterias:', error);
+    showToast('Erro ao carregar lista de loterias', 'error');
+  }
+}
+
+// Função para redirecionar para a página da loteria selecionada
+function redirectToLottery(lotteryPath) {
+  // Obter a raiz do repositório (assumindo que estamos em /resultados/nome-da-banca/)
+  const currentPath = window.location.pathname;
+  const pathParts = currentPath.split('/');
+  
+  // Encontrar o índice de 'resultados' no caminho
+  const resultadosIndex = pathParts.indexOf('resultados');
+  
+  if (resultadosIndex !== -1) {
+    // Construir o novo caminho
+    const basePath = pathParts.slice(0, resultadosIndex + 1).join('/');
+    const newPath = `${basePath}/${lotteryPath}/`;
+    
+    // Redirecionar
+    window.location.href = newPath;
+  } else {
+    // Fallback: assumir que estamos na raiz
+    window.location.href = `/resultados/${lotteryPath}/`;
+  }
+}
+
+// Função para inicializar o evento do link de seleção de loteria
+function initializeLotterySelector() {
+  const selectLotteryLink = document.getElementById('selectLotteryLink');
+  if (selectLotteryLink) {
+    selectLotteryLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      showLotteryModal();
+    });
+  }
+}
