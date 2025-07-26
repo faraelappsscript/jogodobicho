@@ -872,20 +872,39 @@ async function generateImage(type, cardId) {
         
         // Espaço para a propaganda da banca (condicional baseado nas opções)
         if (type === 'palpites' || (type === 'result' && imageOptions.includeBankAd)) {
-            yPosition += 10;
-            
+            // Definir o espaço disponível para a propaganda da banca
+            const adAreaStart = yPosition + 10;
+            const adAreaEnd = canvas.height - 120; // Considerando o espaço para o domínio do site
+            const adAreaHeight = adAreaEnd - adAreaStart;
+
             const adText = "Na 77x Brasil, o seu 1 Real vale 8 Mil!\nBônus de 20% na sua primeira recarga!\nAcesse o site para mais!";
             const adLines = adText.split("\n");
-            
+
+            // Calcular a altura total do texto da propaganda
+            let totalTextHeight = 0;
+            // Altura da primeira linha (maior fonte)
+            ctx.font = 'bold 40px Inter, Arial, sans-serif';
+            totalTextHeight += 40; // Aproximadamente a altura da fonte
+            // Altura das linhas seguintes (menor fonte)
             ctx.font = 'bold 28px Inter, Arial, sans-serif';
+            totalTextHeight += (adLines.length - 1) * 35; // 35 é o espaçamento entre as linhas
+
+            // Calcular a posição Y inicial para centralizar verticalmente
+            let currentY = adAreaStart + (adAreaHeight - totalTextHeight) / 2;
+
+            // Desenhar a primeira linha com fonte maior
+            ctx.font = 'bold 40px Inter, Arial, sans-serif';
             ctx.fillStyle = '#ffffff';
-            
-            // Desenhar cada linha da propaganda
-            adLines.forEach(line => {
-                ctx.fillText(line, canvas.width / 2, yPosition);
-                yPosition += 35; // Espaçamento entre as linhas
-            });
-            yPosition += 20; // Espaço extra após a propaganda
+            ctx.fillText(adLines[0], canvas.width / 2, currentY);
+            currentY += 40; // Ajustar para a próxima linha
+
+            // Desenhar as linhas restantes com fonte menor
+            ctx.font = 'bold 28px Inter, Arial, sans-serif';
+            for (let i = 1; i < adLines.length; i++) {
+                ctx.fillText(adLines[i], canvas.width / 2, currentY);
+                currentY += 35; // Espaçamento entre as linhas
+            }
+            yPosition = currentY + 20; // Atualizar yPosition para o próximo elemento
         }
         
         // Domínio do site na parte inferior com fonte muito maior
