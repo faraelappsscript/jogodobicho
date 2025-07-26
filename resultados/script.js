@@ -10,7 +10,7 @@ let toastTimeout = null;
 let orderPreference = localStorage.getItem('orderPreference') || 'ascending';
 let currentImageBlob = null;
 let imageOptions = {
-  includeBanner: true,
+  includeBankAd: true,
   includeGuesses: false
 };
 let currentCreatePngType = null;
@@ -171,8 +171,8 @@ function openCreatePngModal(type, cardId) {
     <div class="image-options">
       <h5>🖼️ Configurações da Imagem</h5>
       <div class="image-option">
-        <input type="checkbox" id="addBannerOption" name="addBanner" ${imageOptions.includeBanner ? 'checked' : ''}>
-        <label for="addBannerOption">Adicionar banner (bnr1.png)</label>
+        <input type="checkbox" id="addBankAdOption" name="addBankAd" ${imageOptions.includeBankAd ? 'checked' : ''}>
+        <label for="addBankAdOption">Adicionar propaganda da banca</label>
       </div>
       <div class="image-option">
         <input type="checkbox" id="addPalpitesOption" name="addPalpites" ${imageOptions.includeGuesses ? 'checked' : ''}>
@@ -183,9 +183,9 @@ function openCreatePngModal(type, cardId) {
   
   // Configurar botão de confirmação
   document.getElementById('confirmCreatePngBtn').onclick = () => {
-    const addBanner = document.getElementById('addBannerOption').checked;
-    const addPalpites = document.getElementById('addPalpitesOption').checked;
-    imageOptions.includeBanner = addBanner;
+    const addBankAd = document.getElementById("addBankAdOption").checked;
+    const addPalpites = document.getElementById("addPalpitesOption").checked;
+    imageOptions.includeBankAd = addBankAd;
     imageOptions.includeGuesses = addPalpites;
     closeModal('createPngModal');
     generateImage(currentCreatePngType, currentCreatePngCardId);
@@ -870,46 +870,22 @@ async function generateImage(type, cardId) {
             }
         }
         
-        // Espaço para a imagem bnr1.png (condicional baseado nas opções)
-        if (type === 'palpites' || (type === 'result' && imageOptions.includeBanner)) {
+        // Espaço para a propaganda da banca (condicional baseado nas opções)
+        if (type === 'palpites' || (type === 'result' && imageOptions.includeBankAd)) {
             yPosition += 10;
             
-            // Tentar carregar e desenhar bnr1.png com dimensões ajustadas automaticamente
-            try {
-                const bnrImg = new Image();
-                bnrImg.crossOrigin = 'anonymous';
-                await new Promise((resolve, reject) => {
-                    bnrImg.onload = resolve;
-                    bnrImg.onerror = resolve;
-                    bnrImg.src = getImagePath('bnr1.png');
-                    setTimeout(resolve, 2000);
-                });
-                
-                if (bnrImg.complete && bnrImg.naturalWidth > 0) {
-                    // Calcular espaço disponível até o domínio - largura total da imagem
-                    const availableHeight = canvas.height - yPosition - 120;
-                    const availableWidth = canvas.width;
-                    
-                    // Calcular dimensões mantendo proporção e usando a largura total
-                    const bnrAspectRatio = bnrImg.naturalWidth / bnrImg.naturalHeight;
-                    let bnrWidth = availableWidth;
-                    let bnrHeight = bnrWidth / bnrAspectRatio;
-                    
-                    // Se a altura calculada exceder o espaço disponível, ajustar pela altura
-                    if (bnrHeight > availableHeight) {
-                        bnrHeight = availableHeight;
-                        bnrWidth = bnrHeight * bnrAspectRatio;
-                    }
-                    
-                    // Centralizar horizontalmente (mesmo que use largura total)
-                    const bnrX = (canvas.width - bnrWidth) / 2;
-                    
-                    ctx.drawImage(bnrImg, bnrX, yPosition, bnrWidth, bnrHeight);
-                    yPosition += bnrHeight + 20;
-                }
-            } catch (error) {
-                console.log('Banner não carregado, continuando sem ele');
-            }
+            const adText = "Na 77x Brasil, o seu 1 Real vale 8 Mil!\nBônus de 20% na sua primeira recarga!\nAcesse o site para mais!";
+            const adLines = adText.split("\n");
+            
+            ctx.font = 'bold 28px Inter, Arial, sans-serif';
+            ctx.fillStyle = '#ffffff';
+            
+            // Desenhar cada linha da propaganda
+            adLines.forEach(line => {
+                ctx.fillText(line, canvas.width / 2, yPosition);
+                yPosition += 35; // Espaçamento entre as linhas
+            });
+            yPosition += 20; // Espaço extra após a propaganda
         }
         
         // Domínio do site na parte inferior com fonte muito maior
