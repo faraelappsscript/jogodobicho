@@ -608,39 +608,14 @@ async function generateImage(type, cardId) {
         canvas.width = 720;
         canvas.height = 1280;
         
-        // Tentar carregar e desenhar bkg.png como plano de fundo
-        try {
-            const bkgImg = new Image();
-            bkgImg.crossOrigin = 'anonymous';
-            await new Promise((resolve, reject) => {
-                bkgImg.onload = resolve;
-                bkgImg.onerror = resolve;
-                bkgImg.src = getImagePath('bkg.png');
-                setTimeout(resolve, 2000);
-            });
-            
-            if (bkgImg.complete && bkgImg.naturalWidth > 0) {
-                ctx.drawImage(bkgImg, 0, 0, canvas.width, canvas.height);
-            } else {
-                // Fallback: usar gradiente se bkg.png não carregar
-                const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-                gradient.addColorStop(0, '#1a1a2e');
-                gradient.addColorStop(0.3, '#16213e');
-                gradient.addColorStop(0.7, '#0f0f23');
-                gradient.addColorStop(1, '#0a0a1a');
-                ctx.fillStyle = gradient;
-                ctx.fillRect(0, 0, canvas.width, canvas.height);
-            }
-        } catch (error) {
-            console.log('bkg.png não carregada, usando gradiente padrão');
-            const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-            gradient.addColorStop(0, '#1a1a2e');
-            gradient.addColorStop(0.3, '#16213e');
-            gradient.addColorStop(0.7, '#0f0f23');
-            gradient.addColorStop(1, '#0a0a1a');
-            ctx.fillStyle = gradient;
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-        }
+        // Sempre usar gradiente como plano de fundo
+        const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+        gradient.addColorStop(0, '#0f0f23'); // --bg-primary
+        gradient.addColorStop(0.3, '#16213e'); // --bg-card
+        gradient.addColorStop(0.7, '#1a1a2e'); // --bg-secondary
+        gradient.addColorStop(1, '#0f0f23'); // --bg-primary
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
         
         // Adicionar efeito de borda sutil
         ctx.strokeStyle = 'rgba(59, 130, 246, 0.3)';
