@@ -999,7 +999,13 @@ async function generateText(type, cardId) {
     const [version, titleKey] = getCardDetails(cardId);
     const data = globalData[version][titleKey];
     const baseUrl = window.location.href;
-    const pageUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
+    
+    // Construir URL apenas com código se existir
+    const storedCode = getStoredProductCode();
+    const pageUrl = storedCode ? 
+        `${window.location.origin}${window.location.pathname}?pr=${storedCode}` : 
+        `${window.location.origin}${window.location.pathname}`;
+    
     const timestamp = getFormattedTimestamp(selectedDateStr);
 
     if (type === 'result') {
@@ -1042,14 +1048,12 @@ async function generateText(type, cardId) {
 // Compartilhar conteúdo - ATUALIZADO COM CÓDIGO
 async function shareContent(type, cardId) {
     const text = await generateText(type, cardId);
-    const baseUrl = window.location.href;
-    const shareUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
     
     if (navigator.share) {
         navigator.share({ 
             title: getPageTitle(), 
-            text: text,
-            url: shareUrl 
+            text: text
+            // Removido o parâmetro url para evitar duplicação, pois o link já está no texto
         }).catch(console.error);
     } else {
         showToast('Compartilhamento não suportado neste dispositivo.');
