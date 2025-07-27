@@ -1,4 +1,4 @@
-// === SCRIPT COMPARTILHADO OTIMIZADO PARA MÚLTIPLAS PÁGINAS ===
+// === SCRIPT COMPARTILHADO PARA MÚLTIPLAS PÁGINAS - OTIMIZADO CONSERVADORAMENTE ===
 
 // Variáveis globais compartilhadas
 let globalData = {};
@@ -18,51 +18,18 @@ let currentCreatePngCardId = null;
 let titulosData = null;
 let modalHistory = []; // Histórico de modais para navegação
 
-// Cache de elementos DOM para melhor performance
-const domCache = {
-  dataContainer: null,
-  datePickerInput: null,
-  orderToggleBtn: null,
-  toast: null,
-  toastMessage: null,
-  toastIcon: null,
-  breadcrumbNav: null,
-  init() {
-    this.dataContainer = document.getElementById('data-container');
-    this.datePickerInput = document.getElementById('date-picker');
-    this.orderToggleBtn = document.getElementById('order-toggle-btn');
-    this.toast = document.getElementById('toast');
-    this.toastMessage = document.getElementById('toast-message');
-    this.toastIcon = document.getElementById('toast-icon-text');
-    this.breadcrumbNav = document.getElementById('breadcrumbNav');
-  }
-};
+// Otimização: Cache de elementos DOM para evitar consultas repetidas
+let domCache = {};
 
-// Debounce utility para otimizar eventos
-function debounce(func, wait) {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
-      clearTimeout(timeout);
-      func(...args);
-    };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
+// Otimização: Função para inicializar cache DOM
+function initDOMCache() {
+  domCache = {
+    dataContainer: document.getElementById('data-container'),
+    orderToggleBtn: document.getElementById('order-toggle-btn'),
+    toast: document.getElementById('toast'),
+    toastMessage: document.getElementById('toast-message'),
+    toastIcon: document.getElementById('toast-icon-text')
   };
-}
-
-// Throttle utility para otimizar scroll e resize
-function throttle(func, limit) {
-  let inThrottle;
-  return function() {
-    const args = arguments;
-    const context = this;
-    if (!inThrottle) {
-      func.apply(context, args);
-      inThrottle = true;
-      setTimeout(() => inThrottle = false, limit);
-    }
-  }
 }
 
 // === FUNCIONALIDADES DE PARÂMETRO DE URL ===
@@ -83,7 +50,7 @@ function getStoredProductCode() {
   return localStorage.getItem("productCode");
 }
 
-// === FUNÇÕES ORIGINAIS OTIMIZADAS ===
+// === FUNÇÕES ORIGINAIS ===
 
 // Função para obter a data atual no fuso horário do usuário
 function getCurrentDateString() {
@@ -106,10 +73,10 @@ function getCurrentDayOfWeek() {
   return days[today.getDay()];
 }
 
-// Função para carregar e exibir os títulos - otimizada
+// Função para carregar e exibir os títulos
 async function loadTitulos() {
   try {
-    const response = await fetch(getJsonPath('titulos.json') + '?t=' + Date.now());
+    const response = await fetch(getJsonPath('titulos.json') + '?t=' + new Date().getTime());
     if (!response.ok) throw new Error('Não foi possível carregar os títulos.');
     
     titulosData = await response.json();
@@ -132,10 +99,9 @@ async function loadTitulos() {
   }
 }
 
-// Função para exibir os títulos de um dia específico - otimizada
+// Função para exibir os títulos de um dia específico
 function displayTitulos(dayOfWeek) {
   const content = document.getElementById('titulosContent');
-  if (!content) return;
   
   if (!titulosData || !titulosData['1-5'] || !titulosData['1-5'][dayOfWeek]) {
     content.innerHTML = `<div class="no-data">Nenhum título encontrado para ${dayOfWeek}.</div>`;
@@ -144,31 +110,31 @@ function displayTitulos(dayOfWeek) {
   
   const titulos = titulosData['1-5'][dayOfWeek];
   
-  // Usar template string otimizada
-  const titulosHtml = titulos.map((titulo, index) => `
-    <div style="
-      background: var(--bg-card); 
-      border: 1px solid var(--border-color); 
-      border-radius: 8px; 
-      padding: 0.75rem 1rem; 
-      transition: all 0.2s ease;
-      cursor: default;
-    " onmouseover="this.style.background='var(--bg-card-hover)'" onmouseout="this.style.background='var(--bg-card)'">
-      <span style="color: var(--text-primary); font-weight: 500; font-family: 'JetBrains Mono', monospace;">
-        ${titulo}
-      </span>
-    </div>
-  `).join('');
+  let html = `<h4 style="margin: 0 0 1rem 0; color: var(--text-primary); font-size: 1.125rem;">📅 ${dayOfWeek}</h4>`;
+  html += '<div style="display: flex; flex-direction: column; gap: 0.75rem;">';
   
-  content.innerHTML = `
-    <h4 style="margin: 0 0 1rem 0; color: var(--text-primary); font-size: 1.125rem;">📅 ${dayOfWeek}</h4>
-    <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-      ${titulosHtml}
-    </div>
-  `;
+  titulos.forEach((titulo, index) => {
+    html += `
+      <div style="
+        background: var(--bg-card); 
+        border: 1px solid var(--border-color); 
+        border-radius: 8px; 
+        padding: 0.75rem 1rem; 
+        transition: all 0.2s ease;
+        cursor: default;
+      " onmouseover="this.style.background='var(--bg-card-hover)'" onmouseout="this.style.background='var(--bg-card)'">
+        <span style="color: var(--text-primary); font-weight: 500; font-family: 'JetBrains Mono', monospace;">
+          ${titulo}
+        </span>
+      </div>
+    `;
+  });
+  
+  html += '</div>';
+  content.innerHTML = html;
 }
 
-// Função para compartilhar imagem - otimizada
+// Função para compartilhar imagem
 async function shareImage() {
   if (!currentImageBlob) {
     showToast('Nenhuma imagem disponível para compartilhar.');
@@ -208,7 +174,7 @@ async function shareImage() {
   }
 }
 
-// Função para abrir o modal de opções para criar PNG - otimizada
+// Função para abrir o modal de opções para criar PNG
 function openCreatePngModal(type, cardId) {
   currentCreatePngType = type;
   currentCreatePngCardId = cardId;
@@ -253,7 +219,7 @@ function openCreatePngModal(type, cardId) {
   openModal('createPngModal');
 }
 
-// Inicialização do Flatpickr com configurações melhoradas - otimizada
+// Inicialização do Flatpickr com configurações melhoradas
 function initializeFlatpickr() {
   const datePickerElement = document.getElementById("date-picker");
   if (!datePickerElement || typeof flatpickr === 'undefined') return;
@@ -267,11 +233,12 @@ function initializeFlatpickr() {
     clickOpens: true,
     disableMobile: false,
     position: "auto center",
-    onChange: debounce((selectedDates, dateStr) => {
+    onChange: (selectedDates, dateStr) => {
       selectedDateStr = dateStr;
       fetchData(true);
-    }, 300),
+    },
     onOpen: function() {
+      // Otimização: Usar requestAnimationFrame para melhor performance
       requestAnimationFrame(() => {
         const calendar = document.querySelector('.flatpickr-calendar');
         if (calendar) {
@@ -282,11 +249,12 @@ function initializeFlatpickr() {
   });
 }
 
-// Função para alternar a ordem dos cards - otimizada
+// Função para alternar a ordem dos cards
 function toggleOrder() {
   orderPreference = orderPreference === 'ascending' ? 'descending' : 'ascending';
   localStorage.setItem('orderPreference', orderPreference);
   
+  // Otimização: Usar cache DOM
   if (domCache.orderToggleBtn) {
     domCache.orderToggleBtn.textContent = orderPreference === 'ascending' 
       ? '⬆⬇ Inverter Ordem (Mais recente primeiro)' 
@@ -296,66 +264,52 @@ function toggleOrder() {
   renderData();
 }
 
-// Funções de Modal com controle de rolagem do body - otimizadas
+// Funções de Modal com controle de rolagem do body
 function openModal(modalId) {
-  const modal = document.getElementById(modalId);
-  if (!modal) return;
-  
   modalHistory.push(modalId);
-  modal.style.display = 'flex';
-  modal.setAttribute('aria-hidden', 'false');
-  document.body.classList.add('modal-open');
-  
-  // Focus no primeiro elemento focável do modal
-  requestAnimationFrame(() => {
-    const focusableElement = modal.querySelector('button, input, select, textarea, [tabindex]:not([tabindex="-1"])');
-    if (focusableElement) {
-      focusableElement.focus();
-    }
-  });
+  const modal = document.getElementById(modalId);
+  if (modal) {
+    modal.style.display = 'flex';
+    document.body.classList.add('modal-open');
+  }
 }
 
 function closeModal(modalId) {
   const modal = document.getElementById(modalId);
-  if (!modal) return;
-  
-  modal.style.display = 'none';
-  modal.setAttribute('aria-hidden', 'true');
-  document.body.classList.remove('modal-open');
-  
-  // Remover o modal atual do histórico
-  const index = modalHistory.indexOf(modalId);
-  if (index > -1) {
-    modalHistory.splice(index, 1);
+  if (modal) {
+    modal.style.display = 'none';
+    document.body.classList.remove('modal-open');
+    // Remover o modal atual do histórico
+    const index = modalHistory.indexOf(modalId);
+    if (index > -1) {
+      modalHistory.splice(index, 1);
+    }
   }
 }
 
-// Funções do Modal de Imagem com controle de rolagem - otimizadas
+// Funções do Modal de Imagem com controle de rolagem
 function openImageModal() {
   const imageModal = document.getElementById('imageModal');
-  if (!imageModal) return;
-  
-  imageModal.style.display = 'block';
-  imageModal.setAttribute('aria-hidden', 'false');
-  document.body.classList.add('modal-open');
+  if (imageModal) {
+    imageModal.style.display = 'block';
+    document.body.classList.add('modal-open');
+  }
 }
 
 function closeImageModal() {
   const imageModal = document.getElementById("imageModal");
-  if (!imageModal) return;
-  
-  imageModal.style.display = "none";
-  imageModal.setAttribute('aria-hidden', 'true');
-  document.body.classList.remove("modal-open");
-  currentImageBlob = null;
-  
-  modalHistory.pop(); // Remove o modal de imagem do histórico
-  if (modalHistory.length > 0) {
-    openModal(modalHistory[modalHistory.length - 1]); // Abre o modal anterior
+  if (imageModal) {
+    imageModal.style.display = "none";
+    document.body.classList.remove("modal-open");
+    currentImageBlob = null;
+    modalHistory.pop(); // Remove o modal de imagem do histórico
+    if (modalHistory.length > 0) {
+      openModal(modalHistory[modalHistory.length - 1]); // Abre o modal anterior
+    }
   }
 }
 
-// Função principal para buscar dados - otimizada
+// Função principal para buscar dados
 async function fetchData(isManualAction = false) {
   const isToday = (selectedDateStr === getCurrentDateString());
   
@@ -365,6 +319,7 @@ async function fetchData(isManualAction = false) {
       clearInterval(autoUpdateInterval);
       autoUpdateInterval = null;
     }
+    // Otimização: Usar cache DOM
     if (domCache.dataContainer) {
       domCache.dataContainer.innerHTML = '<div class="no-data loading">Carregando dados...</div>';
     }
@@ -372,13 +327,7 @@ async function fetchData(isManualAction = false) {
 
   const url = getDataUrl(selectedDateStr);
   try {
-    const response = await fetch(url, { 
-      cache: "no-store",
-      headers: {
-        'Cache-Control': 'no-cache'
-      }
-    });
-    
+    const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) throw new Error(`Resultados para ${selectedDateStr} não encontrados.`);
     
     const newLastModified = response.headers.get('Last-Modified');
@@ -413,18 +362,19 @@ async function fetchData(isManualAction = false) {
   }
 }
 
-// Renderizar dados na página - otimizada
+// Renderizar dados na página
 function renderData() {
-  if (!domCache.dataContainer) return;
+  // Otimização: Usar cache DOM
+  const container = domCache.dataContainer || document.getElementById('data-container');
+  if (!container) return;
   
-  domCache.dataContainer.innerHTML = '';
+  container.innerHTML = '';
   let hasContent = false;
 
   const versions = ['1-5', '1-10'];
-  const cards = [];
+  let cards = [];
 
-  // Usar for...of para melhor performance
-  for (const version of versions) {
+  versions.forEach(version => {
     if (globalData[version]) {
       for (const title in globalData[version]) {
         hasContent = true;
@@ -434,7 +384,7 @@ function renderData() {
         cards.push({ card, title, version });
       }
     }
-  }
+  });
 
   // Ordenar os cards com base na preferência
   cards.sort((a, b) => {
@@ -443,21 +393,21 @@ function renderData() {
     return orderPreference === 'ascending' ? timeA - timeB : timeB - timeA;
   });
 
-  // Usar DocumentFragment para melhor performance
+  // Otimização: Usar DocumentFragment para melhor performance
   const fragment = document.createDocumentFragment();
   cards.forEach(({ card }) => {
     fragment.appendChild(card);
   });
-  domCache.dataContainer.appendChild(fragment);
+  container.appendChild(fragment);
 
   if (!hasContent) {
-    domCache.dataContainer.innerHTML = '<div class="no-data">Nenhum resultado disponível para a data selecionada.</div>';
+    container.innerHTML = '<div class="no-data">Nenhum resultado disponível para a data selecionada.</div>';
   }
   
   toggleResultView();
 }
 
-// Função para extrair o horário do título para ordenação - otimizada
+// Função para extrair o horário do título para ordenação
 function extractTime(title) {
   const match = title.match(/(\d{2}:\d{2})/);
   if (match) {
@@ -467,7 +417,7 @@ function extractTime(title) {
   return 0;
 }
 
-// Criar card de resultado - otimizada
+// Criar card de resultado
 function createCard(cardId, version, title, data) {
     const card = document.createElement('div');
     card.className = 'card';
@@ -493,31 +443,14 @@ function createCard(cardId, version, title, data) {
         tableContainer.className = 'table-container';
         
         const table = document.createElement('table');
-        
-        // Criar thead
-        const thead = document.createElement('thead');
-        const headerRow = document.createElement('tr');
-        data.cabecalhos.forEach(h => {
-            const th = document.createElement('th');
-            th.textContent = h;
-            headerRow.appendChild(th);
-        });
-        thead.appendChild(headerRow);
-        table.appendChild(thead);
-        
-        // Criar tbody
-        const tbody = document.createElement('tbody');
-        data.dados.forEach(row => {
-            const tr = document.createElement('tr');
-            data.cabecalhos.forEach(h => {
-                const td = document.createElement('td');
-                td.textContent = row[h] || '-';
-                tr.appendChild(td);
-            });
-            tbody.appendChild(tr);
-        });
-        table.appendChild(tbody);
-        
+        table.innerHTML = `
+            <thead>
+                <tr>${data.cabecalhos.map(h => `<th>${h}</th>`).join('')}</tr>
+            </thead>
+            <tbody>
+                ${data.dados.map(row => `<tr>${data.cabecalhos.map(h => `<td>${row[h] || '-'}</td>`).join('')}</tr>`).join('')}
+            </tbody>
+        `;
         tableContainer.appendChild(table);
         body.appendChild(tableContainer);
 
@@ -552,31 +485,20 @@ function createCard(cardId, version, title, data) {
     const footer = document.createElement('div');
     footer.className = 'card-footer';
     if (data.acertos) {
-        const footerContent = [];
-        
-        // Milhar
         for (let i = 0; i < (data.acertos.Milhar || 0); i++) {
-            footerContent.push(`<div class="acerto-balao milhar" title="Milhar e Centena">M</div>`);
+            footer.innerHTML += `<div class="acerto-balao milhar" title="Milhar e Centena">M</div>`;
         }
-        
-        // Centena
         for (let i = 0; i < (data.acertos.Centena || 0); i++) {
-            footerContent.push(`<div class="acerto-balao centena" title="Centena e Dezena">C</div>`);
+            footer.innerHTML += `<div class="acerto-balao centena" title="Centena e Dezena">C</div>`;
         }
-        
-        // Dezena
         if (data.acertos.Dezena > 0) {
-            footerContent.push(`<div class="acerto-balao dezena" title="Dezenas">${data.acertos.Dezena}</div>`);
+            footer.innerHTML += `<div class="acerto-balao dezena" title="Dezenas">${data.acertos.Dezena}</div>`;
         }
-        
-        // Grupo
         if (data.acertos.Grupo) {
             data.acertos.Grupo.forEach(emoji => {
-                footerContent.push(`<div class="acerto-balao grupo" title="Grupo">${emoji}</div>`);
+                footer.innerHTML += `<div class="acerto-balao grupo" title="Grupo">${emoji}</div>`;
             });
         }
-        
-        footer.innerHTML = footerContent.join('');
     }
     card.appendChild(footer);
 
@@ -599,7 +521,7 @@ function createCard(cardId, version, title, data) {
     return card;
 }
 
-// Alternar visualização entre 1-5 e 1-10 - otimizada
+// Alternar visualização entre 1-5 e 1-10
 function toggleResultView() {
     const has1to5 = document.querySelector('[data-version="1-5"]');
     const has1to10 = document.querySelector('[data-version="1-10"]');
@@ -607,16 +529,11 @@ function toggleResultView() {
 
     if (!has1to5 && has1to10) show1to10 = true;
 
-    // Usar querySelectorAll uma vez e cache o resultado
-    const allCards = document.querySelectorAll('.card');
-    const toggleButtons = document.querySelectorAll('.toggle-view-btn');
-    
-    allCards.forEach(card => {
-        const shouldShow = show1to10 ? card.dataset.version === '1-10' : card.dataset.version === '1-5';
-        card.style.display = shouldShow ? 'block' : 'none';
+    document.querySelectorAll('.card').forEach(card => {
+        card.style.display = (show1to10 ? card.dataset.version === '1-10' : card.dataset.version === '1-5') ? 'block' : 'none';
     });
 
-    toggleButtons.forEach(btn => {
+    document.querySelectorAll('.toggle-view-btn').forEach(btn => {
         btn.innerHTML = show1to10 ? '👁️ Ver do 1º ao 5º' : '👁️ Ver do 1º ao 10º';
         btn.onclick = () => {
             localStorage.setItem('viewPreference', show1to10 ? '1-5' : '1-10');
@@ -625,29 +542,34 @@ function toggleResultView() {
     });
 }
 
-// Toast notification otimizada
+// Otimização: Toast notification melhorada
 function showToast(message, type = 'success') {
-  if (!domCache.toast || !domCache.toastMessage || !domCache.toastIcon) return;
+  // Usar cache DOM
+  const toast = domCache.toast || document.getElementById('toast');
+  const toastMessage = domCache.toastMessage || document.getElementById('toast-message');
+  const toastIcon = domCache.toastIcon || document.getElementById('toast-icon-text');
+  
+  if (!toast || !toastMessage || !toastIcon) return;
   
   // Limpar timeout anterior
   if (toastTimeout) {
     clearTimeout(toastTimeout);
   }
   
-  domCache.toastMessage.textContent = message;
-  domCache.toastIcon.textContent = type === 'success' ? '✓' : '⚠';
+  toastMessage.textContent = message;
+  toastIcon.textContent = type === 'success' ? '✓' : '⚠';
   
-  domCache.toast.classList.add('show');
+  toast.classList.add('show');
   
   toastTimeout = setTimeout(() => {
-    domCache.toast.classList.remove('show');
+    toast.classList.remove('show');
   }, 3000);
 }
 
-// Função de inicialização comum otimizada
+// Otimização: Função de inicialização comum melhorada
 function initializeCommonFeatures() {
   // Inicializar cache DOM
-  domCache.init();
+  initDOMCache();
   
   // Capturar parâmetro de URL
   captureAndStoreUrlParameter();
@@ -655,44 +577,9 @@ function initializeCommonFeatures() {
   // Inicializar Flatpickr
   initializeFlatpickr();
   
-  // Event listeners otimizados
+  // Event listeners
   if (domCache.orderToggleBtn) {
     domCache.orderToggleBtn.addEventListener('click', toggleOrder);
-  }
-  
-  // Event delegation para modais
-  document.addEventListener('click', (e) => {
-    if (e.target.matches('.close-btn')) {
-      const modal = e.target.closest('.modal');
-      if (modal) {
-        closeModal(modal.id);
-      }
-    }
-  });
-  
-  // Keyboard navigation para modais
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && modalHistory.length > 0) {
-      closeModal(modalHistory[modalHistory.length - 1]);
-    }
-  });
-  
-  // Lazy loading para imagens
-  if ('IntersectionObserver' in window) {
-    const imageObserver = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const img = entry.target;
-          img.src = img.dataset.src;
-          img.classList.remove('lazy');
-          observer.unobserve(img);
-        }
-      });
-    });
-    
-    document.querySelectorAll('img[data-src]').forEach(img => {
-      imageObserver.observe(img);
-    });
   }
 }
 
@@ -758,10 +645,5 @@ function setAutomaticDomain() {
 
 function setCopyrightText() {
   console.log('setCopyrightText não implementado');
-}
-
-// Performance monitoring
-if (typeof performance !== 'undefined' && performance.mark) {
-  performance.mark('script-loaded');
 }
 
