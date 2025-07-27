@@ -4,80 +4,89 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resultados PT-RIO</title>
-  
-  <!-- Preload recursos críticos -->
-  <link rel="preload" href="/assets/fonts/inter.css" as="style">
-  <link rel="preload" href="/assets/fonts/jetbrains-mono.css" as="style">
-  <link rel="preload" href="/theme.css" as="style">
-  <link rel="preload" href="/assets/js/flatpickr.js" as="script">
-  <link rel="preload" href="/resultados/script.js" as="script">
-  
-  <!-- CSS crítico inline otimizado -->
+  <link rel="stylesheet" href="/assets/css/flatpickr.min.css">
+  <link rel="stylesheet" href="/theme.css">
+  <link rel="stylesheet" href="/assets/fonts/inter.css">
+  <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
+
   <style>
-    body{font-family:'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;margin:0;padding:0;background:var(--bg-primary);background-image:radial-gradient(circle at 25% 25%,rgba(59,130,246,0.1) 0%,transparent 50%),radial-gradient(circle at 75% 75%,rgba(139,92,246,0.1) 0%,transparent 50%);color:var(--text-primary);min-height:100vh;line-height:1.6;overflow-x:hidden}.container{max-width:1200px;margin:0 auto;padding:1rem}.loading{animation:pulse 2s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+    /* CSS crítico e de layout - mantido exatamente igual */
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--bg-primary);
+      background-image: 
+        radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    
+    /* Otimização mínima: adicionar will-change apenas para elementos que realmente animam */
+    .card:hover {
+      will-change: transform;
+    }
+    
+    .card:not(:hover) {
+      will-change: auto;
+    }
+    
+    /* Otimização: melhorar performance de scroll */
+    .modal-body {
+      -webkit-overflow-scrolling: touch;
+    }
   </style>
-  
-  <!-- CSS não crítico carregado de forma assíncrona -->
-  <link rel="stylesheet" href="/assets/css/flatpickr.min.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="/theme.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="/assets/fonts/inter.css" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css" media="print" onload="this.media='all'">
-  
-  <!-- Fallback para navegadores sem suporte a onload -->
-  <noscript>
-    <link rel="stylesheet" href="/assets/css/flatpickr.min.css">
-    <link rel="stylesheet" href="/theme.css">
-    <link rel="stylesheet" href="/assets/fonts/inter.css">
-    <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
-  </noscript>
 </head>
 <body>
   <div class="container no-print">
     <!-- Breadcrumb Navigation -->
-    <nav class="breadcrumb-nav" id="breadcrumbNav" aria-label="Navegação estrutural">
+    <nav class="breadcrumb-nav" id="breadcrumbNav">
       <!-- O breadcrumb será gerado dinamicamente pelo JavaScript -->
     </nav>
 
     <header class="header">
       <p class="subtitle">
-        <a href="#" id="selectLotteryLink" style="color: var(--text-secondary); text-decoration: none; cursor: pointer; transition: color 0.3s ease;" aria-label="Selecionar loteria">
+        <a href="#" id="selectLotteryLink" style="color: var(--text-secondary); text-decoration: none; cursor: pointer; transition: color 0.3s ease;">
           [Selecionar loteria]
         </a>
       </p>
       <h1>Resultados PT-RIO</h1>
       <p class="subtitle">
-        <a href="#" id="titulosLink" style="color: var(--text-secondary); text-decoration: none; cursor: pointer; transition: color 0.3s ease;" aria-label="Ver horários das extrações">
+        <a href="#" id="titulosLink" style="color: var(--text-secondary); text-decoration: none; cursor: pointer; transition: color 0.3s ease;">
           Clique aqui para ver os horários das extrações!
         </a>
       </p>
     </header>
 
     <div class="calendar-container">
-      <input type="text" id="date-picker" class="date-picker" placeholder="Selecione uma data" aria-label="Seletor de data">
-      <button id="order-toggle-btn" class="order-toggle-btn" aria-label="Inverter ordem dos resultados">⬆⬇ Inverter Ordem</button>
+      <input type="text" id="date-picker" class="date-picker" placeholder="Selecione uma data">
+      <button id="order-toggle-btn" class="order-toggle-btn">⬆⬇ Inverter Ordem</button>
     </div>
 
-    <div id="data-container" class="data-container" role="main" aria-live="polite"></div>
+    <div id="data-container" class="data-container"></div>
 
     <!-- Toast Notification -->
-    <div id="toast" class="toast" role="alert" aria-live="assertive">
+    <div id="toast" class="toast">
       <div class="toast-icon">
-        <span id="toast-icon-text" aria-hidden="true">✓</span>
+        <span id="toast-icon-text">✓</span>
       </div>
       <span id="toast-message"></span>
     </div>
 
     <!-- Modal de Títulos -->
-    <div id="titulosModal" class="modal" role="dialog" aria-labelledby="titulosModalTitle" aria-hidden="true">
+    <div id="titulosModal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title" id="titulosModalTitle">Horários das extrações</h3>
-          <button class="close-btn" onclick="closeModal('titulosModal')" aria-label="Fechar modal">×</button>
+          <h3 class="modal-title">Horários das extrações</h3>
+          <button class="close-btn" onclick="closeModal('titulosModal')">×</button>
         </div>
         <div class="modal-body">
           <div class="filter-container" style="margin-bottom: 1.5rem;">
             <label for="dayFilter" style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary); font-weight: 600;">Filtrar por dia da semana:</label>
-            <select id="dayFilter" style="width: 100%; padding: 0.75rem; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary); font-size: 1rem;" aria-label="Selecionar dia da semana">
+            <select id="dayFilter" style="width: 100%; padding: 0.75rem; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-primary); font-size: 1rem;">
               <option value="Domingo">Domingo</option>
               <option value="Segunda-feira">Segunda-feira</option>
               <option value="Terça-feira">Terça-feira</option>
@@ -95,24 +104,24 @@
     </div>
 
     <!-- Modal de Seleção de Loteria -->
-    <div id="lotteryModal" class="modal" role="dialog" aria-labelledby="lotteryModalTitle" aria-hidden="true">
+    <div id="lotteryModal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title" id="lotteryModalTitle">Selecionar Loteria</h3>
-          <button class="close-btn" onclick="closeModal('lotteryModal')" aria-label="Fechar modal">×</button>
+          <h3 class="modal-title">Selecionar Loteria</h3>
+          <button class="close-btn" onclick="closeModal('lotteryModal')">×</button>
         </div>
         <div class="modal-body">
-          <ul id="lotteryList" class="lottery-list" role="list"></ul>
+          <ul id="lotteryList" class="lottery-list"></ul>
         </div>
       </div>
     </div>
 
-    <!-- Modal de Resumo -->
-    <div id="resumoModal" class="modal" role="dialog" aria-labelledby="resumoModalTitle" aria-hidden="true">
+    <!-- Modais -->
+    <div id="resumoModal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title" id="resumoModalTitle">Resumo de Acertos</h3>
-          <button class="close-btn" onclick="closeModal('resumoModal')" aria-label="Fechar modal">×</button>
+          <h3 class="modal-title">Resumo de Acertos</h3>
+          <button class="close-btn" onclick="closeModal('resumoModal')">×</button>
         </div>
         <div class="modal-body" id="resumoModalBody"></div>
         <div class="button-group">
@@ -123,12 +132,11 @@
       </div>
     </div>
 
-    <!-- Modal de Palpites -->
-    <div id="palpitesModal" class="modal" role="dialog" aria-labelledby="palpitesModalTitle" aria-hidden="true">
+    <div id="palpitesModal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title" id="palpitesModalTitle">Palpites</h3>
-          <button class="close-btn" onclick="closeModal('palpitesModal')" aria-label="Fechar modal">×</button>
+          <h3 class="modal-title">Palpites</h3>
+          <button class="close-btn" onclick="closeModal('palpitesModal')">×</button>
         </div>
         <div class="modal-body" id="palpitesModalBody"></div>
         <div class="button-group">
@@ -140,11 +148,11 @@
     </div>
 
     <!-- Modal de Opções para Criar PNG -->
-    <div id="createPngModal" class="modal" role="dialog" aria-labelledby="createPngModalTitle" aria-hidden="true">
+    <div id="createPngModal" class="modal">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title" id="createPngModalTitle">Opções para Criar PNG</h3>
-          <button class="close-btn" onclick="closeModal('createPngModal')" aria-label="Fechar modal">×</button>
+          <h3 class="modal-title">Opções para Criar PNG</h3>
+          <button class="close-btn" onclick="closeModal('createPngModal')">×</button>
         </div>
         <div class="modal-body" id="createPngModalBody">
           <div class="image-options">
@@ -171,14 +179,14 @@
     </div>
 
     <!-- Modal de Visualização de Imagem -->
-    <div id="imageModal" class="image-modal" role="dialog" aria-labelledby="imageModalTitle" aria-hidden="true">
+    <div id="imageModal" class="image-modal">
       <div class="image-modal-content">
         <div class="image-modal-header">
-          <h3 class="image-modal-title" id="imageModalTitle">Visualizar Imagem</h3>
-          <button class="image-modal-close" onclick="closeImageModal(true)" aria-label="Fechar modal de imagem">×</button>
+          <h3 class="image-modal-title">Visualizar Imagem</h3>
+          <button class="image-modal-close" onclick="closeImageModal(true)">×</button>
         </div>
         <div class="image-modal-body">
-          <img id="previewImage" src="" alt="Preview da imagem" loading="lazy">
+          <img id="previewImage" src="" alt="Preview da imagem">
         </div>
         <div class="image-modal-footer">
           <button class="btn btn-primary" onclick="closeImageModal(true)">
@@ -199,10 +207,10 @@
 
   <!-- Sliding Banner -->
   <div id="slidingBanner" class="sliding-banner">
-    <button class="close-banner-btn" id="closeBannerBtn" aria-label="Fechar banner">×</button>
-    <img src="/assets/img/banner.webp" alt="Banner Promocional" class="banner-image" loading="lazy">
+    <button class="close-banner-btn" id="closeBannerBtn">×</button>
+    <img src="/assets/img/banner.webp" alt="Banner Promocional" class="banner-image">
     <div class="banner-content">
-      <img src="/assets/img/logo.png" alt="Logo 77x Brasil" class="banner-logo" loading="lazy">
+      <img src="/assets/img/logo.png" alt="Logo 77x Brasil" class="banner-logo">
       <p class="banner-text">Na 77x Brasil, o seu 1 Real vale 8 Mil! <br> Cadastre-se agora e ganhe 20% na sua primeira recarga!</p>
       <a href="#" id="registerBtn" class="banner-btn">Cadastre-se</a>
       <a href="#" id="learnMoreLink" class="banner-link">Saiba mais sobre a 77x Brasil</a>
@@ -211,24 +219,19 @@
 
   <footer class="site-footer">
     <div class="footer-content">
-      <img src="/assets/img/logo.png" alt="Logo do Site" class="footer-logo" loading="lazy">
+      <img src="/assets/img/logo.png" alt="Logo do Site" class="footer-logo">
       <p class="site-domain" id="siteDomain"></p>
       <p class="copyright-text" id="copyrightText"></p>
     </div>
   </footer>
 
-  <!-- Scripts carregados de forma otimizada -->
+  <!-- Scripts mantidos na ordem original -->
+  <script src="/assets/js/flatpickr.js"></script>
+  <script src="/assets/js/flatpickr.pt.js"></script>
+  <script src="/resultados/script.js"></script>
+  <script src="/assets/js/breadcrumb.js"></script>
   <script>
-    // Carregamento assíncrono de scripts não críticos
-    function loadScript(src, callback) {
-      const script = document.createElement('script');
-      script.src = src;
-      script.async = true;
-      if (callback) script.onload = callback;
-      document.head.appendChild(script);
-    }
-
-    // Funções específicas para esta página (PT-RIO) - inline para performance
+    // Funções específicas para esta página (PT-RIO) - mantidas exatamente iguais
     function getPageTitle() {
       return "Resultados PT-RIO";
     }
@@ -245,36 +248,14 @@
       return `/assets/img/${imageName}`;
     }
 
-    // Inicialização otimizada
+    // Inicializar aplicação - mantido exatamente igual
     document.addEventListener("DOMContentLoaded", function() {
-      // Carregar scripts críticos primeiro
-      loadScript('/assets/js/flatpickr.js', function() {
-        loadScript('/assets/js/flatpickr.pt.js', function() {
-          loadScript('/resultados/script.js', function() {
-            loadScript('/assets/js/breadcrumb.js', function() {
-              // Inicializar aplicação após todos os scripts carregarem
-              if (typeof initializeCommonFeatures === 'function') {
-                initializeCommonFeatures();
-              }
-              if (typeof initializeBreadcrumb === 'function') {
-                initializeBreadcrumb();
-              }
-              if (typeof initializeLotterySelector === 'function') {
-                initializeLotterySelector();
-              }
-              if (typeof fetchData === 'function') {
-                fetchData(true);
-              }
-              if (typeof setAutomaticDomain === 'function') {
-                setAutomaticDomain();
-              }
-              if (typeof setCopyrightText === 'function') {
-                setCopyrightText();
-              }
-            });
-          });
-        });
-      });
+        initializeCommonFeatures();
+        initializeBreadcrumb(); // Inicializar o breadcrumb
+        initializeLotterySelector(); // Inicializar o seletor de loteria
+        fetchData(true);
+        setAutomaticDomain(); // Definir o domínio automaticamente
+        setCopyrightText(); // Definir o texto de direitos autorais automaticamente
     });
   </script>
 </body>
