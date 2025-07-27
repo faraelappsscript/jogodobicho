@@ -4,28 +4,71 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resultados PT-RIO</title>
-  <link rel="stylesheet" href="/assets/css/flatpickr.min.css">
-  <link rel="stylesheet" href="/theme.css">
-  <link rel="stylesheet" href="/assets/fonts/inter.css">
-  <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
-
+  
+  <!-- CSS crítico embutido -->
   <style>
     /* CSS crítico e de layout */
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       margin: 0;
       padding: 0;
-      background: var(--bg-primary);
+      background: #0f0f23;
       background-image: 
         radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
         radial-gradient(circle at 75% 75%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
-      color: var(--text-primary);
+      color: #e2e8f0;
       min-height: 100vh;
       line-height: 1.6;
       overflow-x: hidden;
     }
-    /* ... (o restante do CSS permanece igual, omitido para brevidade) ... */
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    h1 {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 800;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0;
+    }
+    
+    .subtitle {
+      font-size: 1.125rem;
+      color: #94a3b8;
+      margin-top: 0.5rem;
+    }
+    
+    .loading {
+      text-align: center;
+      color: #64748b;
+      padding: 2rem;
+      font-style: italic;
+    }
   </style>
+  
+  <!-- CSS não crítico carregado de forma assíncrona -->
+  <link rel="preload" href="/assets/css/flatpickr.min.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="/assets/fonts/inter.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.css" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="/theme.css">
+  
+  <!-- Fallback para navegadores que não suportam preload -->
+  <noscript>
+    <link rel="stylesheet" href="/assets/css/flatpickr.min.css">
+    <link rel="stylesheet" href="/assets/fonts/inter.css">
+    <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
+  </noscript>
 </head>
 <body>
   <div class="container no-print">
@@ -68,7 +111,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title">Horários das extrações</h3>
-          <button class="close-btn" onclick="closeModal('titulosModal')">×</button>
+          <button class="close-btn" data-modal="titulosModal">×</button>
         </div>
         <div class="modal-body">
           <div class="filter-container" style="margin-bottom: 1.5rem;">
@@ -95,7 +138,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title">Selecionar Loteria</h3>
-          <button class="close-btn" onclick="closeModal('lotteryModal')">×</button>
+          <button class="close-btn" data-modal="lotteryModal">×</button>
         </div>
         <div class="modal-body">
           <ul id="lotteryList" class="lottery-list"></ul>
@@ -108,7 +151,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title">Resumo de Acertos</h3>
-          <button class="close-btn" onclick="closeModal('resumoModal')">×</button>
+          <button class="close-btn" data-modal="resumoModal">×</button>
         </div>
         <div class="modal-body" id="resumoModalBody"></div>
         <div class="button-group">
@@ -123,7 +166,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title">Palpites</h3>
-          <button class="close-btn" onclick="closeModal('palpitesModal')">×</button>
+          <button class="close-btn" data-modal="palpitesModal">×</button>
         </div>
         <div class="modal-body" id="palpitesModalBody"></div>
         <div class="button-group">
@@ -139,7 +182,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title">Opções para Criar PNG</h3>
-          <button class="close-btn" onclick="closeModal('createPngModal')">×</button>
+          <button class="close-btn" data-modal="createPngModal">×</button>
         </div>
         <div class="modal-body" id="createPngModalBody">
           <div class="image-options">
@@ -155,7 +198,7 @@
           </div>
         </div>
         <div class="button-group">
-          <button class="btn btn-primary" onclick="closeModal('createPngModal')">
+          <button class="btn btn-primary" data-modal="createPngModal">
             ← Cancelar
           </button>
           <button class="btn btn-accent" id="confirmCreatePngBtn">
@@ -170,13 +213,13 @@
       <div class="image-modal-content">
         <div class="image-modal-header">
           <h3 class="image-modal-title">Visualizar Imagem</h3>
-          <button class="image-modal-close" onclick="closeImageModal(true)">×</button>
+          <button class="image-modal-close" data-action="close-image-modal">×</button>
         </div>
         <div class="image-modal-body">
-          <img id="previewImage" src="" alt="Preview da imagem">
+          <img id="previewImage" src="" alt="Preview da imagem" loading="lazy">
         </div>
         <div class="image-modal-footer">
-          <button class="btn btn-primary" onclick="closeImageModal(true)">
+          <button class="btn btn-primary" data-action="close-image-modal">
             ← Cancelar
           </button>
           <button class="share-btn" id="shareImageBtn">
@@ -195,18 +238,30 @@
   <!-- Sliding Banner -->
   <div id="slidingBanner" class="sliding-banner">
     <button class="close-banner-btn" id="closeBannerBtn">×</button>
+    <img src="/assets/img/banner.webp" alt="Banner Promocional" class="banner-image" loading="lazy">
     <div class="banner-content">
-      <img src="/assets/img/logo.png" alt="Logo 77x Brasil" class="banner-logo">
+      <img src="/assets/img/logo.png" alt="Logo 77x Brasil" class="banner-logo" loading="lazy">
       <p class="banner-text">Na 77x Brasil, o seu 1 Real vale 8 Mil! <br> Cadastre-se agora e ganhe 20% na sua primeira recarga!</p>
       <a href="#" id="registerBtn" class="banner-btn">Cadastre-se</a>
       <a href="#" id="learnMoreLink" class="banner-link">Saiba mais sobre a 77x Brasil</a>
     </div>
   </div>
 
-  <script src="/assets/js/flatpickr.js"></script>
-  <script src="/assets/js/flatpickr.pt.js"></script>
-  <script src="/resultados/script.js"></script>
-  <script src="/assets/js/breadcrumb.js"></script>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <img src="/assets/img/logo.png" alt="Logo do Site" class="footer-logo" loading="lazy">
+      <p class="site-domain" id="siteDomain"></p>
+      <p class="copyright-text" id="copyrightText"></p>
+    </div>
+  </footer>
+
+  <!-- Scripts carregados com defer para não bloquear renderização -->
+  <script src="/assets/js/flatpickr.js" defer></script>
+  <script src="/assets/js/flatpickr.pt.js" defer></script>
+  <script src="/resultados/script.js" defer></script>
+  <script src="/assets/js/breadcrumb.js" defer></script>
+  
+  <!-- Script inline otimizado -->
   <script>
     // Funções específicas para esta página (PT-RIO)
     function getPageTitle() {
@@ -225,24 +280,29 @@
       return `/assets/img/${imageName}`;
     }
 
-    // Inicializar aplicação
+    // Inicializar aplicação quando DOM estiver pronto
     document.addEventListener("DOMContentLoaded", function() {
-        initializeCommonFeatures();
-        initializeBreadcrumb(); // Inicializar o breadcrumb
-        initializeLotterySelector(); // Inicializar o seletor de loteria
-        fetchData(true);
-        setAutomaticDomain(); // Definir o domínio automaticamente
-        setCopyrightText(); // Definir o texto de direitos autorais automaticamente
+        // Aguardar scripts externos carregarem antes de inicializar
+        if (typeof initializeCommonFeatures === 'function') {
+          initializeCommonFeatures();
+          initializeBreadcrumb();
+          initializeLotterySelector();
+          fetchData(true);
+          setAutomaticDomain();
+          setCopyrightText();
+        } else {
+          // Fallback: tentar novamente após um pequeno delay
+          setTimeout(function() {
+            initializeCommonFeatures();
+            initializeBreadcrumb();
+            initializeLotterySelector();
+            fetchData(true);
+            setAutomaticDomain();
+            setCopyrightText();
+          }, 100);
+        }
     });
   </script>
 </body>
 </html>
 
-
-  <footer class="site-footer">
-    <div class="footer-content">
-      <img src="/assets/img/logo.png" alt="Logo do Site" class="footer-logo">
-      <p class="site-domain" id="siteDomain"></p>
-      <p class="copyright-text" id="copyrightText"></p>
-    </div>
-  </footer>
