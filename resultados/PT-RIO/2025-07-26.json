@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5108, 5308, 5508, 7108, 7308, 7508"
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -115,20 +115,14 @@
         "5108": [
           "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5108"
         ],
+        "5208": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5208"
+        ],
         "5308": [
           "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5308"
         ],
-        "5508": [
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5508"
-        ],
-        "7108": [
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7108"
-        ],
-        "7308": [
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7308"
-        ],
-        "7508": [
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7508"
+        "5408": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5408"
         ]
       },
       "acertos": {
@@ -139,7 +133,7 @@
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5108, 5308, 5508, 7108, 7308, 7508"
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -197,36 +191,28 @@
           "Dezena no terceiro prêmio!<br>com o palpite 5108",
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5108"
         ],
+        "5208": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5208",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5208"
+        ],
         "5308": [
           "Dezena no terceiro prêmio!<br>com o palpite 5308",
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5308"
         ],
-        "5508": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5508",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5508"
-        ],
-        "7108": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7108",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7108"
-        ],
-        "7308": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7308",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7308"
-        ],
-        "7508": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7508",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7508"
+        "5408": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5408",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5408"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
+        "Dezena": 4,
         "Grupo": [
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5108, 5308, 5508, 7108, 7308, 7508"
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -283,20 +269,14 @@
         "5108": [
           "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 5108"
         ],
+        "5208": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 5208"
+        ],
         "5308": [
           "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 5308"
         ],
-        "5508": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 5508"
-        ],
-        "7108": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 7108"
-        ],
-        "7308": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 7308"
-        ],
-        "7508": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 7508"
+        "5408": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 5408"
         ]
       },
       "acertos": {
@@ -307,7 +287,7 @@
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5108, 5308, 5508, 7108, 7308, 7508"
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -367,7 +347,67 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5108, 5308, 5508, 7108, 7308, 7508"
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8866",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6652",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0033",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0978",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6687",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "3216",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "976",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
     }
   },
   "1-10": {
@@ -447,7 +487,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5108, 5308, 5508, 7108, 7308, 7508"
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -522,20 +562,14 @@
         "5108": [
           "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5108"
         ],
+        "5208": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5208"
+        ],
         "5308": [
           "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5308"
         ],
-        "5508": [
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5508"
-        ],
-        "7108": [
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7108"
-        ],
-        "7308": [
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7308"
-        ],
-        "7508": [
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7508"
+        "5408": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5408"
         ]
       },
       "acertos": {
@@ -546,7 +580,7 @@
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5108, 5308, 5508, 7108, 7308, 7508"
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -623,41 +657,31 @@
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5108",
           "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5108"
         ],
+        "5208": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5208",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5208",
+          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5208"
+        ],
         "5308": [
           "Dezena no terceiro prêmio!<br>com o palpite 5308",
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5308",
           "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5308"
         ],
-        "5508": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5508",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5508",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5508"
-        ],
-        "7108": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7108",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7108",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 7108"
-        ],
-        "7308": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7308",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7308",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 7308"
-        ],
-        "7508": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7508",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7508",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 7508"
+        "5408": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5408",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5408",
+          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5408"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
+        "Dezena": 4,
         "Grupo": [
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5108, 5308, 5508, 7108, 7308, 7508"
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -733,38 +757,29 @@
           "Dezena no oitavo prêmio!<br>com o palpite 5108",
           "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5108"
         ],
+        "5208": [
+          "Dezena no oitavo prêmio!<br>com o palpite 5208",
+          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5208"
+        ],
         "5308": [
           "Centena e Dezena no oitavo prêmio!<br>com o palpite 5308",
           "Dezena no oitavo prêmio!<br>com o palpite 5308",
           "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5308"
         ],
-        "5508": [
-          "Dezena no oitavo prêmio!<br>com o palpite 5508",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5508"
-        ],
-        "7108": [
-          "Dezena no oitavo prêmio!<br>com o palpite 7108",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 7108"
-        ],
-        "7308": [
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 7308",
-          "Dezena no oitavo prêmio!<br>com o palpite 7308",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 7308"
-        ],
-        "7508": [
-          "Dezena no oitavo prêmio!<br>com o palpite 7508",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 7508"
+        "5408": [
+          "Dezena no oitavo prêmio!<br>com o palpite 5408",
+          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5408"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 6,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5108, 5308, 5508, 7108, 7308, 7508"
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
     },
     "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
@@ -842,7 +857,85 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5108, 5308, 5508, 7108, 7308, 7508"
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8866",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6652",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0033",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0978",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6687",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "8600",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "8609",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6537",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "6238",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "3200",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 5108, 5208, 5308, 5408"
     }
   }
 }
