@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>77x Brasil - O seu 1 real vale 8 Mil</title>
+    <link rel="stylesheet" href="theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Principal -->
+        <header class="header">
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="/assets/img/logo.png" alt="77x Brasil Logo" class="logo">
+            </div>
+            
+            <!-- Domínio do Site -->
+            <div class="domain-display">
+                <span id="siteDomain">Carregando...</span>
+            </div>
+            
+            <!-- Slogan -->
+            <h1 class="slogan">Na 77x Brasil, o seu 1 real vale 8 Mil.</h1>
+            
+            <!-- Link para Cotações -->
+            <div class="cotacoes-link-container">
+                <a href="#" id="cotacoesLink" class="cotacoes-link">[Clique aqui para ver as cotações]</a>
+            </div>
+            
+            <!-- Botão de Cadastro -->
+            <div class="cadastro-container">
+                <a href="#" id="cadastroBtn" class="btn btn-cadastro">Cadastre-se</a>
+            </div>
+        </header>
+    </div>
+
+    <!-- Modal de Cotações -->
+    <div id="cotacoesModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">💰 Cotações</h2>
+                <button class="close-btn" onclick="closeCotacoesModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="cotacoes-grid">
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">MILHAR</span>
+                        <span class="cotacao-valor">8.000,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">CENTENA</span>
+                        <span class="cotacao-valor">800,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">GRUPO</span>
+                        <span class="cotacao-valor">20,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">DEZENA</span>
+                        <span class="cotacao-valor">80,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">UNIDADE</span>
+                        <span class="cotacao-valor">8,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">DUQUE DE GRUPO (1º AO 2º)</span>
+                        <span class="cotacao-valor">180,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">DUQUE DE GRUPO (1º AO 5º)</span>
+                        <span class="cotacao-valor">18,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">DUQUE DE DEZENA (1º AO 5º)</span>
+                        <span class="cotacao-valor">300,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">TERNO DE GRUPO (1º AO 3º)</span>
+                        <span class="cotacao-valor">1.500,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">TERNO DE GRUPO (1º AO 5º)</span>
+                        <span class="cotacao-valor">150,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">PASSE VAI</span>
+                        <span class="cotacao-valor">90,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">PASSE VAI E VEM</span>
+                        <span class="cotacao-valor">45,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">TERNO DE DEZENA (1º AO 5º)</span>
+                        <span class="cotacao-valor">5.000,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">QUADRA DE GRUPO (1º AO 5º)</span>
+                        <span class="cotacao-valor">1.000,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">QUINA DE GRUPO (1º AO 5º)</span>
+                        <span class="cotacao-valor">1.000,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">SENA DE GRUPO (1º AO 6º)</span>
+                        <span class="cotacao-valor">1.000,00</span>
+                    </div>
+                    <div class="cotacao-item">
+                        <span class="cotacao-modalidade">PALPITÃO</span>
+                        <span class="cotacao-valor">800,00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Detectar domínio automaticamente
+        function updateSiteDomain() {
+            const domain = window.location.hostname;
+            document.getElementById('siteDomain').textContent = domain;
+        }
+
+        // Abrir modal de cotações
+        function openCotacoesModal() {
+            document.getElementById('cotacoesModal').style.display = 'flex';
+            document.body.classList.add('modal-open');
+        }
+
+        // Fechar modal de cotações
+        function closeCotacoesModal() {
+            document.getElementById('cotacoesModal').style.display = 'none';
+            document.body.classList.remove('modal-open');
+        }
+
+        // Configurar link de cadastro
+        function setupCadastroLink() {
+            const domain = window.location.hostname;
+            const storedCode = getStoredProductCode();
+            const code = storedCode || 'PACruTth';
+            const cadastroUrl = `${window.location.protocol}//${domain}/pr/${code}`;
+            document.getElementById('cadastroBtn').href = cadastroUrl;
+        }
+
+        // Inicialização
+        document.addEventListener('DOMContentLoaded', function() {
+            // Capturar parâmetro de URL se existir
+            captureAndStoreUrlParameter();
+            
+            // Atualizar domínio
+            updateSiteDomain();
+            
+            // Configurar link de cadastro
+            setupCadastroLink();
+            
+            // Configurar evento do link de cotações
+            document.getElementById('cotacoesLink').addEventListener('click', function(e) {
+                e.preventDefault();
+                openCotacoesModal();
+            });
+        });
+
+        // Fechar modal ao clicar fora dele
+        window.addEventListener('click', function(event) {
+            const modal = document.getElementById('cotacoesModal');
+            if (event.target === modal) {
+                closeCotacoesModal();
+            }
+        });
+    </script>
+</body>
+</html>
+
