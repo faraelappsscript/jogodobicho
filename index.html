@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>77x Brasil - O seu 1 real vale 8 Mil</title>
+    
+    <!-- Preload e carregamento das fontes locais -->
+    <link rel="preload" href="/assets/fonts/inter.css" as="style">
+    <link rel="stylesheet" href="/assets/fonts/inter.css">
+    <link rel="preload" href="/assets/fonts/jetbrains-mono.css" as="style">
+    <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
+    
+    <!-- CSS do tema -->
+    <link rel="preload" href="/theme.css" as="style">
     <link rel="stylesheet" href="/theme.css">
     
+    <style>
+        /* CSS adicional para garantir que as fontes sejam aplicadas corretamente */
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        
+        /* Aplicar JetBrains Mono para elementos de código, se necessário */
+        code, pre, .monospace {
+            font-family: 'JetBrains Mono', 'Courier New', monospace;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
