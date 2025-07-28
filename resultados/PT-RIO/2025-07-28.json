@@ -1,1 +1,352 @@
-{}
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5677",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3829",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5505",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0864",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1329",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "7204",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "737",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "4962": [
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 4962"
+        ],
+        "4964": [
+          "Dezena no quarto prêmio!<br>com o palpite 4964",
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 4964"
+        ],
+        "4978": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 4978"
+        ],
+        "7962": [
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 7962"
+        ],
+        "7964": [
+          "Dezena no quarto prêmio!<br>com o palpite 7964",
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 7964"
+        ],
+        "7978": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 7978"
+        ],
+        "8962": [
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 8962"
+        ],
+        "8964": [
+          "Dezena no quarto prêmio!<br>com o palpite 8964",
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 8964"
+        ],
+        "8978": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 8978"
+        ],
+        "9962": [
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 9962"
+        ],
+        "9964": [
+          "Dezena no quarto prêmio!<br>com o palpite 9964",
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 9964"
+        ],
+        "9978": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 9978"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 4,
+        "Grupo": [
+          "🦃",
+          "🦁"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 4952, 4954, 4958, 4962, 4964, 4968, 4972, 4974, 4978, 7952, 7954, 7958, 7962, 7964, 7968, 7972, 7974, 7978, 8952, 8954, 8958, 8962, 8964, 8968, 8972, 8974, 8978, 9952, 9954, 9958, 9962, 9964, 9968, 9972, 9974, 9978"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5677",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3829",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5505",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0864",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1329",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "5350",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6858",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "7206",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "7954",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "4572",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        }
+      ],
+      "frases": {
+        "4952": [
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 4952"
+        ],
+        "4954": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 4954",
+          "Dezena no nono prêmio!<br>com o palpite 4954",
+          "GATO 🐈 no nono prêmio!<br>com o palpite 4954"
+        ],
+        "4958": [
+          "Dezena no sétimo prêmio!<br>com o palpite 4958",
+          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 4958"
+        ],
+        "4962": [
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 4962"
+        ],
+        "4964": [
+          "Dezena no quarto prêmio!<br>com o palpite 4964",
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 4964"
+        ],
+        "4972": [
+          "Dezena no décimo prêmio!<br>com o palpite 4972",
+          "PORCO 🐖 no décimo prêmio!<br>com o palpite 4972"
+        ],
+        "4978": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 4978"
+        ],
+        "7952": [
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 7952"
+        ],
+        "7954": [
+          "Milhar e Centena no nono prêmio!<br>com o palpite 7954",
+          "Centena e Dezena no nono prêmio!<br>com o palpite 7954",
+          "Dezena no nono prêmio!<br>com o palpite 7954",
+          "GATO 🐈 no nono prêmio!<br>com o palpite 7954"
+        ],
+        "7958": [
+          "Dezena no sétimo prêmio!<br>com o palpite 7958",
+          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 7958"
+        ],
+        "7962": [
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 7962"
+        ],
+        "7964": [
+          "Dezena no quarto prêmio!<br>com o palpite 7964",
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 7964"
+        ],
+        "7972": [
+          "Dezena no décimo prêmio!<br>com o palpite 7972",
+          "PORCO 🐖 no décimo prêmio!<br>com o palpite 7972"
+        ],
+        "7978": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 7978"
+        ],
+        "8952": [
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 8952"
+        ],
+        "8954": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 8954",
+          "Dezena no nono prêmio!<br>com o palpite 8954",
+          "GATO 🐈 no nono prêmio!<br>com o palpite 8954"
+        ],
+        "8958": [
+          "Dezena no sétimo prêmio!<br>com o palpite 8958",
+          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 8958"
+        ],
+        "8962": [
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 8962"
+        ],
+        "8964": [
+          "Dezena no quarto prêmio!<br>com o palpite 8964",
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 8964"
+        ],
+        "8972": [
+          "Dezena no décimo prêmio!<br>com o palpite 8972",
+          "PORCO 🐖 no décimo prêmio!<br>com o palpite 8972"
+        ],
+        "8978": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 8978"
+        ],
+        "9952": [
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 9952"
+        ],
+        "9954": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 9954",
+          "Dezena no nono prêmio!<br>com o palpite 9954",
+          "GATO 🐈 no nono prêmio!<br>com o palpite 9954"
+        ],
+        "9958": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9958",
+          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 9958"
+        ],
+        "9962": [
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 9962"
+        ],
+        "9964": [
+          "Dezena no quarto prêmio!<br>com o palpite 9964",
+          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 9964"
+        ],
+        "9972": [
+          "Dezena no décimo prêmio!<br>com o palpite 9972",
+          "PORCO 🐖 no décimo prêmio!<br>com o palpite 9972"
+        ],
+        "9978": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 9978"
+        ]
+      },
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 16,
+        "Grupo": [
+          "🦃",
+          "🦁",
+          "🐓",
+          "🐊",
+          "🐈",
+          "🐖"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 4952, 4954, 4958, 4962, 4964, 4968, 4972, 4974, 4978, 7952, 7954, 7958, 7962, 7964, 7968, 7972, 7974, 7978, 8952, 8954, 8958, 8962, 8964, 8968, 8972, 8974, 8978, 9952, 9954, 9958, 9962, 9964, 9968, 9972, 9974, 9978"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
