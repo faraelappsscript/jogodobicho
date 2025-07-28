@@ -51,14 +51,41 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "3404": [
+          "Dezena no sexto prêmio!<br>com o palpite 3404",
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 3404"
+        ],
+        "3504": [
+          "Dezena no sexto prêmio!<br>com o palpite 3504",
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 3504"
+        ],
+        "3704": [
+          "Dezena no sexto prêmio!<br>com o palpite 3704",
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 3704"
+        ],
+        "8404": [
+          "Dezena no sexto prêmio!<br>com o palpite 8404",
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 8404"
+        ],
+        "8504": [
+          "Dezena no sexto prêmio!<br>com o palpite 8504",
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 8504"
+        ],
+        "8704": [
+          "Dezena no sexto prêmio!<br>com o palpite 8704",
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 8704"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 6,
+        "Grupo": [
+          "🪶"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3594"
+      "resumo": "Palpites dados para esta extração: 3404, 3414, 3424, 3444, 3494, 3504, 3514, 3524, 3544, 3594, 3704, 3714, 3724, 3744, 3794, 8404, 8414, 8424, 8444, 8494, 8504, 8514, 8524, 8544, 8594, 8704, 8714, 8724, 8744, 8794"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,14 +138,81 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "3404": [
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 3404"
+        ],
+        "3414": [
+          "Dezena no quarto prêmio!<br>com o palpite 3414",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 3414"
+        ],
+        "3424": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 3424"
+        ],
+        "3504": [
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 3504"
+        ],
+        "3514": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 3514",
+          "Dezena no quarto prêmio!<br>com o palpite 3514",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 3514"
+        ],
+        "3524": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 3524"
+        ],
+        "3704": [
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 3704"
+        ],
+        "3714": [
+          "Dezena no quarto prêmio!<br>com o palpite 3714",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 3714"
+        ],
+        "3724": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 3724"
+        ],
+        "8404": [
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 8404"
+        ],
+        "8414": [
+          "Dezena no quarto prêmio!<br>com o palpite 8414",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 8414"
+        ],
+        "8424": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 8424"
+        ],
+        "8504": [
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 8504"
+        ],
+        "8514": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 8514",
+          "Dezena no quarto prêmio!<br>com o palpite 8514",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 8514"
+        ],
+        "8524": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 8524"
+        ],
+        "8704": [
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 8704"
+        ],
+        "8714": [
+          "Dezena no quarto prêmio!<br>com o palpite 8714",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 8714"
+        ],
+        "8724": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 8724"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 2,
+        "Dezena": 6,
+        "Grupo": [
+          "🐐",
+          "🦋",
+          "🪶"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3594"
+      "resumo": "Palpites dados para esta extração: 3404, 3414, 3424, 3444, 3494, 3504, 3514, 3524, 3544, 3594, 3704, 3714, 3724, 3744, 3794, 8404, 8414, 8424, 8444, 8494, 8504, 8514, 8524, 8544, 8594, 8704, 8714, 8724, 8744, 8794"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -171,14 +265,60 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "3404": [
+          "Dezena no quarto prêmio!<br>com o palpite 3404",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 3404"
+        ],
+        "3444": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3444"
+        ],
+        "3504": [
+          "Dezena no quarto prêmio!<br>com o palpite 3504",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 3504"
+        ],
+        "3544": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3544"
+        ],
+        "3704": [
+          "Dezena no quarto prêmio!<br>com o palpite 3704",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 3704"
+        ],
+        "3744": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3744"
+        ],
+        "8404": [
+          "Dezena no quarto prêmio!<br>com o palpite 8404",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 8404"
+        ],
+        "8444": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8444"
+        ],
+        "8504": [
+          "Dezena no quarto prêmio!<br>com o palpite 8504",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 8504"
+        ],
+        "8544": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8544"
+        ],
+        "8704": [
+          "Dezena no quarto prêmio!<br>com o palpite 8704",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 8704"
+        ],
+        "8744": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8744"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 6,
+        "Grupo": [
+          "🐎",
+          "🪶"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3594"
+      "resumo": "Palpites dados para esta extração: 3404, 3414, 3424, 3444, 3494, 3504, 3514, 3524, 3544, 3594, 3704, 3714, 3724, 3744, 3794, 8404, 8414, 8424, 8444, 8494, 8504, 8514, 8524, 8544, 8594, 8704, 8714, 8724, 8744, 8794"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -281,7 +421,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3594"
+      "resumo": "Palpites dados para esta extração: 3404, 3414, 3424, 3444, 3494, 3504, 3514, 3524, 3544, 3594, 3704, 3714, 3724, 3744, 3794, 8404, 8414, 8424, 8444, 8494, 8504, 8514, 8524, 8544, 8594, 8704, 8714, 8724, 8744, 8794"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -352,14 +492,90 @@
           "Bicho": "Cachorro"
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "3404": [
+          "Dezena no nono prêmio!<br>com o palpite 3404",
+          "AVESTRUZ 🪶 no nono prêmio!<br>com o palpite 3404"
+        ],
+        "3414": [
+          "Dezena no quarto prêmio!<br>com o palpite 3414",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 3414"
+        ],
+        "3424": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 3424"
+        ],
+        "3504": [
+          "Dezena no nono prêmio!<br>com o palpite 3504",
+          "AVESTRUZ 🪶 no nono prêmio!<br>com o palpite 3504"
+        ],
+        "3514": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 3514",
+          "Dezena no quarto prêmio!<br>com o palpite 3514",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 3514"
+        ],
+        "3524": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 3524"
+        ],
+        "3704": [
+          "Milhar e Centena no nono prêmio!<br>com o palpite 3704",
+          "Centena e Dezena no nono prêmio!<br>com o palpite 3704",
+          "Dezena no nono prêmio!<br>com o palpite 3704",
+          "AVESTRUZ 🪶 no nono prêmio!<br>com o palpite 3704"
+        ],
+        "3714": [
+          "Dezena no quarto prêmio!<br>com o palpite 3714",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 3714"
+        ],
+        "3724": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 3724"
+        ],
+        "8404": [
+          "Dezena no nono prêmio!<br>com o palpite 8404",
+          "AVESTRUZ 🪶 no nono prêmio!<br>com o palpite 8404"
+        ],
+        "8414": [
+          "Dezena no quarto prêmio!<br>com o palpite 8414",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 8414"
+        ],
+        "8424": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 8424"
+        ],
+        "8504": [
+          "Dezena no nono prêmio!<br>com o palpite 8504",
+          "AVESTRUZ 🪶 no nono prêmio!<br>com o palpite 8504"
+        ],
+        "8514": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 8514",
+          "Dezena no quarto prêmio!<br>com o palpite 8514",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 8514"
+        ],
+        "8524": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 8524"
+        ],
+        "8704": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 8704",
+          "Dezena no nono prêmio!<br>com o palpite 8704",
+          "AVESTRUZ 🪶 no nono prêmio!<br>com o palpite 8704"
+        ],
+        "8714": [
+          "Dezena no quarto prêmio!<br>com o palpite 8714",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 8714"
+        ],
+        "8724": [
+          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 8724"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3594"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 12,
+        "Grupo": [
+          "🐐",
+          "🦋",
+          "🪶"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 3404, 3414, 3424, 3444, 3494, 3504, 3514, 3524, 3544, 3594, 3704, 3714, 3724, 3744, 3794, 8404, 8414, 8424, 8444, 8494, 8504, 8514, 8524, 8544, 8594, 8704, 8714, 8724, 8744, 8794"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -430,14 +646,93 @@
           "Bicho": "Borboleta"
         }
       ],
-      "frases": {},
+      "frases": {
+        "3404": [
+          "Dezena no quarto prêmio!<br>com o palpite 3404",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 3404"
+        ],
+        "3414": [
+          "Dezena no nono prêmio!<br>com o palpite 3414",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3414",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3414"
+        ],
+        "3444": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3444"
+        ],
+        "3504": [
+          "Dezena no quarto prêmio!<br>com o palpite 3504",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 3504"
+        ],
+        "3514": [
+          "Dezena no nono prêmio!<br>com o palpite 3514",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3514",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3514"
+        ],
+        "3544": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3544"
+        ],
+        "3704": [
+          "Dezena no quarto prêmio!<br>com o palpite 3704",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 3704"
+        ],
+        "3714": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 3714",
+          "Dezena no nono prêmio!<br>com o palpite 3714",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3714",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3714"
+        ],
+        "3744": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3744"
+        ],
+        "8404": [
+          "Dezena no quarto prêmio!<br>com o palpite 8404",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 8404"
+        ],
+        "8414": [
+          "Dezena no nono prêmio!<br>com o palpite 8414",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 8414",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 8414"
+        ],
+        "8444": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8444"
+        ],
+        "8504": [
+          "Dezena no quarto prêmio!<br>com o palpite 8504",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 8504"
+        ],
+        "8514": [
+          "Dezena no nono prêmio!<br>com o palpite 8514",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 8514",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 8514"
+        ],
+        "8544": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8544"
+        ],
+        "8704": [
+          "Dezena no quarto prêmio!<br>com o palpite 8704",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 8704"
+        ],
+        "8714": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 8714",
+          "Dezena no nono prêmio!<br>com o palpite 8714",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 8714",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 8714"
+        ],
+        "8744": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8744"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 2,
+        "Dezena": 12,
+        "Grupo": [
+          "🐎",
+          "🪶",
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3594"
+      "resumo": "Palpites dados para esta extração: 3404, 3414, 3424, 3444, 3494, 3504, 3514, 3524, 3544, 3594, 3704, 3714, 3724, 3744, 3794, 8404, 8414, 8424, 8444, 8494, 8504, 8514, 8524, 8544, 8594, 8704, 8714, 8724, 8744, 8794"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
