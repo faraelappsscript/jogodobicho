@@ -138,37 +138,39 @@
         </div>
     </div>
 
+    <script defer src="/assets/js/flatpickr.js"></script>
+    <script defer src="/assets/js/flatpickr.pt.js"></script>
     <script src="/resultados/script.js"></script>
     <script>
         // Detectar domínio automaticamente
         function updateSiteDomain() {
             const domain = window.location.hostname;
-            document.getElementById('siteDomain').textContent = domain;
+            document.getElementById("siteDomain").textContent = domain;
         }
 
         // Abrir modal de cotações
         function openCotacoesModal() {
-            document.getElementById('cotacoesModal').style.display = 'flex';
-            document.body.classList.add('modal-open');
+            document.getElementById("cotacoesModal").style.display = "flex";
+            document.body.classList.add("modal-open");
         }
 
         // Fechar modal de cotações
         function closeCotacoesModal() {
-            document.getElementById('cotacoesModal').style.display = 'none';
-            document.body.classList.remove('modal-open');
+            document.getElementById("cotacoesModal").style.display = "none";
+            document.body.classList.remove("modal-open");
         }
 
         // Configurar link de cadastro
         function setupCadastroLink() {
             const domain = window.location.hostname;
             const storedCode = getStoredProductCode();
-            const code = storedCode || 'PACruTth';
+            const code = storedCode || "PACruTth";
             const cadastroUrl = `${window.location.protocol}//${domain}/pr/${code}`;
-            document.getElementById('cadastroBtn').href = cadastroUrl;
+            document.getElementById("cadastroBtn").href = cadastroUrl;
         }
 
         // Inicialização
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener("DOMContentLoaded", function() {
             // Capturar parâmetro de URL se existir
             captureAndStoreUrlParameter();
             
@@ -179,15 +181,15 @@
             setupCadastroLink();
             
             // Configurar evento do link de cotações
-            document.getElementById('cotacoesLink').addEventListener('click', function(e) {
+            document.getElementById("cotacoesLink").addEventListener("click", function(e) {
                 e.preventDefault();
                 openCotacoesModal();
             });
         });
 
         // Fechar modal ao clicar fora dele
-        window.addEventListener('click', function(event) {
-            const modal = document.getElementById('cotacoesModal');
+        window.addEventListener("click", function(event) {
+            const modal = document.getElementById("cotacoesModal");
             if (event.target === modal) {
                 closeCotacoesModal();
             }
