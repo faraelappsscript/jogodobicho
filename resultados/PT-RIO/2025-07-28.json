@@ -52,29 +52,17 @@
         }
       ],
       "frases": {
+        "1140": [
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 1140"
+        ],
         "2140": [
           "COELHO 🐇 no sétimo prêmio!<br>com o palpite 2140"
-        ],
-        "2178": [
-          "PERU 🦃 no primeiro prêmio!<br>com o palpite 2178"
         ],
         "3140": [
           "COELHO 🐇 no sétimo prêmio!<br>com o palpite 3140"
         ],
-        "3178": [
-          "PERU 🦃 no primeiro prêmio!<br>com o palpite 3178"
-        ],
-        "8140": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 8140"
-        ],
-        "8178": [
-          "PERU 🦃 no primeiro prêmio!<br>com o palpite 8178"
-        ],
         "9140": [
           "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9140"
-        ],
-        "9178": [
-          "PERU 🦃 no primeiro prêmio!<br>com o palpite 9178"
         ]
       },
       "acertos": {
@@ -82,11 +70,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🦃",
           "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2140, 2141, 2144, 2148, 2170, 2171, 2174, 2178, 3140, 3141, 3144, 3148, 3170, 3171, 3174, 3178, 8140, 8141, 8144, 8148, 8170, 8171, 8174, 8178, 9140, 9141, 9144, 9148, 9170, 9171, 9174, 9178"
+      "resumo": "Palpites dados para esta extração: 1140, 1170, 2140, 2170, 3140, 3170, 9140, 9170"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -139,29 +126,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "2148": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 2148"
-        ],
-        "3148": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 3148"
-        ],
-        "8148": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 8148"
-        ],
-        "9148": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 9148"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐘"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 2140, 2141, 2144, 2148, 2170, 2171, 2174, 2178, 3140, 3141, 3144, 3148, 3170, 3171, 3174, 3178, 8140, 8141, 8144, 8148, 8170, 8171, 8174, 8178, 9140, 9141, 9144, 9148, 9170, 9171, 9174, 9178"
+      "resumo": "Palpites dados para esta extração: 1140, 1170, 2140, 2170, 3140, 3170, 9140, 9170"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -215,69 +187,28 @@
         }
       ],
       "frases": {
-        "2141": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2141",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 2141"
-        ],
-        "2144": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 2144"
+        "1170": [
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 1170"
         ],
         "2170": [
           "PORCO 🐖 no sétimo prêmio!<br>com o palpite 2170"
         ],
-        "2171": [
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 2171"
-        ],
-        "3141": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3141",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3141"
-        ],
-        "3144": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3144"
-        ],
         "3170": [
           "PORCO 🐖 no sétimo prêmio!<br>com o palpite 3170"
         ],
-        "3171": [
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 3171"
-        ],
-        "8141": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8141",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8141"
-        ],
-        "8144": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8144"
-        ],
-        "8170": [
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 8170"
-        ],
-        "8171": [
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 8171"
-        ],
-        "9141": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9141",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9141"
-        ],
-        "9144": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9144"
-        ],
         "9170": [
           "PORCO 🐖 no sétimo prêmio!<br>com o palpite 9170"
-        ],
-        "9171": [
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 9171"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 4,
+        "Dezena": 0,
         "Grupo": [
-          "🐎",
           "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2140, 2141, 2144, 2148, 2170, 2171, 2174, 2178, 3140, 3141, 3144, 3148, 3170, 3171, 3174, 3178, 8140, 8141, 8144, 8148, 8170, 8171, 8174, 8178, 9140, 9141, 9144, 9148, 9170, 9171, 9174, 9178"
+      "resumo": "Palpites dados para esta extração: 1140, 1170, 2140, 2170, 3140, 3170, 9140, 9170"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -331,76 +262,37 @@
         }
       ],
       "frases": {
+        "1140": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 1140",
+          "Dezena no segundo prêmio!<br>com o palpite 1140",
+          "COELHO 🐇 no segundo prêmio!<br>com o palpite 1140"
+        ],
         "2140": [
           "Centena e Dezena no segundo prêmio!<br>com o palpite 2140",
           "Dezena no segundo prêmio!<br>com o palpite 2140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 2140"
-        ],
-        "2174": [
-          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 2174"
-        ],
-        "2178": [
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 2178",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 2178",
-          "Dezena no quarto prêmio!<br>com o palpite 2178",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 2178",
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 2178"
         ],
         "3140": [
           "Centena e Dezena no segundo prêmio!<br>com o palpite 3140",
           "Dezena no segundo prêmio!<br>com o palpite 3140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 3140"
         ],
-        "3174": [
-          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 3174"
-        ],
-        "3178": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3178",
-          "Dezena no quarto prêmio!<br>com o palpite 3178",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 3178",
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 3178"
-        ],
-        "8140": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 8140",
-          "Dezena no segundo prêmio!<br>com o palpite 8140",
-          "COELHO 🐇 no segundo prêmio!<br>com o palpite 8140"
-        ],
-        "8174": [
-          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 8174"
-        ],
-        "8178": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 8178",
-          "Dezena no quarto prêmio!<br>com o palpite 8178",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 8178",
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 8178"
-        ],
         "9140": [
           "Milhar e Centena no segundo prêmio!<br>com o palpite 9140",
           "Centena e Dezena no segundo prêmio!<br>com o palpite 9140",
           "Dezena no segundo prêmio!<br>com o palpite 9140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 9140"
-        ],
-        "9174": [
-          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 9174"
-        ],
-        "9178": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 9178",
-          "Dezena no quarto prêmio!<br>com o palpite 9178",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 9178",
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 9178"
         ]
       },
       "acertos": {
-        "Milhar": 2,
-        "Centena": 8,
-        "Dezena": 8,
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 4,
         "Grupo": [
-          "🐇",
-          "🦚",
-          "🦃"
+          "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2140, 2141, 2144, 2148, 2170, 2171, 2174, 2178, 3140, 3141, 3144, 3148, 3170, 3171, 3174, 3178, 8140, 8141, 8144, 8148, 8170, 8171, 8174, 8178, 9140, 9141, 9144, 9148, 9170, 9171, 9174, 9178"
+      "resumo": "Palpites dados para esta extração: 1140, 1170, 2140, 2170, 3140, 3170, 9140, 9170"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -454,74 +346,32 @@
         }
       ],
       "frases": {
+        "1140": [
+          "Dezena no segundo prêmio!<br>com o palpite 1140",
+          "COELHO 🐇 no segundo prêmio!<br>com o palpite 1140"
+        ],
         "2140": [
           "Dezena no segundo prêmio!<br>com o palpite 2140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 2140"
-        ],
-        "2141": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 2141"
-        ],
-        "2144": [
-          "Dezena no quinto prêmio!<br>com o palpite 2144",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 2144"
-        ],
-        "2178": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 2178"
         ],
         "3140": [
           "Dezena no segundo prêmio!<br>com o palpite 3140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 3140"
         ],
-        "3141": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3141"
-        ],
-        "3144": [
-          "Dezena no quinto prêmio!<br>com o palpite 3144",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3144"
-        ],
-        "3178": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3178"
-        ],
-        "8140": [
-          "Dezena no segundo prêmio!<br>com o palpite 8140",
-          "COELHO 🐇 no segundo prêmio!<br>com o palpite 8140"
-        ],
-        "8141": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 8141"
-        ],
-        "8144": [
-          "Dezena no quinto prêmio!<br>com o palpite 8144",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 8144"
-        ],
-        "8178": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 8178"
-        ],
         "9140": [
           "Dezena no segundo prêmio!<br>com o palpite 9140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 9140"
-        ],
-        "9141": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 9141"
-        ],
-        "9144": [
-          "Dezena no quinto prêmio!<br>com o palpite 9144",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 9144"
-        ],
-        "9178": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 9178"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 8,
+        "Dezena": 4,
         "Grupo": [
-          "🐇",
-          "🦃",
-          "🐎"
+          "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2140, 2141, 2144, 2148, 2170, 2171, 2174, 2178, 3140, 3141, 3144, 3148, 3170, 3171, 3174, 3178, 8140, 8141, 8144, 8148, 8170, 8171, 8174, 8178, 9140, 9141, 9144, 9148, 9170, 9171, 9174, 9178"
+      "resumo": "Palpites dados para esta extração: 1140, 1170, 2140, 2170, 3140, 3170, 9140, 9170"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -618,41 +468,17 @@
         }
       ],
       "frases": {
+        "1170": [
+          "PORCO 🐖 no décimo prêmio!<br>com o palpite 1170"
+        ],
         "2170": [
           "PORCO 🐖 no décimo prêmio!<br>com o palpite 2170"
-        ],
-        "2171": [
-          "PORCO 🐖 no décimo prêmio!<br>com o palpite 2171"
-        ],
-        "2178": [
-          "PERU 🦃 no primeiro prêmio!<br>com o palpite 2178"
         ],
         "3170": [
           "PORCO 🐖 no décimo prêmio!<br>com o palpite 3170"
         ],
-        "3171": [
-          "PORCO 🐖 no décimo prêmio!<br>com o palpite 3171"
-        ],
-        "3178": [
-          "PERU 🦃 no primeiro prêmio!<br>com o palpite 3178"
-        ],
-        "8170": [
-          "PORCO 🐖 no décimo prêmio!<br>com o palpite 8170"
-        ],
-        "8171": [
-          "PORCO 🐖 no décimo prêmio!<br>com o palpite 8171"
-        ],
-        "8178": [
-          "PERU 🦃 no primeiro prêmio!<br>com o palpite 8178"
-        ],
         "9170": [
           "PORCO 🐖 no décimo prêmio!<br>com o palpite 9170"
-        ],
-        "9171": [
-          "PORCO 🐖 no décimo prêmio!<br>com o palpite 9171"
-        ],
-        "9178": [
-          "PERU 🦃 no primeiro prêmio!<br>com o palpite 9178"
         ]
       },
       "acertos": {
@@ -660,11 +486,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🦃",
           "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2140, 2141, 2144, 2148, 2170, 2171, 2174, 2178, 3140, 3141, 3144, 3148, 3170, 3171, 3174, 3178, 8140, 8141, 8144, 8148, 8170, 8171, 8174, 8178, 9140, 9141, 9144, 9148, 9170, 9171, 9174, 9178"
+      "resumo": "Palpites dados para esta extração: 1140, 1170, 2140, 2170, 3140, 3170, 9140, 9170"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -735,42 +560,14 @@
           "Bicho": "Cachorro"
         }
       ],
-      "frases": {
-        "2148": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 2148"
-        ],
-        "2174": [
-          "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 2174"
-        ],
-        "3148": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 3148"
-        ],
-        "3174": [
-          "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 3174"
-        ],
-        "8148": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 8148"
-        ],
-        "8174": [
-          "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 8174"
-        ],
-        "9148": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 9148"
-        ],
-        "9174": [
-          "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 9174"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐘",
-          "🦚"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 2140, 2141, 2144, 2148, 2170, 2171, 2174, 2178, 3140, 3141, 3144, 3148, 3170, 3171, 3174, 3178, 8140, 8141, 8144, 8148, 8170, 8171, 8174, 8178, 9140, 9141, 9144, 9148, 9170, 9171, 9174, 9178"
+      "resumo": "Palpites dados para esta extração: 1140, 1170, 2140, 2170, 3140, 3170, 9140, 9170"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -842,82 +639,32 @@
         }
       ],
       "frases": {
+        "1140": [
+          "Dezena no oitavo prêmio!<br>com o palpite 1140",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 1140"
+        ],
         "2140": [
           "Dezena no oitavo prêmio!<br>com o palpite 2140",
           "COELHO 🐇 no oitavo prêmio!<br>com o palpite 2140"
-        ],
-        "2141": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2141",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 2141"
-        ],
-        "2144": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 2144"
-        ],
-        "2178": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 2178",
-          "Dezena no sétimo prêmio!<br>com o palpite 2178",
-          "PERU 🦃 no sétimo prêmio!<br>com o palpite 2178"
         ],
         "3140": [
           "Dezena no oitavo prêmio!<br>com o palpite 3140",
           "COELHO 🐇 no oitavo prêmio!<br>com o palpite 3140"
         ],
-        "3141": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3141",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3141"
-        ],
-        "3144": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3144"
-        ],
-        "3178": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 3178",
-          "Dezena no sétimo prêmio!<br>com o palpite 3178",
-          "PERU 🦃 no sétimo prêmio!<br>com o palpite 3178"
-        ],
-        "8140": [
-          "Dezena no oitavo prêmio!<br>com o palpite 8140",
-          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 8140"
-        ],
-        "8141": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8141",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8141"
-        ],
-        "8144": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8144"
-        ],
-        "8178": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 8178",
-          "Dezena no sétimo prêmio!<br>com o palpite 8178",
-          "PERU 🦃 no sétimo prêmio!<br>com o palpite 8178"
-        ],
         "9140": [
           "Dezena no oitavo prêmio!<br>com o palpite 9140",
           "COELHO 🐇 no oitavo prêmio!<br>com o palpite 9140"
-        ],
-        "9141": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9141",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9141"
-        ],
-        "9144": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9144"
-        ],
-        "9178": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 9178",
-          "Dezena no sétimo prêmio!<br>com o palpite 9178",
-          "PERU 🦃 no sétimo prêmio!<br>com o palpite 9178"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 4,
-        "Dezena": 12,
+        "Centena": 0,
+        "Dezena": 4,
         "Grupo": [
-          "🐎",
-          "🦃",
           "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2140, 2141, 2144, 2148, 2170, 2171, 2174, 2178, 3140, 3141, 3144, 3148, 3170, 3171, 3174, 3178, 8140, 8141, 8144, 8148, 8170, 8171, 8174, 8178, 9140, 9141, 9144, 9148, 9170, 9171, 9174, 9178"
+      "resumo": "Palpites dados para esta extração: 1140, 1170, 2140, 2170, 3140, 3170, 9140, 9170"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -989,110 +736,37 @@
         }
       ],
       "frases": {
+        "1140": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 1140",
+          "Dezena no segundo prêmio!<br>com o palpite 1140",
+          "COELHO 🐇 no segundo prêmio!<br>com o palpite 1140"
+        ],
         "2140": [
           "Centena e Dezena no segundo prêmio!<br>com o palpite 2140",
           "Dezena no segundo prêmio!<br>com o palpite 2140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 2140"
-        ],
-        "2141": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 2141",
-          "Dezena no sétimo prêmio!<br>com o palpite 2141",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 2141"
-        ],
-        "2144": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 2144"
-        ],
-        "2174": [
-          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 2174"
-        ],
-        "2178": [
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 2178",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 2178",
-          "Dezena no quarto prêmio!<br>com o palpite 2178",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 2178",
-          "PERU 🦃 no oitavo prêmio!<br>com o palpite 2178"
         ],
         "3140": [
           "Centena e Dezena no segundo prêmio!<br>com o palpite 3140",
           "Dezena no segundo prêmio!<br>com o palpite 3140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 3140"
         ],
-        "3141": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 3141",
-          "Dezena no sétimo prêmio!<br>com o palpite 3141",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 3141"
-        ],
-        "3144": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 3144"
-        ],
-        "3174": [
-          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 3174"
-        ],
-        "3178": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3178",
-          "Dezena no quarto prêmio!<br>com o palpite 3178",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 3178",
-          "PERU 🦃 no oitavo prêmio!<br>com o palpite 3178"
-        ],
-        "8140": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 8140",
-          "Dezena no segundo prêmio!<br>com o palpite 8140",
-          "COELHO 🐇 no segundo prêmio!<br>com o palpite 8140"
-        ],
-        "8141": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 8141",
-          "Dezena no sétimo prêmio!<br>com o palpite 8141",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 8141"
-        ],
-        "8144": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 8144"
-        ],
-        "8174": [
-          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 8174"
-        ],
-        "8178": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 8178",
-          "Dezena no quarto prêmio!<br>com o palpite 8178",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 8178",
-          "PERU 🦃 no oitavo prêmio!<br>com o palpite 8178"
-        ],
         "9140": [
           "Milhar e Centena no segundo prêmio!<br>com o palpite 9140",
           "Centena e Dezena no segundo prêmio!<br>com o palpite 9140",
           "Dezena no segundo prêmio!<br>com o palpite 9140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 9140"
-        ],
-        "9141": [
-          "Milhar e Centena no sétimo prêmio!<br>com o palpite 9141",
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 9141",
-          "Dezena no sétimo prêmio!<br>com o palpite 9141",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 9141"
-        ],
-        "9144": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 9144"
-        ],
-        "9174": [
-          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 9174"
-        ],
-        "9178": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 9178",
-          "Dezena no quarto prêmio!<br>com o palpite 9178",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 9178",
-          "PERU 🦃 no oitavo prêmio!<br>com o palpite 9178"
         ]
       },
       "acertos": {
-        "Milhar": 3,
-        "Centena": 12,
-        "Dezena": 12,
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 4,
         "Grupo": [
-          "🐇",
-          "🦚",
-          "🦃",
-          "🐎"
+          "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2140, 2141, 2144, 2148, 2170, 2171, 2174, 2178, 3140, 3141, 3144, 3148, 3170, 3171, 3174, 3178, 8140, 8141, 8144, 8148, 8170, 8171, 8174, 8178, 9140, 9141, 9144, 9148, 9170, 9171, 9174, 9178"
+      "resumo": "Palpites dados para esta extração: 1140, 1170, 2140, 2170, 3140, 3170, 9140, 9170"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -1164,19 +838,19 @@
         }
       ],
       "frases": {
+        "1140": [
+          "Dezena no segundo prêmio!<br>com o palpite 1140",
+          "COELHO 🐇 no segundo prêmio!<br>com o palpite 1140"
+        ],
+        "1170": [
+          "Dezena no oitavo prêmio!<br>com o palpite 1170",
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 1170",
+          "Dezena no nono prêmio!<br>com o palpite 1170",
+          "PORCO 🐖 no nono prêmio!<br>com o palpite 1170"
+        ],
         "2140": [
           "Dezena no segundo prêmio!<br>com o palpite 2140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 2140"
-        ],
-        "2141": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 2141"
-        ],
-        "2144": [
-          "Dezena no quinto prêmio!<br>com o palpite 2144",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 2144"
-        ],
-        "2148": [
-          "ELEFANTE 🐘 no décimo prêmio!<br>com o palpite 2148"
         ],
         "2170": [
           "Dezena no oitavo prêmio!<br>com o palpite 2170",
@@ -1184,26 +858,9 @@
           "Dezena no nono prêmio!<br>com o palpite 2170",
           "PORCO 🐖 no nono prêmio!<br>com o palpite 2170"
         ],
-        "2171": [
-          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 2171",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 2171"
-        ],
-        "2178": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 2178"
-        ],
         "3140": [
           "Dezena no segundo prêmio!<br>com o palpite 3140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 3140"
-        ],
-        "3141": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3141"
-        ],
-        "3144": [
-          "Dezena no quinto prêmio!<br>com o palpite 3144",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3144"
-        ],
-        "3148": [
-          "ELEFANTE 🐘 no décimo prêmio!<br>com o palpite 3148"
         ],
         "3170": [
           "Dezena no oitavo prêmio!<br>com o palpite 3170",
@@ -1211,81 +868,27 @@
           "Dezena no nono prêmio!<br>com o palpite 3170",
           "PORCO 🐖 no nono prêmio!<br>com o palpite 3170"
         ],
-        "3171": [
-          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 3171",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 3171"
-        ],
-        "3178": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3178"
-        ],
-        "8140": [
-          "Dezena no segundo prêmio!<br>com o palpite 8140",
-          "COELHO 🐇 no segundo prêmio!<br>com o palpite 8140"
-        ],
-        "8141": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 8141"
-        ],
-        "8144": [
-          "Dezena no quinto prêmio!<br>com o palpite 8144",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 8144"
-        ],
-        "8148": [
-          "ELEFANTE 🐘 no décimo prêmio!<br>com o palpite 8148"
-        ],
-        "8170": [
-          "Dezena no oitavo prêmio!<br>com o palpite 8170",
-          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 8170",
-          "Dezena no nono prêmio!<br>com o palpite 8170",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 8170"
-        ],
-        "8171": [
-          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 8171",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 8171"
-        ],
-        "8178": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 8178"
-        ],
         "9140": [
           "Dezena no segundo prêmio!<br>com o palpite 9140",
           "COELHO 🐇 no segundo prêmio!<br>com o palpite 9140"
-        ],
-        "9141": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 9141"
-        ],
-        "9144": [
-          "Dezena no quinto prêmio!<br>com o palpite 9144",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 9144"
-        ],
-        "9148": [
-          "ELEFANTE 🐘 no décimo prêmio!<br>com o palpite 9148"
         ],
         "9170": [
           "Dezena no oitavo prêmio!<br>com o palpite 9170",
           "PORCO 🐖 no oitavo prêmio!<br>com o palpite 9170",
           "Dezena no nono prêmio!<br>com o palpite 9170",
           "PORCO 🐖 no nono prêmio!<br>com o palpite 9170"
-        ],
-        "9171": [
-          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 9171",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 9171"
-        ],
-        "9178": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 9178"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 16,
+        "Dezena": 12,
         "Grupo": [
           "🐇",
-          "🦃",
-          "🐎",
-          "🐖",
-          "🐘"
+          "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2140, 2141, 2144, 2148, 2170, 2171, 2174, 2178, 3140, 3141, 3144, 3148, 3170, 3171, 3174, 3178, 8140, 8141, 8144, 8148, 8170, 8171, 8174, 8178, 9140, 9141, 9144, 9148, 9170, 9171, 9174, 9178"
+      "resumo": "Palpites dados para esta extração: 1140, 1170, 2140, 2170, 3140, 3170, 9140, 9170"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
