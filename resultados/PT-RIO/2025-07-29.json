@@ -1,1 +1,255 @@
-{}
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7886",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4069",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8855",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9930",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "8657",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "9397",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "088",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "1070": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 1070"
+        ],
+        "1570": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 1570"
+        ],
+        "1770": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 1770"
+        ],
+        "7070": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 7070"
+        ],
+        "7570": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 7570"
+        ],
+        "7770": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 7770"
+        ],
+        "0070": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 0070"
+        ],
+        "0570": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 0570"
+        ],
+        "0770": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 0770"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐖"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0010, 0016, 0040, 0046, 0070, 0076, 0510, 0516, 0540, 0546, 0570, 0576, 0710, 0716, 0740, 0746, 0770, 0776, 1010, 1016, 1040, 1046, 1070, 1076, 1510, 1516, 1540, 1546, 1570, 1576, 1710, 1716, 1740, 1746, 1770, 1776, 7010, 7016, 7040, 7046, 7070, 7076, 7510, 7516, 7540, 7546, 7570, 7576, 7710, 7716, 7740, 7746, 7770, 7776"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7886",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4069",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8855",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9930",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "8657",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7489",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "8089",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "8653",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "6950",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "0578",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        }
+      ],
+      "frases": {
+        "1070": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 1070"
+        ],
+        "1570": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 1570"
+        ],
+        "1770": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 1770"
+        ],
+        "7070": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 7070"
+        ],
+        "7570": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 7570"
+        ],
+        "7770": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 7770"
+        ],
+        "0070": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 0070"
+        ],
+        "0570": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 0570"
+        ],
+        "0770": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 0770"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐖"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0010, 0016, 0040, 0046, 0070, 0076, 0510, 0516, 0540, 0546, 0570, 0576, 0710, 0716, 0740, 0746, 0770, 0776, 1010, 1016, 1040, 1046, 1070, 1076, 1510, 1516, 1540, 1546, 1570, 1576, 1710, 1716, 1740, 1746, 1770, 1776, 7010, 7016, 7040, 7046, 7070, 7076, 7510, 7516, 7540, 7546, 7570, 7576, 7710, 7716, 7740, 7746, 7770, 7776"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
