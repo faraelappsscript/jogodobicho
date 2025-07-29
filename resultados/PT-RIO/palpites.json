@@ -1,9 +1,22 @@
 {
-  "frase_1-5": "Palpites para a próxima extração (PT-RIO, RJ, 18:20, PTN):",
-  "frase_1-10": "Palpites para a próxima extração (PT-RIO, RJ, 18:20, PTN do 1º ao 10º):",
+  "frase_1-10": "Palpites para a próxima extração (PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º):",
   "palpites": [
+    "1808",
+    "1848",
+    "1868",
+    "1878",
+    "4808",
+    "4848",
+    "4868",
+    "4878",
+    "5808",
     "5848",
-    "5868"
+    "5868",
+    "5878",
+    "9808",
+    "9848",
+    "9868",
+    "9878"
   ],
   "data_proxima_extracao": "2025-07-29"
 }
