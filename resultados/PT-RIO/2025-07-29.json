@@ -51,20 +51,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "9898": [
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 9898"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐄"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
+      "resumo": "Palpites dados para esta extração: 1808, 1848, 1868, 1878, 4808, 4848, 4868, 4878, 5808, 5848, 5868, 5878, 9808, 9848, 9868, 9878"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,25 +112,28 @@
         }
       ],
       "frases": {
+        "1808": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1808"
+        ],
+        "4808": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 4808"
+        ],
+        "5808": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5808"
+        ],
         "9808": [
           "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 9808"
-        ],
-        "9898": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 9898",
-          "Dezena no segundo prêmio!<br>com o palpite 9898",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 9898"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 1,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🦅",
-          "🐄"
+          "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
+      "resumo": "Palpites dados para esta extração: 1808, 1848, 1868, 1878, 4808, 4848, 4868, 4878, 5808, 5848, 5868, 5878, 9808, 9848, 9868, 9878"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -190,6 +187,27 @@
         }
       ],
       "frases": {
+        "1808": [
+          "Dezena no terceiro prêmio!<br>com o palpite 1808",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1808"
+        ],
+        "1868": [
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 1868"
+        ],
+        "4808": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4808",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 4808"
+        ],
+        "4868": [
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 4868"
+        ],
+        "5808": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5808",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5808"
+        ],
+        "5868": [
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 5868"
+        ],
         "9808": [
           "Dezena no terceiro prêmio!<br>com o palpite 9808",
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 9808"
@@ -201,13 +219,13 @@
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 4,
         "Grupo": [
           "🦅",
           "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
+      "resumo": "Palpites dados para esta extração: 1808, 1848, 1868, 1878, 4808, 4848, 4868, 4878, 5808, 5848, 5868, 5878, 9808, 9848, 9868, 9878"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -261,6 +279,30 @@
         }
       ],
       "frases": {
+        "1808": [
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 1808"
+        ],
+        "1868": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 1868",
+          "Dezena no quarto prêmio!<br>com o palpite 1868",
+          "MACACO 🐒 no quarto prêmio!<br>com o palpite 1868"
+        ],
+        "4808": [
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 4808"
+        ],
+        "4868": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 4868",
+          "Dezena no quarto prêmio!<br>com o palpite 4868",
+          "MACACO 🐒 no quarto prêmio!<br>com o palpite 4868"
+        ],
+        "5808": [
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5808"
+        ],
+        "5868": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 5868",
+          "Dezena no quarto prêmio!<br>com o palpite 5868",
+          "MACACO 🐒 no quarto prêmio!<br>com o palpite 5868"
+        ],
         "9808": [
           "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 9808"
         ],
@@ -273,16 +315,117 @@
       },
       "acertos": {
         "Milhar": 1,
-        "Centena": 1,
-        "Dezena": 1,
+        "Centena": 4,
+        "Dezena": 4,
         "Grupo": [
           "🐒",
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
+      "resumo": "Palpites dados para esta extração: 1808, 1848, 1868, 1878, 4808, 4848, 4868, 4878, 5808, 5848, 5868, 5878, 9808, 9848, 9868, 9878"
     },
     "PT-RIO, RJ, 18:20, PTN": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9878",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1482",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0577",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "5387",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3221",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "0545",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "639",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "1848": [
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1848"
+        ],
+        "1878": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 1878",
+          "Dezena no primeiro prêmio!<br>com o palpite 1878",
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 1878",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 1878"
+        ],
+        "4848": [
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 4848"
+        ],
+        "4878": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 4878",
+          "Dezena no primeiro prêmio!<br>com o palpite 4878",
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 4878",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 4878"
+        ],
+        "5848": [
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 5848"
+        ],
+        "5878": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 5878",
+          "Dezena no primeiro prêmio!<br>com o palpite 5878",
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 5878",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 5878"
+        ],
+        "9848": [
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 9848"
+        ],
+        "9878": [
+          "Milhar e Centena no primeiro prêmio!<br>com o palpite 9878",
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 9878",
+          "Dezena no primeiro prêmio!<br>com o palpite 9878",
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 9878",
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 9878"
+        ]
+      },
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 4,
+        "Grupo": [
+          "🦃",
+          "🐘"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 1808, 1848, 1868, 1878, 4808, 4848, 4868, 4878, 5808, 5848, 5868, 5878, 9808, 9848, 9868, 9878"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
