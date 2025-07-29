@@ -52,11 +52,8 @@
         }
       ],
       "frases": {
-        "9298": [
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 9298"
-        ],
-        "9998": [
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 9998"
+        "9898": [
+          "VACA 🐄 no sexto prêmio!<br>com o palpite 9898"
         ]
       },
       "acertos": {
@@ -67,7 +64,7 @@
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9298, 9998"
+      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -121,24 +118,25 @@
         }
       ],
       "frases": {
-        "9298": [
-          "Dezena no segundo prêmio!<br>com o palpite 9298",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 9298"
+        "9808": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 9808"
         ],
-        "9998": [
-          "Dezena no segundo prêmio!<br>com o palpite 9998",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 9998"
+        "9898": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 9898",
+          "Dezena no segundo prêmio!<br>com o palpite 9898",
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 9898"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 2,
+        "Centena": 1,
+        "Dezena": 1,
         "Grupo": [
+          "🦅",
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9298, 9998"
+      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -191,14 +189,25 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "9808": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9808",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 9808"
+        ],
+        "9868": [
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 9868"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 1,
+        "Grupo": [
+          "🦅",
+          "🐒"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9298, 9998"
+      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -251,14 +260,27 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "9808": [
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 9808"
+        ],
+        "9868": [
+          "Milhar e Centena no quarto prêmio!<br>com o palpite 9868",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 9868",
+          "Dezena no quarto prêmio!<br>com o palpite 9868",
+          "MACACO 🐒 no quarto prêmio!<br>com o palpite 9868"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9298, 9998"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 1,
+        "Grupo": [
+          "🐒",
+          "🦅"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -361,7 +383,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9298, 9998"
+      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -433,24 +455,26 @@
         }
       ],
       "frases": {
-        "9298": [
-          "Dezena no segundo prêmio!<br>com o palpite 9298",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 9298"
+        "9808": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 9808",
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 9808"
         ],
-        "9998": [
-          "Dezena no segundo prêmio!<br>com o palpite 9998",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 9998"
+        "9898": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 9898",
+          "Dezena no segundo prêmio!<br>com o palpite 9898",
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 9898"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 2,
+        "Centena": 1,
+        "Dezena": 1,
         "Grupo": [
+          "🦅",
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9298, 9998"
+      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -522,31 +546,28 @@
         }
       ],
       "frases": {
-        "9298": [
-          "Milhar e Centena no sexto prêmio!<br>com o palpite 9298",
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 9298",
-          "Dezena no sexto prêmio!<br>com o palpite 9298",
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 9298",
-          "Dezena no décimo prêmio!<br>com o palpite 9298",
-          "VACA 🐄 no décimo prêmio!<br>com o palpite 9298"
+        "9808": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9808",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 9808",
+          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 9808"
         ],
-        "9998": [
-          "Dezena no sexto prêmio!<br>com o palpite 9998",
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 9998",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 9998",
-          "Dezena no décimo prêmio!<br>com o palpite 9998",
-          "VACA 🐄 no décimo prêmio!<br>com o palpite 9998"
+        "9898": [
+          "Dezena no sexto prêmio!<br>com o palpite 9898",
+          "VACA 🐄 no sexto prêmio!<br>com o palpite 9898",
+          "Dezena no décimo prêmio!<br>com o palpite 9898",
+          "VACA 🐄 no décimo prêmio!<br>com o palpite 9898"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 2,
-        "Dezena": 4,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 3,
         "Grupo": [
+          "🦅",
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9298, 9998"
+      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -617,14 +638,35 @@
           "Bicho": "Águia"
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "9808": [
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 9808",
+          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 9808"
+        ],
+        "9848": [
+          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 9848"
+        ],
+        "9868": [
+          "Milhar e Centena no quarto prêmio!<br>com o palpite 9868",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 9868",
+          "Dezena no quarto prêmio!<br>com o palpite 9868",
+          "MACACO 🐒 no quarto prêmio!<br>com o palpite 9868",
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 9868",
+          "Dezena no sétimo prêmio!<br>com o palpite 9868",
+          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 9868"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9298, 9998"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 2,
+        "Grupo": [
+          "🐒",
+          "🦅",
+          "🐘"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 9808, 9848, 9868, 9898"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
