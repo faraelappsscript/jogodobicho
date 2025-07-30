@@ -157,6 +157,17 @@
             line-height: 1.3;
         }
 
+        /* --- NOVO ESTILO PARA A LINHA DO WHATSAPP --- */
+        .btn-cadastro-whatsapp {
+            display: inline-block; /* Para que o padding e margin funcionem bem */
+            font-size: 0.85rem;
+            font-weight: 600;
+            background-color: rgba(0, 0, 0, 0.2); /* Fundo sutil para destaque */
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border-radius: var(--radius-sm);
+            margin-top: var(--spacing-md); /* Espaço da linha de cima */
+        }
+
         /* Estilos para Modais */
         .info-list { list-style: none; padding: 0; margin: 0; }
         .info-list h4 { color: var(--text-primary); margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); border-bottom: 1px solid var(--border-color); padding-bottom: var(--spacing-sm); }
@@ -164,17 +175,8 @@
         .info-item:last-child { border-bottom: none; }
         .info-label { color: var(--text-secondary); }
         .info-value { font-weight: 700; color: var(--text-primary); font-family: 'JetBrains Mono', monospace; }
-        
-        /* Estilo específico para a lista de outras modalidades */
-        .modal-list-item {
-            color: var(--text-secondary);
-            padding: var(--spacing-sm) 0;
-            border-bottom: 1px solid var(--border-color);
-        }
-        .modal-list-item:last-child {
-            border-bottom: none;
-        }
-
+        .modal-list-item { color: var(--text-secondary); padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--border-color); }
+        .modal-list-item:last-child { border-bottom: none; }
         .cotacoes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-md); }
         .cotacao-item { background: var(--bg-secondary); padding: var(--spacing-md); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; border-left: 4px solid var(--accent-primary); }
         .cotacao-modalidade { font-weight: 600; color: var(--text-primary); font-size: 0.875rem; }
@@ -219,6 +221,8 @@
                 <a href="#" id="cadastroBtn" class="btn-cadastro">
                     <span class="btn-cadastro-main-text">Cadastre-se agora</span>
                     <span class="btn-cadastro-subtext">Tenha a sorte na palma da sua mão e descubra a emoção de ganhar prêmios incríveis!</span>
+                    <!-- NOVA LINHA ADICIONADA AQUI -->
+                    <span class="btn-cadastro-whatsapp">📱 Grupo de palpites no WhatsApp. ✅</span>
                 </a>
             </div>
         </header>
@@ -275,7 +279,6 @@
                     <li class="info-item"><span class="info-label">Grupo</span><span class="info-value">até 8 grupos por dia</span></li>
                     <li class="info-item"><span class="info-label">Dezena</span><span class="info-value">até 25 dezenas por dia</span></li>
                 </ul>
-                <!-- NOVA SEÇÃO ADICIONADA AQUI -->
                 <ul class="info-list">
                     <h4>Outras modalidades</h4>
                     <li class="modal-list-item">Cassino com diversos jogos e os mais populares</li>
