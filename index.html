@@ -59,9 +59,13 @@
             margin-bottom: var(--spacing-xl);
         }
 
-        /* Link de Cotações */
-        .cotacoes-link-container { margin-bottom: var(--spacing-lg); }
-        .cotacoes-link {
+        /* Estilo para os botões secundários (Cotações e Informações) */
+        .secondary-buttons-container {
+            display: flex;
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+        }
+        .info-button { /* Renomeado de cotacoes-link para ser mais genérico */
             color: var(--text-muted);
             font-weight: 500;
             border: 1px solid var(--border-color);
@@ -69,14 +73,15 @@
             border-radius: var(--radius-md);
             transition: all var(--transition-fast);
             text-decoration: none;
+            cursor: pointer;
         }
-        .cotacoes-link:hover {
+        .info-button:hover {
             color: var(--text-primary);
             background-color: var(--bg-card-hover);
             border-color: var(--accent-primary);
         }
 
-        /* --- NOVOS ESTILOS PARA A SEÇÃO DE BÔNUS --- */
+        /* Seção de Bônus */
         .bonus-info-container {
             background: var(--bg-secondary);
             border-radius: var(--radius-lg);
@@ -116,48 +121,15 @@
             font-size: 0.8rem;
             color: var(--text-muted);
             line-height: 1.5;
-            margin-bottom: var(--spacing-md);
         }
-        .more-info-link {
-            color: var(--accent-primary);
-            text-decoration: underline;
-            cursor: pointer;
-            font-weight: 500;
-        }
-        .more-info-link:hover {
-            color: var(--text-primary);
-        }
-
+        
         /* Estilos para o Modal de Informações */
-        .info-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .info-list h4 {
-            color: var(--text-primary);
-            margin-top: var(--spacing-lg);
-            margin-bottom: var(--spacing-sm);
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: var(--spacing-sm);
-        }
-        .info-item {
-            display: flex;
-            justify-content: space-between;
-            padding: var(--spacing-sm) 0;
-            border-bottom: 1px solid var(--border-color);
-        }
-        .info-item:last-child {
-            border-bottom: none;
-        }
-        .info-label {
-            color: var(--text-secondary);
-        }
-        .info-value {
-            font-weight: 700;
-            color: var(--text-primary);
-            font-family: 'JetBrains Mono', monospace;
-        }
+        .info-list { list-style: none; padding: 0; margin: 0; }
+        .info-list h4 { color: var(--text-primary); margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); border-bottom: 1px solid var(--border-color); padding-bottom: var(--spacing-sm); }
+        .info-item { display: flex; justify-content: space-between; padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--border-color); }
+        .info-item:last-child { border-bottom: none; }
+        .info-label { color: var(--text-secondary); }
+        .info-value { font-weight: 700; color: var(--text-primary); font-family: 'JetBrains Mono', monospace; }
 
         /* Botão de Cadastro */
         .cadastro-container { width: 100%; max-width: 400px; }
@@ -206,11 +178,14 @@
             <h1 class="slogan">77x Brasil</h1>
             <p class="slogan-subtitle">Na 77x Brasil, o seu 1 real vale 8 Mil.</p>
             
-            <div class="cotacoes-link-container">
-                <a href="#" id="cotacoesLink" class="cotacoes-link">Ver Cotações</a>
+            <!-- Container para os botões secundários -->
+            <div class="secondary-buttons-container">
+                <a href="#" id="cotacoesLink" class="info-button">Ver Cotações</a>
+                <!-- O botão de informações agora usa a mesma classe 'info-button' -->
+                <a href="#" id="infoLink" class="info-button">Mais Informações</a>
             </div>
 
-            <!-- NOVA SEÇÃO DE INFORMAÇÕES DE BÔNUS -->
+            <!-- Seção de Informações de Bônus -->
             <div class="bonus-info-container">
                 <p class="bonus-intro">Cadastre-se agora e garanta o seu bônus!</p>
                 <ul class="bonus-list">
@@ -221,7 +196,6 @@
                 <p class="bonus-terms">
                     Bônus sobre o valor da recarga na opção Loterias, válidos para a primeira recarga do dia até R$ 500,00.
                 </p>
-                <a id="infoLink" class="more-info-link">Ver mais informações</a>
             </div>
             
             <div class="cadastro-container">
@@ -245,7 +219,7 @@
         </div>
     </div>
 
-    <!-- NOVO MODAL DE INFORMAÇÕES -->
+    <!-- Modal de Informações -->
     <div id="infoModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
@@ -255,33 +229,15 @@
             <div class="modal-body">
                 <ul class="info-list">
                     <h4>Limites de Recarga e Saque</h4>
-                    <li class="info-item">
-                        <span class="info-label">Recarga mínima</span>
-                        <span class="info-value">R$ 10,00</span>
-                    </li>
-                    <li class="info-item">
-                        <span class="info-label">Recarga máxima por vez</span>
-                        <span class="info-value">R$ 5.000,00</span>
-                    </li>
-                    <li class="info-item">
-                        <span class="info-label">Limite de saque por dia</span>
-                        <span class="info-value">R$ 50.000,00</span>
-                    </li>
-                    <li class="info-item">
-                        <span class="info-label">Limite de saque por vez</span>
-                        <span class="info-value">R$ 5.000,00</span>
-                    </li>
+                    <li class="info-item"><span class="info-label">Recarga mínima</span><span class="info-value">R$ 10,00</span></li>
+                    <li class="info-item"><span class="info-label">Recarga máxima por vez</span><span class="info-value">R$ 5.000,00</span></li>
+                    <li class="info-item"><span class="info-label">Limite de saque por dia</span><span class="info-value">R$ 50.000,00</span></li>
+                    <li class="info-item"><span class="info-label">Limite de saque por vez</span><span class="info-value">R$ 5.000,00</span></li>
                 </ul>
                 <ul class="info-list">
                     <h4>Limites de Jogos</h4>
-                    <li class="info-item">
-                        <span class="info-label">Grupo</span>
-                        <span class="info-value">até 8 grupos por dia</span>
-                    </li>
-                    <li class="info-item">
-                        <span class="info-label">Dezena</span>
-                        <span class="info-value">até 25 dezenas por dia</span>
-                    </li>
+                    <li class="info-item"><span class="info-label">Grupo</span><span class="info-value">até 8 grupos por dia</span></li>
+                    <li class="info-item"><span class="info-label">Dezena</span><span class="info-value">até 25 dezenas por dia</span></li>
                 </ul>
             </div>
         </div>
@@ -292,15 +248,12 @@
     <script defer src="/assets/js/flatpickr.pt.js"></script>
     <script src="/resultados/script.js"></script>
     <script>
-        // Funções JS para interatividade
         function getStoredProductCode() { return localStorage.getItem("productCode"); }
         function captureAndStoreUrlParameter() { const urlParams = new URLSearchParams(window.location.search); const codeParam = urlParams.get('pr'); if (codeParam) { localStorage.setItem("productCode", codeParam); } }
         
-        // Funções para o Modal de Cotações
         function openCotacoesModal() { document.getElementById("cotacoesModal").style.display = "flex"; document.body.classList.add("modal-open"); }
         function closeCotacoesModal() { document.getElementById("cotacoesModal").style.display = "none"; document.body.classList.remove("modal-open"); }
 
-        // --- NOVAS FUNÇÕES PARA O MODAL DE INFORMAÇÕES ---
         function openInfoModal() { document.getElementById("infoModal").style.display = "flex"; document.body.classList.add("modal-open"); }
         function closeInfoModal() { document.getElementById("infoModal").style.display = "none"; document.body.classList.remove("modal-open"); }
 
@@ -310,14 +263,10 @@
             captureAndStoreUrlParameter();
             setupCadastroLink();
             
-            // Event listener para o link de cotações
             document.getElementById("cotacoesLink").addEventListener("click", function(e) { e.preventDefault(); openCotacoesModal(); });
-            
-            // --- NOVO EVENT LISTENER PARA O LINK DE INFORMAÇÕES ---
             document.getElementById("infoLink").addEventListener("click", function(e) { e.preventDefault(); openInfoModal(); });
         });
         
-        // Fecha modais ao clicar fora deles
         window.addEventListener("click", function(event) {
             if (event.target.classList.contains('modal')) {
                 closeCotacoesModal();
