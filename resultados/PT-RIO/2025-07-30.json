@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6949, 6959, 9949, 9959"
+      "resumo": "Palpites dados para esta extração: 4443, 4449, 4453, 4459, 4493, 4499, 4943, 4949, 4953, 4959, 4993, 4999, 8443, 8449, 8453, 8459, 8493, 8499, 8943, 8949, 8953, 8959, 8993, 8999"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6949, 6959, 9949, 9959"
+      "resumo": "Palpites dados para esta extração: 4443, 4449, 4453, 4459, 4493, 4499, 4943, 4949, 4953, 4959, 4993, 4999, 8443, 8449, 8453, 8459, 8493, 8499, 8943, 8949, 8953, 8959, 8993, 8999"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -172,30 +172,60 @@
         }
       ],
       "frases": {
-        "6959": [
-          "Dezena no terceiro prêmio!<br>com o palpite 6959",
-          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6959",
-          "Dezena no quarto prêmio!<br>com o palpite 6959",
-          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 6959",
-          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 6959"
+        "4459": [
+          "Milhar e Centena no terceiro prêmio!<br>com o palpite 4459",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 4459",
+          "Dezena no terceiro prêmio!<br>com o palpite 4459",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4459",
+          "Dezena no quarto prêmio!<br>com o palpite 4459",
+          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 4459",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 4459"
         ],
-        "9959": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9959",
-          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 9959",
-          "Dezena no quarto prêmio!<br>com o palpite 9959",
-          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 9959",
-          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 9959"
+        "4493": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 4493"
+        ],
+        "4959": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4959",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4959",
+          "Dezena no quarto prêmio!<br>com o palpite 4959",
+          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 4959",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 4959"
+        ],
+        "4993": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 4993"
+        ],
+        "8459": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 8459",
+          "Dezena no terceiro prêmio!<br>com o palpite 8459",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 8459",
+          "Dezena no quarto prêmio!<br>com o palpite 8459",
+          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 8459",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 8459"
+        ],
+        "8493": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 8493"
+        ],
+        "8959": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8959",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 8959",
+          "Dezena no quarto prêmio!<br>com o palpite 8959",
+          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 8959",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 8959"
+        ],
+        "8993": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 8993"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 4,
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 8,
         "Grupo": [
+          "🦌",
           "🐊"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6949, 6959, 9949, 9959"
+      "resumo": "Palpites dados para esta extração: 4443, 4449, 4453, 4459, 4493, 4499, 4943, 4949, 4953, 4959, 4993, 4999, 8443, 8449, 8453, 8459, 8493, 8499, 8943, 8949, 8953, 8959, 8993, 8999"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -249,24 +279,62 @@
         }
       ],
       "frases": {
-        "6949": [
-          "Dezena no quinto prêmio!<br>com o palpite 6949",
-          "GALO 🐓 no quinto prêmio!<br>com o palpite 6949"
+        "4449": [
+          "Dezena no quinto prêmio!<br>com o palpite 4449",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 4449"
         ],
-        "9949": [
-          "Dezena no quinto prêmio!<br>com o palpite 9949",
-          "GALO 🐓 no quinto prêmio!<br>com o palpite 9949"
+        "4493": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 4493",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 4493",
+          "Dezena no segundo prêmio!<br>com o palpite 4493",
+          "VEADO 🦌 no segundo prêmio!<br>com o palpite 4493",
+          "Dezena no quarto prêmio!<br>com o palpite 4493",
+          "VEADO 🦌 no quarto prêmio!<br>com o palpite 4493"
+        ],
+        "4949": [
+          "Dezena no quinto prêmio!<br>com o palpite 4949",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 4949"
+        ],
+        "4993": [
+          "Dezena no segundo prêmio!<br>com o palpite 4993",
+          "VEADO 🦌 no segundo prêmio!<br>com o palpite 4993",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 4993",
+          "Dezena no quarto prêmio!<br>com o palpite 4993",
+          "VEADO 🦌 no quarto prêmio!<br>com o palpite 4993"
+        ],
+        "8449": [
+          "Dezena no quinto prêmio!<br>com o palpite 8449",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 8449"
+        ],
+        "8493": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 8493",
+          "Dezena no segundo prêmio!<br>com o palpite 8493",
+          "VEADO 🦌 no segundo prêmio!<br>com o palpite 8493",
+          "Dezena no quarto prêmio!<br>com o palpite 8493",
+          "VEADO 🦌 no quarto prêmio!<br>com o palpite 8493"
+        ],
+        "8949": [
+          "Dezena no quinto prêmio!<br>com o palpite 8949",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 8949"
+        ],
+        "8993": [
+          "Dezena no segundo prêmio!<br>com o palpite 8993",
+          "VEADO 🦌 no segundo prêmio!<br>com o palpite 8993",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 8993",
+          "Dezena no quarto prêmio!<br>com o palpite 8993",
+          "VEADO 🦌 no quarto prêmio!<br>com o palpite 8993"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 2,
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 12,
         "Grupo": [
+          "🦌",
           "🐓"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6949, 6959, 9949, 9959"
+      "resumo": "Palpites dados para esta extração: 4443, 4449, 4453, 4459, 4493, 4499, 4943, 4949, 4953, 4959, 4993, 4999, 8443, 8449, 8453, 8459, 8493, 8499, 8943, 8949, 8953, 8959, 8993, 8999"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
