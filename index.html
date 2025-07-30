@@ -72,7 +72,7 @@
             transition: all var(--transition-fast);
             text-decoration: none;
             cursor: pointer;
-            display: inline-block; /* Garante que o padding seja aplicado corretamente */
+            display: inline-block;
         }
         .info-button:hover {
             color: var(--text-primary);
@@ -120,39 +120,57 @@
             font-size: 0.8rem;
             color: var(--text-muted);
             line-height: 1.5;
-            margin-bottom: var(--spacing-md); /* Espaço entre o texto e o botão */
+            margin-bottom: var(--spacing-md);
         }
         
-        /* Estilos para o Modal de Informações */
-        .info-list { list-style: none; padding: 0; margin: 0; }
-        .info-list h4 { color: var(--text-primary); margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); border-bottom: 1px solid var(--border-color); padding-bottom: var(--spacing-sm); }
-        .info-item { display: flex; justify-content: space-between; padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--border-color); }
-        .info-item:last-child { border-bottom: none; }
-        .info-label { color: var(--text-secondary); }
-        .info-value { font-weight: 700; color: var(--text-primary); font-family: 'JetBrains Mono', monospace; }
-
-        /* Botão de Cadastro */
+        /* --- ESTILOS PARA O BOTÃO DE CADASTRO COM SUBTÍTULO --- */
         .cadastro-container { width: 100%; max-width: 400px; }
         .btn-cadastro {
-            font-size: clamp(1.2rem, 4vw, 1.5rem);
             padding: var(--spacing-md) var(--spacing-lg);
             border-radius: var(--radius-md);
             background: var(--gradient-primary, linear-gradient(135deg, #667eea, #764ba2));
             color: white;
-            text-transform: uppercase;
-            font-weight: 700;
-            letter-spacing: 1.5px;
             width: 100%;
             text-align: center;
             display: block;
             border: none;
             box-shadow: var(--shadow-lg), var(--shadow-glow);
             transition: all var(--transition-normal);
+            text-decoration: none; /* Garante que o link não tenha sublinhado */
         }
         .btn-cadastro:hover {
             transform: translateY(-5px) scale(1.05);
             box-shadow: var(--shadow-xl), var(--shadow-glow-hover);
         }
+        .btn-cadastro-main-text {
+            font-size: clamp(1.2rem, 4vw, 1.5rem);
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            display: block; /* Faz o texto principal ocupar uma linha */
+        }
+        .btn-cadastro-subtext {
+            font-size: 0.8rem;
+            font-weight: 400;
+            letter-spacing: normal;
+            text-transform: none;
+            display: block; /* Faz o subtítulo ocupar uma linha */
+            margin-top: var(--spacing-xs);
+            opacity: 0.85; /* Deixa o subtítulo um pouco mais sutil */
+            line-height: 1.3;
+        }
+
+        /* Estilos para Modais */
+        .info-list { list-style: none; padding: 0; margin: 0; }
+        .info-list h4 { color: var(--text-primary); margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); border-bottom: 1px solid var(--border-color); padding-bottom: var(--spacing-sm); }
+        .info-item { display: flex; justify-content: space-between; padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--border-color); }
+        .info-item:last-child { border-bottom: none; }
+        .info-label { color: var(--text-secondary); }
+        .info-value { font-weight: 700; color: var(--text-primary); font-family: 'JetBrains Mono', monospace; }
+        .cotacoes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-md); }
+        .cotacao-item { background: var(--bg-secondary); padding: var(--spacing-md); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; border-left: 4px solid var(--accent-primary); }
+        .cotacao-modalidade { font-weight: 600; color: var(--text-primary); font-size: 0.875rem; }
+        .cotacao-valor { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--accent-success); font-size: 1rem; }
 
         /* Responsividade */
         @media (max-width: 767px) {
@@ -160,12 +178,6 @@
             .slogan { font-size: 1.75rem; }
             .slogan-subtitle { font-size: 1rem; }
         }
-
-        /* Estilos do Modal de Cotações */
-        .cotacoes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-md); }
-        .cotacao-item { background: var(--bg-secondary); padding: var(--spacing-md); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; border-left: 4px solid var(--accent-primary); }
-        .cotacao-modalidade { font-weight: 600; color: var(--text-primary); font-size: 0.875rem; }
-        .cotacao-valor { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--accent-success); font-size: 1rem; }
     </style>
 </head>
 <body>
@@ -182,7 +194,6 @@
                 <a href="#" id="cotacoesLink" class="info-button">Ver Cotações</a>
             </div>
 
-            <!-- Seção de Informações de Bônus -->
             <div class="bonus-info-container">
                 <p class="bonus-intro">Cadastre-se agora e garanta o seu bônus!</p>
                 <ul class="bonus-list">
@@ -196,8 +207,12 @@
                 <a href="#" id="infoLink" class="info-button">Mais Informações</a>
             </div>
             
+            <!-- BOTÃO DE CADASTRO ATUALIZADO -->
             <div class="cadastro-container">
-                <a href="#" id="cadastroBtn" class="btn btn-cadastro">Cadastre-se Agora</a>
+                <a href="#" id="cadastroBtn" class="btn-cadastro">
+                    <span class="btn-cadastro-main-text">Cadastre-se agora</span>
+                    <span class="btn-cadastro-subtext">Tenha a sorte na palma da sua mão e descubra a emoção de ganhar prêmios incríveis!</span>
+                </a>
             </div>
         </header>
     </div>
@@ -210,7 +225,6 @@
                 <button class="close-btn" onclick="closeCotacoesModal()">&times;</button>
             </div>
             <div class="modal-body">
-                <!-- CONTEÚDO DO MODAL RESTAURADO -->
                 <div class="cotacoes-grid">
                     <div class="cotacao-item"><span class="cotacao-modalidade">MILHAR</span><span class="cotacao-valor">8.000,00</span></div>
                     <div class="cotacao-item"><span class="cotacao-modalidade">CENTENA</span><span class="cotacao-valor">800,00</span></div>
@@ -272,7 +286,7 @@
         function openInfoModal() { document.getElementById("infoModal").style.display = "flex"; document.body.classList.add("modal-open"); }
         function closeInfoModal() { document.getElementById("infoModal").style.display = "none"; document.body.classList.remove("modal-open"); }
 
-        function setupCadastroLink() { const storedCode = getStoredProductCode(); const code = storedCode || "PACruTth"; const cadastroUrl = `https://app.77xbrasil.com.br/pr/${code}`; document.getElementById("cadastroBtn").href = cadastroUrl; }
+        function setupCadastroLink() { const storedCode = getStoredProductCode(); const code = storedCode || "PACruTth"; const cadastroUrl = `https://app.77xbrasil.com.br/pr/${code}`; document.getElementById("cadastroBtn" ).href = cadastroUrl; }
         
         document.addEventListener("DOMContentLoaded", function() {
             captureAndStoreUrlParameter();
