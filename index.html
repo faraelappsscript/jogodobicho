@@ -13,19 +13,25 @@
     <link rel="preload" href="/theme.css" as="style">
     <link rel="stylesheet" href="/theme.css">
     
-    <!-- ESTILOS PERSONALIZADOS (não modificar theme.css) -->
+    <!-- ESTILOS PERSONALIZADOS E MELHORADOS -->
     <style>
-        /* === ESTILOS PARA A LANDING PAGE === */
-
-        /* Garante que o body e o container principal ocupem a tela */
-        html, body {
-            height: 100%;
+        /* Herda as variáveis de --bg-primary do theme.css */
+        body {
+            background-color: var(--bg-primary);
+            /* Adiciona um gradiente sutil usando as cores do tema para um visual mais rico */
+            background-image: 
+                radial-gradient(circle at 15% 25%, rgba(59, 130, 246, 0.1), transparent 40%),
+                radial-gradient(circle at 85% 75%, rgba(139, 92, 246, 0.1), transparent 40%);
         }
+
+        /* Centraliza todo o conteúdo verticalmente na página */
         .container {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            min-height: 100%;
+            align-items: center;
+            min-height: 100vh; /* Ocupa a altura total da tela */
+            padding: var(--spacing-lg);
         }
 
         /* Container do Header */
@@ -33,9 +39,9 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
             text-align: center;
-            padding: var(--spacing-lg);
+            width: 100%;
+            max-width: 600px; /* Limita a largura para melhor leitura em telas grandes */
         }
 
         /* 1. Estilo da Logo (dimensionada adequadamente) */
@@ -43,133 +49,122 @@
             margin-bottom: var(--spacing-lg);
         }
         .logo {
-            max-width: 280px; /* Largura máxima em telas grandes */
-            width: 70vw;      /* 70% da largura da tela em dispositivos menores */
-            height: auto;     /* Mantém a proporção da imagem */
-            object-fit: contain; /* Garante que a imagem inteira seja visível */
+            max-width: 280px;
+            width: 70vw;
+            height: auto;
+            object-fit: contain;
         }
 
-        /* 2. Domínio do site removido do HTML. */
-
-        /* 3. Estilo do Slogan (menor e mais suave) */
+        /* 2. Slogan com destaque de gradiente do tema */
         .slogan {
-            /* Usar clamp para um tamanho de fonte responsivo e menor */
-            font-size: clamp(1.25rem, 4vw, 1.75rem); 
-            color: var(--text-secondary);
-            font-weight: 500; /* Fonte mais leve */
-            margin-bottom: var(--spacing-md);
-            /* Sobrescreve o gradiente do theme.css para um visual mais limpo */
-            background: none;
-            -webkit-background-clip: initial;
-            -webkit-text-fill-color: initial;
-            background-clip: initial;
+            font-size: clamp(2rem, 5vw, 2.75rem); /* Um pouco maior para mais impacto */
+            font-weight: 800; /* Mais forte para um título */
+            line-height: 1.2;
+            /* Utiliza o gradiente de destaque do theme.css */
+            background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: var(--spacing-sm);
         }
-
-        /* Container do link de cotações */
-        .cotacoes-link-container {
+        
+        /* 3. Slogan secundário (texto de apoio) */
+        .slogan-subtitle {
+            font-size: clamp(1rem, 3vw, 1.25rem);
+            color: var(--text-secondary);
+            font-weight: 400;
             margin-bottom: var(--spacing-xl);
         }
+
+        /* 4. Link de Cotações mais integrado */
+        .cotacoes-link-container {
+            margin-bottom: var(--spacing-2xl);
+        }
         .cotacoes-link {
-            color: var(--accent-primary);
-            text-decoration: underline;
+            color: var(--text-muted);
             font-weight: 500;
-            transition: color var(--transition-fast);
+            border: 1px solid var(--border-color);
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: var(--radius-md);
+            transition: all var(--transition-fast);
+            text-decoration: none;
         }
         .cotacoes-link:hover {
             color: var(--text-primary);
+            background-color: var(--bg-card-hover);
+            border-color: var(--accent-primary);
         }
 
-        /* 4. Estilo do Botão de Cadastro (maior e destacado) */
+        /* 5. Botão de Cadastro Aprimorado */
         .cadastro-container {
             width: 100%;
-            max-width: 400px; /* Limita a largura do botão em telas grandes */
+            max-width: 400px;
         }
         .btn-cadastro {
-            /* Tamanho de fonte responsivo e maior */
-            font-size: clamp(1.2rem, 4vw, 1.5rem); 
-            padding: var(--spacing-md) var(--spacing-lg); /* Mais preenchimento */
+            font-size: clamp(1.2rem, 4vw, 1.5rem);
+            padding: var(--spacing-md) var(--spacing-lg);
             border-radius: var(--radius-md);
-            background: var(--gradient-success, #10b981); /* Usa variável do tema com fallback */
+            /* Usando um gradiente mais vibrante do tema */
+            background: var(--gradient-primary, linear-gradient(135deg, #667eea, #764ba2));
             color: white;
             text-transform: uppercase;
             font-weight: 700;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             width: 100%;
             text-align: center;
             display: block;
-            box-shadow: var(--shadow-lg), 0 0 20px rgba(16, 185, 129, 0.4);
+            border: none;
+            /* Sombra com brilho usando variáveis do tema */
+            box-shadow: var(--shadow-lg), var(--shadow-glow);
             transition: all var(--transition-normal);
         }
         .btn-cadastro:hover {
-            transform: translateY(-4px) scale(1.03); /* Efeito de elevação mais forte */
-            box-shadow: var(--shadow-xl), 0 0 30px rgba(16, 185, 129, 0.6);
+            transform: translateY(-5px) scale(1.05);
+            /* Efeito de brilho mais intenso no hover */
+            box-shadow: var(--shadow-xl), var(--shadow-glow-hover);
         }
 
-        /* 5. Ajustes para Responsividade */
+        /* Ajustes para Responsividade */
         @media (max-width: 767px) {
-            .header {
-                padding: var(--spacing-md);
-            }
             .logo {
                 max-width: 220px;
             }
+            .slogan {
+                font-size: 1.75rem;
+            }
+            .slogan-subtitle {
+                font-size: 1rem;
+            }
         }
 
-        /* Estilos para o Modal de Cotações */
-        .cotacoes-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: var(--spacing-md);
-        }
-        .cotacao-item {
-            background: var(--bg-secondary);
-            padding: var(--spacing-md);
-            border-radius: var(--radius-md);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-left: 4px solid var(--accent-primary);
-        }
-        .cotacao-modalidade {
-            font-weight: 600;
-            color: var(--text-primary);
-            font-size: 0.875rem;
-        }
-        .cotacao-valor {
-            font-family: 'JetBrains Mono', monospace;
-            font-weight: 700;
-            color: var(--accent-success);
-            font-size: 1rem;
-        }
+        /* Estilos para o Modal de Cotações (sem alterações) */
+        .cotacoes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-md); }
+        .cotacao-item { background: var(--bg-secondary); padding: var(--spacing-md); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; border-left: 4px solid var(--accent-primary); }
+        .cotacao-modalidade { font-weight: 600; color: var(--text-primary); font-size: 0.875rem; }
+        .cotacao-valor { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--accent-success); font-size: 1rem; }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Header Principal -->
         <header class="header">
-            <!-- 1. Logo com container -->
             <div class="logo-container">
                 <img src="/assets/img/logo.png" alt="77x Brasil Logo" class="logo">
             </div>
             
-            <!-- 2. Domínio do site removido -->
+            <h1 class="slogan">77x Brasil</h1>
+            <p class="slogan-subtitle">Na 77x Brasil, o seu 1 real vale 8 Mil.</p>
             
-            <!-- 3. Slogan com nova classe -->
-            <h1 class="slogan">Na 77x Brasil, o seu 1 real vale 8 Mil.</h1>
-            
-            <!-- Link para Cotações -->
             <div class="cotacoes-link-container">
-                <a href="#" id="cotacoesLink" class="cotacoes-link">[Clique aqui para ver as cotações]</a>
+                <a href="#" id="cotacoesLink" class="cotacoes-link">Ver Cotações</a>
             </div>
             
-            <!-- 4. Botão de Cadastro com nova classe -->
             <div class="cadastro-container">
-                <a href="#" id="cadastroBtn" class="btn btn-cadastro">Cadastre-se</a>
+                <a href="#" id="cadastroBtn" class="btn btn-cadastro">Cadastre-se Agora</a>
             </div>
         </header>
     </div>
 
-    <!-- Modal de Cotações -->
+    <!-- Modal de Cotações (sem alterações no HTML) -->
     <div id="cotacoesModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
@@ -200,51 +195,18 @@
         </div>
     </div>
 
-    <!-- Scripts -->
+    <!-- Scripts (sem alterações) -->
     <script defer src="/assets/js/flatpickr.js"></script>
     <script defer src="/assets/js/flatpickr.pt.js"></script>
     <script src="/resultados/script.js"></script>
     <script>
-        // Funções JS para interatividade (sem alterações)
-        function getStoredProductCode() {
-            return localStorage.getItem("productCode");
-        }
-        function captureAndStoreUrlParameter() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const codeParam = urlParams.get('pr');
-            if (codeParam) {
-                localStorage.setItem("productCode", codeParam);
-            }
-        }
-        function openCotacoesModal() {
-            document.getElementById("cotacoesModal").style.display = "flex";
-            document.body.classList.add("modal-open");
-        }
-        function closeCotacoesModal() {
-            document.getElementById("cotacoesModal").style.display = "none";
-            document.body.classList.remove("modal-open");
-        }
-        function setupCadastroLink() {
-            const storedCode = getStoredProductCode();
-            const code = storedCode || "PACruTth";
-            // O link de cadastro pode ser ajustado conforme a estrutura do seu site
-            const cadastroUrl = `https://app.77xbrasil.com.br/pr/${code}`;
-            document.getElementById("cadastroBtn" ).href = cadastroUrl;
-        }
-        document.addEventListener("DOMContentLoaded", function() {
-            captureAndStoreUrlParameter();
-            setupCadastroLink();
-            document.getElementById("cotacoesLink").addEventListener("click", function(e) {
-                e.preventDefault();
-                openCotacoesModal();
-            });
-        });
-        window.addEventListener("click", function(event) {
-            const modal = document.getElementById("cotacoesModal");
-            if (event.target === modal) {
-                closeCotacoesModal();
-            }
-        });
+        function getStoredProductCode() { return localStorage.getItem("productCode"); }
+        function captureAndStoreUrlParameter() { const urlParams = new URLSearchParams(window.location.search); const codeParam = urlParams.get('pr'); if (codeParam) { localStorage.setItem("productCode", codeParam); } }
+        function openCotacoesModal() { document.getElementById("cotacoesModal").style.display = "flex"; document.body.classList.add("modal-open"); }
+        function closeCotacoesModal() { document.getElementById("cotacoesModal").style.display = "none"; document.body.classList.remove("modal-open"); }
+        function setupCadastroLink() { const storedCode = getStoredProductCode(); const code = storedCode || "PACruTth"; const cadastroUrl = `https://app.77xbrasil.com.br/pr/${code}`; document.getElementById("cadastroBtn" ).href = cadastroUrl; }
+        document.addEventListener("DOMContentLoaded", function() { captureAndStoreUrlParameter(); setupCadastroLink(); document.getElementById("cotacoesLink").addEventListener("click", function(e) { e.preventDefault(); openCotacoesModal(); }); });
+        window.addEventListener("click", function(event) { const modal = document.getElementById("cotacoesModal"); if (event.target === modal) { closeCotacoesModal(); } });
     </script>
 </body>
 </html>
