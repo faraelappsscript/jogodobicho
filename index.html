@@ -127,18 +127,16 @@
             display: block;
             border: none;
             box-shadow: var(--shadow-lg), var(--shadow-glow);
-            transition: none; /* Remove qualquer transição */
+            transition: none;
             text-decoration: none;
             background-size: 200% auto;
             animation: gradient-slide 5s linear infinite;
-            cursor: pointer; /* Mantém o cursor de clique */
+            cursor: pointer;
         }
         
-        /* --- HOVER REMOVIDO COMPLETAMENTE --- */
-        /* Esta regra garante que nenhuma propriedade mude no hover */
         .btn-cadastro:hover {
-            color: white; /* Mantém a cor do texto */
-            text-decoration: none; /* Garante que não haja sublinhado */
+            color: white;
+            text-decoration: none;
         }
 
         .btn-cadastro-main-text {
@@ -166,6 +164,17 @@
         .info-item:last-child { border-bottom: none; }
         .info-label { color: var(--text-secondary); }
         .info-value { font-weight: 700; color: var(--text-primary); font-family: 'JetBrains Mono', monospace; }
+        
+        /* Estilo específico para a lista de outras modalidades */
+        .modal-list-item {
+            color: var(--text-secondary);
+            padding: var(--spacing-sm) 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .modal-list-item:last-child {
+            border-bottom: none;
+        }
+
         .cotacoes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-md); }
         .cotacao-item { background: var(--bg-secondary); padding: var(--spacing-md); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; border-left: 4px solid var(--accent-primary); }
         .cotacao-modalidade { font-weight: 600; color: var(--text-primary); font-size: 0.875rem; }
@@ -265,6 +274,18 @@
                     <h4>Limites de Jogos</h4>
                     <li class="info-item"><span class="info-label">Grupo</span><span class="info-value">até 8 grupos por dia</span></li>
                     <li class="info-item"><span class="info-label">Dezena</span><span class="info-value">até 25 dezenas por dia</span></li>
+                </ul>
+                <!-- NOVA SEÇÃO ADICIONADA AQUI -->
+                <ul class="info-list">
+                    <h4>Outras modalidades</h4>
+                    <li class="modal-list-item">Cassino com diversos jogos e os mais populares</li>
+                    <li class="modal-list-item">Bingo</li>
+                    <li class="modal-list-item">Futebol</li>
+                    <li class="modal-list-item">Fazendinha</li>
+                    <li class="modal-list-item">Loteria Uruguaia</li>
+                    <li class="modal-list-item">Quininha</li>
+                    <li class="modal-list-item">Seninha</li>
+                    <li class="modal-list-item">Super15</li>
                 </ul>
             </div>
         </div>
