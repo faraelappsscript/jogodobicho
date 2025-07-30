@@ -5,25 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>77x Brasil - O seu 1 real vale 8 Mil</title>
     
-    <!-- Preload e carregamento das fontes locais -->
+    <!-- Carregamento de dependências (fontes e tema principal) -->
     <link rel="preload" href="/assets/fonts/inter.css" as="style">
     <link rel="stylesheet" href="/assets/fonts/inter.css">
     <link rel="preload" href="/assets/fonts/jetbrains-mono.css" as="style">
     <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
-    
-    <!-- CSS do tema -->
     <link rel="preload" href="/theme.css" as="style">
     <link rel="stylesheet" href="/theme.css">
     
+    <!-- ESTILOS PERSONALIZADOS (não modificar theme.css) -->
     <style>
-        /* CSS adicional para garantir que as fontes sejam aplicadas corretamente */
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        /* === ESTILOS PARA A LANDING PAGE === */
+
+        /* Garante que o body e o container principal ocupem a tela */
+        html, body {
+            height: 100%;
         }
-        
-        /* Aplicar JetBrains Mono para elementos de código, se necessário */
-        code, pre, .monospace {
-            font-family: 'JetBrains Mono', 'Courier New', monospace;
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100%;
+        }
+
+        /* Container do Header */
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: var(--spacing-lg);
+        }
+
+        /* 1. Estilo da Logo (dimensionada adequadamente) */
+        .logo-container {
+            margin-bottom: var(--spacing-lg);
+        }
+        .logo {
+            max-width: 280px; /* Largura máxima em telas grandes */
+            width: 70vw;      /* 70% da largura da tela em dispositivos menores */
+            height: auto;     /* Mantém a proporção da imagem */
+            object-fit: contain; /* Garante que a imagem inteira seja visível */
+        }
+
+        /* 2. Domínio do site removido do HTML. */
+
+        /* 3. Estilo do Slogan (menor e mais suave) */
+        .slogan {
+            /* Usar clamp para um tamanho de fonte responsivo e menor */
+            font-size: clamp(1.25rem, 4vw, 1.75rem); 
+            color: var(--text-secondary);
+            font-weight: 500; /* Fonte mais leve */
+            margin-bottom: var(--spacing-md);
+            /* Sobrescreve o gradiente do theme.css para um visual mais limpo */
+            background: none;
+            -webkit-background-clip: initial;
+            -webkit-text-fill-color: initial;
+            background-clip: initial;
+        }
+
+        /* Container do link de cotações */
+        .cotacoes-link-container {
+            margin-bottom: var(--spacing-xl);
+        }
+        .cotacoes-link {
+            color: var(--accent-primary);
+            text-decoration: underline;
+            font-weight: 500;
+            transition: color var(--transition-fast);
+        }
+        .cotacoes-link:hover {
+            color: var(--text-primary);
+        }
+
+        /* 4. Estilo do Botão de Cadastro (maior e destacado) */
+        .cadastro-container {
+            width: 100%;
+            max-width: 400px; /* Limita a largura do botão em telas grandes */
+        }
+        .btn-cadastro {
+            /* Tamanho de fonte responsivo e maior */
+            font-size: clamp(1.2rem, 4vw, 1.5rem); 
+            padding: var(--spacing-md) var(--spacing-lg); /* Mais preenchimento */
+            border-radius: var(--radius-md);
+            background: var(--gradient-success, #10b981); /* Usa variável do tema com fallback */
+            color: white;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+            width: 100%;
+            text-align: center;
+            display: block;
+            box-shadow: var(--shadow-lg), 0 0 20px rgba(16, 185, 129, 0.4);
+            transition: all var(--transition-normal);
+        }
+        .btn-cadastro:hover {
+            transform: translateY(-4px) scale(1.03); /* Efeito de elevação mais forte */
+            box-shadow: var(--shadow-xl), 0 0 30px rgba(16, 185, 129, 0.6);
+        }
+
+        /* 5. Ajustes para Responsividade */
+        @media (max-width: 767px) {
+            .header {
+                padding: var(--spacing-md);
+            }
+            .logo {
+                max-width: 220px;
+            }
+        }
+
+        /* Estilos para o Modal de Cotações */
+        .cotacoes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-md);
+        }
+        .cotacao-item {
+            background: var(--bg-secondary);
+            padding: var(--spacing-md);
+            border-radius: var(--radius-md);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-left: 4px solid var(--accent-primary);
+        }
+        .cotacao-modalidade {
+            font-weight: 600;
+            color: var(--text-primary);
+            font-size: 0.875rem;
+        }
+        .cotacao-valor {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            color: var(--accent-success);
+            font-size: 1rem;
         }
     </style>
 </head>
@@ -31,17 +147,14 @@
     <div class="container">
         <!-- Header Principal -->
         <header class="header">
-            <!-- Logo -->
+            <!-- 1. Logo com container -->
             <div class="logo-container">
                 <img src="/assets/img/logo.png" alt="77x Brasil Logo" class="logo">
             </div>
             
-            <!-- Domínio do Site -->
-            <div class="domain-display">
-                <span id="siteDomain">Carregando...</span>
-            </div>
+            <!-- 2. Domínio do site removido -->
             
-            <!-- Slogan -->
+            <!-- 3. Slogan com nova classe -->
             <h1 class="slogan">Na 77x Brasil, o seu 1 real vale 8 Mil.</h1>
             
             <!-- Link para Cotações -->
@@ -49,7 +162,7 @@
                 <a href="#" id="cotacoesLink" class="cotacoes-link">[Clique aqui para ver as cotações]</a>
             </div>
             
-            <!-- Botão de Cadastro -->
+            <!-- 4. Botão de Cadastro com nova classe -->
             <div class="cadastro-container">
                 <a href="#" id="cadastroBtn" class="btn btn-cadastro">Cadastre-se</a>
             </div>
@@ -65,129 +178,67 @@
             </div>
             <div class="modal-body">
                 <div class="cotacoes-grid">
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">MILHAR</span>
-                        <span class="cotacao-valor">8.000,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">CENTENA</span>
-                        <span class="cotacao-valor">800,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">GRUPO</span>
-                        <span class="cotacao-valor">20,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">DEZENA</span>
-                        <span class="cotacao-valor">80,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">UNIDADE</span>
-                        <span class="cotacao-valor">8,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">DUQUE DE GRUPO (1º AO 2º)</span>
-                        <span class="cotacao-valor">180,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">DUQUE DE GRUPO (1º AO 5º)</span>
-                        <span class="cotacao-valor">18,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">DUQUE DE DEZENA (1º AO 5º)</span>
-                        <span class="cotacao-valor">300,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">TERNO DE GRUPO (1º AO 3º)</span>
-                        <span class="cotacao-valor">1.500,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">TERNO DE GRUPO (1º AO 5º)</span>
-                        <span class="cotacao-valor">150,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">PASSE VAI</span>
-                        <span class="cotacao-valor">90,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">PASSE VAI E VEM</span>
-                        <span class="cotacao-valor">45,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">TERNO DE DEZENA (1º AO 5º)</span>
-                        <span class="cotacao-valor">5.000,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">QUADRA DE GRUPO (1º AO 5º)</span>
-                        <span class="cotacao-valor">1.000,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">QUINA DE GRUPO (1º AO 5º)</span>
-                        <span class="cotacao-valor">1.000,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">SENA DE GRUPO (1º AO 6º)</span>
-                        <span class="cotacao-valor">1.000,00</span>
-                    </div>
-                    <div class="cotacao-item">
-                        <span class="cotacao-modalidade">PALPITÃO</span>
-                        <span class="cotacao-valor">800,00</span>
-                    </div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">MILHAR</span><span class="cotacao-valor">8.000,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">CENTENA</span><span class="cotacao-valor">800,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">GRUPO</span><span class="cotacao-valor">20,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">DEZENA</span><span class="cotacao-valor">80,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">UNIDADE</span><span class="cotacao-valor">8,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">DUQUE DE GRUPO (1º AO 2º)</span><span class="cotacao-valor">180,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">DUQUE DE GRUPO (1º AO 5º)</span><span class="cotacao-valor">18,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">DUQUE DE DEZENA (1º AO 5º)</span><span class="cotacao-valor">300,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">TERNO DE GRUPO (1º AO 3º)</span><span class="cotacao-valor">1.500,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">TERNO DE GRUPO (1º AO 5º)</span><span class="cotacao-valor">150,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">PASSE VAI</span><span class="cotacao-valor">90,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">PASSE VAI E VEM</span><span class="cotacao-valor">45,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">TERNO DE DEZENA (1º AO 5º)</span><span class="cotacao-valor">5.000,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">QUADRA DE GRUPO (1º AO 5º)</span><span class="cotacao-valor">1.000,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">QUINA DE GRUPO (1º AO 5º)</span><span class="cotacao-valor">1.000,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">SENA DE GRUPO (1º AO 6º)</span><span class="cotacao-valor">1.000,00</span></div>
+                    <div class="cotacao-item"><span class="cotacao-modalidade">PALPITÃO</span><span class="cotacao-valor">800,00</span></div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Scripts -->
     <script defer src="/assets/js/flatpickr.js"></script>
     <script defer src="/assets/js/flatpickr.pt.js"></script>
     <script src="/resultados/script.js"></script>
     <script>
-        // Detectar domínio automaticamente
-        function updateSiteDomain() {
-            const domain = window.location.hostname;
-            document.getElementById("siteDomain").textContent = domain;
+        // Funções JS para interatividade (sem alterações)
+        function getStoredProductCode() {
+            return localStorage.getItem("productCode");
         }
-
-        // Abrir modal de cotações
+        function captureAndStoreUrlParameter() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const codeParam = urlParams.get('pr');
+            if (codeParam) {
+                localStorage.setItem("productCode", codeParam);
+            }
+        }
         function openCotacoesModal() {
             document.getElementById("cotacoesModal").style.display = "flex";
             document.body.classList.add("modal-open");
         }
-
-        // Fechar modal de cotações
         function closeCotacoesModal() {
             document.getElementById("cotacoesModal").style.display = "none";
             document.body.classList.remove("modal-open");
         }
-
-        // Configurar link de cadastro
         function setupCadastroLink() {
-            const domain = window.location.hostname;
             const storedCode = getStoredProductCode();
             const code = storedCode || "PACruTth";
-            const cadastroUrl = `${window.location.protocol}//${domain}/pr/${code}`;
-            document.getElementById("cadastroBtn").href = cadastroUrl;
+            // O link de cadastro pode ser ajustado conforme a estrutura do seu site
+            const cadastroUrl = `https://app.77xbrasil.com.br/pr/${code}`;
+            document.getElementById("cadastroBtn" ).href = cadastroUrl;
         }
-
-        // Inicialização
         document.addEventListener("DOMContentLoaded", function() {
-            // Capturar parâmetro de URL se existir
             captureAndStoreUrlParameter();
-            
-            // Atualizar domínio
-            updateSiteDomain();
-            
-            // Configurar link de cadastro
             setupCadastroLink();
-            
-            // Configurar evento do link de cotações
             document.getElementById("cotacoesLink").addEventListener("click", function(e) {
                 e.preventDefault();
                 openCotacoesModal();
             });
         });
-
-        // Fechar modal ao clicar fora dele
         window.addEventListener("click", function(event) {
             const modal = document.getElementById("cotacoesModal");
             if (event.target === modal) {
@@ -197,4 +248,3 @@
     </script>
 </body>
 </html>
-
