@@ -1,1 +1,297 @@
-{}
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8879",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5534",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4601",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0266",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2292",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "1572",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "136",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "2377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 2377"
+        ],
+        "2378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 2378"
+        ],
+        "4377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 4377"
+        ],
+        "4378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 4378"
+        ],
+        "5377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 5377"
+        ],
+        "5378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 5378"
+        ],
+        "6377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 6377"
+        ],
+        "6378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 6378"
+        ],
+        "7377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 7377"
+        ],
+        "7378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 7378"
+        ],
+        "8377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 8377"
+        ],
+        "8378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 8378"
+        ],
+        "9377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 9377"
+        ],
+        "9378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 9378"
+        ],
+        "0377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 0377"
+        ],
+        "0378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 0378"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦃"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0357, 0358, 0377, 0378, 2357, 2358, 2377, 2378, 4357, 4358, 4377, 4378, 5357, 5358, 5377, 5378, 6357, 6358, 6377, 6378, 7357, 7358, 7377, 7378, 8357, 8358, 8377, 8378, 9357, 9358, 9377, 9378"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8879",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5534",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4601",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0266",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2292",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "8540",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "8562",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "7306",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "9416",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "5396",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        }
+      ],
+      "frases": {
+        "2377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 2377"
+        ],
+        "2378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 2378"
+        ],
+        "4377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 4377"
+        ],
+        "4378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 4378"
+        ],
+        "5377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 5377"
+        ],
+        "5378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 5378"
+        ],
+        "6377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 6377"
+        ],
+        "6378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 6378"
+        ],
+        "7377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 7377"
+        ],
+        "7378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 7378"
+        ],
+        "8377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 8377"
+        ],
+        "8378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 8378"
+        ],
+        "9377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 9377"
+        ],
+        "9378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 9378"
+        ],
+        "0377": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 0377"
+        ],
+        "0378": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 0378"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦃"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0357, 0358, 0377, 0378, 2357, 2358, 2377, 2378, 4357, 4358, 4377, 4378, 5357, 5358, 5377, 5378, 6357, 6358, 6377, 6378, 7357, 7358, 7377, 7378, 8357, 8358, 8377, 8378, 9357, 9358, 9377, 9378"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
