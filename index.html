@@ -56,7 +56,6 @@
             animation: gradient-slide 5s linear infinite;
         }
         
-        /* Keyframes para a animação do gradiente */
         @keyframes gradient-slide {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
@@ -116,12 +115,11 @@
         .bonus-item::before { content: '⭐'; font-size: 1rem; }
         .bonus-terms { font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; margin-bottom: var(--spacing-md); }
         
-        /* --- BOTÃO DE CADASTRO ATUALIZADO --- */
+        /* Botão de Cadastro */
         .cadastro-container { width: 100%; max-width: 400px; }
         .btn-cadastro {
             padding: var(--spacing-md) var(--spacing-lg);
             border-radius: var(--radius-md);
-            /* 1. Usando o mesmo gradiente do título */
             background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
             color: white;
             width: 100%;
@@ -129,14 +127,19 @@
             display: block;
             border: none;
             box-shadow: var(--shadow-lg), var(--shadow-glow);
-            transition: all var(--transition-normal);
+            transition: none; /* Remove qualquer transição */
             text-decoration: none;
-            /* 1. Adicionando as propriedades de animação */
             background-size: 200% auto;
             animation: gradient-slide 5s linear infinite;
+            cursor: pointer; /* Mantém o cursor de clique */
         }
         
-        /* 2. Efeito hover removido */
+        /* --- HOVER REMOVIDO COMPLETAMENTE --- */
+        /* Esta regra garante que nenhuma propriedade mude no hover */
+        .btn-cadastro:hover {
+            color: white; /* Mantém a cor do texto */
+            text-decoration: none; /* Garante que não haja sublinhado */
+        }
 
         .btn-cadastro-main-text {
             font-size: clamp(1.2rem, 4vw, 1.5rem);
