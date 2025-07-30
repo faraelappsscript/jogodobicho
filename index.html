@@ -59,13 +59,11 @@
             margin-bottom: var(--spacing-xl);
         }
 
-        /* Estilo para os botões secundários (Cotações e Informações) */
-        .secondary-buttons-container {
-            display: flex;
-            gap: var(--spacing-md);
+        /* Estilo para o botão 'Ver Cotações' */
+        .cotacoes-button-container {
             margin-bottom: var(--spacing-lg);
         }
-        .info-button { /* Renomeado de cotacoes-link para ser mais genérico */
+        .info-button {
             color: var(--text-muted);
             font-weight: 500;
             border: 1px solid var(--border-color);
@@ -74,6 +72,7 @@
             transition: all var(--transition-fast);
             text-decoration: none;
             cursor: pointer;
+            display: inline-block; /* Garante que o padding seja aplicado corretamente */
         }
         .info-button:hover {
             color: var(--text-primary);
@@ -121,6 +120,7 @@
             font-size: 0.8rem;
             color: var(--text-muted);
             line-height: 1.5;
+            margin-bottom: var(--spacing-md); /* Espaço entre o texto e o botão */
         }
         
         /* Estilos para o Modal de Informações */
@@ -178,11 +178,8 @@
             <h1 class="slogan">77x Brasil</h1>
             <p class="slogan-subtitle">Na 77x Brasil, o seu 1 real vale 8 Mil.</p>
             
-            <!-- Container para os botões secundários -->
-            <div class="secondary-buttons-container">
+            <div class="cotacoes-button-container">
                 <a href="#" id="cotacoesLink" class="info-button">Ver Cotações</a>
-                <!-- O botão de informações agora usa a mesma classe 'info-button' -->
-                <a href="#" id="infoLink" class="info-button">Mais Informações</a>
             </div>
 
             <!-- Seção de Informações de Bônus -->
@@ -196,6 +193,8 @@
                 <p class="bonus-terms">
                     Bônus sobre o valor da recarga na opção Loterias, válidos para a primeira recarga do dia até R$ 500,00.
                 </p>
+                <!-- BOTÃO MOVIDO PARA CÁ -->
+                <a href="#" id="infoLink" class="info-button">Mais Informações</a>
             </div>
             
             <div class="cadastro-container">
@@ -257,7 +256,7 @@
         function openInfoModal() { document.getElementById("infoModal").style.display = "flex"; document.body.classList.add("modal-open"); }
         function closeInfoModal() { document.getElementById("infoModal").style.display = "none"; document.body.classList.remove("modal-open"); }
 
-        function setupCadastroLink() { const storedCode = getStoredProductCode(); const code = storedCode || "PACruTth"; const cadastroUrl = `https://app.77xbrasil.com.br/pr/${code}`; document.getElementById("cadastroBtn" ).href = cadastroUrl; }
+        function setupCadastroLink() { const storedCode = getStoredProductCode(); const code = storedCode || "PACruTth"; const cadastroUrl = `https://app.77xbrasil.com.br/pr/${code}`; document.getElementById("cadastroBtn").href = cadastroUrl; }
         
         document.addEventListener("DOMContentLoaded", function() {
             captureAndStoreUrlParameter();
