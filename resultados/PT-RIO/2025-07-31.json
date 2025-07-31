@@ -454,20 +454,66 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "9324",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0086",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6662",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8308",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5531",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "9911",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "801",
+          "Grupo": "",
+          "Bicho": ""
+        }
       ],
-      "frases": {},
+      "frases": {
+        "0263": [
+          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 0263"
+        ],
+        "0363": [
+          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 0363"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦁"
+        ]
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 0233, 0238, 0263, 0268, 0333, 0338, 0363, 0368"
     }
   },
   "1-10": {
@@ -1059,25 +1105,97 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "9324",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0086",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6662",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8308",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5531",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "9068",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "3063",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "2860",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "4628",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "9530",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        }
       ],
-      "frases": {},
+      "frases": {
+        "0263": [
+          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 0263",
+          "Dezena no sétimo prêmio!<br>com o palpite 0263",
+          "LEÃO 🦁 no sétimo prêmio!<br>com o palpite 0263"
+        ],
+        "0363": [
+          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 0363",
+          "Dezena no sétimo prêmio!<br>com o palpite 0363",
+          "LEÃO 🦁 no sétimo prêmio!<br>com o palpite 0363"
+        ],
+        "0268": [
+          "Dezena no sexto prêmio!<br>com o palpite 0268",
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 0268"
+        ],
+        "0368": [
+          "Dezena no sexto prêmio!<br>com o palpite 0368",
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 0368"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 4,
+        "Grupo": [
+          "🦁",
+          "🐒"
+        ]
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 0233, 0238, 0263, 0268, 0333, 0338, 0363, 0368"
     }
   }
 }
