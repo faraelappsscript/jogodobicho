@@ -225,7 +225,7 @@
         .cotacao-modalidade { font-weight: 600; color: var(--text-primary); font-size: 0.875rem; }
         .cotacao-valor { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--accent-success); font-size: 1rem; }
 
-        /* --- NOVO BOTÃO DE CTA NO MODAL --- */
+        /* --- ESTILO ATUALIZADO PARA O BOTÃO DE CTA NO MODAL --- */
         .btn-whatsapp-cta {
             display: flex;
             align-items: center;
@@ -233,7 +233,8 @@
             gap: var(--spacing-sm);
             padding: var(--spacing-md) var(--spacing-lg);
             border-radius: var(--radius-md);
-            background: var(--gradient-success, linear-gradient(135deg, #4facfe, #00f2fe));
+            background-color: var(--bg-secondary); /* Fundo escuro */
+            border: 1px solid var(--border-color); /* Borda sutil */
             color: white;
             font-weight: 700;
             font-size: 1rem;
@@ -242,8 +243,10 @@
             transition: all var(--transition-fast);
         }
         .btn-whatsapp-cta:hover {
+            background-color: var(--bg-card-hover); /* Efeito hover sutil */
+            border-color: var(--border-accent);
             transform: translateY(-2px);
-            box-shadow: var(--shadow-glow);
+            box-shadow: var(--shadow-md);
         }
         .btn-whatsapp-cta img {
             width: 20px;
@@ -399,7 +402,6 @@ Clique aqui e saiba mais!</span>
                     <h4>Site de Resultados</h4>
                     <p>Quando você ou seus clientes compartilham qualquer conteúdo do nosso site (como resultados ou palpites), seu código de promotor é anexado automaticamente ao link. Qualquer pessoa que clicar e se cadastrar através desse link se torna seu cliente. Esse sistema cria um efeito viral: seus clientes atraem mais clientes para você, expandindo sua rede de forma exponencial e automática.</p>
                 </div>
-                <!-- NOVO BOTÃO DE CTA ADICIONADO AQUI -->
                 <a href="https://wa.me/5583993708505" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-cta">
                     <img src="/assets/img/wz.webp" alt="Ícone WhatsApp">
                     Quero ser promotor
