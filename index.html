@@ -168,14 +168,14 @@
         }
         .btn-cadastro-whatsapp-icon { width: 16px; height: 16px; vertical-align: middle; }
 
-        /* --- ESTILOS ATUALIZADOS PARA O BOTÃO DE PROMOTOR --- */
+        /* Botão de Promotor */
         .promotor-container { width: 100%; max-width: 400px; }
         .btn-promotor {
             padding: var(--spacing-md) var(--spacing-lg);
             border-radius: var(--radius-md);
-            background-color: var(--bg-secondary); /* Fundo escuro sólido */
-            border: 1px solid var(--border-color); /* Borda sutil */
-            color: white; /* Cor do texto branca */
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: white;
             width: 100%;
             text-align: center;
             display: block;
@@ -187,7 +187,7 @@
         .btn-promotor:hover { 
             color: white; 
             text-decoration: none;
-            background-color: var(--bg-card-hover); /* Efeito hover sutil */
+            background-color: var(--bg-card-hover);
             border-color: var(--border-accent);
         }
         .btn-promotor-main-text {
@@ -198,7 +198,7 @@
             display: block;
         }
         .btn-promotor-subtext {
-            font-size: 0.85rem; /* Tamanho da fonte aumentado */
+            font-size: 0.85rem;
             font-weight: 400;
             letter-spacing: normal;
             text-transform: none;
@@ -206,7 +206,7 @@
             margin-top: var(--spacing-xs);
             opacity: 0.9;
             line-height: 1.4;
-            color: var(--text-secondary); /* Cor sutil para o subtítulo */
+            color: var(--text-secondary);
         }
 
         /* Estilos para Modais */
@@ -224,6 +224,31 @@
         .cotacao-item { background: var(--bg-secondary); padding: var(--spacing-md); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; border-left: 4px solid var(--accent-primary); }
         .cotacao-modalidade { font-weight: 600; color: var(--text-primary); font-size: 0.875rem; }
         .cotacao-valor { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--accent-success); font-size: 1rem; }
+
+        /* --- NOVO BOTÃO DE CTA NO MODAL --- */
+        .btn-whatsapp-cta {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--spacing-sm);
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            background: var(--gradient-success, linear-gradient(135deg, #4facfe, #00f2fe));
+            color: white;
+            font-weight: 700;
+            font-size: 1rem;
+            text-decoration: none;
+            margin-top: var(--spacing-xl);
+            transition: all var(--transition-fast);
+        }
+        .btn-whatsapp-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-glow);
+        }
+        .btn-whatsapp-cta img {
+            width: 20px;
+            height: 20px;
+        }
 
         /* Responsividade */
         @media (max-width: 767px) { .logo { max-width: 220px; } .slogan { font-size: 1.75rem; } .slogan-subtitle { font-size: 1rem; } }
@@ -374,6 +399,11 @@ Clique aqui e saiba mais!</span>
                     <h4>Site de Resultados</h4>
                     <p>Quando você ou seus clientes compartilham qualquer conteúdo do nosso site (como resultados ou palpites), seu código de promotor é anexado automaticamente ao link. Qualquer pessoa que clicar e se cadastrar através desse link se torna seu cliente. Esse sistema cria um efeito viral: seus clientes atraem mais clientes para você, expandindo sua rede de forma exponencial e automática.</p>
                 </div>
+                <!-- NOVO BOTÃO DE CTA ADICIONADO AQUI -->
+                <a href="https://wa.me/5583993708505" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-cta">
+                    <img src="/assets/img/wz.webp" alt="Ícone WhatsApp">
+                    Quero ser promotor
+                </a>
             </div>
         </div>
     </div>
@@ -383,7 +413,7 @@ Clique aqui e saiba mais!</span>
     <script defer src="/assets/js/flatpickr.pt.js"></script>
     <script src="/resultados/script.js"></script>
     <script>
-        function getStoredProductCode() { return localStorage.getItem("productCode"); }
+        function getStoredProductCode( ) { return localStorage.getItem("productCode"); }
         function captureAndStoreUrlParameter() { const urlParams = new URLSearchParams(window.location.search); const codeParam = urlParams.get('pr'); if (codeParam) { localStorage.setItem("productCode", codeParam); } }
         
         function openCotacoesModal() { document.getElementById("cotacoesModal").style.display = "flex"; document.body.classList.add("modal-open"); }
