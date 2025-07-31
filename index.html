@@ -116,7 +116,7 @@
         .bonus-terms { font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; margin-bottom: var(--spacing-md); }
         
         /* Botão de Cadastro */
-        .cadastro-container { width: 100%; max-width: 400px; }
+        .cadastro-container { width: 100%; max-width: 400px; margin-bottom: var(--spacing-lg); }
         .btn-cadastro {
             padding: var(--spacing-md) var(--spacing-lg);
             border-radius: var(--radius-md);
@@ -134,10 +134,7 @@
             cursor: pointer;
         }
         
-        .btn-cadastro:hover {
-            color: white;
-            text-decoration: none;
-        }
+        .btn-cadastro:hover { color: white; text-decoration: none; }
 
         .btn-cadastro-main-text {
             font-size: clamp(1.2rem, 4vw, 1.5rem);
@@ -156,25 +153,56 @@
             opacity: 0.85;
             line-height: 1.3;
         }
-
-        /* --- ESTILOS ATUALIZADOS PARA A LINHA DO WHATSAPP --- */
         .btn-cadastro-whatsapp {
-            display: flex; /* Usar flexbox para alinhar itens */
+            display: flex;
             align-items: center;
-            justify-content: center; /* Centraliza o conteúdo */
-            gap: var(--spacing-sm); /* Espaço entre os itens */
+            justify-content: center;
+            gap: var(--spacing-sm);
             font-size: 0.85rem;
             font-weight: 600;
             background-color: rgba(0, 0, 0, 0.2);
             padding: var(--spacing-xs) var(--spacing-sm);
             border-radius: var(--radius-sm);
-            margin: var(--spacing-md) auto 0; /* Centraliza o container */
-            max-width: 90%; /* Garante que não saia do botão */
+            margin: var(--spacing-md) auto 0;
+            max-width: 90%;
         }
-        .btn-cadastro-whatsapp-icon {
-            width: 16px;  /* Tamanho do ícone */
-            height: 16px;
-            vertical-align: middle; /* Alinha verticalmente com o texto */
+        .btn-cadastro-whatsapp-icon { width: 16px; height: 16px; vertical-align: middle; }
+
+        /* --- NOVO BOTÃO DE PROMOTOR --- */
+        .promotor-container { width: 100%; max-width: 400px; }
+        .btn-promotor {
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            background: var(--gradient-secondary, linear-gradient(135deg, #f093fb, #f5576c)); /* Gradiente diferente */
+            color: white;
+            width: 100%;
+            text-align: center;
+            display: block;
+            border: none;
+            box-shadow: var(--shadow-lg), 0 0 20px rgba(245, 87, 108, 0.2);
+            transition: none;
+            text-decoration: none;
+            background-size: 200% auto;
+            animation: gradient-slide 6s linear infinite; /* Duração um pouco diferente para dessincronizar */
+            cursor: pointer;
+        }
+        .btn-promotor:hover { color: white; text-decoration: none; }
+        .btn-promotor-main-text {
+            font-size: clamp(1.1rem, 3.5vw, 1.4rem);
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            display: block;
+        }
+        .btn-promotor-subtext {
+            font-size: 0.75rem;
+            font-weight: 400;
+            letter-spacing: normal;
+            text-transform: none;
+            display: block;
+            margin-top: var(--spacing-xs);
+            opacity: 0.9;
+            line-height: 1.4;
         }
 
         /* Estilos para Modais */
@@ -186,24 +214,16 @@
         .info-value { font-weight: 700; color: var(--text-primary); font-family: 'JetBrains Mono', monospace; }
         .modal-list-item { color: var(--text-secondary); padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--border-color); }
         .modal-list-item:last-child { border-bottom: none; }
+        .promotor-text-block { margin-top: var(--spacing-md); padding-top: var(--spacing-md); border-top: 1px solid var(--border-color); }
+        .promotor-text-block p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; text-align: left; }
         .cotacoes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-md); }
         .cotacao-item { background: var(--bg-secondary); padding: var(--spacing-md); border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; border-left: 4px solid var(--accent-primary); }
         .cotacao-modalidade { font-weight: 600; color: var(--text-primary); font-size: 0.875rem; }
         .cotacao-valor { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--accent-success); font-size: 1rem; }
 
-        /* --- MEDIA QUERIES PARA RESPONSIVIDADE APRIMORADA --- */
-        @media (max-width: 767px) {
-            .logo { max-width: 220px; }
-            .slogan { font-size: 1.75rem; }
-            .slogan-subtitle { font-size: 1rem; }
-        }
-        @media (max-width: 380px) {
-            .slogan { font-size: 1.5rem; } /* Reduz ainda mais em telas muito pequenas */
-            .slogan-subtitle { font-size: 0.9rem; }
-            .btn-cadastro-main-text { font-size: 1rem; } /* Ajusta o texto do botão */
-            .btn-cadastro-subtext { font-size: 0.75rem; }
-            .btn-cadastro-whatsapp { font-size: 0.75rem; }
-        }
+        /* Responsividade */
+        @media (max-width: 767px) { .logo { max-width: 220px; } .slogan { font-size: 1.75rem; } .slogan-subtitle { font-size: 1rem; } }
+        @media (max-width: 380px) { .slogan { font-size: 1.5rem; } .slogan-subtitle { font-size: 0.9rem; } .btn-cadastro-main-text { font-size: 1rem; } .btn-cadastro-subtext { font-size: 0.75rem; } .btn-cadastro-whatsapp { font-size: 0.75rem; } .btn-promotor-main-text { font-size: 1rem; } .btn-promotor-subtext { font-size: 0.7rem; } }
     </style>
 </head>
 <body>
@@ -237,12 +257,19 @@
                 <a href="#" id="cadastroBtn" class="btn-cadastro">
                     <span class="btn-cadastro-main-text">Cadastre-se agora</span>
                     <span class="btn-cadastro-subtext">Tenha a sorte na palma da sua mão e descubra a emoção de ganhar prêmios incríveis!</span>
-                    <!-- LINHA DO WHATSAPP ATUALIZADA COM ÍCONE DE IMAGEM -->
                     <span class="btn-cadastro-whatsapp">
-                        <img src="/assets/img/wz.webp" alt="Ícone WhatsApp" class="btn-cadastro-whatsapp-icon">
-                        Grupo de palpites no WhatsApp
-                        <img src="/assets/img/vf.webp" alt="Ícone WhatsApp" class="btn-cadastro-whatsapp-icon">
+                        📱 Grupo de palpites no WhatsApp. 
+                        <img src="/assets/img/wz.png" alt="Ícone WhatsApp" class="btn-cadastro-whatsapp-icon">
                     </span>
+                </a>
+            </div>
+
+            <!-- NOVO BOTÃO DE PROMOTOR -->
+            <div class="promotor-container">
+                <a href="#" id="promotorBtn" class="btn-promotor">
+                    <span class="btn-promotor-main-text">Seja um promotor</span>
+                    <span class="btn-promotor-subtext">Comissão de 10% sobre as vendas do JB!  
+Clique aqui e saiba mais!</span>
                 </a>
             </div>
         </header>
@@ -314,6 +341,39 @@
         </div>
     </div>
 
+    <!-- NOVO MODAL DE PROMOTOR -->
+    <div id="promotorModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">💎 Seja um Promotor</h2>
+                <button class="close-btn" onclick="closePromotorModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul class="info-list">
+                    <h4>Comissões</h4>
+                    <li class="modal-list-item">💰 10% de comissão sobre vendas JB</li>
+                    <li class="modal-list-item">💰 5% de comissão sobre vendas Fazendinha</li>
+                    <li class="modal-list-item">💰 10% de comissão do lucro mensal (Bingo e Cassino)</li>
+                    <li class="modal-list-item">💰 10% de comissão do lucro mensal do JB</li>
+                    <li class="modal-list-item">📦 Material de trabalho incluso</li>
+                </ul>
+                <ul class="info-list">
+                    <h4>Exclusividade</h4>
+                    <li class="modal-list-item">📈 Landing Page personalizada e otimizada para o Google</li>
+                    <li class="modal-list-item">💎 Site de resultados com o seu link de promotor integrado</li>
+                </ul>
+                <div class="promotor-text-block">
+                    <h4>Landing Page</h4>
+                    <p>Uma Landing Page é sua página de vendas pessoal, criada para transformar visitantes em clientes. Nós a otimizamos para o Google, permitindo que novas pessoas encontrem sua página através de buscas por resultados, palpites e outros termos relacionados à banca, direcionando o tráfego diretamente para você.</p>
+                </div>
+                <div class="promotor-text-block">
+                    <h4>Site de Resultados</h4>
+                    <p>Quando você ou seus clientes compartilham qualquer conteúdo do nosso site (como resultados ou palpites), seu código de promotor é anexado automaticamente ao link. Qualquer pessoa que clicar e se cadastrar através desse link se torna seu cliente. Esse sistema cria um efeito viral: seus clientes atraem mais clientes para você, expandindo sua rede de forma exponencial e automática.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Scripts -->
     <script defer src="/assets/js/flatpickr.js"></script>
     <script defer src="/assets/js/flatpickr.pt.js"></script>
@@ -328,6 +388,10 @@
         function openInfoModal() { document.getElementById("infoModal").style.display = "flex"; document.body.classList.add("modal-open"); }
         function closeInfoModal() { document.getElementById("infoModal").style.display = "none"; document.body.classList.remove("modal-open"); }
 
+        // --- NOVAS FUNÇÕES PARA O MODAL DE PROMOTOR ---
+        function openPromotorModal() { document.getElementById("promotorModal").style.display = "flex"; document.body.classList.add("modal-open"); }
+        function closePromotorModal() { document.getElementById("promotorModal").style.display = "none"; document.body.classList.remove("modal-open"); }
+
         function setupCadastroLink() { const storedCode = getStoredProductCode(); const code = storedCode || "PACruTth"; const cadastroUrl = `https://app.77xbrasil.com.br/pr/${code}`; document.getElementById("cadastroBtn" ).href = cadastroUrl; }
         
         document.addEventListener("DOMContentLoaded", function() {
@@ -336,12 +400,15 @@
             
             document.getElementById("cotacoesLink").addEventListener("click", function(e) { e.preventDefault(); openCotacoesModal(); });
             document.getElementById("infoLink").addEventListener("click", function(e) { e.preventDefault(); openInfoModal(); });
+            // --- NOVO EVENT LISTENER PARA O BOTÃO DE PROMOTOR ---
+            document.getElementById("promotorBtn").addEventListener("click", function(e) { e.preventDefault(); openPromotorModal(); });
         });
         
         window.addEventListener("click", function(event) {
             if (event.target.classList.contains('modal')) {
                 closeCotacoesModal();
                 closeInfoModal();
+                closePromotorModal(); // Fecha o modal de promotor também
             }
         });
     </script>
