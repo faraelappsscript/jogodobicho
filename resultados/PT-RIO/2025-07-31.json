@@ -111,14 +111,41 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "5513": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 5513"
+        ],
+        "5515": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 5515"
+        ],
+        "5713": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 5713"
+        ],
+        "5715": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 5715"
+        ],
+        "6513": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 6513"
+        ],
+        "6515": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 6515"
+        ],
+        "6713": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 6713"
+        ],
+        "6715": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 6715"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1736, 2736, 5736"
+      "resumo": "Palpites dados para esta extração: 5510, 5513, 5515, 5517, 5519, 5710, 5713, 5715, 5717, 5719, 6510, 6513, 6515, 6517, 6519, 6710, 6713, 6715, 6717, 6719"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -171,29 +198,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1736": [
-          "Dezena no quarto prêmio!<br>com o palpite 1736",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 1736"
-        ],
-        "2736": [
-          "Dezena no quarto prêmio!<br>com o palpite 2736",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 2736"
-        ],
-        "5736": [
-          "Dezena no quarto prêmio!<br>com o palpite 5736",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 5736"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
-        "Grupo": [
-          "🐍"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1736, 2736, 5736"
+      "resumo": "Palpites dados para esta extração: 5510, 5513, 5515, 5517, 5519, 5710, 5713, 5715, 5717, 5719, 6510, 6513, 6515, 6517, 6519, 6710, 6713, 6715, 6717, 6719"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -246,14 +258,58 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "5510": [
+          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 5510"
+        ],
+        "5513": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 5513"
+        ],
+        "5515": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5515",
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 5515"
+        ],
+        "5710": [
+          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 5710"
+        ],
+        "5713": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 5713"
+        ],
+        "5715": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5715",
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 5715"
+        ],
+        "6510": [
+          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 6510"
+        ],
+        "6513": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 6513"
+        ],
+        "6515": [
+          "Dezena no terceiro prêmio!<br>com o palpite 6515",
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 6515"
+        ],
+        "6710": [
+          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 6710"
+        ],
+        "6713": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 6713"
+        ],
+        "6715": [
+          "Dezena no terceiro prêmio!<br>com o palpite 6715",
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 6715"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 4,
+        "Grupo": [
+          "🦋",
+          "🐴"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1736, 2736, 5736"
+      "resumo": "Palpites dados para esta extração: 5510, 5513, 5515, 5517, 5519, 5710, 5713, 5715, 5717, 5719, 6510, 6513, 6515, 6517, 6519, 6710, 6713, 6715, 6717, 6719"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
