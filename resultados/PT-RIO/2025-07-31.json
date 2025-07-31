@@ -111,25 +111,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "0238": [
-          "COELHO 🐇 no segundo prêmio!<br>com o palpite 0238",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 0238"
-        ],
-        "0338": [
-          "COELHO 🐇 no segundo prêmio!<br>com o palpite 0338",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 0338"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐇"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0233, 0238, 0263, 0268, 0333, 0338, 0363, 0368"
+      "resumo": "Palpites dados para esta extração: 0068, 0368"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -183,14 +172,8 @@
         }
       ],
       "frases": {
-        "0233": [
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 0233"
-        ],
-        "0333": [
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 0333"
-        ],
-        "0268": [
-          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 0268"
+        "0068": [
+          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 0068"
         ],
         "0368": [
           "MACACO 🐒 no sétimo prêmio!<br>com o palpite 0368"
@@ -201,11 +184,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐍",
           "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0233, 0238, 0263, 0268, 0333, 0338, 0363, 0368"
+      "resumo": "Palpites dados para esta extração: 0068, 0368"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -258,23 +240,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "0238": [
-          "COELHO 🐇 no quinto prêmio!<br>com o palpite 0238"
-        ],
-        "0338": [
-          "COELHO 🐇 no quinto prêmio!<br>com o palpite 0338"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐇"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0233, 0238, 0263, 0268, 0333, 0338, 0363, 0368"
+      "resumo": "Palpites dados para esta extração: 0068, 0368"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -328,35 +301,25 @@
         }
       ],
       "frases": {
-        "0268": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0268",
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 0268"
+        "0068": [
+          "Dezena no terceiro prêmio!<br>com o palpite 0068",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 0068"
         ],
         "0368": [
           "Centena e Dezena no terceiro prêmio!<br>com o palpite 0368",
           "Dezena no terceiro prêmio!<br>com o palpite 0368",
           "MACACO 🐒 no terceiro prêmio!<br>com o palpite 0368"
-        ],
-        "0233": [
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 0233",
-          "Dezena no quinto prêmio!<br>com o palpite 0233",
-          "COBRA 🐍 no quinto prêmio!<br>com o palpite 0233"
-        ],
-        "0333": [
-          "Dezena no quinto prêmio!<br>com o palpite 0333",
-          "COBRA 🐍 no quinto prêmio!<br>com o palpite 0333"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 4,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
-          "🐒",
-          "🐍"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0233, 0238, 0263, 0268, 0333, 0338, 0363, 0368"
+      "resumo": "Palpites dados para esta extração: 0068, 0368"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -497,23 +460,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "0263": [
-          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 0263"
-        ],
-        "0363": [
-          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 0363"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🦁"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0233, 0238, 0263, 0268, 0333, 0338, 0363, 0368"
+      "resumo": "Palpites dados para esta extração: 0068, 0368"
     }
   },
   "1-10": {
