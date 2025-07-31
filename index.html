@@ -168,25 +168,28 @@
         }
         .btn-cadastro-whatsapp-icon { width: 16px; height: 16px; vertical-align: middle; }
 
-        /* --- NOVO BOTÃO DE PROMOTOR --- */
+        /* --- ESTILOS ATUALIZADOS PARA O BOTÃO DE PROMOTOR --- */
         .promotor-container { width: 100%; max-width: 400px; }
         .btn-promotor {
             padding: var(--spacing-md) var(--spacing-lg);
             border-radius: var(--radius-md);
-            background: var(--gradient-secondary, linear-gradient(135deg, #f093fb, #f5576c)); /* Gradiente diferente */
-            color: white;
+            background-color: var(--bg-secondary); /* Fundo escuro sólido */
+            border: 1px solid var(--border-color); /* Borda sutil */
+            color: white; /* Cor do texto branca */
             width: 100%;
             text-align: center;
             display: block;
-            border: none;
-            box-shadow: var(--shadow-lg), 0 0 20px rgba(245, 87, 108, 0.2);
-            transition: none;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-fast);
             text-decoration: none;
-            background-size: 200% auto;
-            animation: gradient-slide 6s linear infinite; /* Duração um pouco diferente para dessincronizar */
             cursor: pointer;
         }
-        .btn-promotor:hover { color: white; text-decoration: none; }
+        .btn-promotor:hover { 
+            color: white; 
+            text-decoration: none;
+            background-color: var(--bg-card-hover); /* Efeito hover sutil */
+            border-color: var(--border-accent);
+        }
         .btn-promotor-main-text {
             font-size: clamp(1.1rem, 3.5vw, 1.4rem);
             text-transform: uppercase;
@@ -195,7 +198,7 @@
             display: block;
         }
         .btn-promotor-subtext {
-            font-size: 0.75rem;
+            font-size: 0.85rem; /* Tamanho da fonte aumentado */
             font-weight: 400;
             letter-spacing: normal;
             text-transform: none;
@@ -203,6 +206,7 @@
             margin-top: var(--spacing-xs);
             opacity: 0.9;
             line-height: 1.4;
+            color: var(--text-secondary); /* Cor sutil para o subtítulo */
         }
 
         /* Estilos para Modais */
@@ -223,7 +227,7 @@
 
         /* Responsividade */
         @media (max-width: 767px) { .logo { max-width: 220px; } .slogan { font-size: 1.75rem; } .slogan-subtitle { font-size: 1rem; } }
-        @media (max-width: 380px) { .slogan { font-size: 1.5rem; } .slogan-subtitle { font-size: 0.9rem; } .btn-cadastro-main-text { font-size: 1rem; } .btn-cadastro-subtext { font-size: 0.75rem; } .btn-cadastro-whatsapp { font-size: 0.75rem; } .btn-promotor-main-text { font-size: 1rem; } .btn-promotor-subtext { font-size: 0.7rem; } }
+        @media (max-width: 380px) { .slogan { font-size: 1.5rem; } .slogan-subtitle { font-size: 0.9rem; } .btn-cadastro-main-text { font-size: 1rem; } .btn-cadastro-subtext { font-size: 0.75rem; } .btn-cadastro-whatsapp { font-size: 0.75rem; } .btn-promotor-main-text { font-size: 1rem; } .btn-promotor-subtext { font-size: 0.8rem; } }
     </style>
 </head>
 <body>
@@ -265,7 +269,6 @@
                 </a>
             </div>
 
-            <!-- NOVO BOTÃO DE PROMOTOR -->
             <div class="promotor-container">
                 <a href="#" id="promotorBtn" class="btn-promotor">
                     <span class="btn-promotor-main-text">Seja um promotor</span>
@@ -342,7 +345,7 @@ Clique aqui e saiba mais!</span>
         </div>
     </div>
 
-    <!-- NOVO MODAL DE PROMOTOR -->
+    <!-- Modal de Promotor -->
     <div id="promotorModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
@@ -389,7 +392,6 @@ Clique aqui e saiba mais!</span>
         function openInfoModal() { document.getElementById("infoModal").style.display = "flex"; document.body.classList.add("modal-open"); }
         function closeInfoModal() { document.getElementById("infoModal").style.display = "none"; document.body.classList.remove("modal-open"); }
 
-        // --- NOVAS FUNÇÕES PARA O MODAL DE PROMOTOR ---
         function openPromotorModal() { document.getElementById("promotorModal").style.display = "flex"; document.body.classList.add("modal-open"); }
         function closePromotorModal() { document.getElementById("promotorModal").style.display = "none"; document.body.classList.remove("modal-open"); }
 
@@ -401,7 +403,6 @@ Clique aqui e saiba mais!</span>
             
             document.getElementById("cotacoesLink").addEventListener("click", function(e) { e.preventDefault(); openCotacoesModal(); });
             document.getElementById("infoLink").addEventListener("click", function(e) { e.preventDefault(); openInfoModal(); });
-            // --- NOVO EVENT LISTENER PARA O BOTÃO DE PROMOTOR ---
             document.getElementById("promotorBtn").addEventListener("click", function(e) { e.preventDefault(); openPromotorModal(); });
         });
         
@@ -409,7 +410,7 @@ Clique aqui e saiba mais!</span>
             if (event.target.classList.contains('modal')) {
                 closeCotacoesModal();
                 closeInfoModal();
-                closePromotorModal(); // Fecha o modal de promotor também
+                closePromotorModal();
             }
         });
     </script>
