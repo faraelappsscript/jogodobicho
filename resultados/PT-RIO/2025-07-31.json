@@ -321,55 +321,86 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "8273",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "0631",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "4493",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "0253",
+          "Grupo": "14",
+          "Bicho": "Gato"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "4582",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "7368",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "3993",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "0328",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "4849",
-          "Grupo": "13",
-          "Bicho": "Galo"
+          "Milhar": "8233",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "6190",
+          "Milhar": "6813",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "170",
+          "Milhar": "159",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "5513": [
+          "Dezena no sexto prêmio!<br>com o palpite 5513",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 5513"
+        ],
+        "5515": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 5515"
+        ],
+        "5713": [
+          "Dezena no sexto prêmio!<br>com o palpite 5713",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 5713"
+        ],
+        "5715": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 5715"
+        ],
+        "6513": [
+          "Dezena no sexto prêmio!<br>com o palpite 6513",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 6513"
+        ],
+        "6515": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 6515"
+        ],
+        "6713": [
+          "Dezena no sexto prêmio!<br>com o palpite 6713",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 6713"
+        ],
+        "6715": [
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 6715"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 4,
+        "Grupo": [
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9156, 9157, 9158, 9456, 9457, 9458"
+      "resumo": "Palpites dados para esta extração: 5510, 5513, 5515, 5517, 5519, 5710, 5713, 5715, 5717, 5719, 6510, 6513, 6515, 6517, 6519, 6710, 6713, 6715, 6717, 6719"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -458,6 +489,29 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 9156, 9157, 9158, 9456, 9457, 9458"
+    },
+    "PT-RIO, RJ, 18:20, PTN": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   },
   "1-10": {
@@ -906,88 +960,73 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "8273",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "0631",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "4493",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "0253",
+          "Grupo": "14",
+          "Bicho": "Gato"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "4582",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "7368",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "3993",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "0328",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "4849",
-          "Grupo": "13",
-          "Bicho": "Galo"
+          "Milhar": "8233",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "8443",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "0070",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "2459",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "6233",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "7989",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "3562",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "3323",
-          "Grupo": "06",
-          "Bicho": "Cabra"
+          "Milhar": "1388",
+          "Grupo": "22",
+          "Bicho": "Tigre"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "8404",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "8066",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         }
       ],
-      "frases": {
-        "9157": [
-          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 9157"
-        ],
-        "9158": [
-          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 9158"
-        ],
-        "9457": [
-          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 9457"
-        ],
-        "9458": [
-          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 9458"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐊"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9156, 9157, 9158, 9456, 9457, 9458"
+      "resumo": "Palpites dados para esta extração: 5510, 5513, 5515, 5517, 5519, 5710, 5713, 5715, 5717, 5719, 6510, 6513, 6515, 6517, 6519, 6710, 6713, 6715, 6717, 6719"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
@@ -1091,6 +1130,34 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 9156, 9157, 9158, 9456, 9457, 9458"
+    },
+    "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   }
 }
