@@ -112,24 +112,47 @@
         }
       ],
       "frases": {
-        "9156": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 9156",
-          "GATO 🐈 no sétimo prêmio!<br>com o palpite 9156"
+        "9016": [
+          "Dezena no quarto prêmio!<br>com o palpite 9016",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 9016"
         ],
-        "9456": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 9456",
-          "GATO 🐈 no sétimo prêmio!<br>com o palpite 9456"
+        "9037": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 9037",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 9037",
+          "Dezena no segundo prêmio!<br>com o palpite 9037",
+          "COELHO 🐇 no segundo prêmio!<br>com o palpite 9037",
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 9037"
+        ],
+        "9056": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 9056",
+          "GATO 🐈 no sétimo prêmio!<br>com o palpite 9056"
+        ],
+        "9716": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 9716",
+          "Dezena no quarto prêmio!<br>com o palpite 9716",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 9716"
+        ],
+        "9737": [
+          "Dezena no segundo prêmio!<br>com o palpite 9737",
+          "COELHO 🐇 no segundo prêmio!<br>com o palpite 9737",
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 9737"
+        ],
+        "9756": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 9756",
+          "GATO 🐈 no sétimo prêmio!<br>com o palpite 9756"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 4,
         "Grupo": [
-          "🐈"
+          "🐈",
+          "🐇",
+          "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9156, 9157, 9158, 9456, 9457, 9458"
+      "resumo": "Palpites dados para esta extração: 9016, 9017, 9036, 9037, 9056, 9057, 9716, 9717, 9736, 9737, 9756, 9757"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -581,22 +604,50 @@
         }
       ],
       "frases": {
-        "9156": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 9156"
+        "9016": [
+          "Dezena no quarto prêmio!<br>com o palpite 9016",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 9016"
         ],
-        "9456": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 9456"
+        "9036": [
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9036"
+        ],
+        "9037": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 9037",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 9037",
+          "Dezena no segundo prêmio!<br>com o palpite 9037",
+          "COELHO 🐇 no segundo prêmio!<br>com o palpite 9037"
+        ],
+        "9056": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 9056"
+        ],
+        "9716": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 9716",
+          "Dezena no quarto prêmio!<br>com o palpite 9716",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 9716"
+        ],
+        "9736": [
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9736"
+        ],
+        "9737": [
+          "Dezena no segundo prêmio!<br>com o palpite 9737",
+          "COELHO 🐇 no segundo prêmio!<br>com o palpite 9737"
+        ],
+        "9756": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 9756"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 4,
         "Grupo": [
-          "🐈"
+          "🐈",
+          "🐇",
+          "🦋",
+          "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9156, 9157, 9158, 9456, 9457, 9458"
+      "resumo": "Palpites dados para esta extração: 9016, 9017, 9036, 9037, 9056, 9057, 9716, 9717, 9736, 9737, 9756, 9757"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
