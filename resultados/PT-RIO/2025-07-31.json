@@ -111,14 +111,25 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "8101": [
+          "Dezena no quinto prêmio!<br>com o palpite 8101",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8101"
+        ],
+        "8129": [
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 8129"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 1,
+        "Grupo": [
+          "🐪",
+          "🪶"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 8020, 8021, 8028, 8060, 8061, 8068, 8120, 8121, 8128, 8160, 8161, 8168"
+      "resumo": "Palpites dados para esta extração: 8100, 8101, 8109, 8110, 8111, 8119, 8120, 8121, 8129, 8150, 8151, 8159"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -172,17 +183,11 @@
         }
       ],
       "frases": {
-        "8021": [
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 8021"
-        ],
-        "8068": [
-          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 8068"
+        "8100": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 8100"
         ],
         "8121": [
           "CABRA 🐐 no sexto prêmio!<br>com o palpite 8121"
-        ],
-        "8168": [
-          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 8168"
         ]
       },
       "acertos": {
@@ -190,11 +195,11 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐐",
-          "🐒"
+          "🐄",
+          "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8020, 8021, 8028, 8060, 8061, 8068, 8120, 8121, 8128, 8160, 8161, 8168"
+      "resumo": "Palpites dados para esta extração: 8100, 8101, 8109, 8110, 8111, 8119, 8120, 8121, 8129, 8150, 8151, 8159"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -247,14 +252,30 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "8101": [
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 8101"
+        ],
+        "8109": [
+          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 8109"
+        ],
+        "8110": [
+          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 8110"
+        ],
+        "8111": [
+          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 8111"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🪶",
+          "🐴"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 8020, 8021, 8028, 8060, 8061, 8068, 8120, 8121, 8128, 8160, 8161, 8168"
+      "resumo": "Palpites dados para esta extração: 8100, 8101, 8109, 8110, 8111, 8119, 8120, 8121, 8129, 8150, 8151, 8159"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -308,40 +329,25 @@
         }
       ],
       "frases": {
-        "8028": [
-          "Dezena no quarto prêmio!<br>com o palpite 8028",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 8028"
+        "8129": [
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 8129"
         ],
-        "8060": [
-          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 8060"
-        ],
-        "8068": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8068",
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 8068"
-        ],
-        "8128": [
-          "Dezena no quarto prêmio!<br>com o palpite 8128",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 8128"
-        ],
-        "8160": [
-          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 8160"
-        ],
-        "8168": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8168",
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 8168"
+        "8159": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 8159",
+          "Dezena no sétimo prêmio!<br>com o palpite 8159",
+          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 8159"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 4,
+        "Centena": 1,
+        "Dezena": 1,
         "Grupo": [
-          "🐒",
-          "🐑",
+          "🐪",
           "🐊"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8020, 8021, 8028, 8060, 8061, 8068, 8120, 8121, 8128, 8160, 8161, 8168"
+      "resumo": "Palpites dados para esta extração: 8100, 8101, 8109, 8110, 8111, 8119, 8120, 8121, 8129, 8150, 8151, 8159"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -395,38 +401,33 @@
         }
       ],
       "frases": {
-        "8020": [
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8020",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 8020"
-        ],
-        "8028": [
-          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 8028"
-        ],
-        "8061": [
-          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 8061"
+        "8119": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8119",
+          "Dezena no quarto prêmio!<br>com o palpite 8119",
+          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 8119"
         ],
         "8120": [
           "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8120",
           "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 8120"
         ],
-        "8128": [
-          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 8128"
+        "8150": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8150",
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 8150"
         ],
-        "8161": [
-          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 8161"
+        "8151": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 8151"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 2,
         "Grupo": [
-          "🐑",
           "🐕",
-          "🦁"
+          "🐓"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8020, 8021, 8028, 8060, 8061, 8068, 8120, 8121, 8128, 8160, 8161, 8168"
+      "resumo": "Palpites dados para esta extração: 8100, 8101, 8109, 8110, 8111, 8119, 8120, 8121, 8129, 8150, 8151, 8159"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -480,29 +481,39 @@
         }
       ],
       "frases": {
-        "8021": [
-          "CABRA 🐐 no primeiro prêmio!<br>com o palpite 8021"
+        "8101": [
+          "Dezena no sétimo prêmio!<br>com o palpite 8101",
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 8101"
         ],
-        "8061": [
-          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 8061"
+        "8109": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 8109"
+        ],
+        "8110": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 8110"
+        ],
+        "8111": [
+          "Dezena no sexto prêmio!<br>com o palpite 8111",
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 8111"
         ],
         "8121": [
           "CABRA 🐐 no primeiro prêmio!<br>com o palpite 8121"
         ],
-        "8161": [
-          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 8161"
+        "8129": [
+          "CAMELO 🐪 no quinto prêmio!<br>com o palpite 8129"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 2,
         "Grupo": [
           "🐐",
-          "🦁"
+          "🐪",
+          "🐴",
+          "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8020, 8021, 8028, 8060, 8061, 8068, 8120, 8121, 8128, 8160, 8161, 8168"
+      "resumo": "Palpites dados para esta extração: 8100, 8101, 8109, 8110, 8111, 8119, 8120, 8121, 8129, 8150, 8151, 8159"
     }
   },
   "1-10": {
