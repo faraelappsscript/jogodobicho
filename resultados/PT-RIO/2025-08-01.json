@@ -99,53 +99,56 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "5742",
+          "Milhar": "9629",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2937",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9890",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "4485",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0341",
           "Grupo": "11",
           "Bicho": "Cavalo"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "2798",
-          "Grupo": "25",
-          "Bicho": "Vaca"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "0973",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "5936",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "6574",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
           "Prêmio": "6º [soma]",
-          "Milhar": "2023",
+          "Milhar": "7282",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "066",
+          "Milhar": "280",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
-        "8100": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 8100"
+        "9087": [
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 9087"
         ],
-        "8121": [
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 8121"
+        "9787": [
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 9787"
+        ],
+        "9887": [
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 9887"
         ]
       },
       "acertos": {
@@ -153,11 +156,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐄",
-          "🐐"
+          "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8100, 8101, 8109, 8110, 8111, 8119, 8120, 8121, 8129, 8150, 8151, 8159"
+      "resumo": "Palpites dados para esta extração: 9027, 9067, 9087, 9727, 9767, 9787, 9827, 9867, 9887"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -598,69 +600,74 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "5742",
+          "Milhar": "9629",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2937",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9890",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "4485",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0341",
           "Grupo": "11",
           "Bicho": "Cavalo"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "2798",
+          "Prêmio": "6º",
+          "Milhar": "9294",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6984",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "2398",
           "Grupo": "25",
           "Bicho": "Vaca"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "0973",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "5936",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "6574",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "5205",
+          "Prêmio": "9º",
+          "Milhar": "9705",
           "Grupo": "02",
           "Bicho": "Águia"
         },
         {
-          "Prêmio": "7º",
-          "Milhar": "7799",
-          "Grupo": "25",
-          "Bicho": "Vaca"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "4973",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "2836",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
           "Prêmio": "10º",
-          "Milhar": "2836",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "5663",
+          "Grupo": "16",
+          "Bicho": "Leão"
         }
       ],
       "frases": {
-        "8100": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 8100",
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 8100"
+        "9087": [
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 9087"
+        ],
+        "9787": [
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 9787"
+        ],
+        "9887": [
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 9887"
         ]
       },
       "acertos": {
@@ -668,10 +675,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐄"
+          "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8100, 8101, 8109, 8110, 8111, 8119, 8120, 8121, 8129, 8150, 8151, 8159"
+      "resumo": "Palpites dados para esta extração: 9027, 9067, 9087, 9727, 9767, 9787, 9827, 9867, 9887"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
