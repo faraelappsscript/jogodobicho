@@ -168,6 +168,88 @@
         }
         .btn-cadastro-whatsapp-icon { width: 16px; height: 16px; vertical-align: middle; }
 
+        /* Botão de Tutoriais - Novo */
+        .tutoriais-container { width: 100%; max-width: 400px; margin-bottom: var(--spacing-lg); }
+        .btn-tutoriais {
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: white;
+            width: 100%;
+            text-align: center;
+            display: block;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-fast);
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn-tutoriais:hover { 
+            color: white; 
+            text-decoration: none;
+            background-color: var(--bg-card-hover);
+            border-color: var(--border-accent);
+        }
+        .btn-tutoriais-main-text {
+            font-size: clamp(1.1rem, 3.5vw, 1.4rem);
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            display: block;
+        }
+        .btn-tutoriais-subtext {
+            font-size: 0.85rem;
+            font-weight: 400;
+            letter-spacing: normal;
+            text-transform: none;
+            display: block;
+            margin-top: var(--spacing-xs);
+            opacity: 0.9;
+            line-height: 1.4;
+            color: var(--text-secondary);
+        }
+
+        /* Botão de Resultados - Novo */
+        .resultados-container { width: 100%; max-width: 400px; margin-bottom: var(--spacing-lg); }
+        .btn-resultados {
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: white;
+            width: 100%;
+            text-align: center;
+            display: block;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-fast);
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn-resultados:hover { 
+            color: white; 
+            text-decoration: none;
+            background-color: var(--bg-card-hover);
+            border-color: var(--border-accent);
+        }
+        .btn-resultados-main-text {
+            font-size: clamp(1.1rem, 3.5vw, 1.4rem);
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            display: block;
+        }
+        .btn-resultados-subtext {
+            font-size: 0.85rem;
+            font-weight: 400;
+            letter-spacing: normal;
+            text-transform: none;
+            display: block;
+            margin-top: var(--spacing-xs);
+            opacity: 0.9;
+            line-height: 1.4;
+            color: var(--text-secondary);
+        }
+
         /* Botão de Promotor */
         .promotor-container { width: 100%; max-width: 400px; }
         .btn-promotor {
@@ -225,6 +307,28 @@
         .cotacao-modalidade { font-weight: 600; color: var(--text-primary); font-size: 0.875rem; }
         .cotacao-valor { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--accent-success); font-size: 1rem; }
 
+        /* Lista de loterias no modal */
+        .lottery-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .lottery-item {
+            padding: var(--spacing-md);
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+        .lottery-item:hover {
+            background-color: var(--bg-card-hover);
+            color: var(--accent-primary);
+        }
+        .lottery-item:last-child {
+            border-bottom: none;
+        }
+
         /* --- ESTILO ATUALIZADO PARA O BOTÃO DE CTA NO MODAL --- */
         .btn-whatsapp-cta {
             display: flex;
@@ -255,7 +359,7 @@
 
         /* Responsividade */
         @media (max-width: 767px) { .logo { max-width: 220px; } .slogan { font-size: 1.75rem; } .slogan-subtitle { font-size: 1rem; } }
-        @media (max-width: 380px) { .slogan { font-size: 1.5rem; } .slogan-subtitle { font-size: 0.9rem; } .btn-cadastro-main-text { font-size: 1rem; } .btn-cadastro-subtext { font-size: 0.75rem; } .btn-cadastro-whatsapp { font-size: 0.75rem; } .btn-promotor-main-text { font-size: 1rem; } .btn-promotor-subtext { font-size: 0.8rem; } }
+        @media (max-width: 380px) { .slogan { font-size: 1.5rem; } .slogan-subtitle { font-size: 0.9rem; } .btn-cadastro-main-text { font-size: 1rem; } .btn-cadastro-subtext { font-size: 0.75rem; } .btn-cadastro-whatsapp { font-size: 0.75rem; } .btn-promotor-main-text { font-size: 1rem; } .btn-promotor-subtext { font-size: 0.8rem; } .btn-tutoriais-main-text { font-size: 1rem; } .btn-tutoriais-subtext { font-size: 0.8rem; } .btn-resultados-main-text { font-size: 1rem; } .btn-resultados-subtext { font-size: 0.8rem; } }
     </style>
 </head>
 <body>
@@ -294,6 +398,22 @@
                         Grupo de palpites no WhatsApp
                         <img src="/assets/img/vf.webp" alt="Ícone Verificado" class="btn-cadastro-whatsapp-icon">
                     </span>
+                </a>
+            </div>
+
+            <!-- Novo botão Tutoriais 77x Brasil -->
+            <div class="tutoriais-container">
+                <a href="/tutoriais" class="btn-tutoriais">
+                    <span class="btn-tutoriais-main-text">Tutoriais 77x Brasil</span>
+                    <span class="btn-tutoriais-subtext">Aprenda como jogar e maximize suas chances de ganhar!</span>
+                </a>
+            </div>
+
+            <!-- Novo botão Resultados do Jogo do Bicho -->
+            <div class="resultados-container">
+                <a href="#" id="resultadosBtn" class="btn-resultados">
+                    <span class="btn-resultados-main-text">Resultados do Jogo do Bicho</span>
+                    <span class="btn-resultados-subtext">Confira os resultados das extrações mais recentes!</span>
                 </a>
             </div>
 
@@ -342,33 +462,82 @@ Clique aqui e saiba mais!</span>
     <div id="infoModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
-                <h2 class="modal-title">ℹ️ Mais Informações</h2>
+                <h2 class="modal-title">ℹ️ Informações sobre Bônus</h2>
                 <button class="close-btn" onclick="closeInfoModal()">&times;</button>
             </div>
             <div class="modal-body">
-                <ul class="info-list">
-                    <h4>Limites de Recarga e Saque</h4>
-                    <li class="info-item"><span class="info-label">Recarga mínima</span><span class="info-value">R$ 10,00</span></li>
-                    <li class="info-item"><span class="info-label">Recarga máxima por vez</span><span class="info-value">R$ 5.000,00</span></li>
-                    <li class="info-item"><span class="info-label">Limite de saque por dia</span><span class="info-value">R$ 50.000,00</span></li>
-                    <li class="info-item"><span class="info-label">Limite de saque por vez</span><span class="info-value">R$ 5.000,00</span></li>
-                </ul>
-                <ul class="info-list">
-                    <h4>Limites de Jogos</h4>
-                    <li class="info-item"><span class="info-label">Grupo</span><span class="info-value">até 8 grupos por dia</span></li>
-                    <li class="info-item"><span class="info-label">Dezena</span><span class="info-value">até 25 dezenas por dia</span></li>
-                </ul>
-                <ul class="info-list">
-                    <h4>Outras modalidades</h4>
-                    <li class="modal-list-item">Cassino com diversos jogos e os mais populares</li>
-                    <li class="modal-list-item">Bingo</li>
-                    <li class="modal-list-item">Futebol</li>
-                    <li class="modal-list-item">Fazendinha</li>
-                    <li class="modal-list-item">Loteria Uruguaia</li>
-                    <li class="modal-list-item">Quininha</li>
-                    <li class="modal-list-item">Seninha</li>
-                    <li class="modal-list-item">Super15</li>
-                </ul>
+                <div class="info-list">
+                    <h4>Bônus de Cadastro (20%)</h4>
+                    <div class="info-item">
+                        <span class="info-label">Valor mínimo:</span>
+                        <span class="info-value">R$ 10,00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Valor máximo:</span>
+                        <span class="info-value">R$ 500,00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Bônus máximo:</span>
+                        <span class="info-value">R$ 100,00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Modalidade:</span>
+                        <span class="info-value">Loterias</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Frequência:</span>
+                        <span class="info-value">Apenas no cadastro</span>
+                    </div>
+
+                    <h4>Bônus Federal (15%)</h4>
+                    <div class="info-item">
+                        <span class="info-label">Valor mínimo:</span>
+                        <span class="info-value">R$ 10,00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Valor máximo:</span>
+                        <span class="info-value">R$ 500,00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Bônus máximo:</span>
+                        <span class="info-value">R$ 75,00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Modalidade:</span>
+                        <span class="info-value">Loterias</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Frequência:</span>
+                        <span class="info-value">Quartas e Sábados</span>
+                    </div>
+
+                    <h4>Bônus Diário (10%)</h4>
+                    <div class="info-item">
+                        <span class="info-label">Valor mínimo:</span>
+                        <span class="info-value">R$ 10,00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Valor máximo:</span>
+                        <span class="info-value">R$ 500,00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Bônus máximo:</span>
+                        <span class="info-value">R$ 50,00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Modalidade:</span>
+                        <span class="info-value">Loterias</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Frequência:</span>
+                        <span class="info-value">Todos os dias</span>
+                    </div>
+                </div>
+
+                <a href="#" id="whatsappCta" class="btn-whatsapp-cta">
+                    <img src="/assets/img/wz.webp" alt="WhatsApp">
+                    Cadastre-se pelo WhatsApp
+                </a>
             </div>
         </div>
     </div>
@@ -377,74 +546,212 @@ Clique aqui e saiba mais!</span>
     <div id="promotorModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
-                <h2 class="modal-title">💎 Seja um Promotor</h2>
+                <h2 class="modal-title">🤝 Seja um Promotor</h2>
                 <button class="close-btn" onclick="closePromotorModal()">&times;</button>
             </div>
             <div class="modal-body">
-                <ul class="info-list">
-                    <h4>Comissões</h4>
-                    <li class="modal-list-item">💰 10% de comissão sobre vendas JB</li>
-                    <li class="modal-list-item">💰 5% de comissão sobre vendas Fazendinha</li>
-                    <li class="modal-list-item">💰 10% de comissão do lucro mensal (Bingo e Cassino)</li>
-                    <li class="modal-list-item">💰 10% de comissão do lucro mensal do JB</li>
-                    <li class="modal-list-item">📦 Material de trabalho incluso</li>
-                </ul>
-                <ul class="info-list">
-                    <h4>Exclusividade</h4>
-                    <li class="modal-list-item">📈 Landing Page personalizada e otimizada para o Google</li>
-                    <li class="modal-list-item">💎 Site de resultados com o seu link de promotor integrado</li>
-                </ul>
-                <div class="promotor-text-block">
-                    <h4>Landing Page</h4>
-                    <p>Uma Landing Page é sua página de vendas pessoal, criada para transformar visitantes em clientes. Nós a otimizamos para o Google, permitindo que novas pessoas encontrem sua página através de buscas por resultados, palpites e outros termos relacionados à banca, direcionando o tráfego diretamente para você.</p>
+                <div class="info-list">
+                    <h4>Comissões e Benefícios</h4>
+                    <div class="info-item">
+                        <span class="info-label">Comissão sobre vendas:</span>
+                        <span class="info-value">10%</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Modalidade:</span>
+                        <span class="info-value">Jogo do Bicho</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Pagamento:</span>
+                        <span class="info-value">Semanal</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Valor mínimo para saque:</span>
+                        <span class="info-value">R$ 50,00</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Suporte:</span>
+                        <span class="info-value">24/7 via WhatsApp</span>
+                    </div>
                 </div>
+
                 <div class="promotor-text-block">
-                    <h4>Site de Resultados</h4>
-                    <p>Quando você ou seus clientes compartilham qualquer conteúdo do nosso site (como resultados ou palpites), seu código de promotor é anexado automaticamente ao link. Qualquer pessoa que clicar e se cadastrar através desse link se torna seu cliente. Esse sistema cria um efeito viral: seus clientes atraem mais clientes para você, expandindo sua rede de forma exponencial e automática.</p>
+                    <p><strong>Como funciona:</strong></p>
+                    <p>Como promotor da 77x Brasil, você receberá 10% de comissão sobre todas as vendas realizadas através do seu link personalizado. O pagamento é feito semanalmente, sempre às sextas-feiras, via PIX.</p>
+                    
+                    <p><strong>Requisitos:</strong></p>
+                    <p>• Ser maior de 18 anos<br>
+                    • Ter CPF válido<br>
+                    • Possuir conta bancária ou chave PIX<br>
+                    • Concordar com os termos de uso</p>
+                    
+                    <p><strong>Vantagens:</strong></p>
+                    <p>• Sem taxa de adesão<br>
+                    • Material promocional gratuito<br>
+                    • Treinamento completo<br>
+                    • Suporte dedicado</p>
                 </div>
-                <a href="https://wa.me/5583993708505" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-cta">
-                    <img src="/assets/img/wz.webp" alt="Ícone WhatsApp">
-                    Quero ser promotor
+
+                <a href="#" id="promotorWhatsappCta" class="btn-whatsapp-cta">
+                    <img src="/assets/img/wz.webp" alt="WhatsApp">
+                    Quero ser um promotor
                 </a>
             </div>
         </div>
     </div>
 
-    <!-- Scripts -->
-    <script defer src="/assets/js/flatpickr.js"></script>
-    <script defer src="/assets/js/flatpickr.pt.js"></script>
-    <script src="/resultados/script.js"></script>
+    <!-- Modal de Resultados do Jogo do Bicho -->
+    <div id="resultadosModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">🎯 Resultados do Jogo do Bicho</h2>
+                <button class="close-btn" onclick="closeResultadosModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p style="color: var(--text-secondary); margin-bottom: var(--spacing-lg);">Selecione uma loteria para ver os resultados:</p>
+                <ul id="lotteryListResultados" class="lottery-list"></ul>
+            </div>
+        </div>
+    </div>
+
     <script>
-        function getStoredProductCode( ) { return localStorage.getItem("productCode"); }
-        function captureAndStoreUrlParameter() { const urlParams = new URLSearchParams(window.location.search); const codeParam = urlParams.get('pr'); if (codeParam) { localStorage.setItem("productCode", codeParam); } }
-        
-        function openCotacoesModal() { document.getElementById("cotacoesModal").style.display = "flex"; document.body.classList.add("modal-open"); }
-        function closeCotacoesModal() { document.getElementById("cotacoesModal").style.display = "none"; document.body.classList.remove("modal-open"); }
+        // Função para abrir modal de cotações
+        function openCotacoesModal() {
+            document.getElementById('cotacoesModal').style.display = 'block';
+        }
 
-        function openInfoModal() { document.getElementById("infoModal").style.display = "flex"; document.body.classList.add("modal-open"); }
-        function closeInfoModal() { document.getElementById("infoModal").style.display = "none"; document.body.classList.remove("modal-open"); }
+        // Função para fechar modal de cotações
+        function closeCotacoesModal() {
+            document.getElementById('cotacoesModal').style.display = 'none';
+        }
 
-        function openPromotorModal() { document.getElementById("promotorModal").style.display = "flex"; document.body.classList.add("modal-open"); }
-        function closePromotorModal() { document.getElementById("promotorModal").style.display = "none"; document.body.classList.remove("modal-open"); }
+        // Função para abrir modal de informações
+        function openInfoModal() {
+            document.getElementById('infoModal').style.display = 'block';
+        }
 
-        function setupCadastroLink() { const storedCode = getStoredProductCode(); const code = storedCode || "PACruTth"; const cadastroUrl = `https://app.77xbrasil.com.br/pr/${code}`; document.getElementById("cadastroBtn" ).href = cadastroUrl; }
-        
-        document.addEventListener("DOMContentLoaded", function() {
-            captureAndStoreUrlParameter();
-            setupCadastroLink();
-            
-            document.getElementById("cotacoesLink").addEventListener("click", function(e) { e.preventDefault(); openCotacoesModal(); });
-            document.getElementById("infoLink").addEventListener("click", function(e) { e.preventDefault(); openInfoModal(); });
-            document.getElementById("promotorBtn").addEventListener("click", function(e) { e.preventDefault(); openPromotorModal(); });
-        });
-        
-        window.addEventListener("click", function(event) {
-            if (event.target.classList.contains('modal')) {
-                closeCotacoesModal();
-                closeInfoModal();
-                closePromotorModal();
+        // Função para fechar modal de informações
+        function closeInfoModal() {
+            document.getElementById('infoModal').style.display = 'none';
+        }
+
+        // Função para abrir modal de promotor
+        function openPromotorModal() {
+            document.getElementById('promotorModal').style.display = 'block';
+        }
+
+        // Função para fechar modal de promotor
+        function closePromotorModal() {
+            document.getElementById('promotorModal').style.display = 'none';
+        }
+
+        // Função para abrir modal de resultados
+        function openResultadosModal() {
+            loadLotteries();
+            document.getElementById('resultadosModal').style.display = 'block';
+        }
+
+        // Função para fechar modal de resultados
+        function closeResultadosModal() {
+            document.getElementById('resultadosModal').style.display = 'none';
+        }
+
+        // Função para carregar loterias do arquivo JSON
+        async function loadLotteries() {
+            try {
+                const response = await fetch('/lotteries.json');
+                const lotteries = await response.json();
+                
+                const lotteryList = document.getElementById('lotteryListResultados');
+                lotteryList.innerHTML = '';
+                
+                lotteries.forEach(lottery => {
+                    const listItem = document.createElement('li');
+                    listItem.className = 'lottery-item';
+                    listItem.textContent = lottery.name;
+                    listItem.onclick = () => redirectToLottery(lottery.url);
+                    lotteryList.appendChild(listItem);
+                });
+            } catch (error) {
+                console.error('Erro ao carregar loterias:', error);
+                // Fallback para lista estática em caso de erro
+                const lotteryList = document.getElementById('lotteryListResultados');
+                lotteryList.innerHTML = `
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/pt-rio')">PT-RIO</li>
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/look')">LOOK</li>
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/federal')">FEDERAL</li>
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/rio')">RIO</li>
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/coruja')">CORUJA</li>
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/pt-milhao')">PT-MILHÃO</li>
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/deu-no-poste')">DEU NO POSTE</li>
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/maluca')">MALUCA</li>
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/nacional')">NACIONAL</li>
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/bahia')">BAHIA</li>
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/paraiba')">PARAÍBA</li>
+                    <li class="lottery-item" onclick="redirectToLottery('/resultados/pernambuco')">PERNAMBUCO</li>
+                `;
             }
+        }
+
+        // Função para redirecionar para página de resultados da loteria
+        function redirectToLottery(url) {
+            window.location.href = url;
+        }
+
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            // Botão de cotações
+            document.getElementById('cotacoesLink').addEventListener('click', function(e) {
+                e.preventDefault();
+                openCotacoesModal();
+            });
+
+            // Botão de informações
+            document.getElementById('infoLink').addEventListener('click', function(e) {
+                e.preventDefault();
+                openInfoModal();
+            });
+
+            // Botão de promotor
+            document.getElementById('promotorBtn').addEventListener('click', function(e) {
+                e.preventDefault();
+                openPromotorModal();
+            });
+
+            // Botão de resultados
+            document.getElementById('resultadosBtn').addEventListener('click', function(e) {
+                e.preventDefault();
+                openResultadosModal();
+            });
+
+            // Botão de cadastro
+            document.getElementById('cadastroBtn').addEventListener('click', function(e) {
+                e.preventDefault();
+                // Aqui você pode adicionar a lógica para redirecionar para o cadastro
+                // Por exemplo: window.location.href = '/cadastro';
+                alert('Redirecionando para cadastro...');
+            });
+
+            // CTAs do WhatsApp
+            document.getElementById('whatsappCta').addEventListener('click', function(e) {
+                e.preventDefault();
+                // Aqui você pode adicionar a lógica para abrir o WhatsApp
+                alert('Abrindo WhatsApp...');
+            });
+
+            document.getElementById('promotorWhatsappCta').addEventListener('click', function(e) {
+                e.preventDefault();
+                // Aqui você pode adicionar a lógica para abrir o WhatsApp
+                alert('Abrindo WhatsApp para promotor...');
+            });
+
+            // Fechar modais ao clicar fora
+            window.addEventListener('click', function(e) {
+                if (e.target.classList.contains('modal')) {
+                    e.target.style.display = 'none';
+                }
+            });
         });
     </script>
 </body>
 </html>
+
