@@ -10,63 +10,68 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "1854",
-          "Grupo": "14",
-          "Bicho": "Gato"
+          "Milhar": "5899",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "9037",
+          "Milhar": "9780",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6027",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "6367",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9639",
           "Grupo": "10",
           "Bicho": "Coelho"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "3732",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "3716",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "1301",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
           "Prêmio": "6º [soma]",
-          "Milhar": "9640",
+          "Milhar": "7712",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "754",
+          "Milhar": "692",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
-        "8101": [
-          "Dezena no quinto prêmio!<br>com o palpite 8101",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8101"
+        "8100": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 8100"
         ],
-        "8129": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 8129"
+        "8109": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 8109"
+        ],
+        "8110": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 8110"
+        ],
+        "8111": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 8111"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐪",
-          "🪶"
+          "🐄",
+          "🐴"
         ]
       },
       "resumo": "Palpites dados para esta extração: 8100, 8101, 8109, 8110, 8111, 8119, 8120, 8121, 8129, 8150, 8151, 8159"
@@ -467,81 +472,79 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "1854",
-          "Grupo": "14",
-          "Bicho": "Gato"
+          "Milhar": "5899",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "9037",
-          "Grupo": "10",
-          "Bicho": "Coelho"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "3732",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "3716",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "1301",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "1933",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "8077",
+          "Milhar": "9780",
           "Grupo": "20",
           "Bicho": "Peru"
         },
         {
-          "Prêmio": "8º",
-          "Milhar": "5331",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "4726",
+          "Prêmio": "3º",
+          "Milhar": "6027",
           "Grupo": "07",
           "Bicho": "Carneiro"
         },
         {
+          "Prêmio": "4º",
+          "Milhar": "6367",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9639",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "5966",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "8703",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "9826",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "9077",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
           "Prêmio": "10º",
-          "Milhar": "9707",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "1284",
+          "Grupo": "21",
+          "Bicho": "Touro"
         }
       ],
       "frases": {
-        "8101": [
-          "Dezena no quinto prêmio!<br>com o palpite 8101",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8101"
+        "8100": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 8100"
         ],
-        "8129": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 8129",
-          "CAMELO 🐪 no oitavo prêmio!<br>com o palpite 8129"
+        "8101": [
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 8101"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐪",
+          "🐄",
           "🪶"
         ]
       },
