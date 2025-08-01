@@ -239,7 +239,7 @@
             display: block;
         }
 
-        .resultados-container { width: 100%; max-width: 400px; }
+        .resultados-container { width: 100%; max-width: 400px; margin-bottom: var(--spacing-lg); }
         .btn-resultados {
             padding: var(--spacing-md) var(--spacing-lg);
             border-radius: var(--radius-md);
@@ -261,6 +261,35 @@
             border-color: var(--border-accent);
         }
         .btn-resultados-main-text {
+            font-size: clamp(1.1rem, 3.5vw, 1.4rem);
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            display: block;
+        }
+
+        .ferramentas-container { width: 100%; max-width: 400px; }
+        .btn-ferramentas {
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: white;
+            width: 100%;
+            text-align: center;
+            display: block;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-fast);
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn-ferramentas:hover { 
+            color: white; 
+            text-decoration: none;
+            background-color: var(--bg-card-hover);
+            border-color: var(--border-accent);
+        }
+        .btn-ferramentas-main-text {
             font-size: clamp(1.1rem, 3.5vw, 1.4rem);
             text-transform: uppercase;
             font-weight: 700;
@@ -375,6 +404,12 @@ Clique aqui e saiba mais!</span>
             <div class="resultados-container">
                 <a href="#" id="resultadosBtn" class="btn-resultados">
                     <span class="btn-resultados-main-text">Resultados do Jogo do Bicho</span>
+                </a>
+            </div>
+
+            <div class="ferramentas-container">
+                <a href="/tools" class="btn-ferramentas">
+                    <span class="btn-ferramentas-main-text">Ferramentas de divulgação</span>
                 </a>
             </div>
         </header>
@@ -573,4 +608,3 @@ Clique aqui e saiba mais!</span>
     </script>
 </body>
 </html>
-
