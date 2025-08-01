@@ -51,58 +51,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "6611": [
-          "BURRO 🐴 no sexto prêmio!<br>com o palpite 6611"
-        ],
-        "6638": [
-          "COELHO 🐇 no quinto prêmio!<br>com o palpite 6638"
-        ],
-        "6668": [
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 6668"
-        ],
-        "6678": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6678"
-        ],
-        "6691": [
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 6691"
-        ],
-        "6698": [
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 6698"
-        ],
-        "6811": [
-          "BURRO 🐴 no sexto prêmio!<br>com o palpite 6811"
-        ],
-        "6838": [
-          "COELHO 🐇 no quinto prêmio!<br>com o palpite 6838"
-        ],
-        "6868": [
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 6868"
-        ],
-        "6878": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6878"
-        ],
-        "6891": [
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 6891"
-        ],
-        "6898": [
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 6898"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐄",
-          "🦃",
-          "🐒",
-          "🐇",
-          "🐴",
-          "🐻"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6611, 6618, 6631, 6638, 6641, 6648, 6651, 6658, 6661, 6668, 6671, 6678, 6691, 6698, 6811, 6818, 6831, 6838, 6841, 6848, 6851, 6858, 6861, 6868, 6871, 6878, 6891, 6898"
+      "resumo": "Palpites dados para esta extração: 6357, 6657, 6857, 6957"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -155,53 +111,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "6631": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 6631"
-        ],
-        "6638": [
-          "COELHO 🐇 no segundo prêmio!<br>com o palpite 6638"
-        ],
-        "6641": [
-          "Dezena no quinto prêmio!<br>com o palpite 6641",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6641"
-        ],
-        "6678": [
-          "PERU 🦃 no sétimo prêmio!<br>com o palpite 6678"
-        ],
-        "6691": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 6691"
-        ],
-        "6831": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 6831"
-        ],
-        "6838": [
-          "COELHO 🐇 no segundo prêmio!<br>com o palpite 6838"
-        ],
-        "6841": [
-          "Dezena no quinto prêmio!<br>com o palpite 6841",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6841"
-        ],
-        "6878": [
-          "PERU 🦃 no sétimo prêmio!<br>com o palpite 6878"
-        ],
-        "6891": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 6891"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐪",
-          "🐇",
-          "🐻",
-          "🐎",
-          "🦃"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6611, 6618, 6631, 6638, 6641, 6648, 6651, 6658, 6661, 6668, 6671, 6678, 6691, 6698, 6811, 6818, 6831, 6838, 6841, 6848, 6851, 6858, 6861, 6868, 6871, 6878, 6891, 6898"
+      "resumo": "Palpites dados para esta extração: 6357, 6657, 6857, 6957"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -254,50 +171,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "6631": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 6631"
-        ],
-        "6641": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 6641",
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6641"
-        ],
-        "6671": [
-          "Dezena no segundo prêmio!<br>com o palpite 6671",
-          "PORCO 🐖 no segundo prêmio!<br>com o palpite 6671",
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 6671"
-        ],
-        "6691": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 6691"
-        ],
-        "6831": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 6831"
-        ],
-        "6841": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 6841",
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6841"
-        ],
-        "6871": [
-          "Dezena no segundo prêmio!<br>com o palpite 6871",
-          "PORCO 🐖 no segundo prêmio!<br>com o palpite 6871",
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 6871"
-        ],
-        "6891": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 6891"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐎",
-          "🐖",
-          "🐻",
-          "🐪"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6611, 6618, 6631, 6638, 6641, 6648, 6651, 6658, 6661, 6668, 6671, 6678, 6691, 6698, 6811, 6818, 6831, 6838, 6841, 6848, 6851, 6858, 6861, 6868, 6871, 6878, 6891, 6898"
+      "resumo": "Palpites dados para esta extração: 6357, 6657, 6857, 6957"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -350,51 +231,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "6618": [
-          "Dezena no quarto prêmio!<br>com o palpite 6618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 6618",
-          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 6618"
-        ],
-        "6641": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 6641"
-        ],
-        "6651": [
-          "GALO 🐓 no sétimo prêmio!<br>com o palpite 6651"
-        ],
-        "6671": [
-          "Dezena no segundo prêmio!<br>com o palpite 6671",
-          "PORCO 🐖 no segundo prêmio!<br>com o palpite 6671"
-        ],
-        "6818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 6818",
-          "Dezena no quarto prêmio!<br>com o palpite 6818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 6818",
-          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 6818"
-        ],
-        "6841": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 6841"
-        ],
-        "6851": [
-          "GALO 🐓 no sétimo prêmio!<br>com o palpite 6851"
-        ],
-        "6871": [
-          "Dezena no segundo prêmio!<br>com o palpite 6871",
-          "PORCO 🐖 no segundo prêmio!<br>com o palpite 6871"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 4,
-        "Grupo": [
-          "🐖",
-          "🐎",
-          "🐕",
-          "🐓"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6611, 6618, 6631, 6638, 6641, 6648, 6651, 6658, 6661, 6668, 6671, 6678, 6691, 6698, 6811, 6818, 6831, 6838, 6841, 6848, 6851, 6858, 6861, 6868, 6871, 6878, 6891, 6898"
+      "resumo": "Palpites dados para esta extração: 6357, 6657, 6857, 6957"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -448,23 +292,17 @@
         }
       ],
       "frases": {
-        "6658": [
-          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6658"
+        "6357": [
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6357"
         ],
-        "6671": [
-          "PORCO 🐖 no primeiro prêmio!<br>com o palpite 6671"
+        "6657": [
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6657"
         ],
-        "6698": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 6698"
+        "6857": [
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6857"
         ],
-        "6858": [
-          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6858"
-        ],
-        "6871": [
-          "PORCO 🐖 no primeiro prêmio!<br>com o palpite 6871"
-        ],
-        "6898": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 6898"
+        "6957": [
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6957"
         ]
       },
       "acertos": {
@@ -472,12 +310,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐖",
-          "🐄",
           "🐊"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6611, 6618, 6631, 6638, 6641, 6648, 6651, 6658, 6661, 6668, 6671, 6678, 6691, 6698, 6811, 6818, 6831, 6838, 6841, 6848, 6851, 6858, 6861, 6868, 6871, 6878, 6891, 6898"
+      "resumo": "Palpites dados para esta extração: 6357, 6657, 6857, 6957"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
