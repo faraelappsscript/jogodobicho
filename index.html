@@ -169,7 +169,7 @@
         .btn-cadastro-whatsapp-icon { width: 16px; height: 16px; vertical-align: middle; }
 
         /* Botão de Promotor */
-        .promotor-container { width: 100%; max-width: 400px; }
+        .promotor-container { width: 100%; max-width: 400px; margin-bottom: var(--spacing-lg); }
         .btn-promotor {
             padding: var(--spacing-md) var(--spacing-lg);
             border-radius: var(--radius-md);
@@ -209,6 +209,65 @@
             color: var(--text-secondary);
         }
 
+        /* Novos botões adicionados */
+        .tutoriais-container { width: 100%; max-width: 400px; margin-bottom: var(--spacing-lg); }
+        .btn-tutoriais {
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: white;
+            width: 100%;
+            text-align: center;
+            display: block;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-fast);
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn-tutoriais:hover { 
+            color: white; 
+            text-decoration: none;
+            background-color: var(--bg-card-hover);
+            border-color: var(--border-accent);
+        }
+        .btn-tutoriais-main-text {
+            font-size: clamp(1.1rem, 3.5vw, 1.4rem);
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            display: block;
+        }
+
+        .resultados-container { width: 100%; max-width: 400px; }
+        .btn-resultados {
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: white;
+            width: 100%;
+            text-align: center;
+            display: block;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-fast);
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn-resultados:hover { 
+            color: white; 
+            text-decoration: none;
+            background-color: var(--bg-card-hover);
+            border-color: var(--border-accent);
+        }
+        .btn-resultados-main-text {
+            font-size: clamp(1.1rem, 3.5vw, 1.4rem);
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            display: block;
+        }
+
         /* Estilos para Modais */
         .info-list { list-style: none; padding: 0; margin: 0; }
         .info-list h4 { color: var(--text-primary); margin-top: var(--spacing-lg); margin-bottom: var(--spacing-sm); border-bottom: 1px solid var(--border-color); padding-bottom: var(--spacing-sm); }
@@ -216,8 +275,9 @@
         .info-item:last-child { border-bottom: none; }
         .info-label { color: var(--text-secondary); }
         .info-value { font-weight: 700; color: var(--text-primary); font-family: 'JetBrains Mono', monospace; }
-        .modal-list-item { color: var(--text-secondary); padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--border-color); }
+        .modal-list-item { color: var(--text-secondary); padding: var(--spacing-sm) 0; border-bottom: 1px solid var(--border-color); cursor: pointer; transition: all var(--transition-fast); }
         .modal-list-item:last-child { border-bottom: none; }
+        .modal-list-item:hover { color: var(--text-primary); background-color: var(--bg-card-hover); padding-left: var(--spacing-sm); border-radius: var(--radius-sm); }
         .promotor-text-block { margin-top: var(--spacing-md); padding-top: var(--spacing-md); border-top: 1px solid var(--border-color); }
         .promotor-text-block p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; text-align: left; }
         .cotacoes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-md); }
@@ -304,6 +364,19 @@
 Clique aqui e saiba mais!</span>
                 </a>
             </div>
+
+            <!-- Novos botões adicionados -->
+            <div class="tutoriais-container">
+                <a href="/tutoriais" class="btn-tutoriais">
+                    <span class="btn-tutoriais-main-text">Tutoriais 77x Brasil</span>
+                </a>
+            </div>
+
+            <div class="resultados-container">
+                <a href="#" id="resultadosBtn" class="btn-resultados">
+                    <span class="btn-resultados-main-text">Resultados do Jogo do Bicho</span>
+                </a>
+            </div>
         </header>
     </div>
 
@@ -342,7 +415,7 @@ Clique aqui e saiba mais!</span>
     <div id="infoModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
-                <h2 class="modal-title">ℹ️ Mais Informações</h2>
+                <h2 class="modal-title">ℹ️ Informações</h2>
                 <button class="close-btn" onclick="closeInfoModal()">&times;</button>
             </div>
             <div class="modal-body">
@@ -410,6 +483,24 @@ Clique aqui e saiba mais!</span>
         </div>
     </div>
 
+    <!-- Modal de Resultados do Jogo do Bicho -->
+    <div id="resultadosModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">🎯 Resultados do Jogo do Bicho</h2>
+                <button class="close-btn" onclick="closeResultadosModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul class="info-list">
+                    <h4>Selecione uma banca:</h4>
+                    <div id="bancasList">
+                        <!-- Lista de bancas será carregada dinamicamente aqui -->
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <!-- Scripts -->
     <script defer src="/assets/js/flatpickr.js"></script>
     <script defer src="/assets/js/flatpickr.pt.js"></script>
@@ -427,6 +518,38 @@ Clique aqui e saiba mais!</span>
         function openPromotorModal() { document.getElementById("promotorModal").style.display = "flex"; document.body.classList.add("modal-open"); }
         function closePromotorModal() { document.getElementById("promotorModal").style.display = "none"; document.body.classList.remove("modal-open"); }
 
+        function openResultadosModal() { 
+            loadBancas();
+            document.getElementById("resultadosModal").style.display = "flex"; 
+            document.body.classList.add("modal-open"); 
+        }
+        function closeResultadosModal() { document.getElementById("resultadosModal").style.display = "none"; document.body.classList.remove("modal-open"); }
+
+        function loadBancas() {
+            fetch('/resultados/lottery.json')
+                .then(response => response.json())
+                .then(data => {
+                    const bancasList = document.getElementById('bancasList');
+                    bancasList.innerHTML = '';
+                    
+                    data.forEach(banca => {
+                        const bancaItem = document.createElement('div');
+                        bancaItem.className = 'modal-list-item';
+                        bancaItem.textContent = banca.name;
+                        bancaItem.style.cursor = 'pointer';
+                        bancaItem.onclick = function() {
+                            window.location.href = `/resultados/${banca.path}`;
+                        };
+                        bancasList.appendChild(bancaItem);
+                    });
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar bancas:', error);
+                    const bancasList = document.getElementById('bancasList');
+                    bancasList.innerHTML = '<div class="modal-list-item">Erro ao carregar bancas</div>';
+                });
+        }
+
         function setupCadastroLink() { const storedCode = getStoredProductCode(); const code = storedCode || "PACruTth"; const cadastroUrl = `https://app.77xbrasil.com.br/pr/${code}`; document.getElementById("cadastroBtn" ).href = cadastroUrl; }
         
         document.addEventListener("DOMContentLoaded", function() {
@@ -436,6 +559,7 @@ Clique aqui e saiba mais!</span>
             document.getElementById("cotacoesLink").addEventListener("click", function(e) { e.preventDefault(); openCotacoesModal(); });
             document.getElementById("infoLink").addEventListener("click", function(e) { e.preventDefault(); openInfoModal(); });
             document.getElementById("promotorBtn").addEventListener("click", function(e) { e.preventDefault(); openPromotorModal(); });
+            document.getElementById("resultadosBtn").addEventListener("click", function(e) { e.preventDefault(); openResultadosModal(); });
         });
         
         window.addEventListener("click", function(event) {
@@ -443,8 +567,10 @@ Clique aqui e saiba mais!</span>
                 closeCotacoesModal();
                 closeInfoModal();
                 closePromotorModal();
+                closeResultadosModal();
             }
         });
     </script>
 </body>
 </html>
+
