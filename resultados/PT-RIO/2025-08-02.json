@@ -106,117 +106,73 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "9629",
+          "Milhar": "5967",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0830",
           "Grupo": "08",
           "Bicho": "Camelo"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "2937",
-          "Grupo": "10",
-          "Bicho": "Coelho"
-        },
-        {
           "Prêmio": "3º",
-          "Milhar": "9890",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "4666",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "4485",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "6445",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "0341",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "3265",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "9294",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "5046",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "6984",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "9864",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "2398",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "6364",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "9705",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "7065",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "5663",
-          "Grupo": "16",
-          "Bicho": "Leão"
+          "Milhar": "9512",
+          "Grupo": "03",
+          "Bicho": "Burro"
         }
       ],
-      "frases": {
-        "3791": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 3791"
-        ],
-        "3796": [
-          "VEADO 🦌 no sexto prêmio!<br>com o palpite 3796"
-        ],
-        "3798": [
-          "Dezena no oitavo prêmio!<br>com o palpite 3798",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 3798"
-        ],
-        "3799": [
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 3799"
-        ],
-        "7791": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7791"
-        ],
-        "7796": [
-          "VEADO 🦌 no sexto prêmio!<br>com o palpite 7796"
-        ],
-        "7798": [
-          "Dezena no oitavo prêmio!<br>com o palpite 7798",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 7798"
-        ],
-        "7799": [
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 7799"
-        ],
-        "8791": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 8791"
-        ],
-        "8796": [
-          "VEADO 🦌 no sexto prêmio!<br>com o palpite 8796"
-        ],
-        "8798": [
-          "Dezena no oitavo prêmio!<br>com o palpite 8798",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 8798"
-        ],
-        "8799": [
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 8799"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
-        "Grupo": [
-          "🐻",
-          "🦌",
-          "🐄"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+      "resumo": "Palpites dados para esta extração: 8204, 8224"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -726,67 +682,55 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "9629",
+          "Milhar": "5967",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0830",
           "Grupo": "08",
           "Bicho": "Camelo"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "2937",
-          "Grupo": "10",
-          "Bicho": "Coelho"
-        },
-        {
           "Prêmio": "3º",
-          "Milhar": "9890",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "4666",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "4485",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "6445",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "0341",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "3265",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "7282",
+          "Milhar": "1173",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "280",
+          "Milhar": "952",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {
-        "3791": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 3791"
-        ],
-        "7791": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7791"
-        ],
-        "8791": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 8791"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐻"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+      "resumo": "Palpites dados para esta extração: 8204, 8224"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
