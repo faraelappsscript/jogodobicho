@@ -643,5 +643,501 @@
       },
       "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
     }
+  },
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5899",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9780",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6027",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "6367",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9639",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "7712",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "692",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "3791": [
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 3791"
+        ],
+        "3798": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 3798"
+        ],
+        "3799": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3799",
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 3799"
+        ],
+        "7791": [
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 7791"
+        ],
+        "7798": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 7798"
+        ],
+        "7799": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7799",
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 7799"
+        ],
+        "8791": [
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 8791"
+        ],
+        "8798": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 8798"
+        ],
+        "8799": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8799",
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 8799"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 3,
+        "Grupo": [
+          "🐄",
+          "🐻"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9629",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2937",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9890",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "4485",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0341",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "7282",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "280",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "3791": [
+          "URSO 🐻 no terceiro prêmio!<br>com o palpite 3791"
+        ],
+        "7791": [
+          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7791"
+        ],
+        "8791": [
+          "URSO 🐻 no terceiro prêmio!<br>com o palpite 8791"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐻"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+    },
+    "PT-RIO, RJ, 14:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4442",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "8571",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0281",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "1943",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3092",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "8329",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "072",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "3791": [
+          "URSO 🐻 no quinto prêmio!<br>com o palpite 3791"
+        ],
+        "7791": [
+          "URSO 🐻 no quinto prêmio!<br>com o palpite 7791"
+        ],
+        "8791": [
+          "URSO 🐻 no quinto prêmio!<br>com o palpite 8791"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐻"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+    },
+    "PT-RIO, RJ, 16:00, PTV": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8801",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5471",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1643",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2818",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2086",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "0819",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "150",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+    },
+    "PT-RIO, RJ, 18:20, PTN": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "6169",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3697",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6359",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7874",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6956",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "1055",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "806",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "3798": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 3798"
+        ],
+        "3799": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 3799"
+        ],
+        "7798": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 7798"
+        ],
+        "7799": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 7799"
+        ],
+        "8798": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 8798"
+        ],
+        "8799": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 8799"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐄"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7501",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3798",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9241",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8796",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3589",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "2925",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "488",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "3791": [
+          "URSO 🐻 no quinto prêmio!<br>com o palpite 3791"
+        ],
+        "3796": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 3796",
+          "Dezena no quarto prêmio!<br>com o palpite 3796",
+          "VEADO 🦌 no quarto prêmio!<br>com o palpite 3796"
+        ],
+        "3798": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 3798",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 3798",
+          "Dezena no segundo prêmio!<br>com o palpite 3798",
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 3798"
+        ],
+        "3799": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 3799"
+        ],
+        "7791": [
+          "URSO 🐻 no quinto prêmio!<br>com o palpite 7791"
+        ],
+        "7796": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 7796",
+          "Dezena no quarto prêmio!<br>com o palpite 7796",
+          "VEADO 🦌 no quarto prêmio!<br>com o palpite 7796"
+        ],
+        "7798": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 7798",
+          "Dezena no segundo prêmio!<br>com o palpite 7798",
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 7798"
+        ],
+        "7799": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 7799"
+        ],
+        "8791": [
+          "URSO 🐻 no quinto prêmio!<br>com o palpite 8791"
+        ],
+        "8796": [
+          "Milhar e Centena no quarto prêmio!<br>com o palpite 8796",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 8796",
+          "Dezena no quarto prêmio!<br>com o palpite 8796",
+          "VEADO 🦌 no quarto prêmio!<br>com o palpite 8796"
+        ],
+        "8798": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 8798",
+          "Dezena no segundo prêmio!<br>com o palpite 8798",
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 8798"
+        ],
+        "8799": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 8799"
+        ]
+      },
+      "acertos": {
+        "Milhar": 2,
+        "Centena": 6,
+        "Dezena": 6,
+        "Grupo": [
+          "🐄",
+          "🦌",
+          "🐻"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+    }
   }
 }
