@@ -10,95 +10,71 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "5899",
-          "Grupo": "25",
-          "Bicho": "Vaca"
-        },
-        {
-          "Prêmio": "2º",
-          "Milhar": "9780",
-          "Grupo": "20",
-          "Bicho": "Peru"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "6027",
+          "Milhar": "4527",
           "Grupo": "07",
           "Bicho": "Carneiro"
         },
         {
+          "Prêmio": "2º",
+          "Milhar": "1224",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8003",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
           "Prêmio": "4º",
-          "Milhar": "6367",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "8224",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "9639",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "7343",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "5966",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "4188",
+          "Grupo": "22",
+          "Bicho": "Tigre"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "8703",
+          "Milhar": "5202",
           "Grupo": "01",
           "Bicho": "Avestruz"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "9826",
-          "Grupo": "07",
-          "Bicho": "Carneiro"
+          "Milhar": "2202",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "9077",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "7434",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "1284",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "8347",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         }
       ],
-      "frases": {
-        "3798": [
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 3798"
-        ],
-        "3799": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3799",
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 3799"
-        ],
-        "7798": [
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 7798"
-        ],
-        "7799": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7799",
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 7799"
-        ],
-        "8798": [
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 8798"
-        ],
-        "8799": [
-          "Dezena no primeiro prêmio!<br>com o palpite 8799",
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 8799"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
-        "Grupo": [
-          "🐄"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
       "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
     },
@@ -655,87 +631,53 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "5899",
-          "Grupo": "25",
-          "Bicho": "Vaca"
-        },
-        {
-          "Prêmio": "2º",
-          "Milhar": "9780",
-          "Grupo": "20",
-          "Bicho": "Peru"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "6027",
+          "Milhar": "4527",
           "Grupo": "07",
           "Bicho": "Carneiro"
         },
         {
+          "Prêmio": "2º",
+          "Milhar": "1224",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8003",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
           "Prêmio": "4º",
-          "Milhar": "6367",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "8224",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "9639",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "7343",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "7712",
+          "Milhar": "9321",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "692",
+          "Milhar": "541",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {
-        "3791": [
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 3791"
-        ],
-        "3798": [
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 3798"
-        ],
-        "3799": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3799",
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 3799"
-        ],
-        "7791": [
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 7791"
-        ],
-        "7798": [
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 7798"
-        ],
-        "7799": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7799",
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 7799"
-        ],
-        "8791": [
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 8791"
-        ],
-        "8798": [
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 8798"
-        ],
-        "8799": [
-          "Dezena no primeiro prêmio!<br>com o palpite 8799",
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 8799"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
-        "Grupo": [
-          "🐄",
-          "🐻"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
       "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
     },
