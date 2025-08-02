@@ -674,7 +674,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4264, 5264, 6264, 7264, 8264, 9264"
+      "resumo": "Palpites dados para esta extração: 5065, 5865, 6065, 6865, 9065, 9865"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -727,14 +727,53 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "5065": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5065",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 5065",
+          "Dezena no quinto prêmio!<br>com o palpite 5065",
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5065"
+        ],
+        "5865": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5865",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 5865",
+          "Dezena no quinto prêmio!<br>com o palpite 5865",
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5865"
+        ],
+        "6065": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6065",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 6065",
+          "Dezena no quinto prêmio!<br>com o palpite 6065",
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6065"
+        ],
+        "6865": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6865",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 6865",
+          "Dezena no quinto prêmio!<br>com o palpite 6865",
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6865"
+        ],
+        "9065": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 9065",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 9065",
+          "Dezena no quinto prêmio!<br>com o palpite 9065",
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9065"
+        ],
+        "9865": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 9865",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 9865",
+          "Dezena no quinto prêmio!<br>com o palpite 9865",
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9865"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 6,
+        "Grupo": [
+          "🐒"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 4264, 5264, 6264, 7264, 8264, 9264"
+      "resumo": "Palpites dados para esta extração: 5065, 5865, 6065, 6865, 9065, 9865"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
