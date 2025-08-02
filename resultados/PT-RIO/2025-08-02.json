@@ -220,85 +220,100 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "4442",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "2397",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "8571",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "1948",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "0281",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "1163",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "1943",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "4058",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "3092",
-          "Grupo": "23",
-          "Bicho": "Urso"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "4801",
+          "Milhar": "5803",
           "Grupo": "01",
           "Bicho": "Avestruz"
         },
         {
-          "Prêmio": "7º",
-          "Milhar": "4529",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "4784",
-          "Grupo": "21",
-          "Bicho": "Touro"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "2113",
+          "Prêmio": "6º",
+          "Milhar": "2114",
           "Grupo": "04",
           "Bicho": "Borboleta"
         },
         {
+          "Prêmio": "7º",
+          "Milhar": "3910",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "9465",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "7838",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
           "Prêmio": "10º",
-          "Milhar": "4556",
-          "Grupo": "14",
-          "Bicho": "Gato"
+          "Milhar": "8696",
+          "Grupo": "24",
+          "Bicho": "Veado"
         }
       ],
       "frases": {
-        "3791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 3791"
+        "5065": [
+          "Dezena no oitavo prêmio!<br>com o palpite 5065",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 5065"
         ],
-        "7791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 7791"
+        "5865": [
+          "Dezena no oitavo prêmio!<br>com o palpite 5865",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 5865"
         ],
-        "8791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 8791"
+        "6065": [
+          "Dezena no oitavo prêmio!<br>com o palpite 6065",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 6065"
+        ],
+        "6865": [
+          "Dezena no oitavo prêmio!<br>com o palpite 6865",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 6865"
+        ],
+        "9065": [
+          "Dezena no oitavo prêmio!<br>com o palpite 9065",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 9065"
+        ],
+        "9865": [
+          "Dezena no oitavo prêmio!<br>com o palpite 9865",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 9865"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 6,
         "Grupo": [
-          "🐻"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+      "resumo": "Palpites dados para esta extração: 5065, 5865, 6065, 6865, 9065, 9865"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -800,67 +815,55 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "4442",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "2397",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "8571",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "1948",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "0281",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "1163",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "1943",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "4058",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "3092",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "5803",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "8329",
+          "Milhar": "5369",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "072",
+          "Milhar": "669",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {
-        "3791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 3791"
-        ],
-        "7791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 7791"
-        ],
-        "8791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 8791"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐻"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+      "resumo": "Palpites dados para esta extração: 5065, 5865, 6065, 6865, 9065, 9865"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
