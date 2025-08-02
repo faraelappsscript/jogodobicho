@@ -323,73 +323,119 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "8801",
+          "Milhar": "7597",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1723",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "3260",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9584",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3204",
           "Grupo": "01",
           "Bicho": "Avestruz"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "5471",
-          "Grupo": "18",
-          "Bicho": "Porco"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "1643",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "2818",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "2086",
-          "Grupo": "22",
-          "Bicho": "Tigre"
-        },
-        {
           "Prêmio": "6º",
-          "Milhar": "8512",
-          "Grupo": "03",
-          "Bicho": "Burro"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "8468",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "0741",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "1138",
+          "Milhar": "7139",
           "Grupo": "10",
           "Bicho": "Coelho"
         },
         {
+          "Prêmio": "7º",
+          "Milhar": "5725",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "9268",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "7304",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
           "Prêmio": "10º",
-          "Milhar": "9678",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "4804",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1168": [
+          "Dezena no oitavo prêmio!<br>com o palpite 1168",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 1168"
+        ],
+        "1198": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 1198"
+        ],
+        "1868": [
+          "Dezena no oitavo prêmio!<br>com o palpite 1868",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 1868"
+        ],
+        "1898": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 1898"
+        ],
+        "1968": [
+          "Dezena no oitavo prêmio!<br>com o palpite 1968",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 1968"
+        ],
+        "1998": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 1998"
+        ],
+        "2168": [
+          "Dezena no oitavo prêmio!<br>com o palpite 2168",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 2168"
+        ],
+        "2198": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 2198"
+        ],
+        "2868": [
+          "Dezena no oitavo prêmio!<br>com o palpite 2868",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 2868"
+        ],
+        "2898": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 2898"
+        ],
+        "2968": [
+          "Dezena no oitavo prêmio!<br>com o palpite 2968",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 2968"
+        ],
+        "2998": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 2998"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 6,
+        "Grupo": [
+          "🐄",
+          "🐒"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+      "resumo": "Palpites dados para esta extração: 1118, 1168, 1198, 1818, 1868, 1898, 1918, 1968, 1998, 2118, 2168, 2198, 2818, 2868, 2898, 2918, 2968, 2998"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -641,6 +687,34 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+    },
+    "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   },
   "1-5": {
@@ -888,55 +962,101 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "8801",
+          "Milhar": "7597",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1723",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "3260",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9584",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3204",
           "Grupo": "01",
           "Bicho": "Avestruz"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "5471",
-          "Grupo": "18",
-          "Bicho": "Porco"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "1643",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "2818",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "2086",
-          "Grupo": "22",
-          "Bicho": "Tigre"
-        },
-        {
           "Prêmio": "6º [soma]",
-          "Milhar": "0819",
+          "Milhar": "5368",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "150",
+          "Milhar": "089",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1168": [
+          "Dezena no sexto prêmio!<br>com o palpite 1168",
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 1168"
+        ],
+        "1198": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 1198"
+        ],
+        "1868": [
+          "Dezena no sexto prêmio!<br>com o palpite 1868",
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 1868"
+        ],
+        "1898": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 1898"
+        ],
+        "1968": [
+          "Dezena no sexto prêmio!<br>com o palpite 1968",
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 1968"
+        ],
+        "1998": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 1998"
+        ],
+        "2168": [
+          "Dezena no sexto prêmio!<br>com o palpite 2168",
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 2168"
+        ],
+        "2198": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 2198"
+        ],
+        "2868": [
+          "Dezena no sexto prêmio!<br>com o palpite 2868",
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 2868"
+        ],
+        "2898": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 2898"
+        ],
+        "2968": [
+          "Dezena no sexto prêmio!<br>com o palpite 2968",
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 2968"
+        ],
+        "2998": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 2998"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 6,
+        "Grupo": [
+          "🐄",
+          "🐒"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+      "resumo": "Palpites dados para esta extração: 1118, 1168, 1198, 1818, 1868, 1898, 1918, 1968, 1998, 2118, 2168, 2198, 2818, 2868, 2898, 2918, 2968, 2998"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -1133,6 +1253,29 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+    },
+    "A FEDERAL DO BRASIL - RJ": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   }
 }
