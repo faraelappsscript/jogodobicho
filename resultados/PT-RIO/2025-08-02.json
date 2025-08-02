@@ -69,32 +69,14 @@
           "Bicho": "Elefante"
         }
       ],
-      "frases": {
-        "8204": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 8204",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 8204",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 8204"
-        ],
-        "8224": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 8224",
-          "Dezena no segundo prêmio!<br>com o palpite 8224",
-          "CABRA 🐐 no segundo prêmio!<br>com o palpite 8224",
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 8224",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 8224",
-          "Dezena no quarto prêmio!<br>com o palpite 8224",
-          "CABRA 🐐 no quarto prêmio!<br>com o palpite 8224"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 2,
-        "Dezena": 2,
-        "Grupo": [
-          "🐐",
-          "🪶"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 8204, 8224"
+      "resumo": "Palpites dados para esta extração: 4264, 5264, 6264, 7264, 8264, 9264"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -165,14 +147,53 @@
           "Bicho": "Burro"
         }
       ],
-      "frases": {},
+      "frases": {
+        "4264": [
+          "Dezena no sétimo prêmio!<br>com o palpite 4264",
+          "LEÃO 🦁 no sétimo prêmio!<br>com o palpite 4264",
+          "Dezena no oitavo prêmio!<br>com o palpite 4264",
+          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 4264"
+        ],
+        "5264": [
+          "Dezena no sétimo prêmio!<br>com o palpite 5264",
+          "LEÃO 🦁 no sétimo prêmio!<br>com o palpite 5264",
+          "Dezena no oitavo prêmio!<br>com o palpite 5264",
+          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 5264"
+        ],
+        "6264": [
+          "Dezena no sétimo prêmio!<br>com o palpite 6264",
+          "LEÃO 🦁 no sétimo prêmio!<br>com o palpite 6264",
+          "Dezena no oitavo prêmio!<br>com o palpite 6264",
+          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 6264"
+        ],
+        "7264": [
+          "Dezena no sétimo prêmio!<br>com o palpite 7264",
+          "LEÃO 🦁 no sétimo prêmio!<br>com o palpite 7264",
+          "Dezena no oitavo prêmio!<br>com o palpite 7264",
+          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 7264"
+        ],
+        "8264": [
+          "Dezena no sétimo prêmio!<br>com o palpite 8264",
+          "LEÃO 🦁 no sétimo prêmio!<br>com o palpite 8264",
+          "Dezena no oitavo prêmio!<br>com o palpite 8264",
+          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 8264"
+        ],
+        "9264": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9264",
+          "LEÃO 🦁 no sétimo prêmio!<br>com o palpite 9264",
+          "Dezena no oitavo prêmio!<br>com o palpite 9264",
+          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 9264"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 12,
+        "Grupo": [
+          "🦁"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 8204, 8224"
+      "resumo": "Palpites dados para esta extração: 4264, 5264, 6264, 7264, 8264, 9264"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -646,31 +667,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "8204": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 8204"
-        ],
-        "8224": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 8224",
-          "Dezena no segundo prêmio!<br>com o palpite 8224",
-          "CABRA 🐐 no segundo prêmio!<br>com o palpite 8224",
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 8224",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 8224",
-          "Dezena no quarto prêmio!<br>com o palpite 8224",
-          "CABRA 🐐 no quarto prêmio!<br>com o palpite 8224",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 8224"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 2,
-        "Dezena": 2,
-        "Grupo": [
-          "🐐",
-          "🪶"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 8204, 8224"
+      "resumo": "Palpites dados para esta extração: 4264, 5264, 6264, 7264, 8264, 9264"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -730,7 +734,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 8204, 8224"
+      "resumo": "Palpites dados para esta extração: 4264, 5264, 6264, 7264, 8264, 9264"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
