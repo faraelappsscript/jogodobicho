@@ -572,18 +572,11 @@
         }
       ],
       "frases": {
-        "7462": [
-          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 7462"
-        ],
         "7466": [
           "Centena e Dezena no segundo prêmio!<br>com o palpite 7466",
           "Dezena no segundo prêmio!<br>com o palpite 7466",
           "MACACO 🐒 no segundo prêmio!<br>com o palpite 7466",
           "MACACO 🐒 no terceiro prêmio!<br>com o palpite 7466"
-        ],
-        "7468": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7468",
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 7468"
         ]
       },
       "acertos": {
@@ -591,11 +584,10 @@
         "Centena": 1,
         "Dezena": 1,
         "Grupo": [
-          "🐒",
-          "🦁"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7462, 7466, 7468"
+      "resumo": "Palpites dados para esta extração: 7446, 7466"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -667,17 +659,13 @@
         }
       ],
       "frases": {
-        "7462": [
-          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 7462"
+        "7446": [
+          "Dezena no nono prêmio!<br>com o palpite 7446",
+          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 7446"
         ],
         "7466": [
           "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7466",
           "MACACO 🐒 no oitavo prêmio!<br>com o palpite 7466"
-        ],
-        "7468": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7468",
-          "Dezena no oitavo prêmio!<br>com o palpite 7468",
-          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 7468"
         ]
       },
       "acertos": {
@@ -686,10 +674,10 @@
         "Dezena": 1,
         "Grupo": [
           "🐒",
-          "🦁"
+          "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7462, 7466, 7468"
+      "resumo": "Palpites dados para esta extração: 7446, 7466"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
