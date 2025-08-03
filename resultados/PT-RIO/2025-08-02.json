@@ -457,137 +457,73 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7501",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "4775",
+          "Grupo": "19",
+          "Bicho": "Pavão"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "3798",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "3269",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "9241",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "7205",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "8796",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "7383",
+          "Grupo": "21",
+          "Bicho": "Touro"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "3589",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "3539",
+          "Grupo": "10",
+          "Bicho": "Coelho"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "7398",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "4377",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "5727",
-          "Grupo": "07",
-          "Bicho": "Carneiro"
+          "Milhar": "7223",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "0949",
-          "Grupo": "13",
-          "Bicho": "Galo"
+          "Milhar": "7608",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "1816",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "5953",
+          "Grupo": "14",
+          "Bicho": "Gato"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "8815",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "1332",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         }
       ],
-      "frases": {
-        "3791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 3791"
-        ],
-        "3796": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3796",
-          "Dezena no quarto prêmio!<br>com o palpite 3796",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 3796"
-        ],
-        "3798": [
-          "Milhar e Centena no segundo prêmio!<br>com o palpite 3798",
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 3798",
-          "Dezena no segundo prêmio!<br>com o palpite 3798",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 3798",
-          "Dezena no sexto prêmio!<br>com o palpite 3798",
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 3798"
-        ],
-        "3799": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 3799",
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 3799"
-        ],
-        "7791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 7791"
-        ],
-        "7796": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 7796",
-          "Dezena no quarto prêmio!<br>com o palpite 7796",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 7796"
-        ],
-        "7798": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 7798",
-          "Dezena no segundo prêmio!<br>com o palpite 7798",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 7798",
-          "Dezena no sexto prêmio!<br>com o palpite 7798",
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 7798"
-        ],
-        "7799": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 7799",
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 7799"
-        ],
-        "8791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 8791"
-        ],
-        "8796": [
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 8796",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 8796",
-          "Dezena no quarto prêmio!<br>com o palpite 8796",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 8796"
-        ],
-        "8798": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 8798",
-          "Dezena no segundo prêmio!<br>com o palpite 8798",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 8798",
-          "Dezena no sexto prêmio!<br>com o palpite 8798",
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 8798"
-        ],
-        "8799": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 8799",
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 8799"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 2,
-        "Centena": 6,
-        "Dezena": 9,
-        "Grupo": [
-          "🐄",
-          "🦌",
-          "🐻"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+      "resumo": "Palpites dados para esta extração: 7204"
     },
     "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
@@ -1020,110 +956,55 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7501",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "4775",
+          "Grupo": "19",
+          "Bicho": "Pavão"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "3798",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "3269",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "9241",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "7205",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "8796",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "7383",
+          "Grupo": "21",
+          "Bicho": "Touro"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "3589",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "3539",
+          "Grupo": "10",
+          "Bicho": "Coelho"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "2925",
+          "Milhar": "6171",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "488",
+          "Milhar": "609",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {
-        "3791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 3791"
-        ],
-        "3796": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3796",
-          "Dezena no quarto prêmio!<br>com o palpite 3796",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 3796"
-        ],
-        "3798": [
-          "Milhar e Centena no segundo prêmio!<br>com o palpite 3798",
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 3798",
-          "Dezena no segundo prêmio!<br>com o palpite 3798",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 3798"
-        ],
-        "3799": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 3799"
-        ],
-        "7791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 7791"
-        ],
-        "7796": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 7796",
-          "Dezena no quarto prêmio!<br>com o palpite 7796",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 7796"
-        ],
-        "7798": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 7798",
-          "Dezena no segundo prêmio!<br>com o palpite 7798",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 7798"
-        ],
-        "7799": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 7799"
-        ],
-        "8791": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 8791"
-        ],
-        "8796": [
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 8796",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 8796",
-          "Dezena no quarto prêmio!<br>com o palpite 8796",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 8796"
-        ],
-        "8798": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 8798",
-          "Dezena no segundo prêmio!<br>com o palpite 8798",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 8798"
-        ],
-        "8799": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 8799"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 2,
-        "Centena": 6,
-        "Dezena": 6,
-        "Grupo": [
-          "🐄",
-          "🦌",
-          "🐻"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3791, 3796, 3798, 3799, 7791, 7796, 7798, 7799, 8791, 8796, 8798, 8799"
+      "resumo": "Palpites dados para esta extração: 7204"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
