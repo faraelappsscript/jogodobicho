@@ -158,66 +158,70 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "5967",
+          "Milhar": "0767",
           "Grupo": "17",
           "Bicho": "Macaco"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "0830",
+          "Milhar": "7433",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4464",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2986",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5931",
           "Grupo": "08",
           "Bicho": "Camelo"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "4666",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "6445",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "3265",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
           "Prêmio": "6º [soma]",
-          "Milhar": "1173",
+          "Milhar": "1581",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "952",
+          "Milhar": "701",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
-        "7273": [
-          "Dezena no sexto prêmio!<br>com o palpite 7273",
-          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 7273"
+        "5468": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5468"
         ],
-        "7373": [
-          "Dezena no sexto prêmio!<br>com o palpite 7373",
-          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 7373"
+        "5668": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5668"
+        ],
+        "7468": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7468"
+        ],
+        "7668": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7668"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 0,
         "Grupo": [
-          "🦚"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7203, 7233, 7273, 7303, 7333, 7373"
+      "resumo": "Palpites dados para esta extração: 5468, 5668, 7468, 7668"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -624,73 +628,96 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "5967",
+          "Milhar": "0767",
           "Grupo": "17",
           "Bicho": "Macaco"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "0830",
+          "Milhar": "7433",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4464",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2986",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5931",
           "Grupo": "08",
           "Bicho": "Camelo"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "4666",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "6445",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "3265",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
           "Prêmio": "6º",
-          "Milhar": "5046",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "0742",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "9864",
-          "Grupo": "16",
-          "Bicho": "Leão"
+          "Milhar": "7449",
+          "Grupo": "13",
+          "Bicho": "Galo"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "6364",
-          "Grupo": "16",
-          "Bicho": "Leão"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "7065",
+          "Milhar": "6368",
           "Grupo": "17",
           "Bicho": "Macaco"
         },
         {
+          "Prêmio": "9º",
+          "Milhar": "7346",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
           "Prêmio": "10º",
-          "Milhar": "9512",
-          "Grupo": "03",
-          "Bicho": "Burro"
+          "Milhar": "3486",
+          "Grupo": "22",
+          "Bicho": "Tigre"
         }
       ],
-      "frases": {},
+      "frases": {
+        "5468": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5468",
+          "Dezena no oitavo prêmio!<br>com o palpite 5468",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 5468"
+        ],
+        "5668": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5668",
+          "Dezena no oitavo prêmio!<br>com o palpite 5668",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 5668"
+        ],
+        "7468": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7468",
+          "Dezena no oitavo prêmio!<br>com o palpite 7468",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 7468"
+        ],
+        "7668": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7668",
+          "Dezena no oitavo prêmio!<br>com o palpite 7668",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 7668"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 4,
+        "Grupo": [
+          "🐒"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 7203, 7233, 7273, 7303, 7333, 7373"
+      "resumo": "Palpites dados para esta extração: 5468, 5668, 7468, 7668"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
