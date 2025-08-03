@@ -657,6 +657,10 @@
         }
       ],
       "frases": {
+        "7203": [
+          "Dezena no terceiro prêmio!<br>com o palpite 7203",
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 7203"
+        ],
         "7204": [
           "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 7204"
         ]
@@ -664,12 +668,12 @@
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
           "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -729,7 +733,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -783,6 +787,10 @@
         }
       ],
       "frases": {
+        "7203": [
+          "Dezena no quinto prêmio!<br>com o palpite 7203",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7203"
+        ],
         "7204": [
           "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7204"
         ]
@@ -790,12 +798,12 @@
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
           "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -849,6 +857,9 @@
         }
       ],
       "frases": {
+        "7203": [
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7203"
+        ],
         "7204": [
           "Centena e Dezena no quinto prêmio!<br>com o palpite 7204",
           "Dezena no quinto prêmio!<br>com o palpite 7204",
@@ -863,7 +874,7 @@
           "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -997,14 +1008,28 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "7205": [
+          "Milhar e Centena no terceiro prêmio!<br>com o palpite 7205",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 7205",
+          "Dezena no terceiro prêmio!<br>com o palpite 7205",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7205"
+        ],
+        "7209": [
+          "Dezena no sétimo prêmio!<br>com o palpite 7209",
+          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 7209"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 2,
+        "Grupo": [
+          "🦅",
+          "🐴"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -1057,14 +1082,20 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "7205": [
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 7205"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦅"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     }
   }
 }
