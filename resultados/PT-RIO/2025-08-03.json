@@ -121,32 +121,26 @@
         }
       ],
       "frases": {
-        "5468": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5468",
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 5468"
-        ],
-        "5668": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5668",
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 5668"
+        "7466": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 7466",
+          "Dezena no segundo prêmio!<br>com o palpite 7466",
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7466",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 7466"
         ],
         "7468": [
           "MACACO 🐒 no segundo prêmio!<br>com o palpite 7468",
           "MACACO 🐒 no terceiro prêmio!<br>com o palpite 7468"
-        ],
-        "7668": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7668",
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 7668"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 1,
+        "Dezena": 1,
         "Grupo": [
           "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5468, 5668, 7468, 7668"
+      "resumo": "Palpites dados para esta extração: 7462, 7466, 7468"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -200,17 +194,14 @@
         }
       ],
       "frases": {
-        "5468": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5468"
+        "7462": [
+          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 7462"
         ],
-        "5668": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5668"
+        "7466": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7466"
         ],
         "7468": [
           "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7468"
-        ],
-        "7668": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7668"
         ]
       },
       "acertos": {
@@ -218,10 +209,11 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐒"
+          "🐒",
+          "🦁"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5468, 5668, 7468, 7668"
+      "resumo": "Palpites dados para esta extração: 7462, 7466, 7468"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
