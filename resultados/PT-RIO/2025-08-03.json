@@ -121,98 +121,32 @@
         }
       ],
       "frases": {
-        "7233": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 7233"
+        "5468": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5468",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 5468"
         ],
-        "7238": [
-          "Dezena no quarto prêmio!<br>com o palpite 7238",
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 7238"
-        ],
-        "7252": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7252",
-          "GALO 🐓 no primeiro prêmio!<br>com o palpite 7252"
-        ],
-        "7268": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7268",
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 7268"
-        ],
-        "7273": [
-          "Dezena no sétimo prêmio!<br>com o palpite 7273",
-          "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 7273"
-        ],
-        "7333": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 7333"
-        ],
-        "7338": [
-          "Dezena no quarto prêmio!<br>com o palpite 7338",
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 7338"
-        ],
-        "7352": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7352",
-          "GALO 🐓 no primeiro prêmio!<br>com o palpite 7352"
-        ],
-        "7368": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7368",
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 7368"
-        ],
-        "7373": [
-          "Dezena no sétimo prêmio!<br>com o palpite 7373",
-          "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 7373"
-        ],
-        "7433": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 7433"
-        ],
-        "7438": [
-          "Dezena no quarto prêmio!<br>com o palpite 7438",
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 7438"
-        ],
-        "7452": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7452",
-          "GALO 🐓 no primeiro prêmio!<br>com o palpite 7452"
+        "5668": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5668",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 5668"
         ],
         "7468": [
           "MACACO 🐒 no segundo prêmio!<br>com o palpite 7468",
           "MACACO 🐒 no terceiro prêmio!<br>com o palpite 7468"
         ],
-        "7473": [
-          "Dezena no sétimo prêmio!<br>com o palpite 7473",
-          "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 7473"
-        ],
-        "7633": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 7633"
-        ],
-        "7638": [
-          "Dezena no quarto prêmio!<br>com o palpite 7638",
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 7638"
-        ],
-        "7652": [
-          "Milhar e Centena no primeiro prêmio!<br>com o palpite 7652",
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7652",
-          "Dezena no primeiro prêmio!<br>com o palpite 7652",
-          "GALO 🐓 no primeiro prêmio!<br>com o palpite 7652"
-        ],
         "7668": [
           "MACACO 🐒 no segundo prêmio!<br>com o palpite 7668",
           "MACACO 🐒 no terceiro prêmio!<br>com o palpite 7668"
-        ],
-        "7673": [
-          "Dezena no sétimo prêmio!<br>com o palpite 7673",
-          "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 7673"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 1,
-        "Dezena": 12,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🐓",
-          "🐒",
-          "🐇",
-          "🐍",
-          "🦚"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7202, 7203, 7208, 7232, 7233, 7238, 7252, 7253, 7258, 7262, 7263, 7268, 7272, 7273, 7278, 7302, 7303, 7308, 7332, 7333, 7338, 7352, 7353, 7358, 7362, 7363, 7368, 7372, 7373, 7378, 7402, 7403, 7408, 7432, 7433, 7438, 7452, 7453, 7458, 7462, 7463, 7468, 7472, 7473, 7478, 7602, 7603, 7608, 7632, 7633, 7638, 7652, 7653, 7658, 7662, 7663, 7668, 7672, 7673, 7678"
+      "resumo": "Palpites dados para esta extração: 5468, 5668, 7468, 7668"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
