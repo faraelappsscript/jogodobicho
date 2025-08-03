@@ -70,6 +70,12 @@
         }
       ],
       "frases": {
+        "7203": [
+          "Dezena no terceiro prêmio!<br>com o palpite 7203",
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 7203",
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 7203",
+          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 7203"
+        ],
         "7204": [
           "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 7204",
           "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 7204",
@@ -79,12 +85,12 @@
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
           "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -155,14 +161,20 @@
           "Bicho": "Burro"
         }
       ],
-      "frases": {},
+      "frases": {
+        "7209": [
+          "BURRO 🐴 no décimo prêmio!<br>com o palpite 7209"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐴"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -234,19 +246,27 @@
         }
       ],
       "frases": {
+        "7203": [
+          "Dezena no quinto prêmio!<br>com o palpite 7203",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7203"
+        ],
         "7204": [
           "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7204"
+        ],
+        "7209": [
+          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 7209"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
-          "🪶"
+          "🪶",
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -318,6 +338,11 @@
         }
       ],
       "frases": {
+        "7203": [
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7203",
+          "AVESTRUZ 🪶 no nono prêmio!<br>com o palpite 7203",
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 7203"
+        ],
         "7204": [
           "Centena e Dezena no quinto prêmio!<br>com o palpite 7204",
           "Dezena no quinto prêmio!<br>com o palpite 7204",
@@ -336,7 +361,7 @@
           "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -516,14 +541,24 @@
           "Bicho": "Camelo"
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "7205": [
+          "Milhar e Centena no terceiro prêmio!<br>com o palpite 7205",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 7205",
+          "Dezena no terceiro prêmio!<br>com o palpite 7205",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7205",
+          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 7205"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 1,
+        "Grupo": [
+          "🦅"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     },
     "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
@@ -594,14 +629,20 @@
           "Bicho": "Gato"
         }
       ],
-      "frases": {},
+      "frases": {
+        "7205": [
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 7205"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦅"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 7204"
+      "resumo": "Palpites dados para esta extração: 7203, 7204, 7205, 7209"
     }
   },
   "1-5": {
