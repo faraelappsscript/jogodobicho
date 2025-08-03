@@ -689,84 +689,83 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "2397",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "6787",
+          "Grupo": "22",
+          "Bicho": "Tigre"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "1948",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "1163",
-          "Grupo": "16",
-          "Bicho": "Leão"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "4058",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "5803",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "2114",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "3910",
+          "Milhar": "7910",
           "Grupo": "03",
           "Bicho": "Burro"
         },
         {
+          "Prêmio": "3º",
+          "Milhar": "5604",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0287",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "7310",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "6750",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "7962",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
           "Prêmio": "8º",
-          "Milhar": "9465",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "8108",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "7838",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "7047",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "8696",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "7765",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         }
       ],
       "frases": {
-        "7203": [
-          "Dezena no quinto prêmio!<br>com o palpite 7203",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7203"
+        "7446": [
+          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 7446"
         ],
-        "7303": [
-          "Dezena no quinto prêmio!<br>com o palpite 7303",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7303"
+        "7466": [
+          "MACACO 🐒 no décimo prêmio!<br>com o palpite 7466"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 0,
         "Grupo": [
-          "🪶"
+          "🐘",
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7203, 7233, 7273, 7303, 7333, 7373"
+      "resumo": "Palpites dados para esta extração: 7446, 7466"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
