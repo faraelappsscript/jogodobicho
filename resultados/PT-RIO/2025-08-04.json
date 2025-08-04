@@ -97,43 +97,43 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "0767",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "5025",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "7433",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "4464",
-          "Grupo": "16",
-          "Bicho": "Leão"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "2986",
+          "Milhar": "8786",
           "Grupo": "22",
           "Bicho": "Tigre"
         },
         {
+          "Prêmio": "3º",
+          "Milhar": "2501",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3374",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
           "Prêmio": "5º",
-          "Milhar": "5931",
-          "Grupo": "08",
-          "Bicho": "Camelo"
+          "Milhar": "0466",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "1581",
+          "Milhar": "0152",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "701",
+          "Milhar": "149",
           "Grupo": "",
           "Bicho": ""
         }
@@ -145,7 +145,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0828, 0928"
+      "resumo": "Palpites dados para esta extração: 8619, 8629, 8679, 8819, 8829, 8879"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -409,63 +409,63 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "0767",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "5025",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "7433",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "4464",
-          "Grupo": "16",
-          "Bicho": "Leão"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "2986",
+          "Milhar": "8786",
           "Grupo": "22",
           "Bicho": "Tigre"
         },
         {
+          "Prêmio": "3º",
+          "Milhar": "2501",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3374",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
           "Prêmio": "5º",
-          "Milhar": "5931",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "0742",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "7449",
-          "Grupo": "13",
-          "Bicho": "Galo"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "6368",
+          "Milhar": "0466",
           "Grupo": "17",
           "Bicho": "Macaco"
         },
         {
+          "Prêmio": "6º",
+          "Milhar": "5823",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "0753",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "2807",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
           "Prêmio": "9º",
-          "Milhar": "7346",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "5614",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "3486",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "5149",
+          "Grupo": "13",
+          "Bicho": "Galo"
         }
       ],
       "frases": {},
@@ -475,7 +475,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0828, 0928"
+      "resumo": "Palpites dados para esta extração: 8619, 8629, 8679, 8819, 8829, 8879"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
