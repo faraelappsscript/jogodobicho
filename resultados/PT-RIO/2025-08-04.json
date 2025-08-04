@@ -52,20 +52,40 @@
         }
       ],
       "frases": {
-        "0829": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0829",
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 0829"
+        "8619": [
+          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 8619"
+        ],
+        "8629": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8629",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 8629"
+        ],
+        "8679": [
+          "Dezena no quarto prêmio!<br>com o palpite 8679",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 8679"
+        ],
+        "8819": [
+          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 8819"
+        ],
+        "8829": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8829",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 8829"
+        ],
+        "8879": [
+          "Dezena no quarto prêmio!<br>com o palpite 8879",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 8879"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 4,
         "Grupo": [
-          "🐪"
+          "🐪",
+          "🦃",
+          "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0828, 0829"
+      "resumo": "Palpites dados para esta extração: 8619, 8629, 8679, 8819, 8829, 8879"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -342,24 +362,42 @@
         }
       ],
       "frases": {
-        "0829": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0829",
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 0829"
+        "8619": [
+          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 8619",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8619"
         ],
-        "0828": [
-          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 0828"
+        "8629": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8629",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 8629"
+        ],
+        "8679": [
+          "Dezena no quarto prêmio!<br>com o palpite 8679",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 8679"
+        ],
+        "8819": [
+          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 8819",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 8819"
+        ],
+        "8829": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8829",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 8829"
+        ],
+        "8879": [
+          "Dezena no quarto prêmio!<br>com o palpite 8879",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 8879"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 4,
         "Grupo": [
           "🐪",
-          "🐑"
+          "🦃",
+          "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0828, 0829"
+      "resumo": "Palpites dados para esta extração: 8619, 8629, 8679, 8819, 8829, 8879"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
