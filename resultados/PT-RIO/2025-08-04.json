@@ -51,14 +51,21 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "0829": [
+          "Dezena no terceiro prêmio!<br>com o palpite 0829",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 0829"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 1,
+        "Grupo": [
+          "🐪"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0828, 0928"
+      "resumo": "Palpites dados para esta extração: 0828, 0829"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -335,22 +342,24 @@
         }
       ],
       "frases": {
+        "0829": [
+          "Dezena no terceiro prêmio!<br>com o palpite 0829",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 0829"
+        ],
         "0828": [
           "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 0828"
-        ],
-        "0928": [
-          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 0928"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
+          "🐪",
           "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0828, 0928"
+      "resumo": "Palpites dados para esta extração: 0828, 0829"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
