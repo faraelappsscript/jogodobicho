@@ -51,14 +51,53 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1067": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 1067"
+        ],
+        "1167": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 1167"
+        ],
+        "1667": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 1667"
+        ],
+        "1867": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 1867"
+        ],
+        "5067": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5067"
+        ],
+        "5167": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5167"
+        ],
+        "5667": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5667"
+        ],
+        "5867": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5867"
+        ],
+        "9067": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9067"
+        ],
+        "9167": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9167"
+        ],
+        "9667": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9667"
+        ],
+        "9867": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9867"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐒"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 5703, 5704, 5706, 5723, 5724, 5726, 5803, 5804, 5806, 5823, 5824, 5826"
+      "resumo": "Palpites dados para esta extração: 1067, 1167, 1667, 1867, 5067, 5167, 5667, 5867, 9067, 9167, 9667, 9867"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -112,23 +151,41 @@
         }
       ],
       "frases": {
-        "5703": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5703"
+        "1067": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 1067"
         ],
-        "5704": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5704"
+        "1167": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 1167"
         ],
-        "5726": [
-          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 5726"
+        "1667": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 1667"
         ],
-        "5803": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5803"
+        "1867": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 1867"
         ],
-        "5804": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5804"
+        "5067": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5067"
         ],
-        "5826": [
-          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 5826"
+        "5167": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5167"
+        ],
+        "5667": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5667"
+        ],
+        "5867": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5867"
+        ],
+        "9067": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9067"
+        ],
+        "9167": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9167"
+        ],
+        "9667": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9667"
+        ],
+        "9867": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9867"
         ]
       },
       "acertos": {
@@ -136,11 +193,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐑",
-          "🪶"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5703, 5704, 5706, 5723, 5724, 5726, 5803, 5804, 5806, 5823, 5824, 5826"
+      "resumo": "Palpites dados para esta extração: 1067, 1167, 1667, 1867, 5067, 5167, 5667, 5867, 9067, 9167, 9667, 9867"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -194,24 +250,68 @@
         }
       ],
       "frases": {
-        "5706": [
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5706",
-          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5706"
+        "1067": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1067",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1067"
         ],
-        "5806": [
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5806",
-          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5806"
+        "1167": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 1167",
+          "Dezena no primeiro prêmio!<br>com o palpite 1167",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1167"
+        ],
+        "1667": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1667",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1667"
+        ],
+        "1867": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1867",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1867"
+        ],
+        "5067": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5067",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5067"
+        ],
+        "5167": [
+          "Milhar e Centena no primeiro prêmio!<br>com o palpite 5167",
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 5167",
+          "Dezena no primeiro prêmio!<br>com o palpite 5167",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5167"
+        ],
+        "5667": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5667",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5667"
+        ],
+        "5867": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5867",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5867"
+        ],
+        "9067": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9067",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 9067"
+        ],
+        "9167": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 9167",
+          "Dezena no primeiro prêmio!<br>com o palpite 9167",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 9167"
+        ],
+        "9667": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9667",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 9667"
+        ],
+        "9867": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9867",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 9867"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Milhar": 1,
+        "Centena": 3,
+        "Dezena": 12,
         "Grupo": [
-          "🦅"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5703, 5704, 5706, 5723, 5724, 5726, 5803, 5804, 5806, 5823, 5824, 5826"
+      "resumo": "Palpites dados para esta extração: 1067, 1167, 1667, 1867, 5067, 5167, 5667, 5867, 9067, 9167, 9667, 9867"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -368,6 +468,18 @@
         }
       ],
       "frases": {
+        "1067": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 1067"
+        ],
+        "1167": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 1167"
+        ],
+        "1667": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 1667"
+        ],
+        "1867": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 1867"
+        ],
         "5067": [
           "MACACO 🐒 no segundo prêmio!<br>com o palpite 5067"
         ],
@@ -377,11 +489,20 @@
         "5667": [
           "MACACO 🐒 no segundo prêmio!<br>com o palpite 5667"
         ],
-        "5767": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5767"
-        ],
         "5867": [
           "MACACO 🐒 no segundo prêmio!<br>com o palpite 5867"
+        ],
+        "9067": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9067"
+        ],
+        "9167": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9167"
+        ],
+        "9667": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9667"
+        ],
+        "9867": [
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9867"
         ]
       },
       "acertos": {
@@ -392,7 +513,7 @@
           "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5004, 5007, 5064, 5067, 5104, 5107, 5164, 5167, 5604, 5607, 5664, 5667, 5704, 5707, 5764, 5767, 5804, 5807, 5864, 5867"
+      "resumo": "Palpites dados para esta extração: 1067, 1167, 1667, 1867, 5067, 5167, 5667, 5867, 9067, 9167, 9667, 9867"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -464,69 +585,52 @@
         }
       ],
       "frases": {
-        "5004": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5004"
+        "1067": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 1067"
         ],
-        "5007": [
-          "Dezena no oitavo prêmio!<br>com o palpite 5007",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5007"
+        "1167": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 1167"
+        ],
+        "1667": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 1667"
+        ],
+        "1867": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 1867"
         ],
         "5067": [
           "MACACO 🐒 no quinto prêmio!<br>com o palpite 5067"
         ],
-        "5104": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5104"
-        ],
-        "5107": [
-          "Dezena no oitavo prêmio!<br>com o palpite 5107",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5107"
-        ],
         "5167": [
           "MACACO 🐒 no quinto prêmio!<br>com o palpite 5167"
-        ],
-        "5604": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5604"
-        ],
-        "5607": [
-          "Dezena no oitavo prêmio!<br>com o palpite 5607",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5607"
         ],
         "5667": [
           "MACACO 🐒 no quinto prêmio!<br>com o palpite 5667"
         ],
-        "5704": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5704"
-        ],
-        "5707": [
-          "Dezena no oitavo prêmio!<br>com o palpite 5707",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5707"
-        ],
-        "5767": [
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5767"
-        ],
-        "5804": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5804"
-        ],
-        "5807": [
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 5807",
-          "Dezena no oitavo prêmio!<br>com o palpite 5807",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5807"
-        ],
         "5867": [
           "MACACO 🐒 no quinto prêmio!<br>com o palpite 5867"
+        ],
+        "9067": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9067"
+        ],
+        "9167": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9167"
+        ],
+        "9667": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9667"
+        ],
+        "9867": [
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9867"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 5,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🪶",
-          "🐒",
-          "🦅"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5004, 5007, 5064, 5067, 5104, 5107, 5164, 5167, 5604, 5607, 5664, 5667, 5704, 5707, 5764, 5767, 5804, 5807, 5864, 5867"
+      "resumo": "Palpites dados para esta extração: 1067, 1167, 1667, 1867, 5067, 5167, 5667, 5867, 9067, 9167, 9667, 9867"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -598,30 +702,26 @@
         }
       ],
       "frases": {
-        "5007": [
-          "Dezena no quarto prêmio!<br>com o palpite 5007",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5007",
-          "Dezena no quinto prêmio!<br>com o palpite 5007",
-          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5007"
+        "1067": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1067",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1067"
         ],
-        "5064": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5064",
-          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 5064"
+        "1167": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 1167",
+          "Dezena no primeiro prêmio!<br>com o palpite 1167",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1167"
+        ],
+        "1667": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1667",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1667"
+        ],
+        "1867": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1867",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1867"
         ],
         "5067": [
           "Dezena no primeiro prêmio!<br>com o palpite 5067",
           "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5067"
-        ],
-        "5107": [
-          "Dezena no quarto prêmio!<br>com o palpite 5107",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5107",
-          "Dezena no quinto prêmio!<br>com o palpite 5107",
-          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5107"
-        ],
-        "5164": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 5164",
-          "Dezena no terceiro prêmio!<br>com o palpite 5164",
-          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 5164"
         ],
         "5167": [
           "Milhar e Centena no primeiro prêmio!<br>com o palpite 5167",
@@ -629,62 +729,41 @@
           "Dezena no primeiro prêmio!<br>com o palpite 5167",
           "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5167"
         ],
-        "5607": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 5607",
-          "Dezena no quarto prêmio!<br>com o palpite 5607",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5607",
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 5607",
-          "Dezena no quinto prêmio!<br>com o palpite 5607",
-          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5607"
-        ],
-        "5664": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5664",
-          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 5664"
-        ],
         "5667": [
           "Dezena no primeiro prêmio!<br>com o palpite 5667",
           "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5667"
         ],
-        "5707": [
-          "Dezena no quarto prêmio!<br>com o palpite 5707",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5707",
-          "Dezena no quinto prêmio!<br>com o palpite 5707",
-          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5707"
-        ],
-        "5764": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5764",
-          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 5764"
-        ],
-        "5767": [
-          "Dezena no primeiro prêmio!<br>com o palpite 5767",
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5767"
-        ],
-        "5807": [
-          "Dezena no quarto prêmio!<br>com o palpite 5807",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5807",
-          "Dezena no quinto prêmio!<br>com o palpite 5807",
-          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5807"
-        ],
-        "5864": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5864",
-          "LEÃO 🦁 no terceiro prêmio!<br>com o palpite 5864"
-        ],
         "5867": [
           "Dezena no primeiro prêmio!<br>com o palpite 5867",
           "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5867"
+        ],
+        "9067": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9067",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 9067"
+        ],
+        "9167": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 9167",
+          "Dezena no primeiro prêmio!<br>com o palpite 9167",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 9167"
+        ],
+        "9667": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9667",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 9667"
+        ],
+        "9867": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9867",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 9867"
         ]
       },
       "acertos": {
         "Milhar": 1,
-        "Centena": 4,
-        "Dezena": 20,
+        "Centena": 3,
+        "Dezena": 12,
         "Grupo": [
-          "🐒",
-          "🦁",
-          "🦅"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5004, 5007, 5064, 5067, 5104, 5107, 5164, 5167, 5604, 5607, 5664, 5667, 5704, 5707, 5764, 5767, 5804, 5807, 5864, 5867"
+      "resumo": "Palpites dados para esta extração: 1067, 1167, 1667, 1867, 5067, 5167, 5667, 5867, 9067, 9167, 9667, 9867"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
