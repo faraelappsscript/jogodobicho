@@ -323,43 +323,43 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "0108",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "0818",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "6882",
+          "Milhar": "7437",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9784",
           "Grupo": "21",
           "Bicho": "Touro"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "0922",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
           "Prêmio": "4º",
-          "Milhar": "7998",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "2717",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "1965",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "2551",
+          "Grupo": "13",
+          "Bicho": "Galo"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "7875",
+          "Milhar": "3307",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "743",
+          "Milhar": "083",
           "Grupo": "",
           "Bicho": ""
         }
@@ -371,7 +371,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0828, 0928"
+      "resumo": "Palpites dados para esta extração: 1067, 1167, 1667, 1867, 5067, 5167, 5667, 5867, 9067, 9167, 9667, 9867"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -775,84 +775,73 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "0108",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "0818",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "6882",
+          "Milhar": "7437",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9784",
           "Grupo": "21",
           "Bicho": "Touro"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "0922",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
           "Prêmio": "4º",
-          "Milhar": "7998",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "2717",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "1965",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "2551",
+          "Grupo": "13",
+          "Bicho": "Galo"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "0607",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "0792",
+          "Grupo": "23",
+          "Bicho": "Urso"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "1899",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "8477",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "0829",
-          "Grupo": "08",
-          "Bicho": "Camelo"
+          "Milhar": "1381",
+          "Grupo": "21",
+          "Bicho": "Touro"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "8228",
-          "Grupo": "07",
-          "Bicho": "Carneiro"
+          "Milhar": "8747",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "9438",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "2704",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
         }
       ],
-      "frases": {
-        "0828": [
-          "Dezena no nono prêmio!<br>com o palpite 0828",
-          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 0828"
-        ],
-        "0928": [
-          "Dezena no nono prêmio!<br>com o palpite 0928",
-          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 0928"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐑"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0828, 0928"
+      "resumo": "Palpites dados para esta extração: 1067, 1167, 1667, 1867, 5067, 5167, 5667, 5867, 9067, 9167, 9667, 9867"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
