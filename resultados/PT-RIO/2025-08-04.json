@@ -152,55 +152,66 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "6787",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "5167",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "7910",
-          "Grupo": "03",
-          "Bicho": "Burro"
+          "Milhar": "9870",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "5604",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "9164",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "0287",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "4607",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "7310",
-          "Grupo": "03",
-          "Bicho": "Burro"
+          "Milhar": "1607",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "7898",
+          "Milhar": "0415",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "685",
+          "Milhar": "998",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "5706": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5706",
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5706"
+        ],
+        "5806": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5806",
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5806"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦅"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0828, 0928"
+      "resumo": "Palpites dados para esta extração: 5703, 5704, 5706, 5723, 5724, 5726, 5803, 5804, 5806, 5823, 5824, 5826"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -508,51 +519,51 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "6787",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "5167",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "7910",
-          "Grupo": "03",
-          "Bicho": "Burro"
+          "Milhar": "9870",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "5604",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "0287",
-          "Grupo": "22",
-          "Bicho": "Tigre"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "7310",
-          "Grupo": "03",
-          "Bicho": "Burro"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "6750",
-          "Grupo": "13",
-          "Bicho": "Galo"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "7962",
+          "Milhar": "9164",
           "Grupo": "16",
           "Bicho": "Leão"
         },
         {
-          "Prêmio": "8º",
-          "Milhar": "8108",
+          "Prêmio": "4º",
+          "Milhar": "4607",
           "Grupo": "02",
           "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1607",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "5994",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1816",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6760",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
         },
         {
           "Prêmio": "9º",
@@ -562,19 +573,30 @@
         },
         {
           "Prêmio": "10º",
-          "Milhar": "7765",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "2032",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         }
       ],
-      "frases": {},
+      "frases": {
+        "5706": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5706",
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5706"
+        ],
+        "5806": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 5806",
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5806"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦅"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0828, 0928"
+      "resumo": "Palpites dados para esta extração: 5703, 5704, 5706, 5723, 5724, 5726, 5803, 5804, 5806, 5823, 5824, 5826"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
