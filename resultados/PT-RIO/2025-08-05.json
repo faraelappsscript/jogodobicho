@@ -52,26 +52,54 @@
         }
       ],
       "frases": {
+        "1000": [
+          "Dezena no quinto prêmio!<br>com o palpite 1000",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1000"
+        ],
+        "1050": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1050",
+          "Dezena no sexto prêmio!<br>com o palpite 1050",
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 1050"
+        ],
+        "1100": [
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 1100",
+          "Dezena no quinto prêmio!<br>com o palpite 1100",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1100"
+        ],
+        "1150": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1150",
+          "Dezena no sexto prêmio!<br>com o palpite 1150",
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 1150"
+        ],
+        "1300": [
+          "Dezena no quinto prêmio!<br>com o palpite 1300",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1300"
+        ],
+        "1350": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1350",
+          "Dezena no sexto prêmio!<br>com o palpite 1350",
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 1350"
+        ],
+        "1800": [
+          "Dezena no quinto prêmio!<br>com o palpite 1800",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1800"
+        ],
         "1850": [
           "GALO 🐓 no terceiro prêmio!<br>com o palpite 1850",
           "Dezena no sexto prêmio!<br>com o palpite 1850",
           "GALO 🐓 no sexto prêmio!<br>com o palpite 1850"
-        ],
-        "5850": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 5850",
-          "Dezena no sexto prêmio!<br>com o palpite 5850",
-          "GALO 🐓 no sexto prêmio!<br>com o palpite 5850"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 2,
+        "Centena": 1,
+        "Dezena": 8,
         "Grupo": [
-          "🐓"
+          "🐓",
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1830, 1839, 1850, 1859, 5830, 5839, 5850, 5859"
+      "resumo": "Palpites dados para esta extração: 1000, 1040, 1050, 1100, 1140, 1150, 1300, 1340, 1350, 1800, 1840, 1850"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -465,26 +493,54 @@
         }
       ],
       "frases": {
+        "1000": [
+          "Dezena no quinto prêmio!<br>com o palpite 1000",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1000"
+        ],
+        "1050": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1050",
+          "Dezena no oitavo prêmio!<br>com o palpite 1050",
+          "GALO 🐓 no oitavo prêmio!<br>com o palpite 1050"
+        ],
+        "1100": [
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 1100",
+          "Dezena no quinto prêmio!<br>com o palpite 1100",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1100"
+        ],
+        "1150": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1150",
+          "Dezena no oitavo prêmio!<br>com o palpite 1150",
+          "GALO 🐓 no oitavo prêmio!<br>com o palpite 1150"
+        ],
+        "1300": [
+          "Dezena no quinto prêmio!<br>com o palpite 1300",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1300"
+        ],
+        "1350": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1350",
+          "Dezena no oitavo prêmio!<br>com o palpite 1350",
+          "GALO 🐓 no oitavo prêmio!<br>com o palpite 1350"
+        ],
+        "1800": [
+          "Dezena no quinto prêmio!<br>com o palpite 1800",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1800"
+        ],
         "1850": [
           "GALO 🐓 no terceiro prêmio!<br>com o palpite 1850",
           "Dezena no oitavo prêmio!<br>com o palpite 1850",
           "GALO 🐓 no oitavo prêmio!<br>com o palpite 1850"
-        ],
-        "5850": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 5850",
-          "Dezena no oitavo prêmio!<br>com o palpite 5850",
-          "GALO 🐓 no oitavo prêmio!<br>com o palpite 5850"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 2,
+        "Centena": 1,
+        "Dezena": 8,
         "Grupo": [
-          "🐓"
+          "🐓",
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1830, 1839, 1850, 1859, 5830, 5839, 5850, 5859"
+      "resumo": "Palpites dados para esta extração: 1000, 1040, 1050, 1100, 1140, 1150, 1300, 1340, 1350, 1800, 1840, 1850"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
