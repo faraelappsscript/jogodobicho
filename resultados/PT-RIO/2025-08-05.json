@@ -51,14 +51,27 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1850": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1850",
+          "Dezena no sexto prêmio!<br>com o palpite 1850",
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 1850"
+        ],
+        "5850": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 5850",
+          "Dezena no sexto prêmio!<br>com o palpite 5850",
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 5850"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 2,
+        "Grupo": [
+          "🐓"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 5839"
+      "resumo": "Palpites dados para esta extração: 1830, 1839, 1850, 1859, 5830, 5839, 5850, 5859"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -451,14 +464,27 @@
           "Bicho": "Elefante"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1850": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1850",
+          "Dezena no oitavo prêmio!<br>com o palpite 1850",
+          "GALO 🐓 no oitavo prêmio!<br>com o palpite 1850"
+        ],
+        "5850": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 5850",
+          "Dezena no oitavo prêmio!<br>com o palpite 5850",
+          "GALO 🐓 no oitavo prêmio!<br>com o palpite 5850"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 2,
+        "Grupo": [
+          "🐓"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 5839"
+      "resumo": "Palpites dados para esta extração: 1830, 1839, 1850, 1859, 5830, 5839, 5850, 5859"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
