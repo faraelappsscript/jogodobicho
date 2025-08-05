@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 7833, 7837, 7839"
+      "resumo": "Palpites dados para esta extração: 5839"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 7833, 7837, 7839"
+      "resumo": "Palpites dados para esta extração: 5839"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -178,7 +178,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 7833, 7837, 7839"
+      "resumo": "Palpites dados para esta extração: 5839"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -232,23 +232,19 @@
         }
       ],
       "frases": {
-        "7837": [
-          "Dezena no segundo prêmio!<br>com o palpite 7837",
-          "COELHO 🐇 no segundo prêmio!<br>com o palpite 7837"
-        ],
-        "7839": [
-          "COELHO 🐇 no segundo prêmio!<br>com o palpite 7839"
+        "5839": [
+          "COELHO 🐇 no segundo prêmio!<br>com o palpite 5839"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
           "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7833, 7837, 7839"
+      "resumo": "Palpites dados para esta extração: 5839"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -302,27 +298,19 @@
         }
       ],
       "frases": {
-        "7833": [
-          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 7833"
-        ],
-        "7837": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7837",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 7837"
-        ],
-        "7839": [
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 7839"
+        "5839": [
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 5839"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐇",
-          "🐍"
+          "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7833, 7837, 7839"
+      "resumo": "Palpites dados para esta extração: 5839"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -376,29 +364,21 @@
         }
       ],
       "frases": {
-        "7833": [
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 7833"
-        ],
-        "7837": [
-          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 7837"
-        ],
-        "7839": [
-          "Milhar e Centena no primeiro prêmio!<br>com o palpite 7839",
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7839",
-          "Dezena no primeiro prêmio!<br>com o palpite 7839",
-          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 7839"
+        "5839": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 5839",
+          "Dezena no primeiro prêmio!<br>com o palpite 5839",
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 5839"
         ]
       },
       "acertos": {
-        "Milhar": 1,
+        "Milhar": 0,
         "Centena": 1,
         "Dezena": 1,
         "Grupo": [
-          "🐇",
-          "🐍"
+          "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7833, 7837, 7839"
+      "resumo": "Palpites dados para esta extração: 5839"
     }
   },
   "1-10": {
