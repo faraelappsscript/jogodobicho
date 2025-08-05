@@ -2,14 +2,18 @@
   "frase_1-5": "Palpites para a próxima extração (PT-RIO, RJ, 11:00, PTM):",
   "frase_1-10": "Palpites para a próxima extração (PT-RIO, RJ, 11:00, PTM do 1º ao 10º):",
   "palpites": [
-    "1830",
-    "1839",
-    "1850",
-    "1859",
-    "5830",
-    "5839",
-    "5850",
-    "5859"
+    "1000",
+    "1040",
+    "1050",
+    "1100",
+    "1140",
+    "1150",
+    "1300",
+    "1340",
+    "1350",
+    "1800",
+    "1840",
+    "1850"
   ],
   "data_proxima_extracao": "2025-08-05"
 }
