@@ -10,43 +10,43 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "0881",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "1616",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "6866",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "7429",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "6279",
+          "Milhar": "1378",
           "Grupo": "20",
           "Bicho": "Peru"
         },
         {
+          "Prêmio": "3º",
+          "Milhar": "4852",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3004",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
           "Prêmio": "5º",
-          "Milhar": "8418",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
+          "Milhar": "4100",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "9873",
+          "Milhar": "4950",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "048",
+          "Milhar": "226",
           "Grupo": "",
           "Bicho": ""
         }
@@ -392,63 +392,63 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "0881",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "1616",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "6866",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "7429",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "6279",
+          "Milhar": "1378",
           "Grupo": "20",
           "Bicho": "Peru"
         },
         {
+          "Prêmio": "3º",
+          "Milhar": "4852",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3004",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
           "Prêmio": "5º",
-          "Milhar": "8418",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "0676",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "8842",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "8627",
-          "Grupo": "07",
-          "Bicho": "Carneiro"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "1699",
+          "Milhar": "4100",
           "Grupo": "25",
           "Bicho": "Vaca"
         },
         {
+          "Prêmio": "6º",
+          "Milhar": "1143",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6380",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1750",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "6824",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
           "Prêmio": "10º",
-          "Milhar": "9717",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
+          "Milhar": "1047",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         }
       ],
       "frases": {},
