@@ -372,63 +372,55 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7839",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "6159",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "5867",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "8889",
+          "Grupo": "23",
+          "Bicho": "Urso"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "5735",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "1094",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "5099",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "4880",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "5823",
-          "Grupo": "06",
-          "Bicho": "Cabra"
+          "Milhar": "1643",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "0363",
+          "Milhar": "2665",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "991",
+          "Milhar": "747",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {
-        "5839": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 5839",
-          "Dezena no primeiro prêmio!<br>com o palpite 5839",
-          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 5839"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 1,
-        "Grupo": [
-          "🐇"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5839"
+      "resumo": "Palpites dados para esta extração: 3501, 3505, 5501, 5505, 8501, 8505, 9501, 9505"
     }
   },
   "1-10": {
@@ -921,83 +913,88 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7839",
-          "Grupo": "10",
-          "Bicho": "Coelho"
-        },
-        {
-          "Prêmio": "2º",
-          "Milhar": "5867",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "5735",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "5099",
-          "Grupo": "25",
-          "Bicho": "Vaca"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "5823",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "7555",
-          "Grupo": "14",
-          "Bicho": "Gato"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "8870",
-          "Grupo": "18",
-          "Bicho": "Porco"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "3639",
-          "Grupo": "10",
-          "Bicho": "Coelho"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "9759",
+          "Milhar": "6159",
           "Grupo": "15",
           "Bicho": "Jacaré"
         },
         {
+          "Prêmio": "2º",
+          "Milhar": "8889",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1094",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "4880",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1643",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "6814",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1808",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "5898",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "9940",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
           "Prêmio": "10º",
-          "Milhar": "0186",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "7125",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         }
       ],
       "frases": {
-        "5839": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 5839",
-          "Dezena no primeiro prêmio!<br>com o palpite 5839",
-          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 5839",
-          "Dezena no oitavo prêmio!<br>com o palpite 5839",
-          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 5839"
+        "3505": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 3505"
+        ],
+        "5505": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 5505"
+        ],
+        "8505": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 8505"
+        ],
+        "9505": [
+          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 9505"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 2,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🐇"
+          "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5839"
+      "resumo": "Palpites dados para esta extração: 3501, 3505, 5501, 5505, 8501, 8505, 9501, 9505"
     }
   }
 }
