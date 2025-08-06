@@ -208,43 +208,43 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "6725",
-          "Grupo": "07",
-          "Bicho": "Carneiro"
+          "Milhar": "6630",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "2470",
+          "Milhar": "4782",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5847",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3969",
           "Grupo": "18",
           "Bicho": "Porco"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "8874",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "9963",
+          "Prêmio": "5º",
+          "Milhar": "4962",
           "Grupo": "16",
           "Bicho": "Leão"
         },
         {
-          "Prêmio": "5º",
-          "Milhar": "4704",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
           "Prêmio": "6º [soma]",
-          "Milhar": "2736",
+          "Milhar": "6190",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "610",
+          "Milhar": "704",
           "Grupo": "",
           "Bicho": ""
         }
@@ -256,7 +256,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
+      "resumo": "Palpites dados para esta extração: 2726, 7726"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -428,6 +428,29 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
+    },
+    "A FEDERAL DO BRASIL - RJ": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   },
   "1-10": {
@@ -704,90 +727,73 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "6725",
-          "Grupo": "07",
-          "Bicho": "Carneiro"
+          "Milhar": "6630",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "2470",
+          "Milhar": "4782",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5847",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3969",
           "Grupo": "18",
           "Bicho": "Porco"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "8874",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "9963",
+          "Prêmio": "5º",
+          "Milhar": "4962",
           "Grupo": "16",
           "Bicho": "Leão"
         },
         {
-          "Prêmio": "5º",
-          "Milhar": "4704",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
           "Prêmio": "6º",
-          "Milhar": "6289",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "6453",
+          "Grupo": "14",
+          "Bicho": "Gato"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "7489",
+          "Milhar": "6789",
           "Grupo": "23",
           "Bicho": "Urso"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "2776",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "3846",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "5043",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "0279",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "4333",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "3557",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
         }
       ],
-      "frases": {
-        "1844": [
-          "CAVALO 🐎 no nono prêmio!<br>com o palpite 1844"
-        ],
-        "1889": [
-          "Dezena no sexto prêmio!<br>com o palpite 1889",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 1889",
-          "Dezena no sétimo prêmio!<br>com o palpite 1889",
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 1889"
-        ],
-        "1890": [
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 1890",
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 1890"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐻",
-          "🐎"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
+      "resumo": "Palpites dados para esta extração: 2726, 7726"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -1007,6 +1013,34 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
+    },
+    "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   }
 }
