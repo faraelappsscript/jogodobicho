@@ -70,79 +70,55 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "3892",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "4128",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "3236",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "1567",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "7845",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "8574",
+          "Grupo": "19",
+          "Bicho": "Pavão"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "9979",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "0222",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "8580",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "7453",
+          "Grupo": "14",
+          "Bicho": "Gato"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "3532",
+          "Milhar": "1944",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "594",
+          "Milhar": "468",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1848": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 1848"
-        ],
-        "1880": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 1880",
-          "Dezena no quinto prêmio!<br>com o palpite 1880",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 1880"
-        ],
-        "1889": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1889"
-        ],
-        "1890": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1890"
-        ],
-        "1894": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1894",
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 1894"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐻",
-          "🐘",
-          "🦃",
-          "🦌"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
+      "resumo": "Palpites dados para esta extração: 1315, 2315, 8315"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -547,97 +523,73 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "3892",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "4128",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "3236",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "1567",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "7845",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "8574",
+          "Grupo": "19",
+          "Bicho": "Pavão"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "9979",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "0222",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "8580",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "7453",
+          "Grupo": "14",
+          "Bicho": "Gato"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "3379",
+          "Milhar": "4180",
           "Grupo": "20",
           "Bicho": "Peru"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "8289",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "1552",
+          "Grupo": "13",
+          "Bicho": "Galo"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "9347",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "2672",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "2659",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "8742",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "7206",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "9090",
+          "Grupo": "23",
+          "Bicho": "Urso"
         }
       ],
-      "frases": {
-        "1848": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 1848",
-          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 1848"
-        ],
-        "1880": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 1880",
-          "Dezena no quinto prêmio!<br>com o palpite 1880",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 1880",
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 1880"
-        ],
-        "1889": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1889",
-          "Dezena no sétimo prêmio!<br>com o palpite 1889",
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 1889"
-        ],
-        "1890": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1890",
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 1890"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐻",
-          "🐘",
-          "🦃"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
+      "resumo": "Palpites dados para esta extração: 1315, 2315, 8315"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
