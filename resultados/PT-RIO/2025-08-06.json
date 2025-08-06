@@ -510,11 +510,48 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "5122",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2399",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5262",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7544",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0111",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "0438",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "247",
+          "Grupo": "",
+          "Bicho": ""
+        }
       ],
       "frases": {},
       "acertos": {
@@ -523,7 +560,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 3749, 3759, 3769, 3789, 3849, 3859, 3869, 3889, 3949, 3959, 3969, 3989, 6749, 6759, 6769, 6789, 6849, 6859, 6869, 6889, 6949, 6959, 6969, 6989"
     }
   },
   "1-10": {
@@ -1223,25 +1260,96 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "5122",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2399",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5262",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7544",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0111",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "5257",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1325",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "2964",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "2924",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "2908",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        }
       ],
-      "frases": {},
+      "frases": {
+        "3759": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 3759"
+        ],
+        "3859": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 3859"
+        ],
+        "3959": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 3959"
+        ],
+        "6759": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 6759"
+        ],
+        "6859": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 6859"
+        ],
+        "6959": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 6959"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐊"
+        ]
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 3749, 3759, 3769, 3789, 3849, 3859, 3869, 3889, 3949, 3959, 3969, 3989, 6749, 6759, 6769, 6789, 6849, 6859, 6869, 6889, 6949, 6959, 6969, 6989"
     }
   }
 }
