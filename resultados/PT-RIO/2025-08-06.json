@@ -51,14 +51,23 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "2726": [
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 2726"
+        ],
+        "7726": [
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 7726"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐑"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1522, 1552, 1572, 4522, 4552, 4572, 8522, 8552, 8572"
+      "resumo": "Palpites dados para esta extração: 2726, 7726"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -112,28 +121,22 @@
         }
       ],
       "frases": {
-        "1522": [
-          "Dezena no quarto prêmio!<br>com o palpite 1522",
-          "CABRA 🐐 no quarto prêmio!<br>com o palpite 1522"
+        "2726": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2726"
         ],
-        "4522": [
-          "Dezena no quarto prêmio!<br>com o palpite 4522",
-          "CABRA 🐐 no quarto prêmio!<br>com o palpite 4522"
-        ],
-        "8522": [
-          "Dezena no quarto prêmio!<br>com o palpite 8522",
-          "CABRA 🐐 no quarto prêmio!<br>com o palpite 8522"
+        "7726": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 7726"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
+        "Dezena": 0,
         "Grupo": [
-          "🐐"
+          "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1522, 1552, 1572, 4522, 4552, 4572, 8522, 8552, 8572"
+      "resumo": "Palpites dados para esta extração: 2726, 7726"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -186,42 +189,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1522": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1522",
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 1522"
-        ],
-        "1572": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1572",
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 1572"
-        ],
-        "4522": [
-          "Dezena no terceiro prêmio!<br>com o palpite 4522",
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 4522"
-        ],
-        "4572": [
-          "Dezena no sétimo prêmio!<br>com o palpite 4572",
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 4572"
-        ],
-        "8522": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8522",
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 8522"
-        ],
-        "8572": [
-          "Dezena no sétimo prêmio!<br>com o palpite 8572",
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 8572"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
-        "Grupo": [
-          "🐐",
-          "🐖"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1522, 1552, 1572, 4522, 4552, 4572, 8522, 8552, 8572"
+      "resumo": "Palpites dados para esta extração: 2726, 7726"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
