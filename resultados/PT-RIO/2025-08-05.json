@@ -52,78 +52,31 @@
         }
       ],
       "frases": {
-        "1800": [
-          "Dezena no quinto prêmio!<br>com o palpite 1800",
-          "VACA 🐄 no quinto prêmio!<br>com o palpite 1800"
-        ],
-        "1801": [
-          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 1801"
+        "1849": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1849",
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 1849"
         ],
         "1880": [
           "PERU 🦃 no segundo prêmio!<br>com o palpite 1880"
         ],
-        "3800": [
-          "Dezena no quinto prêmio!<br>com o palpite 3800",
-          "VACA 🐄 no quinto prêmio!<br>com o palpite 3800"
+        "1898": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1898"
         ],
-        "3801": [
-          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 3801"
-        ],
-        "3880": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 3880"
-        ],
-        "5800": [
-          "Dezena no quinto prêmio!<br>com o palpite 5800",
-          "VACA 🐄 no quinto prêmio!<br>com o palpite 5800"
-        ],
-        "5801": [
-          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 5801"
-        ],
-        "5880": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5880"
-        ],
-        "6800": [
-          "Dezena no quinto prêmio!<br>com o palpite 6800",
-          "VACA 🐄 no quinto prêmio!<br>com o palpite 6800"
-        ],
-        "6801": [
-          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 6801"
-        ],
-        "6880": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6880"
-        ],
-        "8800": [
-          "Dezena no quinto prêmio!<br>com o palpite 8800",
-          "VACA 🐄 no quinto prêmio!<br>com o palpite 8800"
-        ],
-        "8801": [
-          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 8801"
-        ],
-        "8880": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 8880"
-        ],
-        "9800": [
-          "Dezena no quinto prêmio!<br>com o palpite 9800",
-          "VACA 🐄 no quinto prêmio!<br>com o palpite 9800"
-        ],
-        "9801": [
-          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 9801"
-        ],
-        "9880": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 9880"
+        "1899": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1899"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
+        "Dezena": 0,
         "Grupo": [
           "🦃",
-          "🪶",
+          "🐓",
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1800, 1801, 1805, 1880, 1881, 1885, 1890, 1891, 1895, 3800, 3801, 3805, 3880, 3881, 3885, 3890, 3891, 3895, 5800, 5801, 5805, 5880, 5881, 5885, 5890, 5891, 5895, 6800, 6801, 6805, 6880, 6881, 6885, 6890, 6891, 6895, 8800, 8801, 8805, 8880, 8881, 8885, 8890, 8891, 8895, 9800, 9801, 9805, 9880, 9881, 9885, 9890, 9891, 9895"
+      "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -177,102 +130,37 @@
         }
       ],
       "frases": {
+        "1848": [
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 1848"
+        ],
         "1880": [
           "PERU 🦃 no quarto prêmio!<br>com o palpite 1880",
           "Dezena no quinto prêmio!<br>com o palpite 1880",
           "PERU 🦃 no quinto prêmio!<br>com o palpite 1880"
         ],
+        "1889": [
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1889"
+        ],
         "1890": [
           "URSO 🐻 no primeiro prêmio!<br>com o palpite 1890"
         ],
-        "1891": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1891"
-        ],
-        "1895": [
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 1895"
-        ],
-        "3880": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 3880",
-          "Dezena no quinto prêmio!<br>com o palpite 3880",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 3880"
-        ],
-        "3890": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 3890"
-        ],
-        "3891": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 3891"
-        ],
-        "3895": [
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3895"
-        ],
-        "5880": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 5880",
-          "Dezena no quinto prêmio!<br>com o palpite 5880",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 5880"
-        ],
-        "5890": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 5890"
-        ],
-        "5891": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 5891"
-        ],
-        "5895": [
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 5895"
-        ],
-        "6880": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 6880",
-          "Dezena no quinto prêmio!<br>com o palpite 6880",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 6880"
-        ],
-        "6890": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 6890"
-        ],
-        "6891": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 6891"
-        ],
-        "6895": [
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 6895"
-        ],
-        "8880": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 8880",
-          "Dezena no quinto prêmio!<br>com o palpite 8880",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 8880"
-        ],
-        "8890": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 8890"
-        ],
-        "8891": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 8891"
-        ],
-        "8895": [
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 8895"
-        ],
-        "9880": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 9880",
-          "Dezena no quinto prêmio!<br>com o palpite 9880",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 9880"
-        ],
-        "9890": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 9890"
-        ],
-        "9891": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 9891"
-        ],
-        "9895": [
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 9895"
+        "1894": [
+          "Dezena no sétimo prêmio!<br>com o palpite 1894",
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 1894"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
+        "Dezena": 2,
         "Grupo": [
           "🐻",
+          "🐘",
           "🦃",
           "🦌"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1800, 1801, 1805, 1880, 1881, 1885, 1890, 1891, 1895, 3800, 3801, 3805, 3880, 3881, 3885, 3890, 3891, 3895, 5800, 5801, 5805, 5880, 5881, 5885, 5890, 5891, 5895, 6800, 6801, 6805, 6880, 6881, 6885, 6890, 6891, 6895, 8800, 8801, 8805, 8880, 8881, 8885, 8890, 8891, 8895, 9800, 9801, 9805, 9880, 9881, 9885, 9890, 9891, 9895"
+      "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -326,41 +214,11 @@
         }
       ],
       "frases": {
-        "1885": [
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 1885"
+        "1888": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 1888"
         ],
-        "1895": [
-          "VEADO 🦌 no sexto prêmio!<br>com o palpite 1895"
-        ],
-        "3885": [
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 3885"
-        ],
-        "3895": [
-          "VEADO 🦌 no sexto prêmio!<br>com o palpite 3895"
-        ],
-        "5885": [
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 5885"
-        ],
-        "5895": [
-          "VEADO 🦌 no sexto prêmio!<br>com o palpite 5895"
-        ],
-        "6885": [
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 6885"
-        ],
-        "6895": [
-          "VEADO 🦌 no sexto prêmio!<br>com o palpite 6895"
-        ],
-        "8885": [
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 8885"
-        ],
-        "8895": [
-          "VEADO 🦌 no sexto prêmio!<br>com o palpite 8895"
-        ],
-        "9885": [
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 9885"
-        ],
-        "9895": [
-          "VEADO 🦌 no sexto prêmio!<br>com o palpite 9895"
+        "1894": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 1894"
         ]
       },
       "acertos": {
@@ -372,7 +230,7 @@
           "🦌"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1800, 1801, 1805, 1880, 1881, 1885, 1890, 1891, 1895, 3800, 3801, 3805, 3880, 3881, 3885, 3890, 3891, 3895, 5800, 5801, 5805, 5880, 5881, 5885, 5890, 5891, 5895, 6800, 6801, 6805, 6880, 6881, 6885, 6890, 6891, 6895, 8800, 8801, 8805, 8880, 8881, 8885, 8890, 8891, 8895, 9800, 9801, 9805, 9880, 9881, 9885, 9890, 9891, 9895"
+      "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -425,35 +283,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1801": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 1801"
-        ],
-        "3801": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 3801"
-        ],
-        "5801": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 5801"
-        ],
-        "6801": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 6801"
-        ],
-        "8801": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8801"
-        ],
-        "9801": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9801"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🪶"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1800, 1801, 1805, 1880, 1881, 1885, 1890, 1891, 1895, 3800, 3801, 3805, 3880, 3881, 3885, 3890, 3891, 3895, 5800, 5801, 5805, 5880, 5881, 5885, 5890, 5891, 5895, 6800, 6801, 6805, 6880, 6881, 6885, 6890, 6891, 6895, 8800, 8801, 8805, 8880, 8881, 8885, 8890, 8891, 8895, 9800, 9801, 9805, 9880, 9881, 9885, 9890, 9891, 9895"
+      "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -507,128 +344,34 @@
         }
       ],
       "frases": {
-        "1800": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1800",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 1800"
+        "1849": [
+          "GALO 🐓 no quarto prêmio!<br>com o palpite 1849"
         ],
-        "1801": [
-          "Dezena no quinto prêmio!<br>com o palpite 1801",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 1801"
+        "1888": [
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 1888"
         ],
-        "1805": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 1805"
+        "1894": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 1894"
         ],
-        "1885": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 1885"
+        "1898": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 1898"
         ],
-        "1895": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1895",
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 1895"
-        ],
-        "3800": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3800",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 3800"
-        ],
-        "3801": [
-          "Dezena no quinto prêmio!<br>com o palpite 3801",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 3801"
-        ],
-        "3805": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 3805"
-        ],
-        "3885": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 3885"
-        ],
-        "3895": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3895",
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 3895"
-        ],
-        "5800": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5800",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5800"
-        ],
-        "5801": [
-          "Dezena no quinto prêmio!<br>com o palpite 5801",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 5801"
-        ],
-        "5805": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 5805"
-        ],
-        "5885": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 5885"
-        ],
-        "5895": [
-          "Dezena no primeiro prêmio!<br>com o palpite 5895",
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 5895"
-        ],
-        "6800": [
-          "Dezena no terceiro prêmio!<br>com o palpite 6800",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 6800"
-        ],
-        "6801": [
-          "Dezena no quinto prêmio!<br>com o palpite 6801",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 6801"
-        ],
-        "6805": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 6805"
-        ],
-        "6885": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 6885"
-        ],
-        "6895": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6895",
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 6895"
-        ],
-        "8800": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8800",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 8800"
-        ],
-        "8801": [
-          "Dezena no quinto prêmio!<br>com o palpite 8801",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8801"
-        ],
-        "8805": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 8805"
-        ],
-        "8885": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 8885"
-        ],
-        "8895": [
-          "Dezena no primeiro prêmio!<br>com o palpite 8895",
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 8895"
-        ],
-        "9800": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9800",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 9800"
-        ],
-        "9801": [
-          "Dezena no quinto prêmio!<br>com o palpite 9801",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9801"
-        ],
-        "9805": [
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 9805"
-        ],
-        "9885": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 9885"
-        ],
-        "9895": [
-          "Dezena no primeiro prêmio!<br>com o palpite 9895",
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 9895"
+        "1899": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 1899"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 18,
+        "Dezena": 0,
         "Grupo": [
           "🦌",
           "🐅",
           "🐄",
-          "🪶",
-          "🦅"
+          "🐓"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1800, 1801, 1805, 1880, 1881, 1885, 1890, 1891, 1895, 3800, 3801, 3805, 3880, 3881, 3885, 3890, 3891, 3895, 5800, 5801, 5805, 5880, 5881, 5885, 5890, 5891, 5895, 6800, 6801, 6805, 6880, 6881, 6885, 6890, 6891, 6895, 8800, 8801, 8805, 8880, 8881, 8885, 8890, 8891, 8895, 9800, 9801, 9805, 9880, 9881, 9885, 9890, 9891, 9895"
+      "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -682,102 +425,43 @@
         }
       ],
       "frases": {
+        "1844": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1844"
+        ],
+        "1848": [
+          "ELEFANTE 🐘 no sétimo prêmio!<br>com o palpite 1848"
+        ],
         "1880": [
           "Centena e Dezena no quarto prêmio!<br>com o palpite 1880",
           "Dezena no quarto prêmio!<br>com o palpite 1880",
           "PERU 🦃 no quarto prêmio!<br>com o palpite 1880"
         ],
+        "1889": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 1889",
+          "Dezena no segundo prêmio!<br>com o palpite 1889",
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 1889"
+        ],
         "1890": [
           "URSO 🐻 no segundo prêmio!<br>com o palpite 1890"
         ],
-        "1891": [
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 1891"
-        ],
-        "1895": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1895"
-        ],
-        "3880": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3880",
-          "Dezena no quarto prêmio!<br>com o palpite 3880",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 3880"
-        ],
-        "3890": [
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 3890"
-        ],
-        "3891": [
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 3891"
-        ],
-        "3895": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3895"
-        ],
-        "5880": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 5880",
-          "Dezena no quarto prêmio!<br>com o palpite 5880",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 5880"
-        ],
-        "5890": [
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 5890"
-        ],
-        "5891": [
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 5891"
-        ],
-        "5895": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 5895"
-        ],
-        "6880": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 6880",
-          "Dezena no quarto prêmio!<br>com o palpite 6880",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 6880"
-        ],
-        "6890": [
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 6890"
-        ],
-        "6891": [
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 6891"
-        ],
-        "6895": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 6895"
-        ],
-        "8880": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 8880",
-          "Dezena no quarto prêmio!<br>com o palpite 8880",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 8880"
-        ],
-        "8890": [
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 8890"
-        ],
-        "8891": [
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 8891"
-        ],
-        "8895": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 8895"
-        ],
-        "9880": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 9880",
-          "Dezena no quarto prêmio!<br>com o palpite 9880",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 9880"
-        ],
-        "9890": [
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 9890"
-        ],
-        "9891": [
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 9891"
-        ],
-        "9895": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 9895"
+        "1894": [
+          "Dezena no terceiro prêmio!<br>com o palpite 1894",
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1894"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 6,
-        "Dezena": 6,
+        "Centena": 2,
+        "Dezena": 3,
         "Grupo": [
           "🐻",
           "🦌",
-          "🦃"
+          "🦃",
+          "🐎",
+          "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1800, 1801, 1805, 1880, 1881, 1885, 1890, 1891, 1895, 3800, 3801, 3805, 3880, 3881, 3885, 3890, 3891, 3895, 5800, 5801, 5805, 5880, 5881, 5885, 5890, 5891, 5895, 6800, 6801, 6805, 6880, 6881, 6885, 6890, 6891, 6895, 8800, 8801, 8805, 8880, 8881, 8885, 8890, 8891, 8895, 9800, 9801, 9805, 9880, 9881, 9885, 9890, 9891, 9895"
+      "resumo": "Palpites dados para esta extração: 1840, 1844, 1848, 1849, 1880, 1884, 1888, 1889, 1890, 1894, 1898, 1899"
     }
   },
   "1-10": {
