@@ -199,61 +199,61 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "4128",
+          "Milhar": "9417",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5027",
           "Grupo": "07",
           "Bicho": "Carneiro"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "1567",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
           "Prêmio": "3º",
-          "Milhar": "8574",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "9229",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "0222",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "7453",
-          "Grupo": "14",
-          "Bicho": "Gato"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "4180",
-          "Grupo": "20",
-          "Bicho": "Peru"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "1552",
-          "Grupo": "13",
-          "Bicho": "Galo"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "2672",
-          "Grupo": "18",
-          "Bicho": "Porco"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "8742",
+          "Milhar": "3943",
           "Grupo": "11",
           "Bicho": "Cavalo"
         },
         {
+          "Prêmio": "5º",
+          "Milhar": "3337",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "9593",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "4029",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1224",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "7793",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
           "Prêmio": "10º",
-          "Milhar": "9090",
+          "Milhar": "3592",
           "Grupo": "23",
           "Bicho": "Urso"
         }
@@ -265,7 +265,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
+      "resumo": "Palpites dados para esta extração: 0800, 0804, 0807, 0808"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -697,43 +697,43 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "4128",
+          "Milhar": "9417",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5027",
           "Grupo": "07",
           "Bicho": "Carneiro"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "1567",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
           "Prêmio": "3º",
-          "Milhar": "8574",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "9229",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "0222",
-          "Grupo": "06",
-          "Bicho": "Cabra"
+          "Milhar": "3943",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "7453",
-          "Grupo": "14",
-          "Bicho": "Gato"
+          "Milhar": "3337",
+          "Grupo": "10",
+          "Bicho": "Coelho"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "1944",
+          "Milhar": "0953",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "468",
+          "Milhar": "339",
           "Grupo": "",
           "Bicho": ""
         }
@@ -745,7 +745,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
+      "resumo": "Palpites dados para esta extração: 0800, 0804, 0807, 0808"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
