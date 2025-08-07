@@ -157,37 +157,40 @@
         }
       ],
       "frases": {
-        "0804": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0804",
-          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 0804",
-          "Dezena no décimo prêmio!<br>com o palpite 0804",
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 0804"
+        "9027": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9027"
         ],
-        "0807": [
-          "Dezena no quarto prêmio!<br>com o palpite 0807",
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 0807",
-          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 0807",
-          "Centena e Dezena no nono prêmio!<br>com o palpite 0807",
-          "Dezena no nono prêmio!<br>com o palpite 0807",
-          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 0807"
+        "9227": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9227"
         ],
-        "0808": [
-          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 0808",
-          "Dezena no sexto prêmio!<br>com o palpite 0808",
-          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 0808",
-          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 0808"
+        "9527": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9527"
+        ],
+        "9827": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9827"
+        ],
+        "0027": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 0027"
+        ],
+        "0227": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 0227"
+        ],
+        "0527": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 0527"
+        ],
+        "0827": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 0827"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 5,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🪶",
-          "🦅"
+          "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0800, 0804, 0807, 0808"
+      "resumo": "Palpites dados para esta extração: 0027, 0227, 0527, 0827, 9027, 9227, 9527, 9827"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -258,14 +261,51 @@
           "Bicho": "Urso"
         }
       ],
-      "frases": {},
+      "frases": {
+        "9027": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 9027",
+          "Dezena no segundo prêmio!<br>com o palpite 9027",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9027"
+        ],
+        "9227": [
+          "Dezena no segundo prêmio!<br>com o palpite 9227",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9227"
+        ],
+        "9527": [
+          "Dezena no segundo prêmio!<br>com o palpite 9527",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9527"
+        ],
+        "9827": [
+          "Dezena no segundo prêmio!<br>com o palpite 9827",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9827"
+        ],
+        "0027": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 0027",
+          "Dezena no segundo prêmio!<br>com o palpite 0027",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 0027"
+        ],
+        "0227": [
+          "Dezena no segundo prêmio!<br>com o palpite 0227",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 0227"
+        ],
+        "0527": [
+          "Dezena no segundo prêmio!<br>com o palpite 0527",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 0527"
+        ],
+        "0827": [
+          "Dezena no segundo prêmio!<br>com o palpite 0827",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 0827"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 2,
+        "Dezena": 8,
+        "Grupo": [
+          "🐑"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0800, 0804, 0807, 0808"
+      "resumo": "Palpites dados para esta extração: 0027, 0227, 0527, 0827, 9027, 9227, 9527, 9827"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
