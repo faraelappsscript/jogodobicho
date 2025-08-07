@@ -157,24 +157,37 @@
         }
       ],
       "frases": {
-        "4119": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 4119",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 4119"
+        "4120": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4120",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 4120",
+          "Dezena no oitavo prêmio!<br>com o palpite 4120",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 4120"
         ],
-        "7119": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 7119",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 7119"
+        "4129": [
+          "Dezena no sétimo prêmio!<br>com o palpite 4129",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 4129"
+        ],
+        "0120": [
+          "Dezena no terceiro prêmio!<br>com o palpite 0120",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 0120",
+          "Dezena no oitavo prêmio!<br>com o palpite 0120",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 0120"
+        ],
+        "0129": [
+          "Dezena no sétimo prêmio!<br>com o palpite 0129",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 0129"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 6,
         "Grupo": [
-          "🐕"
+          "🐕",
+          "🐪"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
+      "resumo": "Palpites dados para esta extração: 0100, 0109, 0120, 0129, 4100, 4109, 4120, 4129"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
