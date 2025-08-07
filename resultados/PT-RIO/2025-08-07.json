@@ -359,73 +359,84 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "6630",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
-          "Prêmio": "2º",
-          "Milhar": "4782",
-          "Grupo": "21",
-          "Bicho": "Touro"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "5847",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "3969",
-          "Grupo": "18",
-          "Bicho": "Porco"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "4962",
-          "Grupo": "16",
-          "Bicho": "Leão"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "6453",
-          "Grupo": "14",
-          "Bicho": "Gato"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "6789",
-          "Grupo": "23",
-          "Bicho": "Urso"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "3846",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "0279",
+          "Milhar": "9578",
           "Grupo": "20",
           "Bicho": "Peru"
         },
         {
+          "Prêmio": "2º",
+          "Milhar": "8824",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5276",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0615",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4030",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "9850",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "5826",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "7271",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "8465",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
           "Prêmio": "10º",
-          "Milhar": "3557",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "9735",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         }
       ],
-      "frases": {},
+      "frases": {
+        "2114": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 2114"
+        ],
+        "2124": [
+          "Dezena no segundo prêmio!<br>com o palpite 2124",
+          "CABRA 🐐 no segundo prêmio!<br>com o palpite 2124"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 1,
+        "Grupo": [
+          "🐐",
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
+      "resumo": "Palpites dados para esta extração: 2114, 2124, 2154, 2184"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
@@ -526,6 +537,34 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
+    },
+    "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   },
   "1-5": {
