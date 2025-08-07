@@ -322,91 +322,100 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "2734",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
-          "Prêmio": "2º",
-          "Milhar": "0319",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "7722",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "6716",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "2209",
-          "Grupo": "03",
-          "Bicho": "Burro"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "2076",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "7377",
-          "Grupo": "20",
-          "Bicho": "Peru"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "3121",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "4926",
+          "Milhar": "2026",
           "Grupo": "07",
           "Bicho": "Carneiro"
         },
         {
-          "Prêmio": "10º",
-          "Milhar": "7200",
+          "Prêmio": "2º",
+          "Milhar": "5114",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1859",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7428",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6004",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "2517",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "0184",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "2152",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "6498",
           "Grupo": "25",
           "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "3782",
+          "Grupo": "21",
+          "Bicho": "Touro"
         }
       ],
       "frases": {
-        "4110": [
-          "BURRO 🐴 no quinto prêmio!<br>com o palpite 4110"
+        "3027": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 3027",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3027"
         ],
-        "4119": [
-          "Dezena no segundo prêmio!<br>com o palpite 4119",
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 4119"
+        "3227": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 3227",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3227"
         ],
-        "7110": [
-          "BURRO 🐴 no quinto prêmio!<br>com o palpite 7110"
+        "3527": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 3527",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3527"
         ],
-        "7119": [
-          "Dezena no segundo prêmio!<br>com o palpite 7119",
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7119"
+        "9027": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9027",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9027"
+        ],
+        "9227": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9227",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9227"
+        ],
+        "9527": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9527",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9527"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 0,
         "Grupo": [
-          "🐕",
-          "🐴"
+          "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
+      "resumo": "Palpites dados para esta extração: 3023, 3027, 3223, 3227, 3523, 3527, 9023, 9027, 9223, 9227, 9523, 9527"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -837,73 +846,82 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "2734",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "2026",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "0319",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "7722",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "6716",
+          "Milhar": "5114",
           "Grupo": "04",
           "Bicho": "Borboleta"
         },
         {
+          "Prêmio": "3º",
+          "Milhar": "1859",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7428",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
           "Prêmio": "5º",
-          "Milhar": "2209",
-          "Grupo": "03",
-          "Bicho": "Burro"
+          "Milhar": "6004",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "9700",
+          "Milhar": "2431",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "872",
+          "Milhar": "360",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
-        "4110": [
-          "BURRO 🐴 no quinto prêmio!<br>com o palpite 4110"
+        "3027": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 3027",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3027"
         ],
-        "4119": [
-          "Dezena no segundo prêmio!<br>com o palpite 4119",
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 4119"
+        "3227": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 3227",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3227"
         ],
-        "7110": [
-          "BURRO 🐴 no quinto prêmio!<br>com o palpite 7110"
+        "3527": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 3527",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3527"
         ],
-        "7119": [
-          "Dezena no segundo prêmio!<br>com o palpite 7119",
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7119"
+        "9027": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9027",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9027"
+        ],
+        "9227": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9227",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9227"
+        ],
+        "9527": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9527",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9527"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 0,
         "Grupo": [
-          "🐕",
-          "🐴"
+          "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
+      "resumo": "Palpites dados para esta extração: 3023, 3027, 3223, 3227, 3523, 3527, 9023, 9027, 9223, 9227, 9523, 9527"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
