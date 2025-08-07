@@ -664,22 +664,28 @@
         }
       ],
       "frases": {
-        "4119": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 4119"
+        "0804": [
+          "Dezena no primeiro prêmio!<br>com o palpite 0804",
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 0804"
         ],
-        "7119": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 7119"
+        "0807": [
+          "Dezena no quarto prêmio!<br>com o palpite 0807",
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 0807"
+        ],
+        "0808": [
+          "ÁGUIA 🦅 no quarto prêmio!<br>com o palpite 0808"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 2,
         "Grupo": [
-          "🐕"
+          "🪶",
+          "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
+      "resumo": "Palpites dados para esta extração: 0800, 0804, 0807, 0808"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
