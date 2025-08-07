@@ -157,34 +157,101 @@
         }
       ],
       "frases": {
+        "2027": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 2027"
+        ],
+        "2029": [
+          "Dezena no sétimo prêmio!<br>com o palpite 2029",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 2029"
+        ],
+        "2127": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 2127"
+        ],
+        "2129": [
+          "Dezena no sétimo prêmio!<br>com o palpite 2129",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 2129"
+        ],
+        "2427": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 2427"
+        ],
+        "2429": [
+          "Dezena no sétimo prêmio!<br>com o palpite 2429",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 2429"
+        ],
+        "2527": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 2527"
+        ],
+        "2529": [
+          "Dezena no sétimo prêmio!<br>com o palpite 2529",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 2529"
+        ],
         "3027": [
           "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 3027"
         ],
-        "3227": [
-          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 3227"
+        "3029": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3029",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 3029"
+        ],
+        "3127": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 3127"
+        ],
+        "3129": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3129",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 3129"
+        ],
+        "3427": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 3427"
+        ],
+        "3429": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3429",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 3429"
         ],
         "3527": [
           "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 3527"
         ],
+        "3529": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3529",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 3529"
+        ],
         "9027": [
           "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9027"
         ],
-        "9227": [
-          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9227"
+        "9029": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9029",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 9029"
+        ],
+        "9127": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9127"
+        ],
+        "9129": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9129",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 9129"
+        ],
+        "9427": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9427"
+        ],
+        "9429": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9429",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 9429"
         ],
         "9527": [
           "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9527"
+        ],
+        "9529": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9529",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 9529"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 12,
         "Grupo": [
-          "🐑"
+          "🐑",
+          "🐪"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3023, 3027, 3223, 3227, 3523, 3527, 9023, 9027, 9223, 9227, 9523, 9527"
+      "resumo": "Palpites dados para esta extração: 2022, 2023, 2024, 2027, 2029, 2122, 2123, 2124, 2127, 2129, 2422, 2423, 2424, 2427, 2429, 2522, 2523, 2524, 2527, 2529, 3022, 3023, 3024, 3027, 3029, 3122, 3123, 3124, 3127, 3129, 3422, 3423, 3424, 3427, 3429, 3522, 3523, 3524, 3527, 3529, 9022, 9023, 9024, 9027, 9029, 9122, 9123, 9124, 9127, 9129, 9422, 9423, 9424, 9427, 9429, 9522, 9523, 9524, 9527, 9529"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -256,61 +323,264 @@
         }
       ],
       "frases": {
+        "2022": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2022"
+        ],
+        "2023": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2023"
+        ],
+        "2024": [
+          "Dezena no oitavo prêmio!<br>com o palpite 2024",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2024"
+        ],
+        "2027": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 2027",
+          "Dezena no segundo prêmio!<br>com o palpite 2027",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 2027"
+        ],
+        "2029": [
+          "Dezena no terceiro prêmio!<br>com o palpite 2029",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 2029",
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 2029",
+          "Dezena no sétimo prêmio!<br>com o palpite 2029",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 2029"
+        ],
+        "2122": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2122"
+        ],
+        "2123": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2123"
+        ],
+        "2124": [
+          "Dezena no oitavo prêmio!<br>com o palpite 2124",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2124"
+        ],
+        "2127": [
+          "Dezena no segundo prêmio!<br>com o palpite 2127",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 2127"
+        ],
+        "2129": [
+          "Dezena no terceiro prêmio!<br>com o palpite 2129",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 2129",
+          "Dezena no sétimo prêmio!<br>com o palpite 2129",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 2129"
+        ],
+        "2422": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2422"
+        ],
+        "2423": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2423"
+        ],
+        "2424": [
+          "Dezena no oitavo prêmio!<br>com o palpite 2424",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2424"
+        ],
+        "2427": [
+          "Dezena no segundo prêmio!<br>com o palpite 2427",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 2427"
+        ],
+        "2429": [
+          "Dezena no terceiro prêmio!<br>com o palpite 2429",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 2429",
+          "Dezena no sétimo prêmio!<br>com o palpite 2429",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 2429"
+        ],
+        "2522": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2522"
+        ],
+        "2523": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2523"
+        ],
+        "2524": [
+          "Dezena no oitavo prêmio!<br>com o palpite 2524",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2524"
+        ],
+        "2527": [
+          "Dezena no segundo prêmio!<br>com o palpite 2527",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 2527"
+        ],
+        "2529": [
+          "Dezena no terceiro prêmio!<br>com o palpite 2529",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 2529",
+          "Dezena no sétimo prêmio!<br>com o palpite 2529",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 2529"
+        ],
+        "3022": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3022"
+        ],
         "3023": [
           "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3023"
+        ],
+        "3024": [
+          "Dezena no oitavo prêmio!<br>com o palpite 3024",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3024"
         ],
         "3027": [
           "Centena e Dezena no segundo prêmio!<br>com o palpite 3027",
           "Dezena no segundo prêmio!<br>com o palpite 3027",
           "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 3027"
         ],
-        "3223": [
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3223"
+        "3029": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3029",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 3029",
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 3029",
+          "Dezena no sétimo prêmio!<br>com o palpite 3029",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 3029"
         ],
-        "3227": [
-          "Dezena no segundo prêmio!<br>com o palpite 3227",
-          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 3227"
+        "3122": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3122"
+        ],
+        "3123": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3123"
+        ],
+        "3124": [
+          "Dezena no oitavo prêmio!<br>com o palpite 3124",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3124"
+        ],
+        "3127": [
+          "Dezena no segundo prêmio!<br>com o palpite 3127",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 3127"
+        ],
+        "3129": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3129",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 3129",
+          "Dezena no sétimo prêmio!<br>com o palpite 3129",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 3129"
+        ],
+        "3422": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3422"
+        ],
+        "3423": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3423"
+        ],
+        "3424": [
+          "Dezena no oitavo prêmio!<br>com o palpite 3424",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3424"
+        ],
+        "3427": [
+          "Dezena no segundo prêmio!<br>com o palpite 3427",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 3427"
+        ],
+        "3429": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3429",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 3429",
+          "Dezena no sétimo prêmio!<br>com o palpite 3429",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 3429"
+        ],
+        "3522": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3522"
         ],
         "3523": [
           "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3523"
+        ],
+        "3524": [
+          "Dezena no oitavo prêmio!<br>com o palpite 3524",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 3524"
         ],
         "3527": [
           "Dezena no segundo prêmio!<br>com o palpite 3527",
           "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 3527"
         ],
+        "3529": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3529",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 3529",
+          "Dezena no sétimo prêmio!<br>com o palpite 3529",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 3529"
+        ],
+        "9022": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9022"
+        ],
         "9023": [
           "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9023"
+        ],
+        "9024": [
+          "Dezena no oitavo prêmio!<br>com o palpite 9024",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9024"
         ],
         "9027": [
           "Centena e Dezena no segundo prêmio!<br>com o palpite 9027",
           "Dezena no segundo prêmio!<br>com o palpite 9027",
           "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9027"
         ],
-        "9223": [
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9223"
+        "9029": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9029",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9029",
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 9029",
+          "Dezena no sétimo prêmio!<br>com o palpite 9029",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 9029"
         ],
-        "9227": [
-          "Dezena no segundo prêmio!<br>com o palpite 9227",
-          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9227"
+        "9122": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9122"
+        ],
+        "9123": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9123"
+        ],
+        "9124": [
+          "Dezena no oitavo prêmio!<br>com o palpite 9124",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9124"
+        ],
+        "9127": [
+          "Dezena no segundo prêmio!<br>com o palpite 9127",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9127"
+        ],
+        "9129": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9129",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9129",
+          "Dezena no sétimo prêmio!<br>com o palpite 9129",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 9129"
+        ],
+        "9422": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9422"
+        ],
+        "9423": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9423"
+        ],
+        "9424": [
+          "Dezena no oitavo prêmio!<br>com o palpite 9424",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9424"
+        ],
+        "9427": [
+          "Dezena no segundo prêmio!<br>com o palpite 9427",
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9427"
+        ],
+        "9429": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9429",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9429",
+          "Dezena no sétimo prêmio!<br>com o palpite 9429",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 9429"
+        ],
+        "9522": [
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9522"
         ],
         "9523": [
           "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9523"
         ],
+        "9524": [
+          "Dezena no oitavo prêmio!<br>com o palpite 9524",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9524"
+        ],
         "9527": [
           "Dezena no segundo prêmio!<br>com o palpite 9527",
           "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9527"
+        ],
+        "9529": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9529",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9529",
+          "Dezena no sétimo prêmio!<br>com o palpite 9529",
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 9529"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 6,
+        "Centena": 6,
+        "Dezena": 48,
         "Grupo": [
           "🐑",
+          "🐪",
           "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3023, 3027, 3223, 3227, 3523, 3527, 9023, 9027, 9223, 9227, 9523, 9527"
+      "resumo": "Palpites dados para esta extração: 2022, 2023, 2024, 2027, 2029, 2122, 2123, 2124, 2127, 2129, 2422, 2423, 2424, 2427, 2429, 2522, 2523, 2524, 2527, 2529, 3022, 3023, 3024, 3027, 3029, 3122, 3123, 3124, 3127, 3129, 3422, 3423, 3424, 3427, 3429, 3522, 3523, 3524, 3527, 3529, 9022, 9023, 9024, 9027, 9029, 9122, 9123, 9124, 9127, 9129, 9422, 9423, 9424, 9427, 9429, 9522, 9523, 9524, 9527, 9529"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -382,13 +652,33 @@
         }
       ],
       "frases": {
+        "2027": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2027",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2027"
+        ],
+        "2127": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2127",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2127"
+        ],
+        "2427": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2427",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2427"
+        ],
+        "2527": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2527",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2527"
+        ],
         "3027": [
           "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 3027",
           "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3027"
         ],
-        "3227": [
-          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 3227",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3227"
+        "3127": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 3127",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3127"
+        ],
+        "3427": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 3427",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3427"
         ],
         "3527": [
           "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 3527",
@@ -398,9 +688,13 @@
           "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9027",
           "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9027"
         ],
-        "9227": [
-          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9227",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9227"
+        "9127": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9127",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9127"
+        ],
+        "9427": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9427",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9427"
         ],
         "9527": [
           "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9527",
@@ -415,7 +709,7 @@
           "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3023, 3027, 3223, 3227, 3523, 3527, 9023, 9027, 9223, 9227, 9523, 9527"
+      "resumo": "Palpites dados para esta extração: 2022, 2023, 2024, 2027, 2029, 2122, 2123, 2124, 2127, 2129, 2422, 2423, 2424, 2427, 2429, 2522, 2523, 2524, 2527, 2529, 3022, 3023, 3024, 3027, 3029, 3122, 3123, 3124, 3127, 3129, 3422, 3423, 3424, 3427, 3429, 3522, 3523, 3524, 3527, 3529, 9022, 9023, 9024, 9027, 9029, 9122, 9123, 9124, 9127, 9129, 9422, 9423, 9424, 9427, 9429, 9522, 9523, 9524, 9527, 9529"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
