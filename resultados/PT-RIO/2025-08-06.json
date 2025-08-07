@@ -52,22 +52,24 @@
         }
       ],
       "frases": {
-        "4159": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 4159"
+        "4110": [
+          "Dezena no segundo prêmio!<br>com o palpite 4110",
+          "BURRO 🐴 no segundo prêmio!<br>com o palpite 4110"
         ],
-        "4459": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 4459"
+        "7110": [
+          "Dezena no segundo prêmio!<br>com o palpite 7110",
+          "BURRO 🐴 no segundo prêmio!<br>com o palpite 7110"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 2,
         "Grupo": [
-          "🐊"
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4119, 4159, 4169, 4189, 4419, 4459, 4469, 4489"
+      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -127,7 +129,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4119, 4159, 4169, 4189, 4419, 4459, 4469, 4489"
+      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -181,19 +183,19 @@
         }
       ],
       "frases": {
+        "4110": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 4110"
+        ],
         "4119": [
           "Dezena no segundo prêmio!<br>com o palpite 4119",
           "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 4119"
         ],
-        "4169": [
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 4169"
+        "7110": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 7110"
         ],
-        "4419": [
-          "Dezena no segundo prêmio!<br>com o palpite 4419",
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 4419"
-        ],
-        "4469": [
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 4469"
+        "7119": [
+          "Dezena no segundo prêmio!<br>com o palpite 7119",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7119"
         ]
       },
       "acertos": {
@@ -202,10 +204,10 @@
         "Dezena": 2,
         "Grupo": [
           "🐕",
-          "🐖"
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4119, 4159, 4169, 4189, 4419, 4459, 4469, 4489"
+      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -258,32 +260,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "4169": [
-          "Dezena no quarto prêmio!<br>com o palpite 4169",
-          "PORCO 🐖 no quarto prêmio!<br>com o palpite 4169"
-        ],
-        "4189": [
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 4189"
-        ],
-        "4469": [
-          "Dezena no quarto prêmio!<br>com o palpite 4469",
-          "PORCO 🐖 no quarto prêmio!<br>com o palpite 4469"
-        ],
-        "4489": [
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 4489"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐖",
-          "🐻"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4119, 4159, 4169, 4189, 4419, 4459, 4469, 4489"
+      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -418,32 +402,26 @@
         }
       ],
       "frases": {
-        "4169": [
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 4169",
-          "Dezena no quinto prêmio!<br>com o palpite 4169",
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4169"
+        "4110": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 4110",
+          "Dezena no terceiro prêmio!<br>com o palpite 4110",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 4110"
         ],
-        "4189": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 4189"
-        ],
-        "4469": [
-          "Dezena no quinto prêmio!<br>com o palpite 4469",
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4469"
-        ],
-        "4489": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 4489"
+        "7110": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 7110",
+          "Dezena no terceiro prêmio!<br>com o palpite 7110",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 7110"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
+        "Centena": 2,
         "Dezena": 2,
         "Grupo": [
-          "🐻",
-          "🐖"
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4119, 4159, 4169, 4189, 4419, 4459, 4469, 4489"
+      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -496,14 +474,23 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "4110": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 4110"
+        ],
+        "7110": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 7110"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐴"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 4119, 4159, 4169, 4189, 4419, 4459, 4469, 4489"
+      "resumo": "Palpites dados para esta extração: 4110, 4119, 7110, 7119"
     }
   },
   "1-10": {
