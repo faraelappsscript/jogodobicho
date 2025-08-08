@@ -69,74 +69,14 @@
           "Bicho": "Águia"
         }
       ],
-      "frases": {
-        "7120": [
-          "Dezena no quinto prêmio!<br>com o palpite 7120",
-          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 7120",
-          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 7120"
-        ],
-        "7130": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7130",
-          "Dezena no oitavo prêmio!<br>com o palpite 7130",
-          "CAMELO 🐪 no oitavo prêmio!<br>com o palpite 7130"
-        ],
-        "7140": [
-          "Dezena no sexto prêmio!<br>com o palpite 7140",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 7140"
-        ],
-        "7145": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7145"
-        ],
-        "7520": [
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 7520",
-          "Dezena no quinto prêmio!<br>com o palpite 7520",
-          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 7520",
-          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 7520"
-        ],
-        "7530": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7530",
-          "Dezena no oitavo prêmio!<br>com o palpite 7530",
-          "CAMELO 🐪 no oitavo prêmio!<br>com o palpite 7530"
-        ],
-        "7540": [
-          "Dezena no sexto prêmio!<br>com o palpite 7540",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 7540"
-        ],
-        "7545": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7545"
-        ],
-        "7720": [
-          "Dezena no quinto prêmio!<br>com o palpite 7720",
-          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 7720",
-          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 7720"
-        ],
-        "7730": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7730",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 7730",
-          "Dezena no oitavo prêmio!<br>com o palpite 7730",
-          "CAMELO 🐪 no oitavo prêmio!<br>com o palpite 7730"
-        ],
-        "7740": [
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 7740",
-          "Dezena no sexto prêmio!<br>com o palpite 7740",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 7740"
-        ],
-        "7745": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7745"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 3,
-        "Dezena": 9,
-        "Grupo": [
-          "🐘",
-          "🐪",
-          "🐕",
-          "🐇"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 7120, 7125, 7130, 7135, 7140, 7145, 7520, 7525, 7530, 7535, 7540, 7545, 7720, 7725, 7730, 7735, 7740, 7745"
+      "resumo": "Palpites dados para esta extração: 3125, 3135, 3925, 3935, 6125, 6135, 6925, 6935, 7125, 7135, 7925, 7935"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -208,6 +148,38 @@
         }
       ],
       "frases": {
+        "3125": [
+          "Dezena no quarto prêmio!<br>com o palpite 3125",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3125",
+          "Dezena no nono prêmio!<br>com o palpite 3125",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 3125",
+          "Dezena no décimo prêmio!<br>com o palpite 3125",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 3125"
+        ],
+        "3925": [
+          "Dezena no quarto prêmio!<br>com o palpite 3925",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3925",
+          "Dezena no nono prêmio!<br>com o palpite 3925",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 3925",
+          "Dezena no décimo prêmio!<br>com o palpite 3925",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 3925"
+        ],
+        "6125": [
+          "Dezena no quarto prêmio!<br>com o palpite 6125",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 6125",
+          "Dezena no nono prêmio!<br>com o palpite 6125",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 6125",
+          "Dezena no décimo prêmio!<br>com o palpite 6125",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 6125"
+        ],
+        "6925": [
+          "Dezena no quarto prêmio!<br>com o palpite 6925",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 6925",
+          "Dezena no nono prêmio!<br>com o palpite 6925",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 6925",
+          "Dezena no décimo prêmio!<br>com o palpite 6925",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 6925"
+        ],
         "7125": [
           "Dezena no quarto prêmio!<br>com o palpite 7125",
           "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7125",
@@ -216,65 +188,24 @@
           "Dezena no décimo prêmio!<br>com o palpite 7125",
           "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 7125"
         ],
-        "7130": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7130",
-          "Dezena no sétimo prêmio!<br>com o palpite 7130",
-          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 7130",
-          "CAMELO 🐪 no oitavo prêmio!<br>com o palpite 7130"
-        ],
-        "7145": [
-          "Dezena no segundo prêmio!<br>com o palpite 7145",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 7145"
-        ],
-        "7525": [
-          "Dezena no quarto prêmio!<br>com o palpite 7525",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7525",
-          "Centena e Dezena no nono prêmio!<br>com o palpite 7525",
-          "Dezena no nono prêmio!<br>com o palpite 7525",
-          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 7525",
-          "Dezena no décimo prêmio!<br>com o palpite 7525",
-          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 7525"
-        ],
-        "7530": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7530",
-          "Dezena no sétimo prêmio!<br>com o palpite 7530",
-          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 7530",
-          "CAMELO 🐪 no oitavo prêmio!<br>com o palpite 7530"
-        ],
-        "7545": [
-          "Dezena no segundo prêmio!<br>com o palpite 7545",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 7545"
-        ],
-        "7725": [
-          "Dezena no quarto prêmio!<br>com o palpite 7725",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7725",
-          "Dezena no nono prêmio!<br>com o palpite 7725",
-          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 7725",
-          "Dezena no décimo prêmio!<br>com o palpite 7725",
-          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 7725"
-        ],
-        "7730": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7730",
-          "Dezena no sétimo prêmio!<br>com o palpite 7730",
-          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 7730",
-          "CAMELO 🐪 no oitavo prêmio!<br>com o palpite 7730"
-        ],
-        "7745": [
-          "Dezena no segundo prêmio!<br>com o palpite 7745",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 7745"
+        "7925": [
+          "Dezena no quarto prêmio!<br>com o palpite 7925",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7925",
+          "Dezena no nono prêmio!<br>com o palpite 7925",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 7925",
+          "Dezena no décimo prêmio!<br>com o palpite 7925",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 7925"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 15,
+        "Centena": 0,
+        "Dezena": 18,
         "Grupo": [
-          "🐘",
-          "🐪",
           "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7120, 7125, 7130, 7135, 7140, 7145, 7520, 7525, 7530, 7535, 7540, 7545, 7720, 7725, 7730, 7735, 7740, 7745"
+      "resumo": "Palpites dados para esta extração: 3125, 3135, 3925, 3935, 6125, 6135, 6925, 6935, 7125, 7135, 7925, 7935"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -725,50 +656,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "7120": [
-          "Dezena no quinto prêmio!<br>com o palpite 7120",
-          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 7120"
-        ],
-        "7130": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7130"
-        ],
-        "7145": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7145"
-        ],
-        "7520": [
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 7520",
-          "Dezena no quinto prêmio!<br>com o palpite 7520",
-          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 7520"
-        ],
-        "7530": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7530"
-        ],
-        "7545": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7545"
-        ],
-        "7720": [
-          "Dezena no quinto prêmio!<br>com o palpite 7720",
-          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 7720"
-        ],
-        "7730": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7730"
-        ],
-        "7745": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7745"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 3,
-        "Grupo": [
-          "🐘",
-          "🐪",
-          "🐕"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 7120, 7125, 7130, 7135, 7140, 7145, 7520, 7525, 7530, 7535, 7540, 7545, 7720, 7725, 7730, 7735, 7740, 7745"
+      "resumo": "Palpites dados para esta extração: 3125, 3135, 3925, 3935, 6125, 6135, 6925, 6935, 7125, 7135, 7925, 7935"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -822,65 +717,40 @@
         }
       ],
       "frases": {
-        "7120": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 7120",
-          "Dezena no sétimo prêmio!<br>com o palpite 7120",
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 7120"
+        "3125": [
+          "Dezena no quarto prêmio!<br>com o palpite 3125",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3125"
+        ],
+        "3925": [
+          "Dezena no quarto prêmio!<br>com o palpite 3925",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 3925"
+        ],
+        "6125": [
+          "Dezena no quarto prêmio!<br>com o palpite 6125",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 6125"
+        ],
+        "6925": [
+          "Dezena no quarto prêmio!<br>com o palpite 6925",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 6925"
         ],
         "7125": [
           "Dezena no quarto prêmio!<br>com o palpite 7125",
           "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7125"
         ],
-        "7130": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7130"
-        ],
-        "7145": [
-          "Dezena no segundo prêmio!<br>com o palpite 7145",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 7145"
-        ],
-        "7520": [
-          "Dezena no sétimo prêmio!<br>com o palpite 7520",
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 7520"
-        ],
-        "7525": [
-          "Dezena no quarto prêmio!<br>com o palpite 7525",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7525"
-        ],
-        "7530": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7530"
-        ],
-        "7545": [
-          "Dezena no segundo prêmio!<br>com o palpite 7545",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 7545"
-        ],
-        "7720": [
-          "Dezena no sétimo prêmio!<br>com o palpite 7720",
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 7720"
-        ],
-        "7725": [
-          "Dezena no quarto prêmio!<br>com o palpite 7725",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7725"
-        ],
-        "7730": [
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7730"
-        ],
-        "7745": [
-          "Dezena no segundo prêmio!<br>com o palpite 7745",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 7745"
+        "7925": [
+          "Dezena no quarto prêmio!<br>com o palpite 7925",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7925"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 9,
+        "Centena": 0,
+        "Dezena": 6,
         "Grupo": [
-          "🐘",
-          "🐪",
-          "🐑",
-          "🐕"
+          "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7120, 7125, 7130, 7135, 7140, 7145, 7520, 7525, 7530, 7535, 7540, 7545, 7720, 7725, 7730, 7735, 7740, 7745"
+      "resumo": "Palpites dados para esta extração: 3125, 3135, 3925, 3935, 6125, 6135, 6925, 6935, 7125, 7135, 7925, 7935"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
