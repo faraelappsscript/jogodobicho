@@ -577,5 +577,425 @@
       },
       "resumo": "Palpites dados para esta extração: 5342, 5346, 5349, 5382, 5386, 5389, 5942, 5946, 5949, 5982, 5986, 5989"
     }
+  },
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "0104",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0828",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0220",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8907",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9581",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "9640",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "086",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "5382": [
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 5382"
+        ],
+        "5386": [
+          "Dezena no sétimo prêmio!<br>com o palpite 5386",
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 5386"
+        ],
+        "5982": [
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 5982"
+        ],
+        "5986": [
+          "Dezena no sétimo prêmio!<br>com o palpite 5986",
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 5986"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 2,
+        "Grupo": [
+          "🐂",
+          "🐅"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5342, 5346, 5349, 5382, 5386, 5389, 5942, 5946, 5949, 5982, 5986, 5989"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9417",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5027",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9229",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3943",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3337",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "0953",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "339",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "5342": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 5342"
+        ],
+        "5942": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 5942"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐎"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5342, 5346, 5349, 5382, 5386, 5389, 5942, 5946, 5949, 5982, 5986, 5989"
+    },
+    "PT-RIO, RJ, 14:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2026",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5114",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1859",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7428",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6004",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "2431",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "360",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 5342, 5346, 5349, 5382, 5386, 5389, 5942, 5946, 5949, 5982, 5986, 5989"
+    },
+    "PT-RIO, RJ, 16:00, PTV": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9578",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "8824",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5276",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0615",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4030",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "8323",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "516",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 5342, 5346, 5349, 5382, 5386, 5389, 5942, 5946, 5949, 5982, 5986, 5989"
+    },
+    "PT-RIO, RJ, 18:20, PTN": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4155",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1130",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1255",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "6126",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "8974",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "1640",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "695",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 5342, 5346, 5349, 5382, 5386, 5389, 5942, 5946, 5949, 5982, 5986, 5989"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9555",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3909",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1342",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7986",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "7360",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "0152",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "350",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "5342": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 5342",
+          "Dezena no terceiro prêmio!<br>com o palpite 5342",
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 5342"
+        ],
+        "5349": [
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 5349",
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 5349"
+        ],
+        "5386": [
+          "Dezena no quarto prêmio!<br>com o palpite 5386",
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 5386"
+        ],
+        "5942": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5942",
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 5942"
+        ],
+        "5949": [
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 5949",
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 5949"
+        ],
+        "5986": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 5986",
+          "Dezena no quarto prêmio!<br>com o palpite 5986",
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 5986"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 2,
+        "Dezena": 4,
+        "Grupo": [
+          "🐎",
+          "🐅",
+          "🐓"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5342, 5346, 5349, 5382, 5386, 5389, 5942, 5946, 5949, 5982, 5986, 5989"
+    }
   }
 }
