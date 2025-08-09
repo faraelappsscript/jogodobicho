@@ -1,0 +1,229 @@
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2866",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3677",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0953",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "1376",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3210",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "2082",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "538",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "8512": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 8512"
+        ],
+        "8582": [
+          "Dezena no sexto prêmio!<br>com o palpite 8582",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 8582"
+        ],
+        "8812": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 8812"
+        ],
+        "8882": [
+          "Dezena no sexto prêmio!<br>com o palpite 8882",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 8882"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 2,
+        "Grupo": [
+          "🐴",
+          "🐂"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 8512, 8518, 8552, 8558, 8582, 8588, 8812, 8818, 8852, 8858, 8882, 8888"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2866",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3677",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0953",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "1376",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3210",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "2301",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "8693",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6757",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "6736",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "6569",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        }
+      ],
+      "frases": {
+        "8512": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 8512"
+        ],
+        "8558": [
+          "JACARÉ 🐊 no oitavo prêmio!<br>com o palpite 8558"
+        ],
+        "8812": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 8812"
+        ],
+        "8858": [
+          "JACARÉ 🐊 no oitavo prêmio!<br>com o palpite 8858"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐴",
+          "🐊"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 8512, 8518, 8552, 8558, 8582, 8588, 8812, 8818, 8852, 8858, 8882, 8888"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
