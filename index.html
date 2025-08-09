@@ -47,11 +47,24 @@
             font-size: clamp(2rem, 5vw, 2.75rem);
             font-weight: 800;
             line-height: 1.2;
-            background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
             margin-bottom: var(--spacing-sm);
+            text-align: center;
+        }
+        
+        .slogan-line1 {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            display: block;
+            margin-bottom: var(--spacing-xs);
+        }
+        
+        .slogan-line2 {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: var(--radius-md);
+            display: inline-block;
             background-size: 200% auto;
             animation: gradient-slide 5s linear infinite;
         }
@@ -354,7 +367,10 @@
                 <img src="/assets/img/logo.webp" alt="77x Brasil Logo" class="logo">
             </div>
             
-            <h1 class="slogan">77x Brasil</h1>
+            <h1 class="slogan">
+                <span class="slogan-line1">AQUI, O SEU 1 REAL</span>
+                <span class="slogan-line2">VALE R$ 8.000,00</span>
+            </h1>
             <p class="slogan-subtitle"><img src="/assets/img/8k.webp" alt="Na 77x Brasil, o seu 1 real vale 8 Mil." style="max-width: 100%; height: auto;"></p>
             
             <div class="cotacoes-button-container">
