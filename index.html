@@ -52,7 +52,7 @@
             font-family: 'Inter', sans-serif;
         }
         
-        .slogan-line1 {
+        .slogan .slogan-line1 {
             background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -63,14 +63,17 @@
             margin-bottom: var(--spacing-xs);
         }
         
-        .slogan-line2 {
+        .slogan .slogan-line2 {
             color: white !important;
+            -webkit-text-fill-color: white !important;
             background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
             padding: var(--spacing-sm) var(--spacing-md);
             border-radius: var(--radius-md);
             display: inline-block;
             background-size: 200% auto;
             animation: gradient-slide 5s linear infinite;
+            -webkit-background-clip: border-box !important;
+            background-clip: border-box !important;
         }
         
         @keyframes gradient-slide {
