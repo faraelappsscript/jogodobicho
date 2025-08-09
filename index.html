@@ -53,13 +53,18 @@
         }
         
         .slogan-line1 {
-            color: white;
+            background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% auto;
+            animation: gradient-slide 5s linear infinite;
             display: block;
             margin-bottom: var(--spacing-xs);
         }
         
         .slogan-line2 {
-            color: white;
+            color: white !important;
             background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
             padding: var(--spacing-sm) var(--spacing-md);
             border-radius: var(--radius-md);
@@ -636,3 +641,4 @@ Clique aqui e saiba mais!</span>
   </footer>
 </body>
 </html>
+
