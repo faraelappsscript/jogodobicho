@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1103, 1104, 1108, 1113, 1114, 1118, 1203, 1204, 1208, 1213, 1214, 1218, 1303, 1304, 1308, 1313, 1314, 1318, 1403, 1404, 1408, 1413, 1414, 1418, 1603, 1604, 1608, 1613, 1614, 1618, 1703, 1704, 1708, 1713, 1714, 1718, 1803, 1804, 1808, 1813, 1814, 1818"
+      "resumo": "Palpites dados para esta extração: 7404"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1103, 1104, 1108, 1113, 1114, 1118, 1203, 1204, 1208, 1213, 1214, 1218, 1303, 1304, 1308, 1313, 1314, 1318, 1403, 1404, 1408, 1413, 1414, 1418, 1603, 1604, 1608, 1613, 1614, 1618, 1703, 1704, 1708, 1713, 1714, 1718, 1803, 1804, 1808, 1813, 1814, 1818"
+      "resumo": "Palpites dados para esta extração: 7404"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -171,45 +171,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1108": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1108",
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 1108"
-        ],
-        "1208": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1208",
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 1208"
-        ],
-        "1308": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1308",
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 1308"
-        ],
-        "1408": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1408",
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 1408"
-        ],
-        "1608": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1608",
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 1608"
-        ],
-        "1708": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1708",
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 1708"
-        ],
-        "1808": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1808",
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 1808"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 7,
-        "Grupo": [
-          "🦅"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1103, 1104, 1108, 1113, 1114, 1118, 1203, 1204, 1208, 1213, 1214, 1218, 1303, 1304, 1308, 1313, 1314, 1318, 1403, 1404, 1408, 1413, 1414, 1418, 1603, 1604, 1608, 1613, 1614, 1618, 1703, 1704, 1708, 1713, 1714, 1718, 1803, 1804, 1808, 1813, 1814, 1818"
+      "resumo": "Palpites dados para esta extração: 7404"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -263,138 +232,19 @@
         }
       ],
       "frases": {
-        "1103": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1103",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1103"
-        ],
-        "1104": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1104"
-        ],
-        "1108": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1108",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1108"
-        ],
-        "1113": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1113"
-        ],
-        "1114": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1114"
-        ],
-        "1203": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1203"
-        ],
-        "1204": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1204"
-        ],
-        "1208": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1208",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1208"
-        ],
-        "1213": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1213"
-        ],
-        "1214": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1214"
-        ],
-        "1303": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1303",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1303"
-        ],
-        "1304": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1304"
-        ],
-        "1308": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1308",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1308"
-        ],
-        "1313": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1313"
-        ],
-        "1314": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1314"
-        ],
-        "1403": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1403",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1403"
-        ],
-        "1404": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1404"
-        ],
-        "1408": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1408",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1408"
-        ],
-        "1413": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1413"
-        ],
-        "1414": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1414"
-        ],
-        "1603": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1603",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1603"
-        ],
-        "1604": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1604"
-        ],
-        "1608": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1608",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1608"
-        ],
-        "1613": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1613"
-        ],
-        "1614": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1614"
-        ],
-        "1703": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1703",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1703"
-        ],
-        "1704": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1704"
-        ],
-        "1708": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1708",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1708"
-        ],
-        "1713": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1713"
-        ],
-        "1714": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1714"
-        ],
-        "1803": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1803",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1803"
-        ],
-        "1804": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1804"
-        ],
-        "1808": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 1808",
-          "Dezena no primeiro prêmio!<br>com o palpite 1808",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1808"
-        ],
-        "1813": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1813"
-        ],
-        "1814": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1814"
+        "7404": [
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 7404"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 14,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🦅",
-          "🪶",
-          "🦋"
+          "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1103, 1104, 1108, 1113, 1114, 1118, 1203, 1204, 1208, 1213, 1214, 1218, 1303, 1304, 1308, 1313, 1314, 1318, 1403, 1404, 1408, 1413, 1414, 1418, 1603, 1604, 1608, 1613, 1614, 1618, 1703, 1704, 1708, 1713, 1714, 1718, 1803, 1804, 1808, 1813, 1814, 1818"
+      "resumo": "Palpites dados para esta extração: 7404"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -454,7 +304,97 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1103, 1104, 1108, 1113, 1114, 1118, 1203, 1204, 1208, 1213, 1214, 1218, 1303, 1304, 1308, 1313, 1314, 1318, 1403, 1404, 1408, 1413, 1414, 1418, 1603, 1604, 1608, 1613, 1614, 1618, 1703, 1704, 1708, 1713, 1714, 1718, 1803, 1804, 1808, 1813, 1814, 1818"
+      "resumo": "Palpites dados para esta extração: 7404"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "0413",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5365",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8243",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9801",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0381",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "4203",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "215",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "7404": [
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 7404",
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 7404"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🪶"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 7404"
+    },
+    "PT-RIO, RJ, 18:20, PTN": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   },
   "1-10": {
@@ -528,47 +468,8 @@
         }
       ],
       "frases": {
-        "1103": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1103"
-        ],
-        "1104": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1104"
-        ],
-        "1203": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1203"
-        ],
-        "1204": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1204"
-        ],
-        "1303": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1303"
-        ],
-        "1304": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1304"
-        ],
-        "1403": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1403"
-        ],
-        "1404": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1404"
-        ],
-        "1603": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1603"
-        ],
-        "1604": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1604"
-        ],
-        "1703": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1703"
-        ],
-        "1704": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1704"
-        ],
-        "1803": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1803"
-        ],
-        "1804": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 1804"
+        "7404": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 7404"
         ]
       },
       "acertos": {
@@ -579,7 +480,7 @@
           "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1103, 1104, 1108, 1113, 1114, 1118, 1203, 1204, 1208, 1213, 1214, 1218, 1303, 1304, 1308, 1313, 1314, 1318, 1403, 1404, 1408, 1413, 1414, 1418, 1603, 1604, 1608, 1613, 1614, 1618, 1703, 1704, 1708, 1713, 1714, 1718, 1803, 1804, 1808, 1813, 1814, 1818"
+      "resumo": "Palpites dados para esta extração: 7404"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -657,7 +558,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1103, 1104, 1108, 1113, 1114, 1118, 1203, 1204, 1208, 1213, 1214, 1218, 1303, 1304, 1308, 1313, 1314, 1318, 1403, 1404, 1408, 1413, 1414, 1418, 1603, 1604, 1608, 1613, 1614, 1618, 1703, 1704, 1708, 1713, 1714, 1718, 1803, 1804, 1808, 1813, 1814, 1818"
+      "resumo": "Palpites dados para esta extração: 7404"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -728,89 +629,14 @@
           "Bicho": "Touro"
         }
       ],
-      "frases": {
-        "1113": [
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 1113",
-          "Dezena no sexto prêmio!<br>com o palpite 1113",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1113"
-        ],
-        "1114": [
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1114"
-        ],
-        "1118": [
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1118"
-        ],
-        "1213": [
-          "Dezena no sexto prêmio!<br>com o palpite 1213",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1213"
-        ],
-        "1214": [
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1214"
-        ],
-        "1218": [
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1218"
-        ],
-        "1313": [
-          "Dezena no sexto prêmio!<br>com o palpite 1313",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1313"
-        ],
-        "1314": [
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1314"
-        ],
-        "1318": [
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1318"
-        ],
-        "1413": [
-          "Dezena no sexto prêmio!<br>com o palpite 1413",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1413"
-        ],
-        "1414": [
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1414"
-        ],
-        "1418": [
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1418"
-        ],
-        "1613": [
-          "Dezena no sexto prêmio!<br>com o palpite 1613",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1613"
-        ],
-        "1614": [
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1614"
-        ],
-        "1618": [
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1618"
-        ],
-        "1713": [
-          "Dezena no sexto prêmio!<br>com o palpite 1713",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1713"
-        ],
-        "1714": [
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1714"
-        ],
-        "1718": [
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1718"
-        ],
-        "1813": [
-          "Dezena no sexto prêmio!<br>com o palpite 1813",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1813"
-        ],
-        "1814": [
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1814"
-        ],
-        "1818": [
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1818"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 7,
-        "Grupo": [
-          "🦋",
-          "🐕"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1103, 1104, 1108, 1113, 1114, 1118, 1203, 1204, 1208, 1213, 1214, 1218, 1303, 1304, 1308, 1313, 1314, 1318, 1403, 1404, 1408, 1413, 1414, 1418, 1603, 1604, 1608, 1613, 1614, 1618, 1703, 1704, 1708, 1713, 1714, 1718, 1803, 1804, 1808, 1813, 1814, 1818"
+      "resumo": "Palpites dados para esta extração: 7404"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -882,131 +708,21 @@
         }
       ],
       "frases": {
-        "1103": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1103",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1103",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1103",
-          "Dezena no oitavo prêmio!<br>com o palpite 1103",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1103"
-        ],
-        "1104": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1104",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1104",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1104"
-        ],
-        "1108": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1108",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1108"
-        ],
-        "1203": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1203",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1203",
-          "Dezena no oitavo prêmio!<br>com o palpite 1203",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1203"
-        ],
-        "1204": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1204",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1204",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1204"
-        ],
-        "1208": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1208",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1208"
-        ],
-        "1303": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1303",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1303",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1303",
-          "Dezena no oitavo prêmio!<br>com o palpite 1303",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1303"
-        ],
-        "1304": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1304",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1304",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1304"
-        ],
-        "1308": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1308",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1308"
-        ],
-        "1403": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1403",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1403",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1403",
-          "Dezena no oitavo prêmio!<br>com o palpite 1403",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1403"
-        ],
-        "1404": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1404",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1404",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1404"
-        ],
-        "1408": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1408",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1408"
-        ],
-        "1603": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1603",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1603",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1603",
-          "Dezena no oitavo prêmio!<br>com o palpite 1603",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1603"
-        ],
-        "1604": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1604",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1604",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1604"
-        ],
-        "1608": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1608",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1608"
-        ],
-        "1703": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1703",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1703",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1703",
-          "Dezena no oitavo prêmio!<br>com o palpite 1703",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1703"
-        ],
-        "1704": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1704",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1704",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1704"
-        ],
-        "1708": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1708",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1708"
-        ],
-        "1803": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1803",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1803",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1803",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 1803",
-          "Dezena no oitavo prêmio!<br>com o palpite 1803",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1803"
-        ],
-        "1804": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1804",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 1804",
-          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 1804"
-        ],
-        "1808": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 1808",
-          "Dezena no primeiro prêmio!<br>com o palpite 1808",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 1808"
+        "7404": [
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 7404",
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 7404",
+          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 7404"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 21,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🦅",
           "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1103, 1104, 1108, 1113, 1114, 1118, 1203, 1204, 1208, 1213, 1214, 1218, 1303, 1304, 1308, 1313, 1314, 1318, 1403, 1404, 1408, 1413, 1414, 1418, 1603, 1604, 1608, 1613, 1614, 1618, 1703, 1704, 1708, 1713, 1714, 1718, 1803, 1804, 1808, 1813, 1814, 1818"
+      "resumo": "Palpites dados para esta extração: 7404"
     },
     "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
@@ -1078,67 +794,131 @@
         }
       ],
       "frases": {
-        "1103": [
-          "Dezena no décimo prêmio!<br>com o palpite 1103",
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1103"
-        ],
-        "1104": [
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1104"
-        ],
-        "1203": [
-          "Dezena no décimo prêmio!<br>com o palpite 1203",
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1203"
-        ],
-        "1204": [
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1204"
-        ],
-        "1303": [
-          "Dezena no décimo prêmio!<br>com o palpite 1303",
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1303"
-        ],
-        "1304": [
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1304"
-        ],
-        "1403": [
-          "Dezena no décimo prêmio!<br>com o palpite 1403",
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1403"
-        ],
-        "1404": [
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1404"
-        ],
-        "1603": [
-          "Milhar e Centena no décimo prêmio!<br>com o palpite 1603",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 1603",
-          "Dezena no décimo prêmio!<br>com o palpite 1603",
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1603"
-        ],
-        "1604": [
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1604"
-        ],
-        "1703": [
-          "Dezena no décimo prêmio!<br>com o palpite 1703",
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1703"
-        ],
-        "1704": [
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1704"
-        ],
-        "1803": [
-          "Dezena no décimo prêmio!<br>com o palpite 1803",
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1803"
-        ],
-        "1804": [
-          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 1804"
+        "7404": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 7404"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 1,
-        "Dezena": 7,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
           "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1103, 1104, 1108, 1113, 1114, 1118, 1203, 1204, 1208, 1213, 1214, 1218, 1303, 1304, 1308, 1313, 1314, 1318, 1403, 1404, 1408, 1413, 1414, 1418, 1603, 1604, 1608, 1613, 1614, 1618, 1703, 1704, 1708, 1713, 1714, 1718, 1803, 1804, 1808, 1813, 1814, 1818"
+      "resumo": "Palpites dados para esta extração: 7404"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "0413",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5365",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8243",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9801",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0381",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "0589",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "4328",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1640",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "3531",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "4291",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        }
+      ],
+      "frases": {
+        "7404": [
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 7404"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🪶"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 7404"
+    },
+    "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   }
 }
