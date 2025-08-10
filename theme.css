@@ -1332,3 +1332,89 @@ tbody tr:last-child td {
   font-display: swap;
 }
 
+
+
+/* Estilos para a sobreposição de imagem, logo e slogan */
+.image-overlay-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Ajuste conforme necessário */
+    margin-bottom: var(--spacing-lg);
+}
+
+.overlay-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-logo-container {
+    position: absolute;
+    top: var(--spacing-md);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.overlay-logo {
+    max-width: 200px; /* Ajuste o tamanho da logo conforme necessário */
+    width: 70vw;
+    height: auto;
+    object-fit: contain;
+}
+
+.overlay-slogan-container {
+    position: absolute;
+    bottom: var(--spacing-md);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.overlay-slogan {
+    font-size: clamp(3rem, 8vw, 4rem);
+    font-weight: 800;
+    line-height: 1.2;
+    color: white; /* Cor do slogan sobreposta */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.overlay-slogan .slogan-line1 {
+    background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% auto;
+    animation: gradient-slide 5s linear infinite;
+    display: block;
+    margin-bottom: var(--spacing-xs);
+}
+
+.overlay-slogan .slogan-line2 {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+    background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+    display: inline-block;
+    background-size: 200% auto;
+    animation: gradient-slide 5s linear infinite;
+    -webkit-background-clip: border-box !important;
+    background-clip: border-box !important;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767px) {
+    .overlay-logo { max-width: 150px; }
+    .overlay-slogan { font-size: clamp(2rem, 6vw, 3rem); }
+}
+
+@media (max-width: 380px) {
+    .overlay-logo { max-width: 120px; }
+    .overlay-slogan { font-size: clamp(1.5rem, 5vw, 2.5rem); }
+}
+
+
