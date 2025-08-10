@@ -171,11 +171,6 @@ a:hover {
   margin-bottom: var(--spacing-2xl);
   position: relative;
   padding: var(--spacing-xl) 0;
-  background-image: url("/assets/img/background.webp");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .header::before {
