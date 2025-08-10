@@ -1,8 +1,31 @@
 {
-  "frase_1-5": "Palpites para a próxima extração (A FEDERAL DO BRASIL - RJ):",
-  "frase_1-10": "Palpites para a próxima extração (A FEDERAL DO BRASIL - RJ do 1º ao 10º):",
+  "frase_1-5": "Palpites para a próxima extração (PT-RIO, RJ, 18:20, PTN):",
+  "frase_1-10": "Palpites para a próxima extração (PT-RIO, RJ, 18:20, PTN do 1º ao 10º):",
   "palpites": [
-    "7404"
+    "0301",
+    "0303",
+    "0401",
+    "0403",
+    "0501",
+    "0503",
+    "0801",
+    "0803",
+    "7301",
+    "7303",
+    "7401",
+    "7403",
+    "7501",
+    "7503",
+    "7801",
+    "7803",
+    "8301",
+    "8303",
+    "8401",
+    "8403",
+    "8501",
+    "8503",
+    "8801",
+    "8803"
   ],
   "data_proxima_extracao": "2025-08-09"
 }
