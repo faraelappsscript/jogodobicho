@@ -74,6 +74,8 @@
             animation: gradient-slide 5s linear infinite;
             -webkit-background-clip: border-box !important;
             background-clip: border-box !important;
+            font-style: italic;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
         
         @keyframes gradient-slide {
@@ -118,7 +120,7 @@
             width: 100%;
             max-width: 450px;
         }
-        .bonus-intro { color: var(--text-primary); font-weight: 500; margin-bottom: var(--spacing-md); }
+        .bonus-intro { color: var(--text-primary); font-weight: 500; margin-bottom: var(--spacing-md); font-family: 'Inter', sans-serif; }
         .bonus-list { list-style: none; padding: 0; margin: 0 0 var(--spacing-md) 0; }
         .bonus-item {
             font-size: 1.1rem;
@@ -131,9 +133,10 @@
             display: flex;
             align-items: center;
             gap: var(--spacing-sm);
+            font-family: 'Inter', sans-serif;
         }
         .bonus-item::before { content: '⭐'; font-size: 1rem; }
-        .bonus-terms { font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; margin-bottom: var(--spacing-md); }
+        .bonus-terms { font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; margin-bottom: var(--spacing-md); font-family: 'Inter', sans-serif; }
         
         /* Botão de Cadastro */
         .cadastro-container { width: 100%; max-width: 400px; margin-bottom: var(--spacing-lg); }
