@@ -1,0 +1,270 @@
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "3191",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4948",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0690",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "4648",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "7416",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "0893",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "789",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 0301, 0303, 0401, 0403, 0501, 0503, 0801, 0803, 7301, 7303, 7401, 7403, 7501, 7503, 7801, 7803, 8301, 8303, 8401, 8403, 8501, 8503, 8801, 8803"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "3191",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4948",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0690",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "4648",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "7416",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "3404",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1966",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "9494",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "1808",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "7565",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        }
+      ],
+      "frases": {
+        "7301": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 7301"
+        ],
+        "7303": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 7303"
+        ],
+        "7401": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 7401"
+        ],
+        "7403": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 7403"
+        ],
+        "7501": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 7501"
+        ],
+        "7503": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 7503"
+        ],
+        "7801": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 7801"
+        ],
+        "7803": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 7803"
+        ],
+        "8301": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 8301"
+        ],
+        "8303": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 8303"
+        ],
+        "8401": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 8401"
+        ],
+        "8403": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 8403"
+        ],
+        "8501": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 8501"
+        ],
+        "8503": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 8503"
+        ],
+        "8801": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 8801"
+        ],
+        "8803": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 8803"
+        ],
+        "0301": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0301"
+        ],
+        "0303": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0303"
+        ],
+        "0401": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0401"
+        ],
+        "0403": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0403"
+        ],
+        "0501": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0501"
+        ],
+        "0503": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0503"
+        ],
+        "0801": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0801"
+        ],
+        "0803": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0803"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🪶"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0301, 0303, 0401, 0403, 0501, 0503, 0801, 0803, 7301, 7303, 7401, 7403, 7501, 7503, 7801, 7803, 8301, 8303, 8401, 8403, 8501, 8503, 8801, 8803"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
