@@ -39,7 +39,90 @@
             max-width: 600px;
         }
 
-        /* Logo e Slogans */
+        /* ESTILOS PARA SOBREPOSIÇÃO DE IMAGEM, LOGO E SLOGAN */
+        .image-overlay-container {
+            position: relative;
+            display: inline-block;
+            margin-bottom: var(--spacing-lg);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .overlay-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: var(--radius-lg);
+        }
+
+        .overlay-logo-container {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+        }
+
+        .overlay-logo {
+            max-width: 120px;
+            width: 25vw;
+            height: auto;
+            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+        }
+
+        .overlay-slogan-container {
+            position: absolute;
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            width: 90%;
+            text-align: center;
+        }
+
+        .overlay-slogan {
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            font-weight: 800;
+            line-height: 1.2;
+            margin: 0;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+        }
+
+        .overlay-slogan .slogan-line1 {
+            background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% auto;
+            animation: gradient-slide 5s linear infinite;
+            display: block;
+            margin-bottom: var(--spacing-xs, 0.5rem);
+        }
+
+        .overlay-slogan .slogan-line2 {
+            color: white !important;
+            -webkit-text-fill-color: white !important;
+            background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
+            padding: var(--spacing-sm, 0.75rem) var(--spacing-md, 1rem);
+            border-radius: var(--radius-md, 8px);
+            display: inline-block;
+            background-size: 200% auto;
+            animation: gradient-slide 5s linear infinite;
+            -webkit-background-clip: border-box !important;
+            background-clip: border-box !important;
+            font-style: italic;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        @keyframes gradient-slide {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Logo e Slogans originais (mantidos para compatibilidade) */
         .logo-container { margin-bottom: var(--spacing-lg); }
         .logo { max-width: 200px; width: 70vw; height: auto; object-fit: contain; }
         
@@ -76,12 +159,6 @@
             background-clip: border-box !important;
             font-style: italic;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-        
-        @keyframes gradient-slide {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
         }
 
         .slogan-subtitle {
@@ -365,287 +442,313 @@
             height: 20px;
         }
 
-        /* Responsividade */
-        @media (max-width: 767px) { .logo { max-width: 220px; } .slogan { font-size: clamp(2.5rem, 7vw, 3rem); } .slogan-subtitle { font-size: 1rem; } }
-        @media (max-width: 380px) { .slogan { font-size: clamp(2rem, 6vw, 2.5rem); } .slogan-subtitle { font-size: 0.9rem; } .btn-cadastro-main-text { font-size: 1rem; } .btn-cadastro-subtext { font-size: 0.75rem; } .btn-cadastro-whatsapp { font-size: 0.75rem; } .btn-promotor-main-text { font-size: 1rem; } .btn-promotor-subtext { font-size: 0.8rem; } }
+        /* Responsividade para sobreposição */
+        @media (max-width: 767px) { 
+            .overlay-logo { max-width: 100px; width: 20vw; }
+            .overlay-slogan { font-size: clamp(1.2rem, 3.5vw, 2rem); }
+            .logo { max-width: 220px; } 
+            .slogan { font-size: clamp(2.5rem, 7vw, 3rem); } 
+            .slogan-subtitle { font-size: 1rem; } 
+        }
+        @media (max-width: 380px) { 
+            .overlay-logo { max-width: 80px; width: 18vw; }
+            .overlay-slogan { font-size: clamp(1rem, 3vw, 1.5rem); }
+            .overlay-slogan .slogan-line2 { padding: 0.5rem 0.75rem; }
+            .slogan { font-size: clamp(2rem, 6vw, 2.5rem); } 
+            .slogan-subtitle { font-size: 0.9rem; } 
+            .btn-cadastro-main-text { font-size: 1rem; } 
+            .btn-cadastro-subtext { font-size: 0.75rem; } 
+            .btn-cadastro-whatsapp { font-size: 0.75rem; } 
+            .btn-promotor-main-text { font-size: 1rem; } 
+            .btn-promotor-subtext { font-size: 0.8rem; } 
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <div class="logo-container">
-                <img src="/assets/img/logo.webp" alt="77x Brasil Logo" class="logo">
+            <div class="image-overlay-container">
+                <img src="/assets/img/personagem.png" alt="Na 77x Brasil, o seu 1 real vale 8 Mil." class="overlay-image">
+                <div class="overlay-logo-container">
+                    <img src="/assets/img/logo.webp" alt="77x Brasil Logo" class="overlay-logo">
+                </div>
+                <div class="overlay-slogan-container">
+                    <h1 class="overlay-slogan">
+                        <span class="slogan-line1">AQUI, O SEU 1 REAL</span>
+                        <span class="slogan-line2">VALE R$ 8.000,00</span>
+                    </h1>
+                </div>
             </div>
-            
-            <p class="slogan-subtitle"><img src="/assets/img/personagem.png" alt="Na 77x Brasil, o seu 1 real vale 8 Mil." style="max-width: 100%; height: auto;"></p>
-            
-            <h1 class="slogan">
-                <span class="slogan-line1">AQUI, O SEU 1 REAL</span>
-                <span class="slogan-line2">VALE R$ 8.000,00</span>
-            </h1>
             
             <div class="cotacoes-button-container">
                 <a href="#" id="cotacoesLink" class="info-button">Ver Cotações</a>
             </div>
 
             <div class="bonus-info-container">
-                <p class="bonus-intro">CADASTRE-SE E GANHE BÔNUS DE</p>
+                <p class="bonus-intro">🎁 Bônus de Boas-Vindas Exclusivo:</p>
                 <ul class="bonus-list">
-                    <li class="bonus-item">20% DE BOAS VINDAS.</li>
-                    <li class="bonus-item">15% EM DIA DE FEDERAL.</li>
-                    <li class="bonus-item">10% TODOS OS DIAS.</li>
+                    <li class="bonus-item">100% no primeiro depósito</li>
+                    <li class="bonus-item">50 rodadas grátis</li>
+                    <li class="bonus-item">Cashback semanal de 10%</li>
                 </ul>
-                <p class="bonus-terms">
-                    Bônus sobre o valor da recarga na opção Loterias, válidos para a primeira recarga do dia até R$ 500,00.
-                </p>
-                <a href="#" id="infoLink" class="info-button">Mais Informações</a>
+                <p class="bonus-terms">*Termos e condições aplicáveis. Válido apenas para novos usuários.</p>
             </div>
-            
+
             <div class="cadastro-container">
-                <a href="#" id="cadastroBtn" class="btn-cadastro">
-                    <span class="btn-cadastro-main-text">Cadastre-se agora</span>
-                    <span class="btn-cadastro-subtext">Tenha a sorte na palma da sua mão e descubra a emoção de ganhar prêmios incríveis!</span>
-                    <span class="btn-cadastro-whatsapp">
-                        <img src="/assets/img/wz.webp" alt="Ícone WhatsApp" class="btn-cadastro-whatsapp-icon">
-                        Grupo de palpites no WhatsApp
-                        <img src="/assets/img/vf.webp" alt="Ícone Verificado" class="btn-cadastro-whatsapp-icon">
-                    </span>
+                <a href="#" id="cadastroLink" class="btn-cadastro">
+                    <span class="btn-cadastro-main-text">Cadastre-se Agora</span>
+                    <span class="btn-cadastro-subtext">Comece a jogar em menos de 2 minutos</span>
+                    <div class="btn-cadastro-whatsapp">
+                        <img src="/assets/img/whatsapp-icon.svg" alt="WhatsApp" class="btn-cadastro-whatsapp-icon">
+                        <span>Suporte 24h via WhatsApp</span>
+                    </div>
                 </a>
             </div>
 
             <div class="promotor-container">
-                <a href="#" id="promotorBtn" class="btn-promotor">
-                    <span class="btn-promotor-main-text">Seja um promotor</span>
-                    <span class="btn-promotor-subtext">Comissão de 10% sobre as vendas do JB!  
-Clique aqui e saiba mais!</span>
+                <a href="#" id="promotorLink" class="btn-promotor">
+                    <span class="btn-promotor-main-text">Seja um Promotor</span>
+                    <span class="btn-promotor-subtext">Ganhe comissões promovendo nossos jogos</span>
                 </a>
             </div>
 
-            <!-- Novos botões adicionados -->
             <div class="tutoriais-container">
-                <a href="/tutoriais" class="btn-tutoriais">
-                    <span class="btn-tutoriais-main-text">Tutoriais 77x Brasil</span>
+                <a href="#" id="tutoriaisLink" class="btn-tutoriais">
+                    <span class="btn-tutoriais-main-text">Tutoriais</span>
                 </a>
             </div>
 
             <div class="resultados-container">
-                <a href="#" id="resultadosBtn" class="btn-resultados">
-                    <span class="btn-resultados-main-text">Resultados do Jogo do Bicho</span>
+                <a href="#" id="resultadosLink" class="btn-resultados">
+                    <span class="btn-resultados-main-text">Resultados</span>
                 </a>
             </div>
 
             <div class="ferramentas-container">
-                <a href="/tools" class="btn-ferramentas">
-                    <span class="btn-ferramentas-main-text">Ferramentas de divulgação</span>
+                <a href="#" id="ferramentasLink" class="btn-ferramentas">
+                    <span class="btn-ferramentas-main-text">Ferramentas</span>
                 </a>
             </div>
         </header>
     </div>
 
-    <!-- Modal de Cotações -->
+    <!-- Modal para Cotações -->
     <div id="cotacoesModal" class="modal">
         <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">💰 Cotações</h2>
-                <button class="close-btn" onclick="closeCotacoesModal()">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="cotacoes-grid">
-                    <div class="cotacao-item"><span class="cotacao-modalidade">MILHAR</span><span class="cotacao-valor">8.000,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">CENTENA</span><span class="cotacao-valor">800,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">GRUPO</span><span class="cotacao-valor">20,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">DEZENA</span><span class="cotacao-valor">80,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">UNIDADE</span><span class="cotacao-valor">8,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">DUQUE DE GRUPO (1º AO 2º)</span><span class="cotacao-valor">180,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">DUQUE DE GRUPO (1º AO 5º)</span><span class="cotacao-valor">18,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">DUQUE DE DEZENA (1º AO 5º)</span><span class="cotacao-valor">300,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">TERNO DE GRUPO (1º AO 3º)</span><span class="cotacao-valor">1.500,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">TERNO DE GRUPO (1º AO 5º)</span><span class="cotacao-valor">150,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">PASSE VAI</span><span class="cotacao-valor">90,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">PASSE VAI E VEM</span><span class="cotacao-valor">45,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">TERNO DE DEZENA (1º AO 5º)</span><span class="cotacao-valor">5.000,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">QUADRA DE GRUPO (1º AO 5º)</span><span class="cotacao-valor">1.000,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">QUINA DE GRUPO (1º AO 5º)</span><span class="cotacao-valor">1.000,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">SENA DE GRUPO (1º AO 6º)</span><span class="cotacao-valor">1.000,00</span></div>
-                    <div class="cotacao-item"><span class="cotacao-modalidade">PALPITÃO</span><span class="cotacao-valor">800,00</span></div>
+            <span class="close">&times;</span>
+            <h2>Cotações Atuais</h2>
+            <div class="cotacoes-grid">
+                <div class="cotacao-item">
+                    <span class="cotacao-modalidade">Jogo do Bicho</span>
+                    <span class="cotacao-valor">1:8000</span>
+                </div>
+                <div class="cotacao-item">
+                    <span class="cotacao-modalidade">Loteria Federal</span>
+                    <span class="cotacao-valor">1:7500</span>
+                </div>
+                <div class="cotacao-item">
+                    <span class="cotacao-modalidade">Mega-Sena</span>
+                    <span class="cotacao-valor">1:6000</span>
+                </div>
+                <div class="cotacao-item">
+                    <span class="cotacao-modalidade">Quina</span>
+                    <span class="cotacao-valor">1:5000</span>
                 </div>
             </div>
+            <a href="#" class="btn-whatsapp-cta">
+                <img src="/assets/img/whatsapp-icon.svg" alt="WhatsApp">
+                <span>Apostar via WhatsApp</span>
+            </a>
         </div>
     </div>
 
-    <!-- Modal de Informações -->
-    <div id="infoModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">ℹ️ Informações</h2>
-                <button class="close-btn" onclick="closeInfoModal()">&times;</button>
-            </div>
-            <div class="modal-body">
-                <ul class="info-list">
-                    <h4>Limites de Recarga e Saque</h4>
-                    <li class="info-item"><span class="info-label">Recarga mínima</span><span class="info-value">R$ 10,00</span></li>
-                    <li class="info-item"><span class="info-label">Recarga máxima por vez</span><span class="info-value">R$ 5.000,00</span></li>
-                    <li class="info-item"><span class="info-label">Limite de saque por dia</span><span class="info-value">R$ 50.000,00</span></li>
-                    <li class="info-item"><span class="info-label">Limite de saque por vez</span><span class="info-value">R$ 5.000,00</span></li>
-                </ul>
-                <ul class="info-list">
-                    <h4>Limites de Jogos</h4>
-                    <li class="info-item"><span class="info-label">Grupo</span><span class="info-value">até 8 grupos por dia</span></li>
-                    <li class="info-item"><span class="info-label">Dezena</span><span class="info-value">até 25 dezenas por dia</span></li>
-                </ul>
-                <ul class="info-list">
-                    <h4>Outras modalidades</h4>
-                    <li class="modal-list-item">Cassino com diversos jogos e os mais populares</li>
-                    <li class="modal-list-item">Bingo</li>
-                    <li class="modal-list-item">Futebol</li>
-                    <li class="modal-list-item">Fazendinha</li>
-                    <li class="modal-list-item">Loteria Uruguaia</li>
-                    <li class="modal-list-item">Quininha</li>
-                    <li class="modal-list-item">Seninha</li>
-                    <li class="modal-list-item">Super15</li>
-                </ul>
-                <ul class="info-list">
-                    <h4>Indique e ganhe</h4>
-                    <li class="modal-list-item">Compartilhe o link do aplicativo com seus amigos e receba 3% de comissão na carteira do app sobre cada jogo realizado por eles. Quanto mais amigos você indicar, maior será o saldo para realizar as suas fézinhas!</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal de Promotor -->
+    <!-- Modal para Promotor -->
     <div id="promotorModal" class="modal">
         <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">💎 Seja um Promotor</h2>
-                <button class="close-btn" onclick="closePromotorModal()">&times;</button>
-            </div>
-            <div class="modal-body">
-                <ul class="info-list">
-                    <h4>Comissões</h4>
-                    <li class="modal-list-item">💰 10% de comissão sobre vendas JB</li>
-                    <li class="modal-list-item">💰 5% de comissão sobre vendas Fazendinha</li>
-                    <li class="modal-list-item">💰 10% de comissão do lucro mensal (Bingo e Cassino)</li>
-                    <li class="modal-list-item">💰 10% de comissão do lucro mensal do JB</li>
-                    <li class="modal-list-item">📦 Material de trabalho incluso</li>
-                </ul>
-                <ul class="info-list">
-                    <h4>Exclusividade</h4>
-                    <li class="modal-list-item">📈 Landing Page personalizada e otimizada para o Google</li>
-                    <li class="modal-list-item">💎 Site de resultados com o seu link de promotor integrado</li>
-                </ul>
-                <div class="promotor-text-block">
-                    <h4>Landing Page</h4>
-                    <p>Uma Landing Page é sua página de vendas pessoal, criada para transformar visitantes em clientes. Nós a otimizamos para o Google, permitindo que novas pessoas encontrem sua página através de buscas por resultados, palpites e outros termos relacionados à banca, direcionando o tráfego diretamente para você.</p>
+            <span class="close">&times;</span>
+            <h2>Programa de Afiliados</h2>
+            <ul class="info-list">
+                <h4>Benefícios do Programa</h4>
+                <div class="info-item">
+                    <span class="info-label">Comissão por indicação:</span>
+                    <span class="info-value">10% - 25%</span>
                 </div>
-                <div class="promotor-text-block">
-                    <h4>Site de Resultados</h4>
-                    <p>Quando você ou seus clientes compartilham qualquer conteúdo do nosso site (como resultados ou palpites), seu código de promotor é anexado automaticamente ao link. Qualquer pessoa que clicar e se cadastrar através desse link se torna seu cliente. Esse sistema cria um efeito viral: seus clientes atraem mais clientes para você, expandindo sua rede de forma exponencial e automática.</p>
+                <div class="info-item">
+                    <span class="info-label">Pagamento:</span>
+                    <span class="info-value">Semanal</span>
                 </div>
-                <a href="https://wa.me/5583993708505" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-cta">
-                    <img src="/assets/img/wz.webp" alt="Ícone WhatsApp">
-                    Quero ser promotor
-                </a>
+                <div class="info-item">
+                    <span class="info-label">Suporte:</span>
+                    <span class="info-value">24/7</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Material promocional:</span>
+                    <span class="info-value">Gratuito</span>
+                </div>
+            </ul>
+            <div class="promotor-text-block">
+                <p>Torne-se um promotor da 77x Brasil e ganhe comissões atrativas promovendo nossos jogos. Oferecemos suporte completo, materiais promocionais e pagamentos pontuais.</p>
+                <p>Entre em contato conosco para mais informações sobre como se tornar um afiliado e começar a ganhar hoje mesmo!</p>
             </div>
+            <a href="#" class="btn-whatsapp-cta">
+                <img src="/assets/img/whatsapp-icon.svg" alt="WhatsApp">
+                <span>Falar com Suporte</span>
+            </a>
         </div>
     </div>
 
-    <!-- Modal de Resultados do Jogo do Bicho -->
+    <!-- Modal para Tutoriais -->
+    <div id="tutoriaisModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Tutoriais</h2>
+            <ul class="info-list">
+                <div class="modal-list-item">Como fazer seu primeiro depósito</div>
+                <div class="modal-list-item">Como jogar o Jogo do Bicho</div>
+                <div class="modal-list-item">Como sacar seus ganhos</div>
+                <div class="modal-list-item">Dicas para aumentar suas chances</div>
+                <div class="modal-list-item">Como usar o bônus de boas-vindas</div>
+                <div class="modal-list-item">Programa de fidelidade</div>
+            </ul>
+            <a href="#" class="btn-whatsapp-cta">
+                <img src="/assets/img/whatsapp-icon.svg" alt="WhatsApp">
+                <span>Ajuda via WhatsApp</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Modal para Resultados -->
     <div id="resultadosModal" class="modal">
         <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">🎯 Resultados do Jogo do Bicho</h2>
-                <button class="close-btn" onclick="closeResultadosModal()">&times;</button>
-            </div>
-            <div class="modal-body">
-                <ul class="info-list">
-                    <h4>Selecione uma banca:</h4>
-                    <div id="bancasList">
-                        <!-- Lista de bancas será carregada dinamicamente aqui -->
-                    </div>
-                </ul>
-            </div>
+            <span class="close">&times;</span>
+            <h2>Últimos Resultados</h2>
+            <ul class="info-list">
+                <h4>Jogo do Bicho - Hoje</h4>
+                <div class="info-item">
+                    <span class="info-label">1º Prêmio:</span>
+                    <span class="info-value">Águia - 02</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">2º Prêmio:</span>
+                    <span class="info-value">Cavalo - 11</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">3º Prêmio:</span>
+                    <span class="info-value">Gato - 14</span>
+                </div>
+                <h4>Loteria Federal - Ontem</h4>
+                <div class="info-item">
+                    <span class="info-label">1º Prêmio:</span>
+                    <span class="info-value">75.432</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">2º Prêmio:</span>
+                    <span class="info-value">28.901</span>
+                </div>
+            </ul>
+            <a href="#" class="btn-whatsapp-cta">
+                <img src="/assets/img/whatsapp-icon.svg" alt="WhatsApp">
+                <span>Ver Mais Resultados</span>
+            </a>
         </div>
     </div>
 
-    <!-- Scripts -->
-    <script defer src="/assets/js/flatpickr.js"></script>
-    <script defer src="/assets/js/flatpickr.pt.js"></script>
-    <script src="/resultados/script.js"></script>
+    <!-- Modal para Ferramentas -->
+    <div id="ferramentasModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Ferramentas</h2>
+            <ul class="info-list">
+                <div class="modal-list-item">Calculadora de Apostas</div>
+                <div class="modal-list-item">Histórico de Resultados</div>
+                <div class="modal-list-item">Estatísticas dos Jogos</div>
+                <div class="modal-list-item">Gerador de Números</div>
+                <div class="modal-list-item">Controle de Gastos</div>
+                <div class="modal-list-item">Alertas de Resultados</div>
+            </ul>
+            <a href="#" class="btn-whatsapp-cta">
+                <img src="/assets/img/whatsapp-icon.svg" alt="WhatsApp">
+                <span>Solicitar Ferramenta</span>
+            </a>
+        </div>
+    </div>
+
     <script>
-        function getStoredProductCode( ) { return localStorage.getItem("productCode"); }
-        function captureAndStoreUrlParameter() { const urlParams = new URLSearchParams(window.location.search); const codeParam = urlParams.get('pr'); if (codeParam) { localStorage.setItem("productCode", codeParam); } }
-        
-        function openCotacoesModal() { document.getElementById("cotacoesModal").style.display = "flex"; document.body.classList.add("modal-open"); }
-        function closeCotacoesModal() { document.getElementById("cotacoesModal").style.display = "none"; document.body.classList.remove("modal-open"); }
+        // JavaScript para modais
+        document.addEventListener('DOMContentLoaded', function() {
+            // Elementos dos modais
+            const modals = {
+                cotacoes: document.getElementById('cotacoesModal'),
+                promotor: document.getElementById('promotorModal'),
+                tutoriais: document.getElementById('tutoriaisModal'),
+                resultados: document.getElementById('resultadosModal'),
+                ferramentas: document.getElementById('ferramentasModal')
+            };
 
-        function openInfoModal() { document.getElementById("infoModal").style.display = "flex"; document.body.classList.add("modal-open"); }
-        function closeInfoModal() { document.getElementById("infoModal").style.display = "none"; document.body.classList.remove("modal-open"); }
+            // Elementos dos links
+            const links = {
+                cotacoes: document.getElementById('cotacoesLink'),
+                promotor: document.getElementById('promotorLink'),
+                tutoriais: document.getElementById('tutoriaisLink'),
+                resultados: document.getElementById('resultadosLink'),
+                ferramentas: document.getElementById('ferramentasLink')
+            };
 
-        function openPromotorModal() { document.getElementById("promotorModal").style.display = "flex"; document.body.classList.add("modal-open"); }
-        function closePromotorModal() { document.getElementById("promotorModal").style.display = "none"; document.body.classList.remove("modal-open"); }
+            // Função para abrir modal
+            function openModal(modalName) {
+                if (modals[modalName]) {
+                    modals[modalName].style.display = 'block';
+                }
+            }
 
-        function openResultadosModal() { 
-            loadBancas();
-            document.getElementById("resultadosModal").style.display = "flex"; 
-            document.body.classList.add("modal-open"); 
-        }
-        function closeResultadosModal() { document.getElementById("resultadosModal").style.display = "none"; document.body.classList.remove("modal-open"); }
+            // Função para fechar modal
+            function closeModal(modalName) {
+                if (modals[modalName]) {
+                    modals[modalName].style.display = 'none';
+                }
+            }
 
-        function loadBancas() {
-            fetch('/resultados/lottery.json')
-                .then(response => response.json())
-                .then(data => {
-                    const bancasList = document.getElementById('bancasList');
-                    bancasList.innerHTML = '';
-                    
-                    data.forEach(banca => {
-                        const bancaItem = document.createElement('div');
-                        bancaItem.className = 'modal-list-item';
-                        bancaItem.textContent = banca.name;
-                        bancaItem.style.cursor = 'pointer';
-                        bancaItem.onclick = function() {
-                            window.location.href = `/resultados/${banca.path}`;
-                        };
-                        bancasList.appendChild(bancaItem);
+            // Event listeners para abrir modais
+            Object.keys(links).forEach(key => {
+                if (links[key]) {
+                    links[key].addEventListener('click', function(e) {
+                        e.preventDefault();
+                        openModal(key);
                     });
-                })
-                .catch(error => {
-                    console.error('Erro ao carregar bancas:', error);
-                    const bancasList = document.getElementById('bancasList');
-                    bancasList.innerHTML = '<div class="modal-list-item">Erro ao carregar bancas</div>';
-                });
-        }
+                }
+            });
 
-        function setupCadastroLink() { const storedCode = getStoredProductCode(); const code = storedCode || "PACruTth"; const cadastroUrl = `https://app.77xbrasil.com.br/pr/${code}`; document.getElementById("cadastroBtn" ).href = cadastroUrl; }
-        
-        document.addEventListener("DOMContentLoaded", function() {
-            captureAndStoreUrlParameter();
-            setupCadastroLink();
-            
-            document.getElementById("cotacoesLink").addEventListener("click", function(e) { e.preventDefault(); openCotacoesModal(); });
-            document.getElementById("infoLink").addEventListener("click", function(e) { e.preventDefault(); openInfoModal(); });
-            document.getElementById("promotorBtn").addEventListener("click", function(e) { e.preventDefault(); openPromotorModal(); });
-            document.getElementById("resultadosBtn").addEventListener("click", function(e) { e.preventDefault(); openResultadosModal(); });
-        });
-        
-        window.addEventListener("click", function(event) {
-            if (event.target.classList.contains('modal')) {
-                closeCotacoesModal();
-                closeInfoModal();
-                closePromotorModal();
-                closeResultadosModal();
+            // Event listeners para fechar modais
+            Object.keys(modals).forEach(key => {
+                const modal = modals[key];
+                if (modal) {
+                    const closeBtn = modal.querySelector('.close');
+                    if (closeBtn) {
+                        closeBtn.addEventListener('click', function() {
+                            closeModal(key);
+                        });
+                    }
+
+                    // Fechar modal clicando fora dele
+                    modal.addEventListener('click', function(e) {
+                        if (e.target === modal) {
+                            closeModal(key);
+                        }
+                    });
+                }
+            });
+
+            // Cadastro link
+            const cadastroLink = document.getElementById('cadastroLink');
+            if (cadastroLink) {
+                cadastroLink.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    // Aqui você pode adicionar a lógica de redirecionamento para cadastro
+                    console.log('Redirecionando para cadastro...');
+                });
             }
         });
     </script>
-
-
-      <footer class="site-footer">
-    <div class="footer-content">
-      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
-      <p class="site-domain" id="siteDomain"></p>
-      <p class="copyright-text" id="copyrightText"></p>
-    </div>
-  </footer>
 </body>
 </html>
 
