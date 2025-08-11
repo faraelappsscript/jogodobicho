@@ -1381,7 +1381,7 @@ tbody tr:last-child td {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.overlay-slogan .slogan-line1 {
+.overlay-slogan {
     background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1390,6 +1390,12 @@ tbody tr:last-child td {
     animation: gradient-slide 5s linear infinite;
     display: block;
     margin-bottom: var(--spacing-xs);
+}
+
+.slogan-line1 {
+
+
+  
 }
 
 .overlay-slogan .slogan-line2 {
