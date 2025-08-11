@@ -365,7 +365,7 @@
         @media (max-width: 767px) { .logo { max-width: 220px; } .slogan { font-size: clamp(2.5rem, 7vw, 3rem); } .slogan-subtitle { font-size: 1rem; } }
         @media (max-width: 380px) { .slogan { font-size: clamp(2rem, 6vw, 2.5rem); } .slogan-subtitle { font-size: 0.9rem; } .btn-cadastro-main-text { font-size: 1rem; } .btn-cadastro-subtext { font-size: 0.75rem; } .btn-cadastro-whatsapp { font-size: 0.75rem; } .btn-promotor-main-text { font-size: 1rem; } .btn-promotor-subtext { font-size: 0.8rem; } }
     
-    /* Estilos para a sobreposição de imagem, logo e slogan */
+    /* Estilos para a sobreposição de imagem, logo e slogan - CORRIGIDO */
 .image-overlay-container {
     position: relative;
     width: 100%;
@@ -408,17 +408,16 @@
     font-size: clamp(3rem, 8vw, 4rem);
     font-weight: 800;
     line-height: 1.2;
-    color: white; /* Cor do slogan sobreposta */
+    color: white !important; /* FORÇANDO COR BRANCA */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    display: block;
+    margin-bottom: var(--spacing-xs);
 }
 
-.overlay-slogan {
-    background: var(--gradient-accent, linear-gradient(135deg, #667eea, #764ba2));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    background-size: 200% auto;
-    animation: gradient-slide 5s linear infinite;
+.overlay-slogan .slogan-line1 {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     display: block;
     margin-bottom: var(--spacing-xs);
 }
