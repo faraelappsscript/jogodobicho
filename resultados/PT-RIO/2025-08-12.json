@@ -540,7 +540,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 2640, 2643, 2644, 2648, 2840, 2843, 2844, 2848, 6640, 6643, 6644, 6648, 6840, 6843, 6844, 6848"
+      "resumo": "Palpites dados para esta extração: 2844"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -612,77 +612,22 @@
         }
       ],
       "frases": {
-        "2643": [
-          "Dezena no quarto prêmio!<br>com o palpite 2643",
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 2643",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 2643",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2643"
-        ],
-        "2644": [
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 2644",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 2644",
-          "Dezena no oitavo prêmio!<br>com o palpite 2644",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2644"
-        ],
-        "2648": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 2648"
-        ],
-        "2843": [
-          "Dezena no quarto prêmio!<br>com o palpite 2843",
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 2843",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 2843",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2843"
-        ],
         "2844": [
           "CAVALO 🐎 no quarto prêmio!<br>com o palpite 2844",
           "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 2844",
           "Dezena no oitavo prêmio!<br>com o palpite 2844",
           "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2844"
-        ],
-        "2848": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 2848"
-        ],
-        "6643": [
-          "Dezena no quarto prêmio!<br>com o palpite 6643",
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6643",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6643",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6643"
-        ],
-        "6644": [
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6644",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6644",
-          "Dezena no oitavo prêmio!<br>com o palpite 6644",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6644"
-        ],
-        "6648": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6648"
-        ],
-        "6843": [
-          "Dezena no quarto prêmio!<br>com o palpite 6843",
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6843",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6843",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6843"
-        ],
-        "6844": [
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6844",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6844",
-          "Dezena no oitavo prêmio!<br>com o palpite 6844",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6844"
-        ],
-        "6848": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6848"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 8,
+        "Dezena": 1,
         "Grupo": [
-          "🐘",
           "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2640, 2643, 2644, 2648, 2840, 2843, 2844, 2848, 6640, 6643, 6644, 6648, 6840, 6843, 6844, 6848"
+      "resumo": "Palpites dados para esta extração: 2844"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -753,29 +698,14 @@
           "Bicho": "Pavão"
         }
       ],
-      "frases": {
-        "2648": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 2648"
-        ],
-        "2848": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 2848"
-        ],
-        "6648": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 6648"
-        ],
-        "6848": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 6848"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐘"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 2640, 2643, 2644, 2648, 2840, 2843, 2844, 2848, 6640, 6643, 6644, 6648, 6840, 6843, 6844, 6848"
+      "resumo": "Palpites dados para esta extração: 2844"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -847,41 +777,8 @@
         }
       ],
       "frases": {
-        "2643": [
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2643"
-        ],
-        "2644": [
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2644"
-        ],
-        "2648": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 2648"
-        ],
-        "2843": [
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2843"
-        ],
         "2844": [
           "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2844"
-        ],
-        "2848": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 2848"
-        ],
-        "6643": [
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6643"
-        ],
-        "6644": [
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6644"
-        ],
-        "6648": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6648"
-        ],
-        "6843": [
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6843"
-        ],
-        "6844": [
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6844"
-        ],
-        "6848": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6848"
         ]
       },
       "acertos": {
@@ -889,11 +786,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐘",
           "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2640, 2643, 2644, 2648, 2840, 2843, 2844, 2848, 6640, 6643, 6644, 6648, 6840, 6843, 6844, 6848"
+      "resumo": "Palpites dados para esta extração: 2844"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -964,54 +860,14 @@
           "Bicho": "Jacaré"
         }
       ],
-      "frases": {
-        "2640": [
-          "Dezena no quarto prêmio!<br>com o palpite 2640",
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 2640",
-          "Dezena no nono prêmio!<br>com o palpite 2640",
-          "COELHO 🐇 no nono prêmio!<br>com o palpite 2640"
-        ],
-        "2648": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 2648"
-        ],
-        "2840": [
-          "Dezena no quarto prêmio!<br>com o palpite 2840",
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 2840",
-          "Dezena no nono prêmio!<br>com o palpite 2840",
-          "COELHO 🐇 no nono prêmio!<br>com o palpite 2840"
-        ],
-        "2848": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 2848"
-        ],
-        "6640": [
-          "Dezena no quarto prêmio!<br>com o palpite 6640",
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6640",
-          "Dezena no nono prêmio!<br>com o palpite 6640",
-          "COELHO 🐇 no nono prêmio!<br>com o palpite 6640"
-        ],
-        "6648": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6648"
-        ],
-        "6840": [
-          "Dezena no quarto prêmio!<br>com o palpite 6840",
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6840",
-          "Dezena no nono prêmio!<br>com o palpite 6840",
-          "COELHO 🐇 no nono prêmio!<br>com o palpite 6840"
-        ],
-        "6848": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6848"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 8,
-        "Grupo": [
-          "🐘",
-          "🐇"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 2640, 2643, 2644, 2648, 2840, 2843, 2844, 2848, 6640, 6643, 6644, 6648, 6840, 6843, 6844, 6848"
+      "resumo": "Palpites dados para esta extração: 2844"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
