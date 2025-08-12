@@ -359,19 +359,19 @@
             }
             
             .input-group {
-                flex-direction: column;
+                flex-direction: row;
             }
             
             .input-prefix {
                 border-right: 1px solid var(--border-color);
-                border-bottom: none;
-                border-radius: var(--radius-md) var(--radius-md) 0 0;
-                min-width: auto;
-                width: 100%;
+                border-bottom: 1px solid var(--border-color);
+                border-radius: var(--radius-md) 0 0 var(--radius-md);
+                min-width: 70px;
+                width: auto;
             }
             
             .input-group .form-input {
-                border-radius: 0 0 var(--radius-md) var(--radius-md);
+                border-radius: 0 var(--radius-md) var(--radius-md) 0;
             }
         }
 
@@ -416,7 +416,7 @@
                     <a href="/" class="breadcrumb-link">Início</a>
                 </li>
                 <li class="breadcrumb-item">
-                    <span class="breadcrumb-current">Criador de Página</span>
+                    <a href="/ferramentas/landing-page-creator.html" class="breadcrumb-link">Criador de Página</a>
                 </li>
             </ol>
         </nav>
