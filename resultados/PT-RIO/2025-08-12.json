@@ -1,0 +1,252 @@
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "6917",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9699",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6713",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9211",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3188",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "5728",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "087",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 3271, 3272, 3273, 3291, 3292, 3293, 3771, 3772, 3773, 3791, 3792, 3793, 6271, 6272, 6273, 6291, 6292, 6293, 6771, 6772, 6773, 6791, 6792, 6793, 7271, 7272, 7273, 7291, 7292, 7293, 7771, 7772, 7773, 7791, 7792, 7793"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "6917",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9699",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6713",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9211",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3188",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "6969",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "9672",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1911",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "7931",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "2211",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        }
+      ],
+      "frases": {
+        "3271": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 3271",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 3271"
+        ],
+        "3272": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 3272",
+          "Dezena no sétimo prêmio!<br>com o palpite 3272",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 3272"
+        ],
+        "3771": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 3771",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 3771"
+        ],
+        "3772": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 3772",
+          "Dezena no sétimo prêmio!<br>com o palpite 3772",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 3772"
+        ],
+        "6271": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 6271",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 6271"
+        ],
+        "6272": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 6272",
+          "Dezena no sétimo prêmio!<br>com o palpite 6272",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 6272"
+        ],
+        "6771": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 6771",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 6771"
+        ],
+        "6772": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 6772",
+          "Dezena no sétimo prêmio!<br>com o palpite 6772",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 6772"
+        ],
+        "7271": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 7271",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 7271"
+        ],
+        "7272": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 7272",
+          "Dezena no sétimo prêmio!<br>com o palpite 7272",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 7272"
+        ],
+        "7771": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 7771",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 7771"
+        ],
+        "7772": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 7772",
+          "Dezena no sétimo prêmio!<br>com o palpite 7772",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 7772"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 6,
+        "Grupo": [
+          "🐖"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 3271, 3272, 3273, 3291, 3292, 3293, 3771, 3772, 3773, 3791, 3792, 3793, 6271, 6272, 6273, 6291, 6292, 6293, 6771, 6772, 6773, 6791, 6792, 6793, 7271, 7272, 7273, 7291, 7292, 7293, 7771, 7772, 7773, 7791, 7792, 7793"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
