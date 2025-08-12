@@ -409,17 +409,9 @@
 </head>
 <body>
     <div class="main-container">
-        <!-- Breadcrumb -->
-        <nav class="breadcrumb-nav">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                    <a href="/" class="breadcrumb-link">Início</a>
-                </li>
-                <li class="breadcrumb-item">
-                    <a href="/ferramentas/landing-page-creator.html" class="breadcrumb-link">Criador de Página</a>
-                </li>
-            </ol>
-        </nav>
+    <nav class="breadcrumb-nav" id="breadcrumbNav">
+      <!-- O breadcrumb será gerado dinamicamente pelo JavaScript -->
+    </nav>
 
         <!-- Conteúdo Principal -->
         <div class="content-section">
@@ -985,6 +977,7 @@
 
         // Inicializar estado do botão
         updateSubmitButton();
+        initializeBreadcrumb();
     </script>
 </body>
 </html>
