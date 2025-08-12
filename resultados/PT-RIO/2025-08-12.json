@@ -533,79 +533,14 @@
           "Bicho": "Burro"
         }
       ],
-      "frases": {
-        "7217": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7217",
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7217"
-        ],
-        "7218": [
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7218"
-        ],
-        "7287": [
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 7287"
-        ],
-        "7288": [
-          "Dezena no quinto prêmio!<br>com o palpite 7288",
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 7288"
-        ],
-        "7297": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 7297"
-        ],
-        "7298": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 7298"
-        ],
-        "7617": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7617",
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7617"
-        ],
-        "7618": [
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7618"
-        ],
-        "7687": [
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 7687"
-        ],
-        "7688": [
-          "Dezena no quinto prêmio!<br>com o palpite 7688",
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 7688"
-        ],
-        "7697": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 7697"
-        ],
-        "7698": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 7698"
-        ],
-        "7717": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7717",
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7717"
-        ],
-        "7718": [
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 7718"
-        ],
-        "7787": [
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 7787"
-        ],
-        "7788": [
-          "Dezena no quinto prêmio!<br>com o palpite 7788",
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 7788"
-        ],
-        "7797": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 7797"
-        ],
-        "7798": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 7798"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
-        "Grupo": [
-          "🐕",
-          "🐄",
-          "🐅"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 7207, 7208, 7217, 7218, 7247, 7248, 7257, 7258, 7267, 7268, 7277, 7278, 7287, 7288, 7297, 7298, 7607, 7608, 7617, 7618, 7647, 7648, 7657, 7658, 7667, 7668, 7677, 7678, 7687, 7688, 7697, 7698, 7707, 7708, 7717, 7718, 7747, 7748, 7757, 7758, 7767, 7768, 7777, 7778, 7787, 7788, 7797, 7798"
+      "resumo": "Palpites dados para esta extração: 2640, 2643, 2644, 2648, 2840, 2843, 2844, 2848, 6640, 6643, 6644, 6648, 6840, 6843, 6844, 6848"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -677,94 +612,77 @@
         }
       ],
       "frases": {
-        "7207": [
-          "Dezena no décimo prêmio!<br>com o palpite 7207",
-          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7207"
+        "2643": [
+          "Dezena no quarto prêmio!<br>com o palpite 2643",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 2643",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 2643",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2643"
         ],
-        "7208": [
-          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7208"
+        "2644": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 2644",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 2644",
+          "Dezena no oitavo prêmio!<br>com o palpite 2644",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2644"
         ],
-        "7247": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7247"
+        "2648": [
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 2648"
         ],
-        "7248": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7248"
+        "2843": [
+          "Dezena no quarto prêmio!<br>com o palpite 2843",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 2843",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 2843",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2843"
         ],
-        "7267": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7267"
+        "2844": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 2844",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 2844",
+          "Dezena no oitavo prêmio!<br>com o palpite 2844",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2844"
         ],
-        "7268": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7268"
+        "2848": [
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 2848"
         ],
-        "7277": [
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 7277"
+        "6643": [
+          "Dezena no quarto prêmio!<br>com o palpite 6643",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6643",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6643",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6643"
         ],
-        "7278": [
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 7278"
+        "6644": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6644",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6644",
+          "Dezena no oitavo prêmio!<br>com o palpite 6644",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6644"
         ],
-        "7607": [
-          "Dezena no décimo prêmio!<br>com o palpite 7607",
-          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7607"
+        "6648": [
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6648"
         ],
-        "7608": [
-          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7608"
+        "6843": [
+          "Dezena no quarto prêmio!<br>com o palpite 6843",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6843",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6843",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6843"
         ],
-        "7647": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7647"
+        "6844": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6844",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6844",
+          "Dezena no oitavo prêmio!<br>com o palpite 6844",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6844"
         ],
-        "7648": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7648"
-        ],
-        "7667": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7667"
-        ],
-        "7668": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7668"
-        ],
-        "7677": [
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 7677"
-        ],
-        "7678": [
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 7678"
-        ],
-        "7707": [
-          "Dezena no décimo prêmio!<br>com o palpite 7707",
-          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7707"
-        ],
-        "7708": [
-          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 7708"
-        ],
-        "7747": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7747"
-        ],
-        "7748": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7748"
-        ],
-        "7767": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7767"
-        ],
-        "7768": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7768"
-        ],
-        "7777": [
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 7777"
-        ],
-        "7778": [
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 7778"
+        "6848": [
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6848"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
+        "Dezena": 8,
         "Grupo": [
-          "🐒",
           "🐘",
-          "🦃",
-          "🦅"
+          "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7207, 7208, 7217, 7218, 7247, 7248, 7257, 7258, 7267, 7268, 7277, 7278, 7287, 7288, 7297, 7298, 7607, 7608, 7617, 7618, 7647, 7648, 7657, 7658, 7667, 7668, 7677, 7678, 7687, 7688, 7697, 7698, 7707, 7708, 7717, 7718, 7747, 7748, 7757, 7758, 7767, 7768, 7777, 7778, 7787, 7788, 7797, 7798"
+      "resumo": "Palpites dados para esta extração: 2640, 2643, 2644, 2648, 2840, 2843, 2844, 2848, 6640, 6643, 6644, 6648, 6840, 6843, 6844, 6848"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -836,167 +754,28 @@
         }
       ],
       "frases": {
-        "7217": [
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 7217"
+        "2648": [
+          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 2648"
         ],
-        "7218": [
-          "Milhar e Centena no sétimo prêmio!<br>com o palpite 7218",
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 7218",
-          "Dezena no sétimo prêmio!<br>com o palpite 7218",
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 7218"
+        "2848": [
+          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 2848"
         ],
-        "7247": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 7247"
+        "6648": [
+          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 6648"
         ],
-        "7248": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 7248"
-        ],
-        "7257": [
-          "Dezena no quinto prêmio!<br>com o palpite 7257",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 7257"
-        ],
-        "7258": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 7258"
-        ],
-        "7267": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7267",
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7267"
-        ],
-        "7268": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7268"
-        ],
-        "7277": [
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 7277"
-        ],
-        "7278": [
-          "Dezena no sexto prêmio!<br>com o palpite 7278",
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 7278"
-        ],
-        "7287": [
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 7287"
-        ],
-        "7288": [
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 7288"
-        ],
-        "7297": [
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7297"
-        ],
-        "7298": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7298",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7298"
-        ],
-        "7617": [
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 7617"
-        ],
-        "7618": [
-          "Dezena no sétimo prêmio!<br>com o palpite 7618",
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 7618"
-        ],
-        "7647": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 7647"
-        ],
-        "7648": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 7648"
-        ],
-        "7657": [
-          "Dezena no quinto prêmio!<br>com o palpite 7657",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 7657"
-        ],
-        "7658": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 7658"
-        ],
-        "7667": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7667",
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7667"
-        ],
-        "7668": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7668"
-        ],
-        "7677": [
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 7677"
-        ],
-        "7678": [
-          "Dezena no sexto prêmio!<br>com o palpite 7678",
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 7678"
-        ],
-        "7687": [
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 7687"
-        ],
-        "7688": [
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 7688"
-        ],
-        "7697": [
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7697"
-        ],
-        "7698": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7698",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7698"
-        ],
-        "7717": [
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 7717"
-        ],
-        "7718": [
-          "Dezena no sétimo prêmio!<br>com o palpite 7718",
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 7718"
-        ],
-        "7747": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 7747"
-        ],
-        "7748": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 7748"
-        ],
-        "7757": [
-          "Dezena no quinto prêmio!<br>com o palpite 7757",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 7757"
-        ],
-        "7758": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 7758"
-        ],
-        "7767": [
-          "Milhar e Centena no primeiro prêmio!<br>com o palpite 7767",
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7767",
-          "Dezena no primeiro prêmio!<br>com o palpite 7767",
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7767"
-        ],
-        "7768": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7768"
-        ],
-        "7777": [
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 7777"
-        ],
-        "7778": [
-          "Dezena no sexto prêmio!<br>com o palpite 7778",
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 7778"
-        ],
-        "7787": [
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 7787"
-        ],
-        "7788": [
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 7788"
-        ],
-        "7797": [
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7797"
-        ],
-        "7798": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7798",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 7798"
+        "6848": [
+          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 6848"
         ]
       },
       "acertos": {
-        "Milhar": 2,
-        "Centena": 2,
-        "Dezena": 15,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🐒",
-          "🐄",
-          "🐘",
-          "🐊",
-          "🦃",
-          "🐕",
-          "🐅"
+          "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7207, 7208, 7217, 7218, 7247, 7248, 7257, 7258, 7267, 7268, 7277, 7278, 7287, 7288, 7297, 7298, 7607, 7608, 7617, 7618, 7647, 7648, 7657, 7658, 7667, 7668, 7677, 7678, 7687, 7688, 7697, 7698, 7707, 7708, 7717, 7718, 7747, 7748, 7757, 7758, 7767, 7768, 7777, 7778, 7787, 7788, 7797, 7798"
+      "resumo": "Palpites dados para esta extração: 2640, 2643, 2644, 2648, 2840, 2843, 2844, 2848, 6640, 6643, 6644, 6648, 6840, 6843, 6844, 6848"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -1068,105 +847,53 @@
         }
       ],
       "frases": {
-        "7217": [
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7217"
+        "2643": [
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2643"
         ],
-        "7218": [
-          "Dezena no quarto prêmio!<br>com o palpite 7218",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7218"
+        "2644": [
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2644"
         ],
-        "7247": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7247",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7247"
+        "2648": [
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 2648"
         ],
-        "7248": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7248"
+        "2843": [
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2843"
         ],
-        "7267": [
-          "Dezena no segundo prêmio!<br>com o palpite 7267",
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7267"
+        "2844": [
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 2844"
         ],
-        "7268": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7268"
+        "2848": [
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 2848"
         ],
-        "7277": [
-          "PERU 🦃 no nono prêmio!<br>com o palpite 7277"
+        "6643": [
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6643"
         ],
-        "7278": [
-          "Dezena no nono prêmio!<br>com o palpite 7278",
-          "PERU 🦃 no nono prêmio!<br>com o palpite 7278"
+        "6644": [
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6644"
         ],
-        "7617": [
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7617"
+        "6648": [
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6648"
         ],
-        "7618": [
-          "Dezena no quarto prêmio!<br>com o palpite 7618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7618"
+        "6843": [
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6843"
         ],
-        "7647": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7647",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7647"
+        "6844": [
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6844"
         ],
-        "7648": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7648"
-        ],
-        "7667": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 7667",
-          "Dezena no segundo prêmio!<br>com o palpite 7667",
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7667"
-        ],
-        "7668": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7668"
-        ],
-        "7677": [
-          "PERU 🦃 no nono prêmio!<br>com o palpite 7677"
-        ],
-        "7678": [
-          "Dezena no nono prêmio!<br>com o palpite 7678",
-          "PERU 🦃 no nono prêmio!<br>com o palpite 7678"
-        ],
-        "7717": [
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7717"
-        ],
-        "7718": [
-          "Dezena no quarto prêmio!<br>com o palpite 7718",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7718"
-        ],
-        "7747": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7747",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7747"
-        ],
-        "7748": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7748"
-        ],
-        "7767": [
-          "Dezena no segundo prêmio!<br>com o palpite 7767",
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7767"
-        ],
-        "7768": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7768"
-        ],
-        "7777": [
-          "PERU 🦃 no nono prêmio!<br>com o palpite 7777"
-        ],
-        "7778": [
-          "Centena e Dezena no nono prêmio!<br>com o palpite 7778",
-          "Dezena no nono prêmio!<br>com o palpite 7778",
-          "PERU 🦃 no nono prêmio!<br>com o palpite 7778"
+        "6848": [
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6848"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 12,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🐒",
           "🐘",
-          "🐕",
-          "🦃"
+          "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7207, 7208, 7217, 7218, 7247, 7248, 7257, 7258, 7267, 7268, 7277, 7278, 7287, 7288, 7297, 7298, 7607, 7608, 7617, 7618, 7647, 7648, 7657, 7658, 7667, 7668, 7677, 7678, 7687, 7688, 7697, 7698, 7707, 7708, 7717, 7718, 7747, 7748, 7757, 7758, 7767, 7768, 7777, 7778, 7787, 7788, 7797, 7798"
+      "resumo": "Palpites dados para esta extração: 2640, 2643, 2644, 2648, 2840, 2843, 2844, 2848, 6640, 6643, 6644, 6648, 6840, 6843, 6844, 6848"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -1238,56 +965,53 @@
         }
       ],
       "frases": {
-        "7247": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7247"
+        "2640": [
+          "Dezena no quarto prêmio!<br>com o palpite 2640",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 2640",
+          "Dezena no nono prêmio!<br>com o palpite 2640",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 2640"
         ],
-        "7248": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7248"
+        "2648": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 2648"
         ],
-        "7257": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 7257"
+        "2840": [
+          "Dezena no quarto prêmio!<br>com o palpite 2840",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 2840",
+          "Dezena no nono prêmio!<br>com o palpite 2840",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 2840"
         ],
-        "7258": [
-          "Dezena no décimo prêmio!<br>com o palpite 7258",
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 7258"
+        "2848": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 2848"
         ],
-        "7647": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7647"
+        "6640": [
+          "Dezena no quarto prêmio!<br>com o palpite 6640",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6640",
+          "Dezena no nono prêmio!<br>com o palpite 6640",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 6640"
         ],
-        "7648": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7648"
+        "6648": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6648"
         ],
-        "7657": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 7657"
+        "6840": [
+          "Dezena no quarto prêmio!<br>com o palpite 6840",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6840",
+          "Dezena no nono prêmio!<br>com o palpite 6840",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 6840"
         ],
-        "7658": [
-          "Dezena no décimo prêmio!<br>com o palpite 7658",
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 7658"
-        ],
-        "7747": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7747"
-        ],
-        "7748": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7748"
-        ],
-        "7757": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 7757"
-        ],
-        "7758": [
-          "Dezena no décimo prêmio!<br>com o palpite 7758",
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 7758"
+        "6848": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6848"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
+        "Dezena": 8,
         "Grupo": [
           "🐘",
-          "🐊"
+          "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7207, 7208, 7217, 7218, 7247, 7248, 7257, 7258, 7267, 7268, 7277, 7278, 7287, 7288, 7297, 7298, 7607, 7608, 7617, 7618, 7647, 7648, 7657, 7658, 7667, 7668, 7677, 7678, 7687, 7688, 7697, 7698, 7707, 7708, 7717, 7718, 7747, 7748, 7757, 7758, 7767, 7768, 7777, 7778, 7787, 7788, 7797, 7798"
+      "resumo": "Palpites dados para esta extração: 2640, 2643, 2644, 2648, 2840, 2843, 2844, 2848, 6640, 6643, 6644, 6648, 6840, 6843, 6844, 6848"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
