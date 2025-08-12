@@ -546,25 +546,14 @@
           "Bicho": "Galo"
         }
       ],
-      "frases": {
-        "3939": [
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 3939",
-          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 3939"
-        ],
-        "3999": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 3999"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐇",
-          "🐄"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3933, 3936, 3939, 3953, 3956, 3959, 3973, 3976, 3979, 3993, 3996, 3999"
+      "resumo": "Palpites dados para esta extração: 3973, 3976"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -635,29 +624,14 @@
           "Bicho": "Elefante"
         }
       ],
-      "frases": {
-        "3939": [
-          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 3939",
-          "COELHO 🐇 no segundo prêmio!<br>com o palpite 3939"
-        ],
-        "3979": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 3979"
-        ],
-        "3999": [
-          "VACA 🐄 no nono prêmio!<br>com o palpite 3999"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐇",
-          "🦃",
-          "🐄"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3933, 3936, 3939, 3953, 3956, 3959, 3973, 3976, 3979, 3993, 3996, 3999"
+      "resumo": "Palpites dados para esta extração: 3973, 3976"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -728,36 +702,14 @@
           "Bicho": "Águia"
         }
       ],
-      "frases": {
-        "3933": [
-          "COBRA 🐍 no nono prêmio!<br>com o palpite 3933"
-        ],
-        "3936": [
-          "COBRA 🐍 no nono prêmio!<br>com o palpite 3936"
-        ],
-        "3953": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3953",
-          "GATO 🐈 no terceiro prêmio!<br>com o palpite 3953"
-        ],
-        "3956": [
-          "GATO 🐈 no terceiro prêmio!<br>com o palpite 3956"
-        ],
-        "3959": [
-          "Dezena no sétimo prêmio!<br>com o palpite 3959",
-          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 3959"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐈",
-          "🐊",
-          "🐍"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3933, 3936, 3939, 3953, 3956, 3959, 3973, 3976, 3979, 3993, 3996, 3999"
+      "resumo": "Palpites dados para esta extração: 3973, 3976"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -828,51 +780,14 @@
           "Bicho": "Coelho"
         }
       ],
-      "frases": {
-        "3933": [
-          "COBRA 🐍 no nono prêmio!<br>com o palpite 3933"
-        ],
-        "3936": [
-          "Dezena no nono prêmio!<br>com o palpite 3936",
-          "COBRA 🐍 no nono prêmio!<br>com o palpite 3936"
-        ],
-        "3939": [
-          "COELHO 🐇 no décimo prêmio!<br>com o palpite 3939"
-        ],
-        "3953": [
-          "Milhar e Centena no terceiro prêmio!<br>com o palpite 3953",
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3953",
-          "Dezena no terceiro prêmio!<br>com o palpite 3953",
-          "GATO 🐈 no terceiro prêmio!<br>com o palpite 3953"
-        ],
-        "3956": [
-          "GATO 🐈 no terceiro prêmio!<br>com o palpite 3956"
-        ],
-        "3993": [
-          "VEADO 🦌 no quinto prêmio!<br>com o palpite 3993"
-        ],
-        "3996": [
-          "VEADO 🦌 no quinto prêmio!<br>com o palpite 3996"
-        ],
-        "3999": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3999",
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 3999",
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 3999"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 1,
-        "Dezena": 3,
-        "Grupo": [
-          "🐄",
-          "🐈",
-          "🦌",
-          "🐍",
-          "🐇"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3933, 3936, 3939, 3953, 3956, 3959, 3973, 3976, 3979, 3993, 3996, 3999"
+      "resumo": "Palpites dados para esta extração: 3973, 3976"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -944,22 +859,6 @@
         }
       ],
       "frases": {
-        "3933": [
-          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3933",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 3933"
-        ],
-        "3936": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3936",
-          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3936",
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 3936",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3936",
-          "Dezena no quarto prêmio!<br>com o palpite 3936",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 3936"
-        ],
-        "3959": [
-          "Dezena no segundo prêmio!<br>com o palpite 3959",
-          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 3959"
-        ],
         "3973": [
           "Dezena no sexto prêmio!<br>com o palpite 3973",
           "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 3973",
@@ -971,39 +870,17 @@
           "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 3976",
           "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 3976",
           "PAVÃO 🦚 no décimo prêmio!<br>com o palpite 3976"
-        ],
-        "3979": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3979",
-          "Dezena no terceiro prêmio!<br>com o palpite 3979",
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3979"
-        ],
-        "3993": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 3993"
-        ],
-        "3996": [
-          "Centena e Dezena no nono prêmio!<br>com o palpite 3996",
-          "Dezena no nono prêmio!<br>com o palpite 3996",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 3996"
-        ],
-        "3999": [
-          "Dezena no sétimo prêmio!<br>com o palpite 3999",
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 3999"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 3,
-        "Dezena": 8,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 2,
         "Grupo": [
-          "🐍",
-          "🐊",
-          "🦃",
-          "🦚",
-          "🐄",
-          "🦌"
+          "🦚"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3933, 3936, 3939, 3953, 3956, 3959, 3973, 3976, 3979, 3993, 3996, 3999"
+      "resumo": "Palpites dados para esta extração: 3973, 3976"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
@@ -1075,13 +952,6 @@
         }
       ],
       "frases": {
-        "3953": [
-          "Dezena no segundo prêmio!<br>com o palpite 3953",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 3953"
-        ],
-        "3956": [
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 3956"
-        ],
         "3973": [
           "PAVÃO 🦚 no décimo prêmio!<br>com o palpite 3973"
         ],
@@ -1092,13 +962,12 @@
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐈",
           "🦚"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3933, 3936, 3939, 3953, 3956, 3959, 3973, 3976, 3979, 3993, 3996, 3999"
+      "resumo": "Palpites dados para esta extração: 3973, 3976"
     }
   }
 }
