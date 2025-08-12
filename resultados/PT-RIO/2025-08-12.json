@@ -52,25 +52,24 @@
         }
       ],
       "frases": {
-        "6211": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 6211",
-          "Dezena no quarto prêmio!<br>com o palpite 6211",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 6211"
-        ],
         "6911": [
           "Dezena no quarto prêmio!<br>com o palpite 6911",
           "BURRO 🐴 no quarto prêmio!<br>com o palpite 6911"
+        ],
+        "6919": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 6919"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 2,
+        "Centena": 0,
+        "Dezena": 1,
         "Grupo": [
+          "🐕",
           "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6211, 6911"
+      "resumo": "Palpites dados para esta extração: 6911, 6919, 6941, 6949"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -124,11 +123,11 @@
         }
       ],
       "frases": {
-        "6211": [
-          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 6211"
-        ],
         "6911": [
           "BURRO 🐴 no sétimo prêmio!<br>com o palpite 6911"
+        ],
+        "6941": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6941"
         ]
       },
       "acertos": {
@@ -136,10 +135,11 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
+          "🐎",
           "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6211, 6911"
+      "resumo": "Palpites dados para esta extração: 6911, 6919, 6941, 6949"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -236,16 +236,6 @@
         }
       ],
       "frases": {
-        "6211": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 6211",
-          "Dezena no quarto prêmio!<br>com o palpite 6211",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 6211",
-          "Dezena no oitavo prêmio!<br>com o palpite 6211",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 6211",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 6211",
-          "Dezena no décimo prêmio!<br>com o palpite 6211",
-          "BURRO 🐴 no décimo prêmio!<br>com o palpite 6211"
-        ],
         "6911": [
           "Dezena no quarto prêmio!<br>com o palpite 6911",
           "BURRO 🐴 no quarto prêmio!<br>com o palpite 6911",
@@ -254,17 +244,21 @@
           "BURRO 🐴 no oitavo prêmio!<br>com o palpite 6911",
           "Dezena no décimo prêmio!<br>com o palpite 6911",
           "BURRO 🐴 no décimo prêmio!<br>com o palpite 6911"
+        ],
+        "6919": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 6919"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 3,
-        "Dezena": 6,
+        "Centena": 1,
+        "Dezena": 3,
         "Grupo": [
+          "🐕",
           "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6211, 6911"
+      "resumo": "Palpites dados para esta extração: 6911, 6919, 6941, 6949"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -335,14 +329,24 @@
           "Bicho": "Águia"
         }
       ],
-      "frases": {},
+      "frases": {
+        "6941": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6941",
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 6941",
+          "Dezena no sétimo prêmio!<br>com o palpite 6941",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6941",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6941"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 1,
+        "Dezena": 1,
+        "Grupo": [
+          "🐎"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6211, 6911"
+      "resumo": "Palpites dados para esta extração: 6911, 6919, 6941, 6949"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
