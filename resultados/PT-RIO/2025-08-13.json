@@ -70,28 +70,32 @@
         }
       ],
       "frases": {
+        "1909": [
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1909",
+          "Milhar e Centena no sétimo prêmio!<br>com o palpite 1909",
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 1909",
+          "Dezena no sétimo prêmio!<br>com o palpite 1909",
+          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 1909"
+        ],
+        "1929": [
+          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 1929"
+        ],
         "1969": [
           "Dezena no quinto prêmio!<br>com o palpite 1969",
           "PORCO 🐖 no quinto prêmio!<br>com o palpite 1969"
-        ],
-        "4969": [
-          "Dezena no quinto prêmio!<br>com o palpite 4969",
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4969"
-        ],
-        "0969": [
-          "Dezena no quinto prêmio!<br>com o palpite 0969",
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 0969"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 3,
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
-          "🐖"
+          "🐴",
+          "🐖",
+          "🐪"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
+      "resumo": "Palpites dados para esta extração: 1909, 1929, 1969"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
