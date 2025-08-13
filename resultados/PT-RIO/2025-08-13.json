@@ -262,63 +262,63 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "9010",
-          "Grupo": "03",
-          "Bicho": "Burro"
+          "Milhar": "9193",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "6667",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "5847",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "6418",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "2002",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "9656",
-          "Grupo": "14",
-          "Bicho": "Gato"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "0684",
-          "Grupo": "21",
-          "Bicho": "Touro"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "1641",
+          "Milhar": "3142",
           "Grupo": "11",
           "Bicho": "Cavalo"
         },
         {
+          "Prêmio": "3º",
+          "Milhar": "9620",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "5299",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2014",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "9395",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1162",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "9429",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
           "Prêmio": "9º",
-          "Milhar": "0778",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "3209",
+          "Grupo": "03",
+          "Bicho": "Burro"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "2703",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "2463",
+          "Grupo": "16",
+          "Bicho": "Leão"
         }
       ],
       "frases": {},
@@ -328,7 +328,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
+      "resumo": "Palpites dados para esta extração: 6258, 8258"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -500,6 +500,34 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
+    },
+    "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   },
   "1-5": {
@@ -693,6 +721,66 @@
       "resumo": "Palpites dados para esta extração: 6258, 8258"
     },
     "PT-RIO, RJ, 16:00, PTV": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9193",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3142",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9620",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "5299",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2014",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "9268",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "884",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 6258, 8258"
+    },
+    "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
