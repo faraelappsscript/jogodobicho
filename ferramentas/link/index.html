@@ -1,1 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link de Promotor Integrado - 77x Brasil</title>
+    
+    <!-- Carregamento de dependências -->
+    <link rel="preload" href="/assets/fonts/inter.css" as="style">
+    <link rel="stylesheet" href="/assets/fonts/inter.css">
+    <link rel="preload" href="/assets/fonts/jetbrains-mono.css" as="style">
+    <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
+    <link rel="preload" href="/theme.css" as="style">
+    <link rel="stylesheet" href="/theme.css">
+    
+    <!-- ESTILOS PERSONALIZADOS -->
+    <style>
+        /* Estilos do Body e Container Principal */
+        body {
+            background-color: var(--bg-primary);
+            background-image: 
+                radial-gradient(circle at 15% 25%, rgba(59, 130, 246, 0.1), transparent 40%),
+                radial-gradient(circle at 85% 75%, rgba(139, 92, 246, 0.1), transparent 40%);
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            padding: var(--spacing-md);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: var(--spacing-xl);
+            padding-top: var(--spacing-lg);
+        }
+
+        /* Logo */
+        .logo-container { 
+            margin-bottom: var(--spacing-lg); 
+        }
+        .logo { 
+            max-width: 150px; 
+            width: 50vw; 
+            height: auto; 
+            object-fit: contain; 
+        }
+        
+        /* Título principal */
+        .main-title {
+            font-size: clamp(2.5rem, 6vw, 3.5rem);
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: var(--spacing-lg);
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            background: var(--gradient-accent);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: var(--text-primary);
+        }
+
+        /* Conteúdo principal */
+        .content-section {
+            width: 100%;
+            max-width: 700px;
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .content-card {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            margin-bottom: var(--spacing-xl);
+            border: 1px solid var(--border-color);
+            transition: all var(--transition-normal);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .content-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-primary);
+            opacity: 0.8;
+        }
+
+        .intro-text {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--spacing-xl);
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+        }
+
+        .section-subtitle {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: var(--spacing-lg);
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            position: relative;
+        }
+
+        .section-subtitle::after {
+            content: "";
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: var(--gradient-primary);
+            border-radius: 2px;
+        }
+
+        .explanation-text {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--spacing-xl);
+            font-family: 'Inter', sans-serif;
+            text-align: left;
+        }
+
+        /* Destaque para pontos importantes */
+        .highlight-box {
+            background: var(--bg-card);
+            border-left: 4px solid var(--accent-primary);
+            padding: var(--spacing-lg);
+            margin: var(--spacing-lg) 0;
+            border-radius: var(--radius-md);
+            position: relative;
+        }
+
+        .highlight-box::before {
+            content: "💡";
+            position: absolute;
+            top: var(--spacing-md);
+            left: var(--spacing-md);
+            font-size: 1.5rem;
+        }
+
+        .highlight-text {
+            font-size: 1rem;
+            color: var(--text-primary);
+            font-weight: 500;
+            margin-left: var(--spacing-xl);
+            line-height: 1.6;
+        }
+
+        /* Botão principal */
+        .main-button {
+            padding: var(--spacing-lg) var(--spacing-xl);
+            border-radius: var(--radius-md);
+            background: var(--gradient-accent);
+            color: white;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            display: block;
+            border: none;
+            box-shadow: var(--shadow-lg), var(--shadow-glow);
+            transition: all var(--transition-normal);
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            margin: var(--spacing-xl) auto;
+            background-size: 200% auto;
+            animation: gradient-slide 5s linear infinite;
+        }
+
+        @keyframes gradient-slide {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .main-button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left var(--transition-slow);
+        }
+
+        .main-button:hover {
+            color: white;
+            text-decoration: none;
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-xl), var(--shadow-glow-hover);
+        }
+
+        .main-button:hover::before {
+            left: 100%;
+        }
+
+        /* Ícones decorativos */
+        .icon-large {
+            font-size: 3rem;
+            margin-bottom: var(--spacing-md);
+            display: block;
+            text-align: center;
+        }
+
+        /* Lista de passos */
+        .steps-list {
+            list-style: none;
+            padding: 0;
+            margin: var(--spacing-lg) 0;
+        }
+
+        .step-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: var(--spacing-md);
+            padding: var(--spacing-md);
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            border-left: 3px solid var(--accent-primary);
+            transition: all var(--transition-fast);
+        }
+
+        .step-item:hover {
+            background: var(--bg-card-hover);
+            transform: translateX(5px);
+        }
+
+        .step-number {
+            background: var(--gradient-primary);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-right: var(--spacing-md);
+            flex-shrink: 0;
+        }
+
+        .step-text {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 767px) {
+            .logo { 
+                max-width: 120px; 
+            }
+            
+            .main-title { 
+                font-size: clamp(2rem, 5vw, 2.5rem); 
+            }
+            
+            .section-subtitle {
+                font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+            }
+            
+            .intro-text, .explanation-text {
+                font-size: 0.95rem;
+            }
+            
+            .main-button {
+                font-size: 1rem;
+                padding: var(--spacing-md) var(--spacing-lg);
+            }
+            
+            .content-card {
+                padding: var(--spacing-lg);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: var(--spacing-sm);
+            }
+            
+            .content-card {
+                padding: var(--spacing-md);
+            }
+            
+            .intro-text, .explanation-text {
+                font-size: 0.9rem;
+            }
+
+            .highlight-text {
+                font-size: 0.9rem;
+                margin-left: var(--spacing-lg);
+            }
+        }
+
+        /* Animações */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .content-card {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .main-button {
+            animation: fadeInUp 0.8s ease-out;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="breadcrumb-nav" id="breadcrumbNav">
+      <!-- O breadcrumb será gerado dinamicamente pelo JavaScript -->
+    </nav>
+  
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo-container">
+                <img src="/assets/logo.png" alt="77x Brasil" class="logo">
+            </div>
+            <h1 class="main-title">Link de Promotor Integrado ao Site</h1>
+        </div>
+
+        <!-- Conteúdo Principal -->
+        <div class="content-section">
+            <!-- Introdução -->
+            <div class="content-card">
+                <div class="icon-large">🔗</div>
+                <p class="intro-text">
+                    Com essa ferramenta, você integra o seu link de promotor ao nosso site e compartilha os resultados, palpites e outras páginas do nosso site nas redes sociais e grupos do WhatsApp já com o seu link de promotor integrado automaticamente no conteúdo compartilhado.
+                </p>
+
+                <div class="highlight-box">
+                    <p class="highlight-text">
+                        <strong>Divulgação Viral Automática:</strong> Quando seus clientes compartilham conteúdo do site, eles automaticamente espalham seu link de promotor, criando um efeito multiplicador exponencial!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Como Funciona -->
+            <div class="content-card">
+                <h2 class="section-subtitle">Como Funciona?</h2>
+                
+                <p class="explanation-text">
+                    É muito simples! Siga estes passos para ativar sua divulgação automática:
+                </p>
+
+                <ol class="steps-list">
+                    <li class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-text">
+                            Clique no botão <strong>"Integrar Meu Link"</strong> abaixo
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-text">
+                            Cole o seu link de promotor no campo indicado
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-text">
+                            Clique em <strong>"Integrar Link"</strong> para ativar
+                        </div>
+                    </li>
+                    <li class="step-item">
+                        <div class="step-number">4</div>
+                        <div class="step-text">
+                            Pronto! Agora compartilhe qualquer conteúdo do site usando o botão <strong>"Compartilhar"</strong>
+                        </div>
+                    </li>
+                </ol>
+
+                <p class="explanation-text">
+                    <strong>O resultado:</strong> Seu código de promotor estará automaticamente embutido em todos os links compartilhados. Quando alguém clicar no link, verá banners que direcionam para o seu link de promotor. E se essa pessoa também compartilhar o conteúdo, estará espalhando seu código de forma viral!
+                </p>
+
+                <div class="highlight-box">
+                    <p class="highlight-text">
+                        <strong>Estratégia Viral:</strong> Funciona como um efeito "bola de neve" - sua divulgação cresce exponencialmente através dos próprios clientes, de forma orgânica e permanente.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botão Principal -->
+        <button class="main-button" onclick="integrarLink()">
+            🚀 Integrar Meu Link
+        </button>
+    </div>
+
+    <!-- Script do site -->
+    <script defer src="/assets/js/breadcrumb.js"></script>
+    
+    <!-- Script personalizado para esta página -->
+    <script>
+        // Capturar parâmetro de URL se necessário
+        document.addEventListener('DOMContentLoaded', function() {
+            // Função do script.js para capturar parâmetros
+            if (typeof captureAndStoreUrlParameter === 'function') {
+                captureAndStoreUrlParameter();
+            }
+        });
+
+        // Função para integrar o link do promotor
+        function integrarLink() {
+            // Aqui você pode implementar a lógica para abrir um modal ou redirecionar
+            // para a página de integração do link
+            
+            // Exemplo de implementação com prompt (pode ser substituído por um modal)
+            const linkPromotor = prompt('Cole aqui o seu link de promotor:');
+            
+            if (linkPromotor && linkPromotor.trim() !== '') {
+                // Aqui você salvaria o link (localStorage, envio para servidor, etc.)
+                localStorage.setItem('linkPromotor', linkPromotor.trim());
+                
+                // Feedback para o usuário
+                if (typeof showToast === 'function') {
+                    showToast('Link de promotor integrado com sucesso!');
+                } else {
+                    alert('Link de promotor integrado com sucesso!');
+                }
+                
+                console.log('Link do promotor integrado:', linkPromotor);
+            } else if (linkPromotor !== null) {
+                // Usuário clicou OK mas não inseriu nada
+                if (typeof showToast === 'function') {
+                    showToast('Por favor, insira um link válido.');
+                } else {
+                    alert('Por favor, insira um link válido.');
+                }
+            }
+            // Se linkPromotor for null, o usuário cancelou - não fazer nada
+        }
+
+        // Adicionar efeitos de hover suaves nos cards
+        const contentCards = document.querySelectorAll('.content-card');
+        contentCards.forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-2px)';
+                this.style.boxShadow = 'var(--shadow-xl)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+                this.style.boxShadow = 'var(--shadow-lg)';
+            });
+        });
+    </script>
+
+        <footer class="site-footer">
+    <div class="footer-content">
+      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
+      <p class="site-domain" id="siteDomain"></p>
+      <p class="copyright-text" id="copyrightText"></p>
+    </div>
+  </footer>
+  <script defer src="/resultados/script.js"></script>
+</body>
+</html>
 
