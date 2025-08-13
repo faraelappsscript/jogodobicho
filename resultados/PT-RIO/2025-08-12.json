@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 2844"
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,20 +111,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "2844": [
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 2844"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐎"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 2844"
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -177,14 +171,29 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1969": [
+          "Dezena no sétimo prêmio!<br>com o palpite 1969",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 1969"
+        ],
+        "4969": [
+          "Dezena no sétimo prêmio!<br>com o palpite 4969",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 4969"
+        ],
+        "0969": [
+          "Dezena no sétimo prêmio!<br>com o palpite 0969",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 0969"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 3,
+        "Grupo": [
+          "🐖"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 2844"
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -238,20 +247,28 @@
         }
       ],
       "frases": {
-        "2844": [
-          "Dezena no sexto prêmio!<br>com o palpite 2844",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 2844"
+        "1969": [
+          "Dezena no sétimo prêmio!<br>com o palpite 1969",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 1969"
+        ],
+        "4969": [
+          "Dezena no sétimo prêmio!<br>com o palpite 4969",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 4969"
+        ],
+        "0969": [
+          "Dezena no sétimo prêmio!<br>com o palpite 0969",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 0969"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 3,
         "Grupo": [
-          "🐎"
+          "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2844"
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -311,7 +328,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 2844"
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -364,14 +381,29 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1969": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1969",
+          "PORCO 🐖 no primeiro prêmio!<br>com o palpite 1969"
+        ],
+        "4969": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4969",
+          "PORCO 🐖 no primeiro prêmio!<br>com o palpite 4969"
+        ],
+        "0969": [
+          "Dezena no primeiro prêmio!<br>com o palpite 0969",
+          "PORCO 🐖 no primeiro prêmio!<br>com o palpite 0969"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 3,
+        "Grupo": [
+          "🐖"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 2844"
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
     }
   },
   "1-10": {
