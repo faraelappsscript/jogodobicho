@@ -70,32 +70,36 @@
         }
       ],
       "frases": {
-        "1909": [
-          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1909",
-          "Milhar e Centena no sétimo prêmio!<br>com o palpite 1909",
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 1909",
-          "Dezena no sétimo prêmio!<br>com o palpite 1909",
-          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 1909"
+        "1904": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 1904",
+          "Dezena no segundo prêmio!<br>com o palpite 1904",
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 1904"
         ],
-        "1929": [
-          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 1929"
+        "1924": [
+          "Dezena no oitavo prêmio!<br>com o palpite 1924",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 1924"
         ],
-        "1969": [
-          "Dezena no quinto prêmio!<br>com o palpite 1969",
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 1969"
+        "5904": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 5904",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 5904",
+          "Dezena no segundo prêmio!<br>com o palpite 5904",
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 5904"
+        ],
+        "5924": [
+          "Dezena no oitavo prêmio!<br>com o palpite 5924",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 5924"
         ]
       },
       "acertos": {
         "Milhar": 1,
-        "Centena": 1,
-        "Dezena": 2,
+        "Centena": 2,
+        "Dezena": 4,
         "Grupo": [
-          "🐴",
-          "🐖",
-          "🐪"
+          "🪶",
+          "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1909, 1929, 1969"
+      "resumo": "Palpites dados para esta extração: 1904, 1924, 5904, 5924"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
