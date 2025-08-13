@@ -652,7 +652,6 @@ Clique aqui e saiba mais!</span>
     <!-- Scripts -->
     <script defer src="/assets/js/flatpickr.js"></script>
     <script defer src="/assets/js/flatpickr.pt.js"></script>
-    <script src="/resultados/script.js"></script>
     <script>
         function getStoredProductCode( ) { return localStorage.getItem("productCode"); }
         function captureAndStoreUrlParameter() { const urlParams = new URLSearchParams(window.location.search); const codeParam = urlParams.get('pr'); if (codeParam) { localStorage.setItem("productCode", codeParam); } }
@@ -721,13 +720,14 @@ Clique aqui e saiba mais!</span>
     </script>
 
 
-      <footer class="site-footer">
+  <footer class="site-footer">
     <div class="footer-content">
       <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
       <p class="site-domain" id="siteDomain"></p>
       <p class="copyright-text" id="copyrightText"></p>
     </div>
   </footer>
+<script src="/resultados/script.js"></script>
 </body>
 </html>
 
