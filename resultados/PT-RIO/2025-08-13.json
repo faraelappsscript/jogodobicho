@@ -586,11 +586,14 @@
         }
       ],
       "frases": {
+        "9726": [
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 9726"
+        ],
         "9727": [
           "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 9727"
         ],
-        "9927": [
-          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 9927"
+        "9728": [
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 9728"
         ]
       },
       "acertos": {
@@ -601,7 +604,7 @@
           "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9724, 9727, 9729, 9924, 9927, 9929"
+      "resumo": "Palpites dados para esta extração: 9722, 9726, 9727, 9728, 9729"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -655,22 +658,20 @@
         }
       ],
       "frases": {
-        "9724": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9724"
-        ],
-        "9924": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9924"
+        "9722": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9722",
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9722"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
           "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9724, 9727, 9729, 9924, 9927, 9929"
+      "resumo": "Palpites dados para esta extração: 9722, 9726, 9727, 9728, 9729"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
