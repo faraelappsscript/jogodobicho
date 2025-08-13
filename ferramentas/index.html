@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentas de Divulgação para Promotores - 77x Brasil</title>
+    
+    <!-- Carregamento de dependências -->
+    <link rel="preload" href="/assets/fonts/inter.css" as="style">
+    <link rel="stylesheet" href="/assets/fonts/inter.css">
+    <link rel="preload" href="/assets/fonts/jetbrains-mono.css" as="style">
+    <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
+    <link rel="preload" href="/theme.css" as="style">
+    <link rel="stylesheet" href="/theme.css">
+    
+    <!-- ESTILOS PERSONALIZADOS -->
+    <style>
+        /* Estilos do Body e Container Principal */
+        body {
+            background-color: var(--bg-primary);
+            background-image: 
+                radial-gradient(circle at 15% 25%, rgba(59, 130, 246, 0.1), transparent 40%),
+                radial-gradient(circle at 85% 75%, rgba(139, 92, 246, 0.1), transparent 40%);
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            padding: var(--spacing-md);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: var(--spacing-xl);
+            padding-top: var(--spacing-lg);
+        }
+
+        /* Logo */
+        .logo-container { 
+            margin-bottom: var(--spacing-lg); 
+        }
+        .logo { 
+            max-width: 150px; 
+            width: 50vw; 
+            height: auto; 
+            object-fit: contain; 
+        }
+        
+        /* Título principal */
+        .main-title {
+            font-size: clamp(2.5rem, 6vw, 3.5rem);
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: var(--spacing-md);
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            background: var(--gradient-accent);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: var(--text-primary);
+        }
+
+        /* Seções de ferramentas */
+        .tools-section {
+            width: 100%;
+            max-width: 700px;
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .tool-card {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            margin-bottom: var(--spacing-xl);
+            border: 1px solid var(--border-color);
+            transition: all var(--transition-normal);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tool-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-primary);
+            opacity: 0.8;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--border-accent);
+        }
+
+        .tool-subtitle {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: var(--spacing-md);
+            font-family: 'Inter', sans-serif;
+        }
+
+        .tool-description {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--spacing-xl);
+            font-family: 'Inter', sans-serif;
+            text-align: left;
+        }
+
+        /* Botões das ferramentas */
+        .tool-button {
+            padding: var(--spacing-md) var(--spacing-xl);
+            border-radius: var(--radius-md);
+            background: var(--gradient-primary);
+            color: white;
+            width: 100%;
+            text-align: center;
+            display: block;
+            border: none;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-normal);
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tool-button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left var(--transition-slow);
+        }
+
+        .tool-button:hover {
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-xl), var(--shadow-glow);
+        }
+
+        .tool-button:hover::before {
+            left: 100%;
+        }
+
+        /* Botão secundário para tutoriais */
+        .tool-button.secondary {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+        }
+
+        .tool-button.secondary:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--border-accent);
+            color: var(--text-primary);
+        }
+
+        /* Ícones das ferramentas */
+        .tool-icon {
+            font-size: 2.5rem;
+            margin-bottom: var(--spacing-md);
+            display: block;
+        }
+
+        /* Responsividade */
+        @media (max-width: 767px) {
+            .logo { 
+                max-width: 120px; 
+            }
+            
+            .main-title { 
+                font-size: clamp(2rem, 5vw, 2.5rem); 
+            }
+            
+            .tool-subtitle {
+                font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+            }
+            
+            .tool-description {
+                font-size: 0.95rem;
+            }
+            
+            .tool-button {
+                font-size: 1rem;
+                padding: var(--spacing-md) var(--spacing-lg);
+            }
+            
+            .tool-card {
+                padding: var(--spacing-lg);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: var(--spacing-sm);
+            }
+            
+            .tool-card {
+                padding: var(--spacing-md);
+            }
+            
+            .tool-description {
+                font-size: 0.9rem;
+            }
+        }
+
+        /* Animações */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .tool-card {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .tool-card:nth-child(1) { animation-delay: 0.1s; }
+        .tool-card:nth-child(2) { animation-delay: 0.2s; }
+        .tool-card:nth-child(3) { animation-delay: 0.3s; }
+        .tool-card:nth-child(4) { animation-delay: 0.4s; }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo-container">
+                <img src="/assets/logo.png" alt="77x Brasil" class="logo">
+            </div>
+            <h1 class="main-title">Ferramentas de Divulgação para Promotores</h1>
+        </div>
+
+        <!-- Seção de Ferramentas -->
+        <div class="tools-section">
+            <!-- Landing Page Personalizada -->
+            <div class="tool-card">
+                <div class="tool-icon">🎯</div>
+                <h2 class="tool-subtitle">Página Personalizada [Landing Page]</h2>
+                <p class="tool-description">
+                    Tenha uma página personalizada de alta conversão de visitantes em clientes, com as informações sobre a banca, suas informações de contato e o seu link de promotor, com rastreador de visitantes. Todos os banners e links do nosso site direcionam os visitantes sempre para o seu link de promotor. Além disso, ao compartilhar o link da sua página personalizada nas redes sociais, um banner profissional aparece junto ao link da sua página, automaticamente.
+                </p>
+                <a href="/ferramentas/pagina-personalizada/" class="tool-button">
+                    Quero Criar Minha Página
+                </a>
+            </div>
+
+            <!-- Link Personalizado -->
+            <div class="tool-card">
+                <div class="tool-icon">🚀</div>
+                <h2 class="tool-subtitle">Link Personalizado [Divulgação Exponencial]</h2>
+                <p class="tool-description">
+                    Divulgue os resultados do Jogo do Bicho de nosso site nos grupos do WhatsApp ou noutras redes sociais com um único clique, que já vem com o seu link de promotor atrelado automaticamente na publicação, redirecionando o visitante para o nosso site que mostrará banners, links e botões que direcionam o visitante para o seu link de promotor automaticamente! E se o visitante também compartilhar os resultados, palpites ou outros conteúdos do nosso site nos grupos do WhatsApp ou noutras redes sociais, o seu link de promotor será recompartilhado de forma exponencial e viral, ou seja, igual um efeito 'bola de neve', cuja divulgação é permanente e feita pelos seus próprios clientes e visitantes que acessaram o link na sua publicação inicial.
+                </p>
+                <a href="/ferramentas/link/" class="tool-button">
+                    Criar Meu Link Personalizado
+                </a>
+            </div>
+
+            <!-- Gerador de Imagens -->
+            <div class="tool-card">
+                <div class="tool-icon">🖼️</div>
+                <h2 class="tool-subtitle">Gerador de Imagens de Divulgação</h2>
+                <p class="tool-description">
+                    Crie imagens profissionais de alta qualidade para divulgar nas redes sociais com apenas um clique! Gere automaticamente banners, cards e posts otimizados para diferentes plataformas, sempre com o seu link de promotor integrado para maximizar suas conversões.
+                </p>
+                <a href="/ferramentas/imagens/" class="tool-button">
+                    Criar Imagens de Divulgação
+                </a>
+            </div>
+
+            <!-- Tutoriais e Vídeos -->
+            <div class="tool-card">
+                <div class="tool-icon">📚</div>
+                <h2 class="tool-subtitle">Tutoriais e Vídeos de Divulgação</h2>
+                <p class="tool-description">
+                    Acesse nossa biblioteca completa de tutoriais em vídeo e guias passo a passo para maximizar seus resultados como promotor. Aprenda as melhores estratégias de divulgação, técnicas de conversão e como utilizar todas as ferramentas disponíveis de forma eficiente.
+                </p>
+                <a href="/ferramentas/videos/" class="tool-button secondary">
+                    Acessar Tutoriais
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script do site -->
+    <script src="/script.js"></script>
+    
+    <!-- Script personalizado para esta página -->
+    <script>
+        // Capturar parâmetro de URL se necessário
+        document.addEventListener('DOMContentLoaded', function() {
+            // Função do script.js para capturar parâmetros
+            if (typeof captureAndStoreUrlParameter === 'function') {
+                captureAndStoreUrlParameter();
+            }
+            
+            // Adicionar efeitos de hover suaves nos cards
+            const toolCards = document.querySelectorAll('.tool-card');
+            toolCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-4px)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
