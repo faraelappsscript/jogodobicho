@@ -1,0 +1,508 @@
+{
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "6917",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9699",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6713",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9211",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3188",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "6969",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "9672",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1911",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "7931",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "2211",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        }
+      ],
+      "frases": {
+        "1969": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 1969",
+          "Dezena no sexto prêmio!<br>com o palpite 1969",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 1969",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 1969"
+        ],
+        "4969": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 4969",
+          "Dezena no sexto prêmio!<br>com o palpite 4969",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 4969",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 4969"
+        ],
+        "0969": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 0969",
+          "Dezena no sexto prêmio!<br>com o palpite 0969",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 0969",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 0969"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 3,
+        "Dezena": 3,
+        "Grupo": [
+          "🐖"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "6866",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2929",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9446",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "6143",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "7679",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "6296",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "8941",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6244",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "6963",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "1507",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
+    },
+    "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7767",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4232",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "7198",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8845",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4357",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7478",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "7218",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6394",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "7285",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "0774",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
+    },
+    "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9010",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6667",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5847",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "6418",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2002",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "9656",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "0684",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1641",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "0778",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "2703",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
+    },
+    "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2145",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6883",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "2874",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3440",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5995",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "2623",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1884",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "4874",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "5340",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "6058",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "0469",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "8939",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4625",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "1609",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3766",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "0841",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "4966",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6320",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "9959",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "1494",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        }
+      ],
+      "frases": {
+        "1969": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1969",
+          "PORCO 🐖 no primeiro prêmio!<br>com o palpite 1969"
+        ],
+        "4969": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4969",
+          "PORCO 🐖 no primeiro prêmio!<br>com o palpite 4969"
+        ],
+        "0969": [
+          "Dezena no primeiro prêmio!<br>com o palpite 0969",
+          "PORCO 🐖 no primeiro prêmio!<br>com o palpite 0969"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 3,
+        "Grupo": [
+          "🐖"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0969, 1969, 4969"
+    }
+  }
+}
