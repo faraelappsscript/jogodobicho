@@ -280,118 +280,6 @@
             object-fit: contain;
         }
 
-        /* Modal de visualização da imagem */
-        .image-modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            backdrop-filter: blur(5px);
-        }
-
-        .image-modal-content {
-            position: relative;
-            background-color: var(--bg-card);
-            margin: 2% auto;
-            padding: 0;
-            border-radius: var(--radius-lg);
-            width: 90%;
-            max-width: 800px;
-            max-height: 90vh;
-            box-shadow: var(--shadow-2xl);
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .image-modal-header {
-            padding: var(--spacing-lg);
-            border-bottom: 1px solid var(--border-color);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: var(--bg-secondary);
-        }
-
-        .image-modal-title {
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin: 0;
-        }
-
-        .image-modal-close {
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            color: var(--text-secondary);
-            padding: var(--spacing-xs);
-            border-radius: var(--radius-sm);
-            transition: all var(--transition-normal);
-        }
-
-        .image-modal-close:hover {
-            background-color: var(--bg-card-hover);
-            color: var(--text-primary);
-        }
-
-        .image-modal-body {
-            padding: var(--spacing-lg);
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: auto;
-        }
-
-        .image-modal-body img {
-            max-width: 100%;
-            max-height: 100%;
-            width: auto;
-            height: auto;
-            border-radius: var(--radius-md);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .image-modal-footer {
-            padding: var(--spacing-lg);
-            border-top: 1px solid var(--border-color);
-            background: var(--bg-secondary);
-            display: flex;
-            justify-content: center;
-            gap: var(--spacing-md);
-        }
-
-        .image-modal-footer .btn {
-            padding: var(--spacing-sm) var(--spacing-md);
-            border-radius: var(--radius-md);
-            background-color: var(--bg-secondary);
-            border: 1px solid var(--border-color);
-            color: var(--text-primary);
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 0.9rem;
-            white-space: nowrap;
-            transition: all var(--transition-normal);
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            min-width: 120px;
-        }
-
-        .image-modal-footer .btn:hover {
-            background-color: var(--bg-card-hover);
-            border-color: var(--border-accent);
-            transform: translateY(-1px);
-        }
-
         /* Estilos para o footer */
         .site-footer {
             background: var(--bg-secondary);
@@ -419,129 +307,37 @@
             margin: var(--spacing-xs) 0;
         }
 
-        /* Responsividade melhorada */
+        /* Responsividade */
         @media (max-width: 767px) {
             .main-title { 
-                font-size: clamp(1.8rem, 5vw, 2.2rem); 
-                margin-bottom: var(--spacing-lg);
+                font-size: clamp(2rem, 5vw, 2.5rem); 
             }
             
             .card-subtitle {
-                font-size: clamp(1.2rem, 3.5vw, 1.4rem);
-                margin-bottom: var(--spacing-lg);
+                font-size: clamp(1.25rem, 3.5vw, 1.5rem);
             }
             
             .palpites-card {
-                padding: var(--spacing-md);
-                margin-bottom: var(--spacing-lg);
+                padding: var(--spacing-lg);
             }
             
             .palpite-row {
                 flex-direction: column;
-                align-items: stretch;
-                gap: var(--spacing-md);
-                padding: var(--spacing-md);
+                align-items: flex-start;
             }
 
-            .palpite-row .select-group-btn, 
-            .palpite-row .clear-btn {
+            .palpite-row .select-group-btn, .palpite-row .clear-btn {
                 width: 100%;
-                padding: var(--spacing-md);
-                font-size: 1rem;
                 margin-bottom: var(--spacing-sm);
-            }
-
-            .palpite-row .group-info {
-                text-align: center;
-                margin: 0;
-                font-size: 1rem;
-                margin-bottom: var(--spacing-sm);
-            }
-
-            .palpite-row .input-xy-container {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: var(--spacing-sm);
-                width: 100%;
             }
 
             .palpite-row .input-xy {
-                justify-content: center;
-                padding: var(--spacing-sm);
-                background: var(--bg-secondary);
-                border-radius: var(--radius-md);
-            }
-
-            .palpite-row .input-x, 
-            .palpite-row .input-y {
-                width: 45px;
-                height: 45px;
-                font-size: 1rem;
-                font-weight: 700;
-            }
-
-            .action-buttons {
-                flex-direction: column;
-                gap: var(--spacing-md);
-                margin-top: var(--spacing-lg);
+                width: 100%;
+                justify-content: space-between;
             }
 
             .action-buttons .btn {
                 width: 100%;
-                padding: var(--spacing-lg);
-                font-size: 1rem;
-                letter-spacing: 0.3px;
-            }
-
-            /* Modal responsivo */
-            .modal-content {
-                width: 95%;
-                max-width: none;
-                margin: var(--spacing-sm);
-            }
-
-            .modal-body {
-                padding: var(--spacing-md);
-                max-height: 70vh;
-            }
-
-            .modal-group-list li {
-                padding: var(--spacing-md);
-                font-size: 0.9rem;
-                line-height: 1.4;
-            }
-
-            /* Modal de imagem responsivo */
-            .image-modal-content {
-                width: 95%;
-                max-width: none;
-                margin: var(--spacing-sm);
-                max-height: 95vh;
-            }
-
-            .image-modal-header {
-                padding: var(--spacing-sm);
-            }
-
-            .image-modal-title {
-                font-size: 1.1rem;
-            }
-
-            .image-modal-body {
-                padding: var(--spacing-md);
-            }
-
-            .image-modal-footer {
-                padding: var(--spacing-md);
-                flex-direction: row;
-                gap: var(--spacing-sm);
-            }
-
-            .image-modal-footer .btn {
-                width: 100%;
-                min-width: auto;
-                padding: var(--spacing-md);
-                font-size: 0.95rem;
             }
         }
 
@@ -550,93 +346,8 @@
                 padding: var(--spacing-sm);
             }
             
-            .header {
-                padding-top: var(--spacing-md);
-                margin-bottom: var(--spacing-lg);
-            }
-
-            .main-title {
-                font-size: clamp(1.5rem, 4.5vw, 1.8rem);
-            }
-            
             .palpites-card {
-                padding: var(--spacing-sm);
-            }
-
-            .card-subtitle {
-                font-size: clamp(1.1rem, 3vw, 1.3rem);
-                text-align: center;
-            }
-
-            .palpite-row {
-                padding: var(--spacing-sm);
-                gap: var(--spacing-sm);
-            }
-
-            .palpite-row .input-xy-container {
-                grid-template-columns: 1fr 1fr;
-                gap: var(--spacing-xs);
-            }
-
-            .palpite-row .input-x, 
-            .palpite-row .input-y {
-                width: 40px;
-                height: 40px;
-                font-size: 0.9rem;
-            }
-
-            .action-buttons {
-                gap: var(--spacing-sm);
-            }
-
-            .action-buttons .btn {
                 padding: var(--spacing-md);
-                font-size: 0.9rem;
-            }
-
-            /* Breadcrumb responsivo */
-            .breadcrumb {
-                font-size: 0.8rem;
-                gap: var(--spacing-xs);
-            }
-
-            .breadcrumb-item {
-                gap: var(--spacing-xs);
-            }
-
-            /* Footer responsivo */
-            .footer-logo {
-                max-width: 80px;
-            }
-
-            .site-domain, .copyright-text {
-                font-size: 0.8rem;
-            }
-        }
-
-        @media (max-width: 360px) {
-            .main-title {
-                font-size: 1.4rem;
-                line-height: 1.3;
-            }
-
-            .card-subtitle {
-                font-size: 1.1rem;
-            }
-
-            .palpite-row .input-xy-container {
-                grid-template-columns: 1fr;
-                gap: var(--spacing-xs);
-            }
-
-            .palpite-row .input-xy {
-                justify-content: space-between;
-                padding: var(--spacing-xs) var(--spacing-sm);
-            }
-
-            .action-buttons .btn {
-                font-size: 0.85rem;
-                padding: var(--spacing-sm) var(--spacing-md);
             }
         }
     </style>
@@ -685,18 +396,18 @@
     </div>
 
     <!-- Modal de Visualização da Imagem -->
-    <div id="imagePreviewModal" class="image-modal">
-        <div class="image-modal-content">
-            <div class="image-modal-header">
-                <h3 class="image-modal-title">Pré-visualização da Imagem</h3>
-                <span class="image-modal-close" onclick="closeModal('imagePreviewModal')">&times;</span>
+    <div id="imagePreviewModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Pré-visualização da Imagem</h3>
+                <span class="close-btn" onclick="closeModal('imagePreviewModal')">&times;</span>
             </div>
-            <div class="image-modal-body">
+            <div class="modal-body generated-image-container">
                 <img id="generatedImage" src="" alt="Imagem Gerada">
             </div>
             <div class="image-modal-footer">
-                <button class="btn" id="downloadImageBtn">Baixar Imagem</button>
-                <button class="btn" id="shareImageBtn">Compartilhar</button>
+                <button class="btn download-btn" id="downloadImageBtn">Baixar Imagem</button>
+                <button class="btn share-btn" id="shareImageBtn">Compartilhar</button>
             </div>
         </div>
     </div>
