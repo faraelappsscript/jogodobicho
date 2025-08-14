@@ -115,6 +115,14 @@
             background: var(--bg-card);
             border-radius: var(--radius-md);
             border: 1px solid var(--border-color);
+            flex-wrap: wrap;
+        }
+
+        .grupo-controls {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-xs);
+            min-width: 120px;
         }
 
         .grupo-selector {
@@ -126,8 +134,9 @@
             font-weight: 600;
             cursor: pointer;
             transition: all var(--transition-normal);
-            min-width: 120px;
             text-align: center;
+            border: none;
+            font-size: 0.875rem;
         }
 
         .grupo-selector:hover {
@@ -143,9 +152,28 @@
             padding: var(--spacing-sm) var(--spacing-md);
             border-radius: var(--radius-sm);
             font-weight: 600;
-            min-width: 120px;
             text-align: center;
             border: 1px solid var(--border-accent);
+            font-size: 0.875rem;
+        }
+
+        .btn-limpar {
+            background: var(--accent-danger);
+            color: white;
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            text-align: center;
+            border: none;
+            font-size: 0.75rem;
+        }
+
+        .btn-limpar:hover {
+            background: #dc2626;
+            transform: translateY(-1px);
         }
 
         .numeros-container {
@@ -153,6 +181,7 @@
             gap: var(--spacing-sm);
             flex-wrap: wrap;
             flex: 1;
+            align-items: center;
         }
 
         .numero-pair {
@@ -222,6 +251,25 @@
         }
 
         .btn-preencher:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-sortear {
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            background: var(--gradient-gold);
+            color: var(--bg-primary);
+            border: none;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-sortear:hover {
             transform: translateY(-2px);
             box-shadow: var(--shadow-lg);
         }
@@ -435,6 +483,7 @@
             }
             
             .btn-preencher,
+            .btn-sortear,
             .btn-visualizar {
                 width: 100%;
                 max-width: 300px;
@@ -473,7 +522,10 @@
             
             <!-- Linha 1 -->
             <div class="grupo-line" data-line="1">
-                <a href="#" class="grupo-selector" onclick="openGruposModal(1)">Selecionar</a>
+                <div class="grupo-controls">
+                    <button class="grupo-selector" onclick="openGruposModal(1)">Selecionar</button>
+                    <button class="btn-limpar" onclick="limparLinha(1)">Limpar</button>
+                </div>
                 <div class="numeros-container">
                     <div class="numero-pair">
                         <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="1" data-pos="1">
@@ -496,7 +548,10 @@
 
             <!-- Linha 2 -->
             <div class="grupo-line" data-line="2">
-                <a href="#" class="grupo-selector" onclick="openGruposModal(2)">Selecionar</a>
+                <div class="grupo-controls">
+                    <button class="grupo-selector" onclick="openGruposModal(2)">Selecionar</button>
+                    <button class="btn-limpar" onclick="limparLinha(2)">Limpar</button>
+                </div>
                 <div class="numeros-container">
                     <div class="numero-pair">
                         <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="2" data-pos="1">
@@ -519,7 +574,10 @@
 
             <!-- Linha 3 -->
             <div class="grupo-line" data-line="3">
-                <a href="#" class="grupo-selector" onclick="openGruposModal(3)">Selecionar</a>
+                <div class="grupo-controls">
+                    <button class="grupo-selector" onclick="openGruposModal(3)">Selecionar</button>
+                    <button class="btn-limpar" onclick="limparLinha(3)">Limpar</button>
+                </div>
                 <div class="numeros-container">
                     <div class="numero-pair">
                         <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="3" data-pos="1">
@@ -542,7 +600,10 @@
 
             <!-- Linha 4 -->
             <div class="grupo-line" data-line="4">
-                <a href="#" class="grupo-selector" onclick="openGruposModal(4)">Selecionar</a>
+                <div class="grupo-controls">
+                    <button class="grupo-selector" onclick="openGruposModal(4)">Selecionar</button>
+                    <button class="btn-limpar" onclick="limparLinha(4)">Limpar</button>
+                </div>
                 <div class="numeros-container">
                     <div class="numero-pair">
                         <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="4" data-pos="1">
@@ -566,6 +627,7 @@
             <!-- Botões -->
             <div class="buttons-container">
                 <button class="btn-preencher" onclick="preencherNumeros()">Preencher</button>
+                <button class="btn-sortear" onclick="sortearGrupos()">Sortear Grupos</button>
                 <button class="btn-visualizar" onclick="visualizarImagem()">Visualizar Imagem</button>
             </div>
         </div>
@@ -690,6 +752,58 @@
             });
             
             closeGruposModal();
+        }
+
+        // Função para limpar uma linha específica
+        function limparLinha(lineNumber) {
+            const grupoLine = document.querySelector(`[data-line="${lineNumber}"]`);
+            
+            // Resetar o botão seletor
+            const selector = grupoLine.querySelector('.grupo-selector, .grupo-selected');
+            selector.textContent = 'Selecionar';
+            selector.className = 'grupo-selector';
+            
+            // Limpar os campos de entrada manual
+            const inputs = grupoLine.querySelectorAll('input[data-type="manual"]');
+            inputs.forEach(input => {
+                input.value = '';
+            });
+            
+            // Resetar os números fixos
+            const numeroFixeds = grupoLine.querySelectorAll('.numero-fixed');
+            numeroFixeds.forEach(numeroFixed => {
+                numeroFixed.textContent = '--';
+            });
+        }
+
+        // Função para sortear grupos automaticamente
+        function sortearGrupos() {
+            const gruposUsados = new Set();
+            
+            for (let line = 1; line <= 4; line++) {
+                let grupoSorteado;
+                
+                // Sortear um grupo que ainda não foi usado
+                do {
+                    grupoSorteado = gruposData[Math.floor(Math.random() * gruposData.length)];
+                } while (gruposUsados.has(grupoSorteado.numero));
+                
+                gruposUsados.add(grupoSorteado.numero);
+                
+                // Aplicar o grupo sorteado à linha
+                const grupoLine = document.querySelector(`[data-line="${line}"]`);
+                const selector = grupoLine.querySelector('.grupo-selector, .grupo-selected');
+                selector.textContent = `Grupo ${grupoSorteado.numero}: ${grupoSorteado.nome}`;
+                selector.className = 'grupo-selected';
+                
+                // Atualizar os números fixos
+                grupoSorteado.numeros.forEach((numero, index) => {
+                    const numeroFixed = grupoLine.querySelector(`[data-line="${line}"][data-pos="${index + 1}"]`);
+                    if (numeroFixed) {
+                        numeroFixed.textContent = numero;
+                    }
+                });
+            }
         }
 
         // Função para preencher números automaticamente
@@ -836,173 +950,54 @@
             
             ctx.textAlign = 'center';
             ctx.font = '18px Inter';
-            drawTextWithShadow(dateStr, canvas.width / 2, 50);
+            drawTextWithShadow(dateStr.toUpperCase(), canvas.width / 2, 50);
             
             ctx.font = '16px Inter';
-            drawTextWithShadow(dayStr.toUpperCase(), canvas.width / 2, 75, '#F1D14C');
+            drawTextWithShadow(dayStr.toUpperCase(), canvas.width / 2, 75);
             
             // Título principal
-            ctx.font = 'bold 36px Inter';
-            drawTextWithShadow('PALPITES DO DIA', canvas.width / 2, 130);
+            ctx.font = 'bold 32px Inter';
+            drawTextWithShadow('PALPITES DO DIA', canvas.width / 2, 130, '#F1D14C');
             
-            // Função para carregar e processar imagens dos animais
-            let loadedImages = 0;
-            const totalImages = palpitesData.length;
-            
-            function checkAllImagesLoaded() {
-                loadedImages++;
-                if (loadedImages === totalImages) {
-                    // Adicionar logo no final
-                    const logoImg = new Image();
-                    logoImg.onload = function() {
-                        ctx.drawImage(logoImg, canvas.width / 2 - 60, canvas.height - 100, 120, 70);
-                        
-                        // Exibir imagem final
-                        showImagePreview(canvas.toDataURL());
-                    };
-                    logoImg.onerror = function() {
-                        // Se não conseguir carregar a logo, mostrar sem ela
-                        showImagePreview(canvas.toDataURL());
-                    };
-                    logoImg.src = '/assets/img/logo.webp';
-                }
-            }
-            
-            // Desenhar cada linha de palpite
-            const startY = 180;
-            const lineHeight = 120;
-            
+            // Desenhar os palpites
+            let yPosition = 200;
             palpitesData.forEach((palpite, index) => {
-                const lineY = startY + (index * lineHeight);
-                const imageX = 80;
-                const imageSize = 70;
-                const textX = 180;
-                
-                // Tentar carregar imagem do animal
-                const animalImg = new Image();
-                animalImg.onload = function() {
-                    // Desenhar imagem do animal (circular com borda)
-                    ctx.save();
-                    
-                    // Criar círculo para clipping
-                    ctx.beginPath();
-                    ctx.arc(imageX, lineY, imageSize / 2, 0, 2 * Math.PI);
-                    ctx.clip();
-                    
-                    // Desenhar imagem
-                    ctx.drawImage(animalImg, imageX - imageSize / 2, lineY - imageSize / 2, imageSize, imageSize);
-                    ctx.restore();
-                    
-                    // Desenhar borda dourada ao redor da imagem
-                    ctx.strokeStyle = '#F1D14C';
-                    ctx.lineWidth = 3;
-                    ctx.beginPath();
-                    ctx.arc(imageX, lineY, imageSize / 2 + 2, 0, 2 * Math.PI);
-                    ctx.stroke();
-                    
-                    checkAllImagesLoaded();
-                };
-                
-                animalImg.onerror = function() {
-                    // Se não conseguir carregar a imagem, desenhar um círculo com a inicial
-                    ctx.fillStyle = '#F1D14C';
-                    ctx.beginPath();
-                    ctx.arc(imageX, lineY, imageSize / 2, 0, 2 * Math.PI);
-                    ctx.fill();
-                    
-                    ctx.fillStyle = '#1e3a8a';
-                    ctx.font = 'bold 24px Inter';
-                    ctx.textAlign = 'center';
-                    ctx.fillText(palpite.nome.charAt(0), imageX, lineY + 8);
-                    
-                    checkAllImagesLoaded();
-                };
-                
-                // Nome do animal e número do grupo
-                ctx.textAlign = 'left';
+                // Nome do grupo
                 ctx.font = 'bold 24px Inter';
-                drawTextWithShadow(`${palpite.nome.toUpperCase()}`, textX, lineY - 15);
+                drawTextWithShadow(`GRUPO ${palpite.grupo.toString().padStart(2, '0')} - ${palpite.nome.toUpperCase()}`, canvas.width / 2, yPosition, '#F1D14C');
                 
-                ctx.font = 'bold 28px Inter';
-                ctx.textAlign = 'right';
-                drawTextWithShadow(`${palpite.grupo.toString().padStart(2, '0')}`, canvas.width - 50, lineY - 15);
+                // Números
+                ctx.font = 'bold 36px JetBrains Mono';
+                const numerosText = palpite.numeros.join('  ');
+                drawTextWithShadow(numerosText, canvas.width / 2, yPosition + 40);
                 
-                // Números em fundo branco
-                const numbersText = palpite.numeros.join(' ');
-                const numbersWidth = ctx.measureText(numbersText).width + 20;
-                const numbersHeight = 35;
-                const numbersX = textX;
-                const numbersY = lineY + 10;
-                
-                // Fundo branco para os números
-                ctx.fillStyle = 'white';
-                ctx.fillRect(numbersX, numbersY, numbersWidth, numbersHeight);
-                
-                // Números em preto
-                ctx.fillStyle = '#1e3a8a';
-                ctx.font = 'bold 20px JetBrains Mono';
-                ctx.textAlign = 'left';
-                ctx.fillText(numbersText, numbersX + 10, numbersY + 25);
-                
-                // Iniciar carregamento da imagem
-                animalImg.src = `/assets/img/grupos/${palpite.grupo.toString().padStart(2, '0')}.webp`;
+                yPosition += 120;
             });
             
-            // Se não há palpites, finalizar imediatamente
-            if (palpitesData.length === 0) {
-                showImagePreview(canvas.toDataURL());
-            }
+            // Logo/marca d'água
+            ctx.font = 'bold 20px Inter';
+            drawTextWithShadow('77x BRASIL', canvas.width / 2, canvas.height - 50, '#F1D14C');
+            
+            // Converter canvas para imagem e exibir
+            const imageDataUrl = canvas.toDataURL('image/png');
+            const img = document.createElement('img');
+            img.src = imageDataUrl;
+            img.className = 'generated-image';
+            img.alt = 'Palpites do Jogo do Bicho';
+            
+            modalBody.innerHTML = '';
+            modalBody.appendChild(img);
         }
 
-        // Função para exibir a imagem no modal
-        function showImagePreview(imageDataUrl) {
-            const modal = document.getElementById('imagePreviewModal');
-            const modalBody = document.getElementById('imagePreviewBody');
-            
-            modalBody.innerHTML = `<img src="${imageDataUrl}" class="generated-image" alt="Palpites do Dia">`;
-            
-            modal.style.display = 'flex';
-            document.body.classList.add('modal-open');
-        }
-
-        // Função para fechar o modal de visualização
+        // Função para fechar o modal de visualização da imagem
         function closeImagePreviewModal() {
             const modal = document.getElementById('imagePreviewModal');
             modal.style.display = 'none';
             document.body.classList.remove('modal-open');
         }
 
-        // Validação de entrada nos campos de número
-        document.addEventListener('DOMContentLoaded', function() {
-            // Capturar parâmetro de URL se necessário
-            if (typeof captureAndStoreUrlParameter === 'function') {
-                captureAndStoreUrlParameter();
-            }
-            
-            // Adicionar validação aos inputs
-            const inputs = document.querySelectorAll('.numero-input');
-            inputs.forEach(input => {
-                input.addEventListener('input', function() {
-                    // Permitir apenas números
-                    this.value = this.value.replace(/[^0-9]/g, '');
-                    
-                    // Limitar a 2 dígitos
-                    if (this.value.length > 2) {
-                        this.value = this.value.slice(0, 2);
-                    }
-                });
-                
-                input.addEventListener('blur', function() {
-                    // Preencher com zero à esquerda se necessário
-                    if (this.value.length === 1) {
-                        this.value = '0' + this.value;
-                    }
-                });
-            });
-        });
-
-        // Fechar modais ao clicar fora
-        window.addEventListener('click', function(event) {
+        // Fechar modais ao clicar fora deles
+        window.onclick = function(event) {
             const gruposModal = document.getElementById('gruposModal');
             const imageModal = document.getElementById('imagePreviewModal');
             
@@ -1012,17 +1007,18 @@
             if (event.target === imageModal) {
                 closeImagePreviewModal();
             }
+        }
+
+        // Permitir apenas números nos campos de entrada
+        document.addEventListener('input', function(e) {
+            if (e.target.classList.contains('numero-input')) {
+                e.target.value = e.target.value.replace(/[^0-9]/g, '');
+                if (e.target.value.length > 2) {
+                    e.target.value = e.target.value.slice(0, 2);
+                }
+            }
         });
     </script>
-
-    <footer class="site-footer">
-        <div class="footer-content">
-            <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
-            <p class="site-domain" id="siteDomain"></p>
-            <p class="copyright-text" id="copyrightText"></p>
-        </div>
-    </footer>
-    <script defer src="/resultados/script.js"></script>
 </body>
 </html>
 
