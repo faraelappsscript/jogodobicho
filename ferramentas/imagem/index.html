@@ -307,37 +307,124 @@
             margin: var(--spacing-xs) 0;
         }
 
-        /* Responsividade */
+        /* Responsividade melhorada */
         @media (max-width: 767px) {
             .main-title { 
-                font-size: clamp(2rem, 5vw, 2.5rem); 
+                font-size: clamp(1.8rem, 5vw, 2.2rem); 
+                margin-bottom: var(--spacing-lg);
             }
             
             .card-subtitle {
-                font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+                font-size: clamp(1.2rem, 3.5vw, 1.4rem);
+                margin-bottom: var(--spacing-lg);
             }
             
             .palpites-card {
-                padding: var(--spacing-lg);
+                padding: var(--spacing-md);
+                margin-bottom: var(--spacing-lg);
             }
             
             .palpite-row {
                 flex-direction: column;
-                align-items: flex-start;
+                align-items: stretch;
+                gap: var(--spacing-md);
+                padding: var(--spacing-md);
             }
 
-            .palpite-row .select-group-btn, .palpite-row .clear-btn {
+            .palpite-row .select-group-btn, 
+            .palpite-row .clear-btn {
                 width: 100%;
+                padding: var(--spacing-md);
+                font-size: 1rem;
                 margin-bottom: var(--spacing-sm);
             }
 
-            .palpite-row .input-xy {
+            .palpite-row .group-info {
+                text-align: center;
+                margin: 0;
+                font-size: 1rem;
+                margin-bottom: var(--spacing-sm);
+            }
+
+            .palpite-row .input-xy-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: var(--spacing-sm);
                 width: 100%;
-                justify-content: space-between;
+            }
+
+            .palpite-row .input-xy {
+                justify-content: center;
+                padding: var(--spacing-sm);
+                background: var(--bg-secondary);
+                border-radius: var(--radius-md);
+            }
+
+            .palpite-row .input-x, 
+            .palpite-row .input-y {
+                width: 45px;
+                height: 45px;
+                font-size: 1rem;
+                font-weight: 700;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+                gap: var(--spacing-md);
+                margin-top: var(--spacing-lg);
             }
 
             .action-buttons .btn {
                 width: 100%;
+                padding: var(--spacing-lg);
+                font-size: 1rem;
+                letter-spacing: 0.3px;
+            }
+
+            /* Modal responsivo */
+            .modal-content {
+                width: 95%;
+                max-width: none;
+                margin: var(--spacing-sm);
+            }
+
+            .modal-body {
+                padding: var(--spacing-md);
+                max-height: 70vh;
+            }
+
+            .modal-group-list li {
+                padding: var(--spacing-md);
+                font-size: 0.9rem;
+                line-height: 1.4;
+            }
+
+            /* Modal de imagem responsivo */
+            .image-modal-header {
+                padding: var(--spacing-sm);
+            }
+
+            .image-modal-title {
+                font-size: 1.1rem;
+            }
+
+            .image-modal-body {
+                padding: 4rem var(--spacing-sm) 5rem;
+            }
+
+            .image-modal-footer {
+                padding: var(--spacing-md);
+                flex-direction: column;
+                gap: var(--spacing-sm);
+            }
+
+            .image-modal-footer .btn,
+            .image-modal-footer .download-btn,
+            .image-modal-footer .share-btn {
+                width: 100%;
+                min-width: auto;
+                padding: var(--spacing-md);
+                font-size: 0.95rem;
             }
         }
 
@@ -346,8 +433,93 @@
                 padding: var(--spacing-sm);
             }
             
+            .header {
+                padding-top: var(--spacing-md);
+                margin-bottom: var(--spacing-lg);
+            }
+
+            .main-title {
+                font-size: clamp(1.5rem, 4.5vw, 1.8rem);
+            }
+            
             .palpites-card {
+                padding: var(--spacing-sm);
+            }
+
+            .card-subtitle {
+                font-size: clamp(1.1rem, 3vw, 1.3rem);
+                text-align: center;
+            }
+
+            .palpite-row {
+                padding: var(--spacing-sm);
+                gap: var(--spacing-sm);
+            }
+
+            .palpite-row .input-xy-container {
+                grid-template-columns: 1fr 1fr;
+                gap: var(--spacing-xs);
+            }
+
+            .palpite-row .input-x, 
+            .palpite-row .input-y {
+                width: 40px;
+                height: 40px;
+                font-size: 0.9rem;
+            }
+
+            .action-buttons {
+                gap: var(--spacing-sm);
+            }
+
+            .action-buttons .btn {
                 padding: var(--spacing-md);
+                font-size: 0.9rem;
+            }
+
+            /* Breadcrumb responsivo */
+            .breadcrumb {
+                font-size: 0.8rem;
+                gap: var(--spacing-xs);
+            }
+
+            .breadcrumb-item {
+                gap: var(--spacing-xs);
+            }
+
+            /* Footer responsivo */
+            .footer-logo {
+                max-width: 80px;
+            }
+
+            .site-domain, .copyright-text {
+                font-size: 0.8rem;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .main-title {
+                font-size: 1.4rem;
+                line-height: 1.3;
+            }
+
+            .card-subtitle {
+                font-size: 1.1rem;
+            }
+
+            .palpite-row .input-xy-container {
+                grid-template-columns: 1fr;
+                gap: var(--spacing-xs);
+            }
+
+            .palpite-row .input-xy {
+                justify-content: space-between;
+                padding: var(--spacing-xs) var(--spacing-sm);
+            }
+
+            .action-buttons .btn {
+                font-size: 0.85rem;
+                padding: var(--spacing-sm) var(--spacing-md);
             }
         }
     </style>
