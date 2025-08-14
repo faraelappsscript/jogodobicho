@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie uma Imagem de Divulgação - 77x Brasil</title>
+    
+    <!-- Carregamento de dependências -->
+    <link rel="preload" href="/assets/fonts/inter.css" as="style">
+    <link rel="stylesheet" href="/assets/fonts/inter.css">
+    <link rel="preload" href="/assets/fonts/jetbrains-mono.css" as="style">
+    <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
+    <link rel="preload" href="/theme.css" as="style">
+    <link rel="stylesheet" href="/theme.css">
+    
+    <!-- ESTILOS PERSONALIZADOS -->
+    <style>
+        /* Estilos do Body e Container Principal */
+        body {
+            background-color: var(--bg-primary);
+            background-image: 
+                radial-gradient(circle at 15% 25%, rgba(59, 130, 246, 0.1), transparent 40%),
+                radial-gradient(circle at 85% 75%, rgba(139, 92, 246, 0.1), transparent 40%);
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            padding: var(--spacing-md);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: var(--spacing-xl);
+            padding-top: var(--spacing-lg);
+        }
+
+        /* Logo */
+        .logo-container { 
+            margin-bottom: var(--spacing-lg); 
+        }
+        .logo { 
+            max-width: 150px; 
+            width: 50vw; 
+            height: auto; 
+            object-fit: contain; 
+        }
+        
+        /* Título principal */
+        .main-title {
+            font-size: clamp(2.5rem, 6vw, 3.5rem);
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: var(--spacing-md);
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            background: var(--gradient-accent);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: var(--text-primary);
+        }
+
+        /* Card principal */
+        .palpites-card {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            margin-bottom: var(--spacing-xl);
+            border: 1px solid var(--border-color);
+            transition: all var(--transition-normal);
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            max-width: 700px;
+        }
+
+        .palpites-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-primary);
+            opacity: 0.8;
+        }
+
+        .card-subtitle {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: var(--spacing-lg);
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+        }
+
+        /* Linhas de grupos */
+        .grupo-line {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+            padding: var(--spacing-md);
+            background: var(--bg-card);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+        }
+
+        .grupo-selector {
+            background: var(--gradient-primary);
+            color: white;
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            min-width: 120px;
+            text-align: center;
+        }
+
+        .grupo-selector:hover {
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .grupo-selected {
+            background: var(--bg-card-hover);
+            color: var(--text-primary);
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            min-width: 120px;
+            text-align: center;
+            border: 1px solid var(--border-accent);
+        }
+
+        .numeros-container {
+            display: flex;
+            gap: var(--spacing-sm);
+            flex-wrap: wrap;
+            flex: 1;
+        }
+
+        .numero-pair {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            background: var(--bg-secondary);
+            border-radius: var(--radius-sm);
+            padding: var(--spacing-xs);
+            border: 1px solid var(--border-color);
+        }
+
+        .numero-input {
+            width: 30px;
+            height: 30px;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-sm);
+            color: var(--text-primary);
+            text-align: center;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+        }
+
+        .numero-input:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 2px rgba(79, 162, 232, 0.2);
+        }
+
+        .numero-fixed {
+            width: 30px;
+            height: 30px;
+            background: var(--accent-success);
+            color: var(--bg-primary);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+        }
+
+        /* Botões */
+        .buttons-container {
+            display: flex;
+            gap: var(--spacing-md);
+            justify-content: center;
+            margin-top: var(--spacing-xl);
+            flex-wrap: wrap;
+        }
+
+        .btn-preencher {
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            background: var(--gradient-secondary);
+            color: var(--bg-primary);
+            border: none;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-preencher:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-visualizar {
+            padding: var(--spacing-md) var(--spacing-lg);
+            border-radius: var(--radius-md);
+            background: var(--gradient-primary);
+            color: white;
+            border: none;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-visualizar:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* Modal de seleção de grupos */
+        .grupos-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(4, 18, 40, 0.85);
+            backdrop-filter: blur(12px);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .grupos-modal-content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow: hidden;
+            position: relative;
+            box-shadow: var(--shadow-xl);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .grupos-modal-header {
+            padding: var(--spacing-lg);
+            border-bottom: 1px solid var(--border-color);
+            background: var(--bg-secondary);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .grupos-modal-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 0;
+        }
+
+        .grupos-modal-close {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: var(--spacing-sm);
+            border-radius: var(--radius-sm);
+            transition: all var(--transition-fast);
+        }
+
+        .grupos-modal-close:hover {
+            color: var(--text-primary);
+            background-color: var(--bg-card-hover);
+        }
+
+        .grupos-modal-body {
+            padding: var(--spacing-lg);
+            max-height: 60vh;
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        .grupo-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--spacing-md);
+            margin-bottom: var(--spacing-sm);
+            background: var(--bg-secondary);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+
+        .grupo-item:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--border-accent);
+            transform: translateY(-1px);
+        }
+
+        .grupo-info {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-md);
+        }
+
+        .grupo-numero {
+            font-weight: 700;
+            color: var(--accent-primary);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .grupo-nome {
+            font-weight: 600;
+            color: var(--text-primary);
+            text-transform: uppercase;
+        }
+
+        .grupo-numeros {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        /* Modal de visualização da imagem */
+        .image-preview-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(4, 18, 40, 0.95);
+            backdrop-filter: blur(15px);
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-preview-content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            width: 90%;
+            max-width: 800px;
+            max-height: 90vh;
+            overflow: hidden;
+            position: relative;
+            box-shadow: var(--shadow-xl);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .image-preview-header {
+            padding: var(--spacing-lg);
+            border-bottom: 1px solid var(--border-color);
+            background: var(--bg-secondary);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .image-preview-body {
+            padding: var(--spacing-lg);
+            flex: 1;
+            overflow-y: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .generated-image {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: var(--radius-md);
+        }
+
+        /* Responsividade */
+        @media (max-width: 767px) {
+            .logo { 
+                max-width: 120px; 
+            }
+            
+            .main-title { 
+                font-size: clamp(2rem, 5vw, 2.5rem); 
+            }
+            
+            .grupo-line {
+                flex-direction: column;
+                align-items: stretch;
+                gap: var(--spacing-sm);
+            }
+            
+            .numeros-container {
+                justify-content: center;
+            }
+            
+            .buttons-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn-preencher,
+            .btn-visualizar {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: var(--spacing-sm);
+            }
+            
+            .palpites-card {
+                padding: var(--spacing-lg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="breadcrumb-nav" id="breadcrumbNav">
+      <!-- O breadcrumb será gerado dinamicamente pelo JavaScript -->
+    </nav>
+    
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo-container">
+                <img src="/assets/img/logo.webp" alt="77x Brasil" class="logo">
+            </div>
+            <h1 class="main-title">Crie uma Imagem de Divulgação</h1>
+        </div>
+
+        <!-- Card principal -->
+        <div class="palpites-card">
+            <h2 class="card-subtitle">PALPITES DO DIA</h2>
+            
+            <!-- Linha 1 -->
+            <div class="grupo-line" data-line="1">
+                <a href="#" class="grupo-selector" onclick="openGruposModal(1)">Selecionar</a>
+                <div class="numeros-container">
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="1" data-pos="1">
+                        <div class="numero-fixed" data-line="1" data-pos="1">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="1" data-pos="2">
+                        <div class="numero-fixed" data-line="1" data-pos="2">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="1" data-pos="3">
+                        <div class="numero-fixed" data-line="1" data-pos="3">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="1" data-pos="4">
+                        <div class="numero-fixed" data-line="1" data-pos="4">--</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Linha 2 -->
+            <div class="grupo-line" data-line="2">
+                <a href="#" class="grupo-selector" onclick="openGruposModal(2)">Selecionar</a>
+                <div class="numeros-container">
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="2" data-pos="1">
+                        <div class="numero-fixed" data-line="2" data-pos="1">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="2" data-pos="2">
+                        <div class="numero-fixed" data-line="2" data-pos="2">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="2" data-pos="3">
+                        <div class="numero-fixed" data-line="2" data-pos="3">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="2" data-pos="4">
+                        <div class="numero-fixed" data-line="2" data-pos="4">--</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Linha 3 -->
+            <div class="grupo-line" data-line="3">
+                <a href="#" class="grupo-selector" onclick="openGruposModal(3)">Selecionar</a>
+                <div class="numeros-container">
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="3" data-pos="1">
+                        <div class="numero-fixed" data-line="3" data-pos="1">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="3" data-pos="2">
+                        <div class="numero-fixed" data-line="3" data-pos="2">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="3" data-pos="3">
+                        <div class="numero-fixed" data-line="3" data-pos="3">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="3" data-pos="4">
+                        <div class="numero-fixed" data-line="3" data-pos="4">--</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Linha 4 -->
+            <div class="grupo-line" data-line="4">
+                <a href="#" class="grupo-selector" onclick="openGruposModal(4)">Selecionar</a>
+                <div class="numeros-container">
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="4" data-pos="1">
+                        <div class="numero-fixed" data-line="4" data-pos="1">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="4" data-pos="2">
+                        <div class="numero-fixed" data-line="4" data-pos="2">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="4" data-pos="3">
+                        <div class="numero-fixed" data-line="4" data-pos="3">--</div>
+                    </div>
+                    <div class="numero-pair">
+                        <input type="text" class="numero-input" maxlength="2" data-type="manual" data-line="4" data-pos="4">
+                        <div class="numero-fixed" data-line="4" data-pos="4">--</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botões -->
+            <div class="buttons-container">
+                <button class="btn-preencher" onclick="preencherNumeros()">Preencher</button>
+                <button class="btn-visualizar" onclick="visualizarImagem()">Visualizar Imagem</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de seleção de grupos -->
+    <div class="grupos-modal" id="gruposModal">
+        <div class="grupos-modal-content">
+            <div class="grupos-modal-header">
+                <h3 class="grupos-modal-title">Selecionar Grupo</h3>
+                <button class="grupos-modal-close" onclick="closeGruposModal()">&times;</button>
+            </div>
+            <div class="grupos-modal-body" id="gruposModalBody">
+                <!-- Os grupos serão inseridos aqui dinamicamente -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de visualização da imagem -->
+    <div class="image-preview-modal" id="imagePreviewModal">
+        <div class="image-preview-content">
+            <div class="image-preview-header">
+                <h3 class="grupos-modal-title">Visualização da Imagem</h3>
+                <button class="grupos-modal-close" onclick="closeImagePreviewModal()">&times;</button>
+            </div>
+            <div class="image-preview-body" id="imagePreviewBody">
+                <!-- A imagem gerada será inserida aqui -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Script do site -->
+    <script defer src="/assets/js/breadcrumb.js"></script>
+    
+    <!-- Script personalizado para esta página -->
+    <script>
+        // Dados dos grupos do jogo do bicho
+        const gruposData = [
+            { numero: 1, nome: "Avestruz", numeros: ["01", "02", "03", "04"] },
+            { numero: 2, nome: "Águia", numeros: ["05", "06", "07", "08"] },
+            { numero: 3, nome: "Burro", numeros: ["09", "10", "11", "12"] },
+            { numero: 4, nome: "Borboleta", numeros: ["13", "14", "15", "16"] },
+            { numero: 5, nome: "Cachorro", numeros: ["17", "18", "19", "20"] },
+            { numero: 6, nome: "Cabra", numeros: ["21", "22", "23", "24"] },
+            { numero: 7, nome: "Carneiro", numeros: ["25", "26", "27", "28"] },
+            { numero: 8, nome: "Camelo", numeros: ["29", "30", "31", "32"] },
+            { numero: 9, nome: "Cobra", numeros: ["33", "34", "35", "36"] },
+            { numero: 10, nome: "Coelho", numeros: ["37", "38", "39", "40"] },
+            { numero: 11, nome: "Cavalo", numeros: ["41", "42", "43", "44"] },
+            { numero: 12, nome: "Elefante", numeros: ["45", "46", "47", "48"] },
+            { numero: 13, nome: "Galo", numeros: ["49", "50", "51", "52"] },
+            { numero: 14, nome: "Gato", numeros: ["53", "54", "55", "56"] },
+            { numero: 15, nome: "Jacaré", numeros: ["57", "58", "59", "60"] },
+            { numero: 16, nome: "Leão", numeros: ["61", "62", "63", "64"] },
+            { numero: 17, nome: "Macaco", numeros: ["65", "66", "67", "68"] },
+            { numero: 18, nome: "Porco", numeros: ["69", "70", "71", "72"] },
+            { numero: 19, nome: "Pavão", numeros: ["73", "74", "75", "76"] },
+            { numero: 20, nome: "Peru", numeros: ["77", "78", "79", "80"] },
+            { numero: 21, nome: "Touro", numeros: ["81", "82", "83", "84"] },
+            { numero: 22, nome: "Tigre", numeros: ["85", "86", "87", "88"] },
+            { numero: 23, nome: "Urso", numeros: ["89", "90", "91", "92"] },
+            { numero: 24, nome: "Veado", numeros: ["93", "94", "95", "96"] },
+            { numero: 25, nome: "Vaca", numeros: ["97", "98", "99", "00"] }
+        ];
+
+        let currentLine = null;
+
+        // Função para abrir o modal de seleção de grupos
+        function openGruposModal(lineNumber) {
+            currentLine = lineNumber;
+            const modal = document.getElementById('gruposModal');
+            const modalBody = document.getElementById('gruposModalBody');
+            
+            // Limpar conteúdo anterior
+            modalBody.innerHTML = '';
+            
+            // Criar lista de grupos
+            gruposData.forEach(grupo => {
+                const grupoItem = document.createElement('div');
+                grupoItem.className = 'grupo-item';
+                grupoItem.onclick = () => selectGrupo(grupo);
+                
+                grupoItem.innerHTML = `
+                    <div class="grupo-info">
+                        <span class="grupo-numero">Grupo ${grupo.numero.toString().padStart(2, '0')}</span>
+                        <span class="grupo-nome">${grupo.nome}</span>
+                    </div>
+                    <span class="grupo-numeros">${grupo.numeros.join(' ')}</span>
+                `;
+                
+                modalBody.appendChild(grupoItem);
+            });
+            
+            modal.style.display = 'flex';
+            document.body.classList.add('modal-open');
+        }
+
+        // Função para fechar o modal de grupos
+        function closeGruposModal() {
+            const modal = document.getElementById('gruposModal');
+            modal.style.display = 'none';
+            document.body.classList.remove('modal-open');
+            currentLine = null;
+        }
+
+        // Função para selecionar um grupo
+        function selectGrupo(grupo) {
+            if (!currentLine) return;
+            
+            // Atualizar o botão seletor
+            const grupoLine = document.querySelector(`[data-line="${currentLine}"]`);
+            const selector = grupoLine.querySelector('.grupo-selector');
+            selector.textContent = `Grupo ${grupo.numero}: ${grupo.nome}`;
+            selector.className = 'grupo-selected';
+            
+            // Atualizar os números fixos
+            grupo.numeros.forEach((numero, index) => {
+                const numeroFixed = grupoLine.querySelector(`[data-line="${currentLine}"][data-pos="${index + 1}"]`);
+                if (numeroFixed) {
+                    numeroFixed.textContent = numero;
+                }
+            });
+            
+            closeGruposModal();
+        }
+
+        // Função para preencher números automaticamente
+        function preencherNumeros() {
+            for (let line = 1; line <= 4; line++) {
+                const inputs = document.querySelectorAll(`input[data-line="${line}"]`);
+                inputs.forEach(input => {
+                    if (input.value === '') {
+                        // Gerar número aleatório de 10 a 99
+                        const randomNum = Math.floor(Math.random() * 90) + 10;
+                        input.value = randomNum.toString();
+                    }
+                });
+            }
+        }
+
+        // Função para validar se todos os campos estão preenchidos
+        function validarCampos() {
+            for (let line = 1; line <= 4; line++) {
+                const grupoLine = document.querySelector(`[data-line="${line}"]`);
+                const selector = grupoLine.querySelector('.grupo-selector, .grupo-selected');
+                
+                // Verificar se o grupo foi selecionado
+                if (selector.textContent === 'Selecionar') {
+                    return { valid: false, message: `Por favor, selecione um grupo para a linha ${line}.` };
+                }
+                
+                // Verificar se todos os números manuais foram preenchidos
+                const inputs = grupoLine.querySelectorAll('input[data-type="manual"]');
+                for (let input of inputs) {
+                    if (input.value === '' || input.value.length !== 2) {
+                        return { valid: false, message: `Por favor, complete todos os números da linha ${line}.` };
+                    }
+                }
+            }
+            return { valid: true };
+        }
+
+        // Função para visualizar a imagem
+        function visualizarImagem() {
+            const validation = validarCampos();
+            if (!validation.valid) {
+                alert(validation.message);
+                return;
+            }
+            
+            // Coletar dados para gerar a imagem
+            const palpitesData = [];
+            for (let line = 1; line <= 4; line++) {
+                const grupoLine = document.querySelector(`[data-line="${line}"]`);
+                const selector = grupoLine.querySelector('.grupo-selected');
+                const selectorText = selector.textContent;
+                
+                // Extrair número e nome do grupo
+                const grupoMatch = selectorText.match(/Grupo (\d+): (.+)/);
+                if (grupoMatch) {
+                    const grupoNumero = parseInt(grupoMatch[1]);
+                    const grupoNome = grupoMatch[2];
+                    
+                    // Coletar números
+                    const numeros = [];
+                    for (let pos = 1; pos <= 4; pos++) {
+                        const input = grupoLine.querySelector(`input[data-line="${line}"][data-pos="${pos}"]`);
+                        const fixed = grupoLine.querySelector(`.numero-fixed[data-line="${line}"][data-pos="${pos}"]`);
+                        numeros.push(input.value + fixed.textContent);
+                    }
+                    
+                    palpitesData.push({
+                        grupo: grupoNumero,
+                        nome: grupoNome,
+                        numeros: numeros
+                    });
+                }
+            }
+            
+            // Gerar e exibir a imagem
+            generatePalpitesImage(palpitesData);
+        }
+
+        // Função para gerar a imagem dos palpites
+        function generatePalpitesImage(palpitesData) {
+            // Mostrar loading
+            const modal = document.getElementById('imagePreviewModal');
+            const modalBody = document.getElementById('imagePreviewBody');
+            modalBody.innerHTML = '<div style="text-align: center; color: var(--text-primary); padding: 2rem;">Gerando imagem...</div>';
+            modal.style.display = 'flex';
+            document.body.classList.add('modal-open');
+            
+            // Criar canvas
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Configurar dimensões (proporção similar à imagem de referência)
+            canvas.width = 600;
+            canvas.height = 800;
+            
+            // Função para desenhar texto com sombra
+            function drawTextWithShadow(text, x, y, fillStyle = 'white', shadowColor = 'rgba(0,0,0,0.8)', shadowBlur = 4) {
+                ctx.save();
+                ctx.shadowColor = shadowColor;
+                ctx.shadowBlur = shadowBlur;
+                ctx.shadowOffsetX = 2;
+                ctx.shadowOffsetY = 2;
+                ctx.fillStyle = fillStyle;
+                ctx.fillText(text, x, y);
+                ctx.restore();
+            }
+            
+            // Criar fundo gradiente azul (similar à imagem de referência)
+            const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+            gradient.addColorStop(0, '#1e3a8a'); // Azul escuro
+            gradient.addColorStop(0.5, '#1e40af'); // Azul médio
+            gradient.addColorStop(1, '#1e3a8a'); // Azul escuro
+            
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Adicionar elementos decorativos (círculos dourados)
+            ctx.fillStyle = 'rgba(241, 209, 76, 0.3)';
+            ctx.beginPath();
+            ctx.arc(50, 100, 30, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            ctx.beginPath();
+            ctx.arc(550, 200, 25, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            ctx.beginPath();
+            ctx.arc(80, 600, 35, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            ctx.beginPath();
+            ctx.arc(520, 700, 20, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            // Data e dia da semana
+            const today = new Date();
+            const dateStr = today.toLocaleDateString('pt-BR', { 
+                day: '2-digit', 
+                month: '2-digit', 
+                year: '2-digit' 
+            });
+            const dayStr = today.toLocaleDateString('pt-BR', { weekday: 'long' });
+            
+            ctx.textAlign = 'center';
+            ctx.font = '18px Inter';
+            drawTextWithShadow(dateStr, canvas.width / 2, 50);
+            
+            ctx.font = '16px Inter';
+            drawTextWithShadow(dayStr.toUpperCase(), canvas.width / 2, 75, '#F1D14C');
+            
+            // Título principal
+            ctx.font = 'bold 36px Inter';
+            drawTextWithShadow('PALPITES DO DIA', canvas.width / 2, 130);
+            
+            // Função para carregar e processar imagens dos animais
+            let loadedImages = 0;
+            const totalImages = palpitesData.length;
+            
+            function checkAllImagesLoaded() {
+                loadedImages++;
+                if (loadedImages === totalImages) {
+                    // Adicionar logo no final
+                    const logoImg = new Image();
+                    logoImg.onload = function() {
+                        ctx.drawImage(logoImg, canvas.width / 2 - 60, canvas.height - 100, 120, 70);
+                        
+                        // Exibir imagem final
+                        showImagePreview(canvas.toDataURL());
+                    };
+                    logoImg.onerror = function() {
+                        // Se não conseguir carregar a logo, mostrar sem ela
+                        showImagePreview(canvas.toDataURL());
+                    };
+                    logoImg.src = '/assets/img/logo.webp';
+                }
+            }
+            
+            // Desenhar cada linha de palpite
+            const startY = 180;
+            const lineHeight = 120;
+            
+            palpitesData.forEach((palpite, index) => {
+                const lineY = startY + (index * lineHeight);
+                const imageX = 80;
+                const imageSize = 70;
+                const textX = 180;
+                
+                // Tentar carregar imagem do animal
+                const animalImg = new Image();
+                animalImg.onload = function() {
+                    // Desenhar imagem do animal (circular com borda)
+                    ctx.save();
+                    
+                    // Criar círculo para clipping
+                    ctx.beginPath();
+                    ctx.arc(imageX, lineY, imageSize / 2, 0, 2 * Math.PI);
+                    ctx.clip();
+                    
+                    // Desenhar imagem
+                    ctx.drawImage(animalImg, imageX - imageSize / 2, lineY - imageSize / 2, imageSize, imageSize);
+                    ctx.restore();
+                    
+                    // Desenhar borda dourada ao redor da imagem
+                    ctx.strokeStyle = '#F1D14C';
+                    ctx.lineWidth = 3;
+                    ctx.beginPath();
+                    ctx.arc(imageX, lineY, imageSize / 2 + 2, 0, 2 * Math.PI);
+                    ctx.stroke();
+                    
+                    checkAllImagesLoaded();
+                };
+                
+                animalImg.onerror = function() {
+                    // Se não conseguir carregar a imagem, desenhar um círculo com a inicial
+                    ctx.fillStyle = '#F1D14C';
+                    ctx.beginPath();
+                    ctx.arc(imageX, lineY, imageSize / 2, 0, 2 * Math.PI);
+                    ctx.fill();
+                    
+                    ctx.fillStyle = '#1e3a8a';
+                    ctx.font = 'bold 24px Inter';
+                    ctx.textAlign = 'center';
+                    ctx.fillText(palpite.nome.charAt(0), imageX, lineY + 8);
+                    
+                    checkAllImagesLoaded();
+                };
+                
+                // Nome do animal e número do grupo
+                ctx.textAlign = 'left';
+                ctx.font = 'bold 24px Inter';
+                drawTextWithShadow(`${palpite.nome.toUpperCase()}`, textX, lineY - 15);
+                
+                ctx.font = 'bold 28px Inter';
+                ctx.textAlign = 'right';
+                drawTextWithShadow(`${palpite.grupo.toString().padStart(2, '0')}`, canvas.width - 50, lineY - 15);
+                
+                // Números em fundo branco
+                const numbersText = palpite.numeros.join(' ');
+                const numbersWidth = ctx.measureText(numbersText).width + 20;
+                const numbersHeight = 35;
+                const numbersX = textX;
+                const numbersY = lineY + 10;
+                
+                // Fundo branco para os números
+                ctx.fillStyle = 'white';
+                ctx.fillRect(numbersX, numbersY, numbersWidth, numbersHeight);
+                
+                // Números em preto
+                ctx.fillStyle = '#1e3a8a';
+                ctx.font = 'bold 20px JetBrains Mono';
+                ctx.textAlign = 'left';
+                ctx.fillText(numbersText, numbersX + 10, numbersY + 25);
+                
+                // Iniciar carregamento da imagem
+                animalImg.src = `/assets/img/grupos/${palpite.grupo.toString().padStart(2, '0')}.webp`;
+            });
+            
+            // Se não há palpites, finalizar imediatamente
+            if (palpitesData.length === 0) {
+                showImagePreview(canvas.toDataURL());
+            }
+        }
+
+        // Função para exibir a imagem no modal
+        function showImagePreview(imageDataUrl) {
+            const modal = document.getElementById('imagePreviewModal');
+            const modalBody = document.getElementById('imagePreviewBody');
+            
+            modalBody.innerHTML = `<img src="${imageDataUrl}" class="generated-image" alt="Palpites do Dia">`;
+            
+            modal.style.display = 'flex';
+            document.body.classList.add('modal-open');
+        }
+
+        // Função para fechar o modal de visualização
+        function closeImagePreviewModal() {
+            const modal = document.getElementById('imagePreviewModal');
+            modal.style.display = 'none';
+            document.body.classList.remove('modal-open');
+        }
+
+        // Validação de entrada nos campos de número
+        document.addEventListener('DOMContentLoaded', function() {
+            // Capturar parâmetro de URL se necessário
+            if (typeof captureAndStoreUrlParameter === 'function') {
+                captureAndStoreUrlParameter();
+            }
+            
+            // Adicionar validação aos inputs
+            const inputs = document.querySelectorAll('.numero-input');
+            inputs.forEach(input => {
+                input.addEventListener('input', function() {
+                    // Permitir apenas números
+                    this.value = this.value.replace(/[^0-9]/g, '');
+                    
+                    // Limitar a 2 dígitos
+                    if (this.value.length > 2) {
+                        this.value = this.value.slice(0, 2);
+                    }
+                });
+                
+                input.addEventListener('blur', function() {
+                    // Preencher com zero à esquerda se necessário
+                    if (this.value.length === 1) {
+                        this.value = '0' + this.value;
+                    }
+                });
+            });
+        });
+
+        // Fechar modais ao clicar fora
+        window.addEventListener('click', function(event) {
+            const gruposModal = document.getElementById('gruposModal');
+            const imageModal = document.getElementById('imagePreviewModal');
+            
+            if (event.target === gruposModal) {
+                closeGruposModal();
+            }
+            if (event.target === imageModal) {
+                closeImagePreviewModal();
+            }
+        });
+    </script>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
+            <p class="site-domain" id="siteDomain"></p>
+            <p class="copyright-text" id="copyrightText"></p>
+        </div>
+    </footer>
+    <script defer src="/resultados/script.js"></script>
+</body>
+</html>
+
