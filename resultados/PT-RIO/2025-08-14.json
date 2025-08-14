@@ -688,60 +688,14 @@
           "Bicho": "Camelo"
         }
       ],
-      "frases": {
-        "1151": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1151",
-          "GALO 🐓 no oitavo prêmio!<br>com o palpite 1151"
-        ],
-        "1154": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1154"
-        ],
-        "1157": [
-          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 1157"
-        ],
-        "1451": [
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 1451",
-          "Dezena no oitavo prêmio!<br>com o palpite 1451",
-          "GALO 🐓 no oitavo prêmio!<br>com o palpite 1451"
-        ],
-        "1454": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1454"
-        ],
-        "1457": [
-          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 1457"
-        ],
-        "1751": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1751",
-          "GALO 🐓 no oitavo prêmio!<br>com o palpite 1751"
-        ],
-        "1754": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1754"
-        ],
-        "1757": [
-          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 1757"
-        ],
-        "1851": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1851",
-          "GALO 🐓 no oitavo prêmio!<br>com o palpite 1851"
-        ],
-        "1854": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1854"
-        ],
-        "1857": [
-          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 1857"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 4,
-        "Grupo": [
-          "🐈",
-          "🐊",
-          "🐓"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1151, 1154, 1157, 1451, 1454, 1457, 1751, 1754, 1757, 1851, 1854, 1857"
+      "resumo": "Palpites dados para esta extração: 1017, 1018, 1117, 1118, 1417, 1418, 1717, 1718, 3017, 3018, 3117, 3118, 3417, 3418, 3717, 3718"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -812,29 +766,14 @@
           "Bicho": "Cabra"
         }
       ],
-      "frases": {
-        "1151": [
-          "GALO 🐓 no quarto prêmio!<br>com o palpite 1151"
-        ],
-        "1451": [
-          "GALO 🐓 no quarto prêmio!<br>com o palpite 1451"
-        ],
-        "1751": [
-          "GALO 🐓 no quarto prêmio!<br>com o palpite 1751"
-        ],
-        "1851": [
-          "GALO 🐓 no quarto prêmio!<br>com o palpite 1851"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐓"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1151, 1154, 1157, 1451, 1454, 1457, 1751, 1754, 1757, 1851, 1854, 1857"
+      "resumo": "Palpites dados para esta extração: 1017, 1018, 1117, 1118, 1417, 1418, 1717, 1718, 3017, 3018, 3117, 3118, 3417, 3418, 3717, 3718"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -905,56 +844,14 @@
           "Bicho": "Urso"
         }
       ],
-      "frases": {
-        "1151": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1151",
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1151"
-        ],
-        "1154": [
-          "Dezena no quarto prêmio!<br>com o palpite 1154",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1154",
-          "GATO 🐈 no oitavo prêmio!<br>com o palpite 1154"
-        ],
-        "1451": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1451",
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1451"
-        ],
-        "1454": [
-          "Dezena no quarto prêmio!<br>com o palpite 1454",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1454",
-          "GATO 🐈 no oitavo prêmio!<br>com o palpite 1454"
-        ],
-        "1751": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1751",
-          "Dezena no terceiro prêmio!<br>com o palpite 1751",
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1751"
-        ],
-        "1754": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 1754",
-          "Dezena no quarto prêmio!<br>com o palpite 1754",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1754",
-          "GATO 🐈 no oitavo prêmio!<br>com o palpite 1754"
-        ],
-        "1851": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1851",
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1851"
-        ],
-        "1854": [
-          "Dezena no quarto prêmio!<br>com o palpite 1854",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1854",
-          "GATO 🐈 no oitavo prêmio!<br>com o palpite 1854"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 8,
-        "Grupo": [
-          "🐓",
-          "🐈"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1151, 1154, 1157, 1451, 1454, 1457, 1751, 1754, 1757, 1851, 1854, 1857"
+      "resumo": "Palpites dados para esta extração: 1017, 1018, 1117, 1118, 1417, 1418, 1717, 1718, 3017, 3018, 3117, 3118, 3417, 3418, 3717, 3718"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -1025,14 +922,115 @@
           "Bicho": "Cachorro"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1017": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1017",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 1017",
+          "Dezena no décimo prêmio!<br>com o palpite 1017",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 1017"
+        ],
+        "1018": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1018",
+          "Dezena no terceiro prêmio!<br>com o palpite 1018",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 1018",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 1018"
+        ],
+        "1117": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1117",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 1117",
+          "Dezena no décimo prêmio!<br>com o palpite 1117",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 1117"
+        ],
+        "1118": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1118",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1118",
+          "Dezena no terceiro prêmio!<br>com o palpite 1118",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 1118",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 1118"
+        ],
+        "1417": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1417",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 1417",
+          "Dezena no décimo prêmio!<br>com o palpite 1417",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 1417"
+        ],
+        "1418": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1418",
+          "Dezena no terceiro prêmio!<br>com o palpite 1418",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 1418",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 1418"
+        ],
+        "1717": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1717",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 1717",
+          "Dezena no décimo prêmio!<br>com o palpite 1717",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 1717"
+        ],
+        "1718": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1718",
+          "Dezena no terceiro prêmio!<br>com o palpite 1718",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 1718",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 1718"
+        ],
+        "3017": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 3017",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 3017",
+          "Dezena no décimo prêmio!<br>com o palpite 3017",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 3017"
+        ],
+        "3018": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 3018",
+          "Dezena no terceiro prêmio!<br>com o palpite 3018",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 3018",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 3018"
+        ],
+        "3117": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 3117",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 3117",
+          "Dezena no décimo prêmio!<br>com o palpite 3117",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 3117"
+        ],
+        "3118": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 3118",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3118",
+          "Dezena no terceiro prêmio!<br>com o palpite 3118",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 3118",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 3118"
+        ],
+        "3417": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 3417",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 3417",
+          "Dezena no décimo prêmio!<br>com o palpite 3417",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 3417"
+        ],
+        "3418": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 3418",
+          "Dezena no terceiro prêmio!<br>com o palpite 3418",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 3418",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 3418"
+        ],
+        "3717": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 3717",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 3717",
+          "Dezena no décimo prêmio!<br>com o palpite 3717",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 3717"
+        ],
+        "3718": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 3718",
+          "Dezena no terceiro prêmio!<br>com o palpite 3718",
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 3718",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 3718"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 2,
+        "Dezena": 16,
+        "Grupo": [
+          "🐕"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1151, 1154, 1157, 1451, 1454, 1457, 1751, 1754, 1757, 1851, 1854, 1857"
+      "resumo": "Palpites dados para esta extração: 1017, 1018, 1117, 1118, 1417, 1418, 1717, 1718, 3017, 3018, 3117, 3118, 3417, 3418, 3717, 3718"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
