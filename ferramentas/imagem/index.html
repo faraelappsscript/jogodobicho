@@ -358,6 +358,7 @@
             box-shadow: var(--shadow-lg);
         }
 
+        /* BOTÕES MELHORADOS CONFORME O TEMA */
         .image-modal-footer {
             padding: var(--spacing-lg);
             border-top: 1px solid var(--border-color);
@@ -368,28 +369,59 @@
         }
 
         .image-modal-footer .btn {
-            padding: var(--spacing-sm) var(--spacing-md);
+            padding: var(--spacing-md) var(--spacing-lg);
             border-radius: var(--radius-md);
-            background-color: var(--bg-secondary);
-            border: 1px solid var(--border-color);
-            color: var(--text-primary);
+            font-weight: 700;
+            font-size: 1rem;
             cursor: pointer;
-            font-weight: 600;
-            font-size: 0.9rem;
-            white-space: nowrap;
             transition: all var(--transition-normal);
             text-align: center;
             display: flex;
             align-items: center;
             justify-content: center;
             text-decoration: none;
-            min-width: 120px;
+            min-width: 140px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .image-modal-footer .btn::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            transition: left var(--transition-slow);
+        }
+
+        .image-modal-footer .btn:hover::before {
+            left: 100%;
+        }
+
+        .image-modal-footer .download-btn {
+            background: var(--gradient-primary);
+            color: white;
+            border: 1px solid transparent;
+        }
+
+        .image-modal-footer .share-btn {
+            background: var(--gradient-gold);
+            color: var(--bg-primary);
+            border: 1px solid transparent;
         }
 
         .image-modal-footer .btn:hover {
-            background-color: var(--bg-card-hover);
-            border-color: var(--border-accent);
-            transform: translateY(-1px);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-xl), var(--shadow-glow);
+        }
+
+        .image-modal-footer .share-btn:hover {
+            box-shadow: var(--shadow-xl), var(--shadow-gold);
         }
 
         /* Estilos para o footer */
@@ -919,7 +951,7 @@
             fillAllEmptyX(); // Preenche os 'x' após sortear os grupos
         }
 
-         // Função para gerar a imagem - VERSÃO ATUALIZADA COM ELEMENTOS MAIORES
+         // Função para gerar a imagem - VERSÃO OTIMIZADA COM MELHOR USO DO ESPAÇO
         async function visualizeImage() {
             // Verificar se todas as linhas estão preenchidas
             const palpitesRows = document.querySelectorAll('.palpite-row');
@@ -966,9 +998,12 @@
             const canvas = document.createElement('canvas');
             const ctx = canvas.getContext('2d');
 
-            // Dimensões da imagem aumentadas proporcionalmente (zoom de ~1.4x)
-            canvas.width = 840; // 600 * 1.4
-            canvas.height = 280 + (validRows.length * 168) + 210; // Altura dinâmica aumentada
+            // Dimensões otimizadas para melhor uso do espaço
+            canvas.width = 900; // Aumentado para aproveitar melhor o espaço
+            const headerHeight = 220; // Espaço para cabeçalho
+            const rowHeight = 140; // Altura de cada linha de palpite
+            const footerHeight = 120; // Espaço para logo
+            canvas.height = headerHeight + (validRows.length * rowHeight) + footerHeight;
 
             try {
                 // Carregar imagem de fundo
@@ -998,24 +1033,23 @@
                 const dateStr = today.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: '2-digit' });
                 const dayOfWeekStr = today.toLocaleDateString('pt-BR', { weekday: 'long' });
 
-                ctx.font = 'bold 25px Inter, sans-serif'; // 18px -> 25px
+                ctx.font = 'bold 32px Inter, sans-serif'; // Aumentado de 25px para 32px
                 ctx.fillStyle = 'white';
                 ctx.textAlign = 'center';
-                ctx.fillText(dateStr, canvas.width / 2, 56); // 40 -> 56
+                ctx.fillText(dateStr, canvas.width / 2, 50);
 
-                ctx.font = 'bold 25px Inter, sans-serif'; // 18px -> 25px
+                ctx.font = 'bold 32px Inter, sans-serif'; // Aumentado de 25px para 32px
                 ctx.fillStyle = '#F1D14C';
-                ctx.fillText(dayOfWeekStr.charAt(0).toUpperCase() + dayOfWeekStr.slice(1), canvas.width / 2, 98); // 70 -> 98
+                ctx.fillText(dayOfWeekStr.charAt(0).toUpperCase() + dayOfWeekStr.slice(1), canvas.width / 2, 90);
 
                 // Título - AUMENTADO SIGNIFICATIVAMENTE
-                ctx.font = 'bold 48px Inter, sans-serif'; // 32px -> 48px (50% maior)
+                ctx.font = 'bold 64px Inter, sans-serif'; // Aumentado de 48px para 64px
                 ctx.fillStyle = 'white';
-                ctx.fillText('PALPITES DO DIA', canvas.width / 2, 168); // 120 -> 168
+                ctx.fillText('PALPITES DO DIA', canvas.width / 2, 160);
 
-                // Desenhar as linhas de palpite válidas - AUMENTADAS
-                let startY = 252; // 180 -> 252
-                const rowHeight = 168; // 120 -> 168
-                const imageSize = 112; // 80 -> 112
+                // Desenhar as linhas de palpite válidas - OTIMIZADAS
+                let startY = headerHeight;
+                const imageSize = 100; // Tamanho das imagens dos grupos
 
                 for (let i = 0; i < validRows.length; i++) {
                     const rowData = validRows[i];
@@ -1031,53 +1065,55 @@
                                 // Se não conseguir carregar a imagem do grupo, desenhar um círculo colorido
                                 ctx.fillStyle = '#4FA2E8';
                                 ctx.beginPath();
-                                ctx.arc(70 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
+                                ctx.arc(80 + imageSize / 2, startY + 70, imageSize / 2, 0, Math.PI * 2);
                                 ctx.fill();
                                 resolve();
                             };
                         });
 
-                        // Desenhar imagem do grupo (arredondada) - AUMENTADA
+                        // Desenhar imagem do grupo (arredondada) - POSICIONADA MELHOR
                         if (groupImage.complete && groupImage.naturalWidth > 0) {
                             ctx.save();
                             ctx.beginPath();
-                            ctx.arc(70 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2, false);
+                            ctx.arc(80 + imageSize / 2, startY + 70, imageSize / 2, 0, Math.PI * 2, false);
                             ctx.clip();
-                            ctx.drawImage(groupImage, 70, startY, imageSize, imageSize); // 50 -> 70
+                            ctx.drawImage(groupImage, 80, startY + 20, imageSize, imageSize);
                             ctx.restore();
                         } else {
                             // Fallback para círculo colorido
                             ctx.fillStyle = '#4FA2E8';
                             ctx.beginPath();
-                            ctx.arc(70 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
+                            ctx.arc(80 + imageSize / 2, startY + 70, imageSize / 2, 0, Math.PI * 2);
                             ctx.fill();
                         }
 
-                        // Nome do animal e número do grupo - AUMENTADO
-                        ctx.font = 'bold 28px Inter, sans-serif'; // 20px -> 28px
+                        // Nome do animal e número do grupo - AUMENTADO E MELHOR POSICIONADO
+                        ctx.font = 'bold 36px Inter, sans-serif'; // Aumentado de 28px para 36px
                         ctx.fillStyle = 'white';
                         ctx.textAlign = 'left';
-                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 70 + imageSize + 28, startY + 42); // posições ajustadas
+                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 220, startY + 50);
 
-                        // Números completos em retângulos brancos - AUMENTADOS
-                        const numbersText = rowData.fullNumbers.join(' ');
-                        const textX = 70 + imageSize + 28;
-                        const textY = startY + 91; // 65 -> 91
+                        // Números completos em retângulos brancos - AUMENTADOS E MELHOR POSICIONADOS
+                        const numbersText = rowData.fullNumbers.join('  '); // Espaçamento entre números
+                        const textX = 220;
+                        const textY = startY + 100;
                         
                         // Medir o texto para criar o retângulo
-                        ctx.font = 'bold 34px JetBrains Mono, monospace'; // 24px -> 34px
+                        ctx.font = 'bold 42px JetBrains Mono, monospace'; // Aumentado de 34px para 42px
                         const textMetrics = ctx.measureText(numbersText);
                         const textWidth = textMetrics.width;
-                        const textHeight = 42; // 30 -> 42
+                        const textHeight = 50; // Altura aumentada
                         
-                        // Desenhar retângulo branco
+                        // Desenhar retângulo branco com bordas arredondadas
                         ctx.fillStyle = 'white';
-                        ctx.fillRect(textX - 7, textY - textHeight + 7, textWidth + 14, textHeight + 7); // margens aumentadas
+                        ctx.beginPath();
+                        ctx.roundRect(textX - 10, textY - textHeight + 10, textWidth + 20, textHeight + 10, 8);
+                        ctx.fill();
                         
-                        // Desenhar borda do retângulo (opcional)
+                        // Desenhar borda do retângulo
                         ctx.strokeStyle = '#cccccc';
-                        ctx.lineWidth = 1;
-                        ctx.strokeRect(textX - 7, textY - textHeight + 7, textWidth + 14, textHeight + 7);
+                        ctx.lineWidth = 2;
+                        ctx.stroke();
                         
                         // Desenhar texto em preto
                         ctx.fillStyle = 'black';
@@ -1091,7 +1127,7 @@
                     }
                 }
 
-                // Logo do site - MANTÉM O TAMANHO ORIGINAL (conforme solicitado)
+                // Logo do site - AUMENTADA SIGNIFICATIVAMENTE
                 try {
                     const logoImage = new Image();
                     logoImage.crossOrigin = 'anonymous';
@@ -1100,31 +1136,31 @@
                         logoImage.onload = resolve;
                         logoImage.onerror = () => {
                             // Se não conseguir carregar o logo, desenhar texto
-                            ctx.font = 'bold 16px Inter, sans-serif'; // MANTÉM TAMANHO ORIGINAL
+                            ctx.font = 'bold 28px Inter, sans-serif'; // Aumentado
                             ctx.fillStyle = 'white';
                             ctx.textAlign = 'center';
-                            ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
+                            ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 40);
                             resolve();
                         };
                     });
                     
                     if (logoImage.complete && logoImage.naturalWidth > 0) {
-                        // MANTÉM TAMANHO ORIGINAL DO LOGO (100x50)
-                        ctx.drawImage(logoImage, canvas.width / 2 - 50, canvas.height - 80, 100, 50);
+                        // LOGO AUMENTADA - de 100x50 para 160x80
+                        ctx.drawImage(logoImage, canvas.width / 2 - 80, canvas.height - 100, 160, 80);
                     } else {
-                        // Fallback para texto
-                        ctx.font = 'bold 16px Inter, sans-serif'; // MANTÉM TAMANHO ORIGINAL
+                        // Fallback para texto aumentado
+                        ctx.font = 'bold 28px Inter, sans-serif';
                         ctx.fillStyle = 'white';
                         ctx.textAlign = 'center';
-                        ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
+                        ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 40);
                     }
                 } catch (error) {
                     console.error('Erro ao carregar logo:', error);
-                    // Fallback para texto
-                    ctx.font = 'bold 16px Inter, sans-serif'; // MANTÉM TAMANHO ORIGINAL
+                    // Fallback para texto aumentado
+                    ctx.font = 'bold 28px Inter, sans-serif';
                     ctx.fillStyle = 'white';
                     ctx.textAlign = 'center';
-                    ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
+                    ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 40);
                 }
 
                 const imageDataUrl = canvas.toDataURL('image/png');
