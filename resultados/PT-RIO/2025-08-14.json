@@ -112,51 +112,33 @@
         }
       ],
       "frases": {
-        "5316": [
-          "Dezena no quarto prêmio!<br>com o palpite 5316",
-          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 5316"
-        ],
         "5356": [
           "GATO 🐈 no primeiro prêmio!<br>com o palpite 5356",
           "GATO 🐈 no sexto prêmio!<br>com o palpite 5356"
         ],
-        "5616": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 5616",
-          "Dezena no quarto prêmio!<br>com o palpite 5616",
-          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 5616"
+        "5359": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5359",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5359"
         ],
         "5656": [
           "GATO 🐈 no primeiro prêmio!<br>com o palpite 5656",
           "GATO 🐈 no sexto prêmio!<br>com o palpite 5656"
         ],
-        "6316": [
-          "Dezena no quarto prêmio!<br>com o palpite 6316",
-          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 6316"
-        ],
-        "6356": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 6356",
-          "GATO 🐈 no sexto prêmio!<br>com o palpite 6356"
-        ],
-        "6616": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 6616",
-          "Dezena no quarto prêmio!<br>com o palpite 6616",
-          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 6616"
-        ],
-        "6656": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 6656",
-          "GATO 🐈 no sexto prêmio!<br>com o palpite 6656"
+        "5659": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5659",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5659"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 4,
+        "Centena": 0,
+        "Dezena": 2,
         "Grupo": [
           "🐈",
-          "🦋"
+          "🐊"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5316, 5356, 5366, 5616, 5656, 5666, 6316, 6356, 6366, 6616, 6656, 6666"
+      "resumo": "Palpites dados para esta extração: 5356, 5359, 5656, 5659"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
