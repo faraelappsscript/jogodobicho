@@ -120,6 +120,10 @@
             font-size: 0.9rem;
             white-space: nowrap;
             transition: all var(--transition-normal);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .palpite-row .select-group-btn:hover {
@@ -186,6 +190,10 @@
             font-size: 0.9rem;
             white-space: nowrap;
             transition: all var(--transition-normal);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .palpite-row .clear-btn:hover {
@@ -217,6 +225,10 @@
             letter-spacing: 0.5px;
             position: relative;
             overflow: hidden;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .action-buttons .btn.secondary {
@@ -592,18 +604,28 @@
             });
         }
 
-        // Função para sortear grupos aleatoriamente para as linhas vazias
+        // Função para sortear grupos aleatoriamente para todas as linhas
         function sortearGrupos() {
             const availableGroups = [...grupos]; // Copia para não modificar o original
-            document.querySelectorAll('.palpite-row').forEach(row => {
-                if (!row.dataset.grupoNumero) { // Se a linha não tem grupo selecionado
-                    if (availableGroups.length > 0) {
-                        const randomIndex = Math.floor(Math.random() * availableGroups.length);
-                        const selectedGroup = availableGroups.splice(randomIndex, 1)[0];
-                        selectGroup(selectedGroup.numero, selectedGroup.nome, selectedGroup.dezenas);
-                    }
+            const palpiteRows = document.querySelectorAll('.palpite-row');
+            
+            // Limpar todas as linhas primeiro
+            palpiteRows.forEach(row => {
+                clearRow(row);
+            });
+            
+            // Sortear grupos para todas as 4 linhas
+            palpiteRows.forEach((row, index) => {
+                if (availableGroups.length > 0) {
+                    const randomIndex = Math.floor(Math.random() * availableGroups.length);
+                    const selectedGroup = availableGroups.splice(randomIndex, 1)[0];
+                    
+                    // Definir a linha atual como a que está sendo processada
+                    currentSelectingRow = row;
+                    selectGroup(selectedGroup.numero, selectedGroup.nome, selectedGroup.dezenas);
                 }
             });
+            
             fillAllEmptyX(); // Preenche os 'x' após sortear os grupos
         }
 
@@ -747,10 +769,29 @@
                         ctx.textAlign = 'left';
                         ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 50 + imageSize + 20, startY + 30);
 
-                        // Números completos
+                        // Números completos em retângulos brancos
+                        const numbersText = rowData.fullNumbers.join(' ');
+                        const textX = 50 + imageSize + 20;
+                        const textY = startY + 65;
+                        
+                        // Medir o texto para criar o retângulo
                         ctx.font = 'bold 24px JetBrains Mono, monospace';
+                        const textMetrics = ctx.measureText(numbersText);
+                        const textWidth = textMetrics.width;
+                        const textHeight = 30; // Altura aproximada da fonte
+                        
+                        // Desenhar retângulo branco
                         ctx.fillStyle = 'white';
-                        ctx.fillText(rowData.fullNumbers.join(' '), 50 + imageSize + 20, startY + 65);
+                        ctx.fillRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
+                        
+                        // Desenhar borda do retângulo (opcional)
+                        ctx.strokeStyle = '#cccccc';
+                        ctx.lineWidth = 1;
+                        ctx.strokeRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
+                        
+                        // Desenhar texto em preto
+                        ctx.fillStyle = 'black';
+                        ctx.fillText(numbersText, textX, textY);
 
                         startY += rowHeight;
                     } catch (error) {
