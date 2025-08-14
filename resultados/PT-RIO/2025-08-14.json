@@ -150,95 +150,53 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "9738",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "2914",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "9767",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "8389",
+          "Grupo": "23",
+          "Bicho": "Urso"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "9222",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "6769",
+          "Milhar": "1770",
           "Grupo": "18",
           "Bicho": "Porco"
         },
         {
+          "Prêmio": "4º",
+          "Milhar": "3449",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
           "Prêmio": "5º",
-          "Milhar": "3568",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "1932",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "9064",
+          "Milhar": "8454",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "111",
+          "Milhar": "445",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
-        "3366": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 3366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3366"
+        "5356": [
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 5356"
         ],
-        "3666": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 3666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3666"
-        ],
-        "3966": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 3966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3966"
-        ],
-        "5366": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5366"
-        ],
-        "5666": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5666"
-        ],
-        "5966": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5966"
-        ],
-        "6366": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 6366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6366"
-        ],
-        "6666": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 6666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6666"
-        ],
-        "6966": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 6966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6966"
-        ],
-        "7366": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7366"
-        ],
-        "7666": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7666"
-        ],
-        "7966": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7966"
+        "5656": [
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 5656"
         ]
       },
       "acertos": {
@@ -246,10 +204,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐒"
+          "🐈"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3366, 3666, 3966, 5366, 5666, 5966, 6366, 6666, 6966, 7366, 7666, 7966"
+      "resumo": "Palpites dados para esta extração: 5356, 5359, 5656, 5659"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -774,124 +732,73 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "9738",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "2914",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "9767",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "8389",
+          "Grupo": "23",
+          "Bicho": "Urso"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "9222",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "6769",
+          "Milhar": "1770",
           "Grupo": "18",
           "Bicho": "Porco"
         },
         {
+          "Prêmio": "4º",
+          "Milhar": "3449",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
           "Prêmio": "5º",
-          "Milhar": "3568",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "9996",
-          "Grupo": "24",
-          "Bicho": "Veado"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "7727",
-          "Grupo": "07",
-          "Bicho": "Carneiro"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "3626",
-          "Grupo": "07",
-          "Bicho": "Carneiro"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "8729",
+          "Milhar": "1932",
           "Grupo": "08",
           "Bicho": "Camelo"
         },
         {
+          "Prêmio": "6º",
+          "Milhar": "2813",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "9374",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1874",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "4909",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
           "Prêmio": "10º",
-          "Milhar": "9142",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "7424",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         }
       ],
-      "frases": {
-        "3366": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 3366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3366"
-        ],
-        "3666": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 3666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3666"
-        ],
-        "3966": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 3966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3966"
-        ],
-        "5366": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5366"
-        ],
-        "5666": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5666"
-        ],
-        "5966": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 5966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5966"
-        ],
-        "6366": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 6366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6366"
-        ],
-        "6666": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 6666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6666"
-        ],
-        "6966": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 6966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6966"
-        ],
-        "7366": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7366"
-        ],
-        "7666": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7666"
-        ],
-        "7966": [
-          "MACACO 🐒 no segundo prêmio!<br>com o palpite 7966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7966"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐒"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3366, 3666, 3966, 5366, 5666, 5966, 6366, 6666, 6966, 7366, 7666, 7966"
+      "resumo": "Palpites dados para esta extração: 5356, 5359, 5656, 5659"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
