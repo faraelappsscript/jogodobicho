@@ -111,14 +111,46 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1414": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 1414"
+        ],
+        "1454": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1454",
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 1454"
+        ],
+        "1714": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 1714"
+        ],
+        "1754": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1754",
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 1754"
+        ],
+        "1814": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 1814"
+        ],
+        "1854": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1854",
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 1854"
+        ],
+        "1914": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 1914"
+        ],
+        "1954": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1954",
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 1954"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐈",
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1974"
+      "resumo": "Palpites dados para esta extração: 1414, 1454, 1474, 1484, 1714, 1754, 1774, 1784, 1814, 1854, 1874, 1884, 1914, 1954, 1974, 1984"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -171,14 +203,52 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1414": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1414",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1414"
+        ],
+        "1454": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 1454",
+          "Dezena no sexto prêmio!<br>com o palpite 1454",
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 1454"
+        ],
+        "1714": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1714",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1714"
+        ],
+        "1754": [
+          "Dezena no sexto prêmio!<br>com o palpite 1754",
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 1754"
+        ],
+        "1814": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1814",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1814"
+        ],
+        "1854": [
+          "Dezena no sexto prêmio!<br>com o palpite 1854",
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 1854"
+        ],
+        "1914": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 1914",
+          "Dezena no primeiro prêmio!<br>com o palpite 1914",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1914"
+        ],
+        "1954": [
+          "Dezena no sexto prêmio!<br>com o palpite 1954",
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 1954"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 2,
+        "Dezena": 8,
+        "Grupo": [
+          "🦋",
+          "🐈"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1974"
+      "resumo": "Palpites dados para esta extração: 1414, 1454, 1474, 1484, 1714, 1754, 1774, 1784, 1814, 1854, 1874, 1884, 1914, 1954, 1974, 1984"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -231,14 +301,34 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1454": [
+          "Dezena no quarto prêmio!<br>com o palpite 1454",
+          "GATO 🐈 no quarto prêmio!<br>com o palpite 1454"
+        ],
+        "1754": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 1754",
+          "Dezena no quarto prêmio!<br>com o palpite 1754",
+          "GATO 🐈 no quarto prêmio!<br>com o palpite 1754"
+        ],
+        "1854": [
+          "Dezena no quarto prêmio!<br>com o palpite 1854",
+          "GATO 🐈 no quarto prêmio!<br>com o palpite 1854"
+        ],
+        "1954": [
+          "Dezena no quarto prêmio!<br>com o palpite 1954",
+          "GATO 🐈 no quarto prêmio!<br>com o palpite 1954"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 1,
+        "Dezena": 4,
+        "Grupo": [
+          "🐈"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1974"
+      "resumo": "Palpites dados para esta extração: 1414, 1454, 1474, 1484, 1714, 1754, 1774, 1784, 1814, 1854, 1874, 1884, 1914, 1954, 1974, 1984"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -627,14 +717,42 @@
           "Bicho": "Camelo"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1414": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 1414"
+        ],
+        "1454": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1454"
+        ],
+        "1714": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 1714"
+        ],
+        "1754": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1754"
+        ],
+        "1814": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 1814"
+        ],
+        "1854": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1854"
+        ],
+        "1914": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 1914"
+        ],
+        "1954": [
+          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1954"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐈",
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1974"
+      "resumo": "Palpites dados para esta extração: 1414, 1454, 1474, 1484, 1714, 1754, 1774, 1784, 1814, 1854, 1874, 1884, 1914, 1954, 1974, 1984"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -706,6 +824,47 @@
         }
       ],
       "frases": {
+        "1414": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1414",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1414",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1414"
+        ],
+        "1474": [
+          "Dezena no sétimo prêmio!<br>com o palpite 1474",
+          "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 1474",
+          "Dezena no oitavo prêmio!<br>com o palpite 1474",
+          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 1474"
+        ],
+        "1714": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1714",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1714",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1714"
+        ],
+        "1774": [
+          "Dezena no sétimo prêmio!<br>com o palpite 1774",
+          "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 1774",
+          "Dezena no oitavo prêmio!<br>com o palpite 1774",
+          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 1774"
+        ],
+        "1814": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1814",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1814",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1814"
+        ],
+        "1874": [
+          "Dezena no sétimo prêmio!<br>com o palpite 1874",
+          "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 1874",
+          "Milhar e Centena no oitavo prêmio!<br>com o palpite 1874",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 1874",
+          "Dezena no oitavo prêmio!<br>com o palpite 1874",
+          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 1874"
+        ],
+        "1914": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 1914",
+          "Dezena no primeiro prêmio!<br>com o palpite 1914",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1914",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1914"
+        ],
         "1974": [
           "Dezena no sétimo prêmio!<br>com o palpite 1974",
           "PAVÃO 🦚 no sétimo prêmio!<br>com o palpite 1974",
@@ -714,14 +873,15 @@
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 2,
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 12,
         "Grupo": [
+          "🦋",
           "🦚"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1974"
+      "resumo": "Palpites dados para esta extração: 1414, 1454, 1474, 1484, 1714, 1754, 1774, 1784, 1814, 1854, 1874, 1884, 1914, 1954, 1974, 1984"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -792,14 +952,57 @@
           "Bicho": "Urso"
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "1414": [
+          "Dezena no nono prêmio!<br>com o palpite 1414",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 1414"
+        ],
+        "1454": [
+          "Dezena no quarto prêmio!<br>com o palpite 1454",
+          "GATO 🐈 no quarto prêmio!<br>com o palpite 1454",
+          "GATO 🐈 no oitavo prêmio!<br>com o palpite 1454"
+        ],
+        "1714": [
+          "Dezena no nono prêmio!<br>com o palpite 1714",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 1714"
+        ],
+        "1754": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 1754",
+          "Dezena no quarto prêmio!<br>com o palpite 1754",
+          "GATO 🐈 no quarto prêmio!<br>com o palpite 1754",
+          "GATO 🐈 no oitavo prêmio!<br>com o palpite 1754"
+        ],
+        "1814": [
+          "Milhar e Centena no nono prêmio!<br>com o palpite 1814",
+          "Centena e Dezena no nono prêmio!<br>com o palpite 1814",
+          "Dezena no nono prêmio!<br>com o palpite 1814",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 1814"
+        ],
+        "1854": [
+          "Dezena no quarto prêmio!<br>com o palpite 1854",
+          "GATO 🐈 no quarto prêmio!<br>com o palpite 1854",
+          "GATO 🐈 no oitavo prêmio!<br>com o palpite 1854"
+        ],
+        "1914": [
+          "Dezena no nono prêmio!<br>com o palpite 1914",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 1914"
+        ],
+        "1954": [
+          "Dezena no quarto prêmio!<br>com o palpite 1954",
+          "GATO 🐈 no quarto prêmio!<br>com o palpite 1954",
+          "GATO 🐈 no oitavo prêmio!<br>com o palpite 1954"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1974"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 8,
+        "Grupo": [
+          "🐈",
+          "🦋"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 1414, 1454, 1474, 1484, 1714, 1754, 1774, 1784, 1814, 1854, 1874, 1884, 1914, 1954, 1974, 1984"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
