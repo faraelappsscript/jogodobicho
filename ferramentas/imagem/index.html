@@ -1098,23 +1098,33 @@
                         const numbersText = rowData.fullNumbers.join(' ');
                         const textX = 50 + imageSize + 20;
                         const textY = startY + 85;
-
-                        // Fundo branco para os números
+                        
+                        // Medir o texto para criar o retângulo
+                        ctx.font = 'bold 32px JetBrains Mono, monospace';
+                        const textMetrics = ctx.measureText(numbersText);
+                        const textWidth = textMetrics.width;
+                        const textHeight = 40; // Altura aproximada da fonte
+                        
+                        // Desenhar retângulo branco
                         ctx.fillStyle = 'white';
-                        ctx.fillRect(textX - 10, textY - 30, 300, 40);
-
-                        // Texto dos números
-                        ctx.font = 'bold 24px JetBrains Mono, monospace';
+                        ctx.fillRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
+                        
+                        // Desenhar borda do retângulo (opcional)
+                        ctx.strokeStyle = '#cccccc';
+                        ctx.lineWidth = 1;
+                        ctx.strokeRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
+                        
+                        // Desenhar texto em preto
                         ctx.fillStyle = 'black';
                         ctx.fillText(numbersText, textX, textY);
 
                         startY += rowHeight;
                     } catch (error) {
                         console.error('Erro ao carregar imagem do grupo:', error);
+                        // Continuar com o próximo grupo mesmo se houver erro
                         startY += rowHeight;
                     }
                 }
-
 
                 // Logo do site
                 try {
@@ -1132,64 +1142,68 @@
                             resolve();
                         };
                     });
+                    
+                    if (logoImage.complete && logoImage.naturalWidth > 0) {
+                        ctx.drawImage(logoImage, canvas.width / 2 - 75, canvas.height - 90, 150, 75);
+                    } else {
+                        // Fallback para texto
+                        ctx.font = 'bold 20px Inter, sans-serif';
+                        ctx.fillStyle = 'white';
+                        ctx.textAlign = 'center';
+                        ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
+                    }
+                } catch (error) {
+                    console.error('Erro ao carregar logo:', error);
+                    // Fallback para texto
+                    ctx.font = 'bold 20px Inter, sans-serif';
+                    ctx.fillStyle = 'white';
+                    ctx.textAlign = 'center';
+                    ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
+                }
 
-
-                // Converter canvas para imagem e exibir no modal
                 const imageDataUrl = canvas.toDataURL('image/png');
-                const generatedImage = document.getElementById('generatedImage');
-                generatedImage.src = imageDataUrl;
+                document.getElementById('generatedImage').src = imageDataUrl;
                 openModal('imagePreviewModal');
 
             } catch (error) {
                 console.error('Erro ao gerar imagem:', error);
-                alert('Erro ao gerar a imagem. Tente novamente.');
+                alert('Erro ao gerar a imagem. Por favor, tente novamente.');
             }
         }
 
-        // Função para baixar a imagem gerada
+        // Função para download da imagem gerada
         function downloadGeneratedImage() {
-            const generatedImage = document.getElementById('generatedImage');
-            if (generatedImage.src) {
-                const link = document.createElement('a');
-                link.download = 'palpites-do-dia.png';
-                link.href = generatedImage.src;
-                link.click();
-            }
+            const image = document.getElementById('generatedImage').src;
+            const link = document.createElement('a');
+            link.href = image;
+            link.download = 'palpite_77xbrasil.png';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         }
 
-        // Função para compartilhar a imagem
-        function shareGeneratedImage() {
-            const generatedImage = document.getElementById('generatedImage');
-            if (generatedImage.src && navigator.share) {
-                // Converter data URL para blob
-                fetch(generatedImage.src)
-                    .then(res => res.blob())
-                    .then(blob => {
-                        const file = new File([blob], 'palpites-do-dia.png', { type: 'image/png' });
-                        navigator.share({
-                            title: 'Palpites do Dia',
-                            text: 'Confira os palpites do dia!',
-                            files: [file]
-                        });
-                    })
-                    .catch(err => {
-                        console.error('Erro ao compartilhar:', err);
-                        // Fallback: copiar link para clipboard
-                        navigator.clipboard.writeText(window.location.href);
-                        alert('Link copiado para a área de transferência!');
-                    });
+        // Função para compartilhar a imagem gerada (usando a função existente do script.js)
+        async function shareGeneratedImage() {
+            const imageBlob = await (await fetch(document.getElementById('generatedImage').src)).blob();
+            if (navigator.share && navigator.canShare({
+                    files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })]
+                })) {
+                await navigator.share({
+                    files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })],
+                    title: 'Meu Palpite 77x Brasil',
+                    text: 'Confira meu palpite para o jogo do bicho!'
+                });
             } else {
-                // Fallback para navegadores que não suportam Web Share API
-                navigator.clipboard.writeText(window.location.href);
-                alert('Link copiado para a área de transferência!');
+                alert('Compartilhamento não suportado neste navegador. Por favor, baixe a imagem e compartilhe manualmente.');
             }
         }
 
-        // Funções auxiliares para modais (assumindo que existem no script.js)
+        // Funções de Modal (reutilizadas do script.js, se existirem, ou definidas aqui)
         function openModal(modalId) {
             const modal = document.getElementById(modalId);
             if (modal) {
-                modal.style.display = 'block';
+                modal.style.display = 'flex';
+                document.body.classList.add('modal-open');
             }
         }
 
@@ -1197,6 +1211,7 @@
             const modal = document.getElementById(modalId);
             if (modal) {
                 modal.style.display = 'none';
+                document.body.classList.remove('modal-open');
             }
         }
 
@@ -1208,13 +1223,13 @@
         });
     </script>
 
-  <footer class="site-footer">
-    <div class="footer-content">
-      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
-      <p class="site-domain" id="siteDomain"></p>
-      <p class="copyright-text" id="copyrightText"></p>
-    </div>
-  </footer>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
+            <p class="site-domain" id="siteDomain"></p>
+            <p class="copyright-text" id="copyrightText"></p>
+        </div>
+    </footer>
 </body>
 </html>
 
