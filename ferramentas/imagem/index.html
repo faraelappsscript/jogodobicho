@@ -1115,6 +1115,25 @@
                     }
                 }
 
+
+                // Logo do site
+                try {
+                    const logoImage = new Image();
+                    logoImage.crossOrigin = 'anonymous';
+                    logoImage.src = '/assets/img/logo.webp';
+                    await new Promise((resolve, reject) => {
+                        logoImage.onload = resolve;
+                        logoImage.onerror = () => {
+                            // Se não conseguir carregar o logo, desenhar texto
+                            ctx.font = 'bold 16px Inter, sans-serif';
+                            ctx.fillStyle = 'white';
+                            ctx.textAlign = 'center';
+                            ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
+                            resolve();
+                        };
+                    });
+
+
                 // Converter canvas para imagem e exibir no modal
                 const imageDataUrl = canvas.toDataURL('image/png');
                 const generatedImage = document.getElementById('generatedImage');
@@ -1188,6 +1207,14 @@
             }
         });
     </script>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
+      <p class="site-domain" id="siteDomain"></p>
+      <p class="copyright-text" id="copyrightText"></p>
+    </div>
+  </footer>
 </body>
 </html>
 
