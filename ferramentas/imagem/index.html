@@ -700,6 +700,7 @@
             <div class="action-buttons">
                 <button class="btn" id="preencher-btn">Preencher</button>
                 <button class="btn secondary" id="sortear-grupos-btn">Sortear Grupos</button>
+                <button class="btn secondary" id="apagar-btn">Apagar</button>
                 <button class="btn" id="visualizar-btn">Visualizar</button>
             </div>
         </div>
@@ -874,6 +875,7 @@
             // Event Listeners para os botões de ação globais
             document.getElementById('preencher-btn').addEventListener('click', fillAllEmptyX);
             document.getElementById('sortear-grupos-btn').addEventListener('click', sortearGrupos);
+            document.getElementById('apagar-btn').addEventListener('click', clearAll);
             document.getElementById('visualizar-btn').addEventListener('click', visualizeImage);
             document.getElementById('downloadImageBtn').addEventListener('click', downloadGeneratedImage);
             document.getElementById('shareImageBtn').addEventListener('click', shareGeneratedImage);
@@ -916,6 +918,13 @@
             rowElement.querySelectorAll('.input-y').forEach(span => span.textContent = '');
         }
 
+        // Função para limpar todas as linhas (botão 'Apagar' global)
+        function clearAll() {
+            document.querySelectorAll('.palpite-row').forEach(row => {
+                clearRow(row);
+            });
+        }
+
         // Função para preencher todos os campos 'x' vazios aleatoriamente
         function fillAllEmptyX() {
             document.querySelectorAll('.palpite-row').forEach(row => {
@@ -932,12 +941,7 @@
             const availableGroups = [...grupos]; // Copia para não modificar o original
             const palpiteRows = document.querySelectorAll('.palpite-row');
             
-            // Limpar todas as linhas primeiro
-            palpiteRows.forEach(row => {
-                clearRow(row);
-            });
-            
-            // Sortear grupos para todas as 4 linhas
+            // Sortear grupos para todas as 4 linhas (SEM limpar os campos de entrada)
             palpiteRows.forEach((row, index) => {
                 if (availableGroups.length > 0) {
                     const randomIndex = Math.floor(Math.random() * availableGroups.length);
@@ -945,7 +949,17 @@
                     
                     // Definir a linha atual como a que está sendo processada
                     currentSelectingRow = row;
-                    selectGroup(selectedGroup.numero, selectedGroup.nome, selectedGroup.dezenas);
+                    
+                    // Apenas definir o grupo, mantendo os valores dos campos input-x
+                    row.dataset.grupoNumero = selectedGroup.numero;
+                    row.dataset.grupoNome = selectedGroup.nome;
+                    row.querySelector('.group-info').textContent = `Grupo ${selectedGroup.numero} ${selectedGroup.nome}:`;
+                    const inputYs = row.querySelectorAll('.input-y');
+                    selectedGroup.dezenas.forEach((dezena, index) => {
+                        if (inputYs[index]) {
+                            inputYs[index].textContent = dezena;
+                        }
+                    });
                 }
             });
         }
