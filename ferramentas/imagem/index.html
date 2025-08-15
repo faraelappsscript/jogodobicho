@@ -12,417 +12,1197 @@
     <link rel="stylesheet" href="/assets/fonts/jetbrains-mono.css">
     <link rel="preload" href="/theme.css" as="style">
     <link rel="stylesheet" href="/theme.css">
-</head>
-<body>
-    <!-- Navegação usando classes do theme.css -->
-    <nav class="breadcrumb-nav">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-                <a href="/" class="breadcrumb-link">Início</a>
-            </li>
-            <li class="breadcrumb-item">
-                <a href="/ferramentas/" class="breadcrumb-link">Ferramentas</a>
-            </li>
-            <li class="breadcrumb-item breadcrumb-current">
-                Criar Imagem de Divulgação
-            </li>
-        </ol>
-    </nav>
-
-    <!-- Container principal -->
-    <div class="container">
-        <!-- Header da página -->
-        <div class="header">
-            <h1>CRIE UMA IMAGEM DE DIVULGAÇÃO</h1>
-            <p class="subtitle">Configure seus palpites e gere uma imagem profissional</p>
-        </div>
-
-        <!-- Card principal usando classes do theme.css -->
-        <div class="card">
-            <div class="card-header">
-                <h2 class="card-title">PALPITES DO DIA</h2>
-            </div>
-            <div class="card-body">
-                <!-- Linha 1 -->
-                <div class="palpite-row">
-                    <button class="btn btn-primary" onclick="abrirModalGrupo(1)">
-                        Selecionar Grupo
-                    </button>
-                    <div class="input-xy-container">
-                        <div class="input-xy">
-                            <input type="number" class="input-x" id="x1_1" min="0" max="99" placeholder="00">
-                            <input type="number" class="input-y" id="y1_1" readonly>
-                        </div>
-                        <div class="input-xy">
-                            <input type="number" class="input-x" id="x2_1" min="0" max="99" placeholder="00">
-                            <input type="number" class="input-y" id="y2_1" readonly>
-                        </div>
-                    </div>
-                    <button class="btn btn-primary" onclick="limparLinha(1)">
-                        Apagar
-                    </button>
-                </div>
-
-                <!-- Linha 2 -->
-                <div class="palpite-row">
-                    <button class="btn btn-primary" onclick="abrirModalGrupo(2)">
-                        Selecionar Grupo
-                    </button>
-                    <div class="input-xy-container">
-                        <div class="input-xy">
-                            <input type="number" class="input-x" id="x1_2" min="0" max="99" placeholder="00">
-                            <input type="number" class="input-y" id="y1_2" readonly>
-                        </div>
-                        <div class="input-xy">
-                            <input type="number" class="input-x" id="x2_2" min="0" max="99" placeholder="00">
-                            <input type="number" class="input-y" id="y2_2" readonly>
-                        </div>
-                    </div>
-                    <button class="btn btn-primary" onclick="limparLinha(2)">
-                        Apagar
-                    </button>
-                </div>
-
-                <!-- Linha 3 -->
-                <div class="palpite-row">
-                    <button class="btn btn-primary" onclick="abrirModalGrupo(3)">
-                        Selecionar Grupo
-                    </button>
-                    <div class="input-xy-container">
-                        <div class="input-xy">
-                            <input type="number" class="input-x" id="x1_3" min="0" max="99" placeholder="00">
-                            <input type="number" class="input-y" id="y1_3" readonly>
-                        </div>
-                        <div class="input-xy">
-                            <input type="number" class="input-x" id="x2_3" min="0" max="99" placeholder="00">
-                            <input type="number" class="input-y" id="y2_3" readonly>
-                        </div>
-                    </div>
-                    <button class="btn btn-primary" onclick="limparLinha(3)">
-                        Apagar
-                    </button>
-                </div>
-
-                <!-- Linha 4 -->
-                <div class="palpite-row">
-                    <button class="btn btn-primary" onclick="abrirModalGrupo(4)">
-                        Selecionar Grupo
-                    </button>
-                    <div class="input-xy-container">
-                        <div class="input-xy">
-                            <input type="number" class="input-x" id="x1_4" min="0" max="99" placeholder="00">
-                            <input type="number" class="input-y" id="y1_4" readonly>
-                        </div>
-                        <div class="input-xy">
-                            <input type="number" class="input-x" id="x2_4" min="0" max="99" placeholder="00">
-                            <input type="number" class="input-y" id="y2_4" readonly>
-                        </div>
-                    </div>
-                    <button class="btn btn-primary" onclick="limparLinha(4)">
-                        Apagar
-                    </button>
-                </div>
-            </div>
-            
-            <!-- Footer do card com botões de ação -->
-            <div class="card-footer">
-                <button class="btn btn-gold" onclick="preencherAutomatico()">
-                    Preencher
-                </button>
-                <button class="btn btn-accent" onclick="sortearGrupos()">
-                    Sortear Grupos
-                </button>
-                <button class="btn btn-primary" onclick="visualizarImagem()">
-                    Visualizar
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal de seleção de grupo usando classes do theme.css -->
-    <div id="modalGrupo" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title">Selecionar Grupo</h3>
-                <button class="close-btn" onclick="fecharModalGrupo()">&times;</button>
-            </div>
-            <div class="modal-body">
-                <ul class="lottery-list" id="listaGrupos">
-                    <!-- Lista de grupos será preenchida dinamicamente -->
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal de visualização da imagem usando classes do theme.css -->
-    <div id="imageModal" class="image-modal">
-        <div class="image-modal-content">
-            <div class="image-modal-header">
-                <h3 class="image-modal-title">Imagem de Divulgação</h3>
-                <button class="image-modal-close" onclick="fecharImageModal()">&times;</button>
-            </div>
-            <div class="image-modal-body">
-                <img id="generatedImage" src="" alt="Imagem gerada">
-            </div>
-            <div class="image-modal-footer">
-                <a href="#" class="btn download-btn" id="downloadBtn" download="palpites.png">
-                    Baixar
-                </a>
-                <button class="btn share-btn" onclick="compartilharImagem()">
-                    Compartilhar
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Estilos específicos mínimos para esta página -->
+    
+    <!-- ESTILOS PERSONALIZADOS PARA ESTA PÁGINA -->
     <style>
-        /* Estilos específicos apenas para elementos não cobertos pelo theme.css */
+        /* Estilos específicos da página imagem.html */
+        body {
+            background-color: var(--bg-primary);
+            background-image: 
+                radial-gradient(circle at 15% 25%, rgba(59, 130, 246, 0.1), transparent 40%),
+                radial-gradient(circle at 85% 75%, rgba(139, 92, 246, 0.1), transparent 40%);
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            padding: var(--spacing-md);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: var(--spacing-xl);
+            padding-top: var(--spacing-lg);
+        }
+
+        .main-title {
+            font-size: clamp(2.5rem, 6vw, 3.5rem);
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: var(--spacing-md);
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            background: var(--gradient-accent);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: var(--text-primary);
+        }
+
+        .palpites-card {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            margin-bottom: var(--spacing-xl);
+            border: 1px solid var(--border-color);
+            transition: all var(--transition-normal);
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            max-width: 700px;
+        }
+
+        .palpites-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-primary);
+            opacity: 0.8;
+        }
+
+        .palpites-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--border-accent);
+        }
+
+        .card-subtitle {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: var(--spacing-md);
+            font-family: 'Inter', sans-serif;
+        }
+
         .palpite-row {
             display: flex;
             align-items: center;
-            gap: var(--spacing-md);
+            gap: var(--spacing-sm);
             margin-bottom: var(--spacing-md);
             flex-wrap: wrap;
             padding: var(--spacing-md);
-            background: var(--bg-secondary);
+            background: var(--bg-card);
             border-radius: var(--radius-md);
             border: 1px solid var(--border-color);
         }
 
-        .input-xy-container {
+        .palpite-row .select-group-btn {
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: var(--radius-md);
+            background: var(--gradient-primary);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            white-space: nowrap;
+            transition: all var(--transition-normal);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .palpite-row .select-group-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .palpite-row .group-info {
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-right: var(--spacing-sm);
+        }
+
+        .palpite-row .input-xy-container {
             display: flex;
             gap: var(--spacing-sm);
             flex-wrap: wrap;
         }
 
-        .input-xy {
+        .palpite-row .input-xy {
             display: flex;
             align-items: center;
             gap: 2px;
-            background: var(--bg-card);
+            background: var(--bg-secondary);
             border-radius: var(--radius-sm);
             padding: 2px;
         }
 
-        .input-x, .input-y {
+        .palpite-row .input-x, .palpite-row .input-y {
             width: 35px;
             height: 35px;
             border-radius: var(--radius-sm);
             border: 1px solid var(--border-color);
-            background-color: var(--bg-card);
             color: var(--text-primary);
             text-align: center;
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.9rem;
             font-weight: 600;
-            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        .input-y {
+        .palpite-row .input-x {
+            background-color: var(--bg-card);
+        }
+
+        .palpite-row .input-y {
             background-color: var(--bg-primary);
             cursor: not-allowed;
             border: none;
             color: var(--accent-success);
         }
 
-        .input-x:focus {
-            border-color: var(--accent-primary);
-            box-shadow: 0 0 0 3px rgba(79, 162, 232, 0.2);
+        .palpite-row .clear-btn {
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: var(--radius-md);
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            white-space: nowrap;
+            transition: all var(--transition-normal);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        /* Responsividade */
+        .palpite-row .clear-btn:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--border-accent);
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-xl);
+            flex-wrap: wrap;
+        }
+
+        .action-buttons .btn {
+            padding: var(--spacing-md) var(--spacing-xl);
+            border-radius: var(--radius-md);
+            background: var(--gradient-primary);
+            color: white;
+            border: none;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-normal);
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .action-buttons .btn.secondary {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+        }
+
+        .action-buttons .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-xl), var(--shadow-glow);
+        }
+
+        /* Modal de seleção de grupo */
+        .modal-group-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .modal-group-list li {
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+
+        .modal-group-list li:last-child {
+            border-bottom: none;
+        }
+
+        .modal-group-list li:hover {
+            background-color: var(--bg-card-hover);
+        }
+
+        /* Estilos para a imagem gerada no modal de visualização */
+        .generated-image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .generated-image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        /* Modal de visualização da imagem */
+        .image-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(5px);
+        }
+
+        .image-modal-content {
+            position: relative;
+            background-color: var(--bg-card);
+            margin: 2% auto;
+            padding: 0;
+            border-radius: var(--radius-lg);
+            width: 90%;
+            max-width: 800px;
+            max-height: 90vh;
+            box-shadow: var(--shadow-2xl);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .image-modal-header {
+            padding: var(--spacing-lg);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-secondary);
+        }
+
+        .image-modal-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 0;
+        }
+
+        .image-modal-close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text-secondary);
+            padding: var(--spacing-xs);
+            border-radius: var(--radius-sm);
+            transition: all var(--transition-normal);
+        }
+
+        .image-modal-close:hover {
+            background-color: var(--bg-card-hover);
+            color: var(--text-primary);
+        }
+
+        .image-modal-body {
+            padding: var(--spacing-lg);
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: auto;
+        }
+
+        .image-modal-body img {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .image-modal-footer {
+            padding: var(--spacing-lg);
+            border-top: 1px solid var(--border-color);
+            background: var(--bg-secondary);
+            display: flex;
+            justify-content: center;
+            gap: var(--spacing-md);
+        }
+
+        .image-modal-footer .btn {
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: var(--radius-md);
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            white-space: nowrap;
+            transition: all var(--transition-normal);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            min-width: 120px;
+        }
+
+        .image-modal-footer .btn:hover {
+            background-color: var(--bg-card-hover);
+            border-color: var(--border-accent);
+            transform: translateY(-1px);
+        }
+
+        /* Estilos para o footer */
+        .site-footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: var(--spacing-lg) 0;
+            margin-top: var(--spacing-2xl);
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+
+        .footer-logo {
+            max-width: 100px;
+            height: auto;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .site-domain, .copyright-text {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin: var(--spacing-xs) 0;
+        }
+
+        /* Responsividade melhorada */
         @media (max-width: 767px) {
+            .main-title { 
+                font-size: clamp(1.8rem, 5vw, 2.2rem); 
+                margin-bottom: var(--spacing-lg);
+            }
+            
+            .card-subtitle {
+                font-size: clamp(1.2rem, 3.5vw, 1.4rem);
+                margin-bottom: var(--spacing-lg);
+            }
+            
+            .palpites-card {
+                padding: var(--spacing-md);
+                margin-bottom: var(--spacing-lg);
+            }
+            
             .palpite-row {
                 flex-direction: column;
                 align-items: stretch;
                 gap: var(--spacing-md);
+                padding: var(--spacing-md);
             }
 
-            .palpite-row .btn {
+            .palpite-row .select-group-btn, 
+            .palpite-row .clear-btn {
                 width: 100%;
+                padding: var(--spacing-md);
+                font-size: 1rem;
                 margin-bottom: var(--spacing-sm);
             }
 
-            .input-xy-container {
+            .palpite-row .group-info {
+                text-align: center;
+                margin: 0;
+                font-size: 1rem;
+                margin-bottom: var(--spacing-sm);
+            }
+
+            .palpite-row .input-xy-container {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 gap: var(--spacing-sm);
                 width: 100%;
             }
 
-            .input-xy {
+            .palpite-row .input-xy {
                 justify-content: center;
                 padding: var(--spacing-sm);
+                background: var(--bg-secondary);
+                border-radius: var(--radius-md);
             }
 
-            .input-x, .input-y {
+            .palpite-row .input-x, 
+            .palpite-row .input-y {
                 width: 45px;
                 height: 45px;
                 font-size: 1rem;
                 font-weight: 700;
             }
+
+            .action-buttons {
+                flex-direction: column;
+                gap: var(--spacing-md);
+                margin-top: var(--spacing-lg);
+            }
+
+            .action-buttons .btn {
+                width: 100%;
+                padding: var(--spacing-lg);
+                font-size: 1rem;
+                letter-spacing: 0.3px;
+            }
+
+            /* Modal responsivo */
+            .modal-content {
+                width: 95%;
+                max-width: none;
+                margin: var(--spacing-sm);
+            }
+
+            .modal-body {
+                padding: var(--spacing-md);
+                max-height: 70vh;
+            }
+
+            .modal-group-list li {
+                padding: var(--spacing-md);
+                font-size: 0.9rem;
+                line-height: 1.4;
+            }
+
+            /* Modal de imagem responsivo */
+            .image-modal-content {
+                width: 95%;
+                max-width: none;
+                margin: var(--spacing-sm);
+                max-height: 95vh;
+            }
+
+            .image-modal-header {
+                padding: var(--spacing-sm);
+            }
+
+            .image-modal-title {
+                font-size: 1.1rem;
+            }
+
+            .image-modal-body {
+                padding: var(--spacing-md);
+            }
+
+            .image-modal-footer {
+                padding: var(--spacing-md);
+                flex-direction: row;
+                gap: var(--spacing-sm);
+            }
+
+            .image-modal-footer .btn {
+                width: 100%;
+                min-width: auto;
+                padding: var(--spacing-md);
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: var(--spacing-sm);
+            }
+            
+            .header {
+                margin-bottom: var(--spacing-lg);
+                padding-top: var(--spacing-md);
+            }
+            
+            .main-title {
+                font-size: clamp(1.5rem, 4vw, 1.8rem);
+                margin-bottom: var(--spacing-md);
+            }
+            
+            .card-subtitle {
+                font-size: clamp(1rem, 3vw, 1.2rem);
+                margin-bottom: var(--spacing-md);
+            }
+            
+            .palpites-card {
+                padding: var(--spacing-sm);
+                margin-bottom: var(--spacing-md);
+            }
+            
+            .palpite-row {
+                padding: var(--spacing-sm);
+                gap: var(--spacing-sm);
+            }
+
+            .palpite-row .input-x, 
+            .palpite-row .input-y {
+                width: 40px;
+                height: 40px;
+                font-size: 0.9rem;
+            }
+
+            .action-buttons {
+                margin-top: var(--spacing-md);
+                gap: var(--spacing-sm);
+            }
+
+            .action-buttons .btn {
+                padding: var(--spacing-md);
+                font-size: 0.9rem;
+                letter-spacing: 0.2px;
+            }
         }
     </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="main-title">CRIE UMA IMAGEM DE DIVULGAÇÃO</h1>
+        </div>
 
-    <!-- Scripts originais mantidos -->
+        <div class="palpites-card">
+            <h2 class="card-subtitle">Configure seus palpites</h2>
+            
+            <!-- Linha 1 -->
+            <div class="palpite-row" data-grupo-numero="" data-grupo-nome="">
+                <button class="select-group-btn">Selecionar Grupo</button>
+                <span class="group-info"></span>
+                <div class="input-xy-container">
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                </div>
+                <button class="clear-btn">Limpar</button>
+            </div>
+
+            <!-- Linha 2 -->
+            <div class="palpite-row" data-grupo-numero="" data-grupo-nome="">
+                <button class="select-group-btn">Selecionar Grupo</button>
+                <span class="group-info"></span>
+                <div class="input-xy-container">
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                </div>
+                <button class="clear-btn">Limpar</button>
+            </div>
+
+            <!-- Linha 3 -->
+            <div class="palpite-row" data-grupo-numero="" data-grupo-nome="">
+                <button class="select-group-btn">Selecionar Grupo</button>
+                <span class="group-info"></span>
+                <div class="input-xy-container">
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                </div>
+                <button class="clear-btn">Limpar</button>
+            </div>
+
+            <!-- Linha 4 -->
+            <div class="palpite-row" data-grupo-numero="" data-grupo-nome="">
+                <button class="select-group-btn">Selecionar Grupo</button>
+                <span class="group-info"></span>
+                <div class="input-xy-container">
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                    <div class="input-xy">
+                        <input type="text" class="input-x" maxlength="2" placeholder="00">
+                        <span class="input-y"></span>
+                    </div>
+                </div>
+                <button class="clear-btn">Limpar</button>
+            </div>
+
+            <div class="action-buttons">
+                <button id="preencher-btn" class="btn secondary">Preencher Aleatório</button>
+                <button id="sortear-grupos-btn" class="btn secondary">Sortear Grupos</button>
+                <button id="visualizar-btn" class="btn">Visualizar Imagem</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de seleção de grupo -->
+    <div id="groupSelectionModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Selecione um Grupo</h3>
+                <button class="close-btn" onclick="closeModal('groupSelectionModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <ul class="modal-group-list" id="groupList">
+                    <!-- Lista de grupos será preenchida via JavaScript -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de visualização da imagem -->
+    <div id="imagePreviewModal" class="image-modal">
+        <div class="image-modal-content">
+            <div class="image-modal-header">
+                <h3 class="image-modal-title">Sua Imagem de Palpite</h3>
+                <button class="image-modal-close" onclick="closeModal('imagePreviewModal')">&times;</button>
+            </div>
+            <div class="image-modal-body">
+                <img id="generatedImage" src="" alt="Imagem gerada">
+            </div>
+            <div class="image-modal-footer">
+                <button id="downloadImageBtn" class="btn">Baixar Imagem</button>
+                <button id="shareImageBtn" class="btn">Compartilhar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <img src="/assets/img/logo.webp" alt="77x Brasil" class="footer-logo">
+            <p class="site-domain">77xbrasil.com</p>
+            <p class="copyright-text">© 2024 77x Brasil. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
     <script>
-        // Variáveis globais
-        let linhaAtual = 0;
-        let grupos = [
-            { nome: "Avestruz", numeros: [1, 2, 3, 4] },
-            { nome: "Águia", numeros: [5, 6, 7, 8] },
-            { nome: "Burro", numeros: [9, 10, 11, 12] },
-            { nome: "Borboleta", numeros: [13, 14, 15, 16] },
-            { nome: "Cachorro", numeros: [17, 18, 19, 20] },
-            { nome: "Cabra", numeros: [21, 22, 23, 24] },
-            { nome: "Carneiro", numeros: [25, 26, 27, 28] },
-            { nome: "Camelo", numeros: [29, 30, 31, 32] },
-            { nome: "Cobra", numeros: [33, 34, 35, 36] },
-            { nome: "Coelho", numeros: [37, 38, 39, 40] },
-            { nome: "Cavalo", numeros: [41, 42, 43, 44] },
-            { nome: "Elefante", numeros: [45, 46, 47, 48] },
-            { nome: "Galo", numeros: [49, 50, 51, 52] },
-            { nome: "Gato", numeros: [53, 54, 55, 56] },
-            { nome: "Jacaré", numeros: [57, 58, 59, 60] },
-            { nome: "Leão", numeros: [61, 62, 63, 64] },
-            { nome: "Macaco", numeros: [65, 66, 67, 68] },
-            { nome: "Porco", numeros: [69, 70, 71, 72] },
-            { nome: "Pavão", numeros: [73, 74, 75, 76] },
-            { nome: "Peru", numeros: [77, 78, 79, 80] },
-            { nome: "Touro", numeros: [81, 82, 83, 84] },
-            { nome: "Tigre", numeros: [85, 86, 87, 88] },
-            { nome: "Urso", numeros: [89, 90, 91, 92] },
-            { nome: "Veado", numeros: [93, 94, 95, 96] },
-            { nome: "Vaca", numeros: [97, 98, 99, 0] }
+        // Dados dos grupos do jogo do bicho
+        const grupos = [
+            { numero: 1, nome: 'Avestruz', dezenas: ['01', '02', '03', '04'] },
+            { numero: 2, nome: 'Águia', dezenas: ['05', '06', '07', '08'] },
+            { numero: 3, nome: 'Burro', dezenas: ['09', '10', '11', '12'] },
+            { numero: 4, nome: 'Borboleta', dezenas: ['13', '14', '15', '16'] },
+            { numero: 5, nome: 'Cachorro', dezenas: ['17', '18', '19', '20'] },
+            { numero: 6, nome: 'Cabra', dezenas: ['21', '22', '23', '24'] },
+            { numero: 7, nome: 'Carneiro', dezenas: ['25', '26', '27', '28'] },
+            { numero: 8, nome: 'Camelo', dezenas: ['29', '30', '31', '32'] },
+            { numero: 9, nome: 'Cobra', dezenas: ['33', '34', '35', '36'] },
+            { numero: 10, nome: 'Coelho', dezenas: ['37', '38', '39', '40'] },
+            { numero: 11, nome: 'Cavalo', dezenas: ['41', '42', '43', '44'] },
+            { numero: 12, nome: 'Elefante', dezenas: ['45', '46', '47', '48'] },
+            { numero: 13, nome: 'Galo', dezenas: ['49', '50', '51', '52'] },
+            { numero: 14, nome: 'Gato', dezenas: ['53', '54', '55', '56'] },
+            { numero: 15, nome: 'Jacaré', dezenas: ['57', '58', '59', '60'] },
+            { numero: 16, nome: 'Leão', dezenas: ['61', '62', '63', '64'] },
+            { numero: 17, nome: 'Macaco', dezenas: ['65', '66', '67', '68'] },
+            { numero: 18, nome: 'Porco', dezenas: ['69', '70', '71', '72'] },
+            { numero: 19, nome: 'Pavão', dezenas: ['73', '74', '75', '76'] },
+            { numero: 20, nome: 'Peru', dezenas: ['77', '78', '79', '80'] },
+            { numero: 21, nome: 'Touro', dezenas: ['81', '82', '83', '84'] },
+            { numero: 22, nome: 'Tigre', dezenas: ['85', '86', '87', '88'] },
+            { numero: 23, nome: 'Urso', dezenas: ['89', '90', '91', '92'] },
+            { numero: 24, nome: 'Veado', dezenas: ['93', '94', '95', '96'] },
+            { numero: 25, nome: 'Vaca', dezenas: ['97', '98', '99', '00'] }
         ];
 
-        // Função para abrir modal de grupo
-        function abrirModalGrupo(linha) {
-            linhaAtual = linha;
-            const modal = document.getElementById('modalGrupo');
-            const lista = document.getElementById('listaGrupos');
-            
-            // Limpar lista
-            lista.innerHTML = '';
-            
-            // Adicionar grupos
-            grupos.forEach((grupo, index) => {
+        let currentSelectingRow = null;
+
+        // Função para abrir modal
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = 'flex';
+            document.body.classList.add('modal-open');
+        }
+
+        // Função para fechar modal
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+            document.body.classList.remove('modal-open');
+        }
+
+        // Inicialização quando a página carrega
+        document.addEventListener('DOMContentLoaded', function() {
+            // Preencher lista de grupos no modal
+            const groupList = document.getElementById('groupList');
+            grupos.forEach(grupo => {
                 const li = document.createElement('li');
-                li.textContent = `${grupo.nome} (${grupo.numeros.join(', ')})`;
-                li.onclick = () => selecionarGrupo(index);
-                lista.appendChild(li);
+                li.textContent = `Grupo ${grupo.numero} - ${grupo.nome} (${grupo.dezenas.join(', ')})`;
+                li.dataset.grupoNumero = grupo.numero;
+                li.dataset.grupoNome = grupo.nome;
+                li.dataset.grupoDezenas = grupo.dezenas.join(',');
+                li.addEventListener('click', function() {
+                    selectGroup(this.dataset.grupoNumero, this.dataset.grupoNome, this.dataset.grupoDezenas.split(','));
+                });
+                groupList.appendChild(li);
+            });
+
+            // Event Listeners para os botões de cada linha
+            document.querySelectorAll('.select-group-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    currentSelectingRow = this.closest('.palpite-row');
+                    openModal('groupSelectionModal');
+                });
+            });
+
+            document.querySelectorAll('.clear-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    clearRow(this.closest('.palpite-row'));
+                });
+            });
+
+            // Adicionar validação aos inputs de número
+            document.addEventListener('input', function(e) {
+                if (e.target.classList.contains('input-x')) {
+                    // Permitir apenas números
+                    e.target.value = e.target.value.replace(/[^0-9]/g, '');
+                    // Garantir que tenha no máximo 2 dígitos
+                    if (e.target.value.length > 2) {
+                        e.target.value = e.target.value.slice(0, 2);
+                    }
+                    // Preencher com zero à esquerda se necessário
+                    if (e.target.value.length === 1 && e.target.value !== '') {
+                        e.target.value = '0' + e.target.value;
+                    }
+                }
+            });
+
+            // Event Listeners para os botões de ação globais
+            document.getElementById('preencher-btn').addEventListener('click', fillAllEmptyX);
+            document.getElementById('sortear-grupos-btn').addEventListener('click', sortearGrupos);
+            document.getElementById('visualizar-btn').addEventListener('click', visualizeImage);
+            document.getElementById('downloadImageBtn').addEventListener('click', downloadGeneratedImage);
+            document.getElementById('shareImageBtn').addEventListener('click', shareGeneratedImage);
+
+            // Adicionar efeitos de hover suaves nos cards (se aplicável)
+            const palpitesCard = document.querySelector('.palpites-card');
+            if (palpitesCard) {
+                palpitesCard.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-4px)';
+                });
+                
+                palpitesCard.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            }
+        });
+
+        // Função para selecionar um grupo e preencher a linha
+        function selectGroup(numero, nome, dezenas) {
+            if (currentSelectingRow) {
+                currentSelectingRow.dataset.grupoNumero = numero;
+                currentSelectingRow.dataset.grupoNome = nome;
+                currentSelectingRow.querySelector('.group-info').textContent = `Grupo ${numero} ${nome}:`;
+                const inputYs = currentSelectingRow.querySelectorAll('.input-y');
+                dezenas.forEach((dezena, index) => {
+                    if (inputYs[index]) {
+                        inputYs[index].textContent = dezena;
+                    }
+                });
+                closeModal('groupSelectionModal');
+            }
+        }
+
+        // Função para limpar uma linha
+        function clearRow(rowElement) {
+            rowElement.dataset.grupoNumero = '';
+            rowElement.dataset.grupoNome = '';
+            rowElement.querySelector('.group-info').textContent = '';
+            rowElement.querySelectorAll('.input-x').forEach(input => input.value = '');
+            rowElement.querySelectorAll('.input-y').forEach(span => span.textContent = '');
+        }
+
+        // Função para preencher todos os campos 'x' vazios aleatoriamente
+        function fillAllEmptyX() {
+            document.querySelectorAll('.palpite-row').forEach(row => {
+                row.querySelectorAll('.input-x').forEach(inputX => {
+                    if (inputX.value === '') {
+                        inputX.value = Math.floor(Math.random() * 100).toString().padStart(2, '0');
+                    }
+                });
+            });
+        }
+
+        // Função para sortear grupos aleatoriamente para todas as linhas
+        function sortearGrupos() {
+            const availableGroups = [...grupos]; // Copia para não modificar o original
+            const palpiteRows = document.querySelectorAll('.palpite-row');
+            
+            // Limpar todas as linhas primeiro
+            palpiteRows.forEach(row => {
+                clearRow(row);
             });
             
-            modal.style.display = 'flex';
-        }
-
-        // Função para fechar modal de grupo
-        function fecharModalGrupo() {
-            document.getElementById('modalGrupo').style.display = 'none';
-        }
-
-        // Função para selecionar grupo
-        function selecionarGrupo(grupoIndex) {
-            const grupo = grupos[grupoIndex];
-            const btn = document.querySelector(`.palpite-row:nth-child(${linhaAtual}) .btn`);
-            btn.textContent = grupo.nome;
-            btn.classList.remove('btn-primary');
-            btn.classList.add('btn-accent');
-            
-            // Preencher campos Y automaticamente
-            document.getElementById(`y1_${linhaAtual}`).value = grupo.numeros[0];
-            document.getElementById(`y2_${linhaAtual}`).value = grupo.numeros[1];
-            
-            fecharModalGrupo();
-        }
-
-        // Função para limpar linha
-        function limparLinha(linha) {
-            document.getElementById(`x1_${linha}`).value = '';
-            document.getElementById(`y1_${linha}`).value = '';
-            document.getElementById(`x2_${linha}`).value = '';
-            document.getElementById(`y2_${linha}`).value = '';
-            
-            const btn = document.querySelector(`.palpite-row:nth-child(${linha}) .btn`);
-            btn.textContent = 'Selecionar Grupo';
-            btn.classList.remove('btn-accent');
-            btn.classList.add('btn-primary');
-        }
-
-        // Função para preencher automaticamente
-        function preencherAutomatico() {
-            for (let i = 1; i <= 4; i++) {
-                if (!document.getElementById(`y1_${i}`).value) {
-                    const grupoAleatorio = Math.floor(Math.random() * grupos.length);
-                    linhaAtual = i;
-                    selecionarGrupo(grupoAleatorio);
+            // Sortear grupos para todas as 4 linhas
+            palpiteRows.forEach((row, index) => {
+                if (availableGroups.length > 0) {
+                    const randomIndex = Math.floor(Math.random() * availableGroups.length);
+                    const selectedGroup = availableGroups.splice(randomIndex, 1)[0];
+                    
+                    // Definir a linha atual como a que está sendo processada
+                    currentSelectingRow = row;
+                    selectGroup(selectedGroup.numero, selectedGroup.nome, selectedGroup.dezenas);
                 }
+            });
+            
+            fillAllEmptyX(); // Preenche os 'x' após sortear os grupos
+        }
+
+         // Função para gerar a imagem
+        async function visualizeImage() {
+            // Verificar se todas as linhas estão preenchidas
+            const palpitesRows = document.querySelectorAll('.palpite-row');
+            let allRowsValid = true;
+            let validRows = [];
+
+            for (let i = 0; i < palpitesRows.length; i++) {
+                const row = palpitesRows[i];
+                const grupoNumero = row.dataset.grupoNumero;
+                const grupoNome = row.dataset.grupoNome;
+                const inputXs = row.querySelectorAll('.input-x');
+                const inputYs = row.querySelectorAll('.input-y');
+
+                if (!grupoNumero || !grupoNome) {
+                    continue; // Pular linhas sem grupo selecionado
+                }
+
+                let rowValid = true;
+                let fullNumbers = [];
+                for (let j = 0; j < 4; j++) {
+                    const xVal = inputXs[j].value.trim();
+                    const yVal = inputYs[j].textContent.trim();
+                    if (!xVal || !yVal) {
+                        rowValid = false;
+                        break;
+                    }
+                    fullNumbers.push(`${xVal}${yVal}`);
+                }
+
+                if (rowValid) {
+                    validRows.push({
+                        grupoNumero,
+                        grupoNome,
+                        fullNumbers
+                    });
+                }
+            }
+
+            if (validRows.length === 0) {
+                alert('Por favor, selecione pelo menos um grupo e preencha todos os campos de palpite antes de visualizar.');
+                return;
+            }
+
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+
+            // Dimensões da imagem aumentadas para ocupar mais espaço
+            canvas.width = 800; // Aumentado de 600 para 800
+            canvas.height = 280 + (validRows.length * 160) + 200; // Altura dinâmica aumentada
+
+            try {
+                // Carregar imagem de fundo
+                const backgroundImage = new Image();
+                backgroundImage.crossOrigin = 'anonymous';
+                backgroundImage.src = '/assets/img/palpites/backg1.webp';
+                await new Promise((resolve, reject) => {
+                    backgroundImage.onload = resolve;
+                    backgroundImage.onerror = () => {
+                        // Se não conseguir carregar a imagem de fundo, usar cor sólida
+                        ctx.fillStyle = '#041228';
+                        ctx.fillRect(0, 0, canvas.width, canvas.height);
+                        resolve();
+                    };
+                });
                 
-                if (!document.getElementById(`x1_${i}`).value) {
-                    document.getElementById(`x1_${i}`).value = Math.floor(Math.random() * 100);
+                if (backgroundImage.complete && backgroundImage.naturalWidth > 0) {
+                    ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
+                } else {
+                    // Fallback para cor sólida
+                    ctx.fillStyle = '#041228';
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
                 }
-                
-                if (!document.getElementById(`x2_${i}`).value) {
-                    document.getElementById(`x2_${i}`).value = Math.floor(Math.random() * 100);
+
+                // Data e Dia da Semana - tamanhos aumentados
+                const today = new Date();
+                const dateStr = today.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: '2-digit' });
+                const dayOfWeekStr = today.toLocaleDateString('pt-BR', { weekday: 'long' });
+
+                ctx.font = 'bold 24px Inter, sans-serif'; // Aumentado de 18px para 24px
+                ctx.fillStyle = 'white';
+                ctx.textAlign = 'center';
+                ctx.fillText(dateStr, canvas.width / 2, 50); // Ajustado posição
+
+                ctx.font = 'bold 24px Inter, sans-serif'; // Aumentado de 18px para 24px
+                ctx.fillStyle = '#F1D14C';
+                ctx.fillText(dayOfWeekStr.charAt(0).toUpperCase() + dayOfWeekStr.slice(1), canvas.width / 2, 85); // Ajustado posição
+
+                // Título - tamanho aumentado
+                ctx.font = 'bold 42px Inter, sans-serif'; // Aumentado de 32px para 42px
+                ctx.fillStyle = 'white';
+                ctx.fillText('PALPITES DO DIA', canvas.width / 2, 150); // Ajustado posição
+
+                // Desenhar as linhas de palpite válidas
+                let startY = 220; // Ajustado posição inicial
+                const rowHeight = 160; // Aumentado de 120 para 160
+                const imageSize = 100; // Aumentado de 80 para 100
+
+                for (let i = 0; i < validRows.length; i++) {
+                    const rowData = validRows[i];
+
+                    try {
+                        // Carregar imagem do grupo
+                        const groupImage = new Image();
+                        groupImage.crossOrigin = 'anonymous';
+                        groupImage.src = `/assets/img/grupos/${rowData.grupoNumero}.webp`;
+                        await new Promise((resolve, reject) => {
+                            groupImage.onload = resolve;
+                            groupImage.onerror = () => {
+                                // Se não conseguir carregar a imagem do grupo, desenhar um círculo colorido
+                                ctx.fillStyle = '#4FA2E8';
+                                ctx.beginPath();
+                                ctx.arc(70 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
+                                ctx.fill();
+                                resolve();
+                            };
+                        });
+
+                        // Desenhar imagem do grupo (arredondada) - posição ajustada
+                        if (groupImage.complete && groupImage.naturalWidth > 0) {
+                            ctx.save();
+                            ctx.beginPath();
+                            ctx.arc(70 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2, false);
+                            ctx.clip();
+                            ctx.drawImage(groupImage, 70, startY, imageSize, imageSize);
+                            ctx.restore();
+                        } else {
+                            // Fallback para círculo colorido
+                            ctx.fillStyle = '#4FA2E8';
+                            ctx.beginPath();
+                            ctx.arc(70 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
+                            ctx.fill();
+                        }
+
+                        // Configurar alinhamento: grupo à esquerda, nome do bicho à direita
+                        const leftX = 70 + imageSize + 30; // Posição à esquerda
+                        const rightX = canvas.width - 50; // Posição à direita
+
+                        // Palavra "GRUPO" e número do grupo à esquerda - tamanho aumentado
+                        ctx.font = 'bold 42px Inter, sans-serif'; // Mesmo tamanho do título
+                        ctx.fillStyle = 'white';
+                        ctx.textAlign = 'left';
+                        ctx.fillText(`GRUPO ${rowData.grupoNumero}`, leftX, startY + 40);
+
+                        // Nome do bicho à direita - tamanho aumentado
+                        ctx.font = 'bold 28px Inter, sans-serif'; // Aumentado de 20px para 28px
+                        ctx.fillStyle = 'white';
+                        ctx.textAlign = 'right';
+                        ctx.fillText(rowData.grupoNome.toUpperCase(), rightX, startY + 40);
+
+                        // Números completos em retângulos brancos - tamanho aumentado
+                        const numbersText = rowData.fullNumbers.join(' ');
+                        const textX = leftX;
+                        const textY = startY + 85; // Ajustado posição
+                        
+                        // Medir o texto para criar o retângulo
+                        ctx.font = 'bold 32px JetBrains Mono, monospace'; // Aumentado de 24px para 32px
+                        const textMetrics = ctx.measureText(numbersText);
+                        const textWidth = textMetrics.width;
+                        const textHeight = 40; // Altura aumentada
+                        
+                        // Desenhar retângulo branco
+                        ctx.fillStyle = 'white';
+                        ctx.fillRect(textX - 8, textY - textHeight + 8, textWidth + 16, textHeight + 8);
+                        
+                        // Desenhar borda do retângulo (opcional)
+                        ctx.strokeStyle = '#cccccc';
+                        ctx.lineWidth = 2; // Borda mais espessa
+                        ctx.strokeRect(textX - 8, textY - textHeight + 8, textWidth + 16, textHeight + 8);
+                        
+                        // Desenhar texto em preto
+                        ctx.fillStyle = 'black';
+                        ctx.textAlign = 'left';
+                        ctx.fillText(numbersText, textX, textY);
+
+                        startY += rowHeight;
+                    } catch (error) {
+                        console.error('Erro ao carregar imagem do grupo:', error);
+                        // Continuar com o próximo grupo mesmo se houver erro
+                        startY += rowHeight;
+                    }
                 }
+
+                // Logo do site - tamanho aumentado
+                try {
+                    const logoImage = new Image();
+                    logoImage.crossOrigin = 'anonymous';
+                    logoImage.src = '/assets/img/logo.webp';
+                    await new Promise((resolve, reject) => {
+                        logoImage.onload = resolve;
+                        logoImage.onerror = () => {
+                            // Se não conseguir carregar o logo, desenhar texto
+                            ctx.font = 'bold 22px Inter, sans-serif'; // Aumentado de 16px para 22px
+                            ctx.fillStyle = 'white';
+                            ctx.textAlign = 'center';
+                            ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 40);
+                            resolve();
+                        };
+                    });
+                    
+                    if (logoImage.complete && logoImage.naturalWidth > 0) {
+                        // Logo maior
+                        ctx.drawImage(logoImage, canvas.width / 2 - 75, canvas.height - 120, 150, 75); // Aumentado de 100x50 para 150x75
+                    } else {
+                        // Fallback para texto
+                        ctx.font = 'bold 22px Inter, sans-serif'; // Aumentado de 16px para 22px
+                        ctx.fillStyle = 'white';
+                        ctx.textAlign = 'center';
+                        ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 40);
+                    }
+                } catch (error) {
+                    console.error('Erro ao carregar logo:', error);
+                    // Fallback para texto
+                    ctx.font = 'bold 22px Inter, sans-serif'; // Aumentado de 16px para 22px
+                    ctx.fillStyle = 'white';
+                    ctx.textAlign = 'center';
+                    ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 40);
+                }
+
+                const imageDataUrl = canvas.toDataURL('image/png');
+                document.getElementById('generatedImage').src = imageDataUrl;
+                openModal('imagePreviewModal');
+
+            } catch (error) {
+                console.error('Erro ao gerar imagem:', error);
+                alert('Erro ao gerar a imagem. Por favor, tente novamente.');
             }
         }
 
-        // Função para sortear grupos
-        function sortearGrupos() {
-            for (let i = 1; i <= 4; i++) {
-                const grupoAleatorio = Math.floor(Math.random() * grupos.length);
-                linhaAtual = i;
-                selecionarGrupo(grupoAleatorio);
-            }
+        // Função para download da imagem gerada
+        function downloadGeneratedImage() {
+            const image = document.getElementById('generatedImage').src;
+            const link = document.createElement('a');
+            link.href = image;
+            link.download = 'palpite_77xbrasil.png';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         }
 
-        // Função para visualizar imagem
-        function visualizarImagem() {
-            // Simular geração de imagem
-            const modal = document.getElementById('imageModal');
-            const img = document.getElementById('generatedImage');
-            
-            // Aqui você colocaria a lógica real de geração da imagem
-            // Por enquanto, vamos usar uma imagem placeholder
-            img.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMTA0MjI4Ii8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZmlsbD0iI2Y4ZmFmYyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPklNQUdFTSBERSBQQUxQSVRFUyBHRVJBREE8L3RleHQ+Cjwvc3ZnPg==';
-            
-            modal.style.display = 'block';
-        }
-
-        // Função para fechar modal de imagem
-        function fecharImageModal() {
-            document.getElementById('imageModal').style.display = 'none';
-        }
-
-        // Função para compartilhar imagem
-        function compartilharImagem() {
+        // Função para compartilhar a imagem
+        function shareGeneratedImage() {
             if (navigator.share) {
-                navigator.share({
-                    title: 'Meus Palpites do Dia',
-                    text: 'Confira meus palpites para hoje!',
-                    url: window.location.href
+                // Converter data URL para blob
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                const img = document.getElementById('generatedImage');
+                
+                canvas.width = img.naturalWidth;
+                canvas.height = img.naturalHeight;
+                ctx.drawImage(img, 0, 0);
+                
+                canvas.toBlob(function(blob) {
+                    const file = new File([blob], 'palpite_77xbrasil.png', { type: 'image/png' });
+                    
+                    navigator.share({
+                        title: 'Meus Palpites - 77x Brasil',
+                        text: 'Confira meus palpites para hoje!',
+                        files: [file]
+                    }).catch(console.error);
                 });
             } else {
-                // Fallback para navegadores que não suportam Web Share API
-                navigator.clipboard.writeText(window.location.href);
-                alert('Link copiado para a área de transferência!');
+                // Fallback: copiar link da imagem
+                const imageUrl = document.getElementById('generatedImage').src;
+                navigator.clipboard.writeText(imageUrl).then(() => {
+                    alert('Link da imagem copiado para a área de transferência!');
+                }).catch(() => {
+                    alert('Não foi possível compartilhar. Faça o download da imagem.');
+                });
             }
         }
 
-        // Fechar modais ao clicar fora
-        window.onclick = function(event) {
-            const modalGrupo = document.getElementById('modalGrupo');
-            const modalImagem = document.getElementById('imageModal');
-            
-            if (event.target === modalGrupo) {
-                fecharModalGrupo();
+        // Fechar modal ao clicar fora dele
+        window.addEventListener('click', function(event) {
+            if (event.target.classList.contains('modal') || event.target.classList.contains('image-modal')) {
+                event.target.style.display = 'none';
+                document.body.classList.remove('modal-open');
             }
-            if (event.target === modalImagem) {
-                fecharImageModal();
-            }
-        }
+        });
     </script>
 </body>
 </html>
