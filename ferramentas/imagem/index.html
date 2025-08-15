@@ -280,7 +280,7 @@
             object-fit: contain;
         }
 
-        /* Modal de visualização da imagem - CORRIGIDO */
+        /* Modal de visualização da imagem */
         .image-modal {
             display: none;
             position: fixed;
@@ -296,12 +296,12 @@
         .image-modal-content {
             position: relative;
             background-color: var(--bg-card);
-            margin: 3% auto;
+            margin: 2% auto;
             padding: 0;
             border-radius: var(--radius-lg);
             width: 90%;
             max-width: 800px;
-            max-height: 80vh;
+            max-height: 90vh;
             box-shadow: var(--shadow-2xl);
             overflow: hidden;
             display: flex;
@@ -309,13 +309,12 @@
         }
 
         .image-modal-header {
-            padding: var(--spacing-md);
+            padding: var(--spacing-lg);
             border-bottom: 1px solid var(--border-color);
             display: flex;
             justify-content: space-between;
             align-items: center;
             background: var(--bg-secondary);
-            flex-shrink: 0;
         }
 
         .image-modal-title {
@@ -334,11 +333,6 @@
             padding: var(--spacing-xs);
             border-radius: var(--radius-sm);
             transition: all var(--transition-normal);
-            width: 32px;
-            height: 32px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         .image-modal-close:hover {
@@ -347,13 +341,12 @@
         }
 
         .image-modal-body {
-            padding: var(--spacing-md);
+            padding: var(--spacing-lg);
             flex: 1;
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: auto;
-            min-height: 300px;
         }
 
         .image-modal-body img {
@@ -366,13 +359,12 @@
         }
 
         .image-modal-footer {
-            padding: var(--spacing-md);
+            padding: var(--spacing-lg);
             border-top: 1px solid var(--border-color);
             background: var(--bg-secondary);
             display: flex;
             justify-content: center;
             gap: var(--spacing-md);
-            flex-shrink: 0;
         }
 
         .image-modal-footer .btn {
@@ -519,12 +511,12 @@
                 line-height: 1.4;
             }
 
-            /* Modal de imagem responsivo - CORRIGIDO */
+            /* Modal de imagem responsivo */
             .image-modal-content {
                 width: 95%;
                 max-width: none;
-                margin: 2% auto;
-                max-height: 90vh;
+                margin: var(--spacing-sm);
+                max-height: 95vh;
             }
 
             .image-modal-header {
@@ -537,7 +529,6 @@
 
             .image-modal-body {
                 padding: var(--spacing-md);
-                min-height: 250px;
             }
 
             .image-modal-footer {
@@ -620,16 +611,6 @@
 
             .site-domain, .copyright-text {
                 font-size: 0.8rem;
-            }
-
-            /* Modal de imagem em telas pequenas - CORRIGIDO */
-            .image-modal-content {
-                margin: 1% auto;
-                max-height: 95vh;
-            }
-
-            .image-modal-body {
-                min-height: 200px;
             }
         }
 
@@ -917,61 +898,271 @@
             const availableGroups = [...grupos]; // Copia para não modificar o original
             const palpiteRows = document.querySelectorAll('.palpite-row');
             
+            // Limpar todas as linhas primeiro
             palpiteRows.forEach(row => {
+                clearRow(row);
+            });
+            
+            // Sortear grupos para todas as 4 linhas
+            palpiteRows.forEach((row, index) => {
                 if (availableGroups.length > 0) {
                     const randomIndex = Math.floor(Math.random() * availableGroups.length);
                     const selectedGroup = availableGroups.splice(randomIndex, 1)[0];
                     
-                    row.dataset.grupoNumero = selectedGroup.numero;
-                    row.dataset.grupoNome = selectedGroup.nome;
-                    row.querySelector('.group-info').textContent = `Grupo ${selectedGroup.numero} ${selectedGroup.nome}:`;
-                    
-                    const inputYs = row.querySelectorAll('.input-y');
-                    selectedGroup.dezenas.forEach((dezena, index) => {
-                        if (inputYs[index]) {
-                            inputYs[index].textContent = dezena;
-                        }
-                    });
+                    // Definir a linha atual como a que está sendo processada
+                    currentSelectingRow = row;
+                    selectGroup(selectedGroup.numero, selectedGroup.nome, selectedGroup.dezenas);
                 }
             });
+            
+            fillAllEmptyX(); // Preenche os 'x' após sortear os grupos
         }
 
-        // Função para visualizar a imagem gerada
-        function visualizeImage() {
-            // Aqui você implementaria a lógica para gerar a imagem
-            // Por enquanto, vamos simular com uma imagem de placeholder
-            const generatedImage = document.getElementById('generatedImage');
-            generatedImage.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZGRkIi8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlbSBHZXJhZGE8L3RleHQ+Cjwvc3ZnPg==';
-            openModal('imagePreviewModal');
-        }
+         // Função para gerar a imagem
+        async function visualizeImage() {
+            // Verificar se todas as linhas estão preenchidas
+            const palpitesRows = document.querySelectorAll('.palpite-row');
+            let allRowsValid = true;
+            let validRows = [];
 
-        // Função para baixar a imagem gerada
-        function downloadGeneratedImage() {
-            const generatedImage = document.getElementById('generatedImage');
-            const link = document.createElement('a');
-            link.download = 'palpites-do-dia.png';
-            link.href = generatedImage.src;
-            link.click();
-        }
+            for (let i = 0; i < palpitesRows.length; i++) {
+                const row = palpitesRows[i];
+                const grupoNumero = row.dataset.grupoNumero;
+                const grupoNome = row.dataset.grupoNome;
+                const inputXs = row.querySelectorAll('.input-x');
+                const inputYs = row.querySelectorAll('.input-y');
 
-        // Função para compartilhar a imagem
-        function shareGeneratedImage() {
-            if (navigator.share) {
-                navigator.share({
-                    title: 'Palpites do Dia - 77x Brasil',
-                    text: 'Confira os palpites do dia!',
-                    url: window.location.href
+                if (!grupoNumero || !grupoNome) {
+                    continue; // Pular linhas sem grupo selecionado
+                }
+
+                let rowValid = true;
+                let fullNumbers = [];
+                for (let j = 0; j < 4; j++) {
+                    const xVal = inputXs[j].value.trim();
+                    const yVal = inputYs[j].textContent.trim();
+                    if (!xVal || !yVal) {
+                        rowValid = false;
+                        break;
+                    }
+                    fullNumbers.push(`${xVal}${yVal}`);
+                }
+
+                if (rowValid) {
+                    validRows.push({
+                        grupoNumero,
+                        grupoNome,
+                        fullNumbers
+                    });
+                }
+            }
+
+            if (validRows.length === 0) {
+                alert('Por favor, selecione pelo menos um grupo e preencha todos os campos de palpite antes de visualizar.');
+                return;
+            }
+
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+
+            // Dimensões da imagem (ajustar conforme necessário)
+            canvas.width = 600; 
+            canvas.height = 200 + (validRows.length * 120) + 150; // Altura dinâmica baseada no número de linhas
+
+            try {
+                // Carregar imagem de fundo
+                const backgroundImage = new Image();
+                backgroundImage.crossOrigin = 'anonymous';
+                backgroundImage.src = '/assets/img/palpites/backg1.webp';
+                await new Promise((resolve, reject) => {
+                    backgroundImage.onload = resolve;
+                    backgroundImage.onerror = () => {
+                        // Se não conseguir carregar a imagem de fundo, usar cor sólida
+                        ctx.fillStyle = '#041228';
+                        ctx.fillRect(0, 0, canvas.width, canvas.height);
+                        resolve();
+                    };
                 });
-            } else {
-                // Fallback para navegadores que não suportam Web Share API
-                const url = window.location.href;
-                navigator.clipboard.writeText(url).then(() => {
-                    alert('Link copiado para a área de transferência!');
-                });
+                
+                if (backgroundImage.complete && backgroundImage.naturalWidth > 0) {
+                    ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
+                } else {
+                    // Fallback para cor sólida
+                    ctx.fillStyle = '#041228';
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
+                }
+
+                // Data e Dia da Semana
+                const today = new Date();
+                const dateStr = today.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: '2-digit' });
+                const dayOfWeekStr = today.toLocaleDateString('pt-BR', { weekday: 'long' });
+
+                ctx.font = 'bold 18px Inter, sans-serif';
+                ctx.fillStyle = 'white';
+                ctx.textAlign = 'center';
+                ctx.fillText(dateStr, canvas.width / 2, 40);
+
+                ctx.font = 'bold 18px Inter, sans-serif';
+                ctx.fillStyle = '#F1D14C';
+                ctx.fillText(dayOfWeekStr.charAt(0).toUpperCase() + dayOfWeekStr.slice(1), canvas.width / 2, 70);
+
+                // Título
+                ctx.font = 'bold 32px Inter, sans-serif';
+                ctx.fillStyle = 'white';
+                ctx.fillText('PALPITES DO DIA', canvas.width / 2, 120);
+
+                // Desenhar as linhas de palpite válidas
+                let startY = 180;
+                const rowHeight = 120;
+                const imageSize = 80;
+
+                for (let i = 0; i < validRows.length; i++) {
+                    const rowData = validRows[i];
+
+                    try {
+                        // Carregar imagem do grupo
+                        const groupImage = new Image();
+                        groupImage.crossOrigin = 'anonymous';
+                        groupImage.src = `/assets/img/grupos/${rowData.grupoNumero}.webp`;
+                        await new Promise((resolve, reject) => {
+                            groupImage.onload = resolve;
+                            groupImage.onerror = () => {
+                                // Se não conseguir carregar a imagem do grupo, desenhar um círculo colorido
+                                ctx.fillStyle = '#4FA2E8';
+                                ctx.beginPath();
+                                ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
+                                ctx.fill();
+                                resolve();
+                            };
+                        });
+
+                        // Desenhar imagem do grupo (arredondada)
+                        if (groupImage.complete && groupImage.naturalWidth > 0) {
+                            ctx.save();
+                            ctx.beginPath();
+                            ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2, false);
+                            ctx.clip();
+                            ctx.drawImage(groupImage, 50, startY, imageSize, imageSize);
+                            ctx.restore();
+                        } else {
+                            // Fallback para círculo colorido
+                            ctx.fillStyle = '#4FA2E8';
+                            ctx.beginPath();
+                            ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
+                            ctx.fill();
+                        }
+
+                        // Nome do animal e número do grupo
+                        ctx.font = 'bold 20px Inter, sans-serif';
+                        ctx.fillStyle = 'white';
+                        ctx.textAlign = 'left';
+                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 50 + imageSize + 20, startY + 30);
+
+                        // Números completos em retângulos brancos
+                        const numbersText = rowData.fullNumbers.join(' ');
+                        const textX = 50 + imageSize + 20;
+                        const textY = startY + 65;
+                        
+                        // Medir o texto para criar o retângulo
+                        ctx.font = 'bold 24px JetBrains Mono, monospace';
+                        const textMetrics = ctx.measureText(numbersText);
+                        const textWidth = textMetrics.width;
+                        const textHeight = 30; // Altura aproximada da fonte
+                        
+                        // Desenhar retângulo branco
+                        ctx.fillStyle = 'white';
+                        ctx.fillRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
+                        
+                        // Desenhar borda do retângulo (opcional)
+                        ctx.strokeStyle = '#cccccc';
+                        ctx.lineWidth = 1;
+                        ctx.strokeRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
+                        
+                        // Desenhar texto em preto
+                        ctx.fillStyle = 'black';
+                        ctx.fillText(numbersText, textX, textY);
+
+                        startY += rowHeight;
+                    } catch (error) {
+                        console.error('Erro ao carregar imagem do grupo:', error);
+                        // Continuar com o próximo grupo mesmo se houver erro
+                        startY += rowHeight;
+                    }
+                }
+
+                // Logo do site
+                try {
+                    const logoImage = new Image();
+                    logoImage.crossOrigin = 'anonymous';
+                    logoImage.src = '/assets/img/logo.webp';
+                    await new Promise((resolve, reject) => {
+                        logoImage.onload = resolve;
+                        logoImage.onerror = () => {
+                            // Se não conseguir carregar o logo, desenhar texto
+                            ctx.font = 'bold 16px Inter, sans-serif';
+                            ctx.fillStyle = 'white';
+                            ctx.textAlign = 'center';
+                            ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
+                            resolve();
+                        };
+                    });
+                    
+                    if (logoImage.complete && logoImage.naturalWidth > 0) {
+                        ctx.drawImage(logoImage, canvas.width / 2 - 50, canvas.height - 80, 100, 50);
+                    } else {
+                        // Fallback para texto
+                        ctx.font = 'bold 16px Inter, sans-serif';
+                        ctx.fillStyle = 'white';
+                        ctx.textAlign = 'center';
+                        ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
+                    }
+                } catch (error) {
+                    console.error('Erro ao carregar logo:', error);
+                    // Fallback para texto
+                    ctx.font = 'bold 16px Inter, sans-serif';
+                    ctx.fillStyle = 'white';
+                    ctx.textAlign = 'center';
+                    ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
+                }
+
+                const imageDataUrl = canvas.toDataURL('image/png');
+                document.getElementById('generatedImage').src = imageDataUrl;
+                openModal('imagePreviewModal');
+
+            } catch (error) {
+                console.error('Erro ao gerar imagem:', error);
+                alert('Erro ao gerar a imagem. Por favor, tente novamente.');
             }
         }
 
-        // Funções para controle de modais
+        // Função para download da imagem gerada
+        function downloadGeneratedImage() {
+            const image = document.getElementById('generatedImage').src;
+            const link = document.createElement('a');
+            link.href = image;
+            link.download = 'palpite_77xbrasil.png';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Função para compartilhar a imagem gerada (usando a função existente do script.js)
+        async function shareGeneratedImage() {
+            const imageBlob = await (await fetch(document.getElementById('generatedImage').src)).blob();
+            if (navigator.share && navigator.canShare({
+                    files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })]
+                })) {
+                await navigator.share({
+                    files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })],
+                    title: 'Meu Palpite 77x Brasil',
+                    text: 'Confira meu palpite para o jogo do bicho!'
+                });
+            } else {
+                alert('Compartilhamento não suportado neste navegador. Por favor, baixe a imagem e compartilhe manualmente.');
+            }
+        }
+
+        // Funções de Modal (reutilizadas do script.js, se existirem, ou definidas aqui)
         function openModal(modalId) {
             const modal = document.getElementById(modalId);
             if (modal) {
@@ -987,26 +1178,16 @@
                 document.body.classList.remove('modal-open');
             }
         }
-
-        // Fechar modal ao clicar fora dele
-        window.addEventListener('click', function(event) {
-            if (event.target.classList.contains('modal') || event.target.classList.contains('image-modal')) {
-                event.target.style.display = 'none';
-                document.body.classList.remove('modal-open');
-            }
-        });
-
-        // Fechar modal com a tecla ESC
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Escape') {
-                const openModals = document.querySelectorAll('.modal[style*="flex"], .image-modal[style*="flex"]');
-                openModals.forEach(modal => {
-                    modal.style.display = 'none';
-                });
-                document.body.classList.remove('modal-open');
-            }
-        });
     </script>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
+      <p class="site-domain" id="siteDomain"></p>
+      <p class="copyright-text" id="copyrightText"></p>
+    </div>
+  </footer>
 </body>
 </html>
+
 
