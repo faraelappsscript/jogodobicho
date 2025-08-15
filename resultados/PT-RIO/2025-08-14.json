@@ -112,21 +112,40 @@
         }
       ],
       "frases": {
-        "0053": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0053",
-          "Dezena no sexto prêmio!<br>com o palpite 0053",
-          "GATO 🐈 no sexto prêmio!<br>com o palpite 0053"
+        "5050": [
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 5050"
+        ],
+        "5550": [
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 5550"
+        ],
+        "5650": [
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 5650"
+        ],
+        "5950": [
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 5950"
+        ],
+        "9050": [
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 9050"
+        ],
+        "9550": [
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 9550"
+        ],
+        "9650": [
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 9650"
+        ],
+        "9950": [
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 9950"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐈"
+          "🐓"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 5010, 5050, 5510, 5550, 5610, 5650, 5910, 5950, 9010, 9050, 9510, 9550, 9610, 9650, 9910, 9950"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -180,8 +199,29 @@
         }
       ],
       "frases": {
-        "0053": [
-          "GATO 🐈 no sexto prêmio!<br>com o palpite 0053"
+        "5050": [
+          "GALO 🐓 no quarto prêmio!<br>com o palpite 5050"
+        ],
+        "5550": [
+          "GALO 🐓 no quarto prêmio!<br>com o palpite 5550"
+        ],
+        "5650": [
+          "GALO 🐓 no quarto prêmio!<br>com o palpite 5650"
+        ],
+        "5950": [
+          "GALO 🐓 no quarto prêmio!<br>com o palpite 5950"
+        ],
+        "9050": [
+          "GALO 🐓 no quarto prêmio!<br>com o palpite 9050"
+        ],
+        "9550": [
+          "GALO 🐓 no quarto prêmio!<br>com o palpite 9550"
+        ],
+        "9650": [
+          "GALO 🐓 no quarto prêmio!<br>com o palpite 9650"
+        ],
+        "9950": [
+          "GALO 🐓 no quarto prêmio!<br>com o palpite 9950"
         ]
       },
       "acertos": {
@@ -189,10 +229,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐈"
+          "🐓"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 5010, 5050, 5510, 5550, 5610, 5650, 5910, 5950, 9010, 9050, 9510, 9550, 9610, 9650, 9910, 9950"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -246,8 +286,53 @@
         }
       ],
       "frases": {
-        "0053": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0053"
+        "5010": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 5010"
+        ],
+        "5050": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 5050"
+        ],
+        "5510": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 5510"
+        ],
+        "5550": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 5550"
+        ],
+        "5610": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 5610"
+        ],
+        "5650": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 5650"
+        ],
+        "5910": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 5910"
+        ],
+        "5950": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 5950"
+        ],
+        "9010": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 9010"
+        ],
+        "9050": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 9050"
+        ],
+        "9510": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 9510"
+        ],
+        "9550": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 9550"
+        ],
+        "9610": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 9610"
+        ],
+        "9650": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 9650"
+        ],
+        "9910": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 9910"
+        ],
+        "9950": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 9950"
         ]
       },
       "acertos": {
@@ -255,10 +340,11 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐈"
+          "🐓",
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 5010, 5050, 5510, 5550, 5610, 5650, 5910, 5950, 9010, 9050, 9510, 9550, 9610, 9650, 9910, 9950"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -318,7 +404,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 5010, 5050, 5510, 5550, 5610, 5650, 5910, 5950, 9010, 9050, 9510, 9550, 9610, 9650, 9910, 9950"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -378,7 +464,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 5010, 5050, 5510, 5550, 5610, 5650, 5910, 5950, 9010, 9050, 9510, 9550, 9610, 9650, 9910, 9950"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -432,21 +518,40 @@
         }
       ],
       "frases": {
-        "0053": [
-          "GATO 🐈 no terceiro prêmio!<br>com o palpite 0053",
-          "Dezena no quarto prêmio!<br>com o palpite 0053",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0053"
+        "5010": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 5010"
+        ],
+        "5510": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 5510"
+        ],
+        "5610": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 5610"
+        ],
+        "5910": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 5910"
+        ],
+        "9010": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 9010"
+        ],
+        "9510": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 9510"
+        ],
+        "9610": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 9610"
+        ],
+        "9910": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 9910"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐈"
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 5010, 5050, 5510, 5550, 5610, 5650, 5910, 5950, 9010, 9050, 9510, 9550, 9610, 9650, 9910, 9950"
     }
   },
   "1-10": {
