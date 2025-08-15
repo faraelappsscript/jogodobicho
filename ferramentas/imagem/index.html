@@ -967,7 +967,7 @@
 
             // Dimensões da imagem (ajustar conforme necessário)
             canvas.width = 600; 
-            canvas.height = 200 + (validRows.length * 120) + 150; // Altura dinâmica baseada no número de linhas
+            canvas.height = 180 + (validRows.length * 130) + 120; // Altura dinâmica baseada no número de linhas
 
             try {
                 // Carregar imagem de fundo
@@ -1012,8 +1012,8 @@
                 ctx.fillText('PALPITES DO DIA', canvas.width / 2, 120);
 
                 // Desenhar as linhas de palpite válidas
-                let startY = 180;
-                const rowHeight = 160;
+                let startY = 150;
+                const rowHeight = 130;
                 const imageSize = 120;
 
                 for (let i = 0; i < validRows.length; i++) {
@@ -1108,13 +1108,13 @@
                     });
                     
                     if (logoImage.complete && logoImage.naturalWidth > 0) {
-                        ctx.drawImage(logoImage, canvas.width / 2 - 75, canvas.height - 100, 150, 75);
+                        ctx.drawImage(logoImage, canvas.width / 2 - 75, canvas.height - 90, 150, 75);
                     } else {
                         // Fallback para texto
                         ctx.font = 'bold 20px Inter, sans-serif';
                         ctx.fillStyle = 'white';
                         ctx.textAlign = 'center';
-                        ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 40);
+                        ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
                     }
                 } catch (error) {
                     console.error('Erro ao carregar logo:', error);
@@ -1122,7 +1122,7 @@
                     ctx.font = 'bold 20px Inter, sans-serif';
                     ctx.fillStyle = 'white';
                     ctx.textAlign = 'center';
-                    ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 40);
+                    ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
                 }
 
                 const imageDataUrl = canvas.toDataURL('image/png');
