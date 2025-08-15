@@ -598,8 +598,11 @@
         }
       ],
       "frases": {
-        "0053": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0053"
+        "0050": [
+          "GALO 🐓 no oitavo prêmio!<br>com o palpite 0050"
+        ],
+        "0550": [
+          "GALO 🐓 no oitavo prêmio!<br>com o palpite 0550"
         ]
       },
       "acertos": {
@@ -607,10 +610,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐈"
+          "🐓"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 0010, 0050, 0510, 0550"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -681,14 +684,30 @@
           "Bicho": "Cabra"
         }
       ],
-      "frases": {},
+      "frases": {
+        "0050": [
+          "GALO 🐓 no quarto prêmio!<br>com o palpite 0050"
+        ],
+        "0550": [
+          "GALO 🐓 no quarto prêmio!<br>com o palpite 0550"
+        ],
+        "0010": [
+          "BURRO 🐴 no nono prêmio!<br>com o palpite 0010"
+        ],
+        "0510": [
+          "BURRO 🐴 no nono prêmio!<br>com o palpite 0510"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐓",
+          "🐴"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 0010, 0050, 0510, 0550"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -760,9 +779,11 @@
         }
       ],
       "frases": {
-        "0053": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0053",
-          "GATO 🐈 no oitavo prêmio!<br>com o palpite 0053"
+        "0050": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 0050"
+        ],
+        "0550": [
+          "GALO 🐓 no terceiro prêmio!<br>com o palpite 0550"
         ]
       },
       "acertos": {
@@ -770,10 +791,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐈"
+          "🐓"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 0010, 0050, 0510, 0550"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -851,7 +872,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 0010, 0050, 0510, 0550"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
@@ -923,19 +944,25 @@
         }
       ],
       "frases": {
-        "0053": [
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 0053"
+        "0050": [
+          "Dezena no sexto prêmio!<br>com o palpite 0050",
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 0050"
+        ],
+        "0550": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 0550",
+          "Dezena no sexto prêmio!<br>com o palpite 0550",
+          "GALO 🐓 no sexto prêmio!<br>com o palpite 0550"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
-          "🐈"
+          "🐓"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 0010, 0050, 0510, 0550"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -1007,22 +1034,22 @@
         }
       ],
       "frases": {
-        "0053": [
-          "GATO 🐈 no terceiro prêmio!<br>com o palpite 0053",
-          "Dezena no quarto prêmio!<br>com o palpite 0053",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0053",
-          "GATO 🐈 no oitavo prêmio!<br>com o palpite 0053"
+        "0010": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 0010"
+        ],
+        "0510": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 0510"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐈"
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0053"
+      "resumo": "Palpites dados para esta extração: 0010, 0050, 0510, 0550"
     }
   }
 }
