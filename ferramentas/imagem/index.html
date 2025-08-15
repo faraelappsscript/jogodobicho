@@ -280,118 +280,6 @@
             object-fit: contain;
         }
 
-        /* Modal de visualização da imagem */
-        .image-modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            backdrop-filter: blur(5px);
-        }
-
-        .image-modal-content {
-            position: relative;
-            background-color: var(--bg-card);
-            margin: 2% auto;
-            padding: 0;
-            border-radius: var(--radius-lg);
-            width: 90%;
-            max-width: 800px;
-            max-height: 90vh;
-            box-shadow: var(--shadow-2xl);
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .image-modal-header {
-            padding: var(--spacing-lg);
-            border-bottom: 1px solid var(--border-color);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: var(--bg-secondary);
-        }
-
-        .image-modal-title {
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin: 0;
-        }
-
-        .image-modal-close {
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            color: var(--text-secondary);
-            padding: var(--spacing-xs);
-            border-radius: var(--radius-sm);
-            transition: all var(--transition-normal);
-        }
-
-        .image-modal-close:hover {
-            background-color: var(--bg-card-hover);
-            color: var(--text-primary);
-        }
-
-        .image-modal-body {
-            padding: var(--spacing-lg);
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: auto;
-        }
-
-        .image-modal-body img {
-            max-width: 100%;
-            max-height: 100%;
-            width: auto;
-            height: auto;
-            border-radius: var(--radius-md);
-            box-shadow: var(--shadow-lg);
-        }
-
-        .image-modal-footer {
-            padding: var(--spacing-lg);
-            border-top: 1px solid var(--border-color);
-            background: var(--bg-secondary);
-            display: flex;
-            justify-content: center;
-            gap: var(--spacing-md);
-        }
-
-        .image-modal-footer .btn {
-            padding: var(--spacing-sm) var(--spacing-md);
-            border-radius: var(--radius-md);
-            background-color: var(--bg-secondary);
-            border: 1px solid var(--border-color);
-            color: var(--text-primary);
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 0.9rem;
-            white-space: nowrap;
-            transition: all var(--transition-normal);
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            min-width: 120px;
-        }
-
-        .image-modal-footer .btn:hover {
-            background-color: var(--bg-card-hover);
-            border-color: var(--border-accent);
-            transform: translateY(-1px);
-        }
-
         /* Estilos para o footer */
         .site-footer {
             background: var(--bg-secondary);
@@ -510,72 +398,31 @@
                 font-size: 0.9rem;
                 line-height: 1.4;
             }
-
-            /* Modal de imagem responsivo */
-            .image-modal-content {
-                width: 95%;
-                max-width: none;
-                margin: var(--spacing-sm);
-                max-height: 95vh;
-            }
-
-            .image-modal-header {
-                padding: var(--spacing-sm);
-            }
-
-            .image-modal-title {
-                font-size: 1.1rem;
-            }
-
-            .image-modal-body {
-                padding: var(--spacing-md);
-            }
-
-            .image-modal-footer {
-                padding: var(--spacing-md);
-                flex-direction: row;
-                gap: var(--spacing-sm);
-            }
-
-            .image-modal-footer .btn {
-                width: 100%;
-                min-width: auto;
-                padding: var(--spacing-md);
-                font-size: 0.95rem;
-            }
         }
 
         @media (max-width: 480px) {
             .container {
                 padding: var(--spacing-sm);
             }
-            
-            .header {
-                padding-top: var(--spacing-md);
-                margin-bottom: var(--spacing-lg);
-            }
 
             .main-title {
-                font-size: clamp(1.5rem, 4.5vw, 1.8rem);
-            }
-            
-            .palpites-card {
-                padding: var(--spacing-sm);
+                font-size: clamp(1.5rem, 4vw, 1.8rem);
+                margin-bottom: var(--spacing-md);
             }
 
             .card-subtitle {
-                font-size: clamp(1.1rem, 3vw, 1.3rem);
-                text-align: center;
+                font-size: clamp(1rem, 3vw, 1.2rem);
+                margin-bottom: var(--spacing-md);
+            }
+
+            .palpites-card {
+                padding: var(--spacing-sm);
+                margin-bottom: var(--spacing-md);
             }
 
             .palpite-row {
                 padding: var(--spacing-sm);
                 gap: var(--spacing-sm);
-            }
-
-            .palpite-row .input-xy-container {
-                grid-template-columns: 1fr 1fr;
-                gap: var(--spacing-xs);
             }
 
             .palpite-row .input-x, 
@@ -585,68 +432,14 @@
                 font-size: 0.9rem;
             }
 
-            .action-buttons {
-                gap: var(--spacing-sm);
-            }
-
             .action-buttons .btn {
                 padding: var(--spacing-md);
                 font-size: 0.9rem;
             }
-
-            /* Breadcrumb responsivo */
-            .breadcrumb {
-                font-size: 0.8rem;
-                gap: var(--spacing-xs);
-            }
-
-            .breadcrumb-item {
-                gap: var(--spacing-xs);
-            }
-
-            /* Footer responsivo */
-            .footer-logo {
-                max-width: 80px;
-            }
-
-            .site-domain, .copyright-text {
-                font-size: 0.8rem;
-            }
-        }
-
-        @media (max-width: 360px) {
-            .main-title {
-                font-size: 1.4rem;
-                line-height: 1.3;
-            }
-
-            .card-subtitle {
-                font-size: 1.1rem;
-            }
-
-            .palpite-row .input-xy-container {
-                grid-template-columns: 1fr;
-                gap: var(--spacing-xs);
-            }
-
-            .palpite-row .input-xy {
-                justify-content: space-between;
-                padding: var(--spacing-xs) var(--spacing-sm);
-            }
-
-            .action-buttons .btn {
-                font-size: 0.85rem;
-                padding: var(--spacing-sm) var(--spacing-md);
-            }
         }
     </style>
 </head>
-
 <body>
-    <nav class="breadcrumb-nav" id="breadcrumbNav">
-      <!-- O breadcrumb será gerado dinamicamente pelo JavaScript -->
-    </nav>
-    
     <div class="container">
         <!-- Header -->
         <div class="header">
@@ -655,537 +448,389 @@
 
         <!-- Card de Palpites -->
         <div class="palpites-card">
-            <h2 class="card-subtitle">PALPITES DO DIA</h2>
-
-            <div id="palpites-rows">
-                <!-- As linhas de palpite serão geradas dinamicamente pelo JavaScript -->
+            <h2 class="card-subtitle">🎯 Seus Palpites</h2>
+            
+            <!-- Palpite 1 -->
+            <div class="palpite-row">
+                <button class="select-group-btn" onclick="openGroupModal(1)">Selecionar Grupo</button>
+                <div class="group-info" id="group-info-1">Nenhum grupo selecionado</div>
+                <div class="input-xy-container">
+                    <div class="input-xy">
+                        <input type="text" class="input-x" id="input-x-1" maxlength="2" placeholder="00">
+                        <input type="text" class="input-y" id="input-y-1" readonly>
+                    </div>
+                </div>
+                <button class="clear-btn" onclick="clearPalpite(1)">Limpar</button>
             </div>
 
+            <!-- Palpite 2 -->
+            <div class="palpite-row">
+                <button class="select-group-btn" onclick="openGroupModal(2)">Selecionar Grupo</button>
+                <div class="group-info" id="group-info-2">Nenhum grupo selecionado</div>
+                <div class="input-xy-container">
+                    <div class="input-xy">
+                        <input type="text" class="input-x" id="input-x-2" maxlength="2" placeholder="00">
+                        <input type="text" class="input-y" id="input-y-2" readonly>
+                    </div>
+                </div>
+                <button class="clear-btn" onclick="clearPalpite(2)">Limpar</button>
+            </div>
+
+            <!-- Palpite 3 -->
+            <div class="palpite-row">
+                <button class="select-group-btn" onclick="openGroupModal(3)">Selecionar Grupo</button>
+                <div class="group-info" id="group-info-3">Nenhum grupo selecionado</div>
+                <div class="input-xy-container">
+                    <div class="input-xy">
+                        <input type="text" class="input-x" id="input-x-3" maxlength="2" placeholder="00">
+                        <input type="text" class="input-y" id="input-y-3" readonly>
+                    </div>
+                </div>
+                <button class="clear-btn" onclick="clearPalpite(3)">Limpar</button>
+            </div>
+
+            <!-- Palpite 4 -->
+            <div class="palpite-row">
+                <button class="select-group-btn" onclick="openGroupModal(4)">Selecionar Grupo</button>
+                <div class="group-info" id="group-info-4">Nenhum grupo selecionado</div>
+                <div class="input-xy-container">
+                    <div class="input-xy">
+                        <input type="text" class="input-x" id="input-x-4" maxlength="2" placeholder="00">
+                        <input type="text" class="input-y" id="input-y-4" readonly>
+                    </div>
+                </div>
+                <button class="clear-btn" onclick="clearPalpite(4)">Limpar</button>
+            </div>
+
+            <!-- Palpite 5 -->
+            <div class="palpite-row">
+                <button class="select-group-btn" onclick="openGroupModal(5)">Selecionar Grupo</button>
+                <div class="group-info" id="group-info-5">Nenhum grupo selecionado</div>
+                <div class="input-xy-container">
+                    <div class="input-xy">
+                        <input type="text" class="input-x" id="input-x-5" maxlength="2" placeholder="00">
+                        <input type="text" class="input-y" id="input-y-5" readonly>
+                    </div>
+                </div>
+                <button class="clear-btn" onclick="clearPalpite(5)">Limpar</button>
+            </div>
+
+            <!-- Botões de Ação -->
             <div class="action-buttons">
-                <button class="btn" id="preencher-btn">Preencher</button>
-                <button class="btn secondary" id="sortear-grupos-btn">Sortear Grupos</button>
-                <button class="btn" id="visualizar-btn">Visualizar</button>
+                <button class="btn" onclick="generateImage()">🖼️ Gerar Imagem</button>
+                <button class="btn secondary" onclick="showPreview()">👁️ Visualizar</button>
             </div>
         </div>
     </div>
 
     <!-- Modal de Seleção de Grupo -->
-    <div id="groupSelectionModal" class="modal">
+    <div id="groupModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
                 <h3 class="modal-title">Selecionar Grupo</h3>
-                <span class="close-btn" onclick="closeModal('groupSelectionModal')">&times;</span>
+                <button class="close-btn" onclick="closeModal('groupModal')">&times;</button>
             </div>
             <div class="modal-body">
-                <ul class="modal-group-list" id="group-list">
-                    <!-- Grupos serão carregados aqui pelo JavaScript -->
+                <ul class="modal-group-list">
+                    <li onclick="selectGroup(1, 'Avestruz', '🦆')">🦆 Avestruz (01, 02, 03, 04)</li>
+                    <li onclick="selectGroup(2, 'Águia', '🦅')">🦅 Águia (05, 06, 07, 08)</li>
+                    <li onclick="selectGroup(3, 'Burro', '🐴')">🐴 Burro (09, 10, 11, 12)</li>
+                    <li onclick="selectGroup(4, 'Borboleta', '🦋')">🦋 Borboleta (13, 14, 15, 16)</li>
+                    <li onclick="selectGroup(5, 'Cachorro', '🐕')">🐕 Cachorro (17, 18, 19, 20)</li>
+                    <li onclick="selectGroup(6, 'Cabra', '🐐')">🐐 Cabra (21, 22, 23, 24)</li>
+                    <li onclick="selectGroup(7, 'Carneiro', '🐑')">🐑 Carneiro (25, 26, 27, 28)</li>
+                    <li onclick="selectGroup(8, 'Camelo', '🐪')">🐪 Camelo (29, 30, 31, 32)</li>
+                    <li onclick="selectGroup(9, 'Cobra', '🐍')">🐍 Cobra (33, 34, 35, 36)</li>
+                    <li onclick="selectGroup(10, 'Coelho', '🐰')">🐰 Coelho (37, 38, 39, 40)</li>
+                    <li onclick="selectGroup(11, 'Cavalo', '🐎')">🐎 Cavalo (41, 42, 43, 44)</li>
+                    <li onclick="selectGroup(12, 'Elefante', '🐘')">🐘 Elefante (45, 46, 47, 48)</li>
+                    <li onclick="selectGroup(13, 'Galo', '🐓')">🐓 Galo (49, 50, 51, 52)</li>
+                    <li onclick="selectGroup(14, 'Gato', '🐱')">🐱 Gato (53, 54, 55, 56)</li>
+                    <li onclick="selectGroup(15, 'Jacaré', '🐊')">🐊 Jacaré (57, 58, 59, 60)</li>
+                    <li onclick="selectGroup(16, 'Leão', '🦁')">🦁 Leão (61, 62, 63, 64)</li>
+                    <li onclick="selectGroup(17, 'Macaco', '🐵')">🐵 Macaco (65, 66, 67, 68)</li>
+                    <li onclick="selectGroup(18, 'Porco', '🐷')">🐷 Porco (69, 70, 71, 72)</li>
+                    <li onclick="selectGroup(19, 'Pavão', '🦚')">🦚 Pavão (73, 74, 75, 76)</li>
+                    <li onclick="selectGroup(20, 'Peru', '🦃')">🦃 Peru (77, 78, 79, 80)</li>
+                    <li onclick="selectGroup(21, 'Touro', '🐂')">🐂 Touro (81, 82, 83, 84)</li>
+                    <li onclick="selectGroup(22, 'Tigre', '🐅')">🐅 Tigre (85, 86, 87, 88)</li>
+                    <li onclick="selectGroup(23, 'Urso', '🐻')">🐻 Urso (89, 90, 91, 92)</li>
+                    <li onclick="selectGroup(24, 'Veado', '🦌')">🦌 Veado (93, 94, 95, 96)</li>
+                    <li onclick="selectGroup(25, 'Vaca', '🐄')">🐄 Vaca (97, 98, 99, 00)</li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <!-- Modal de Visualização da Imagem -->
-    <div id="imagePreviewModal" class="image-modal">
-        <div class="image-modal-content">
-            <div class="image-modal-header">
-                <h3 class="image-modal-title">Pré-visualização da Imagem</h3>
-                <span class="image-modal-close" onclick="closeModal('imagePreviewModal')">&times;</span>
+    <!-- Modal de Visualização da Imagem - ATUALIZADO COM O ESTILO DO INDEX(2).HTML -->
+    <div id="imageModal" class="image-modal">
+        <div class="image-modal-header">
+            <h3 class="image-modal-title">Visualizar Imagem</h3>
+            <button class="image-modal-close" onclick="closeImageModal()">&times;</button>
+        </div>
+        <div class="image-modal-body">
+            <div class="generated-image-container">
+                <img id="generatedImage" src="" alt="Imagem gerada">
             </div>
-            <div class="image-modal-body">
-                <img id="generatedImage" src="" alt="Imagem Gerada">
-            </div>
-            <div class="image-modal-footer">
-                <button class="btn" id="downloadImageBtn">Baixar Imagem</button>
-                <button class="btn" id="shareImageBtn">Compartilhar</button>
-            </div>
+        </div>
+        <div class="image-modal-footer">
+            <button class="btn download-btn" onclick="downloadImage()">
+                📥 Baixar PNG
+            </button>
+            <button class="btn share-btn" onclick="shareImage()">
+                📤 Compartilhar
+            </button>
         </div>
     </div>
 
-    <!-- Script do site -->
-    <script defer src="/assets/js/breadcrumb.js"></script>
-    <script defer src="/resultados/script.js"></script>
-    
-    <!-- Script personalizado para esta página -->
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <img src="/assets/images/logo.png" alt="77x Brasil" class="footer-logo">
+            <div class="site-domain">77xbrasil.com</div>
+            <div class="copyright-text">© 2024 77x Brasil. Todos os direitos reservados.</div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
     <script>
-        // Variáveis globais e dados dos grupos do jogo do bicho
-        const grupos = [
-            { numero: '01', nome: 'Avestruz', dezenas: ['01', '02', '03', '04'] },
-            { numero: '02', nome: 'Águia', dezenas: ['05', '06', '07', '08'] },
-            { numero: '03', nome: 'Burro', dezenas: ['09', '10', '11', '12'] },
-            { numero: '04', nome: 'Borboleta', dezenas: ['13', '14', '15', '16'] },
-            { numero: '05', nome: 'Cachorro', dezenas: ['17', '18', '19', '20'] },
-            { numero: '06', nome: 'Cabra', dezenas: ['21', '22', '23', '24'] },
-            { numero: '07', nome: 'Carneiro', dezenas: ['25', '26', '27', '28'] },
-            { numero: '08', nome: 'Camelo', dezenas: ['29', '30', '31', '32'] },
-            { numero: '09', nome: 'Cobra', dezenas: ['33', '34', '35', '36'] },
-            { numero: '10', nome: 'Coelho', dezenas: ['37', '38', '39', '40'] },
-            { numero: '11', nome: 'Cavalo', dezenas: ['41', '42', '43', '44'] },
-            { numero: '12', nome: 'Elefante', dezenas: ['45', '46', '47', '48'] },
-            { numero: '13', nome: 'Galo', dezenas: ['49', '50', '51', '52'] },
-            { numero: '14', nome: 'Gato', dezenas: ['53', '54', '55', '56'] },
-            { numero: '15', nome: 'Jacaré', dezenas: ['57', '58', '59', '60'] },
-            { numero: '16', nome: 'Leão', dezenas: ['61', '62', '63', '64'] },
-            { numero: '17', nome: 'Macaco', dezenas: ['65', '66', '67', '68'] },
-            { numero: '18', nome: 'Porco', dezenas: ['69', '70', '71', '72'] },
-            { numero: '19', nome: 'Pavão', dezenas: ['73', '74', '75', '76'] },
-            { numero: '20', nome: 'Peru', dezenas: ['77', '78', '79', '80'] },
-            { numero: '21', nome: 'Touro', dezenas: ['81', '82', '83', '84'] },
-            { numero: '22', nome: 'Tigre', dezenas: ['85', '86', '87', '88'] },
-            { numero: '23', nome: 'Urso', dezenas: ['89', '90', '91', '92'] },
-            { numero: '24', nome: 'Veado', dezenas: ['93', '94', '95', '96'] },
-            { numero: '25', nome: 'Vaca', dezenas: ['97', '98', '99', '00'] }
-        ];
+        let currentPalpiteIndex = 0;
+        let currentImageBlob = null;
 
-        let currentSelectingRow = null; // Armazena a linha que acionou o modal
+        // Dados dos grupos
+        const grupos = {
+            1: { nome: 'Avestruz', emoji: '🦆', numeros: ['01', '02', '03', '04'] },
+            2: { nome: 'Águia', emoji: '🦅', numeros: ['05', '06', '07', '08'] },
+            3: { nome: 'Burro', emoji: '🐴', numeros: ['09', '10', '11', '12'] },
+            4: { nome: 'Borboleta', emoji: '🦋', numeros: ['13', '14', '15', '16'] },
+            5: { nome: 'Cachorro', emoji: '🐕', numeros: ['17', '18', '19', '20'] },
+            6: { nome: 'Cabra', emoji: '🐐', numeros: ['21', '22', '23', '24'] },
+            7: { nome: 'Carneiro', emoji: '🐑', numeros: ['25', '26', '27', '28'] },
+            8: { nome: 'Camelo', emoji: '🐪', numeros: ['29', '30', '31', '32'] },
+            9: { nome: 'Cobra', emoji: '🐍', numeros: ['33', '34', '35', '36'] },
+            10: { nome: 'Coelho', emoji: '🐰', numeros: ['37', '38', '39', '40'] },
+            11: { nome: 'Cavalo', emoji: '🐎', numeros: ['41', '42', '43', '44'] },
+            12: { nome: 'Elefante', emoji: '🐘', numeros: ['45', '46', '47', '48'] },
+            13: { nome: 'Galo', emoji: '🐓', numeros: ['49', '50', '51', '52'] },
+            14: { nome: 'Gato', emoji: '🐱', numeros: ['53', '54', '55', '56'] },
+            15: { nome: 'Jacaré', emoji: '🐊', numeros: ['57', '58', '59', '60'] },
+            16: { nome: 'Leão', emoji: '🦁', numeros: ['61', '62', '63', '64'] },
+            17: { nome: 'Macaco', emoji: '🐵', numeros: ['65', '66', '67', '68'] },
+            18: { nome: 'Porco', emoji: '🐷', numeros: ['69', '70', '71', '72'] },
+            19: { nome: 'Pavão', emoji: '🦚', numeros: ['73', '74', '75', '76'] },
+            20: { nome: 'Peru', emoji: '🦃', numeros: ['77', '78', '79', '80'] },
+            21: { nome: 'Touro', emoji: '🐂', numeros: ['81', '82', '83', '84'] },
+            22: { nome: 'Tigre', emoji: '🐅', numeros: ['85', '86', '87', '88'] },
+            23: { nome: 'Urso', emoji: '🐻', numeros: ['89', '90', '91', '92'] },
+            24: { nome: 'Veado', emoji: '🦌', numeros: ['93', '94', '95', '96'] },
+            25: { nome: 'Vaca', emoji: '🐄', numeros: ['97', '98', '99', '00'] }
+        };
 
-        document.addEventListener('DOMContentLoaded', function() {
-            // Função do script.js para capturar parâmetros
-            if (typeof captureAndStoreUrlParameter === 'function') {
-                captureAndStoreUrlParameter();
-            }
+        // Abrir modal de seleção de grupo
+        function openGroupModal(palpiteIndex) {
+            currentPalpiteIndex = palpiteIndex;
+            document.getElementById('groupModal').style.display = 'flex';
+            document.body.classList.add('modal-open');
+        }
 
-            // Gerar breadcrumb dinamicamente
-            const breadcrumbNav = document.getElementById('breadcrumbNav');
-            if (breadcrumbNav) {
-                breadcrumbNav.innerHTML = `
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
-                            <a href="/" class="breadcrumb-link">Início</a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="/ferramentas/" class="breadcrumb-link">Ferramentas</a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <span class="breadcrumb-current">Criar Imagem de Divulgação</span>
-                        </li>
-                    </ol>
-                `;
-            }
+        // Fechar modal
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+            document.body.classList.remove('modal-open');
+        }
 
-            // Gerar footer dinamicamente
-            const siteDomain = document.getElementById('siteDomain');
-            const copyrightText = document.getElementById('copyrightText');
-            if (siteDomain) {
-                siteDomain.textContent = window.location.hostname;
-            }
-            if (copyrightText) {
-                const currentYear = new Date().getFullYear();
-                copyrightText.textContent = `© ${currentYear} 77x Brasil. Todos os direitos reservados.`;
-            }
-
-            // Gerar as 4 linhas de palpite
-            const palpitesRowsContainer = document.getElementById('palpites-rows');
-            for (let i = 0; i < 4; i++) {
-                const row = document.createElement('div');
-                row.className = 'palpite-row';
-                row.dataset.rowIndex = i; // Adiciona um índice para identificar a linha
-                row.innerHTML = `
-                    <button class="select-group-btn">Selecionar Grupo</button>
-                    <span class="group-info"></span>
-                    <div class="input-xy-container">
-                        <div class="input-xy"><input type="text" class="input-x" maxlength="2" pattern="[0-9]*"><span class="input-y"></span></div>
-                        <div class="input-xy"><input type="text" class="input-x" maxlength="2" pattern="[0-9]*"><span class="input-y"></span></div>
-                        <div class="input-xy"><input type="text" class="input-x" maxlength="2" pattern="[0-9]*"><span class="input-y"></span></div>
-                        <div class="input-xy"><input type="text" class="input-x" maxlength="2" pattern="[0-9]*"><span class="input-y"></span></div>
-                    </div>
-                    <button class="clear-btn">Apagar</button>
-                `;
-                palpitesRowsContainer.appendChild(row);
-            }
-
-            // Popular o modal de seleção de grupo
-            const groupList = document.getElementById('group-list');
-            grupos.forEach(grupo => {
-                const li = document.createElement('li');
-                li.innerHTML = `<strong>Grupo ${grupo.numero} ${grupo.nome}</strong><br><small>(${grupo.dezenas.join(', ')})</small>`;
-                li.dataset.grupoNumero = grupo.numero;
-                li.dataset.grupoNome = grupo.nome;
-                li.dataset.grupoDezenas = grupo.dezenas.join(',');
-                li.addEventListener('click', function() {
-                    selectGroup(this.dataset.grupoNumero, this.dataset.grupoNome, this.dataset.grupoDezenas.split(','));
-                });
-                groupList.appendChild(li);
-            });
-
-            // Event Listeners para os botões de cada linha
-            document.querySelectorAll('.select-group-btn').forEach(button => {
-                button.addEventListener('click', function() {
-                    currentSelectingRow = this.closest('.palpite-row');
-                    openModal('groupSelectionModal');
-                });
-            });
-
-            document.querySelectorAll('.clear-btn').forEach(button => {
-                button.addEventListener('click', function() {
-                    clearRow(this.closest('.palpite-row'));
-                });
-            });
-
-            // Adicionar validação aos inputs de número
-            document.addEventListener('input', function(e) {
-                if (e.target.classList.contains('input-x')) {
-                    // Permitir apenas números
-                    e.target.value = e.target.value.replace(/[^0-9]/g, '');
-                    // Garantir que tenha no máximo 2 dígitos
-                    if (e.target.value.length > 2) {
-                        e.target.value = e.target.value.slice(0, 2);
-                    }
-                    // Preencher com zero à esquerda se necessário
-                    if (e.target.value.length === 1 && e.target.value !== '') {
-                        e.target.value = '0' + e.target.value;
-                    }
-                }
-            });
-
-            // Event Listeners para os botões de ação globais
-            document.getElementById('preencher-btn').addEventListener('click', fillAllEmptyX);
-            document.getElementById('sortear-grupos-btn').addEventListener('click', sortearGrupos);
-            document.getElementById('visualizar-btn').addEventListener('click', visualizeImage);
-            document.getElementById('downloadImageBtn').addEventListener('click', downloadGeneratedImage);
-            document.getElementById('shareImageBtn').addEventListener('click', shareGeneratedImage);
-
-            // Adicionar efeitos de hover suaves nos cards (se aplicável)
-            const palpitesCard = document.querySelector('.palpites-card');
-            if (palpitesCard) {
-                palpitesCard.addEventListener('mouseenter', function() {
-                    this.style.transform = 'translateY(-4px)';
-                });
+        // Selecionar grupo
+        function selectGroup(groupNumber, groupName, emoji) {
+            const grupo = grupos[groupNumber];
+            if (grupo) {
+                document.getElementById(`group-info-${currentPalpiteIndex}`).textContent = `${emoji} ${groupName}`;
+                document.getElementById(`group-info-${currentPalpiteIndex}`).dataset.group = groupNumber;
                 
-                palpitesCard.addEventListener('mouseleave', function() {
-                    this.style.transform = 'translateY(0)';
+                // Limpar campos de entrada
+                document.getElementById(`input-x-${currentPalpiteIndex}`).value = '';
+                document.getElementById(`input-y-${currentPalpiteIndex}`).value = '';
+            }
+            closeModal('groupModal');
+        }
+
+        // Limpar palpite
+        function clearPalpite(palpiteIndex) {
+            document.getElementById(`group-info-${palpiteIndex}`).textContent = 'Nenhum grupo selecionado';
+            document.getElementById(`group-info-${palpiteIndex}`).dataset.group = '';
+            document.getElementById(`input-x-${palpiteIndex}`).value = '';
+            document.getElementById(`input-y-${palpiteIndex}`).value = '';
+        }
+
+        // Gerar imagem
+        function generateImage() {
+            // Simular geração de imagem
+            const canvas = document.createElement('canvas');
+            canvas.width = 800;
+            canvas.height = 600;
+            const ctx = canvas.getContext('2d');
+
+            // Fundo
+            ctx.fillStyle = '#041228';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Título
+            ctx.fillStyle = '#f8fafc';
+            ctx.font = 'bold 32px Inter';
+            ctx.textAlign = 'center';
+            ctx.fillText('PALPITES 77x BRASIL', canvas.width / 2, 60);
+
+            // Palpites
+            let y = 120;
+            for (let i = 1; i <= 5; i++) {
+                const groupInfo = document.getElementById(`group-info-${i}`);
+                const inputX = document.getElementById(`input-x-${i}`).value;
+                const groupNumber = groupInfo.dataset.group;
+
+                if (groupNumber && inputX) {
+                    const grupo = grupos[groupNumber];
+                    ctx.fillStyle = '#4FA2E8';
+                    ctx.font = 'bold 24px Inter';
+                    ctx.textAlign = 'left';
+                    ctx.fillText(`${grupo.emoji} ${grupo.nome}: ${inputX}`, 50, y);
+                    y += 40;
+                }
+            }
+
+            // Converter para blob
+            canvas.toBlob((blob) => {
+                currentImageBlob = blob;
+                const url = URL.createObjectURL(blob);
+                document.getElementById('generatedImage').src = url;
+                showToast('Imagem gerada com sucesso!');
+            }, 'image/png');
+        }
+
+        // Mostrar preview
+        function showPreview() {
+            if (!currentImageBlob) {
+                generateImage();
+                setTimeout(() => {
+                    openImageModal();
+                }, 500);
+            } else {
+                openImageModal();
+            }
+        }
+
+        // Abrir modal de imagem
+        function openImageModal() {
+            document.getElementById('imageModal').style.display = 'block';
+            document.body.classList.add('modal-open');
+        }
+
+        // Fechar modal de imagem
+        function closeImageModal() {
+            document.getElementById('imageModal').style.display = 'none';
+            document.body.classList.remove('modal-open');
+        }
+
+        // Baixar imagem
+        function downloadImage() {
+            if (currentImageBlob) {
+                const url = URL.createObjectURL(currentImageBlob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'palpites-77x-brasil.png';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                showToast('Download iniciado!');
+            }
+        }
+
+        // Compartilhar imagem
+        function shareImage() {
+            if (navigator.share && currentImageBlob) {
+                const file = new File([currentImageBlob], 'palpites-77x-brasil.png', { type: 'image/png' });
+                navigator.share({
+                    title: 'Palpites 77x Brasil',
+                    text: 'Confira meus palpites!',
+                    files: [file]
+                }).then(() => {
+                    showToast('Imagem compartilhada!');
+                }).catch(() => {
+                    showToast('Erro ao compartilhar');
+                });
+            } else {
+                showToast('Compartilhamento não suportado');
+            }
+        }
+
+        // Mostrar toast
+        function showToast(message) {
+            // Criar elemento de toast se não existir
+            let toast = document.getElementById('toast');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'toast';
+                toast.className = 'toast';
+                document.body.appendChild(toast);
+            }
+
+            toast.innerHTML = `
+                <div class="toast-icon">✓</div>
+                <span>${message}</span>
+            `;
+            toast.classList.add('show');
+
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+        // Adicionar eventos de input para validação
+        document.addEventListener('DOMContentLoaded', function() {
+            for (let i = 1; i <= 5; i++) {
+                const inputX = document.getElementById(`input-x-${i}`);
+                const inputY = document.getElementById(`input-y-${i}`);
+                const groupInfo = document.getElementById(`group-info-${i}`);
+
+                inputX.addEventListener('input', function() {
+                    const value = this.value.padStart(2, '0');
+                    const groupNumber = groupInfo.dataset.group;
+                    
+                    if (groupNumber && value.length === 2) {
+                        const grupo = grupos[groupNumber];
+                        if (grupo.numeros.includes(value)) {
+                            inputY.value = value;
+                            inputY.style.color = 'var(--accent-success)';
+                        } else {
+                            inputY.value = '';
+                            inputY.style.color = 'var(--accent-danger)';
+                        }
+                    } else {
+                        inputY.value = '';
+                    }
+                });
+
+                // Permitir apenas números
+                inputX.addEventListener('keypress', function(e) {
+                    if (!/[0-9]/.test(e.key) && !['Backspace', 'Delete', 'Tab', 'Enter'].includes(e.key)) {
+                        e.preventDefault();
+                    }
                 });
             }
         });
 
-        // Função para selecionar um grupo e preencher a linha
-        function selectGroup(numero, nome, dezenas) {
-            if (currentSelectingRow) {
-                currentSelectingRow.dataset.grupoNumero = numero;
-                currentSelectingRow.dataset.grupoNome = nome;
-                currentSelectingRow.querySelector('.group-info').textContent = `Grupo ${numero} ${nome}:`;
-                const inputYs = currentSelectingRow.querySelectorAll('.input-y');
-                dezenas.forEach((dezena, index) => {
-                    if (inputYs[index]) {
-                        inputYs[index].textContent = dezena;
-                    }
-                });
-                closeModal('groupSelectionModal');
-            }
-        }
-
-        // Função para limpar uma linha
-        function clearRow(rowElement) {
-            rowElement.dataset.grupoNumero = '';
-            rowElement.dataset.grupoNome = '';
-            rowElement.querySelector('.group-info').textContent = '';
-            rowElement.querySelectorAll('.input-x').forEach(input => input.value = '');
-            rowElement.querySelectorAll('.input-y').forEach(span => span.textContent = '');
-        }
-
-        // Função para preencher todos os campos 'x' vazios aleatoriamente
-        function fillAllEmptyX() {
-            document.querySelectorAll('.palpite-row').forEach(row => {
-                row.querySelectorAll('.input-x').forEach(inputX => {
-                    if (inputX.value === '') {
-                        inputX.value = Math.floor(Math.random() * 100).toString().padStart(2, '0');
-                    }
-                });
-            });
-        }
-
-        // Função para sortear grupos aleatoriamente para todas as linhas
-        function sortearGrupos() {
-            const availableGroups = [...grupos]; // Copia para não modificar o original
-            const palpiteRows = document.querySelectorAll('.palpite-row');
+        // Fechar modais ao clicar fora
+        window.addEventListener('click', function(event) {
+            const groupModal = document.getElementById('groupModal');
+            const imageModal = document.getElementById('imageModal');
             
-            // Limpar todas as linhas primeiro
-            palpiteRows.forEach(row => {
-                clearRow(row);
-            });
-            
-            // Sortear grupos para todas as 4 linhas
-            palpiteRows.forEach((row, index) => {
-                if (availableGroups.length > 0) {
-                    const randomIndex = Math.floor(Math.random() * availableGroups.length);
-                    const selectedGroup = availableGroups.splice(randomIndex, 1)[0];
-                    
-                    // Definir a linha atual como a que está sendo processada
-                    currentSelectingRow = row;
-                    selectGroup(selectedGroup.numero, selectedGroup.nome, selectedGroup.dezenas);
-                }
-            });
-            
-            fillAllEmptyX(); // Preenche os 'x' após sortear os grupos
-        }
-
-         // Função para gerar a imagem
-        async function visualizeImage() {
-            // Verificar se todas as linhas estão preenchidas
-            const palpitesRows = document.querySelectorAll('.palpite-row');
-            let allRowsValid = true;
-            let validRows = [];
-
-            for (let i = 0; i < palpitesRows.length; i++) {
-                const row = palpitesRows[i];
-                const grupoNumero = row.dataset.grupoNumero;
-                const grupoNome = row.dataset.grupoNome;
-                const inputXs = row.querySelectorAll('.input-x');
-                const inputYs = row.querySelectorAll('.input-y');
-
-                if (!grupoNumero || !grupoNome) {
-                    continue; // Pular linhas sem grupo selecionado
-                }
-
-                let rowValid = true;
-                let fullNumbers = [];
-                for (let j = 0; j < 4; j++) {
-                    const xVal = inputXs[j].value.trim();
-                    const yVal = inputYs[j].textContent.trim();
-                    if (!xVal || !yVal) {
-                        rowValid = false;
-                        break;
-                    }
-                    fullNumbers.push(`${xVal}${yVal}`);
-                }
-
-                if (rowValid) {
-                    validRows.push({
-                        grupoNumero,
-                        grupoNome,
-                        fullNumbers
-                    });
-                }
+            if (event.target === groupModal) {
+                closeModal('groupModal');
             }
-
-            if (validRows.length === 0) {
-                alert('Por favor, selecione pelo menos um grupo e preencha todos os campos de palpite antes de visualizar.');
-                return;
+            if (event.target === imageModal) {
+                closeImageModal();
             }
-
-            const canvas = document.createElement('canvas');
-            const ctx = canvas.getContext('2d');
-
-            // Dimensões da imagem (ajustar conforme necessário)
-            canvas.width = 600; 
-            canvas.height = 200 + (validRows.length * 120) + 150; // Altura dinâmica baseada no número de linhas
-
-            try {
-                // Carregar imagem de fundo
-                const backgroundImage = new Image();
-                backgroundImage.crossOrigin = 'anonymous';
-                backgroundImage.src = '/assets/img/palpites/backg1.webp';
-                await new Promise((resolve, reject) => {
-                    backgroundImage.onload = resolve;
-                    backgroundImage.onerror = () => {
-                        // Se não conseguir carregar a imagem de fundo, usar cor sólida
-                        ctx.fillStyle = '#041228';
-                        ctx.fillRect(0, 0, canvas.width, canvas.height);
-                        resolve();
-                    };
-                });
-                
-                if (backgroundImage.complete && backgroundImage.naturalWidth > 0) {
-                    ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
-                } else {
-                    // Fallback para cor sólida
-                    ctx.fillStyle = '#041228';
-                    ctx.fillRect(0, 0, canvas.width, canvas.height);
-                }
-
-                // Data e Dia da Semana
-                const today = new Date();
-                const dateStr = today.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: '2-digit' });
-                const dayOfWeekStr = today.toLocaleDateString('pt-BR', { weekday: 'long' });
-
-                ctx.font = 'bold 18px Inter, sans-serif';
-                ctx.fillStyle = 'white';
-                ctx.textAlign = 'center';
-                ctx.fillText(dateStr, canvas.width / 2, 40);
-
-                ctx.font = 'bold 18px Inter, sans-serif';
-                ctx.fillStyle = '#F1D14C';
-                ctx.fillText(dayOfWeekStr.charAt(0).toUpperCase() + dayOfWeekStr.slice(1), canvas.width / 2, 70);
-
-                // Título
-                ctx.font = 'bold 32px Inter, sans-serif';
-                ctx.fillStyle = 'white';
-                ctx.fillText('PALPITES DO DIA', canvas.width / 2, 120);
-
-                // Desenhar as linhas de palpite válidas
-                let startY = 180;
-                const rowHeight = 120;
-                const imageSize = 80;
-
-                for (let i = 0; i < validRows.length; i++) {
-                    const rowData = validRows[i];
-
-                    try {
-                        // Carregar imagem do grupo
-                        const groupImage = new Image();
-                        groupImage.crossOrigin = 'anonymous';
-                        groupImage.src = `/assets/img/grupos/${rowData.grupoNumero}.webp`;
-                        await new Promise((resolve, reject) => {
-                            groupImage.onload = resolve;
-                            groupImage.onerror = () => {
-                                // Se não conseguir carregar a imagem do grupo, desenhar um círculo colorido
-                                ctx.fillStyle = '#4FA2E8';
-                                ctx.beginPath();
-                                ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
-                                ctx.fill();
-                                resolve();
-                            };
-                        });
-
-                        // Desenhar imagem do grupo (arredondada)
-                        if (groupImage.complete && groupImage.naturalWidth > 0) {
-                            ctx.save();
-                            ctx.beginPath();
-                            ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2, false);
-                            ctx.clip();
-                            ctx.drawImage(groupImage, 50, startY, imageSize, imageSize);
-                            ctx.restore();
-                        } else {
-                            // Fallback para círculo colorido
-                            ctx.fillStyle = '#4FA2E8';
-                            ctx.beginPath();
-                            ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
-                            ctx.fill();
-                        }
-
-                        // Nome do animal e número do grupo
-                        ctx.font = 'bold 20px Inter, sans-serif';
-                        ctx.fillStyle = 'white';
-                        ctx.textAlign = 'left';
-                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 50 + imageSize + 20, startY + 30);
-
-                        // Números completos em retângulos brancos
-                        const numbersText = rowData.fullNumbers.join(' ');
-                        const textX = 50 + imageSize + 20;
-                        const textY = startY + 65;
-                        
-                        // Medir o texto para criar o retângulo
-                        ctx.font = 'bold 24px JetBrains Mono, monospace';
-                        const textMetrics = ctx.measureText(numbersText);
-                        const textWidth = textMetrics.width;
-                        const textHeight = 30; // Altura aproximada da fonte
-                        
-                        // Desenhar retângulo branco
-                        ctx.fillStyle = 'white';
-                        ctx.fillRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
-                        
-                        // Desenhar borda do retângulo (opcional)
-                        ctx.strokeStyle = '#cccccc';
-                        ctx.lineWidth = 1;
-                        ctx.strokeRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
-                        
-                        // Desenhar texto em preto
-                        ctx.fillStyle = 'black';
-                        ctx.fillText(numbersText, textX, textY);
-
-                        startY += rowHeight;
-                    } catch (error) {
-                        console.error('Erro ao carregar imagem do grupo:', error);
-                        // Continuar com o próximo grupo mesmo se houver erro
-                        startY += rowHeight;
-                    }
-                }
-
-                // Logo do site
-                try {
-                    const logoImage = new Image();
-                    logoImage.crossOrigin = 'anonymous';
-                    logoImage.src = '/assets/img/logo.webp';
-                    await new Promise((resolve, reject) => {
-                        logoImage.onload = resolve;
-                        logoImage.onerror = () => {
-                            // Se não conseguir carregar o logo, desenhar texto
-                            ctx.font = 'bold 16px Inter, sans-serif';
-                            ctx.fillStyle = 'white';
-                            ctx.textAlign = 'center';
-                            ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
-                            resolve();
-                        };
-                    });
-                    
-                    if (logoImage.complete && logoImage.naturalWidth > 0) {
-                        ctx.drawImage(logoImage, canvas.width / 2 - 50, canvas.height - 80, 100, 50);
-                    } else {
-                        // Fallback para texto
-                        ctx.font = 'bold 16px Inter, sans-serif';
-                        ctx.fillStyle = 'white';
-                        ctx.textAlign = 'center';
-                        ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
-                    }
-                } catch (error) {
-                    console.error('Erro ao carregar logo:', error);
-                    // Fallback para texto
-                    ctx.font = 'bold 16px Inter, sans-serif';
-                    ctx.fillStyle = 'white';
-                    ctx.textAlign = 'center';
-                    ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
-                }
-
-                const imageDataUrl = canvas.toDataURL('image/png');
-                document.getElementById('generatedImage').src = imageDataUrl;
-                openModal('imagePreviewModal');
-
-            } catch (error) {
-                console.error('Erro ao gerar imagem:', error);
-                alert('Erro ao gerar a imagem. Por favor, tente novamente.');
-            }
-        }
-
-        // Função para download da imagem gerada
-        function downloadGeneratedImage() {
-            const image = document.getElementById('generatedImage').src;
-            const link = document.createElement('a');
-            link.href = image;
-            link.download = 'palpite_77xbrasil.png';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        }
-
-        // Função para compartilhar a imagem gerada (usando a função existente do script.js)
-        async function shareGeneratedImage() {
-            const imageBlob = await (await fetch(document.getElementById('generatedImage').src)).blob();
-            if (navigator.share && navigator.canShare({
-                    files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })]
-                })) {
-                await navigator.share({
-                    files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })],
-                    title: 'Meu Palpite 77x Brasil',
-                    text: 'Confira meu palpite para o jogo do bicho!'
-                });
-            } else {
-                alert('Compartilhamento não suportado neste navegador. Por favor, baixe a imagem e compartilhe manualmente.');
-            }
-        }
-
-        // Funções de Modal (reutilizadas do script.js, se existirem, ou definidas aqui)
-        function openModal(modalId) {
-            const modal = document.getElementById(modalId);
-            if (modal) {
-                modal.style.display = 'flex';
-                document.body.classList.add('modal-open');
-            }
-        }
-
-        function closeModal(modalId) {
-            const modal = document.getElementById(modalId);
-            if (modal) {
-                modal.style.display = 'none';
-                document.body.classList.remove('modal-open');
-            }
-        }
+        });
     </script>
-
-  <footer class="site-footer">
-    <div class="footer-content">
-      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
-      <p class="site-domain" id="siteDomain"></p>
-      <p class="copyright-text" id="copyrightText"></p>
-    </div>
-  </footer>
 </body>
 </html>
+
