@@ -330,134 +330,55 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "5367",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "9197",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "9615",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "5970",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "6915",
+          "Milhar": "5614",
           "Grupo": "04",
           "Bicho": "Borboleta"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "1366",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "0080",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "7267",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "6525",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "0530",
+          "Milhar": "7386",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "603",
+          "Milhar": "906",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {
-        "3366": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 3366",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3366",
-          "Dezena no quarto prêmio!<br>com o palpite 3366",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 3366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3366"
-        ],
-        "3666": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 3666",
-          "Dezena no quarto prêmio!<br>com o palpite 3666",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 3666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3666"
-        ],
-        "3966": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 3966",
-          "Dezena no quarto prêmio!<br>com o palpite 3966",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 3966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3966"
-        ],
-        "5366": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5366",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 5366",
-          "Dezena no quarto prêmio!<br>com o palpite 5366",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 5366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5366"
-        ],
-        "5666": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5666",
-          "Dezena no quarto prêmio!<br>com o palpite 5666",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 5666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5666"
-        ],
-        "5966": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5966",
-          "Dezena no quarto prêmio!<br>com o palpite 5966",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 5966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5966"
-        ],
-        "6366": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6366",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 6366",
-          "Dezena no quarto prêmio!<br>com o palpite 6366",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 6366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6366"
-        ],
-        "6666": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6666",
-          "Dezena no quarto prêmio!<br>com o palpite 6666",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 6666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6666"
-        ],
-        "6966": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6966",
-          "Dezena no quarto prêmio!<br>com o palpite 6966",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 6966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6966"
-        ],
-        "7366": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7366",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 7366",
-          "Dezena no quarto prêmio!<br>com o palpite 7366",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 7366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7366"
-        ],
-        "7666": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7666",
-          "Dezena no quarto prêmio!<br>com o palpite 7666",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 7666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7666"
-        ],
-        "7966": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7966",
-          "Dezena no quarto prêmio!<br>com o palpite 7966",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 7966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7966"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 4,
-        "Dezena": 12,
-        "Grupo": [
-          "🐒"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3366, 3666, 3966, 5366, 5666, 5966, 6366, 6666, 6966, 7366, 7666, 7966"
+      "resumo": "Palpites dados para esta extração: 0053"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -942,152 +863,79 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "5367",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "9197",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "9615",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "5970",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "6915",
+          "Milhar": "5614",
           "Grupo": "04",
           "Bicho": "Borboleta"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "1366",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "0080",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "7267",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "6525",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "5961",
-          "Grupo": "16",
-          "Bicho": "Leão"
+          "Milhar": "9550",
+          "Grupo": "13",
+          "Bicho": "Galo"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "3693",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "1960",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "6116",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "9718",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "7556",
-          "Grupo": "14",
-          "Bicho": "Gato"
+          "Milhar": "7040",
+          "Grupo": "10",
+          "Bicho": "Coelho"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "3856",
+          "Milhar": "5654",
           "Grupo": "14",
           "Bicho": "Gato"
         }
       ],
       "frases": {
-        "3366": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 3366",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3366",
-          "Dezena no quarto prêmio!<br>com o palpite 3366",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 3366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3366"
-        ],
-        "3666": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 3666",
-          "Dezena no quarto prêmio!<br>com o palpite 3666",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 3666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3666"
-        ],
-        "3966": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 3966",
-          "Dezena no quarto prêmio!<br>com o palpite 3966",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 3966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 3966"
-        ],
-        "5366": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5366",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 5366",
-          "Dezena no quarto prêmio!<br>com o palpite 5366",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 5366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5366"
-        ],
-        "5666": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5666",
-          "Dezena no quarto prêmio!<br>com o palpite 5666",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 5666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5666"
-        ],
-        "5966": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 5966",
-          "Dezena no quarto prêmio!<br>com o palpite 5966",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 5966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 5966"
-        ],
-        "6366": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6366",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 6366",
-          "Dezena no quarto prêmio!<br>com o palpite 6366",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 6366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6366"
-        ],
-        "6666": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6666",
-          "Dezena no quarto prêmio!<br>com o palpite 6666",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 6666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6666"
-        ],
-        "6966": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6966",
-          "Dezena no quarto prêmio!<br>com o palpite 6966",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 6966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 6966"
-        ],
-        "7366": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7366",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 7366",
-          "Dezena no quarto prêmio!<br>com o palpite 7366",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 7366",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7366"
-        ],
-        "7666": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7666",
-          "Dezena no quarto prêmio!<br>com o palpite 7666",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 7666",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7666"
-        ],
-        "7966": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 7966",
-          "Dezena no quarto prêmio!<br>com o palpite 7966",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 7966",
-          "MACACO 🐒 no quinto prêmio!<br>com o palpite 7966"
+        "0053": [
+          "GATO 🐈 no décimo prêmio!<br>com o palpite 0053"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 4,
-        "Dezena": 12,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🐒"
+          "🐈"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3366, 3666, 3966, 5366, 5666, 5966, 6366, 6666, 6966, 7366, 7666, 7966"
+      "resumo": "Palpites dados para esta extração: 0053"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
