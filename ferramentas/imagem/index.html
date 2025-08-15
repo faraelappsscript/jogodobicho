@@ -280,7 +280,7 @@
             object-fit: contain;
         }
 
-        /* Modal de visualização da imagem */
+        /* Modal de visualização da imagem - Atualizado para seguir o padrão do index(3).html */
         .image-modal {
             display: none;
             position: fixed;
@@ -295,7 +295,7 @@
 
         .image-modal-content {
             position: relative;
-            background-color: var(--bg-card);
+            background-color: var(--bg-secondary);
             margin: 2vh auto;
             padding: 0;
             border-radius: var(--radius-lg);
@@ -307,10 +307,11 @@
             overflow: hidden;
             display: flex;
             flex-direction: column;
+            border: 1px solid var(--border-color);
         }
 
         .image-modal-header {
-            padding: var(--spacing-sm);
+            padding: var(--spacing-lg);
             border-bottom: 1px solid var(--border-color);
             display: flex;
             justify-content: space-between;
@@ -319,50 +320,60 @@
         }
 
         .image-modal-title {
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             font-weight: 700;
             color: var(--text-primary);
             margin: 0;
+            font-family: 'Inter', sans-serif;
         }
 
         .image-modal-close {
-            background: none;
-            border: none;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
             font-size: 1.5rem;
             cursor: pointer;
             color: var(--text-secondary);
-            padding: var(--spacing-xs);
-            border-radius: var(--radius-sm);
+            padding: var(--spacing-sm);
+            border-radius: var(--radius-md);
             transition: all var(--transition-normal);
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .image-modal-close:hover {
             background-color: var(--bg-card-hover);
             color: var(--text-primary);
+            border-color: var(--border-accent);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
         }
 
         .image-modal-body {
-            padding: var(--spacing-xs);
+            padding: var(--spacing-lg);
             flex: 1;
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: auto;
             min-height: 0;
+            background: var(--bg-card);
         }
 
         .image-modal-body img {
             max-width: 100%;
-            max-height: calc(96vh - 120px);
+            max-height: calc(96vh - 160px);
             width: auto;
             height: auto;
-            border-radius: var(--radius-md);
-            box-shadow: var(--shadow-lg);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-xl);
             object-fit: contain;
         }
 
         .image-modal-footer {
-            padding: var(--spacing-sm);
+            padding: var(--spacing-lg);
             border-top: 1px solid var(--border-color);
             background: var(--bg-secondary);
             display: flex;
@@ -371,14 +382,14 @@
         }
 
         .image-modal-footer .btn {
-            padding: var(--spacing-sm) var(--spacing-md);
+            padding: var(--spacing-md) var(--spacing-lg);
             border-radius: var(--radius-md);
-            background-color: var(--bg-secondary);
+            background-color: var(--bg-card);
             border: 1px solid var(--border-color);
             color: var(--text-primary);
             cursor: pointer;
-            font-weight: 600;
-            font-size: 0.9rem;
+            font-weight: 700;
+            font-size: 1rem;
             white-space: nowrap;
             transition: all var(--transition-normal);
             text-align: center;
@@ -386,13 +397,16 @@
             align-items: center;
             justify-content: center;
             text-decoration: none;
-            min-width: 120px;
+            min-width: 140px;
+            font-family: 'Inter', sans-serif;
+            box-shadow: var(--shadow-lg);
         }
 
         .image-modal-footer .btn:hover {
             background-color: var(--bg-card-hover);
             border-color: var(--border-accent);
-            transform: translateY(-1px);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-xl);
         }
 
         /* Estilos para o footer */
@@ -514,35 +528,49 @@
                 line-height: 1.4;
             }
 
-            /* Modal de imagem responsivo */
+            /* Modal de imagem responsivo - Atualizado para seguir o padrão do index(3).html */
             .image-modal-content {
                 width: 95%;
                 max-width: none;
                 margin: 1vh auto;
                 height: auto;
                 max-height: 98vh;
+                border-radius: var(--radius-lg);
             }
 
             .image-modal-header {
-                padding: var(--spacing-sm);
+                padding: var(--spacing-md);
             }
 
             .image-modal-title {
-                font-size: 1.1rem;
+                font-size: 1.2rem;
+            }
+
+            .image-modal-close {
+                width: 36px;
+                height: 36px;
+                font-size: 1.2rem;
             }
 
             .image-modal-body {
-                padding: var(--spacing-xs);
+                padding: var(--spacing-md);
             }
 
             .image-modal-body img {
-                max-height: calc(98vh - 100px);
+                max-height: calc(98vh - 140px);
+                border-radius: var(--radius-md);
             }
 
             .image-modal-footer {
                 padding: var(--spacing-md);
                 flex-direction: row;
                 gap: var(--spacing-sm);
+            }
+
+            .image-modal-footer .btn {
+                padding: var(--spacing-md);
+                font-size: 0.9rem;
+                min-width: 120px;
             }
 
             .image-modal-footer .btn {
@@ -838,8 +866,8 @@
                     if (e.target.value.length > 2) {
                         e.target.value = e.target.value.slice(0, 2);
                     }
-                    // REMOVIDO: Preenchimento automático com zero à esquerda
-                    // Agora permite digitar números de 1 ou 2 dígitos livremente
+                    // REMOVIDO: Não preencher automaticamente com zero à esquerda
+                    // Isso permite que o usuário digite números de 2 dígitos normalmente
                 }
             });
 
@@ -921,111 +949,228 @@
                 }
             });
             
-            fillAllEmptyX(); // Preencher automaticamente os campos X após sortear
+            fillAllEmptyX(); // Preenche os 'x' após sortear os grupos
         }
 
-        // Função para aplicar preenchimento com zero apenas ao visualizar - NOVA FUNCIONALIDADE
-        function padNumbersForVisualization() {
-            document.querySelectorAll('.palpite-row').forEach(row => {
-                row.querySelectorAll('.input-x').forEach(inputX => {
-                    if (inputX.value !== '' && inputX.value.length === 1) {
-                        inputX.value = '0' + inputX.value;
+         // Função para gerar a imagem
+        async function visualizeImage() {
+            // Verificar se todas as linhas estão preenchidas
+            const palpitesRows = document.querySelectorAll('.palpite-row');
+            let allRowsValid = true;
+            let validRows = [];
+
+            for (let i = 0; i < palpitesRows.length; i++) {
+                const row = palpitesRows[i];
+                const grupoNumero = row.dataset.grupoNumero;
+                const grupoNome = row.dataset.grupoNome;
+                const inputXs = row.querySelectorAll('.input-x');
+                const inputYs = row.querySelectorAll('.input-y');
+
+                if (!grupoNumero || !grupoNome) {
+                    continue; // Pular linhas sem grupo selecionado
+                }
+
+                let rowValid = true;
+                let fullNumbers = [];
+                for (let j = 0; j < 4; j++) {
+                    const xVal = inputXs[j].value.trim();
+                    const yVal = inputYs[j].textContent.trim();
+                    if (!xVal || !yVal) {
+                        rowValid = false;
+                        break;
                     }
-                });
-            });
-        }
+                    // Garantir que o valor X tenha 2 dígitos para a concatenação
+                    const paddedXVal = xVal.padStart(2, '0');
+                    fullNumbers.push(`${paddedXVal}${yVal}`);
+                }
 
-        // Função para visualizar a imagem (simulação)
-        function visualizeImage() {
-            // NOVO: Aplicar preenchimento com zero antes de visualizar
-            padNumbersForVisualization();
-            
-            // Verificar se há pelo menos uma linha com grupo selecionado
-            const hasValidRows = Array.from(document.querySelectorAll('.palpite-row')).some(row => {
-                return row.dataset.grupoNumero && row.dataset.grupoNumero !== '';
-            });
+                if (rowValid) {
+                    validRows.push({
+                        grupoNumero,
+                        grupoNome,
+                        fullNumbers
+                    });
+                }
+            }
 
-            if (!hasValidRows) {
-                alert('Por favor, selecione pelo menos um grupo antes de visualizar.');
+            if (validRows.length === 0) {
+                alert('Por favor, selecione pelo menos um grupo e preencha todos os campos de palpite antes de visualizar.');
                 return;
             }
 
-            // Simular geração de imagem (aqui você implementaria a lógica real)
-            const imageUrl = 'data:image/svg+xml;base64,' + btoa(`
-                <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="100%" height="100%" fill="#1a1a2e"/>
-                    <text x="400" y="100" font-family="Arial, sans-serif" font-size="32" fill="#ffffff" text-anchor="middle" font-weight="bold">PALPITES DO DIA</text>
-                    <text x="400" y="150" font-family="Arial, sans-serif" font-size="24" fill="#16213e" text-anchor="middle">77x Brasil</text>
-                    ${generatePalpitesText()}
-                </svg>
-            `);
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
 
-            document.getElementById('generatedImage').src = imageUrl;
-            openModal('imagePreviewModal');
-        }
+            // Dimensões da imagem (ajustar conforme necessário)
+            canvas.width = 600; 
+            canvas.height = 180 + (validRows.length * 130) + 120; // Altura dinâmica baseada no número de linhas
 
-        // Função auxiliar para gerar o texto dos palpites no SVG
-        function generatePalpitesText() {
-            let svgText = '';
-            let yPosition = 220;
-            
-            document.querySelectorAll('.palpite-row').forEach((row, index) => {
-                const grupoNumero = row.dataset.grupoNumero;
-                const grupoNome = row.dataset.grupoNome;
+            try {
+                // Carregar imagem de fundo
+                const backgroundImage = new Image();
+                backgroundImage.crossOrigin = 'anonymous';
+                backgroundImage.src = '/assets/img/palpites/backg1.webp';
+                await new Promise((resolve, reject) => {
+                    backgroundImage.onload = resolve;
+                    backgroundImage.onerror = () => {
+                        // Se não conseguir carregar a imagem de fundo, usar cor sólida
+                        ctx.fillStyle = '#041228';
+                        ctx.fillRect(0, 0, canvas.width, canvas.height);
+                        resolve();
+                    };
+                });
                 
-                if (grupoNumero && grupoNome) {
-                    const inputXs = row.querySelectorAll('.input-x');
-                    const inputYs = row.querySelectorAll('.input-y');
-                    
-                    svgText += `<text x="50" y="${yPosition}" font-family="Arial, sans-serif" font-size="18" fill="#ffffff" font-weight="bold">Grupo ${grupoNumero} ${grupoNome}:</text>`;
-                    
-                    let xPosition = 50;
-                    inputXs.forEach((inputX, i) => {
-                        const xValue = inputX.value || '??';
-                        const yValue = inputYs[i].textContent || '??';
-                        svgText += `<text x="${xPosition}" y="${yPosition + 30}" font-family="Arial, sans-serif" font-size="16" fill="#00ff88">${xValue}x${yValue}</text>`;
-                        xPosition += 80;
-                    });
-                    
-                    yPosition += 80;
+                if (backgroundImage.complete && backgroundImage.naturalWidth > 0) {
+                    ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
+                } else {
+                    // Fallback para cor sólida
+                    ctx.fillStyle = '#041228';
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
                 }
-            });
-            
-            return svgText;
+
+                // Data e Dia da Semana
+                const today = new Date();
+                const dateStr = today.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: '2-digit' });
+                const dayOfWeekStr = today.toLocaleDateString('pt-BR', { weekday: 'long' });
+
+                ctx.font = 'bold 24px Inter, sans-serif';
+                ctx.fillStyle = 'white';
+                ctx.textAlign = 'center';
+                ctx.fillText(dateStr, canvas.width / 2, 40);
+
+                ctx.font = 'bold 24px Inter, sans-serif';
+                ctx.fillStyle = '#F1D14C';
+                ctx.fillText(dayOfWeekStr.charAt(0).toUpperCase() + dayOfWeekStr.slice(1), canvas.width / 2, 70);
+
+                // Título
+                ctx.font = 'bold 48px Inter, sans-serif';
+                ctx.fillStyle = 'white';
+                ctx.fillText('PALPITES DO DIA', canvas.width / 2, 120);
+
+                // Desenhar as linhas de palpite válidas
+                let startY = 150;
+                const rowHeight = 130;
+                const imageSize = 120;
+
+                for (let i = 0; i < validRows.length; i++) {
+                    const rowData = validRows[i];
+
+                    try {
+                        // Carregar imagem do grupo
+                        const groupImage = new Image();
+                        groupImage.crossOrigin = 'anonymous';
+                        groupImage.src = `/assets/img/grupos/${rowData.grupoNumero}.webp`;
+                        await new Promise((resolve, reject) => {
+                            groupImage.onload = resolve;
+                            groupImage.onerror = () => {
+                                // Se não conseguir carregar a imagem do grupo, desenhar um círculo colorido
+                                ctx.fillStyle = '#4FA2E8';
+                                ctx.beginPath();
+                                ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
+                                ctx.fill();
+                                resolve();
+                            };
+                        });
+
+                        // Desenhar imagem do grupo (arredondada)
+                        if (groupImage.complete && groupImage.naturalWidth > 0) {
+                            ctx.save();
+                            ctx.beginPath();
+                            ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2, false);
+                            ctx.clip();
+                            ctx.drawImage(groupImage, 50, startY, imageSize, imageSize);
+                            ctx.restore();
+                        } else {
+                            // Fallback para círculo colorido
+                            ctx.fillStyle = '#4FA2E8';
+                            ctx.beginPath();
+                            ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
+                            ctx.fill();
+                        }
+
+                        // Nome do animal e número do grupo
+                        ctx.font = 'bold 28px Inter, sans-serif';
+                        ctx.fillStyle = 'white';
+                        ctx.textAlign = 'left';
+                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 50 + imageSize + 20, startY + 40);
+
+                        // Números completos em retângulos brancos
+                        const numbersText = rowData.fullNumbers.join(' ');
+                        const textX = 50 + imageSize + 20;
+                        const textY = startY + 85;
+
+                        // Fundo branco para os números
+                        ctx.fillStyle = 'white';
+                        ctx.fillRect(textX - 10, textY - 30, 300, 40);
+
+                        // Texto dos números
+                        ctx.font = 'bold 24px JetBrains Mono, monospace';
+                        ctx.fillStyle = 'black';
+                        ctx.fillText(numbersText, textX, textY);
+
+                        startY += rowHeight;
+                    } catch (error) {
+                        console.error('Erro ao carregar imagem do grupo:', error);
+                        startY += rowHeight;
+                    }
+                }
+
+                // Converter canvas para imagem e exibir no modal
+                const imageDataUrl = canvas.toDataURL('image/png');
+                const generatedImage = document.getElementById('generatedImage');
+                generatedImage.src = imageDataUrl;
+                openModal('imagePreviewModal');
+
+            } catch (error) {
+                console.error('Erro ao gerar imagem:', error);
+                alert('Erro ao gerar a imagem. Tente novamente.');
+            }
         }
 
         // Função para baixar a imagem gerada
         function downloadGeneratedImage() {
-            const img = document.getElementById('generatedImage');
-            const link = document.createElement('a');
-            link.download = 'palpites-77x-brasil.png';
-            link.href = img.src;
-            link.click();
+            const generatedImage = document.getElementById('generatedImage');
+            if (generatedImage.src) {
+                const link = document.createElement('a');
+                link.download = 'palpites-do-dia.png';
+                link.href = generatedImage.src;
+                link.click();
+            }
         }
 
         // Função para compartilhar a imagem
         function shareGeneratedImage() {
-            if (navigator.share) {
-                navigator.share({
-                    title: 'Palpites 77x Brasil',
-                    text: 'Confira meus palpites do dia!',
-                    url: window.location.href
-                });
+            const generatedImage = document.getElementById('generatedImage');
+            if (generatedImage.src && navigator.share) {
+                // Converter data URL para blob
+                fetch(generatedImage.src)
+                    .then(res => res.blob())
+                    .then(blob => {
+                        const file = new File([blob], 'palpites-do-dia.png', { type: 'image/png' });
+                        navigator.share({
+                            title: 'Palpites do Dia',
+                            text: 'Confira os palpites do dia!',
+                            files: [file]
+                        });
+                    })
+                    .catch(err => {
+                        console.error('Erro ao compartilhar:', err);
+                        // Fallback: copiar link para clipboard
+                        navigator.clipboard.writeText(window.location.href);
+                        alert('Link copiado para a área de transferência!');
+                    });
             } else {
                 // Fallback para navegadores que não suportam Web Share API
-                const url = window.location.href;
-                navigator.clipboard.writeText(url).then(() => {
-                    alert('Link copiado para a área de transferência!');
-                });
+                navigator.clipboard.writeText(window.location.href);
+                alert('Link copiado para a área de transferência!');
             }
         }
 
-        // Funções auxiliares para modais
+        // Funções auxiliares para modais (assumindo que existem no script.js)
         function openModal(modalId) {
             const modal = document.getElementById(modalId);
             if (modal) {
                 modal.style.display = 'block';
-                document.body.style.overflow = 'hidden';
             }
         }
 
@@ -1033,7 +1178,6 @@
             const modal = document.getElementById(modalId);
             if (modal) {
                 modal.style.display = 'none';
-                document.body.style.overflow = 'auto';
             }
         }
 
@@ -1041,18 +1185,6 @@
         window.addEventListener('click', function(event) {
             if (event.target.classList.contains('modal') || event.target.classList.contains('image-modal')) {
                 event.target.style.display = 'none';
-                document.body.style.overflow = 'auto';
-            }
-        });
-
-        // Fechar modal com tecla ESC
-        document.addEventListener('keydown', function(event) {
-            if (event.key === 'Escape') {
-                const openModals = document.querySelectorAll('.modal[style*="block"], .image-modal[style*="block"]');
-                openModals.forEach(modal => {
-                    modal.style.display = 'none';
-                });
-                document.body.style.overflow = 'auto';
             }
         });
     </script>
