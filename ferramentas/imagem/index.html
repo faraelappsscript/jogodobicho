@@ -280,7 +280,7 @@
             object-fit: contain;
         }
 
-        /* Modal de visualização da imagem - Atualizado para seguir o padrão do index(3).html */
+        /* Modal de visualização da imagem */
         .image-modal {
             display: none;
             position: fixed;
@@ -295,7 +295,7 @@
 
         .image-modal-content {
             position: relative;
-            background-color: var(--bg-secondary);
+            background-color: var(--bg-card);
             margin: 2vh auto;
             padding: 0;
             border-radius: var(--radius-lg);
@@ -307,11 +307,10 @@
             overflow: hidden;
             display: flex;
             flex-direction: column;
-            border: 1px solid var(--border-color);
         }
 
         .image-modal-header {
-            padding: var(--spacing-lg);
+            padding: var(--spacing-sm);
             border-bottom: 1px solid var(--border-color);
             display: flex;
             justify-content: space-between;
@@ -320,60 +319,50 @@
         }
 
         .image-modal-title {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             font-weight: 700;
             color: var(--text-primary);
             margin: 0;
-            font-family: 'Inter', sans-serif;
         }
 
         .image-modal-close {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
+            background: none;
+            border: none;
             font-size: 1.5rem;
             cursor: pointer;
             color: var(--text-secondary);
-            padding: var(--spacing-sm);
-            border-radius: var(--radius-md);
+            padding: var(--spacing-xs);
+            border-radius: var(--radius-sm);
             transition: all var(--transition-normal);
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         .image-modal-close:hover {
             background-color: var(--bg-card-hover);
             color: var(--text-primary);
-            border-color: var(--border-accent);
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-md);
         }
 
         .image-modal-body {
-            padding: var(--spacing-lg);
+            padding: var(--spacing-xs);
             flex: 1;
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: auto;
             min-height: 0;
-            background: var(--bg-card);
         }
 
         .image-modal-body img {
             max-width: 100%;
-            max-height: calc(96vh - 160px);
+            max-height: calc(96vh - 120px);
             width: auto;
             height: auto;
-            border-radius: var(--radius-lg);
-            box-shadow: var(--shadow-xl);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-lg);
             object-fit: contain;
         }
 
         .image-modal-footer {
-            padding: var(--spacing-lg);
+            padding: var(--spacing-sm);
             border-top: 1px solid var(--border-color);
             background: var(--bg-secondary);
             display: flex;
@@ -382,14 +371,14 @@
         }
 
         .image-modal-footer .btn {
-            padding: var(--spacing-md) var(--spacing-lg);
+            padding: var(--spacing-sm) var(--spacing-md);
             border-radius: var(--radius-md);
-            background-color: var(--bg-card);
+            background-color: var(--bg-secondary);
             border: 1px solid var(--border-color);
             color: var(--text-primary);
             cursor: pointer;
-            font-weight: 700;
-            font-size: 1rem;
+            font-weight: 600;
+            font-size: 0.9rem;
             white-space: nowrap;
             transition: all var(--transition-normal);
             text-align: center;
@@ -397,16 +386,13 @@
             align-items: center;
             justify-content: center;
             text-decoration: none;
-            min-width: 140px;
-            font-family: 'Inter', sans-serif;
-            box-shadow: var(--shadow-lg);
+            min-width: 120px;
         }
 
         .image-modal-footer .btn:hover {
             background-color: var(--bg-card-hover);
             border-color: var(--border-accent);
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-xl);
+            transform: translateY(-1px);
         }
 
         /* Estilos para o footer */
@@ -528,49 +514,35 @@
                 line-height: 1.4;
             }
 
-            /* Modal de imagem responsivo - Atualizado para seguir o padrão do index(3).html */
+            /* Modal de imagem responsivo */
             .image-modal-content {
                 width: 95%;
                 max-width: none;
                 margin: 1vh auto;
                 height: auto;
                 max-height: 98vh;
-                border-radius: var(--radius-lg);
             }
 
             .image-modal-header {
-                padding: var(--spacing-md);
+                padding: var(--spacing-sm);
             }
 
             .image-modal-title {
-                font-size: 1.2rem;
-            }
-
-            .image-modal-close {
-                width: 36px;
-                height: 36px;
-                font-size: 1.2rem;
+                font-size: 1.1rem;
             }
 
             .image-modal-body {
-                padding: var(--spacing-md);
+                padding: var(--spacing-xs);
             }
 
             .image-modal-body img {
-                max-height: calc(98vh - 140px);
-                border-radius: var(--radius-md);
+                max-height: calc(98vh - 100px);
             }
 
             .image-modal-footer {
                 padding: var(--spacing-md);
                 flex-direction: row;
                 gap: var(--spacing-sm);
-            }
-
-            .image-modal-footer .btn {
-                padding: var(--spacing-md);
-                font-size: 0.9rem;
-                min-width: 120px;
             }
 
             .image-modal-footer .btn {
