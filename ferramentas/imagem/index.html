@@ -296,12 +296,13 @@
         .image-modal-content {
             position: relative;
             background-color: var(--bg-card);
-            margin: 1% auto;
+            margin: 2vh auto;
             padding: 0;
             border-radius: var(--radius-lg);
             width: 90%;
             max-width: 800px;
-            max-height: 95vh;
+            height: auto;
+            max-height: 96vh;
             box-shadow: var(--shadow-2xl);
             overflow: hidden;
             display: flex;
@@ -347,15 +348,17 @@
             justify-content: center;
             align-items: center;
             overflow: auto;
+            min-height: 0;
         }
 
         .image-modal-body img {
             max-width: 100%;
-            max-height: 100%;
+            max-height: calc(96vh - 120px);
             width: auto;
             height: auto;
             border-radius: var(--radius-md);
             box-shadow: var(--shadow-lg);
+            object-fit: contain;
         }
 
         .image-modal-footer {
@@ -515,8 +518,9 @@
             .image-modal-content {
                 width: 95%;
                 max-width: none;
-                margin: var(--spacing-sm);
-                max-height: 95vh;
+                margin: 1vh auto;
+                height: auto;
+                max-height: 98vh;
             }
 
             .image-modal-header {
@@ -528,7 +532,11 @@
             }
 
             .image-modal-body {
-                padding: var(--spacing-md);
+                padding: var(--spacing-xs);
+            }
+
+            .image-modal-body img {
+                max-height: calc(98vh - 100px);
             }
 
             .image-modal-footer {
