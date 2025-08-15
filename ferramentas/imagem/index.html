@@ -1013,8 +1013,8 @@
 
                 // Desenhar as linhas de palpite válidas
                 let startY = 180;
-                const rowHeight = 120;
-                const imageSize = 80;
+                const rowHeight = 160;
+                const imageSize = 120;
 
                 for (let i = 0; i < validRows.length; i++) {
                     const rowData = validRows[i];
@@ -1053,21 +1053,21 @@
                         }
 
                         // Nome do animal e número do grupo
-                        ctx.font = 'bold 20px Inter, sans-serif';
+                        ctx.font = 'bold 28px Inter, sans-serif';
                         ctx.fillStyle = 'white';
                         ctx.textAlign = 'left';
-                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 50 + imageSize + 20, startY + 30);
+                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 50 + imageSize + 20, startY + 40);
 
                         // Números completos em retângulos brancos
                         const numbersText = rowData.fullNumbers.join(' ');
                         const textX = 50 + imageSize + 20;
-                        const textY = startY + 65;
+                        const textY = startY + 85;
                         
                         // Medir o texto para criar o retângulo
-                        ctx.font = 'bold 24px JetBrains Mono, monospace';
+                        ctx.font = 'bold 32px JetBrains Mono, monospace';
                         const textMetrics = ctx.measureText(numbersText);
                         const textWidth = textMetrics.width;
-                        const textHeight = 30; // Altura aproximada da fonte
+                        const textHeight = 40; // Altura aproximada da fonte
                         
                         // Desenhar retângulo branco
                         ctx.fillStyle = 'white';
