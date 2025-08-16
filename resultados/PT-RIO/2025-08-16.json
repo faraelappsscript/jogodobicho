@@ -51,14 +51,25 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "7225": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7225",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 7225"
+        ],
+        "8225": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8225",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 8225"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 2,
+        "Grupo": [
+          "🐑"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 4241, 4243, 4244, 4247, 4541, 4543, 4544, 4547"
+      "resumo": "Palpites dados para esta extração: 7225, 8225"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,47 +122,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "4241": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4241"
-        ],
-        "4243": [
-          "Dezena no primeiro prêmio!<br>com o palpite 4243",
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4243"
-        ],
-        "4244": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4244"
-        ],
-        "4247": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 4247",
-          "Dezena no quarto prêmio!<br>com o palpite 4247",
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4247"
-        ],
-        "4541": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4541"
-        ],
-        "4543": [
-          "Dezena no primeiro prêmio!<br>com o palpite 4543",
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4543"
-        ],
-        "4544": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4544"
-        ],
-        "4547": [
-          "Dezena no quarto prêmio!<br>com o palpite 4547",
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4547"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 4,
-        "Grupo": [
-          "🐎",
-          "🐘"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4241, 4243, 4244, 4247, 4541, 4543, 4544, 4547"
+      "resumo": "Palpites dados para esta extração: 7225, 8225"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -204,23 +182,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "4247": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4247"
-        ],
-        "4547": [
-          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4547"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐘"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4241, 4243, 4244, 4247, 4541, 4543, 4544, 4547"
+      "resumo": "Palpites dados para esta extração: 7225, 8225"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
