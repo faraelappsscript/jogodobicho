@@ -78,55 +78,65 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7631",
-          "Grupo": "08",
-          "Bicho": "Camelo"
+          "Milhar": "2143",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "4395",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "5563",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "7458",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "4884",
+          "Grupo": "21",
+          "Bicho": "Touro"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "5831",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
-          "Prêmio": "5º",
           "Milhar": "1247",
           "Grupo": "12",
           "Bicho": "Elefante"
         },
         {
+          "Prêmio": "5º",
+          "Milhar": "8270",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
           "Prêmio": "6º [soma]",
-          "Milhar": "6562",
+          "Milhar": "2107",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "538",
+          "Milhar": "921",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "4922": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 4922"
+        ],
+        "4972": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4972"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐖",
+          "🐐"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 4111, 4115"
+      "resumo": "Palpites dados para esta extração: 4922, 4932, 4972"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -507,73 +517,79 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7631",
-          "Grupo": "08",
-          "Bicho": "Camelo"
+          "Milhar": "2143",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "4395",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "5563",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "7458",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "4884",
+          "Grupo": "21",
+          "Bicho": "Touro"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "5831",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
-          "Prêmio": "5º",
           "Milhar": "1247",
           "Grupo": "12",
           "Bicho": "Elefante"
         },
         {
+          "Prêmio": "5º",
+          "Milhar": "8270",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
           "Prêmio": "6º",
-          "Milhar": "7475",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "2541",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "6348",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "3953",
-          "Grupo": "14",
-          "Bicho": "Gato"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "1581",
+          "Milhar": "1582",
           "Grupo": "21",
           "Bicho": "Touro"
         },
         {
+          "Prêmio": "8º",
+          "Milhar": "4684",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "3347",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
           "Prêmio": "10º",
-          "Milhar": "5919",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
+          "Milhar": "4261",
+          "Grupo": "16",
+          "Bicho": "Leão"
         }
       ],
-      "frases": {},
+      "frases": {
+        "4972": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4972"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐖"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 4111, 4115"
+      "resumo": "Palpites dados para esta extração: 4922, 4932, 4972"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
