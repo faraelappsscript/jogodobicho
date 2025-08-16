@@ -163,62 +163,64 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "2369",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "7421",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "2462",
-          "Grupo": "16",
-          "Bicho": "Leão"
+          "Milhar": "8209",
+          "Grupo": "03",
+          "Bicho": "Burro"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "6306",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "3220",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "1433",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "8545",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "9841",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "6388",
+          "Grupo": "22",
+          "Bicho": "Tigre"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "2411",
+          "Milhar": "3783",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "832",
+          "Milhar": "918",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
-        "4111": [
-          "Dezena no sexto prêmio!<br>com o palpite 4111",
-          "BURRO 🐴 no sexto prêmio!<br>com o palpite 4111"
+        "4247": [
+          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4247"
+        ],
+        "4547": [
+          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4547"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐴"
+          "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4111, 4115"
+      "resumo": "Palpites dados para esta extração: 4241, 4243, 4244, 4247, 4541, 4543, 4544, 4547"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -636,73 +638,82 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "2369",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "7421",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "2462",
-          "Grupo": "16",
-          "Bicho": "Leão"
+          "Milhar": "8209",
+          "Grupo": "03",
+          "Bicho": "Burro"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "6306",
+          "Milhar": "3220",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8545",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6388",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7838",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "4225",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "2024",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "1905",
           "Grupo": "02",
           "Bicho": "Águia"
         },
         {
-          "Prêmio": "4º",
-          "Milhar": "1433",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "9841",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "2261",
-          "Grupo": "16",
-          "Bicho": "Leão"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "3434",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "6603",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "9263",
-          "Grupo": "16",
-          "Bicho": "Leão"
-        },
-        {
           "Prêmio": "10º",
-          "Milhar": "3972",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "9775",
+          "Grupo": "19",
+          "Bicho": "Pavão"
         }
       ],
-      "frases": {},
+      "frases": {
+        "4247": [
+          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4247"
+        ],
+        "4547": [
+          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4547"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐘"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 4111, 4115"
+      "resumo": "Palpites dados para esta extração: 4241, 4243, 4244, 4247, 4541, 4543, 4544, 4547"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
