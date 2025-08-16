@@ -10,61 +10,53 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7658",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "4625",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "5891",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "4895",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "7875",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "7537",
+          "Grupo": "10",
+          "Bicho": "Coelho"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "1615",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "1922",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "6648",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "9906",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "9687",
+          "Milhar": "8885",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "113",
+          "Milhar": "639",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {
-        "4115": [
-          "Dezena no quarto prêmio!<br>com o palpite 4115",
-          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 4115",
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 4115"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
-        "Grupo": [
-          "🦋"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
       "resumo": "Palpites dados para esta extração: 4111, 4115"
     },
@@ -409,78 +401,71 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7658",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "4625",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "5891",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "4895",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "7875",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "7537",
+          "Grupo": "10",
+          "Bicho": "Coelho"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "1615",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "1922",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "6648",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "9906",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "7571",
+          "Milhar": "4471",
           "Grupo": "18",
           "Bicho": "Porco"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "6886",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "6859",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "5971",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "2932",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "8155",
-          "Grupo": "14",
-          "Bicho": "Gato"
+          "Milhar": "5572",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "8270",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "8719",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
         }
       ],
-      "frases": {
-        "4115": [
-          "Dezena no quarto prêmio!<br>com o palpite 4115",
-          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 4115"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
-        "Grupo": [
-          "🦋"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
       "resumo": "Palpites dados para esta extração: 4111, 4115"
     },
