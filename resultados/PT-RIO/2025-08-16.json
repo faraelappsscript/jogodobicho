@@ -481,24 +481,114 @@
         }
       ],
       "frases": {
+        "2225": [
+          "Dezena no primeiro prêmio!<br>com o palpite 2225",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2225"
+        ],
+        "2228": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2228"
+        ],
+        "2825": [
+          "Dezena no primeiro prêmio!<br>com o palpite 2825",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2825"
+        ],
+        "2828": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2828"
+        ],
+        "5225": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5225",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 5225"
+        ],
+        "5228": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 5228"
+        ],
+        "5825": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5825",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 5825"
+        ],
+        "5828": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 5828"
+        ],
+        "6225": [
+          "Dezena no primeiro prêmio!<br>com o palpite 6225",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 6225"
+        ],
+        "6228": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 6228"
+        ],
+        "6825": [
+          "Dezena no primeiro prêmio!<br>com o palpite 6825",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 6825"
+        ],
+        "6828": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 6828"
+        ],
         "7225": [
           "Dezena no primeiro prêmio!<br>com o palpite 7225",
           "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 7225"
         ],
+        "7228": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 7228"
+        ],
+        "7825": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7825",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 7825"
+        ],
+        "7828": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 7828"
+        ],
         "8225": [
           "Dezena no primeiro prêmio!<br>com o palpite 8225",
           "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 8225"
+        ],
+        "8228": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 8228"
+        ],
+        "8825": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8825",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 8825"
+        ],
+        "8828": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 8828"
+        ],
+        "9225": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9225",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9225"
+        ],
+        "9228": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9228"
+        ],
+        "9825": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9825",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9825"
+        ],
+        "9828": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 9828"
+        ],
+        "0225": [
+          "Dezena no primeiro prêmio!<br>com o palpite 0225",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 0225"
+        ],
+        "0228": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 0228"
+        ],
+        "0825": [
+          "Dezena no primeiro prêmio!<br>com o palpite 0825",
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 0825"
+        ],
+        "0828": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 0828"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 14,
         "Grupo": [
           "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7225, 8225"
+      "resumo": "Palpites dados para esta extração: 0225, 0228, 0825, 0828, 2225, 2228, 2825, 2828, 5225, 5228, 5825, 5828, 6225, 6228, 6825, 6828, 7225, 7228, 7825, 7828, 8225, 8228, 8825, 8828, 9225, 9228, 9825, 9828"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -576,7 +666,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 7225, 8225"
+      "resumo": "Palpites dados para esta extração: 0225, 0228, 0825, 0828, 2225, 2228, 2825, 2828, 5225, 5228, 5825, 5828, 6225, 6228, 6825, 6828, 7225, 7228, 7825, 7828, 8225, 8228, 8825, 8828, 9225, 9228, 9825, 9828"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -648,26 +738,121 @@
         }
       ],
       "frases": {
+        "2225": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 2225",
+          "Dezena no sétimo prêmio!<br>com o palpite 2225",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 2225"
+        ],
+        "2228": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 2228"
+        ],
+        "2825": [
+          "Dezena no sétimo prêmio!<br>com o palpite 2825",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 2825"
+        ],
+        "2828": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 2828"
+        ],
+        "5225": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 5225",
+          "Dezena no sétimo prêmio!<br>com o palpite 5225",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 5225"
+        ],
+        "5228": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 5228"
+        ],
+        "5825": [
+          "Dezena no sétimo prêmio!<br>com o palpite 5825",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 5825"
+        ],
+        "5828": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 5828"
+        ],
+        "6225": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 6225",
+          "Dezena no sétimo prêmio!<br>com o palpite 6225",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 6225"
+        ],
+        "6228": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 6228"
+        ],
+        "6825": [
+          "Dezena no sétimo prêmio!<br>com o palpite 6825",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 6825"
+        ],
+        "6828": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 6828"
+        ],
         "7225": [
           "Centena e Dezena no sétimo prêmio!<br>com o palpite 7225",
           "Dezena no sétimo prêmio!<br>com o palpite 7225",
           "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 7225"
         ],
+        "7228": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 7228"
+        ],
+        "7825": [
+          "Dezena no sétimo prêmio!<br>com o palpite 7825",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 7825"
+        ],
+        "7828": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 7828"
+        ],
         "8225": [
           "Centena e Dezena no sétimo prêmio!<br>com o palpite 8225",
           "Dezena no sétimo prêmio!<br>com o palpite 8225",
           "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 8225"
+        ],
+        "8228": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 8228"
+        ],
+        "8825": [
+          "Dezena no sétimo prêmio!<br>com o palpite 8825",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 8825"
+        ],
+        "8828": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 8828"
+        ],
+        "9225": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 9225",
+          "Dezena no sétimo prêmio!<br>com o palpite 9225",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 9225"
+        ],
+        "9228": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 9228"
+        ],
+        "9825": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9825",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 9825"
+        ],
+        "9828": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 9828"
+        ],
+        "0225": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 0225",
+          "Dezena no sétimo prêmio!<br>com o palpite 0225",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 0225"
+        ],
+        "0228": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 0228"
+        ],
+        "0825": [
+          "Dezena no sétimo prêmio!<br>com o palpite 0825",
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 0825"
+        ],
+        "0828": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 0828"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 2,
+        "Centena": 7,
+        "Dezena": 14,
         "Grupo": [
           "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7225, 8225"
+      "resumo": "Palpites dados para esta extração: 0225, 0228, 0825, 0828, 2225, 2228, 2825, 2828, 5225, 5228, 5825, 5828, 6225, 6228, 6825, 6828, 7225, 7228, 7825, 7828, 8225, 8228, 8825, 8828, 9225, 9228, 9825, 9828"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -745,7 +930,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 7225, 8225"
+      "resumo": "Palpites dados para esta extração: 0225, 0228, 0825, 0828, 2225, 2228, 2825, 2828, 5225, 5228, 5825, 5828, 6225, 6228, 6825, 6828, 7225, 7228, 7825, 7828, 8225, 8228, 8825, 8828, 9225, 9228, 9825, 9828"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
