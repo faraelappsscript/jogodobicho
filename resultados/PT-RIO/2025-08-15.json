@@ -51,14 +51,41 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "4114": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 4114",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 4114"
+        ],
+        "4314": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 4314",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 4314"
+        ],
+        "5114": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 5114",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 5114"
+        ],
+        "5314": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 5314",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 5314"
+        ],
+        "7114": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 7114",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 7114"
+        ],
+        "7314": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 7314",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 7314"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 5344, 5384, 7344, 7384"
+      "resumo": "Palpites dados para esta extração: 4114, 4314, 5114, 5314, 7114, 7314"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +145,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5344, 5384, 7344, 7384"
+      "resumo": "Palpites dados para esta extração: 4114, 4314, 5114, 5314, 7114, 7314"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -171,23 +198,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "5344": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 5344"
-        ],
-        "7344": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 7344"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐎"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5344, 5384, 7344, 7384"
+      "resumo": "Palpites dados para esta extração: 4114, 4314, 5114, 5314, 7114, 7314"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -240,14 +258,35 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "4114": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 4114"
+        ],
+        "4314": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 4314"
+        ],
+        "5114": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 5114"
+        ],
+        "5314": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 5314"
+        ],
+        "7114": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 7114"
+        ],
+        "7314": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 7314"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 5344, 5384, 7344, 7384"
+      "resumo": "Palpites dados para esta extração: 4114, 4314, 5114, 5314, 7114, 7314"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -300,25 +339,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "5384": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5384",
-          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 5384"
-        ],
-        "7384": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7384",
-          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 7384"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐂"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5344, 5384, 7344, 7384"
+      "resumo": "Palpites dados para esta extração: 4114, 4314, 5114, 5314, 7114, 7314"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -371,14 +399,47 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "4114": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4114",
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 4114",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 4114"
+        ],
+        "4314": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4314",
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 4314",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 4314"
+        ],
+        "5114": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5114",
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 5114",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 5114"
+        ],
+        "5314": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5314",
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 5314",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 5314"
+        ],
+        "7114": [
+          "Dezena no terceiro prêmio!<br>com o palpite 7114",
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 7114",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 7114"
+        ],
+        "7314": [
+          "Dezena no terceiro prêmio!<br>com o palpite 7314",
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 7314",
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 7314"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 6,
+        "Grupo": [
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 5344, 5384, 7344, 7384"
+      "resumo": "Palpites dados para esta extração: 4114, 4314, 5114, 5314, 7114, 7314"
     }
   },
   "1-10": {
