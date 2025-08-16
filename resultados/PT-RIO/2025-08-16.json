@@ -460,14 +460,33 @@
           "Bicho": "Cachorro"
         }
       ],
-      "frases": {},
+      "frases": {
+        "4119": [
+          "Dezena no décimo prêmio!<br>com o palpite 4119",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 4119"
+        ],
+        "4319": [
+          "Dezena no décimo prêmio!<br>com o palpite 4319",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 4319"
+        ],
+        "4819": [
+          "Dezena no décimo prêmio!<br>com o palpite 4819",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 4819"
+        ],
+        "4919": [
+          "Dezena no décimo prêmio!<br>com o palpite 4919",
+          "CACHORRO 🐕 no décimo prêmio!<br>com o palpite 4919"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 4,
+        "Grupo": [
+          "🐕"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 4111, 4115"
+      "resumo": "Palpites dados para esta extração: 4111, 4112, 4115, 4119, 4311, 4312, 4315, 4319, 4811, 4812, 4815, 4819, 4911, 4912, 4915, 4919"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
