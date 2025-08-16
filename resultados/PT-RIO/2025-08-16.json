@@ -51,22 +51,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "4922": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 4922",
-          "Dezena no quarto prêmio!<br>com o palpite 4922",
-          "CABRA 🐐 no quarto prêmio!<br>com o palpite 4922"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 1,
-        "Grupo": [
-          "🐐"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4922, 4932, 4972"
+      "resumo": "Palpites dados para esta extração: 4241, 4243, 4244, 4247, 4541, 4543, 4544, 4547"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -120,23 +112,46 @@
         }
       ],
       "frases": {
-        "4922": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 4922"
+        "4241": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4241"
         ],
-        "4972": [
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4972"
+        "4243": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4243",
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4243"
+        ],
+        "4244": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4244"
+        ],
+        "4247": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 4247",
+          "Dezena no quarto prêmio!<br>com o palpite 4247",
+          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4247"
+        ],
+        "4541": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4541"
+        ],
+        "4543": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4543",
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4543"
+        ],
+        "4544": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4544"
+        ],
+        "4547": [
+          "Dezena no quarto prêmio!<br>com o palpite 4547",
+          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4547"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
-          "🐖",
-          "🐐"
+          "🐎",
+          "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4922, 4932, 4972"
+      "resumo": "Palpites dados para esta extração: 4241, 4243, 4244, 4247, 4541, 4543, 4544, 4547"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -478,28 +493,14 @@
           "Bicho": "Cachorro"
         }
       ],
-      "frases": {
-        "4571": [
-          "Dezena no sexto prêmio!<br>com o palpite 4571",
-          "PORCO 🐖 no sexto prêmio!<br>com o palpite 4571",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 4571"
-        ],
-        "4572": [
-          "PORCO 🐖 no sexto prêmio!<br>com o palpite 4572",
-          "Centena e Dezena no nono prêmio!<br>com o palpite 4572",
-          "Dezena no nono prêmio!<br>com o palpite 4572",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 4572"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 2,
-        "Grupo": [
-          "🐖"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4541, 4542, 4547, 4571, 4572, 4577, 4581, 4582, 4587"
+      "resumo": "Palpites dados para esta extração: 4241, 4243, 4244, 4247, 4541, 4543, 4544, 4547"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -571,53 +572,59 @@
         }
       ],
       "frases": {
+        "4241": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4241",
+          "Dezena no sexto prêmio!<br>com o palpite 4241",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 4241"
+        ],
+        "4243": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4243",
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4243",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 4243"
+        ],
+        "4244": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4244",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 4244"
+        ],
+        "4247": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 4247",
+          "Dezena no quarto prêmio!<br>com o palpite 4247",
+          "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4247",
+          "Dezena no nono prêmio!<br>com o palpite 4247",
+          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 4247"
+        ],
         "4541": [
           "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4541",
           "Centena e Dezena no sexto prêmio!<br>com o palpite 4541",
           "Dezena no sexto prêmio!<br>com o palpite 4541",
           "CAVALO 🐎 no sexto prêmio!<br>com o palpite 4541"
         ],
-        "4542": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4542",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 4542"
+        "4543": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4543",
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4543",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 4543"
+        ],
+        "4544": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4544",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 4544"
         ],
         "4547": [
           "Dezena no quarto prêmio!<br>com o palpite 4547",
           "ELEFANTE 🐘 no quarto prêmio!<br>com o palpite 4547",
           "Dezena no nono prêmio!<br>com o palpite 4547",
           "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 4547"
-        ],
-        "4571": [
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4571"
-        ],
-        "4572": [
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4572"
-        ],
-        "4581": [
-          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 4581",
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 4581",
-          "TOURO 🐂 no oitavo prêmio!<br>com o palpite 4581"
-        ],
-        "4582": [
-          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 4582",
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 4582",
-          "Dezena no sétimo prêmio!<br>com o palpite 4582",
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 4582",
-          "TOURO 🐂 no oitavo prêmio!<br>com o palpite 4582"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 2,
-        "Dezena": 4,
+        "Dezena": 8,
         "Grupo": [
           "🐎",
-          "🐂",
-          "🐘",
-          "🐖"
+          "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4541, 4542, 4547, 4571, 4572, 4577, 4581, 4582, 4587"
+      "resumo": "Palpites dados para esta extração: 4241, 4243, 4244, 4247, 4541, 4543, 4544, 4547"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
