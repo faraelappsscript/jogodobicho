@@ -515,78 +515,14 @@
           "Bicho": "Tigre"
         }
       ],
-      "frases": {
-        "3263": [
-          "Dezena no sexto prêmio!<br>com o palpite 3263",
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 3263"
-        ],
-        "3285": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 3285"
-        ],
-        "3288": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 3288"
-        ],
-        "3863": [
-          "Dezena no sexto prêmio!<br>com o palpite 3863",
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 3863"
-        ],
-        "3885": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 3885"
-        ],
-        "3888": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 3888"
-        ],
-        "8263": [
-          "Dezena no sexto prêmio!<br>com o palpite 8263",
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 8263"
-        ],
-        "8285": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 8285"
-        ],
-        "8288": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 8288"
-        ],
-        "8863": [
-          "Dezena no sexto prêmio!<br>com o palpite 8863",
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 8863"
-        ],
-        "8885": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 8885"
-        ],
-        "8888": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 8888"
-        ],
-        "0263": [
-          "Dezena no sexto prêmio!<br>com o palpite 0263",
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 0263"
-        ],
-        "0863": [
-          "Dezena no sexto prêmio!<br>com o palpite 0863",
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 0863"
-        ],
-        "0285": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 0285"
-        ],
-        "0288": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 0288"
-        ],
-        "0885": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 0885"
-        ],
-        "0888": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 0888"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
-        "Grupo": [
-          "🦁",
-          "🐅"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0263, 0265, 0268, 0283, 0285, 0288, 0863, 0865, 0868, 0883, 0885, 0888, 3263, 3265, 3268, 3283, 3285, 3288, 3863, 3865, 3868, 3883, 3885, 3888, 8263, 8265, 8268, 8283, 8285, 8288, 8863, 8865, 8868, 8883, 8885, 8888"
+      "resumo": "Palpites dados para esta extração: 0268"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -664,7 +600,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0263, 0265, 0268, 0283, 0285, 0288, 0863, 0865, 0868, 0883, 0885, 0888, 3263, 3265, 3268, 3283, 3285, 3288, 3863, 3865, 3868, 3883, 3885, 3888, 8263, 8265, 8268, 8283, 8285, 8288, 8863, 8865, 8868, 8883, 8885, 8888"
+      "resumo": "Palpites dados para esta extração: 0268"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -735,84 +671,14 @@
           "Bicho": "Urso"
         }
       ],
-      "frases": {
-        "3283": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3283",
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 3283"
-        ],
-        "3285": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3285"
-        ],
-        "3288": [
-          "Dezena no sétimo prêmio!<br>com o palpite 3288",
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3288"
-        ],
-        "3883": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3883",
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 3883"
-        ],
-        "3885": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3885"
-        ],
-        "3888": [
-          "Dezena no sétimo prêmio!<br>com o palpite 3888",
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3888"
-        ],
-        "8283": [
-          "Dezena no primeiro prêmio!<br>com o palpite 8283",
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 8283"
-        ],
-        "8285": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 8285"
-        ],
-        "8288": [
-          "Dezena no sétimo prêmio!<br>com o palpite 8288",
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 8288"
-        ],
-        "8883": [
-          "Dezena no primeiro prêmio!<br>com o palpite 8883",
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 8883"
-        ],
-        "8885": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 8885"
-        ],
-        "8888": [
-          "Dezena no sétimo prêmio!<br>com o palpite 8888",
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 8888"
-        ],
-        "0283": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0283",
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 0283"
-        ],
-        "0883": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0883",
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 0883"
-        ],
-        "0285": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 0285"
-        ],
-        "0288": [
-          "Dezena no sétimo prêmio!<br>com o palpite 0288",
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 0288"
-        ],
-        "0885": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 0885"
-        ],
-        "0888": [
-          "Dezena no sétimo prêmio!<br>com o palpite 0888",
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 0888"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 12,
-        "Grupo": [
-          "🐂",
-          "🐅"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0263, 0265, 0268, 0283, 0285, 0288, 0863, 0865, 0868, 0883, 0885, 0888, 3263, 3265, 3268, 3283, 3285, 3288, 3863, 3865, 3868, 3883, 3885, 3888, 8263, 8265, 8268, 8283, 8285, 8288, 8863, 8865, 8868, 8883, 8885, 8888"
+      "resumo": "Palpites dados para esta extração: 0268"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -884,124 +750,21 @@
         }
       ],
       "frases": {
-        "3263": [
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 3263",
-          "Dezena no décimo prêmio!<br>com o palpite 3263",
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 3263"
-        ],
-        "3265": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 3265",
-          "MACACO 🐒 no nono prêmio!<br>com o palpite 3265"
-        ],
-        "3268": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 3268",
-          "Dezena no nono prêmio!<br>com o palpite 3268",
-          "MACACO 🐒 no nono prêmio!<br>com o palpite 3268"
-        ],
-        "3283": [
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 3283",
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3283"
-        ],
-        "3863": [
-          "Dezena no décimo prêmio!<br>com o palpite 3863",
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 3863"
-        ],
-        "3865": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 3865",
-          "MACACO 🐒 no nono prêmio!<br>com o palpite 3865"
-        ],
-        "3868": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 3868",
-          "Dezena no nono prêmio!<br>com o palpite 3868",
-          "MACACO 🐒 no nono prêmio!<br>com o palpite 3868"
-        ],
-        "3883": [
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 3883",
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3883"
-        ],
-        "8263": [
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 8263",
-          "Dezena no décimo prêmio!<br>com o palpite 8263",
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 8263"
-        ],
-        "8265": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 8265",
-          "MACACO 🐒 no nono prêmio!<br>com o palpite 8265"
-        ],
-        "8268": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 8268",
-          "Dezena no nono prêmio!<br>com o palpite 8268",
-          "MACACO 🐒 no nono prêmio!<br>com o palpite 8268"
-        ],
-        "8283": [
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 8283",
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 8283"
-        ],
-        "8863": [
-          "Dezena no décimo prêmio!<br>com o palpite 8863",
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 8863"
-        ],
-        "8865": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 8865",
-          "MACACO 🐒 no nono prêmio!<br>com o palpite 8865"
-        ],
-        "8868": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 8868",
-          "Dezena no nono prêmio!<br>com o palpite 8868",
-          "MACACO 🐒 no nono prêmio!<br>com o palpite 8868"
-        ],
-        "8883": [
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 8883",
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 8883"
-        ],
-        "0265": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 0265",
-          "MACACO 🐒 no nono prêmio!<br>com o palpite 0265"
-        ],
         "0268": [
           "MACACO 🐒 no terceiro prêmio!<br>com o palpite 0268",
           "Dezena no nono prêmio!<br>com o palpite 0268",
           "MACACO 🐒 no nono prêmio!<br>com o palpite 0268"
-        ],
-        "0865": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 0865",
-          "MACACO 🐒 no nono prêmio!<br>com o palpite 0865"
-        ],
-        "0868": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 0868",
-          "Dezena no nono prêmio!<br>com o palpite 0868",
-          "MACACO 🐒 no nono prêmio!<br>com o palpite 0868"
-        ],
-        "0283": [
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 0283",
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 0283"
-        ],
-        "0883": [
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 0883",
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 0883"
-        ],
-        "0263": [
-          "Milhar e Centena no décimo prêmio!<br>com o palpite 0263",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 0263",
-          "Dezena no décimo prêmio!<br>com o palpite 0263",
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 0263"
-        ],
-        "0863": [
-          "Dezena no décimo prêmio!<br>com o palpite 0863",
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 0863"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 3,
-        "Dezena": 12,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 1,
         "Grupo": [
-          "🐒",
-          "🐂",
-          "🦁"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0263, 0265, 0268, 0283, 0285, 0288, 0863, 0865, 0868, 0883, 0885, 0888, 3263, 3265, 3268, 3283, 3285, 3288, 3863, 3865, 3868, 3883, 3885, 3888, 8263, 8265, 8268, 8283, 8285, 8288, 8863, 8865, 8868, 8883, 8885, 8888"
+      "resumo": "Palpites dados para esta extração: 0268"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
