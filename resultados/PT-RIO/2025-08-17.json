@@ -111,108 +111,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "2011": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2011"
-        ],
-        "2012": [
-          "Dezena no quarto prêmio!<br>com o palpite 2012",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2012"
-        ],
-        "2057": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2057"
-        ],
-        "2058": [
-          "Dezena no quinto prêmio!<br>com o palpite 2058",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2058"
-        ],
-        "2111": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2111"
-        ],
-        "2112": [
-          "Dezena no quarto prêmio!<br>com o palpite 2112",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2112"
-        ],
-        "2157": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2157"
-        ],
-        "2158": [
-          "Dezena no quinto prêmio!<br>com o palpite 2158",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2158"
-        ],
-        "2811": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2811"
-        ],
-        "2812": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 2812",
-          "Dezena no quarto prêmio!<br>com o palpite 2812",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2812"
-        ],
-        "2857": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2857"
-        ],
-        "2858": [
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 2858",
-          "Dezena no quinto prêmio!<br>com o palpite 2858",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2858"
-        ],
-        "3011": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3011"
-        ],
-        "3012": [
-          "Dezena no quarto prêmio!<br>com o palpite 3012",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3012"
-        ],
-        "3057": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3057"
-        ],
-        "3058": [
-          "Dezena no quinto prêmio!<br>com o palpite 3058",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3058"
-        ],
-        "3111": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3111"
-        ],
-        "3112": [
-          "Dezena no quarto prêmio!<br>com o palpite 3112",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3112"
-        ],
-        "3157": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3157"
-        ],
-        "3158": [
-          "Dezena no quinto prêmio!<br>com o palpite 3158",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3158"
-        ],
-        "3811": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3811"
-        ],
-        "3812": [
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 3812",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3812",
-          "Dezena no quarto prêmio!<br>com o palpite 3812",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3812"
-        ],
-        "3857": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3857"
-        ],
-        "3858": [
-          "Milhar e Centena no quinto prêmio!<br>com o palpite 3858",
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 3858",
-          "Dezena no quinto prêmio!<br>com o palpite 3858",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3858"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 2,
-        "Centena": 4,
-        "Dezena": 12,
-        "Grupo": [
-          "🐴",
-          "🐊"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 2001, 2002, 2007, 2008, 2011, 2012, 2017, 2018, 2051, 2052, 2057, 2058, 2101, 2102, 2107, 2108, 2111, 2112, 2117, 2118, 2151, 2152, 2157, 2158, 2801, 2802, 2807, 2808, 2811, 2812, 2817, 2818, 2851, 2852, 2857, 2858, 3001, 3002, 3007, 3008, 3011, 3012, 3017, 3018, 3051, 3052, 3057, 3058, 3101, 3102, 3107, 3108, 3111, 3112, 3117, 3118, 3151, 3152, 3157, 3158, 3801, 3802, 3807, 3808, 3811, 3812, 3817, 3818, 3851, 3852, 3857, 3858"
+      "resumo": "Palpites dados para esta extração: 2818"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -603,174 +509,14 @@
           "Bicho": "Tigre"
         }
       ],
-      "frases": {
-        "2011": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2011",
-          "Milhar e Centena no oitavo prêmio!<br>com o palpite 2011",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 2011",
-          "Dezena no oitavo prêmio!<br>com o palpite 2011",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 2011"
-        ],
-        "2012": [
-          "Dezena no quarto prêmio!<br>com o palpite 2012",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2012",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 2012"
-        ],
-        "2051": [
-          "GALO 🐓 no nono prêmio!<br>com o palpite 2051"
-        ],
-        "2052": [
-          "Centena e Dezena no nono prêmio!<br>com o palpite 2052",
-          "Dezena no nono prêmio!<br>com o palpite 2052",
-          "GALO 🐓 no nono prêmio!<br>com o palpite 2052"
-        ],
-        "2057": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2057"
-        ],
-        "2058": [
-          "Dezena no quinto prêmio!<br>com o palpite 2058",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2058"
-        ],
-        "2111": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2111",
-          "Dezena no oitavo prêmio!<br>com o palpite 2111",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 2111"
-        ],
-        "2112": [
-          "Dezena no quarto prêmio!<br>com o palpite 2112",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2112",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 2112"
-        ],
-        "2151": [
-          "GALO 🐓 no nono prêmio!<br>com o palpite 2151"
-        ],
-        "2152": [
-          "Dezena no nono prêmio!<br>com o palpite 2152",
-          "GALO 🐓 no nono prêmio!<br>com o palpite 2152"
-        ],
-        "2157": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2157"
-        ],
-        "2158": [
-          "Dezena no quinto prêmio!<br>com o palpite 2158",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2158"
-        ],
-        "2811": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2811",
-          "Dezena no oitavo prêmio!<br>com o palpite 2811",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 2811"
-        ],
-        "2812": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 2812",
-          "Dezena no quarto prêmio!<br>com o palpite 2812",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 2812",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 2812"
-        ],
-        "2851": [
-          "GALO 🐓 no nono prêmio!<br>com o palpite 2851"
-        ],
-        "2852": [
-          "Dezena no nono prêmio!<br>com o palpite 2852",
-          "GALO 🐓 no nono prêmio!<br>com o palpite 2852"
-        ],
-        "2857": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2857"
-        ],
-        "2858": [
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 2858",
-          "Dezena no quinto prêmio!<br>com o palpite 2858",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 2858"
-        ],
-        "3011": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3011",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 3011",
-          "Dezena no oitavo prêmio!<br>com o palpite 3011",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 3011"
-        ],
-        "3012": [
-          "Dezena no quarto prêmio!<br>com o palpite 3012",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3012",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 3012"
-        ],
-        "3051": [
-          "GALO 🐓 no nono prêmio!<br>com o palpite 3051"
-        ],
-        "3052": [
-          "Centena e Dezena no nono prêmio!<br>com o palpite 3052",
-          "Dezena no nono prêmio!<br>com o palpite 3052",
-          "GALO 🐓 no nono prêmio!<br>com o palpite 3052"
-        ],
-        "3057": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3057"
-        ],
-        "3058": [
-          "Dezena no quinto prêmio!<br>com o palpite 3058",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3058"
-        ],
-        "3111": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3111",
-          "Dezena no oitavo prêmio!<br>com o palpite 3111",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 3111"
-        ],
-        "3112": [
-          "Dezena no quarto prêmio!<br>com o palpite 3112",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3112",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 3112"
-        ],
-        "3151": [
-          "GALO 🐓 no nono prêmio!<br>com o palpite 3151"
-        ],
-        "3152": [
-          "Dezena no nono prêmio!<br>com o palpite 3152",
-          "GALO 🐓 no nono prêmio!<br>com o palpite 3152"
-        ],
-        "3157": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3157"
-        ],
-        "3158": [
-          "Dezena no quinto prêmio!<br>com o palpite 3158",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3158"
-        ],
-        "3811": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3811",
-          "Dezena no oitavo prêmio!<br>com o palpite 3811",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 3811"
-        ],
-        "3812": [
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 3812",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3812",
-          "Dezena no quarto prêmio!<br>com o palpite 3812",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3812",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 3812"
-        ],
-        "3851": [
-          "GALO 🐓 no nono prêmio!<br>com o palpite 3851"
-        ],
-        "3852": [
-          "Dezena no nono prêmio!<br>com o palpite 3852",
-          "GALO 🐓 no nono prêmio!<br>com o palpite 3852"
-        ],
-        "3857": [
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3857"
-        ],
-        "3858": [
-          "Milhar e Centena no quinto prêmio!<br>com o palpite 3858",
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 3858",
-          "Dezena no quinto prêmio!<br>com o palpite 3858",
-          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3858"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 3,
-        "Centena": 8,
-        "Dezena": 24,
-        "Grupo": [
-          "🐴",
-          "🐊",
-          "🐓"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 2001, 2002, 2007, 2008, 2011, 2012, 2017, 2018, 2051, 2052, 2057, 2058, 2101, 2102, 2107, 2108, 2111, 2112, 2117, 2118, 2151, 2152, 2157, 2158, 2801, 2802, 2807, 2808, 2811, 2812, 2817, 2818, 2851, 2852, 2857, 2858, 3001, 3002, 3007, 3008, 3011, 3012, 3017, 3018, 3051, 3052, 3057, 3058, 3101, 3102, 3107, 3108, 3111, 3112, 3117, 3118, 3151, 3152, 3157, 3158, 3801, 3802, 3807, 3808, 3811, 3812, 3817, 3818, 3851, 3852, 3857, 3858"
+      "resumo": "Palpites dados para esta extração: 2818"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
