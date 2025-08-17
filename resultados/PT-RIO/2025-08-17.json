@@ -130,55 +130,61 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "2143",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "7696",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "5563",
-          "Grupo": "16",
-          "Bicho": "Leão"
+          "Milhar": "3589",
+          "Grupo": "23",
+          "Bicho": "Urso"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "4884",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "3729",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "1247",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "0098",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "8270",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "4713",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "2107",
+          "Milhar": "9825",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "921",
+          "Milhar": "620",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "2818": [
+          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 2818"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐕"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3101"
+      "resumo": "Palpites dados para esta extração: 2818"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -528,63 +534,63 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "2143",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "7696",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "5563",
-          "Grupo": "16",
-          "Bicho": "Leão"
+          "Milhar": "3589",
+          "Grupo": "23",
+          "Bicho": "Urso"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "4884",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "3729",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "1247",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "0098",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "8270",
+          "Milhar": "4713",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7330",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6570",
           "Grupo": "18",
           "Bicho": "Porco"
         },
         {
-          "Prêmio": "6º",
-          "Milhar": "2541",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "1582",
-          "Grupo": "21",
-          "Bicho": "Touro"
-        },
-        {
           "Prêmio": "8º",
-          "Milhar": "4684",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "9829",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "3347",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "6998",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "4261",
-          "Grupo": "16",
-          "Bicho": "Leão"
+          "Milhar": "0552",
+          "Grupo": "13",
+          "Bicho": "Galo"
         }
       ],
       "frases": {},
@@ -594,7 +600,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3101"
+      "resumo": "Palpites dados para esta extração: 2818"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
