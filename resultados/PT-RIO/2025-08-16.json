@@ -357,64 +357,72 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "4167",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "3257",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "3318",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
+          "Milhar": "3411",
+          "Grupo": "03",
+          "Bicho": "Burro"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "5614",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "7005",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "2115",
+          "Milhar": "7116",
           "Grupo": "04",
           "Bicho": "Borboleta"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "4156",
-          "Grupo": "14",
-          "Bicho": "Gato"
+          "Milhar": "3198",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "9370",
+          "Milhar": "3987",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "826",
+          "Milhar": "109",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
-        "4115": [
-          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 4115",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 4115",
-          "Dezena no quarto prêmio!<br>com o palpite 4115",
-          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 4115"
+        "0858": [
+          "JACARÉ 🐊 no primeiro prêmio!<br>com o palpite 0858"
+        ],
+        "0811": [
+          "Dezena no segundo prêmio!<br>com o palpite 0811",
+          "BURRO 🐴 no segundo prêmio!<br>com o palpite 0811",
+          "BURRO 🐴 no sétimo prêmio!<br>com o palpite 0811"
+        ],
+        "0898": [
+          "Dezena no quinto prêmio!<br>com o palpite 0898",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 0898"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 1,
+        "Centena": 0,
+        "Dezena": 2,
         "Grupo": [
-          "🦋"
+          "🐊",
+          "🐴",
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4111, 4115"
+      "resumo": "Palpites dados para esta extração: 0811, 0818, 0851, 0858, 0861, 0868, 0891, 0898"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -940,88 +948,89 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "4167",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "3257",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "3318",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
+          "Milhar": "3411",
+          "Grupo": "03",
+          "Bicho": "Burro"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "5614",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "7005",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "2115",
+          "Milhar": "7116",
           "Grupo": "04",
           "Bicho": "Borboleta"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "4156",
+          "Milhar": "3198",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "3377",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "2401",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "5101",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "7156",
           "Grupo": "14",
           "Bicho": "Gato"
         },
         {
-          "Prêmio": "6º",
-          "Milhar": "4352",
-          "Grupo": "13",
-          "Bicho": "Galo"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "1361",
-          "Grupo": "16",
-          "Bicho": "Leão"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "6111",
-          "Grupo": "03",
-          "Bicho": "Burro"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "7845",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
           "Prêmio": "10º",
-          "Milhar": "9039",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "2022",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         }
       ],
       "frases": {
-        "4111": [
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 4111",
-          "Dezena no oitavo prêmio!<br>com o palpite 4111",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 4111"
+        "0858": [
+          "JACARÉ 🐊 no primeiro prêmio!<br>com o palpite 0858"
         ],
-        "4115": [
-          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 4115",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 4115",
-          "Dezena no quarto prêmio!<br>com o palpite 4115",
-          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 4115"
+        "0811": [
+          "Dezena no segundo prêmio!<br>com o palpite 0811",
+          "BURRO 🐴 no segundo prêmio!<br>com o palpite 0811"
+        ],
+        "0898": [
+          "Dezena no quinto prêmio!<br>com o palpite 0898",
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 0898"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
+        "Centena": 0,
         "Dezena": 2,
         "Grupo": [
-          "🦋",
-          "🐴"
+          "🐊",
+          "🐴",
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4111, 4115"
+      "resumo": "Palpites dados para esta extração: 0811, 0818, 0851, 0858, 0861, 0868, 0891, 0898"
     },
     "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
