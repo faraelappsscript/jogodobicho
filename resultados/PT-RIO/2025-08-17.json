@@ -111,14 +111,29 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "3599": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 3599"
+        ],
+        "6599": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 6599"
+        ],
+        "7599": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 7599"
+        ],
+        "0599": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 0599"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐄"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 2818"
+      "resumo": "Palpites dados para esta extração: 0599, 3599, 6599, 7599"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -172,8 +187,17 @@
         }
       ],
       "frases": {
-        "2818": [
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 2818"
+        "3599": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 3599"
+        ],
+        "6599": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 6599"
+        ],
+        "7599": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 7599"
+        ],
+        "0599": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 0599"
         ]
       },
       "acertos": {
@@ -181,10 +205,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐕"
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2818"
+      "resumo": "Palpites dados para esta extração: 0599, 3599, 6599, 7599"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
