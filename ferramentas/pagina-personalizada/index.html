@@ -763,7 +763,7 @@
             };
         }
 
-        // Função para enviar requisição com retry
+        // Função para enviar requisição com retry - CORRIGIDA
         async function sendRequest(data, retries = 1) {
             try {
                 const controller = new AbortController();
@@ -782,14 +782,24 @@
                 if (!response.ok) throw new Error(`Erro HTTP: ${response.status} ${response.statusText}`);
                 const result = await response.json();
                 
-                // Corrigir a lógica: se result.success é true, não é um erro
+                // CORREÇÃO: Verificar se há erro primeiro, depois verificar sucesso
+                if (result.error) {
+                    throw new Error(result.error);
+                }
+                
+                // Se não há erro e há sucesso, retornar resultado
                 if (result.success) {
                     return result;
-                } else if (result.error) {
-                    throw new Error(result.error);
-                } else {
-                    throw new Error(result.message || 'Erro desconhecido');
                 }
+                
+                // Se não há erro nem sucesso explícito, mas há message, pode ser sucesso
+                if (result.message && result.message.includes('sucesso')) {
+                    return { ...result, success: true };
+                }
+                
+                // Caso contrário, é erro
+                throw new Error(result.message || 'Erro desconhecido');
+                
             } catch (error) {
                 if (retries > 0 && (error.name === 'AbortError' || error.message.includes('timeout'))) {
                     showToast('Aguarde, o servidor está iniciando...', false);
@@ -971,7 +981,7 @@
                     whatsappNumber: whatsappNumber
                 });
 
-                // Se chegou até aqui, result.success é true
+                // Se chegou até aqui, é sucesso
                 closePageModal();
                 await showSuccessMessage(result);
                 pageForm.reset();
@@ -980,6 +990,7 @@
                 updateSubmitButton();
                 
             } catch (error) {
+                // Aqui é realmente um erro
                 console.error('Erro ao criar página:', error);
                 showToast(error.message || 'Erro ao criar página. Tente novamente.', true);
             } finally {
