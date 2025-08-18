@@ -616,6 +616,14 @@
             </div>
         </div>
     </div>
+
+<footer class="site-footer">
+    <div class="footer-content">
+      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
+      <p class="site-domain" id="siteDomain"></p>
+      <p class="copyright-text" id="copyrightText"></p>
+    </div>
+</footer>
     
     <!-- Scripts -->
     <script defer src="/assets/js/breadcrumb.js"></script>
@@ -1001,15 +1009,26 @@
 
         // Inicializar estado do botão
         updateSubmitButton();
-    </script>
 
-  <footer class="site-footer">
-    <div class="footer-content">
-      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
-      <p class="site-domain" id="siteDomain"></p>
-      <p class="copyright-text" id="copyrightText"></p>
-    </div>
-  </footer>
+        function setAutomaticDomain() {
+  const siteDomainElement = document.getElementById('siteDomain');
+  if (siteDomainElement) {
+    siteDomainElement.textContent = window.location.hostname;
+  }
+}
+
+// Chamar a função ao carregar a página
+document.addEventListener('DOMContentLoaded', setAutomaticDomain);
+
+
+function setCopyrightText() {
+  const copyrightTextElement = document.getElementById("copyrightText");
+  if (copyrightTextElement) {
+    const currentYear = new Date().getFullYear();
+    copyrightTextElement.textContent = `© ${currentYear} Todos os direitos reservados.`;
+  }
+}
+    </script>
 </body>
 </html>
 
