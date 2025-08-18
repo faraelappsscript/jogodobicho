@@ -576,6 +576,14 @@
         </button>
     </div>
 
+<footer class="site-footer">
+    <div class="footer-content">
+      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
+      <p class="site-domain" id="siteDomain"></p>
+      <p class="copyright-text" id="copyrightText"></p>
+    </div>
+  </footer>
+    
     <!-- Modal de Integração do Link de Promotor -->
     <div id="promotorModal" class="promotor-modal">
         <div class="promotor-modal-content">
@@ -745,16 +753,25 @@
                 closePromotorModal();
             }
         });
-    </script>
 
-      <footer class="site-footer">
-    <div class="footer-content">
-      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
-      <p class="site-domain" id="siteDomain"></p>
-      <p class="copyright-text" id="copyrightText"></p>
-    </div>
-  </footer>
-  <script defer src="/resultados/script.js"></script>
+function setAutomaticDomain() {
+  const siteDomainElement = document.getElementById('siteDomain');
+  if (siteDomainElement) {
+    siteDomainElement.textContent = window.location.hostname;
+  }
+}
+
+function setCopyrightText() {
+  const copyrightTextElement = document.getElementById("copyrightText");
+  if (copyrightTextElement) {
+    const currentYear = new Date().getFullYear();
+    copyrightTextElement.textContent = `© ${currentYear} Todos os direitos reservados.`;
+  }
+}
+
+document.addEventListener('DOMContentLoaded', setAutomaticDomain);
+document.addEventListener("DOMContentLoaded", setCopyrightText);
+    </script>
 </body>
 </html>
 
