@@ -333,51 +333,6 @@
             transform: none;
         }
 
-        /* Footer */
-        .footer {
-            background: var(--bg-card);
-            border-top: 1px solid var(--border-color);
-            padding: var(--spacing-xl) 0;
-            margin-top: var(--spacing-2xl);
-            text-align: center;
-        }
-
-        .footer-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 var(--spacing-md);
-        }
-
-        .footer-text {
-            color: var(--text-secondary);
-            font-size: 0.875rem;
-            margin-bottom: var(--spacing-md);
-        }
-
-        .footer-links {
-            display: flex;
-            justify-content: center;
-            gap: var(--spacing-lg);
-            flex-wrap: wrap;
-            margin-bottom: var(--spacing-md);
-        }
-
-        .footer-link {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.875rem;
-            transition: color var(--transition-fast);
-        }
-
-        .footer-link:hover {
-            color: var(--accent-primary);
-        }
-
-        .footer-copyright {
-            color: var(--text-muted);
-            font-size: 0.75rem;
-        }
-
         /* Responsividade aprimorada */
         @media (max-width: 768px) {
             .main-container {
@@ -417,11 +372,6 @@
             
             .input-group .form-input {
                 border-radius: 0 var(--radius-md) var(--radius-md) 0;
-            }
-
-            .footer-links {
-                flex-direction: column;
-                gap: var(--spacing-sm);
             }
         }
 
@@ -536,43 +486,33 @@
                     <span class="advantage-icon">🔍</span>
                     <h3 class="advantage-title">Sua Página no Google</h3>
                     <p class="advantage-description">
-                        Sua página personalizada aparece nos resultados de busca do Google, aumentando sua visibilidade e credibilidade online.
+                        Quanto mais você divulga sua página personalizada, maior a visibilidade dela no Google. Isso atrai mais clientes e aumenta os cadastros diretamente no seu link de promotor.
+                    </p>
+                </div>
+
+                <div class="advantage-card">
+                    <span class="advantage-icon">🌐</span>
+                    <h3 class="advantage-title">Site de Resultados Integrado</h3>
+                    <p class="advantage-description">
+                        Quando um visitante acessa sua página personalizada, seu link de promotor é armazenado no navegador. Ao navegar pelo nosso site, ele verá banners, links e botões que o direcionam ao seu link. Além disso, ao compartilhar palpites ou resultados, seu link é automaticamente incluído, criando um efeito de "bola de neve" que multiplica sua divulgação exponencialmente.
                     </p>
                 </div>
             </div>
 
             <div class="cta-container">
-                <button class="btn-create-page" onclick="openPageModal()">
+                <button class="btn-create-page" onclick="openModal()">
                     ✨ Crie sua página personalizada
                 </button>
             </div>
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <p class="footer-text">
-                Transforme sua estratégia de marketing com páginas personalizadas profissionais
-            </p>
-            <div class="footer-links">
-                <a href="/termos" class="footer-link">Termos de Uso</a>
-                <a href="/privacidade" class="footer-link">Política de Privacidade</a>
-                <a href="/contato" class="footer-link">Contato</a>
-                <a href="/suporte" class="footer-link">Suporte</a>
-            </div>
-            <p class="footer-copyright">
-                © 2024 77x Brasil. Todos os direitos reservados.
-            </p>
-        </div>
-    </footer>
-
     <!-- Modal para criação de página -->
     <div id="pageModal" class="modal-overlay">
         <div class="modal-content">
             <div class="modal-header">
                 <h2 class="modal-title">Criar Página Personalizada</h2>
-                <button class="modal-close" onclick="closePageModal()">&times;</button>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
             </div>
             <div class="modal-body">
                 <form id="pageForm">
@@ -620,13 +560,13 @@
     <!-- Scripts -->
     <script defer src="/assets/js/breadcrumb.js"></script>
     <script>
-        // Funções do modal específicas para esta página
-        function openPageModal() {
+        // Funções do modal
+        function openModal() {
             document.getElementById('pageModal').style.display = 'flex';
             document.body.style.overflow = 'hidden';
         }
 
-        function closePageModal() {
+        function closeModal() {
             document.getElementById('pageModal').style.display = 'none';
             document.body.style.overflow = 'auto';
         }
@@ -634,14 +574,14 @@
         // Fechar modal ao clicar fora
         document.getElementById('pageModal').addEventListener('click', function(e) {
             if (e.target === this) {
-                closePageModal();
+                closeModal();
             }
         });
 
         // Fechar modal com ESC
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
-                closePageModal();
+                closeModal();
             }
         });
 
@@ -658,40 +598,38 @@
         // Lista de DDDs válidos no Brasil (11 a 99)
         const validDDDs = Array.from({ length: 89 }, (_, i) => (i + 11).toString());
 
-        // Função para mostrar toast usando o tema do site
-        function showToast(message, isError = false) {
-            // Remover toast existente se houver
-            const existingToast = document.getElementById('toast');
-            if (existingToast) {
-                existingToast.remove();
+        // Função para mostrar notificações
+        function showNotification(message, isError = false) {
+            // Criar elemento de notificação se não existir
+            let notification = document.getElementById('notification');
+            if (!notification) {
+                notification = document.createElement('div');
+                notification.id = 'notification';
+                notification.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    padding: 1rem;
+                    border-radius: 8px;
+                    color: white;
+                    font-weight: 600;
+                    z-index: 9999;
+                    max-width: 300px;
+                    opacity: 0;
+                    transform: translateX(100%);
+                    transition: all 0.3s ease;
+                `;
+                document.body.appendChild(notification);
             }
-
-            // Criar novo toast usando as classes do theme.css
-            const toast = document.createElement('div');
-            toast.id = 'toast';
-            toast.className = 'toast show';
             
-            toast.innerHTML = `
-                <div class="toast-icon">${isError ? '✖' : '✓'}</div>
-                <span>${message}</span>
-            `;
+            notification.textContent = message;
+            notification.style.backgroundColor = isError ? 'var(--accent-danger)' : 'var(--accent-success)';
+            notification.style.opacity = '1';
+            notification.style.transform = 'translateX(0)';
             
-            // Aplicar cor de fundo baseada no tipo
-            if (isError) {
-                toast.style.borderColor = 'var(--accent-danger)';
-                toast.querySelector('.toast-icon').style.background = 'var(--accent-danger)';
-            }
-            
-            document.body.appendChild(toast);
-            
-            // Remover após 5 segundos
             setTimeout(() => {
-                toast.classList.remove('show');
-                setTimeout(() => {
-                    if (toast.parentNode) {
-                        toast.remove();
-                    }
-                }, 300);
+                notification.style.opacity = '0';
+                notification.style.transform = 'translateX(100%)';
             }, 5000);
         }
 
@@ -763,7 +701,7 @@
             };
         }
 
-        // Função para enviar requisição com retry - CORRIGIDA
+        // Função para enviar requisição com retry
         async function sendRequest(data, retries = 1) {
             try {
                 const controller = new AbortController();
@@ -781,28 +719,14 @@
                 clearTimeout(timeoutId);
                 if (!response.ok) throw new Error(`Erro HTTP: ${response.status} ${response.statusText}`);
                 const result = await response.json();
-                
-                // CORREÇÃO: Verificar se há erro primeiro, depois verificar sucesso
                 if (result.error) {
+                    showNotification(result.error, true);
                     throw new Error(result.error);
                 }
-                
-                // Se não há erro e há sucesso, retornar resultado
-                if (result.success) {
-                    return result;
-                }
-                
-                // Se não há erro nem sucesso explícito, mas há message, pode ser sucesso
-                if (result.message && result.message.includes('sucesso')) {
-                    return { ...result, success: true };
-                }
-                
-                // Caso contrário, é erro
-                throw new Error(result.message || 'Erro desconhecido');
-                
+                return result;
             } catch (error) {
                 if (retries > 0 && (error.name === 'AbortError' || error.message.includes('timeout'))) {
-                    showToast('Aguarde, o servidor está iniciando...', false);
+                    showNotification('Aguarde, o servidor está iniciando...', false);
                     await new Promise(resolve => setTimeout(resolve, 15000));
                     return sendRequest(data, retries - 1);
                 }
@@ -830,7 +754,7 @@
                         return true;
                     } catch (getError) {
                         if (attempt < maxAttempts) {
-                            showToast(`Verificando publicação... (${attempt}/${maxAttempts})`, false);
+                            showNotification(`Verificando publicação... (${attempt}/${maxAttempts})`, false);
                             await new Promise(resolve => setTimeout(resolve, interval));
                         }
                     }
@@ -839,39 +763,56 @@
             return false;
         }
 
-        // Função para exibir mensagem de sucesso usando modal do tema
+        // Função para exibir mensagem de sucesso com verificação
         async function showSuccessMessage(data) {
-            // Mostrar modal de carregamento usando tema
+            // Mostrar modal de carregamento
             const loadingModal = document.createElement('div');
             loadingModal.id = 'loadingModal';
-            loadingModal.className = 'modal';
-            loadingModal.style.display = 'flex';
+            loadingModal.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(4, 18, 40, 0.9);
+                backdrop-filter: blur(12px);
+                z-index: 2000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            `;
             
             loadingModal.innerHTML = `
-                <div class="modal-content" style="max-width: 400px;">
-                    <div class="modal-header">
-                        <h2 class="modal-title">🚀 Publicando sua página...</h2>
-                    </div>
-                    <div class="modal-body" style="text-align: center;">
-                        <div style="
-                            width: 50px;
-                            height: 50px;
-                            border: 4px solid var(--border-color);
-                            border-top: 4px solid var(--accent-primary);
-                            border-radius: 50%;
-                            animation: spin 1s linear infinite;
-                            margin: 0 auto 1rem;
-                        "></div>
-                        <p style="color: var(--text-secondary);" id="loadingStatus">
-                            Aguarde enquanto sua página é criada e publicada no servidor.
-                        </p>
-                        <style>
-                            @keyframes spin {
-                                0% { transform: rotate(0deg); }
-                                100% { transform: rotate(360deg); }
-                            }
-                        </style>
-                    </div>
+                <div style="
+                    background: var(--bg-card);
+                    border: 1px solid var(--border-color);
+                    border-radius: var(--radius-xl);
+                    padding: 2rem;
+                    max-width: 400px;
+                    width: 90%;
+                    text-align: center;
+                ">
+                    <div style="
+                        width: 50px;
+                        height: 50px;
+                        border: 4px solid var(--border-color);
+                        border-top: 4px solid var(--accent-primary);
+                        border-radius: 50%;
+                        animation: spin 1s linear infinite;
+                        margin: 0 auto 1rem;
+                    "></div>
+                    <h2 style="color: var(--text-primary); font-size: 1.25rem; margin-bottom: 0.5rem;">
+                        🚀 Publicando sua página...
+                    </h2>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;" id="loadingStatus">
+                        Aguarde enquanto sua página é criada e publicada no servidor.
+                    </p>
+                    <style>
+                        @keyframes spin {
+                            0% { transform: rotate(0deg); }
+                            100% { transform: rotate(360deg); }
+                        }
+                    </style>
                 </div>
             `;
             
@@ -884,79 +825,139 @@
             document.body.removeChild(loadingModal);
             
             if (!isPublished) {
-                showToast('Não foi possível verificar a publicação da página. Tente novamente em alguns minutos.', true);
+                showNotification('Não foi possível verificar a publicação da página. Tente novamente em alguns minutos.', true);
                 return;
             }
             
-            // Criar modal de sucesso usando tema
+            // Criar modal de sucesso
             const successModal = document.createElement('div');
             successModal.id = 'successModal';
-            successModal.className = 'modal';
-            successModal.style.display = 'flex';
+            successModal.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(4, 18, 40, 0.9);
+                backdrop-filter: blur(12px);
+                z-index: 2000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            `;
             
             successModal.innerHTML = `
-                <div class="modal-content" style="max-width: 500px;">
-                    <div class="modal-header">
-                        <h2 class="modal-title" style="color: var(--accent-success);">✅ Página Criada e Publicada!</h2>
-                        <button class="close-btn" onclick="closeSuccessModal()">&times;</button>
+                <div style="
+                    background: var(--bg-card);
+                    border: 1px solid var(--border-color);
+                    border-radius: var(--radius-xl);
+                    padding: 2rem;
+                    max-width: 500px;
+                    width: 90%;
+                    text-align: center;
+                ">
+                    <h2 style="color: var(--accent-success); font-size: 1.5rem; margin-bottom: 1rem;">
+                        ✅ Página Criada e Publicada!
+                    </h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+                        Seu link personalizado está pronto:
+                    </p>
+                    <div style="
+                        background: var(--bg-secondary);
+                        border: 1px solid var(--border-color);
+                        border-radius: var(--radius-md);
+                        padding: 1rem;
+                        margin-bottom: 1.5rem;
+                        word-break: break-all;
+                        font-family: 'JetBrains Mono', monospace;
+                        color: var(--accent-primary);
+                        font-size: 0.9rem;
+                    ">
+                        ${data.htmlPagesUrl}
                     </div>
-                    <div class="modal-body" style="text-align: center;">
-                        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
-                            Seu link personalizado está pronto:
-                        </p>
-                        <div style="
+                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                        <button onclick="copyToClipboard('${data.htmlPagesUrl}')" style="
+                            padding: 0.75rem 1.5rem;
+                            background: var(--gradient-primary);
+                            color: white;
+                            border: none;
+                            border-radius: var(--radius-md);
+                            cursor: pointer;
+                            font-weight: 600;
+                            transition: all 0.2s ease;
+                        ">
+                            📋 Copiar Link
+                        </button>
+                        <a href="${data.htmlPagesUrl}" target="_blank" style="
+                            padding: 0.75rem 1.5rem;
+                            background: var(--gradient-secondary);
+                            color: #000000 !important;
+                            border: none;
+                            border-radius: var(--radius-md);
+                            cursor: pointer;
+                            font-weight: 600;
+                            text-decoration: none;
+                            display: inline-block;
+                            transition: all 0.2s ease;
+                        ">
+                            🔗 Abrir Página
+                        </a>
+                        <button onclick="closeSuccessModal()" style="
+                            padding: 0.75rem 1.5rem;
                             background: var(--bg-secondary);
+                            color: var(--text-primary);
                             border: 1px solid var(--border-color);
                             border-radius: var(--radius-md);
-                            padding: 1rem;
-                            margin-bottom: 1.5rem;
-                            word-break: break-all;
-                            font-family: 'JetBrains Mono', monospace;
-                            color: var(--accent-primary);
-                            font-size: 0.9rem;
+                            cursor: pointer;
+                            font-weight: 600;
+                            transition: all 0.2s ease;
                         ">
-                            ${data.htmlPagesUrl}
-                        </div>
-                        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                            <button onclick="copyToClipboard('${data.htmlPagesUrl}')" class="btn btn-primary">
-                                📋 Copiar Link
-                            </button>
-                            <button onclick="window.open('${data.htmlPagesUrl}', '_blank')" class="btn btn-accent">
-                                🔗 Abrir Página
-                            </button>
-                            <button onclick="closeSuccessModal()" class="btn btn-primary">
-                                ✖️ Fechar
-                            </button>
-                        </div>
+                            Fechar
+                        </button>
                     </div>
                 </div>
             `;
             
             document.body.appendChild(successModal);
+            
+            // Função para copiar link
+            window.copyToClipboard = function(text) {
+                navigator.clipboard.writeText(text).then(() => {
+                    showNotification('Link copiado!', false);
+                }).catch(() => {
+                    showNotification('Erro ao copiar o link.', true);
+                });
+            };
+            
+            // Função para fechar modal de sucesso
+            window.closeSuccessModal = function() {
+                const modal = document.getElementById('successModal');
+                if (modal) {
+                    document.body.removeChild(modal);
+                }
+                closeModal();
+                pageForm.reset();
+                isLinkValid = false;
+                isWhatsappValid = false;
+                updateSubmitButton();
+            };
         }
 
-        // Função para copiar para clipboard
-        function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(() => {
-                showToast('Link copiado para a área de transferência!', false);
-            }).catch(() => {
-                showToast('Erro ao copiar link', true);
-            });
-        }
-
-        // Função para fechar modal de sucesso
-        function closeSuccessModal() {
-            const successModal = document.getElementById('successModal');
-            if (successModal) {
-                document.body.removeChild(successModal);
-            }
-        }
-
-        // Event listeners para validação em tempo real
+        // Event listeners
         promotorLinkInput.addEventListener('input', debounce(validateLink, 300));
-        whatsappNumberInput.addEventListener('input', function() {
-            const digits = normalizePhoneNumber(this.value);
-            this.value = formatPhoneNumber(digits);
+        
+        whatsappNumberInput.addEventListener('input', (e) => {
+            const cursorPosition = e.target.selectionStart;
+            const originalLength = e.target.value.length;
+            const normalized = normalizePhoneNumber(e.target.value);
+            const formatted = formatPhoneNumber(normalized);
+            e.target.value = formatted;
+
+            const newLength = formatted.length;
+            const cursorOffset = newLength - originalLength;
+            const newCursorPosition = Math.max(0, cursorPosition + cursorOffset);
+            e.target.setSelectionRange(newCursorPosition, newCursorPosition);
+
             debounce(validatePhoneNumber, 300)();
         });
 
@@ -965,44 +966,49 @@
             e.preventDefault();
             
             if (!isLinkValid || !isWhatsappValid) {
-                showToast('Por favor, preencha todos os campos corretamente.', true);
+                showNotification('Por favor, preencha todos os campos corretamente.', true);
                 return;
             }
 
-            const promoterCode = extractPromoterCode(promotorLinkInput.value.trim());
+            // Mostrar loading
+            submitBtn.textContent = 'Criando página...';
+            submitBtn.disabled = true;
+            
+            const promoterCode = extractPromoterCode(promotorLinkInput.value);
             const whatsappNumber = normalizePhoneNumber(whatsappNumberInput.value);
 
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Criando página...';
-
             try {
-                const result = await sendRequest({
-                    promoterCode: promoterCode,
-                    whatsappNumber: whatsappNumber
-                });
-
-                // Se chegou até aqui, é sucesso
-                closePageModal();
-                await showSuccessMessage(result);
-                pageForm.reset();
-                isLinkValid = false;
-                isWhatsappValid = false;
-                updateSubmitButton();
-                
+                const result = await sendRequest({ promoterCode, whatsappNumber });
+                showSuccessMessage(result);
+                showNotification('Página criada com sucesso!', false);
             } catch (error) {
-                // Aqui é realmente um erro
-                console.error('Erro ao criar página:', error);
-                showToast(error.message || 'Erro ao criar página. Tente novamente.', true);
+                let errorMessage = 'Erro ao enviar os dados. Tente novamente.';
+                if (error.message.includes('403')) {
+                    errorMessage = 'Falha ao acessar o servidor. Verifique a conexão.';
+                } else if (error.name === 'AbortError') {
+                    errorMessage = 'A requisição demorou muito para responder.';
+                } else if (error.message.includes('Invalid JSON response')) {
+                    errorMessage = 'Erro no servidor. Resposta inválida recebida.';
+                }
+                showNotification(errorMessage, true);
+                console.error('Erro na requisição:', error);
             } finally {
-                submitBtn.disabled = false;
                 submitBtn.textContent = 'Criar Página Personalizada';
+                submitBtn.disabled = false;
+                updateSubmitButton();
             }
         });
 
         // Inicializar estado do botão
         updateSubmitButton();
     </script>
-    <script defer src="/resultados/script.js"></script>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
+      <p class="site-domain" id="siteDomain"></p>
+      <p class="copyright-text" id="copyrightText"></p>
+    </div>
+  </footer>
 </body>
 </html>
-
