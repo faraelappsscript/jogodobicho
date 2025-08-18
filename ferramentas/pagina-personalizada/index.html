@@ -549,23 +549,13 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <p class="footer-text">
-                Transforme sua estratégia de marketing com páginas personalizadas profissionais
-            </p>
-            <div class="footer-links">
-                <a href="/termos" class="footer-link">Termos de Uso</a>
-                <a href="/privacidade" class="footer-link">Política de Privacidade</a>
-                <a href="/contato" class="footer-link">Contato</a>
-                <a href="/suporte" class="footer-link">Suporte</a>
-            </div>
-            <p class="footer-copyright">
-                © 2024 77x Brasil. Todos os direitos reservados.
-            </p>
-        </div>
-    </footer>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
+      <p class="site-domain" id="siteDomain"></p>
+      <p class="copyright-text" id="copyrightText"></p>
+    </div>
+  </footer>
 
     <!-- Modal para criação de página -->
     <div id="pageModal" class="modal-overlay">
@@ -616,14 +606,6 @@
             </div>
         </div>
     </div>
-
-<footer class="site-footer">
-    <div class="footer-content">
-      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
-      <p class="site-domain" id="siteDomain"></p>
-      <p class="copyright-text" id="copyrightText"></p>
-    </div>
-</footer>
     
     <!-- Scripts -->
     <script defer src="/assets/js/breadcrumb.js"></script>
@@ -1010,17 +992,15 @@
         // Inicializar estado do botão
         updateSubmitButton();
 
-        function setAutomaticDomain() {
+// === FUNCIONALIDADE DE DOMÍNIO AUTOMÁTICO NO FOOTER ===
+function setAutomaticDomain() {
   const siteDomainElement = document.getElementById('siteDomain');
   if (siteDomainElement) {
     siteDomainElement.textContent = window.location.hostname;
   }
 }
 
-// Chamar a função ao carregar a página
-document.addEventListener('DOMContentLoaded', setAutomaticDomain);
-
-
+// === FUNCIONALIDADE DE DIREITOS AUTORAIS AUTOMÁTICOS NO FOOTER ===
 function setCopyrightText() {
   const copyrightTextElement = document.getElementById("copyrightText");
   if (copyrightTextElement) {
@@ -1028,7 +1008,14 @@ function setCopyrightText() {
     copyrightTextElement.textContent = `© ${currentYear} Todos os direitos reservados.`;
   }
 }
-    </script>
+
+// Chamar a função ao carregar a página
+document.addEventListener('DOMContentLoaded', setAutomaticDomain);
+// Chamar a função ao carregar a página
+document.addEventListener("DOMContentLoaded", setCopyrightText);
+        
+</script>
+
 </body>
 </html>
 
