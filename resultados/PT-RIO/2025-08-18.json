@@ -69,23 +69,14 @@
           "Bicho": "Leão"
         }
       ],
-      "frases": {
-        "1927": [
-          "CARNEIRO 🐑 no quinto prêmio!<br>com o palpite 1927"
-        ],
-        "9927": [
-          "CARNEIRO 🐑 no quinto prêmio!<br>com o palpite 9927"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐑"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1920, 1921, 1922, 1927, 1929, 1990, 1991, 1992, 1997, 1999, 9920, 9921, 9922, 9927, 9929, 9990, 9991, 9992, 9997, 9999"
+      "resumo": "Palpites dados para esta extração: 1520, 3520, 4520"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -156,47 +147,14 @@
           "Bicho": "Avestruz"
         }
       ],
-      "frases": {
-        "1921": [
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 1921"
-        ],
-        "1922": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1922",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 1922"
-        ],
-        "1927": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1927"
-        ],
-        "1929": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1929",
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 1929"
-        ],
-        "9921": [
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9921"
-        ],
-        "9922": [
-          "Dezena no oitavo prêmio!<br>com o palpite 9922",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9922"
-        ],
-        "9927": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9927"
-        ],
-        "9929": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9929",
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9929"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 4,
-        "Grupo": [
-          "🐪",
-          "🐑",
-          "🐐"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1920, 1921, 1922, 1927, 1929, 1990, 1991, 1992, 1997, 1999, 9920, 9921, 9922, 9927, 9929, 9990, 9991, 9992, 9997, 9999"
+      "resumo": "Palpites dados para esta extração: 1520, 3520, 4520"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -268,80 +226,25 @@
         }
       ],
       "frases": {
-        "1920": [
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1920"
+        "1520": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1520"
         ],
-        "1921": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 1921"
+        "3520": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 3520"
         ],
-        "1922": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 1922"
-        ],
-        "1929": [
-          "Dezena no nono prêmio!<br>com o palpite 1929",
-          "CAMELO 🐪 no nono prêmio!<br>com o palpite 1929"
-        ],
-        "1990": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1990"
-        ],
-        "1991": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1991"
-        ],
-        "1992": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1992",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1992"
-        ],
-        "1997": [
-          "Dezena no décimo prêmio!<br>com o palpite 1997",
-          "VACA 🐄 no décimo prêmio!<br>com o palpite 1997"
-        ],
-        "1999": [
-          "VACA 🐄 no décimo prêmio!<br>com o palpite 1999"
-        ],
-        "9920": [
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 9920"
-        ],
-        "9921": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9921"
-        ],
-        "9922": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9922"
-        ],
-        "9929": [
-          "Dezena no nono prêmio!<br>com o palpite 9929",
-          "CAMELO 🐪 no nono prêmio!<br>com o palpite 9929"
-        ],
-        "9990": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9990"
-        ],
-        "9991": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9991"
-        ],
-        "9992": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9992",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9992"
-        ],
-        "9997": [
-          "Dezena no décimo prêmio!<br>com o palpite 9997",
-          "VACA 🐄 no décimo prêmio!<br>com o palpite 9997"
-        ],
-        "9999": [
-          "VACA 🐄 no décimo prêmio!<br>com o palpite 9999"
+        "4520": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 4520"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
+        "Dezena": 0,
         "Grupo": [
-          "🐕",
-          "🐻",
-          "🐐",
-          "🐪",
-          "🐄"
+          "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1920, 1921, 1922, 1927, 1929, 1990, 1991, 1992, 1997, 1999, 9920, 9921, 9922, 9927, 9929, 9990, 9991, 9992, 9997, 9999"
+      "resumo": "Palpites dados para esta extração: 1520, 3520, 4520"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -413,70 +316,31 @@
         }
       ],
       "frases": {
-        "1920": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1920",
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 1920"
+        "1520": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 1520",
+          "Dezena no sétimo prêmio!<br>com o palpite 1520",
+          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 1520"
         ],
-        "1921": [
-          "Dezena no nono prêmio!<br>com o palpite 1921",
-          "CABRA 🐐 no nono prêmio!<br>com o palpite 1921"
+        "3520": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 3520",
+          "Dezena no sétimo prêmio!<br>com o palpite 3520",
+          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 3520"
         ],
-        "1922": [
-          "CABRA 🐐 no nono prêmio!<br>com o palpite 1922"
-        ],
-        "1927": [
-          "Dezena no sexto prêmio!<br>com o palpite 1927",
-          "CARNEIRO 🐑 no sexto prêmio!<br>com o palpite 1927"
-        ],
-        "1929": [
-          "CAMELO 🐪 no quinto prêmio!<br>com o palpite 1929"
-        ],
-        "1997": [
-          "Dezena no segundo prêmio!<br>com o palpite 1997",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 1997"
-        ],
-        "1999": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 1999"
-        ],
-        "9920": [
-          "Dezena no sétimo prêmio!<br>com o palpite 9920",
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 9920"
-        ],
-        "9921": [
-          "Dezena no nono prêmio!<br>com o palpite 9921",
-          "CABRA 🐐 no nono prêmio!<br>com o palpite 9921"
-        ],
-        "9922": [
-          "CABRA 🐐 no nono prêmio!<br>com o palpite 9922"
-        ],
-        "9927": [
-          "Dezena no sexto prêmio!<br>com o palpite 9927",
-          "CARNEIRO 🐑 no sexto prêmio!<br>com o palpite 9927"
-        ],
-        "9929": [
-          "CAMELO 🐪 no quinto prêmio!<br>com o palpite 9929"
-        ],
-        "9997": [
-          "Dezena no segundo prêmio!<br>com o palpite 9997",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 9997"
-        ],
-        "9999": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 9999"
+        "4520": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 4520",
+          "Dezena no sétimo prêmio!<br>com o palpite 4520",
+          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 4520"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 8,
+        "Centena": 3,
+        "Dezena": 3,
         "Grupo": [
-          "🐄",
-          "🐪",
-          "🐑",
-          "🐕",
-          "🐐"
+          "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1920, 1921, 1922, 1927, 1929, 1990, 1991, 1992, 1997, 1999, 9920, 9921, 9922, 9927, 9929, 9990, 9991, 9992, 9997, 9999"
+      "resumo": "Palpites dados para esta extração: 1520, 3520, 4520"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -566,7 +430,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1999, 9999"
+      "resumo": "Palpites dados para esta extração: 1520, 3520, 4520"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -626,7 +490,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1999, 9999"
+      "resumo": "Palpites dados para esta extração: 1520, 3520, 4520"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -679,14 +543,26 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1520": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1520"
+        ],
+        "3520": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 3520"
+        ],
+        "4520": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 4520"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐕"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1999, 9999"
+      "resumo": "Palpites dados para esta extração: 1520, 3520, 4520"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -739,23 +615,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1999": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 1999"
-        ],
-        "9999": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 9999"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐄"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1999, 9999"
+      "resumo": "Palpites dados para esta extração: 1520, 3520, 4520"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
