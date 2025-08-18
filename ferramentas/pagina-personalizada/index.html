@@ -486,21 +486,13 @@
                     <span class="advantage-icon">🔍</span>
                     <h3 class="advantage-title">Sua Página no Google</h3>
                     <p class="advantage-description">
-                        Quanto mais você divulga sua página personalizada, maior a visibilidade dela no Google. Isso atrai mais clientes e aumenta os cadastros diretamente no seu link de promotor.
-                    </p>
-                </div>
-
-                <div class="advantage-card">
-                    <span class="advantage-icon">🌐</span>
-                    <h3 class="advantage-title">Site de Resultados Integrado</h3>
-                    <p class="advantage-description">
-                        Quando um visitante acessa sua página personalizada, seu link de promotor é armazenado no navegador. Ao navegar pelo nosso site, ele verá banners, links e botões que o direcionam ao seu link. Além disso, ao compartilhar palpites ou resultados, seu link é automaticamente incluído, criando um efeito de "bola de neve" que multiplica sua divulgação exponencialmente.
+                        Sua página personalizada aparece nos resultados de busca do Google, aumentando sua visibilidade e credibilidade online.
                     </p>
                 </div>
             </div>
 
             <div class="cta-container">
-                <button class="btn-create-page" onclick="openModal()">
+                <button class="btn-create-page" onclick="openPageModal()">
                     ✨ Crie sua página personalizada
                 </button>
             </div>
@@ -512,7 +504,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h2 class="modal-title">Criar Página Personalizada</h2>
-                <button class="modal-close" onclick="closeModal()">&times;</button>
+                <button class="modal-close" onclick="closePageModal()">&times;</button>
             </div>
             <div class="modal-body">
                 <form id="pageForm">
@@ -560,8 +552,13 @@
     <!-- Scripts -->
     <script defer src="/assets/js/breadcrumb.js"></script>
     <script>
+        // Funções do modal específicas para esta página
+        function openPageModal() {
+            document.getElementById('pageModal').style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
 
-        function closeModal() {
+        function closePageModal() {
             document.getElementById('pageModal').style.display = 'none';
             document.body.style.overflow = 'auto';
         }
@@ -569,14 +566,14 @@
         // Fechar modal ao clicar fora
         document.getElementById('pageModal').addEventListener('click', function(e) {
             if (e.target === this) {
-                closeModal();
+                closePageModal();
             }
         });
 
         // Fechar modal com ESC
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
-                closeModal();
+                closePageModal();
             }
         });
 
@@ -877,82 +874,65 @@
                             color: white;
                             border: none;
                             border-radius: var(--radius-md);
-                            cursor: pointer;
                             font-weight: 600;
-                            transition: all 0.2s ease;
+                            cursor: pointer;
+                            transition: all 0.3s ease;
                         ">
                             📋 Copiar Link
                         </button>
-                        <a href="${data.htmlPagesUrl}" target="_blank" style="
+                        <button onclick="window.open('${data.htmlPagesUrl}', '_blank')" style="
                             padding: 0.75rem 1.5rem;
                             background: var(--gradient-secondary);
-                            color: #000000 !important;
+                            color: white;
                             border: none;
                             border-radius: var(--radius-md);
-                            cursor: pointer;
                             font-weight: 600;
-                            text-decoration: none;
-                            display: inline-block;
-                            transition: all 0.2s ease;
+                            cursor: pointer;
+                            transition: all 0.3s ease;
                         ">
                             🔗 Abrir Página
-                        </a>
+                        </button>
                         <button onclick="closeSuccessModal()" style="
                             padding: 0.75rem 1.5rem;
                             background: var(--bg-secondary);
                             color: var(--text-primary);
                             border: 1px solid var(--border-color);
                             border-radius: var(--radius-md);
-                            cursor: pointer;
                             font-weight: 600;
-                            transition: all 0.2s ease;
+                            cursor: pointer;
+                            transition: all 0.3s ease;
                         ">
-                            Fechar
+                            ✖️ Fechar
                         </button>
                     </div>
                 </div>
             `;
             
             document.body.appendChild(successModal);
-            
-            // Função para copiar link
-            window.copyToClipboard = function(text) {
-                navigator.clipboard.writeText(text).then(() => {
-                    showNotification('Link copiado!', false);
-                }).catch(() => {
-                    showNotification('Erro ao copiar o link.', true);
-                });
-            };
-            
-            // Função para fechar modal de sucesso
-            window.closeSuccessModal = function() {
-                const modal = document.getElementById('successModal');
-                if (modal) {
-                    document.body.removeChild(modal);
-                }
-                closeModal();
-                pageForm.reset();
-                isLinkValid = false;
-                isWhatsappValid = false;
-                updateSubmitButton();
-            };
         }
 
-        // Event listeners
+        // Função para copiar para clipboard
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                showNotification('Link copiado para a área de transferência!', false);
+            }).catch(() => {
+                showNotification('Erro ao copiar link', true);
+            });
+        }
+
+        // Função para fechar modal de sucesso
+        function closeSuccessModal() {
+            const successModal = document.getElementById('successModal');
+            if (successModal) {
+                document.body.removeChild(successModal);
+            }
+        }
+
+        // Event listeners para validação em tempo real
         promotorLinkInput.addEventListener('input', debounce(validateLink, 300));
-        
-        whatsappNumberInput.addEventListener('input', (e) => {
-            const cursorPosition = e.target.selectionStart;
-            const originalLength = e.target.value.length;
-            const normalized = normalizePhoneNumber(e.target.value);
-            const formatted = formatPhoneNumber(normalized);
-            e.target.value = formatted;
-
-            const newLength = formatted.length;
-            const cursorOffset = newLength - originalLength;
-            const newCursorPosition = Math.max(0, cursorPosition + cursorOffset);
-            e.target.setSelectionRange(newCursorPosition, newCursorPosition);
-
+        whatsappNumberInput.addEventListener('input', function() {
+            const digits = normalizePhoneNumber(this.value);
+            this.value = formatPhoneNumber(digits);
             debounce(validatePhoneNumber, 300)();
         });
 
@@ -965,46 +945,41 @@
                 return;
             }
 
-            // Mostrar loading
-            submitBtn.textContent = 'Criando página...';
-            submitBtn.disabled = true;
-            
-            const promoterCode = extractPromoterCode(promotorLinkInput.value);
+            const promoterCode = extractPromoterCode(promotorLinkInput.value.trim());
             const whatsappNumber = normalizePhoneNumber(whatsappNumberInput.value);
 
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Criando página...';
+
             try {
-                const result = await sendRequest({ promoterCode, whatsappNumber });
-                showSuccessMessage(result);
-                showNotification('Página criada com sucesso!', false);
-            } catch (error) {
-                let errorMessage = 'Erro ao enviar os dados. Tente novamente.';
-                if (error.message.includes('403')) {
-                    errorMessage = 'Falha ao acessar o servidor. Verifique a conexão.';
-                } else if (error.name === 'AbortError') {
-                    errorMessage = 'A requisição demorou muito para responder.';
-                } else if (error.message.includes('Invalid JSON response')) {
-                    errorMessage = 'Erro no servidor. Resposta inválida recebida.';
+                const result = await sendRequest({
+                    promoterCode: promoterCode,
+                    whatsappNumber: whatsappNumber
+                });
+
+                if (result.success) {
+                    closePageModal();
+                    await showSuccessMessage(result);
+                    pageForm.reset();
+                    isLinkValid = false;
+                    isWhatsappValid = false;
+                    updateSubmitButton();
+                } else {
+                    throw new Error(result.message || 'Erro desconhecido');
                 }
-                showNotification(errorMessage, true);
-                console.error('Erro na requisição:', error);
+            } catch (error) {
+                console.error('Erro ao criar página:', error);
+                showNotification(error.message || 'Erro ao criar página. Tente novamente.', true);
             } finally {
-                submitBtn.textContent = 'Criar Página Personalizada';
                 submitBtn.disabled = false;
-                updateSubmitButton();
+                submitBtn.textContent = 'Criar Página Personalizada';
             }
         });
 
         // Inicializar estado do botão
         updateSubmitButton();
     </script>
-
-  <footer class="site-footer">
-    <div class="footer-content">
-      <img src="/assets/img/logo.webp" alt="Logo do Site" class="footer-logo" loading="lazy">
-      <p class="site-domain" id="siteDomain"></p>
-      <p class="copyright-text" id="copyrightText"></p>
-    </div>
-  </footer>
-<script defer src="/resultados/script.js"></script>
+    <script defer src="/script.js"></script>
 </body>
 </html>
+
