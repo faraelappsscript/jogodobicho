@@ -497,10 +497,8 @@
                         Quando um visitante acessa sua página personalizada, seu link de promotor é armazenado no navegador. Ao navegar pelo nosso site, ele verá banners, links e botões que o direcionam ao seu link. Além disso, ao compartilhar palpites ou resultados, seu link é automaticamente incluído, criando um efeito de "bola de neve" que multiplica sua divulgação exponencialmente.
                     </p>
                 </div>
-            </div>
-
-            <div class="cta-container">
-                <button class="btn-create-page" onclick="openModal()">
+            </div>            <div class="cta-container">
+                <button class="btn-create-page" onclick="openModal(\'createPageModal\')">
                     ✨ Crie sua página personalizada
                 </button>
             </div>
@@ -508,7 +506,7 @@
     </div>
 
     <!-- Modal para criação de página -->
-    <div id="pageModal" class="modal-overlay">
+    <div id="createPageModal" class="modal-overlay">
         <div class="modal-content">
             <div class="modal-header">
                 <h2 class="modal-title">Criar Página Personalizada</h2>
@@ -1010,6 +1008,6 @@
       <p class="copyright-text" id="copyrightText"></p>
     </div>
   </footer>
-<script src="/resultados/script.js"></script>
+<script defer src="/resultados/script.js"></script>
 </body>
 </html>
