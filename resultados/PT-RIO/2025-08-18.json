@@ -134,63 +134,63 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7696",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "4177",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "3589",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "4737",
+          "Grupo": "10",
+          "Bicho": "Coelho"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "3729",
+          "Milhar": "6629",
           "Grupo": "08",
           "Bicho": "Camelo"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "0098",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "2825",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "4713",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "2286",
+          "Grupo": "22",
+          "Bicho": "Tigre"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "7330",
-          "Grupo": "08",
-          "Bicho": "Camelo"
+          "Milhar": "4462",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "6570",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "1768",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "9829",
-          "Grupo": "08",
-          "Bicho": "Camelo"
+          "Milhar": "7322",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "6998",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "7795",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "0552",
-          "Grupo": "13",
-          "Bicho": "Galo"
+          "Milhar": "2001",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
         }
       ],
       "frases": {},
@@ -200,7 +200,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0268"
+      "resumo": "Palpites dados para esta extração: 7633, 7634, 7643, 7644, 8633, 8634, 8643, 8644, 9633, 9634, 9643, 9644"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -490,43 +490,43 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7696",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "4177",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "3589",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "4737",
+          "Grupo": "10",
+          "Bicho": "Coelho"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "3729",
+          "Milhar": "6629",
           "Grupo": "08",
           "Bicho": "Camelo"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "0098",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "2825",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "4713",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "2286",
+          "Grupo": "22",
+          "Bicho": "Tigre"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "9825",
+          "Milhar": "0654",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "620",
+          "Milhar": "786",
           "Grupo": "",
           "Bicho": ""
         }
@@ -538,7 +538,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0268"
+      "resumo": "Palpites dados para esta extração: 7633, 7634, 7643, 7644, 8633, 8634, 8643, 8644, 9633, 9634, 9643, 9644"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
