@@ -411,6 +411,228 @@
         "Bicho"
       ],
       "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5199",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5605",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6757",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "4737",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3462",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "5760",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "140",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "4337": [
+          "Dezena no quarto prêmio!<br>com o palpite 4337",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4337",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4337"
+        ],
+        "4357": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4357",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4357",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 4357"
+        ],
+        "4437": [
+          "Dezena no quarto prêmio!<br>com o palpite 4437",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4437",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4437"
+        ],
+        "4457": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4457",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4457",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 4457"
+        ],
+        "4537": [
+          "Dezena no quarto prêmio!<br>com o palpite 4537",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4537",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4537"
+        ],
+        "4557": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4557",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4557",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 4557"
+        ],
+        "4737": [
+          "Milhar e Centena no quarto prêmio!<br>com o palpite 4737",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 4737",
+          "Dezena no quarto prêmio!<br>com o palpite 4737",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4737",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4737"
+        ],
+        "4757": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 4757",
+          "Dezena no terceiro prêmio!<br>com o palpite 4757",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4757",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 4757"
+        ],
+        "4937": [
+          "Dezena no quarto prêmio!<br>com o palpite 4937",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4937",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4937"
+        ],
+        "4957": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4957",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4957",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 4957"
+        ],
+        "5337": [
+          "Dezena no quarto prêmio!<br>com o palpite 5337",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5337",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 5337"
+        ],
+        "5357": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5357",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5357",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 5357"
+        ],
+        "5437": [
+          "Dezena no quarto prêmio!<br>com o palpite 5437",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5437",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 5437"
+        ],
+        "5457": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5457",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5457",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 5457"
+        ],
+        "5537": [
+          "Dezena no quarto prêmio!<br>com o palpite 5537",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5537",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 5537"
+        ],
+        "5557": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5557",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5557",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 5557"
+        ],
+        "5737": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 5737",
+          "Dezena no quarto prêmio!<br>com o palpite 5737",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5737",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 5737"
+        ],
+        "5757": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 5757",
+          "Dezena no terceiro prêmio!<br>com o palpite 5757",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5757",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 5757"
+        ],
+        "5937": [
+          "Dezena no quarto prêmio!<br>com o palpite 5937",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5937",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 5937"
+        ],
+        "5957": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5957",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5957",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 5957"
+        ],
+        "6337": [
+          "Dezena no quarto prêmio!<br>com o palpite 6337",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6337",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 6337"
+        ],
+        "6357": [
+          "Dezena no terceiro prêmio!<br>com o palpite 6357",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6357",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 6357"
+        ],
+        "6437": [
+          "Dezena no quarto prêmio!<br>com o palpite 6437",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6437",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 6437"
+        ],
+        "6457": [
+          "Dezena no terceiro prêmio!<br>com o palpite 6457",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6457",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 6457"
+        ],
+        "6537": [
+          "Dezena no quarto prêmio!<br>com o palpite 6537",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6537",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 6537"
+        ],
+        "6557": [
+          "Dezena no terceiro prêmio!<br>com o palpite 6557",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6557",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 6557"
+        ],
+        "6737": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 6737",
+          "Dezena no quarto prêmio!<br>com o palpite 6737",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6737",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 6737"
+        ],
+        "6757": [
+          "Milhar e Centena no terceiro prêmio!<br>com o palpite 6757",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 6757",
+          "Dezena no terceiro prêmio!<br>com o palpite 6757",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6757",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 6757"
+        ],
+        "6937": [
+          "Dezena no quarto prêmio!<br>com o palpite 6937",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6937",
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 6937"
+        ],
+        "6957": [
+          "Dezena no terceiro prêmio!<br>com o palpite 6957",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6957",
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 6957"
+        ]
+      },
+      "acertos": {
+        "Milhar": 2,
+        "Centena": 6,
+        "Dezena": 30,
+        "Grupo": [
+          "🐊",
+          "🐇"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 4327, 4337, 4357, 4427, 4437, 4457, 4527, 4537, 4557, 4727, 4737, 4757, 4927, 4937, 4957, 5327, 5337, 5357, 5427, 5437, 5457, 5527, 5537, 5557, 5727, 5737, 5757, 5927, 5937, 5957, 6327, 6337, 6357, 6427, 6437, 6457, 6527, 6537, 6557, 6727, 6737, 6757, 6927, 6937, 6957"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
         {},
         {},
         {},
@@ -1027,6 +1249,216 @@
       "resumo": "Palpites dados para esta extração: 4327, 4337, 4357, 4427, 4437, 4457, 4527, 4537, 4557, 4727, 4737, 4757, 4927, 4937, 4957, 5327, 5337, 5357, 5427, 5437, 5457, 5527, 5537, 5557, 5727, 5737, 5757, 5927, 5937, 5957, 6327, 6337, 6357, 6427, 6437, 6457, 6527, 6537, 6557, 6727, 6737, 6757, 6927, 6937, 6957"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5199",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5605",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6757",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "4737",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3462",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "5564",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1677",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "9053",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "9577",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "1631",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        }
+      ],
+      "frases": {
+        "4337": [
+          "Dezena no quarto prêmio!<br>com o palpite 4337",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4337"
+        ],
+        "4357": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4357",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4357"
+        ],
+        "4437": [
+          "Dezena no quarto prêmio!<br>com o palpite 4437",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4437"
+        ],
+        "4457": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4457",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4457"
+        ],
+        "4537": [
+          "Dezena no quarto prêmio!<br>com o palpite 4537",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4537"
+        ],
+        "4557": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4557",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4557"
+        ],
+        "4737": [
+          "Milhar e Centena no quarto prêmio!<br>com o palpite 4737",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 4737",
+          "Dezena no quarto prêmio!<br>com o palpite 4737",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4737"
+        ],
+        "4757": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 4757",
+          "Dezena no terceiro prêmio!<br>com o palpite 4757",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4757"
+        ],
+        "4937": [
+          "Dezena no quarto prêmio!<br>com o palpite 4937",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4937"
+        ],
+        "4957": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4957",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 4957"
+        ],
+        "5337": [
+          "Dezena no quarto prêmio!<br>com o palpite 5337",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5337"
+        ],
+        "5357": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5357",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5357"
+        ],
+        "5437": [
+          "Dezena no quarto prêmio!<br>com o palpite 5437",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5437"
+        ],
+        "5457": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5457",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5457"
+        ],
+        "5537": [
+          "Dezena no quarto prêmio!<br>com o palpite 5537",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5537"
+        ],
+        "5557": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5557",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5557"
+        ],
+        "5737": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 5737",
+          "Dezena no quarto prêmio!<br>com o palpite 5737",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5737"
+        ],
+        "5757": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 5757",
+          "Dezena no terceiro prêmio!<br>com o palpite 5757",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5757"
+        ],
+        "5937": [
+          "Dezena no quarto prêmio!<br>com o palpite 5937",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5937"
+        ],
+        "5957": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5957",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 5957"
+        ],
+        "6337": [
+          "Dezena no quarto prêmio!<br>com o palpite 6337",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6337"
+        ],
+        "6357": [
+          "Dezena no terceiro prêmio!<br>com o palpite 6357",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6357"
+        ],
+        "6437": [
+          "Dezena no quarto prêmio!<br>com o palpite 6437",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6437"
+        ],
+        "6457": [
+          "Dezena no terceiro prêmio!<br>com o palpite 6457",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6457"
+        ],
+        "6537": [
+          "Dezena no quarto prêmio!<br>com o palpite 6537",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6537"
+        ],
+        "6557": [
+          "Dezena no terceiro prêmio!<br>com o palpite 6557",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6557"
+        ],
+        "6737": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 6737",
+          "Dezena no quarto prêmio!<br>com o palpite 6737",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6737"
+        ],
+        "6757": [
+          "Milhar e Centena no terceiro prêmio!<br>com o palpite 6757",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 6757",
+          "Dezena no terceiro prêmio!<br>com o palpite 6757",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6757"
+        ],
+        "6937": [
+          "Dezena no quarto prêmio!<br>com o palpite 6937",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 6937"
+        ],
+        "6957": [
+          "Dezena no terceiro prêmio!<br>com o palpite 6957",
+          "JACARÉ 🐊 no terceiro prêmio!<br>com o palpite 6957"
+        ]
+      },
+      "acertos": {
+        "Milhar": 2,
+        "Centena": 6,
+        "Dezena": 30,
+        "Grupo": [
+          "🐊",
+          "🐇"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 4327, 4337, 4357, 4427, 4437, 4457, 4527, 4537, 4557, 4727, 4737, 4757, 4927, 4937, 4957, 5327, 5337, 5357, 5427, 5437, 5457, 5527, 5537, 5557, 5727, 5737, 5757, 5927, 5937, 5957, 6327, 6337, 6357, 6427, 6437, 6457, 6527, 6537, 6557, 6727, 6737, 6757, 6927, 6937, 6957"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
