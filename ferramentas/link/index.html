@@ -774,67 +774,59 @@
                     successDiv.textContent = `Link de promotor ${actionText} com sucesso!`;
                     successDiv.style.display = 'block';
                     
-                    // Mostrar toast
-                    showSuccessToast(`Link de promotor ${actionText} com sucesso!`);
+                    // Mostrar toast se a função existir
+                    if (typeof showToast === 'function') {
+                        showToast(`Link de promotor ${actionText} com sucesso!`);
+                    }
                     
-                    // Fechar modal imediatamente
-                    closePromotorModal();
+                    // Fechar modal após 2 segundos
+                    setTimeout(() => {
+                        closePromotorModal();
+                    }, 2000);
                     
                     // Reabilitar botão
                     submitBtn.disabled = false;
                     submitBtn.textContent = originalText;
                     
-                    console.log("Código do promotor integrado:", promotorCode);
+                    console.log('Código do promotor integrado:', promotorCode);
                 }, 500);
                 
             } catch (error) {
-                const actionText = existingLink ? "substituir" : "integrar";
+                const actionText = existingLink ? 'substituir' : 'integrar';
                 errorDiv.textContent = `Erro ao ${actionText} o link. Tente novamente.`;
-                errorDiv.style.display = "block";
+                errorDiv.style.display = 'block';
                 
                 // Reabilitar botão
                 submitBtn.disabled = false;
                 submitBtn.textContent = originalText;
                 
-                console.error("Erro ao integrar link:", error);
+                console.error('Erro ao integrar link:', error);
             }
         }
 
-        // Função para exibir o toast de sucesso
-        function showSuccessToast(message) {
-            const toast = document.getElementById("successToast");
-            const toastMessage = document.getElementById("toastMessage");
-            toastMessage.textContent = message;
-            toast.classList.add("show");
-
-            setTimeout(() => {
-                toast.classList.remove("show");
-            }, 3000); // Toast desaparece após 3 segundos
-        }
-
         // Adicionar efeitos de hover suaves nos cards
-        const contentCards = document.querySelectorAll(".content-card");
+        const contentCards = document.querySelectorAll('.content-card');
         contentCards.forEach(card => {
-            card.addEventListener("mouseenter", function() {
-                this.style.transform = "translateY(-2px)";
-                this.style.boxShadow = "var(--shadow-xl)";
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-2px)';
+                this.style.boxShadow = 'var(--shadow-xl)';
             });
             
-            card.addEventListener("mouseleave", function() {
-                this.style.transform = "translateY(0)";
-                this.style.boxShadow = "var(--shadow-lg)";
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+                this.style.boxShadow = 'var(--shadow-lg)';
             });
         });
 
         // Fechar modal com tecla ESC
-        document.addEventListener("keydown", function(e) {
-            if (e.key === "Escape") {
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
                 closePromotorModal();
             }
         });
 
 function setAutomaticDomain() {
-  const siteDomainElement = document.getElementById("siteDomain");
+  const siteDomainElement = document.getElementById('siteDomain');
   if (siteDomainElement) {
     siteDomainElement.textContent = window.location.hostname;
   }
@@ -848,13 +840,9 @@ function setCopyrightText() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", setAutomaticDomain);
+document.addEventListener('DOMContentLoaded', setAutomaticDomain);
 document.addEventListener("DOMContentLoaded", setCopyrightText);
     </script>
-    <!-- Toast de Sucesso -->
-    <div id="successToast" class="success-toast">
-        <span class="icon">&#10003;</span>
-        <span id="toastMessage"></span>
-    </div>
 </body>
 </html>
+
