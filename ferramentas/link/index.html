@@ -519,6 +519,50 @@
         .main-button {
             animation: fadeInUp 0.8s ease-out;
         }
+
+         /* Estilos para a mensagem flutuante (Toast) */
+        .toast-message {
+            visibility: hidden;
+            min-width: 250px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 8px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1001;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+            box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            opacity: 0;
+            transition: visibility 0s, opacity 0.5s ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .toast-message.show {
+            visibility: visible;
+            animation: fadeInToast 0.5s, fadeOutToast 0.5s 3.5s;
+            opacity: 1;
+        }
+
+        .toast-message .icon-check {
+            color: #4CAF50; /* Verde */
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+        @keyframes fadeInToast {
+            from { bottom: 0; opacity: 0; }
+            to { bottom: 30px; opacity: 1; }
+        }
+
+        @keyframes fadeOutToast {
+            from { bottom: 30px; opacity: 1; }
+            to { bottom: 0; opacity: 0; }
+        }
     </style>
 </head>
 
@@ -650,6 +694,12 @@
         </div>
     </div>
 
+    <!-- Mensagem flutuante (Toast) -->
+    <div id="toastMessage" class="toast-message">
+        <span class="icon-check">&#10003;</span>
+        <span id="toastText"></span>
+    </div>
+    
     <!-- Script do site -->
     <script defer src="/assets/js/breadcrumb.js"></script>
     
@@ -771,24 +821,17 @@
                 // Simular um pequeno delay para melhor UX
                 setTimeout(() => {
                     const actionText = existingLink ? 'substituído' : 'integrado';
-                    successDiv.textContent = `Link de promotor ${actionText} com sucesso!`;
-                    successDiv.style.display = 'block';
-                    
-                    // Mostrar toast se a função existir
-                    if (typeof showToast === 'function') {
-                        showToast(`Link de promotor ${actionText} com sucesso!`);
-                    }
-                    
-                    // Fechar modal após 2 segundos
-                    setTimeout(() => {
-                        closePromotorModal();
-                    }, 2000);
+                    // Fechar modal imediatamente
+                    closePromotorModal();
+
+                    // Mostrar toast
+                    showToast(`Link de promotor ${actionText} com sucesso!`);
                     
                     // Reabilitar botão
                     submitBtn.disabled = false;
                     submitBtn.textContent = originalText;
                     
-                    console.log('Código do promotor integrado:', promotorCode);
+                    console.log("Código do promotor integrado:", promotorCode);
                 }, 500);
                 
             } catch (error) {
@@ -840,9 +883,20 @@ function setCopyrightText() {
   }
 }
 
+        // Função para exibir a mensagem flutuante (Toast)
+        function showToast(message) {
+            const toast = document.getElementById("toastMessage");
+            const toastText = document.getElementById("toastText");
+            toastText.textContent = message;
+            toast.className = "toast-message show";
+
+            setTimeout(function(){
+                toast.className = toast.className.replace("show", "");
+            }, 4000); // 4 segundos
+        }
+
 document.addEventListener('DOMContentLoaded', setAutomaticDomain);
 document.addEventListener("DOMContentLoaded", setCopyrightText);
     </script>
 </body>
 </html>
-
