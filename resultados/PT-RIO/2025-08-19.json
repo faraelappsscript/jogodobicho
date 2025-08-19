@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3951, 5951"
+      "resumo": "Palpites dados para esta extração: 3927, 3957, 4927, 4957, 5927, 5957, 6927, 6957"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3951, 5951"
+      "resumo": "Palpites dados para esta extração: 3927, 3957, 4927, 4957, 5927, 5957, 6927, 6957"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -171,14 +171,29 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "3957": [
+          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3957"
+        ],
+        "4957": [
+          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 4957"
+        ],
+        "5957": [
+          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 5957"
+        ],
+        "6957": [
+          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 6957"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐊"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3951, 5951"
+      "resumo": "Palpites dados para esta extração: 3927, 3957, 4927, 4957, 5927, 5957, 6927, 6957"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -231,14 +246,33 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "3957": [
+          "Dezena no segundo prêmio!<br>com o palpite 3957",
+          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 3957"
+        ],
+        "4957": [
+          "Dezena no segundo prêmio!<br>com o palpite 4957",
+          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 4957"
+        ],
+        "5957": [
+          "Dezena no segundo prêmio!<br>com o palpite 5957",
+          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 5957"
+        ],
+        "6957": [
+          "Dezena no segundo prêmio!<br>com o palpite 6957",
+          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 6957"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 4,
+        "Grupo": [
+          "🐊"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3951, 5951"
+      "resumo": "Palpites dados para esta extração: 3927, 3957, 4927, 4957, 5927, 5957, 6927, 6957"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -341,7 +375,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3951, 5951"
+      "resumo": "Palpites dados para esta extração: 3927, 3957, 4927, 4957, 5927, 5957, 6927, 6957"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -419,7 +453,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3951, 5951"
+      "resumo": "Palpites dados para esta extração: 3927, 3957, 4927, 4957, 5927, 5957, 6927, 6957"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -491,26 +525,28 @@
         }
       ],
       "frases": {
-        "3951": [
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 3951",
-          "Dezena no oitavo prêmio!<br>com o palpite 3951",
-          "GALO 🐓 no oitavo prêmio!<br>com o palpite 3951"
+        "3957": [
+          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 3957"
         ],
-        "5951": [
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 5951",
-          "Dezena no oitavo prêmio!<br>com o palpite 5951",
-          "GALO 🐓 no oitavo prêmio!<br>com o palpite 5951"
+        "4957": [
+          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 4957"
+        ],
+        "5957": [
+          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 5957"
+        ],
+        "6957": [
+          "JACARÉ 🐊 no quinto prêmio!<br>com o palpite 6957"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 2,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🐓"
+          "🐊"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3951, 5951"
+      "resumo": "Palpites dados para esta extração: 3927, 3957, 4927, 4957, 5927, 5957, 6927, 6957"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -581,14 +617,46 @@
           "Bicho": "Carneiro"
         }
       ],
-      "frases": {},
+      "frases": {
+        "3927": [
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 3927"
+        ],
+        "3957": [
+          "Dezena no segundo prêmio!<br>com o palpite 3957",
+          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 3957"
+        ],
+        "4927": [
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 4927"
+        ],
+        "4957": [
+          "Dezena no segundo prêmio!<br>com o palpite 4957",
+          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 4957"
+        ],
+        "5927": [
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 5927"
+        ],
+        "5957": [
+          "Dezena no segundo prêmio!<br>com o palpite 5957",
+          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 5957"
+        ],
+        "6927": [
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 6927"
+        ],
+        "6957": [
+          "Dezena no segundo prêmio!<br>com o palpite 6957",
+          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 6957"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 4,
+        "Grupo": [
+          "🐊",
+          "🐑"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3951, 5951"
+      "resumo": "Palpites dados para esta extração: 3927, 3957, 4927, 4957, 5927, 5957, 6927, 6957"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
