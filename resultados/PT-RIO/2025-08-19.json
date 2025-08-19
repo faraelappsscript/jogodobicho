@@ -1,0 +1,264 @@
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7089",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9203",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8472",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2119",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4271",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "1154",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "240",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "4402": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 4402"
+        ],
+        "4437": [
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4437"
+        ],
+        "4602": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 4602"
+        ],
+        "4637": [
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 4637"
+        ],
+        "0402": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0402"
+        ],
+        "0602": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0602"
+        ],
+        "0437": [
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 0437"
+        ],
+        "0637": [
+          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 0637"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🪶",
+          "🐇"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0402, 0407, 0432, 0437, 0442, 0447, 0602, 0607, 0632, 0637, 0642, 0647, 4402, 4407, 4432, 4437, 4442, 4447, 4602, 4607, 4632, 4637, 4642, 4647"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7089",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9203",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8472",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2119",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4271",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7982",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "0241",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "8071",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "9329",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "6777",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        }
+      ],
+      "frases": {
+        "4402": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 4402"
+        ],
+        "4432": [
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 4432"
+        ],
+        "4442": [
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 4442"
+        ],
+        "4602": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 4602"
+        ],
+        "4632": [
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 4632"
+        ],
+        "4642": [
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 4642"
+        ],
+        "0402": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0402"
+        ],
+        "0602": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0602"
+        ],
+        "0442": [
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 0442"
+        ],
+        "0642": [
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 0642"
+        ],
+        "0432": [
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 0432"
+        ],
+        "0632": [
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 0632"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🪶",
+          "🐎",
+          "🐪"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0402, 0407, 0432, 0437, 0442, 0447, 0602, 0607, 0632, 0637, 0642, 0647, 4402, 4407, 4432, 4437, 4442, 4447, 4602, 4607, 4632, 4637, 4642, 4647"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
