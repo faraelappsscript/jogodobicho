@@ -415,6 +415,35 @@
             display: none;
         }
 
+        /* Estilos para o link integrado */
+        .integrated-link-display {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-md);
+            padding: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+            display: none;
+        }
+
+        .integrated-link-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+            display: block;
+        }
+
+        .integrated-link-value {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-primary);
+            font-size: 0.9rem;
+            word-break: break-all;
+            background: var(--bg-primary);
+            padding: var(--spacing-sm);
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border-color);
+        }
+
         /* Responsividade */
         @media (max-width: 767px) {
             .logo { 
@@ -592,9 +621,15 @@
                 <button class="promotor-close-btn" onclick="closePromotorModal()">&times;</button>
             </div>
             <div class="promotor-modal-body">
+                <!-- Exibição do link já integrado -->
+                <div id="integratedLinkDisplay" class="integrated-link-display">
+                    <label class="integrated-link-label">Link de promotor já integrado:</label>
+                    <div id="integratedLinkValue" class="integrated-link-value"></div>
+                </div>
+
                 <form id="promotorForm" onsubmit="integratePromotorLink(event)">
                     <div class="promotor-form-group">
-                        <label for="promotorLink" class="promotor-form-label">
+                        <label for="promotorLink" class="promotor-form-label" id="promotorLinkLabel">
                             Cole o seu link de promotor no campo abaixo:
                         </label>
                         <input 
@@ -607,7 +642,7 @@
                         <div id="errorMessage" class="error-message"></div>
                         <div id="successMessage" class="success-message"></div>
                     </div>
-                    <button type="submit" class="promotor-submit-btn">
+                    <button type="submit" class="promotor-submit-btn" id="promotorSubmitBtn">
                         Integrar
                     </button>
                 </form>
@@ -628,8 +663,40 @@
             }
         });
 
+        // Função para verificar se já existe um link integrado
+        function checkExistingLink() {
+            const existingCode = localStorage.getItem("productCode");
+            return existingCode ? `https://app.77xbrasil.com.br/pr/${existingCode}` : null;
+        }
+
+        // Função para atualizar a interface do modal baseado no estado
+        function updateModalInterface() {
+            const existingLink = checkExistingLink();
+            const integratedDisplay = document.getElementById('integratedLinkDisplay');
+            const integratedValue = document.getElementById('integratedLinkValue');
+            const linkLabel = document.getElementById('promotorLinkLabel');
+            const submitBtn = document.getElementById('promotorSubmitBtn');
+            const linkInput = document.getElementById('promotorLink');
+
+            if (existingLink) {
+                // Estado: Link já integrado
+                integratedDisplay.style.display = 'block';
+                integratedValue.textContent = existingLink;
+                linkLabel.textContent = 'Cole um novo link para substituir o atual:';
+                submitBtn.textContent = 'Substituir';
+                linkInput.placeholder = 'https://app.77xbrasil.com.br/pr/NOVO_CODIGO';
+            } else {
+                // Estado: Nenhum link integrado
+                integratedDisplay.style.display = 'none';
+                linkLabel.textContent = 'Cole o seu link de promotor no campo abaixo:';
+                submitBtn.textContent = 'Integrar';
+                linkInput.placeholder = 'https://app.77xbrasil.com.br/pr/SEU_CODIGO';
+            }
+        }
+
         // Função para abrir o modal
         function openPromotorModal() {
+            updateModalInterface(); // Atualizar interface baseado no estado atual
             document.getElementById('promotorModal').style.display = 'flex';
             document.body.classList.add('modal-open');
             // Limpar mensagens anteriores
@@ -659,6 +726,7 @@
             const errorDiv = document.getElementById('errorMessage');
             const successDiv = document.getElementById('successMessage');
             const submitBtn = document.querySelector('.promotor-submit-btn');
+            const existingLink = checkExistingLink();
             
             // Limpar mensagens anteriores
             errorDiv.style.display = 'none';
@@ -693,7 +761,8 @@
             
             // Desabilitar botão durante o processamento
             submitBtn.disabled = true;
-            submitBtn.textContent = 'Integrando...';
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = existingLink ? 'Substituindo...' : 'Integrando...';
             
             try {
                 // Armazenar o código usando a mesma chave que o script.js usa
@@ -701,12 +770,13 @@
                 
                 // Simular um pequeno delay para melhor UX
                 setTimeout(() => {
-                    successDiv.textContent = 'Link de promotor integrado com sucesso!';
+                    const actionText = existingLink ? 'substituído' : 'integrado';
+                    successDiv.textContent = `Link de promotor ${actionText} com sucesso!`;
                     successDiv.style.display = 'block';
                     
                     // Mostrar toast se a função existir
                     if (typeof showToast === 'function') {
-                        showToast('Link de promotor integrado com sucesso!');
+                        showToast(`Link de promotor ${actionText} com sucesso!`);
                     }
                     
                     // Fechar modal após 2 segundos
@@ -716,18 +786,19 @@
                     
                     // Reabilitar botão
                     submitBtn.disabled = false;
-                    submitBtn.textContent = 'Integrar';
+                    submitBtn.textContent = originalText;
                     
                     console.log('Código do promotor integrado:', promotorCode);
                 }, 500);
                 
             } catch (error) {
-                errorDiv.textContent = 'Erro ao integrar o link. Tente novamente.';
+                const actionText = existingLink ? 'substituir' : 'integrar';
+                errorDiv.textContent = `Erro ao ${actionText} o link. Tente novamente.`;
                 errorDiv.style.display = 'block';
                 
                 // Reabilitar botão
                 submitBtn.disabled = false;
-                submitBtn.textContent = 'Integrar';
+                submitBtn.textContent = originalText;
                 
                 console.error('Erro ao integrar link:', error);
             }
