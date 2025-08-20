@@ -1803,9 +1803,9 @@
             navigator.clipboard.writeText(texto).then(() => {
                 // Usar a função showToast() do script.js para exibir mensagem flutuante
                 if (typeof showToast === 'function') {
-                    showToast('Legenda copiada para a área de transferência!');
+                    showToast('✔️Legenda copiada para a área de transferência!');
                 } else {
-                    alert('Legenda copiada para a área de transferência!');
+                    alert('✔️Legenda copiada para a área de transferência!');
                 }
             }).catch(err => {
                 console.error('Erro ao copiar legenda: ', err);
