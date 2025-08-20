@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -926,70 +925,52 @@
             });
 
             // Event Listeners para os botões principais
-            document.getElementById('visualizar-btn').addEventListener('click', function() {
-                fillAllEmptyX();
-                sortearGrupos();
-                setTimeout(() => {
-                    visualizeImage(); // Apenas visualiza, abre o modal
-                }, 100);
+            document.getElementById('visualizar-btn').addEventListener('click', visualizeImage);
+            document.getElementById('baixar-btn').addEventListener('click', visualizeImageAndDownload);
+            document.getElementById('compartilhar-btn').addEventListener('click', visualizeImageAndShare);
+            document.getElementById('editar-btn').addEventListener('click', function() {
+                toggleEditMode(true);
             });
-
-            document.getElementById('baixar-btn').addEventListener('click', function() {
-                fillAllEmptyX();
-                sortearGrupos();
-                setTimeout(() => {
-                    visualizeImageAndDownload(); // Gera e baixa, sem abrir modal
-                }, 100);
-            });
-
-            document.getElementById('compartilhar-btn').addEventListener('click', function() {
-                fillAllEmptyX();
-                sortearGrupos();
-                setTimeout(() => {
-                    visualizeImageAndShare(); // Gera e compartilha, sem abrir modal
-                }, 100);
-            });
-
-            document.getElementById('editar-btn').addEventListener('click', enterEditMode);
+            document.getElementById('copiar-legenda-btn').addEventListener('click', copiarLegenda);
 
             // Event Listeners para os botões de edição
             document.getElementById('preencher-btn').addEventListener('click', fillAllEmptyX);
             document.getElementById('sortear-grupos-btn').addEventListener('click', sortearGrupos);
             document.getElementById('apagar-btn').addEventListener('click', clearAll);
             document.getElementById('visualizar-edicao-btn').addEventListener('click', visualizeImage);
-            document.getElementById('voltar-btn').addEventListener('click', exitEditMode);
+            document.getElementById('voltar-btn').addEventListener('click', function() {
+                toggleEditMode(false);
+            });
+            document.getElementById('copiar-legenda-edicao-btn').addEventListener('click', copiarLegenda);
 
-            // Event Listeners para os botões do modal de visualização
+            // Event Listeners para os botões do modal de imagem
             document.getElementById('downloadImageBtn').addEventListener('click', downloadGeneratedImage);
             document.getElementById('shareImageBtn').addEventListener('click', shareGeneratedImage);
-            document.getElementById('editImageFromModalBtn').addEventListener('click', () => {
+            document.getElementById('editImageFromModalBtn').addEventListener('click', function() {
                 closeModal('imagePreviewModal');
-                enterEditMode();
+                toggleEditMode(true);
             });
-
-            // Event Listeners para os botões de copiar legenda
-            document.getElementById('copiar-legenda-btn').addEventListener('click', copiarLegenda);
-            document.getElementById('copiar-legenda-edicao-btn').addEventListener('click', copiarLegenda);
-            document.getElementById('copiarLegendaModalBtn').addEventListener('click', copiarLegenda);
         });
 
-        // Função para entrar no modo de edição
-        function enterEditMode() {
-            isEditMode = true;
-            document.getElementById('main-action-buttons').style.display = 'none';
-            document.getElementById('palpites-rows').classList.remove('hidden');
-            document.getElementById('edit-action-buttons').style.display = 'flex';
+        // Função para alternar entre modo normal e modo de edição
+        function toggleEditMode(editMode) {
+            isEditMode = editMode;
+            const mainButtons = document.getElementById('main-action-buttons');
+            const editButtons = document.getElementById('edit-action-buttons');
+            const palpitesRows = document.getElementById('palpites-rows');
+
+            if (editMode) {
+                mainButtons.style.display = 'none';
+                editButtons.style.display = 'flex';
+                palpitesRows.classList.remove('hidden');
+            } else {
+                mainButtons.style.display = 'flex';
+                editButtons.style.display = 'none';
+                palpitesRows.classList.add('hidden');
+            }
         }
 
-        // Função para sair do modo de edição
-        function exitEditMode() {
-            isEditMode = false;
-            document.getElementById('main-action-buttons').style.display = 'flex';
-            document.getElementById('palpites-rows').classList.add('hidden');
-            document.getElementById('edit-action-buttons').style.display = 'none';
-        }
-
-        // Função para selecionar um grupo e preencher a linha
+        // Função para selecionar um grupo
         function selectGroup(numero, nome, dezenas) {
             if (currentSelectingRow) {
                 currentSelectingRow.dataset.grupoNumero = numero;
@@ -1493,7 +1474,6 @@
                 }
 
                 const imageDataUrl = canvas.toDataURL('image/png');
-                // Não abre o modal aqui, apenas baixa
                 const link = document.createElement('a');
                 link.href = imageDataUrl;
                 link.download = 'palpite_77xbrasil.png';
@@ -1784,7 +1764,16 @@
         function copiarLegenda() {
             const dominio = window.location.origin;
             const codigo = getStoredProductCode() || '';
-            const texto = `Na 77x Brasil, faça a sua FÉZINHA com as melhores cotações, com direito à bônus exclusivos e sem taxa de saques.\nClique no link abaixo e saiba mais!\n${dominio}/pr/${codigo}\n\n#jogodobichoonline\n#jogodobichofederal\n#jogodobicho\n#palpites\n#palpitesdodia`;
+            
+            // Montar URL dinamicamente baseado na existência do código
+            let url;
+            if (codigo) {
+                url = `${dominio}?pr=${codigo}`;
+            } else {
+                url = dominio;
+            }
+            
+            const texto = `Na 77x Brasil, faça a sua FÉZINHA com as melhores cotações, com direito à bônus exclusivos e sem taxa de saques.\nClique no link abaixo e saiba mais!\n${url}\n\n#jogodobichoonline\n#jogodobichofederal\n#jogodobicho\n#palpites\n#palpitesdodia`;
 
             navigator.clipboard.writeText(texto).then(() => {
                 alert('Legenda copiada para a área de transferência!');
@@ -1805,5 +1794,4 @@
     </footer>
 </body>
 </html>
-
 
