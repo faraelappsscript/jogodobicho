@@ -201,7 +201,8 @@
             border-color: var(--border-accent);
         }
 
-        .action-buttons {
+        /* Novos estilos para os botões principais */
+        .main-action-buttons {
             display: flex;
             justify-content: center;
             gap: var(--spacing-md);
@@ -209,7 +210,7 @@
             flex-wrap: wrap;
         }
 
-        .action-buttons .btn {
+        .main-action-buttons .btn {
             padding: var(--spacing-md) var(--spacing-xl);
             border-radius: var(--radius-md);
             background: var(--gradient-primary);
@@ -231,15 +232,62 @@
             justify-content: center;
         }
 
-        .action-buttons .btn.secondary {
+        .main-action-buttons .btn.secondary {
             background: var(--bg-card);
             border: 1px solid var(--border-color);
             color: var(--text-primary);
         }
 
-        .action-buttons .btn:hover {
+        .main-action-buttons .btn:hover {
             transform: translateY(-2px);
             box-shadow: var(--shadow-xl), var(--shadow-glow);
+        }
+
+        /* Estilos para os botões de edição (ocultos por padrão) */
+        .edit-action-buttons {
+            display: none;
+            justify-content: center;
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-xl);
+            flex-wrap: wrap;
+        }
+
+        .edit-action-buttons .btn {
+            padding: var(--spacing-md) var(--spacing-xl);
+            border-radius: var(--radius-md);
+            background: var(--gradient-primary);
+            color: white;
+            border: none;
+            box-shadow: var(--shadow-lg);
+            transition: all var(--transition-normal);
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .edit-action-buttons .btn.secondary {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+        }
+
+        .edit-action-buttons .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-xl), var(--shadow-glow);
+        }
+
+        /* Estilos para ocultar/mostrar as linhas de palpite */
+        .palpites-rows.hidden {
+            display: none;
         }
 
         /* Modal de seleção de grupo */
@@ -497,13 +545,15 @@
                 font-weight: 700;
             }
 
-            .action-buttons {
+            .main-action-buttons,
+            .edit-action-buttons {
                 flex-direction: column;
                 gap: var(--spacing-md);
                 margin-top: var(--spacing-lg);
             }
 
-            .action-buttons .btn {
+            .main-action-buttons .btn,
+            .edit-action-buttons .btn {
                 width: 100%;
                 padding: var(--spacing-lg);
                 font-size: 1rem;
@@ -621,11 +671,13 @@
                 font-size: 0.9rem;
             }
 
-            .action-buttons {
+            .main-action-buttons,
+            .edit-action-buttons {
                 gap: var(--spacing-sm);
             }
 
-            .action-buttons .btn {
+            .main-action-buttons .btn,
+            .edit-action-buttons .btn {
                 padding: var(--spacing-md);
                 font-size: 0.9rem;
             }
@@ -670,7 +722,8 @@
                 padding: var(--spacing-xs) var(--spacing-sm);
             }
 
-            .action-buttons .btn {
+            .main-action-buttons .btn,
+            .edit-action-buttons .btn {
                 font-size: 0.85rem;
                 padding: var(--spacing-sm) var(--spacing-md);
             }
@@ -693,15 +746,25 @@
         <div class="palpites-card">
             <h2 class="card-subtitle">PALPITES DO DIA</h2>
 
-            <div id="palpites-rows">
+            <!-- Botões principais (visíveis por padrão) -->
+            <div class="main-action-buttons" id="main-action-buttons">
+                <button class="btn" id="visualizar-btn">Visualizar</button>
+                <button class="btn secondary" id="baixar-btn">Baixar</button>
+                <button class="btn secondary" id="compartilhar-btn">Compartilhar</button>
+                <button class="btn secondary" id="editar-btn">Editar</button>
+            </div>
+
+            <!-- Linhas de palpite (ocultas por padrão) -->
+            <div id="palpites-rows" class="palpites-rows hidden">
                 <!-- As linhas de palpite serão geradas dinamicamente pelo JavaScript -->
             </div>
 
-            <div class="action-buttons">
+            <!-- Botões de edição (ocultos por padrão) -->
+            <div class="edit-action-buttons" id="edit-action-buttons">
                 <button class="btn" id="preencher-btn">Preencher</button>
                 <button class="btn secondary" id="sortear-grupos-btn">Sortear Grupos</button>
                 <button class="btn secondary" id="apagar-btn">Apagar</button>
-                <button class="btn" id="visualizar-btn">Visualizar</button>
+                <button class="btn secondary" id="voltar-btn">Voltar</button>
             </div>
         </div>
     </div>
@@ -774,6 +837,7 @@
         ];
 
         let currentSelectingRow = null; // Armazena a linha que acionou o modal
+        let isEditMode = false; // Controla se está no modo de edição
 
         document.addEventListener('DOMContentLoaded', function() {
             // Função do script.js para capturar parâmetros
@@ -872,11 +936,43 @@
                 }
             });
 
-            // Event Listeners para os botões de ação globais
+            // Event Listeners para os botões principais
+            document.getElementById('visualizar-btn').addEventListener('click', function() {
+                // Preencher automaticamente e visualizar
+                fillAllEmptyX();
+                sortearGrupos();
+                setTimeout(() => {
+                    visualizeImage();
+                }, 100);
+            });
+
+            document.getElementById('baixar-btn').addEventListener('click', function() {
+                // Preencher automaticamente, gerar e baixar
+                fillAllEmptyX();
+                sortearGrupos();
+                setTimeout(() => {
+                    visualizeImageAndDownload();
+                }, 100);
+            });
+
+            document.getElementById('compartilhar-btn').addEventListener('click', function() {
+                // Preencher automaticamente, gerar e compartilhar
+                fillAllEmptyX();
+                sortearGrupos();
+                setTimeout(() => {
+                    visualizeImageAndShare();
+                }, 100);
+            });
+
+            document.getElementById('editar-btn').addEventListener('click', function() {
+                enterEditMode();
+            });
+
+            // Event Listeners para os botões de edição
             document.getElementById('preencher-btn').addEventListener('click', fillAllEmptyX);
             document.getElementById('sortear-grupos-btn').addEventListener('click', sortearGrupos);
             document.getElementById('apagar-btn').addEventListener('click', clearAll);
-            document.getElementById('visualizar-btn').addEventListener('click', visualizeImage);
+            document.getElementById('voltar-btn').addEventListener('click', exitEditMode);
             document.getElementById('downloadImageBtn').addEventListener('click', downloadGeneratedImage);
             document.getElementById('shareImageBtn').addEventListener('click', shareGeneratedImage);
 
@@ -893,6 +989,22 @@
             }
         });
 
+        // Função para entrar no modo de edição
+        function enterEditMode() {
+            isEditMode = true;
+            document.getElementById('main-action-buttons').style.display = 'none';
+            document.getElementById('palpites-rows').classList.remove('hidden');
+            document.getElementById('edit-action-buttons').style.display = 'flex';
+        }
+
+        // Função para sair do modo de edição
+        function exitEditMode() {
+            isEditMode = false;
+            document.getElementById('main-action-buttons').style.display = 'flex';
+            document.getElementById('palpites-rows').classList.add('hidden');
+            document.getElementById('edit-action-buttons').style.display = 'none';
+        }
+
         // Função para selecionar um grupo e preencher a linha
         function selectGroup(numero, nome, dezenas) {
             if (currentSelectingRow) {
@@ -906,102 +1018,109 @@
                     }
                 });
                 closeModal('groupSelectionModal');
+                currentSelectingRow = null;
             }
         }
 
-        // Função para limpar uma linha
-        function clearRow(rowElement) {
-            rowElement.dataset.grupoNumero = '';
-            rowElement.dataset.grupoNome = '';
-            rowElement.querySelector('.group-info').textContent = '';
-            rowElement.querySelectorAll('.input-x').forEach(input => input.value = '');
-            rowElement.querySelectorAll('.input-y').forEach(span => span.textContent = '');
+        // Função para limpar uma linha específica
+        function clearRow(row) {
+            row.removeAttribute('data-grupo-numero');
+            row.removeAttribute('data-grupo-nome');
+            row.querySelector('.group-info').textContent = '';
+            const inputXs = row.querySelectorAll('.input-x');
+            const inputYs = row.querySelectorAll('.input-y');
+            inputXs.forEach(input => input.value = '');
+            inputYs.forEach(span => span.textContent = '');
         }
 
-        // Função para limpar todas as linhas (botão 'Apagar' global)
+        // Função para limpar todas as linhas
         function clearAll() {
-            document.querySelectorAll('.palpite-row').forEach(row => {
-                clearRow(row);
-            });
+            const rows = document.querySelectorAll('.palpite-row');
+            rows.forEach(row => clearRow(row));
         }
 
-        // Função para preencher todos os campos 'x' vazios aleatoriamente
+        // Função para preencher automaticamente os campos X vazios
         function fillAllEmptyX() {
-            document.querySelectorAll('.palpite-row').forEach(row => {
-                row.querySelectorAll('.input-x').forEach(inputX => {
-                    if (inputX.value === '') {
-                        inputX.value = Math.floor(Math.random() * 100).toString().padStart(2, '0');
+            const rows = document.querySelectorAll('.palpite-row');
+            rows.forEach(row => {
+                const inputXs = row.querySelectorAll('.input-x');
+                inputXs.forEach(input => {
+                    if (!input.value.trim()) {
+                        // Gerar número aleatório de 00 a 99
+                        const randomNum = Math.floor(Math.random() * 100);
+                        input.value = randomNum.toString().padStart(2, '0');
                     }
                 });
             });
         }
 
-        // Função para sortear grupos aleatoriamente para todas as linhas
+        // Função para sortear grupos aleatórios
         function sortearGrupos() {
-            const availableGroups = [...grupos]; // Copia para não modificar o original
-            const palpiteRows = document.querySelectorAll('.palpite-row');
+            const rows = document.querySelectorAll('.palpite-row');
+            const gruposUsados = new Set();
             
-            // Sortear grupos para todas as 4 linhas (SEM limpar os campos de entrada)
-            palpiteRows.forEach((row, index) => {
-                if (availableGroups.length > 0) {
-                    const randomIndex = Math.floor(Math.random() * availableGroups.length);
-                    const selectedGroup = availableGroups.splice(randomIndex, 1)[0];
+            rows.forEach(row => {
+                // Só sortear se a linha não tem grupo definido
+                if (!row.dataset.grupoNumero) {
+                    let grupoSorteado;
+                    do {
+                        grupoSorteado = grupos[Math.floor(Math.random() * grupos.length)];
+                    } while (gruposUsados.has(grupoSorteado.numero) && gruposUsados.size < grupos.length);
                     
-                    // Definir a linha atual como a que está sendo processada
-                    currentSelectingRow = row;
-                    
-                    // Apenas definir o grupo, mantendo os valores dos campos input-x
-                    row.dataset.grupoNumero = selectedGroup.numero;
-                    row.dataset.grupoNome = selectedGroup.nome;
-                    row.querySelector('.group-info').textContent = `Grupo ${selectedGroup.numero} ${selectedGroup.nome}:`;
-                    const inputYs = row.querySelectorAll('.input-y');
-                    selectedGroup.dezenas.forEach((dezena, index) => {
-                        if (inputYs[index]) {
-                            inputYs[index].textContent = dezena;
-                        }
-                    });
+                    gruposUsados.add(grupoSorteado.numero);
+                    selectGroupForRow(row, grupoSorteado.numero, grupoSorteado.nome, grupoSorteado.dezenas);
                 }
             });
         }
 
-         // Função para gerar a imagem
-        async function visualizeImage() {
-            // Verificar se todas as linhas estão preenchidas
-            const palpitesRows = document.querySelectorAll('.palpite-row');
-            let allRowsValid = true;
-            let validRows = [];
+        // Função auxiliar para selecionar grupo para uma linha específica
+        function selectGroupForRow(row, numero, nome, dezenas) {
+            row.dataset.grupoNumero = numero;
+            row.dataset.grupoNome = nome;
+            row.querySelector('.group-info').textContent = `Grupo ${numero} ${nome}:`;
+            const inputYs = row.querySelectorAll('.input-y');
+            dezenas.forEach((dezena, index) => {
+                if (inputYs[index]) {
+                    inputYs[index].textContent = dezena;
+                }
+            });
+        }
 
-            for (let i = 0; i < palpitesRows.length; i++) {
-                const row = palpitesRows[i];
+        // Função para visualizar a imagem
+        async function visualizeImage() {
+            const rows = document.querySelectorAll('.palpite-row');
+            const validRows = [];
+
+            // Validar e coletar dados das linhas preenchidas
+            for (let row of rows) {
                 const grupoNumero = row.dataset.grupoNumero;
                 const grupoNome = row.dataset.grupoNome;
                 const inputXs = row.querySelectorAll('.input-x');
                 const inputYs = row.querySelectorAll('.input-y');
 
-                if (!grupoNumero || !grupoNome) {
-                    continue; // Pular linhas sem grupo selecionado
-                }
+                if (grupoNumero && grupoNome) {
+                    const fullNumbers = [];
+                    let allFilled = true;
 
-                let rowValid = true;
-                let fullNumbers = [];
-                for (let j = 0; j < 4; j++) {
-                    const xVal = inputXs[j].value.trim();
-                    const yVal = inputYs[j].textContent.trim();
-                    if (!xVal || !yVal) {
-                        rowValid = false;
-                        break;
+                    for (let i = 0; i < inputXs.length; i++) {
+                        const xValue = inputXs[i].value.trim();
+                        const yValue = inputYs[i].textContent.trim();
+
+                        if (xValue && yValue) {
+                            fullNumbers.push(xValue + yValue);
+                        } else {
+                            allFilled = false;
+                            break;
+                        }
                     }
-                    // Garantir que o valor X tenha 2 dígitos para a concatenação
-                    const paddedXVal = xVal.padStart(2, '0');
-                    fullNumbers.push(`${paddedXVal}${yVal}`);
-                }
 
-                if (rowValid) {
-                    validRows.push({
-                        grupoNumero,
-                        grupoNome,
-                        fullNumbers
-                    });
+                    if (allFilled && fullNumbers.length === 4) {
+                        validRows.push({
+                            grupoNumero,
+                            grupoNome,
+                            fullNumbers
+                        });
+                    }
                 }
             }
 
@@ -1181,6 +1300,22 @@
                 console.error('Erro ao gerar imagem:', error);
                 alert('Erro ao gerar a imagem. Por favor, tente novamente.');
             }
+        }
+
+        // Função para visualizar e baixar automaticamente
+        async function visualizeImageAndDownload() {
+            await visualizeImage();
+            setTimeout(() => {
+                downloadGeneratedImage();
+            }, 500);
+        }
+
+        // Função para visualizar e compartilhar automaticamente
+        async function visualizeImageAndShare() {
+            await visualizeImage();
+            setTimeout(() => {
+                shareGeneratedImage();
+            }, 500);
         }
 
         // Função para download da imagem gerada
