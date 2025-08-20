@@ -291,84 +291,6 @@
         }
 
         /* Modal de seleção de grupo */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            backdrop-filter: blur(5px);
-        }
-
-        .modal-content {
-            position: relative;
-            background-color: var(--bg-secondary);
-            margin: 5vh auto;
-            padding: 0;
-            border-radius: var(--radius-lg);
-            width: 90%;
-            max-width: 600px;
-            height: auto;
-            max-height: 90vh;
-            box-shadow: var(--shadow-2xl);
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            border: 1px solid var(--border-color);
-        }
-
-        .modal-header {
-            padding: var(--spacing-lg);
-            border-bottom: 1px solid var(--border-color);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: var(--bg-secondary);
-        }
-
-        .modal-title {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin: 0;
-            font-family: 'Inter', sans-serif;
-        }
-
-        .close-btn {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            font-size: 1.5rem;
-            cursor: pointer;
-            color: var(--text-secondary);
-            padding: var(--spacing-sm);
-            border-radius: var(--radius-md);
-            transition: all var(--transition-normal);
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .close-btn:hover {
-            background-color: var(--bg-card-hover);
-            color: var(--text-primary);
-            border-color: var(--border-accent);
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-md);
-        }
-
-        .modal-body {
-            padding: var(--spacing-lg);
-            flex: 1;
-            overflow: auto;
-            min-height: 0;
-            background: var(--bg-card);
-        }
-
         .modal-group-list {
             list-style: none;
             padding: 0;
@@ -759,6 +681,16 @@
                 font-size: 0.9rem;
             }
 
+            /* Breadcrumb responsivo */
+            .breadcrumb {
+                font-size: 0.8rem;
+                gap: var(--spacing-xs);
+            }
+
+            .breadcrumb-item {
+                gap: var(--spacing-xs);
+            }
+
             /* Footer responsivo */
             .footer-logo {
                 max-width: 80px;
@@ -872,40 +804,11 @@
 
     <!-- Script do site -->
     <script defer src="/assets/js/breadcrumb.js"></script>
+    <script defer src="/resultados/script.js"></script>
     
     <!-- Script personalizado para esta página -->
     <script>
-        // === FUNCIONALIDADES INLINE DO SCRIPT.JS ===
-        
-        // Função para capturar parâmetro de URL e armazenar no navegador
-        function captureAndStoreUrlParameter() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const codeParam = urlParams.get('pr');
-            
-            if (codeParam) {
-                localStorage.setItem("productCode", codeParam);
-                console.log("Código do produto armazenado:", codeParam);
-            }
-        }
-
-        // Função para recuperar o código armazenado
-        function getStoredProductCode() {
-            return localStorage.getItem("productCode") || "PACruTth";
-        }
-
-        // Funções de Modal com controle de rolagem do body
-        function openModal(modalId) {
-            document.getElementById(modalId).style.display = 'flex';
-            document.body.classList.add('modal-open');
-        }
-
-        function closeModal(modalId) {
-            document.getElementById(modalId).style.display = 'none';
-            document.body.classList.remove('modal-open');
-        }
-
-        // === VARIÁVEIS GLOBAIS E DADOS DOS GRUPOS ===
-        
+        // Variáveis globais e dados dos grupos do jogo do bicho
         const grupos = [
             { numero: '01', nome: 'Avestruz', dezenas: ['01', '02', '03', '04'] },
             { numero: '02', nome: 'Águia', dezenas: ['05', '06', '07', '08'] },
@@ -937,11 +840,11 @@
         let currentSelectingRow = null; // Armazena a linha que acionou o modal
         let isEditMode = false; // Controla se está no modo de edição
 
-        // === FUNÇÕES PRINCIPAIS ===
-
         document.addEventListener('DOMContentLoaded', function() {
             // Função do script.js para capturar parâmetros
-            captureAndStoreUrlParameter();
+            if (typeof captureAndStoreUrlParameter === 'function') {
+                captureAndStoreUrlParameter();
+            }
 
             // Gerar breadcrumb dinamicamente
             const breadcrumbNav = document.getElementById('breadcrumbNav');
@@ -1020,37 +923,78 @@
                 });
             });
 
-            // Adicionar validação aos inputs de número
-            document.addEventListener('input', function(event) {
-                if (event.target.classList.contains('input-x')) {
-                    let value = event.target.value.replace(/\D/g, ''); // Remove caracteres não numéricos
-                    if (value.length > 2) {
-                        value = value.slice(0, 2); // Limita a 2 dígitos
+            // Adicionar validação aos inputs de número - CORRIGIDO
+            document.addEventListener('input', function(e) {
+                if (e.target.classList.contains('input-x')) {
+                    // Permitir apenas números
+                    e.target.value = e.target.value.replace(/[^0-9]/g, '');
+                    // Garantir que tenha no máximo 2 dígitos
+                    if (e.target.value.length > 2) {
+                        e.target.value = e.target.value.slice(0, 2);
                     }
-                    event.target.value = value;
+                    // REMOVIDO: Não preencher automaticamente com zero à esquerda
+                    // Isso permite que o usuário digite números de 2 dígitos normalmente
                 }
             });
 
             // Event Listeners para os botões principais
-            document.getElementById('visualizar-btn').addEventListener('click', visualizeImage);
-            document.getElementById('baixar-btn').addEventListener('click', visualizeImageAndDownload);
-            document.getElementById('compartilhar-btn').addEventListener('click', visualizeImageAndShare);
-            document.getElementById('editar-btn').addEventListener('click', enterEditMode);
+            document.getElementById('visualizar-btn').addEventListener('click', function() {
+                fillAllEmptyX();
+                sortearGrupos();
+                setTimeout(() => {
+                    visualizeImage(); // Apenas visualiza, abre o modal
+                }, 100);
+            });
+
+            document.getElementById('baixar-btn').addEventListener('click', function() {
+                fillAllEmptyX();
+                sortearGrupos();
+                setTimeout(() => {
+                    visualizeImageAndDownload(); // Gera e baixa, sem abrir modal
+                }, 100);
+            });
+
+            document.getElementById('compartilhar-btn').addEventListener('click', function() {
+                fillAllEmptyX();
+                sortearGrupos();
+                setTimeout(() => {
+                    visualizeImageAndShare(); // Gera e compartilha, sem abrir modal
+                }, 100);
+            });
+
+            document.getElementById('editar-btn').addEventListener('click', function() {
+                enterEditMode();
+            });
 
             // Event Listeners para os botões de edição
             document.getElementById('preencher-btn').addEventListener('click', fillAllEmptyX);
             document.getElementById('sortear-grupos-btn').addEventListener('click', sortearGrupos);
             document.getElementById('apagar-btn').addEventListener('click', clearAll);
-            document.getElementById('visualizar-edicao-btn').addEventListener('click', visualizeImage);
+            document.getElementById('visualizar-edicao-btn').addEventListener('click', function() {
+                visualizeImage(); // Visualiza a imagem a partir do modo de edição
+            });
             document.getElementById('voltar-btn').addEventListener('click', exitEditMode);
 
-            // Event Listeners para os botões do modal de imagem
-            document.getElementById('downloadImageBtn').addEventListener('click', downloadGeneratedImage);
-            document.getElementById('shareImageBtn').addEventListener('click', shareGeneratedImageWithCaption);
+            // Event Listener para o botão 'Editar' dentro do modal de visualização
             document.getElementById('editImageFromModalBtn').addEventListener('click', function() {
                 closeModal('imagePreviewModal');
                 enterEditMode();
             });
+
+            document.getElementById('downloadImageBtn').addEventListener('click', downloadGeneratedImage);
+            document.getElementById('shareImageBtn').addEventListener('click', shareGeneratedImage);
+
+            // Adicionar efeitos de hover suaves nos cards (se aplicável)
+            const palpitesCard = document.querySelector('.palpites-card');
+            if (palpitesCard) {
+                palpitesCard.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-4px)';
+                });
+                
+                palpitesCard.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            }
         });
 
         // Função para entrar no modo de edição
@@ -1587,7 +1531,7 @@
             }
         }
 
-        // Função para visualizar e compartilhar automaticamente COM LEGENDA PERSONALIZADA
+        // Função para visualizar e compartilhar automaticamente
         async function visualizeImageAndShare() {
             const rows = document.querySelectorAll('.palpite-row');
             const validRows = [];
@@ -1794,37 +1738,18 @@
                 }
 
                 const imageDataUrl = canvas.toDataURL('image/png');
+                // Não abre o modal aqui, apenas compartilha
                 const imageBlob = await (await fetch(imageDataUrl)).blob();
-                
-                // LEGENDA PERSONALIZADA CONFORME SOLICITADO
-                const productCode = getStoredProductCode();
-                const siteDomain = window.location.hostname;
-                const customCaption = `Na 77x Brasil, faça a sua FÉZINHA com as melhores cotações, com direito à bônus exclusivos e sem taxa de saques.
-Clique no link abaixo e saiba mais! 
-${siteDomain}/pr/${productCode}
-
-#jogodobichoonline
-#jogodobichofederal
-#jogodobicho
-#palpites
-#palpitesdodia`;
-
                 if (navigator.share && navigator.canShare({
                         files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })]
                     })) {
                     await navigator.share({
                         files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })],
                         title: 'Meu Palpite 77x Brasil',
-                        text: customCaption
+                        text: 'Confira meu palpite para o jogo do bicho!'
                     });
                 } else {
-                    // Fallback: copiar legenda para clipboard
-                    try {
-                        await navigator.clipboard.writeText(customCaption);
-                        alert('Compartilhamento não suportado neste navegador. A legenda foi copiada para a área de transferência. Por favor, baixe a imagem e compartilhe manualmente.');
-                    } catch (err) {
-                        alert('Compartilhamento não suportado neste navegador. Por favor, baixe a imagem e compartilhe manualmente com a seguinte legenda:\n\n' + customCaption);
-                    }
+                    alert('Compartilhamento não suportado neste navegador. Por favor, baixe a imagem e compartilhe manualmente.');
                 }
 
             } catch (error) {
@@ -1844,44 +1769,36 @@ ${siteDomain}/pr/${productCode}
             document.body.removeChild(link);
         }
 
-        // Função para compartilhar a imagem gerada COM LEGENDA PERSONALIZADA
-        async function shareGeneratedImageWithCaption() {
-            try {
-                const imageBlob = await (await fetch(document.getElementById('generatedImage').src)).blob();
-                
-                // LEGENDA PERSONALIZADA CONFORME SOLICITADO
-                const productCode = getStoredProductCode();
-                const siteDomain = window.location.hostname;
-                const customCaption = `Na 77x Brasil, faça a sua FÉZINHA com as melhores cotações, com direito à bônus exclusivos e sem taxa de saques.
-Clique no link abaixo e saiba mais! 
-${siteDomain}/pr/${productCode}
+        // Função para compartilhar a imagem gerada (usando a função existente do script.js)
+        async function shareGeneratedImage() {
+            const imageBlob = await (await fetch(document.getElementById('generatedImage').src)).blob();
+            if (navigator.share && navigator.canShare({
+                    files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })]
+                })) {
+                await navigator.share({
+                    files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })],
+                    title: 'Meu Palpite 77x Brasil',
+                    text: 'Confira meu palpite para o jogo do bicho!'
+                });
+            } else {
+                alert('Compartilhamento não suportado neste navegador. Por favor, baixe a imagem e compartilhe manualmente.');
+            }
+        }
 
-#jogodobichoonline
-#jogodobichofederal
-#jogodobicho
-#palpites
-#palpitesdodia`;
+        // Funções de Modal (reutilizadas do script.js, se existirem, ou definidas aqui)
+        function openModal(modalId) {
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.style.display = 'flex';
+                document.body.classList.add('modal-open');
+            }
+        }
 
-                if (navigator.share && navigator.canShare({
-                        files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })]
-                    })) {
-                    await navigator.share({
-                        files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })],
-                        title: 'Meu Palpite 77x Brasil',
-                        text: customCaption
-                    });
-                } else {
-                    // Fallback: copiar legenda para clipboard
-                    try {
-                        await navigator.clipboard.writeText(customCaption);
-                        alert('Compartilhamento não suportado neste navegador. A legenda foi copiada para a área de transferência. Por favor, baixe a imagem e compartilhe manualmente.');
-                    } catch (err) {
-                        alert('Compartilhamento não suportado neste navegador. Por favor, baixe a imagem e compartilhe manualmente com a seguinte legenda:\n\n' + customCaption);
-                    }
-                }
-            } catch (error) {
-                console.error('Erro ao compartilhar imagem:', error);
-                alert('Erro ao compartilhar a imagem. Por favor, tente novamente.');
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.style.display = 'none';
+                document.body.classList.remove('modal-open');
             }
         }
 
@@ -1889,7 +1806,6 @@ ${siteDomain}/pr/${productCode}
         window.addEventListener('click', function(event) {
             if (event.target.classList.contains('modal') || event.target.classList.contains('image-modal')) {
                 event.target.style.display = 'none';
-                document.body.classList.remove('modal-open');
             }
         });
     </script>
