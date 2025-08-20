@@ -930,9 +930,29 @@
             });
 
             // Event Listeners para os botões principais
-            document.getElementById('visualizar-btn').addEventListener('click', visualizeImage);
-            document.getElementById('baixar-btn').addEventListener('click', visualizeImageAndDownload);
-            document.getElementById('compartilhar-btn').addEventListener('click', visualizeImageAndShare);
+            document.getElementById('visualizar-btn').addEventListener('click', function() {
+                fillAllEmptyX();
+                sortearGrupos();
+                setTimeout(() => {
+                    visualizeImage(); // Apenas visualiza, abre o modal
+                }, 100);
+            });
+
+            document.getElementById('baixar-btn').addEventListener('click', function() {
+                fillAllEmptyX();
+                sortearGrupos();
+                setTimeout(() => {
+                    visualizeImageAndDownload(); // Gera e baixa, sem abrir modal
+                }, 100);
+            });
+
+            document.getElementById('compartilhar-btn').addEventListener('click', function() {
+                fillAllEmptyX();
+                sortearGrupos();
+                setTimeout(() => {
+                    visualizeImageAndShare(); // Gera e compartilha, sem abrir modal
+                }, 100);
+            });
             document.getElementById('editar-btn').addEventListener('click', function() {
                 toggleEditMode(true);
             });
