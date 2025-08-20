@@ -678,6 +678,7 @@
 
             .main-action-buttons .btn,
             .edit-action-buttons .btn {
+                padding: var(--spacing-md);
                 font-size: 0.9rem;
             }
 
@@ -763,7 +764,6 @@
                 <button class="btn" id="preencher-btn">Preencher</button>
                 <button class="btn secondary" id="sortear-grupos-btn">Sortear Grupos</button>
                 <button class="btn secondary" id="apagar-btn">Apagar</button>
-                <button class="btn secondary" id="visualizar-edicao-btn">Visualizar Imagem</button>
                 <button class="btn secondary" id="voltar-btn">Voltar</button>
             </div>
         </div>
@@ -797,7 +797,6 @@
             <div class="image-modal-footer">
                 <button class="btn" id="downloadImageBtn">Baixar Imagem</button>
                 <button class="btn" id="shareImageBtn">Compartilhar</button>
-                <button class="btn secondary" id="editImageFromModalBtn">Editar</button>
             </div>
         </div>
     </div>
@@ -939,26 +938,29 @@
 
             // Event Listeners para os botões principais
             document.getElementById('visualizar-btn').addEventListener('click', function() {
+                // Preencher automaticamente e visualizar
                 fillAllEmptyX();
                 sortearGrupos();
                 setTimeout(() => {
-                    visualizeImage(); // Apenas visualiza, abre o modal
+                    visualizeImage();
                 }, 100);
             });
 
             document.getElementById('baixar-btn').addEventListener('click', function() {
+                // Preencher automaticamente, gerar e baixar
                 fillAllEmptyX();
                 sortearGrupos();
                 setTimeout(() => {
-                    visualizeImageAndDownload(); // Gera e baixa, sem abrir modal
+                    visualizeImageAndDownload();
                 }, 100);
             });
 
             document.getElementById('compartilhar-btn').addEventListener('click', function() {
+                // Preencher automaticamente, gerar e compartilhar
                 fillAllEmptyX();
                 sortearGrupos();
                 setTimeout(() => {
-                    visualizeImageAndShare(); // Gera e compartilha, sem abrir modal
+                    visualizeImageAndShare();
                 }, 100);
             });
 
@@ -970,17 +972,7 @@
             document.getElementById('preencher-btn').addEventListener('click', fillAllEmptyX);
             document.getElementById('sortear-grupos-btn').addEventListener('click', sortearGrupos);
             document.getElementById('apagar-btn').addEventListener('click', clearAll);
-            document.getElementById('visualizar-edicao-btn').addEventListener('click', function() {
-                visualizeImage(); // Visualiza a imagem a partir do modo de edição
-            });
             document.getElementById('voltar-btn').addEventListener('click', exitEditMode);
-
-            // Event Listener para o botão 'Editar' dentro do modal de visualização
-            document.getElementById('editImageFromModalBtn').addEventListener('click', function() {
-                closeModal('imagePreviewModal');
-                enterEditMode();
-            });
-
             document.getElementById('downloadImageBtn').addEventListener('click', downloadGeneratedImage);
             document.getElementById('shareImageBtn').addEventListener('click', shareGeneratedImage);
 
@@ -1312,464 +1304,18 @@
 
         // Função para visualizar e baixar automaticamente
         async function visualizeImageAndDownload() {
-            const rows = document.querySelectorAll('.palpite-row');
-            const validRows = [];
-
-            // Validar e coletar dados das linhas preenchidas
-            for (let row of rows) {
-                const grupoNumero = row.dataset.grupoNumero;
-                const grupoNome = row.dataset.grupoNome;
-                const inputXs = row.querySelectorAll('.input-x');
-                const inputYs = row.querySelectorAll('.input-y');
-
-                if (grupoNumero && grupoNome) {
-                    const fullNumbers = [];
-                    let allFilled = true;
-
-                    for (let i = 0; i < inputXs.length; i++) {
-                        const xValue = inputXs[i].value.trim();
-                        const yValue = inputYs[i].textContent.trim();
-
-                        if (xValue && yValue) {
-                            fullNumbers.push(xValue + yValue);
-                        } else {
-                            allFilled = false;
-                            break;
-                        }
-                    }
-
-                    if (allFilled && fullNumbers.length === 4) {
-                        validRows.push({
-                            grupoNumero,
-                            grupoNome,
-                            fullNumbers
-                        });
-                    }
-                }
-            }
-
-            if (validRows.length === 0) {
-                alert('Por favor, selecione pelo menos um grupo e preencha todos os campos de palpite antes de baixar.');
-                return;
-            }
-
-            const canvas = document.createElement('canvas');
-            const ctx = canvas.getContext('2d');
-
-            // Dimensões da imagem (ajustar conforme necessário)
-            canvas.width = 600; 
-            canvas.height = 180 + (validRows.length * 130) + 120; // Altura dinâmica baseada no número de linhas
-
-            try {
-                // Carregar imagem de fundo
-                const backgroundImage = new Image();
-                backgroundImage.crossOrigin = 'anonymous';
-                backgroundImage.src = '/assets/img/palpites/backg1.webp';
-                await new Promise((resolve, reject) => {
-                    backgroundImage.onload = resolve;
-                    backgroundImage.onerror = () => {
-                        // Se não conseguir carregar a imagem de fundo, usar cor sólida
-                        ctx.fillStyle = '#041228';
-                        ctx.fillRect(0, 0, canvas.width, canvas.height);
-                        resolve();
-                    };
-                });
-                
-                if (backgroundImage.complete && backgroundImage.naturalWidth > 0) {
-                    ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
-                } else {
-                    // Fallback para cor sólida
-                    ctx.fillStyle = '#041228';
-                    ctx.fillRect(0, 0, canvas.width, canvas.height);
-                }
-
-                // Data e Dia da Semana
-                const today = new Date();
-                const dateStr = today.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: '2-digit' });
-                const dayOfWeekStr = today.toLocaleDateString('pt-BR', { weekday: 'long' });
-
-                ctx.font = 'bold 24px Inter, sans-serif';
-                ctx.fillStyle = 'white';
-                ctx.textAlign = 'center';
-                ctx.fillText(dateStr, canvas.width / 2, 40);
-
-                ctx.font = 'bold 24px Inter, sans-serif';
-                ctx.fillStyle = '#F1D14C';
-                ctx.fillText(dayOfWeekStr.charAt(0).toUpperCase() + dayOfWeekStr.slice(1), canvas.width / 2, 70);
-
-                // Título
-                ctx.font = 'bold 48px Inter, sans-serif';
-                ctx.fillStyle = 'white';
-                ctx.fillText('PALPITES DO DIA', canvas.width / 2, 120);
-
-                // Desenhar as linhas de palpite válidas
-                let startY = 150;
-                const rowHeight = 130;
-                const imageSize = 120;
-
-                for (let i = 0; i < validRows.length; i++) {
-                    const rowData = validRows[i];
-
-                    try {
-                        // Carregar imagem do grupo
-                        const groupImage = new Image();
-                        groupImage.crossOrigin = 'anonymous';
-                        groupImage.src = `/assets/img/grupos/${rowData.grupoNumero}.webp`;
-                        await new Promise((resolve, reject) => {
-                            groupImage.onload = resolve;
-                            groupImage.onerror = () => {
-                                // Se não conseguir carregar a imagem do grupo, desenhar um círculo colorido
-                                ctx.fillStyle = '#4FA2E8';
-                                ctx.beginPath();
-                                ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
-                                ctx.fill();
-                                resolve();
-                            };
-                        });
-
-                        // Desenhar imagem do grupo (arredondada)
-                        if (groupImage.complete && groupImage.naturalWidth > 0) {
-                            ctx.save();
-                            ctx.beginPath();
-                            ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2, false);
-                            ctx.clip();
-                            ctx.drawImage(groupImage, 50, startY, imageSize, imageSize);
-                            ctx.restore();
-                        } else {
-                            // Fallback para círculo colorido
-                            ctx.fillStyle = '#4FA2E8';
-                            ctx.beginPath();
-                            ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
-                            ctx.fill();
-                        }
-
-                        // Nome do animal e número do grupo
-                        ctx.font = 'bold 28px Inter, sans-serif';
-                        ctx.fillStyle = 'white';
-                        ctx.textAlign = 'left';
-                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 50 + imageSize + 20, startY + 40);
-
-                        // Números completos em retângulos brancos
-                        const numbersText = rowData.fullNumbers.join(' ');
-                        const textX = 50 + imageSize + 20;
-                        const textY = startY + 85;
-                        
-                        // Medir o texto para criar o retângulo
-                        ctx.font = 'bold 32px JetBrains Mono, monospace';
-                        const textMetrics = ctx.measureText(numbersText);
-                        const textWidth = textMetrics.width;
-                        const textHeight = 40; // Altura aproximada da fonte
-                        
-                        // Desenhar retângulo branco
-                        ctx.fillStyle = 'white';
-                        ctx.fillRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
-                        
-                        // Desenhar borda do retângulo (opcional)
-                        ctx.strokeStyle = '#cccccc';
-                        ctx.lineWidth = 1;
-                        ctx.strokeRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
-                        
-                        // Desenhar texto em preto
-                        ctx.fillStyle = 'black';
-                        ctx.fillText(numbersText, textX, textY);
-
-                        startY += rowHeight;
-                    } catch (error) {
-                        console.error('Erro ao carregar imagem do grupo:', error);
-                        // Continuar com o próximo grupo mesmo se houver erro
-                        startY += rowHeight;
-                    }
-                }
-
-                // Logo do site
-                try {
-                    const logoImage = new Image();
-                    logoImage.crossOrigin = 'anonymous';
-                    logoImage.src = '/assets/img/logo.webp';
-                    await new Promise((resolve, reject) => {
-                        logoImage.onload = resolve;
-                        logoImage.onerror = () => {
-                            // Se não conseguir carregar o logo, desenhar texto
-                            ctx.font = 'bold 16px Inter, sans-serif';
-                            ctx.fillStyle = 'white';
-                            ctx.textAlign = 'center';
-                            ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
-                            resolve();
-                        };
-                    });
-                    
-                    if (logoImage.complete && logoImage.naturalWidth > 0) {
-                        ctx.drawImage(logoImage, canvas.width / 2 - 75, canvas.height - 90, 150, 75);
-                    } else {
-                        // Fallback para texto
-                        ctx.font = 'bold 20px Inter, sans-serif';
-                        ctx.fillStyle = 'white';
-                        ctx.textAlign = 'center';
-                        ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
-                    }
-                } catch (error) {
-                    console.error('Erro ao carregar logo:', error);
-                    // Fallback para texto
-                    ctx.font = 'bold 20px Inter, sans-serif';
-                    ctx.fillStyle = 'white';
-                    ctx.textAlign = 'center';
-                    ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
-                }
-
-                const imageDataUrl = canvas.toDataURL('image/png');
-                // Não abre o modal aqui, apenas baixa
-                const link = document.createElement('a');
-                link.href = imageDataUrl;
-                link.download = 'palpite_77xbrasil.png';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-
-            } catch (error) {
-                console.error('Erro ao gerar imagem para download:', error);
-                alert('Erro ao gerar a imagem para download. Por favor, tente novamente.');
-            }
+            await visualizeImage();
+            setTimeout(() => {
+                downloadGeneratedImage();
+            }, 500);
         }
 
         // Função para visualizar e compartilhar automaticamente
         async function visualizeImageAndShare() {
-            const rows = document.querySelectorAll('.palpite-row');
-            const validRows = [];
-
-            // Validar e coletar dados das linhas preenchidas
-            for (let row of rows) {
-                const grupoNumero = row.dataset.grupoNumero;
-                const grupoNome = row.dataset.grupoNome;
-                const inputXs = row.querySelectorAll('.input-x');
-                const inputYs = row.querySelectorAll('.input-y');
-
-                if (grupoNumero && grupoNome) {
-                    const fullNumbers = [];
-                    let allFilled = true;
-
-                    for (let i = 0; i < inputXs.length; i++) {
-                        const xValue = inputXs[i].value.trim();
-                        const yValue = inputYs[i].textContent.trim();
-
-                        if (xValue && yValue) {
-                            fullNumbers.push(xValue + yValue);
-                        } else {
-                            allFilled = false;
-                            break;
-                        }
-                    }
-
-                    if (allFilled && fullNumbers.length === 4) {
-                        validRows.push({
-                            grupoNumero,
-                            grupoNome,
-                            fullNumbers
-                        });
-                    }
-                }
-            }
-
-            if (validRows.length === 0) {
-                alert('Por favor, selecione pelo menos um grupo e preencha todos os campos de palpite antes de compartilhar.');
-                return;
-            }
-
-            const canvas = document.createElement('canvas');
-            const ctx = canvas.getContext('2d');
-
-            // Dimensões da imagem (ajustar conforme necessário)
-            canvas.width = 600; 
-            canvas.height = 180 + (validRows.length * 130) + 120; // Altura dinâmica baseada no número de linhas
-
-            try {
-                // Carregar imagem de fundo
-                const backgroundImage = new Image();
-                backgroundImage.crossOrigin = 'anonymous';
-                backgroundImage.src = '/assets/img/palpites/backg1.webp';
-                await new Promise((resolve, reject) => {
-                    backgroundImage.onload = resolve;
-                    backgroundImage.onerror = () => {
-                        // Se não conseguir carregar a imagem de fundo, usar cor sólida
-                        ctx.fillStyle = '#041228';
-                        ctx.fillRect(0, 0, canvas.width, canvas.height);
-                        resolve();
-                    };
-                });
-                
-                if (backgroundImage.complete && backgroundImage.naturalWidth > 0) {
-                    ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
-                } else {
-                    // Fallback para cor sólida
-                    ctx.fillStyle = '#041228';
-                    ctx.fillRect(0, 0, canvas.width, canvas.height);
-                }
-
-                // Data e Dia da Semana
-                const today = new Date();
-                const dateStr = today.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: '2-digit' });
-                const dayOfWeekStr = today.toLocaleDateString('pt-BR', { weekday: 'long' });
-
-                ctx.font = 'bold 24px Inter, sans-serif';
-                ctx.fillStyle = 'white';
-                ctx.textAlign = 'center';
-                ctx.fillText(dateStr, canvas.width / 2, 40);
-
-                ctx.font = 'bold 24px Inter, sans-serif';
-                ctx.fillStyle = '#F1D14C';
-                ctx.fillText(dayOfWeekStr.charAt(0).toUpperCase() + dayOfWeekStr.slice(1), canvas.width / 2, 70);
-
-                // Título
-                ctx.font = 'bold 48px Inter, sans-serif';
-                ctx.fillStyle = 'white';
-                ctx.fillText('PALPITES DO DIA', canvas.width / 2, 120);
-
-                // Desenhar as linhas de palpite válidas
-                let startY = 150;
-                const rowHeight = 130;
-                const imageSize = 120;
-
-                for (let i = 0; i < validRows.length; i++) {
-                    const rowData = validRows[i];
-
-                    try {
-                        // Carregar imagem do grupo
-                        const groupImage = new Image();
-                        groupImage.crossOrigin = 'anonymous';
-                        groupImage.src = `/assets/img/grupos/${rowData.grupoNumero}.webp`;
-                        await new Promise((resolve, reject) => {
-                            groupImage.onload = resolve;
-                            groupImage.onerror = () => {
-                                // Se não conseguir carregar a imagem do grupo, desenhar um círculo colorido
-                                ctx.fillStyle = '#4FA2E8';
-                                ctx.beginPath();
-                                ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
-                                ctx.fill();
-                                resolve();
-                            };
-                        });
-
-                        // Desenhar imagem do grupo (arredondada)
-                        if (groupImage.complete && groupImage.naturalWidth > 0) {
-                            ctx.save();
-                            ctx.beginPath();
-                            ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2, false);
-                            ctx.clip();
-                            ctx.drawImage(groupImage, 50, startY, imageSize, imageSize);
-                            ctx.restore();
-                        } else {
-                            // Fallback para círculo colorido
-                            ctx.fillStyle = '#4FA2E8';
-                            ctx.beginPath();
-                            ctx.arc(50 + imageSize / 2, startY + imageSize / 2, imageSize / 2, 0, Math.PI * 2);
-                            ctx.fill();
-                        }
-
-                        // Nome do animal e número do grupo
-                        ctx.font = 'bold 28px Inter, sans-serif';
-                        ctx.fillStyle = 'white';
-                        ctx.textAlign = 'left';
-                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 50 + imageSize + 20, startY + 40);
-
-                        // Números completos em retângulos brancos
-                        const numbersText = rowData.fullNumbers.join(' ');
-                        const textX = 50 + imageSize + 20;
-                        const textY = startY + 85;
-                        
-                        // Medir o texto para criar o retângulo
-                        ctx.font = 'bold 32px JetBrains Mono, monospace';
-                        const textMetrics = ctx.measureText(numbersText);
-                        const textWidth = textMetrics.width;
-                        const textHeight = 40; // Altura aproximada da fonte
-                        
-                        // Desenhar retângulo branco
-                        ctx.fillStyle = 'white';
-                        ctx.fillRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
-                        
-                        // Desenhar borda do retângulo (opcional)
-                        ctx.strokeStyle = '#cccccc';
-                        ctx.lineWidth = 1;
-                        ctx.strokeRect(textX - 5, textY - textHeight + 5, textWidth + 10, textHeight + 5);
-                        
-                        // Desenhar texto em preto
-                        ctx.fillStyle = 'black';
-                        ctx.fillText(numbersText, textX, textY);
-
-                        startY += rowHeight;
-                    } catch (error) {
-                        console.error('Erro ao carregar imagem do grupo:', error);
-                        // Continuar com o próximo grupo mesmo se houver erro
-                        startY += rowHeight;
-                    }
-                }
-
-                // Logo do site
-                try {
-                    const logoImage = new Image();
-                    logoImage.crossOrigin = 'anonymous';
-                    logoImage.src = '/assets/img/logo.webp';
-                    await new Promise((resolve, reject) => {
-                        logoImage.onload = resolve;
-                        logoImage.onerror = () => {
-                            // Se não conseguir carregar o logo, desenhar texto
-                            ctx.font = 'bold 16px Inter, sans-serif';
-                            ctx.fillStyle = 'white';
-                            ctx.textAlign = 'center';
-                            ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
-                            resolve();
-                        };
-                    });
-                    
-                    if (logoImage.complete && logoImage.naturalWidth > 0) {
-                        ctx.drawImage(logoImage, canvas.width / 2 - 75, canvas.height - 90, 150, 75);
-                    } else {
-                        // Fallback para texto
-                        ctx.font = 'bold 20px Inter, sans-serif';
-                        ctx.fillStyle = 'white';
-                        ctx.textAlign = 'center';
-                        ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
-                    }
-                } catch (error) {
-                    console.error('Erro ao carregar logo:', error);
-                    // Fallback para texto
-                    ctx.font = 'bold 20px Inter, sans-serif';
-                    ctx.fillStyle = 'white';
-                    ctx.textAlign = 'center';
-                    ctx.fillText('77x Brasil', canvas.width / 2, canvas.height - 30);
-                }
-
-                const imageDataUrl = canvas.toDataURL('image/png');
-                // Não abre o modal aqui, apenas compartilha
-                const imageBlob = await (await fetch(imageDataUrl)).blob();
-                
-                // Criar o texto de compartilhamento com link dinâmico
-                const domain = window.location.origin;
-                const promotorCode = localStorage.getItem("productCode") || '';
-                const shareText = `Na 77x Brasil, faça a sua FÉZINHA com as melhores cotações, com direito à bônus exclusivos e sem taxa de saques.
-Clique no link abaixo e saiba mais! 
-${domain}/pr/${promotorCode}
-
-#jogodobichoonline
-#jogodobichofederal
-#jogodobicho
-#palpites
-#palpitesdodia`;
-
-                if (navigator.share && navigator.canShare({
-                        files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })]
-                    })) {
-                    await navigator.share({
-                        files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })],
-                        title: 'Meu Palpite 77x Brasil',
-                        text: shareText
-                    });
-                } else {
-                    alert('Compartilhamento não suportado neste navegador. Por favor, baixe a imagem e compartilhe manualmente.');
-                }
-
-            } catch (error) {
-                console.error('Erro ao gerar imagem para compartilhamento:', error);
-                alert('Erro ao gerar a imagem para compartilhamento. Por favor, tente novamente.');
-            }
+            await visualizeImage();
+            setTimeout(() => {
+                shareGeneratedImage();
+            }, 500);
         }
 
         // Função para download da imagem gerada
@@ -1786,27 +1332,13 @@ ${domain}/pr/${promotorCode}
         // Função para compartilhar a imagem gerada (usando a função existente do script.js)
         async function shareGeneratedImage() {
             const imageBlob = await (await fetch(document.getElementById('generatedImage').src)).blob();
-            
-            // Criar o texto de compartilhamento com link dinâmico
-            const domain = window.location.origin;
-            const promotorCode = localStorage.getItem("productCode") || '';
-            const shareText = `Na 77x Brasil, faça a sua FÉZINHA com as melhores cotações, com direito à bônus exclusivos e sem taxa de saques.
-Clique no link abaixo e saiba mais! 
-${domain}/pr/${promotorCode}
-
-#jogodobichoonline
-#jogodobichofederal
-#jogodobicho
-#palpites
-#palpitesdodia`;
-
             if (navigator.share && navigator.canShare({
                     files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })]
                 })) {
                 await navigator.share({
                     files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })],
                     title: 'Meu Palpite 77x Brasil',
-                    text: shareText
+                    text: 'Confira meu palpite para o jogo do bicho!'
                 });
             } else {
                 alert('Compartilhamento não suportado neste navegador. Por favor, baixe a imagem e compartilhe manualmente.');
