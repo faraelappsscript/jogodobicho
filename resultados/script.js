@@ -117,40 +117,41 @@ function displayTitulos(dayOfWeek) {
 // Função para compartilhar imagem
 async function shareImage() {
   if (!currentImageBlob) {
-    showToast('Nenhuma imagem disponível para compartilhar.');
+    showToast("Nenhuma imagem disponível para compartilhar.");
     return;
   }
 
   try {
-    if (navigator.share && navigator.canShare) {
-      const file = new File([currentImageBlob], 'resultado.png', { type: 'image/png' });
-      
-      if (navigator.canShare({ files: [file] })) {
-        await navigator.share({
-          title: getPageTitle(),
-          text: 'Confira este resultado!',
-          files: [file]
-        });
-        showToast('Imagem compartilhada com sucesso!');
-      } else {
-        // Fallback para compartilhamento de URL com código
-        const imageUrl = URL.createObjectURL(currentImageBlob);
-        const shareUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
-        await navigator.share({
-          title: getPageTitle(),
-          text: 'Confira este resultado!',
-          url: shareUrl
-        });
-        showToast('Link compartilhado com sucesso!');
-      }
+    const file = new File([currentImageBlob], "resultado.png", { type: "image/png" });
+
+    // Criar o texto de compartilhamento com link dinâmico
+    const domain = window.location.origin;
+    const promotorCode = getStoredProductCode() || "";
+    const shareText = `Na 77x Brasil, faça a sua FÉZINHA com as melhores cotações, com direito à bônus exclusivos e sem taxa de saques.\nClique no link abaixo e saiba mais! \n${domain}/pr/${promotorCode}\n\n#jogodobichoonline\n#jogodobichofederal\n#jogodobicho\n#palpites\n#palpitesdodia`;
+
+    if (navigator.share && navigator.canShare({ files: [file] })) {
+      await navigator.share({
+        title: getPageTitle(),
+        text: shareText,
+        files: [file],
+      });
+      showToast("Imagem compartilhada com sucesso!");
+    } else if (navigator.share && navigator.canShare({ url: shareText })) {
+      // Fallback para compartilhamento de URL com código se o compartilhamento de arquivo não for suportado
+      await navigator.share({
+        title: getPageTitle(),
+        text: shareText,
+        url: `${domain}/pr/${promotorCode}`,
+      });
+      showToast("Link compartilhado com sucesso!");
     } else {
       // Fallback: copiar para clipboard ou mostrar opções
-      showToast('Compartilhamento não suportado. Use o botão Baixar PNG.');
+      showToast("Compartilhamento não suportado. Use o botão Baixar PNG.");
     }
   } catch (error) {
-    if (error.name !== 'AbortError') {
-      console.error('Erro ao compartilhar:', error);
-      showToast('Erro ao compartilhar imagem.');
+    if (error.name !== "AbortError") {
+      console.error("Erro ao compartilhar:", error);
+      showToast("Erro ao compartilhar imagem.");
     }
   }
 }
@@ -964,6 +965,11 @@ async function generateImage(type, cardId) {
 function showToast(message) {
     const toast = document.getElementById("toast");
     const messageSpan = document.getElementById("toast-message");
+
+    if (!toast || !messageSpan) {
+        console.error("Elementos do toast não encontrados. Verifique se 'toast' e 'toast-message' existem no HTML.");
+        return;
+    }
 
     if (toastTimeout) {
         clearTimeout(toastTimeout);
