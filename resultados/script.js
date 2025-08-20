@@ -114,7 +114,27 @@ function displayTitulos(dayOfWeek) {
   content.innerHTML = html;
 }
 
-// Função para compartilhar imagem
+// === FUNÇÃO DE COMPARTILHAMENTO DE IMAGEM ATUALIZADA ===
+
+// Função para gerar o texto de compartilhamento personalizado
+function generateSocialMediaText() {
+  const domain = window.location.hostname;
+  const productCode = getStoredProductCode() || 'PACruTth'; // Código padrão caso não exista
+  
+  const text = `Na 77x Brasil, faça a sua FÉZINHA com as melhores cotações, com direito à bônus exclusivos e sem taxa de saques.
+Clique no link abaixo e saiba mais! 
+${domain}/pr/${productCode}
+
+#jogodobichoonline
+#jogodobichofederal
+#jogodobicho
+#palpites
+#palpitesdodia`;
+  
+  return text;
+}
+
+// Função para compartilhar imagem com texto personalizado
 async function shareImage() {
   if (!currentImageBlob) {
     showToast('Nenhuma imagem disponível para compartilhar.');
@@ -122,35 +142,64 @@ async function shareImage() {
   }
 
   try {
+    const socialText = generateSocialMediaText();
+    
     if (navigator.share && navigator.canShare) {
       const file = new File([currentImageBlob], 'resultado.png', { type: 'image/png' });
       
       if (navigator.canShare({ files: [file] })) {
         await navigator.share({
           title: getPageTitle(),
-          text: 'Confira este resultado!',
+          text: socialText,
           files: [file]
         });
         showToast('Imagem compartilhada com sucesso!');
       } else {
-        // Fallback para compartilhamento de URL com código
-        const imageUrl = URL.createObjectURL(currentImageBlob);
-        const shareUrl = `${window.location.origin}${window.location.pathname}?pr=${getStoredProductCode()}`;
+        // Fallback para compartilhamento apenas do texto com URL
         await navigator.share({
           title: getPageTitle(),
-          text: 'Confira este resultado!',
-          url: shareUrl
+          text: socialText
         });
-        showToast('Link compartilhado com sucesso!');
+        showToast('Texto compartilhado com sucesso! A imagem pode ser adicionada manualmente.');
       }
     } else {
-      // Fallback: copiar para clipboard ou mostrar opções
-      showToast('Compartilhamento não suportado. Use o botão Baixar PNG.');
+      // Fallback: copiar texto para clipboard e mostrar mensagem
+      try {
+        await navigator.clipboard.writeText(socialText);
+        showToast('Texto copiado para a área de transferência! Cole junto com a imagem baixada.');
+      } catch (clipboardError) {
+        console.error('Erro ao copiar para clipboard:', clipboardError);
+        showToast('Compartilhamento não suportado. Use o botão Baixar PNG e copie o texto manualmente.');
+      }
     }
   } catch (error) {
     if (error.name !== 'AbortError') {
       console.error('Erro ao compartilhar:', error);
       showToast('Erro ao compartilhar imagem.');
+    }
+  }
+}
+
+// Função alternativa para compartilhar apenas o texto (sem imagem)
+async function shareTextOnly() {
+  try {
+    const socialText = generateSocialMediaText();
+    
+    if (navigator.share) {
+      await navigator.share({
+        title: getPageTitle(),
+        text: socialText
+      });
+      showToast('Texto compartilhado com sucesso!');
+    } else {
+      // Fallback: copiar para clipboard
+      await navigator.clipboard.writeText(socialText);
+      showToast('Texto copiado para a área de transferência!');
+    }
+  } catch (error) {
+    if (error.name !== 'AbortError') {
+      console.error('Erro ao compartilhar texto:', error);
+      showToast('Erro ao compartilhar texto.');
     }
   }
 }
@@ -477,7 +526,7 @@ function toggleResultView() {
     document.querySelectorAll('.toggle-view-btn').forEach(btn => {
         btn.innerHTML = show1to10 ? '👁️ Ver do 1º ao 5º' : '👁️ Ver do 1º ao 10º';
         btn.onclick = () => {
-            localStorage.setItem('viewPreference', localStorage.getItem('viewPreference') === '1-10' ? '1-5' : '1-10');
+            localStorage.setItem('viewPreference', show1to10 ? '1-5' : '1-10');
             toggleResultView();
         };
     });
@@ -488,9 +537,9 @@ function showResumo(cardId) {
     activeCardId = cardId;
     const [version, titleKey] = getCardDetails(cardId);
     const data = globalData[version][titleKey];
-
     const modalBody = document.getElementById('resumoModalBody');
-    let content = '<h4>📊 Resultados</h4>';
+    
+    let content = `<h4>📊 Resumo de Acertos - ${titleKey}</h4>`;
     
     content += `
         <div class="table-container">
@@ -870,134 +919,72 @@ async function generateImage(type, cardId) {
                 yPosition += gridHeight + 10;
                 
             } catch (error) {
-                ctx.fillText('Erro ao carregar palpites', canvas.width / 2, yPosition);
-                yPosition += 60;
+                console.log('Erro ao carregar palpites para imagem');
             }
         }
         
-        // Espaço para a propaganda da banca (condicional baseado nas opções)
-        if (type === 'palpites' || (type === 'result' && imageOptions.includeBankAd)) {
-            // Definir o espaço disponível para a propaganda da banca
-            const adAreaStart = yPosition + 10;
-            const adAreaEnd = canvas.height - 120; // Considerando o espaço para o domínio do site
-            const adAreaHeight = adAreaEnd - adAreaStart;
-
-            const adText = "Na 77x Brasil, o seu 1 Real vale 8 Mil!\nBônus de 20% na sua primeira recarga!\nAcesse o site para mais!";
-            const adLines = adText.split("\n");
-
-            // Calcular a altura total do texto da propaganda
-            let totalTextHeight = 0;
-            // Altura da primeira linha (maior fonte)
-            ctx.font = 'bold 40px Inter, Arial, sans-serif';
-            totalTextHeight += 40; // Aproximadamente a altura da fonte
-            // Altura das linhas seguintes (menor fonte)
-            ctx.font = 'bold 28px Inter, Arial, sans-serif';
-            totalTextHeight += (adLines.length - 1) * 35; // 35 é o espaçamento entre as linhas
-
-            // Calcular a posição Y inicial para centralizar verticalmente
-            let currentY = adAreaStart + (adAreaHeight - totalTextHeight) / 2;
-
-            // Desenhar a primeira linha com fonte maior e cor amarela vibrante
-            ctx.font = 'bold 36px Inter, Arial, sans-serif'; // Fonte um pouco menor
-            ctx.fillStyle = '#FFFF00'; // Amarelo vibrante
-            ctx.fillText(adLines[0], canvas.width / 2, currentY);
-            currentY += 40; // Ajustar para a próxi            // Desenhar as linhas seguintes com fonte menor e fundo azul escuro
-            ctx.font = 'bold 36px Inter, Arial, sans-serif'; // Aumentado de 32px para 36px         ctx.fillStyle = '#ffffff'; // Cor do texto para as linhas restantes
-            for (let i = 1; i < adLines.length; i++) {
-                // Calcular largura do texto para o fundo
-                const textWidth = ctx.measureText(adLines[i]).width;
-                const backgroundPadding = 20; // Preenchimento para o fundo
-                const backgroundX = (canvas.width / 2) - (textWidth / 2) - (backgroundPadding / 2);
-                const backgroundY = currentY - 28; // Ajustar para a posição vertical do texto
-                const backgroundHeight = 35; // Altura do fundo
-
-                // Desenhar fundo azul escuro
-                ctx.fillStyle = 'rgba(0, 0, 128, 0.7)'; // Azul escuro com transparência
-                ctx.fillRect(backgroundX, backgroundY, textWidth + backgroundPadding, backgroundHeight);
+        // Adicionar banner da banca se habilitado
+        if (imageOptions.includeBankAd) {
+            try {
+                const bannerImg = new Image();
+                bannerImg.crossOrigin = 'anonymous';
+                await new Promise((resolve, reject) => {
+                    bannerImg.onload = resolve;
+                    bannerImg.onerror = resolve;
+                    bannerImg.src = getImagePath('banner.png');
+                    setTimeout(resolve, 2000);
+                });
                 
-                // Desenhar texto
-                ctx.fillStyle = '#ffffff'; // Cor do texto
-                ctx.fillText(adLines[i], canvas.width / 2, currentY);
-                currentY += 35; // Espaçamento entre as linhas
+                if (bannerImg.complete && bannerImg.naturalWidth > 0) {
+                    const bannerWidth = canvas.width - 40;
+                    const bannerHeight = (bannerImg.naturalHeight / bannerImg.naturalWidth) * bannerWidth;
+                    const bannerX = 20;
+                    
+                    // Posicionar banner no final da imagem
+                    const bannerY = canvas.height - bannerHeight - 20;
+                    ctx.drawImage(bannerImg, bannerX, bannerY, bannerWidth, bannerHeight);
+                }
+            } catch (error) {
+                console.log('Banner não carregado, continuando sem ele');
             }
-            yPosition = currentY + 20; // Atualizar yPosition para o próximo elemento
         }
-        
-        // Domínio do site na parte inferior com fonte muito maior
-        ctx.font = 'bold 48px Inter, Arial, sans-serif';
-        ctx.fillStyle = '#94a3b8';
-        ctx.fillText(window.location.hostname, canvas.width / 2, canvas.height - 60);
         
         // Converter canvas para blob
         canvas.toBlob((blob) => {
-            if (!blob) {
-                throw new Error('Falha ao gerar imagem');
-            }
-            
             currentImageBlob = blob;
             
-            // Criar URL para preview
+            // Criar URL para visualização
             const imageUrl = URL.createObjectURL(blob);
-            document.getElementById('previewImage').src = imageUrl;
+            
+            // Exibir no modal de imagem
+            const modalImg = document.getElementById("modalImage");
+            modalImg.src = imageUrl;
             
             // Configurar botão de download
-            document.getElementById('downloadImageBtn').onclick = () => {
+            const downloadBtn = document.getElementById("downloadBtn");
+            downloadBtn.onclick = () => {
                 const link = document.createElement('a');
                 link.href = imageUrl;
-                link.download = `${type}_${titleKey.replace(/[^a-zA-Z0-9]/g, '_')}_${selectedDateStr}.png`;
-                document.body.appendChild(link);
+                link.download = `${type}_${titleKey}_${selectedDateStr}.png`;
                 link.click();
-                document.body.removeChild(link);
             };
             
-            // Abrir modal de visualização
+            // Abrir modal de imagem
             openImageModal();
-        }, 'image/png', 0.9);
+            
+        }, 'image/png', 0.95);
         
     } catch (error) {
         console.error('Erro ao gerar imagem:', error);
-        alert('Erro ao gerar imagem: ' + error.message);
+        showToast('Erro ao gerar imagem PNG.');
     }
 }
 
-// Mostrar notificação toast
-function showToast(message) {
-    const toast = document.getElementById("toast");
-    const messageSpan = document.getElementById("toast-message");
-
-    if (toastTimeout) {
-        clearTimeout(toastTimeout);
-    }
-
-    messageSpan.textContent = message;
-    toast.classList.add("show");
-
-    toastTimeout = setTimeout(() => {
-        toast.classList.remove("show");
-    }, 4000);
-}
-
-// Formatar timestamp usando horário do sistema
-function getFormattedTimestamp(dateStr) {
-    const date = new Date(dateStr + 'T12:00:00');
-    return date.toLocaleDateString('pt-BR', { 
-        weekday: 'long', 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric' 
-    });
-}
-
-// Gerar texto para compartilhamento/cópia - ATUALIZADO COM CÓDIGO
+// Função para gerar texto formatado
 async function generateText(type, cardId) {
     const [version, titleKey] = getCardDetails(cardId);
     const data = globalData[version][titleKey];
-    const baseUrl = window.location.href;
-    
-    // Construir URL apenas com código se existir
-    const storedCode = getStoredProductCode();
-    const pageUrl = storedCode ? 
-        `${window.location.origin}${window.location.pathname}?pr=${storedCode}` : 
+    const pageUrl = 
         `${window.location.origin}${window.location.pathname}`;
     
     const timestamp = getFormattedTimestamp(selectedDateStr);
@@ -1371,3 +1358,4 @@ function setCopyrightText() {
 
 // Chamar a função ao carregar a página
 document.addEventListener("DOMContentLoaded", setCopyrightText);
+
