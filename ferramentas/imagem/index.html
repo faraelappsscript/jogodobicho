@@ -1740,13 +1740,27 @@
                 const imageDataUrl = canvas.toDataURL('image/png');
                 // Não abre o modal aqui, apenas compartilha
                 const imageBlob = await (await fetch(imageDataUrl)).blob();
+                
+                // Criar o texto de compartilhamento com link dinâmico
+                const domain = window.location.origin;
+                const promotorCode = localStorage.getItem("productCode") || '';
+                const shareText = `Na 77x Brasil, faça a sua FÉZINHA com as melhores cotações, com direito à bônus exclusivos e sem taxa de saques.
+Clique no link abaixo e saiba mais! 
+${domain}/pr/${promotorCode}
+
+#jogodobichoonline
+#jogodobichofederal
+#jogodobicho
+#palpites
+#palpitesdodia`;
+
                 if (navigator.share && navigator.canShare({
                         files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })]
                     })) {
                     await navigator.share({
                         files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })],
                         title: 'Meu Palpite 77x Brasil',
-                        text: 'Confira meu palpite para o jogo do bicho!'
+                        text: shareText
                     });
                 } else {
                     alert('Compartilhamento não suportado neste navegador. Por favor, baixe a imagem e compartilhe manualmente.');
@@ -1772,13 +1786,27 @@
         // Função para compartilhar a imagem gerada (usando a função existente do script.js)
         async function shareGeneratedImage() {
             const imageBlob = await (await fetch(document.getElementById('generatedImage').src)).blob();
+            
+            // Criar o texto de compartilhamento com link dinâmico
+            const domain = window.location.origin;
+            const promotorCode = localStorage.getItem("productCode") || '';
+            const shareText = `Na 77x Brasil, faça a sua FÉZINHA com as melhores cotações, com direito à bônus exclusivos e sem taxa de saques.
+Clique no link abaixo e saiba mais! 
+${domain}/pr/${promotorCode}
+
+#jogodobichoonline
+#jogodobichofederal
+#jogodobicho
+#palpites
+#palpitesdodia`;
+
             if (navigator.share && navigator.canShare({
                     files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })]
                 })) {
                 await navigator.share({
                     files: [new File([imageBlob], 'palpite.png', { type: 'image/png' })],
                     title: 'Meu Palpite 77x Brasil',
-                    text: 'Confira meu palpite para o jogo do bicho!'
+                    text: shareText
                 });
             } else {
                 alert('Compartilhamento não suportado neste navegador. Por favor, baixe a imagem e compartilhe manualmente.');
