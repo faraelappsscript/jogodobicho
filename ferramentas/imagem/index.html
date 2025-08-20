@@ -926,7 +926,24 @@
             });
 
             // Event Listeners para os botões de ação principais
-            document.getElementById('visualizar-btn').addEventListener('click', visualizeImage);
+            //document.getElementById('visualizar-btn').addEventListener('click', visualizeImage);
+
+            // Event Listeners para os botões principais
+            document.getElementById('visualizar-btn').addEventListener('click', function() {
+                fillAllEmptyX();
+                sortearGrupos();
+                setTimeout(() => {
+                    visualizeImage(); // Apenas visualiza, abre o modal
+                }, 100);
+            });
+
+
+
+
+
+
+
+            
             document.getElementById('baixar-btn').addEventListener('click', visualizeImageAndDownload);
             document.getElementById('compartilhar-btn').addEventListener('click', visualizeImageAndShare);
             document.getElementById('editar-btn').addEventListener('click', enterEditMode);
