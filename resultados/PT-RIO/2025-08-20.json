@@ -108,6 +108,66 @@
         "Bicho"
       ],
       "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4826",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "7227",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9995",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3515",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4041",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "9604",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "877",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 3030, 3034, 3430, 3434, 4030, 4034, 4430, 4434, 6030, 6034, 6430, 6434"
+    },
+    "PT-RIO, RJ, 14:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
         {},
         {},
         {},
@@ -195,66 +255,139 @@
         }
       ],
       "frases": {
-        "1030": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 1030"
+        "3030": [
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 3030"
         ],
-        "1430": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 1430"
+        "3034": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3034",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 3034"
         ],
-        "1630": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 1630"
+        "3430": [
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 3430"
         ],
-        "1730": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 1730"
+        "3434": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3434",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 3434"
         ],
         "4030": [
           "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 4030"
         ],
+        "4034": [
+          "Dezena no sétimo prêmio!<br>com o palpite 4034",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 4034"
+        ],
         "4430": [
           "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 4430"
         ],
-        "4630": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 4630"
+        "4434": [
+          "Dezena no sétimo prêmio!<br>com o palpite 4434",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 4434"
         ],
-        "4730": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 4730"
+        "6030": [
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 6030"
         ],
-        "5030": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 5030"
+        "6034": [
+          "Dezena no sétimo prêmio!<br>com o palpite 6034",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 6034"
         ],
-        "5430": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 5430"
+        "6430": [
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 6430"
         ],
-        "5630": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 5630"
-        ],
-        "5730": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 5730"
-        ],
-        "9030": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 9030"
-        ],
-        "9430": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 9430"
-        ],
-        "9630": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 9630"
-        ],
-        "9730": [
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 9730"
+        "6434": [
+          "Dezena no sétimo prêmio!<br>com o palpite 6434",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 6434"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 6,
         "Grupo": [
-          "🐪"
+          "🐪",
+          "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1030, 1037, 1430, 1437, 1630, 1637, 1730, 1737, 4030, 4037, 4430, 4437, 4630, 4637, 4730, 4737, 5030, 5037, 5430, 5437, 5630, 5637, 5730, 5737, 9030, 9037, 9430, 9437, 9630, 9637, 9730, 9737"
+      "resumo": "Palpites dados para esta extração: 3030, 3034, 3430, 3434, 4030, 4034, 4430, 4434, 6030, 6034, 6430, 6434"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4826",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "7227",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9995",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3515",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4041",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "4793",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "8295",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "2291",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "6755",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "1738",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 3030, 3034, 3430, 3434, 4030, 4034, 4430, 4434, 6030, 6034, 6430, 6434"
+    },
+    "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
