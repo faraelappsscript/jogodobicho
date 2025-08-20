@@ -1776,10 +1776,20 @@
             const texto = `Na 77x Brasil, faça a sua FÉZINHA com as melhores cotações, com direito à bônus exclusivos e sem taxa de saques.\nClique no link abaixo e saiba mais!\n${url}\n\n#jogodobichoonline\n#jogodobichofederal\n#jogodobicho\n#palpites\n#palpitesdodia`;
 
             navigator.clipboard.writeText(texto).then(() => {
-                alert('Legenda copiada para a área de transferência!');
+                // Usar a função showToast() do script.js para exibir mensagem flutuante
+                if (typeof showToast === 'function') {
+                    showToast('Legenda copiada para a área de transferência!');
+                } else {
+                    alert('Legenda copiada para a área de transferência!');
+                }
             }).catch(err => {
                 console.error('Erro ao copiar legenda: ', err);
-                alert('Erro ao copiar a legenda.');
+                // Usar a função showToast() do script.js para exibir mensagem de erro
+                if (typeof showToast === 'function') {
+                    showToast('Erro ao copiar a legenda.');
+                } else {
+                    alert('Erro ao copiar a legenda.');
+                }
             });
         }
 
