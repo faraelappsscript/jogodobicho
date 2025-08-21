@@ -689,24 +689,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "8844": [
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 8844"
-        ],
-        "8849": [
-          "GALO 🐓 no sexto prêmio!<br>com o palpite 8849"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐎",
-          "🐓"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 8844, 8845, 8849"
+      "resumo": "Palpites dados para esta extração: 1111, 1112, 1119, 1171, 1172, 1179, 3111, 3112, 3119, 3171, 3172, 3179"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -760,8 +750,11 @@
         }
       ],
       "frases": {
-        "8844": [
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 8844"
+        "1179": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 1179"
+        ],
+        "3179": [
+          "PERU 🦃 no primeiro prêmio!<br>com o palpite 3179"
         ]
       },
       "acertos": {
@@ -769,10 +762,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐎"
+          "🦃"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8844, 8845, 8849"
+      "resumo": "Palpites dados para esta extração: 1111, 1112, 1119, 1171, 1172, 1179, 3111, 3112, 3119, 3171, 3172, 3179"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -826,24 +819,28 @@
         }
       ],
       "frases": {
-        "8844": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8844",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8844"
+        "1111": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1111"
         ],
-        "8849": [
-          "GALO 🐓 no primeiro prêmio!<br>com o palpite 8849"
+        "1112": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1112"
+        ],
+        "3111": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 3111"
+        ],
+        "3112": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 3112"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐓",
-          "🐎"
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8844, 8845, 8849"
+      "resumo": "Palpites dados para esta extração: 1111, 1112, 1119, 1171, 1172, 1179, 3111, 3112, 3119, 3171, 3172, 3179"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -896,14 +893,58 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1111": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1111"
+        ],
+        "1112": [
+          "Dezena no quinto prêmio!<br>com o palpite 1112",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1112"
+        ],
+        "1119": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 1119"
+        ],
+        "1171": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 1171"
+        ],
+        "1172": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 1172"
+        ],
+        "1179": [
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 1179"
+        ],
+        "3111": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 3111"
+        ],
+        "3112": [
+          "Dezena no quinto prêmio!<br>com o palpite 3112",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 3112"
+        ],
+        "3119": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 3119"
+        ],
+        "3171": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 3171"
+        ],
+        "3172": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 3172"
+        ],
+        "3179": [
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 3179"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 2,
+        "Grupo": [
+          "🐕",
+          "🦃",
+          "🐴",
+          "🐖"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 8844, 8845, 8849"
+      "resumo": "Palpites dados para esta extração: 1111, 1112, 1119, 1171, 1172, 1179, 3111, 3112, 3119, 3171, 3172, 3179"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
