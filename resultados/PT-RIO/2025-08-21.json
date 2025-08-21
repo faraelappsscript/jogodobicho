@@ -148,36 +148,6 @@
         }
       ],
       "frases": {
-        "9001": [
-          "Dezena no segundo prêmio!<br>com o palpite 9001",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9001",
-          "Dezena no quinto prêmio!<br>com o palpite 9001",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9001"
-        ],
-        "9011": [
-          "BURRO 🐴 no décimo prêmio!<br>com o palpite 9011"
-        ],
-        "9041": [
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 9041"
-        ],
-        "9051": [
-          "GALO 🐓 no sétimo prêmio!<br>com o palpite 9051"
-        ],
-        "9101": [
-          "Dezena no segundo prêmio!<br>com o palpite 9101",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9101",
-          "Dezena no quinto prêmio!<br>com o palpite 9101",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9101"
-        ],
-        "9111": [
-          "BURRO 🐴 no décimo prêmio!<br>com o palpite 9111"
-        ],
-        "9141": [
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 9141"
-        ],
-        "9151": [
-          "GALO 🐓 no sétimo prêmio!<br>com o palpite 9151"
-        ],
         "9401": [
           "Centena e Dezena no segundo prêmio!<br>com o palpite 9401",
           "Dezena no segundo prêmio!<br>com o palpite 9401",
@@ -188,25 +158,28 @@
         "9411": [
           "BURRO 🐴 no décimo prêmio!<br>com o palpite 9411"
         ],
+        "9421": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 9421",
+          "Dezena no terceiro prêmio!<br>com o palpite 9421",
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9421",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9421"
+        ],
         "9441": [
           "CAVALO 🐎 no quarto prêmio!<br>com o palpite 9441"
-        ],
-        "9451": [
-          "GALO 🐓 no sétimo prêmio!<br>com o palpite 9451"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 6,
+        "Centena": 2,
+        "Dezena": 3,
         "Grupo": [
           "🪶",
+          "🐐",
           "🐎",
-          "🐓",
           "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9001, 9011, 9041, 9051, 9101, 9111, 9141, 9151, 9401, 9411, 9441, 9451"
+      "resumo": "Palpites dados para esta extração: 9401, 9411, 9421, 9441"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
