@@ -1431,117 +1431,47 @@
         }
       ],
       "frases": {
-        "2002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 2002",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 2002"
-        ],
-        "2003": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 2003",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 2003"
-        ],
-        "2202": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 2202",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 2202"
-        ],
-        "2203": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 2203",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 2203"
-        ],
-        "3002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 3002",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 3002"
-        ],
-        "3003": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 3003",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 3003"
-        ],
         "3202": [
           "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 3202",
           "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 3202"
         ],
-        "3203": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 3203",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 3203"
+        "3204": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 3204",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 3204"
         ],
-        "5002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 5002",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 5002"
+        "3242": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 3242"
         ],
-        "5003": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 5003",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 5003"
-        ],
-        "5202": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 5202",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 5202"
-        ],
-        "5203": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 5203",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 5203"
-        ],
-        "6002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 6002",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 6002"
-        ],
-        "6003": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 6003",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 6003"
-        ],
-        "6202": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 6202",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 6202"
-        ],
-        "6203": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 6203",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 6203"
-        ],
-        "8002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 8002",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8002"
-        ],
-        "8003": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 8003",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8003"
-        ],
-        "8202": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 8202",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8202"
-        ],
-        "8203": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 8203",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8203"
-        ],
-        "9002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9002",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9002"
-        ],
-        "9003": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9003",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9003"
+        "3244": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 3244"
         ],
         "9202": [
           "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9202",
           "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9202"
         ],
-        "9203": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9203",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9203"
+        "9204": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9204",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9204"
         ],
-        "0002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0002",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0002"
+        "9242": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 9242"
         ],
-        "0003": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0003",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0003"
+        "9244": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 9244"
         ],
         "0202": [
           "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0202",
           "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0202"
         ],
-        "0203": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0203",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0203"
+        "0204": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0204",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0204"
+        ],
+        "0242": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 0242"
+        ],
+        "0244": [
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 0244"
         ]
       },
       "acertos": {
@@ -1549,10 +1479,11 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🪶"
+          "🪶",
+          "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0002, 0003, 0007, 0008, 0202, 0203, 0207, 0208, 2002, 2003, 2007, 2008, 2202, 2203, 2207, 2208, 3002, 3003, 3007, 3008, 3202, 3203, 3207, 3208, 5002, 5003, 5007, 5008, 5202, 5203, 5207, 5208, 6002, 6003, 6007, 6008, 6202, 6203, 6207, 6208, 8002, 8003, 8007, 8008, 8202, 8203, 8207, 8208, 9002, 9003, 9007, 9008, 9202, 9203, 9207, 9208"
+      "resumo": "Palpites dados para esta extração: 0202, 0204, 0205, 0242, 0244, 0245, 3202, 3204, 3205, 3242, 3244, 3245, 9202, 9204, 9205, 9242, 9244, 9245"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -1606,114 +1537,47 @@
         }
       ],
       "frases": {
-        "2007": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 2007"
+        "3205": [
+          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3205"
         ],
-        "2008": [
-          "Dezena no segundo prêmio!<br>com o palpite 2008",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 2008"
+        "3242": [
+          "Dezena no sexto prêmio!<br>com o palpite 3242",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 3242"
         ],
-        "2207": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 2207"
+        "3244": [
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 3244"
         ],
-        "2208": [
-          "Dezena no segundo prêmio!<br>com o palpite 2208",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 2208"
+        "9205": [
+          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9205"
         ],
-        "3007": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3007"
+        "9242": [
+          "Dezena no sexto prêmio!<br>com o palpite 9242",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 9242"
         ],
-        "3008": [
-          "Dezena no segundo prêmio!<br>com o palpite 3008",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3008"
+        "9244": [
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 9244"
         ],
-        "3207": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3207"
+        "0205": [
+          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0205"
         ],
-        "3208": [
-          "Dezena no segundo prêmio!<br>com o palpite 3208",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3208"
+        "0242": [
+          "Dezena no sexto prêmio!<br>com o palpite 0242",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 0242"
         ],
-        "5007": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 5007"
-        ],
-        "5008": [
-          "Dezena no segundo prêmio!<br>com o palpite 5008",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 5008"
-        ],
-        "5207": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 5207"
-        ],
-        "5208": [
-          "Dezena no segundo prêmio!<br>com o palpite 5208",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 5208"
-        ],
-        "6007": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 6007"
-        ],
-        "6008": [
-          "Dezena no segundo prêmio!<br>com o palpite 6008",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 6008"
-        ],
-        "6207": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 6207"
-        ],
-        "6208": [
-          "Dezena no segundo prêmio!<br>com o palpite 6208",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 6208"
-        ],
-        "8007": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 8007"
-        ],
-        "8008": [
-          "Dezena no segundo prêmio!<br>com o palpite 8008",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 8008"
-        ],
-        "8207": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 8207"
-        ],
-        "8208": [
-          "Dezena no segundo prêmio!<br>com o palpite 8208",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 8208"
-        ],
-        "9007": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9007"
-        ],
-        "9008": [
-          "Dezena no segundo prêmio!<br>com o palpite 9008",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9008"
-        ],
-        "9207": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9207"
-        ],
-        "9208": [
-          "Dezena no segundo prêmio!<br>com o palpite 9208",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9208"
-        ],
-        "0007": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0007"
-        ],
-        "0008": [
-          "Dezena no segundo prêmio!<br>com o palpite 0008",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0008"
-        ],
-        "0207": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0207"
-        ],
-        "0208": [
-          "Dezena no segundo prêmio!<br>com o palpite 0208",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0208"
+        "0244": [
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 0244"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 14,
+        "Dezena": 3,
         "Grupo": [
-          "🦅"
+          "🦅",
+          "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0002, 0003, 0007, 0008, 0202, 0203, 0207, 0208, 2002, 2003, 2007, 2008, 2202, 2203, 2207, 2208, 3002, 3003, 3007, 3008, 3202, 3203, 3207, 3208, 5002, 5003, 5007, 5008, 5202, 5203, 5207, 5208, 6002, 6003, 6007, 6008, 6202, 6203, 6207, 6208, 8002, 8003, 8007, 8008, 8202, 8203, 8207, 8208, 9002, 9003, 9007, 9008, 9202, 9203, 9207, 9208"
+      "resumo": "Palpites dados para esta extração: 0202, 0204, 0205, 0242, 0244, 0245, 3202, 3204, 3205, 3242, 3244, 3245, 9202, 9204, 9205, 9242, 9244, 9245"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -1766,14 +1630,38 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "3242": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3242"
+        ],
+        "3244": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3244",
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3244"
+        ],
+        "9242": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9242"
+        ],
+        "9244": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9244",
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9244"
+        ],
+        "0242": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 0242"
+        ],
+        "0244": [
+          "Dezena no terceiro prêmio!<br>com o palpite 0244",
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 0244"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 3,
+        "Grupo": [
+          "🐎"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0002, 0003, 0007, 0008, 0202, 0203, 0207, 0208, 2002, 2003, 2007, 2008, 2202, 2203, 2207, 2208, 3002, 3003, 3007, 3008, 3202, 3203, 3207, 3208, 5002, 5003, 5007, 5008, 5202, 5203, 5207, 5208, 6002, 6003, 6007, 6008, 6202, 6203, 6207, 6208, 8002, 8003, 8007, 8008, 8202, 8203, 8207, 8208, 9002, 9003, 9007, 9008, 9202, 9203, 9207, 9208"
+      "resumo": "Palpites dados para esta extração: 0202, 0204, 0205, 0242, 0244, 0245, 3202, 3204, 3205, 3242, 3244, 3245, 9202, 9204, 9205, 9242, 9244, 9245"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -1833,7 +1721,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0002, 0003, 0007, 0008, 0202, 0203, 0207, 0208, 2002, 2003, 2007, 2008, 2202, 2203, 2207, 2208, 3002, 3003, 3007, 3008, 3202, 3203, 3207, 3208, 5002, 5003, 5007, 5008, 5202, 5203, 5207, 5208, 6002, 6003, 6007, 6008, 6202, 6203, 6207, 6208, 8002, 8003, 8007, 8008, 8202, 8203, 8207, 8208, 9002, 9003, 9007, 9008, 9202, 9203, 9207, 9208"
+      "resumo": "Palpites dados para esta extração: 0202, 0204, 0205, 0242, 0244, 0245, 3202, 3204, 3205, 3242, 3244, 3245, 9202, 9204, 9205, 9242, 9244, 9245"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -1887,255 +1775,53 @@
         }
       ],
       "frases": {
-        "2002": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2002",
-          "Dezena no sétimo prêmio!<br>com o palpite 2002",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 2002"
-        ],
-        "2003": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2003",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 2003"
-        ],
-        "2007": [
-          "Dezena no segundo prêmio!<br>com o palpite 2007",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 2007"
-        ],
-        "2008": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 2008"
-        ],
-        "2202": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2202",
-          "Dezena no sétimo prêmio!<br>com o palpite 2202",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 2202"
-        ],
-        "2203": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2203",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 2203"
-        ],
-        "2207": [
-          "Dezena no segundo prêmio!<br>com o palpite 2207",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 2207"
-        ],
-        "2208": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 2208"
-        ],
-        "3002": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 3002",
-          "Dezena no sétimo prêmio!<br>com o palpite 3002",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 3002"
-        ],
-        "3003": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 3003",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 3003"
-        ],
-        "3007": [
-          "Dezena no segundo prêmio!<br>com o palpite 3007",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3007"
-        ],
-        "3008": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3008"
-        ],
         "3202": [
           "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 3202",
           "Dezena no sétimo prêmio!<br>com o palpite 3202",
           "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 3202"
         ],
-        "3203": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 3203",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 3203"
+        "3204": [
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 3204",
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 3204"
         ],
-        "3207": [
-          "Dezena no segundo prêmio!<br>com o palpite 3207",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3207"
-        ],
-        "3208": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3208"
-        ],
-        "5002": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5002",
-          "Dezena no sétimo prêmio!<br>com o palpite 5002",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 5002"
-        ],
-        "5003": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5003",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 5003"
-        ],
-        "5007": [
-          "Dezena no segundo prêmio!<br>com o palpite 5007",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 5007"
-        ],
-        "5008": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 5008"
-        ],
-        "5202": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5202",
-          "Dezena no sétimo prêmio!<br>com o palpite 5202",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 5202"
-        ],
-        "5203": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5203",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 5203"
-        ],
-        "5207": [
-          "Dezena no segundo prêmio!<br>com o palpite 5207",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 5207"
-        ],
-        "5208": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 5208"
-        ],
-        "6002": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 6002",
-          "Dezena no sétimo prêmio!<br>com o palpite 6002",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 6002"
-        ],
-        "6003": [
-          "Dezena no terceiro prêmio!<br>com o palpite 6003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 6003",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 6003"
-        ],
-        "6007": [
-          "Dezena no segundo prêmio!<br>com o palpite 6007",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 6007"
-        ],
-        "6008": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 6008"
-        ],
-        "6202": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 6202",
-          "Dezena no sétimo prêmio!<br>com o palpite 6202",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 6202"
-        ],
-        "6203": [
-          "Dezena no terceiro prêmio!<br>com o palpite 6203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 6203",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 6203"
-        ],
-        "6207": [
-          "Dezena no segundo prêmio!<br>com o palpite 6207",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 6207"
-        ],
-        "6208": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 6208"
-        ],
-        "8002": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 8002",
-          "Dezena no sétimo prêmio!<br>com o palpite 8002",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 8002"
-        ],
-        "8003": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 8003",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 8003"
-        ],
-        "8007": [
-          "Dezena no segundo prêmio!<br>com o palpite 8007",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 8007"
-        ],
-        "8008": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 8008"
-        ],
-        "8202": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 8202",
-          "Dezena no sétimo prêmio!<br>com o palpite 8202",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 8202"
-        ],
-        "8203": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 8203",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 8203"
-        ],
-        "8207": [
-          "Dezena no segundo prêmio!<br>com o palpite 8207",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 8207"
-        ],
-        "8208": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 8208"
-        ],
-        "9002": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 9002",
-          "Dezena no sétimo prêmio!<br>com o palpite 9002",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 9002"
-        ],
-        "9003": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 9003",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 9003"
-        ],
-        "9007": [
-          "Dezena no segundo prêmio!<br>com o palpite 9007",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9007"
-        ],
-        "9008": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9008"
+        "3205": [
+          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3205"
         ],
         "9202": [
           "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 9202",
           "Dezena no sétimo prêmio!<br>com o palpite 9202",
           "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 9202"
         ],
-        "9203": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 9203",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 9203"
+        "9204": [
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 9204",
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 9204"
         ],
-        "9207": [
-          "Dezena no segundo prêmio!<br>com o palpite 9207",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9207"
+        "9205": [
+          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9205"
         ],
-        "9208": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9208"
-        ],
-        "0007": [
-          "Dezena no segundo prêmio!<br>com o palpite 0007",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0007"
-        ],
-        "0008": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0008"
-        ],
-        "0207": [
-          "Dezena no segundo prêmio!<br>com o palpite 0207",
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0207"
-        ],
-        "0208": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0208"
-        ],
-        "0002": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0002",
-          "Dezena no sétimo prêmio!<br>com o palpite 0002",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 0002"
-        ],
-        "0003": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0003",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 0003"
+        "0205": [
+          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0205"
         ],
         "0202": [
           "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0202",
           "Dezena no sétimo prêmio!<br>com o palpite 0202",
           "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 0202"
         ],
-        "0203": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0203",
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 0203"
+        "0204": [
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0204",
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 0204"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 42,
+        "Dezena": 3,
         "Grupo": [
           "🦅",
           "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0002, 0003, 0007, 0008, 0202, 0203, 0207, 0208, 2002, 2003, 2007, 2008, 2202, 2203, 2207, 2208, 3002, 3003, 3007, 3008, 3202, 3203, 3207, 3208, 5002, 5003, 5007, 5008, 5202, 5203, 5207, 5208, 6002, 6003, 6007, 6008, 6202, 6203, 6207, 6208, 8002, 8003, 8007, 8008, 8202, 8203, 8207, 8208, 9002, 9003, 9007, 9008, 9202, 9203, 9207, 9208"
+      "resumo": "Palpites dados para esta extração: 0202, 0204, 0205, 0242, 0244, 0245, 3202, 3204, 3205, 3242, 3244, 3245, 9202, 9204, 9205, 9242, 9244, 9245"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -2189,142 +1875,59 @@
         }
       ],
       "frases": {
-        "2002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 2002",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2002"
-        ],
-        "2003": [
-          "Dezena no segundo prêmio!<br>com o palpite 2003",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 2003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2003"
-        ],
-        "2202": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 2202",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2202"
-        ],
-        "2203": [
-          "Dezena no segundo prêmio!<br>com o palpite 2203",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 2203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2203"
-        ],
-        "3002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 3002",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 3002"
-        ],
-        "3003": [
-          "Dezena no segundo prêmio!<br>com o palpite 3003",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 3003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 3003"
-        ],
         "3202": [
           "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 3202",
           "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 3202"
         ],
-        "3203": [
-          "Dezena no segundo prêmio!<br>com o palpite 3203",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 3203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 3203"
+        "3204": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 3204",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3204",
+          "Dezena no terceiro prêmio!<br>com o palpite 3204",
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 3204"
         ],
-        "5002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 5002",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5002"
-        ],
-        "5003": [
-          "Dezena no segundo prêmio!<br>com o palpite 5003",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 5003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5003"
-        ],
-        "5202": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 5202",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5202"
-        ],
-        "5203": [
-          "Dezena no segundo prêmio!<br>com o palpite 5203",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 5203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5203"
-        ],
-        "6002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 6002",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 6002"
-        ],
-        "6003": [
-          "Dezena no segundo prêmio!<br>com o palpite 6003",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 6003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 6003"
-        ],
-        "6202": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 6202",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 6202"
-        ],
-        "6203": [
-          "Dezena no segundo prêmio!<br>com o palpite 6203",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 6203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 6203"
-        ],
-        "8002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 8002",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 8002"
-        ],
-        "8003": [
-          "Dezena no segundo prêmio!<br>com o palpite 8003",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 8003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 8003"
-        ],
-        "8202": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 8202",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 8202"
-        ],
-        "8203": [
-          "Dezena no segundo prêmio!<br>com o palpite 8203",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 8203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 8203"
-        ],
-        "9002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9002",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 9002"
-        ],
-        "9003": [
-          "Dezena no segundo prêmio!<br>com o palpite 9003",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 9003"
+        "3245": [
+          "Dezena no quinto prêmio!<br>com o palpite 3245",
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 3245"
         ],
         "9202": [
           "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9202",
           "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 9202"
         ],
-        "9203": [
-          "Dezena no segundo prêmio!<br>com o palpite 9203",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 9203"
+        "9204": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9204",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 9204",
+          "Dezena no terceiro prêmio!<br>com o palpite 9204",
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 9204"
         ],
-        "0002": [
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0002",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0002"
-        ],
-        "0003": [
-          "Dezena no segundo prêmio!<br>com o palpite 0003",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0003",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0003"
+        "9245": [
+          "Dezena no quinto prêmio!<br>com o palpite 9245",
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 9245"
         ],
         "0202": [
           "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0202",
           "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0202"
         ],
-        "0203": [
-          "Dezena no segundo prêmio!<br>com o palpite 0203",
-          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0203",
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0203"
+        "0204": [
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 0204",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 0204",
+          "Dezena no terceiro prêmio!<br>com o palpite 0204",
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0204"
+        ],
+        "0245": [
+          "Dezena no quinto prêmio!<br>com o palpite 0245",
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 0245"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 14,
+        "Centena": 3,
+        "Dezena": 6,
         "Grupo": [
-          "🪶"
+          "🪶",
+          "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0002, 0003, 0007, 0008, 0202, 0203, 0207, 0208, 2002, 2003, 2007, 2008, 2202, 2203, 2207, 2208, 3002, 3003, 3007, 3008, 3202, 3203, 3207, 3208, 5002, 5003, 5007, 5008, 5202, 5203, 5207, 5208, 6002, 6003, 6007, 6008, 6202, 6203, 6207, 6208, 8002, 8003, 8007, 8008, 8202, 8203, 8207, 8208, 9002, 9003, 9007, 9008, 9202, 9203, 9207, 9208"
+      "resumo": "Palpites dados para esta extração: 0202, 0204, 0205, 0242, 0244, 0245, 3202, 3204, 3205, 3242, 3244, 3245, 9202, 9204, 9205, 9242, 9244, 9245"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
