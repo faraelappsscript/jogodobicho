@@ -1213,9 +1213,12 @@
                         ctx.fillStyle = 'white';
                         ctx.textAlign = 'left';
                         const groupText = `${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`;
-                        const numbersText = rowData.fullNumbers.join(' ');
-                        const numbersTextMetrics = ctx.measureText(numbersText);
+                        const numbersTextForMeasurement = rowData.fullNumbers.join(' ');
+                        const prevFont = ctx.font;
+                        ctx.font = 'bold 32px JetBrains Mono, monospace';
+                        const numbersTextMetrics = ctx.measureText(numbersTextForMeasurement);
                         const numbersTextWidth = numbersTextMetrics.width;
+                        ctx.font = prevFont;
                         const textX = 50 + imageSize + 20;
                         const textWidthForJustify = numbersTextWidth;
 
@@ -1259,13 +1262,11 @@
                         ctx.fillText(line, textX, yOffset);
 
                         // Números completos em retângulos brancos
-                        const numbersText = rowData.fullNumbers.join(' ');
-                        const textX = 50 + imageSize + 20;
                         const textY = startY + 85;
                         
                         // Medir o texto para criar o retângulo
                         ctx.font = 'bold 32px JetBrains Mono, monospace';
-                        const textMetrics = ctx.measureText(numbersText);
+                        const textMetrics = ctx.measureText(numbersTextForMeasurement);
                         const textWidth = textMetrics.width;
                         const textHeight = 40; // Altura aproximada da fonte
                         
@@ -1280,7 +1281,7 @@
                         
                         // Desenhar texto em preto
                         ctx.fillStyle = 'black';
-                        ctx.fillText(numbersText, textX, textY);
+                        ctx.fillText(numbersTextForMeasurement, textX, textY);
 
                         startY += rowHeight;
                     } catch (error) {
@@ -1472,9 +1473,12 @@
                         ctx.fillStyle = 'white';
                         ctx.textAlign = 'left';
                         const groupText = `${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`;
-                        const numbersText = rowData.fullNumbers.join(' ');
-                        const numbersTextMetrics = ctx.measureText(numbersText);
+                        const numbersTextForMeasurement = rowData.fullNumbers.join(' ');
+                        const prevFont = ctx.font;
+                        ctx.font = 'bold 32px JetBrains Mono, monospace';
+                        const numbersTextMetrics = ctx.measureText(numbersTextForMeasurement);
                         const numbersTextWidth = numbersTextMetrics.width;
+                        ctx.font = prevFont;
                         const textX = 50 + imageSize + 20;
                         const textWidthForJustify = numbersTextWidth;
 
@@ -1518,13 +1522,11 @@
                         ctx.fillText(line, textX, yOffset);
 
                         // Números completos em retângulos brancos
-                        const numbersText = rowData.fullNumbers.join(' ');
-                        const textX = 50 + imageSize + 20;
                         const textY = startY + 85;
                         
                         // Medir o texto para criar o retângulo
                         ctx.font = 'bold 32px JetBrains Mono, monospace';
-                        const textMetrics = ctx.measureText(numbersText);
+                        const textMetrics = ctx.measureText(numbersTextForMeasurement);
                         const textWidth = textMetrics.width;
                         const textHeight = 40; // Altura aproximada da fonte
                         
@@ -1539,7 +1541,7 @@
                         
                         // Desenhar texto em preto
                         ctx.fillStyle = 'black';
-                        ctx.fillText(numbersText, textX, textY);
+                        ctx.fillText(numbersTextForMeasurement, textX, textY);
 
                         startY += rowHeight;
                     } catch (error) {
@@ -1735,9 +1737,12 @@
                         ctx.fillStyle = 'white';
                         ctx.textAlign = 'left';
                         const groupText = `${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`;
-                        const numbersText = rowData.fullNumbers.join(' ');
-                        const numbersTextMetrics = ctx.measureText(numbersText);
+                        const numbersTextForMeasurement = rowData.fullNumbers.join(' ');
+                        const prevFont = ctx.font;
+                        ctx.font = 'bold 32px JetBrains Mono, monospace';
+                        const numbersTextMetrics = ctx.measureText(numbersTextForMeasurement);
                         const numbersTextWidth = numbersTextMetrics.width;
+                        ctx.font = prevFont;
                         const textX = 50 + imageSize + 20;
                         const textWidthForJustify = numbersTextWidth;
 
@@ -1781,13 +1786,11 @@
                         ctx.fillText(line, textX, yOffset);
 
                         // Números completos em retângulos brancos
-                        const numbersText = rowData.fullNumbers.join(' ');
-                        const textX = 50 + imageSize + 20;
                         const textY = startY + 85;
                         
                         // Medir o texto para criar o retângulo
                         ctx.font = 'bold 32px JetBrains Mono, monospace';
-                        const textMetrics = ctx.measureText(numbersText);
+                        const textMetrics = ctx.measureText(numbersTextForMeasurement);
                         const textWidth = textMetrics.width;
                         const textHeight = 40; // Altura aproximada da fonte
                         
@@ -1802,7 +1805,7 @@
                         
                         // Desenhar texto em preto
                         ctx.fillStyle = 'black';
-                        ctx.fillText(numbersText, textX, textY);
+                        ctx.fillText(numbersTextForMeasurement, textX, textY);
 
                         startY += rowHeight;
                     } catch (error) {
