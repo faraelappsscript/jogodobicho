@@ -52,80 +52,32 @@
         }
       ],
       "frases": {
-        "3002": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 3002"
-        ],
-        "3042": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3042",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3042"
-        ],
-        "3202": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 3202"
-        ],
-        "3242": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3242",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3242"
-        ],
-        "3502": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 3502"
-        ],
-        "3542": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3542",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3542"
-        ],
-        "9002": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9002"
-        ],
         "9042": [
           "Dezena no terceiro prêmio!<br>com o palpite 9042",
           "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9042"
         ],
-        "9202": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9202"
-        ],
-        "9242": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9242",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9242"
-        ],
-        "9502": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 9502"
-        ],
-        "9542": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9542",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9542"
+        "9442": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9442",
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9442"
         ],
         "0042": [
           "Dezena no terceiro prêmio!<br>com o palpite 0042",
           "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 0042"
         ],
-        "0242": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0242",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 0242"
-        ],
-        "0542": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0542",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 0542"
-        ],
-        "0002": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0002"
-        ],
-        "0202": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0202"
-        ],
-        "0502": [
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0502"
+        "0442": [
+          "Dezena no terceiro prêmio!<br>com o palpite 0442",
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 0442"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 9,
+        "Dezena": 4,
         "Grupo": [
-          "🐎",
-          "🪶"
+          "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0002, 0005, 0042, 0045, 0202, 0205, 0242, 0245, 0502, 0505, 0542, 0545, 3002, 3005, 3042, 3045, 3202, 3205, 3242, 3245, 3502, 3505, 3542, 3545, 9002, 9005, 9042, 9045, 9202, 9205, 9242, 9245, 9502, 9505, 9542, 9545"
+      "resumo": "Palpites dados para esta extração: 0022, 0032, 0042, 0422, 0432, 0442, 9022, 9032, 9042, 9422, 9432, 9442"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
