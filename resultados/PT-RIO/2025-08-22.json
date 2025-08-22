@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6120, 6121, 6122, 6620, 6621, 6622, 9120, 9121, 9122, 9620, 9621, 9622"
+      "resumo": "Palpites dados para esta extração: 9120"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6120, 6121, 6122, 6620, 6621, 6622, 9120, 9121, 9122, 9620, 9621, 9622"
+      "resumo": "Palpites dados para esta extração: 9120"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -171,73 +171,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "6121": [
-          "Dezena no segundo prêmio!<br>com o palpite 6121",
-          "CABRA 🐐 no segundo prêmio!<br>com o palpite 6121",
-          "Dezena no quinto prêmio!<br>com o palpite 6121",
-          "CABRA 🐐 no quinto prêmio!<br>com o palpite 6121",
-          "Dezena no sétimo prêmio!<br>com o palpite 6121",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 6121"
-        ],
-        "6122": [
-          "CABRA 🐐 no segundo prêmio!<br>com o palpite 6122",
-          "CABRA 🐐 no quinto prêmio!<br>com o palpite 6122",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 6122"
-        ],
-        "6621": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 6621",
-          "Dezena no segundo prêmio!<br>com o palpite 6621",
-          "CABRA 🐐 no segundo prêmio!<br>com o palpite 6621",
-          "Dezena no quinto prêmio!<br>com o palpite 6621",
-          "CABRA 🐐 no quinto prêmio!<br>com o palpite 6621",
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 6621",
-          "Dezena no sétimo prêmio!<br>com o palpite 6621",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 6621"
-        ],
-        "6622": [
-          "CABRA 🐐 no segundo prêmio!<br>com o palpite 6622",
-          "CABRA 🐐 no quinto prêmio!<br>com o palpite 6622",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 6622"
-        ],
-        "9121": [
-          "Dezena no segundo prêmio!<br>com o palpite 9121",
-          "CABRA 🐐 no segundo prêmio!<br>com o palpite 9121",
-          "Dezena no quinto prêmio!<br>com o palpite 9121",
-          "CABRA 🐐 no quinto prêmio!<br>com o palpite 9121",
-          "Dezena no sétimo prêmio!<br>com o palpite 9121",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9121"
-        ],
-        "9122": [
-          "CABRA 🐐 no segundo prêmio!<br>com o palpite 9122",
-          "CABRA 🐐 no quinto prêmio!<br>com o palpite 9122",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9122"
-        ],
-        "9621": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 9621",
-          "Dezena no segundo prêmio!<br>com o palpite 9621",
-          "CABRA 🐐 no segundo prêmio!<br>com o palpite 9621",
-          "Dezena no quinto prêmio!<br>com o palpite 9621",
-          "CABRA 🐐 no quinto prêmio!<br>com o palpite 9621",
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 9621",
-          "Dezena no sétimo prêmio!<br>com o palpite 9621",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9621"
-        ],
-        "9622": [
-          "CABRA 🐐 no segundo prêmio!<br>com o palpite 9622",
-          "CABRA 🐐 no quinto prêmio!<br>com o palpite 9622",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9622"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 4,
-        "Dezena": 12,
-        "Grupo": [
-          "🐐"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6120, 6121, 6122, 6620, 6621, 6622, 9120, 9121, 9122, 9620, 9621, 9622"
+      "resumo": "Palpites dados para esta extração: 9120"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -291,63 +232,21 @@
         }
       ],
       "frases": {
-        "6120": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 6120",
-          "Dezena no quarto prêmio!<br>com o palpite 6120",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 6120"
-        ],
-        "6121": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 6121"
-        ],
-        "6122": [
-          "Dezena no terceiro prêmio!<br>com o palpite 6122",
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 6122"
-        ],
-        "6620": [
-          "Dezena no quarto prêmio!<br>com o palpite 6620",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 6620"
-        ],
-        "6621": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 6621"
-        ],
-        "6622": [
-          "Dezena no terceiro prêmio!<br>com o palpite 6622",
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 6622"
-        ],
         "9120": [
           "Centena e Dezena no quarto prêmio!<br>com o palpite 9120",
           "Dezena no quarto prêmio!<br>com o palpite 9120",
           "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 9120"
-        ],
-        "9121": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9121"
-        ],
-        "9122": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9122",
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9122"
-        ],
-        "9620": [
-          "Dezena no quarto prêmio!<br>com o palpite 9620",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 9620"
-        ],
-        "9621": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9621"
-        ],
-        "9622": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9622",
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9622"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 8,
+        "Centena": 1,
+        "Dezena": 1,
         "Grupo": [
-          "🐐",
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6120, 6121, 6122, 6620, 6621, 6622, 9120, 9121, 9122, 9620, 9621, 9622"
+      "resumo": "Palpites dados para esta extração: 9120"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
