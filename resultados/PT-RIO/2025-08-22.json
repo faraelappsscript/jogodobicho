@@ -211,55 +211,64 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "3134",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "2698",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "1318",
+          "Milhar": "9139",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9222",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "5120",
           "Grupo": "05",
           "Bicho": "Cachorro"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "0177",
-          "Grupo": "20",
-          "Bicho": "Peru"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "1129",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
           "Prêmio": "5º",
-          "Milhar": "2412",
-          "Grupo": "03",
-          "Bicho": "Burro"
+          "Milhar": "4090",
+          "Grupo": "23",
+          "Bicho": "Urso"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "8170",
+          "Milhar": "0269",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "130",
+          "Milhar": "657",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "6121": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 6121"
+        ],
+        "6621": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 6621"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐐"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0202, 0204, 0205, 0242, 0244, 0245, 3202, 3204, 3205, 3242, 3244, 3245, 9202, 9204, 9205, 9242, 9244, 9245"
+      "resumo": "Palpites dados para esta extração: 6121, 6621"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -740,94 +749,90 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "3134",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "2698",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "1318",
+          "Milhar": "9139",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9222",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "5120",
           "Grupo": "05",
           "Bicho": "Cachorro"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "0177",
-          "Grupo": "20",
-          "Bicho": "Peru"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "1129",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
           "Prêmio": "5º",
-          "Milhar": "2412",
-          "Grupo": "03",
-          "Bicho": "Burro"
+          "Milhar": "4090",
+          "Grupo": "23",
+          "Bicho": "Urso"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "3101",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "2995",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "1311",
-          "Grupo": "03",
-          "Bicho": "Burro"
+          "Milhar": "6121",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "3172",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "9322",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "4879",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "8920",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "0633",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "7627",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         }
       ],
       "frases": {
-        "3202": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 3202"
+        "6121": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 6121",
+          "Milhar e Centena no sétimo prêmio!<br>com o palpite 6121",
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 6121",
+          "Dezena no sétimo prêmio!<br>com o palpite 6121",
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 6121",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 6121"
         ],
-        "3204": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 3204"
-        ],
-        "9202": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 9202"
-        ],
-        "9204": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 9204"
-        ],
-        "0202": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0202"
-        ],
-        "0204": [
-          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0204"
+        "6621": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 6621",
+          "Dezena no sétimo prêmio!<br>com o palpite 6621",
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 6621",
+          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 6621"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
-          "🪶"
+          "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0202, 0204, 0205, 0242, 0244, 0245, 3202, 3204, 3205, 3242, 3244, 3245, 9202, 9204, 9205, 9242, 9244, 9245"
+      "resumo": "Palpites dados para esta extração: 6121, 6621"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
