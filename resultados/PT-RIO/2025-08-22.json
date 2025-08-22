@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9120"
+      "resumo": "Palpites dados para esta extração: 5985"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9120"
+      "resumo": "Palpites dados para esta extração: 5985"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -178,7 +178,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9120"
+      "resumo": "Palpites dados para esta extração: 5985"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -231,22 +231,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "9120": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 9120",
-          "Dezena no quarto prêmio!<br>com o palpite 9120",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 9120"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 1,
-        "Grupo": [
-          "🐕"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9120"
+      "resumo": "Palpites dados para esta extração: 5985"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -299,14 +291,21 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "5985": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5985",
+          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 5985"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 1,
+        "Grupo": [
+          "🐅"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9120"
+      "resumo": "Palpites dados para esta extração: 5985"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
