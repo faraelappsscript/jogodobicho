@@ -89,89 +89,70 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7477",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "1227",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "7708",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "4841",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "3374",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "2572",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "4562",
-          "Grupo": "16",
-          "Bicho": "Leão"
+          "Milhar": "2336",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "4621",
-          "Grupo": "06",
-          "Bicho": "Cabra"
+          "Milhar": "7058",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "7742",
+          "Milhar": "8034",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "632",
+          "Milhar": "939",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
-        "3205": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3205"
+        "9042": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 9042"
         ],
-        "3242": [
-          "Dezena no sexto prêmio!<br>com o palpite 3242",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 3242"
+        "9442": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 9442"
         ],
-        "3244": [
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 3244"
+        "0042": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 0042"
         ],
-        "9205": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9205"
-        ],
-        "9242": [
-          "Dezena no sexto prêmio!<br>com o palpite 9242",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 9242"
-        ],
-        "9244": [
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 9244"
-        ],
-        "0205": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0205"
-        ],
-        "0242": [
-          "Dezena no sexto prêmio!<br>com o palpite 0242",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 0242"
-        ],
-        "0244": [
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 0244"
+        "0442": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 0442"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
+        "Dezena": 0,
         "Grupo": [
-          "🦅",
           "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0202, 0204, 0205, 0242, 0244, 0245, 3202, 3204, 3205, 3242, 3244, 3245, 9202, 9204, 9205, 9242, 9244, 9245"
+      "resumo": "Palpites dados para esta extração: 0022, 0032, 0042, 0422, 0432, 0442, 9022, 9032, 9042, 9422, 9432, 9442"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -640,107 +621,107 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7477",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "1227",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "7708",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "4841",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "3374",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "2572",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "4562",
-          "Grupo": "16",
-          "Bicho": "Leão"
+          "Milhar": "2336",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "4621",
+          "Milhar": "7058",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "1422",
           "Grupo": "06",
           "Bicho": "Cabra"
         },
         {
-          "Prêmio": "6º",
-          "Milhar": "7734",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
           "Prêmio": "7º",
-          "Milhar": "4735",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "2853",
+          "Grupo": "14",
+          "Bicho": "Gato"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "7076",
+          "Milhar": "2473",
           "Grupo": "19",
           "Bicho": "Pavão"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "7842",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "7126",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "5129",
-          "Grupo": "08",
-          "Bicho": "Camelo"
+          "Milhar": "1908",
+          "Grupo": "02",
+          "Bicho": "Águia"
         }
       ],
       "frases": {
-        "3205": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 3205"
+        "9022": [
+          "Dezena no sexto prêmio!<br>com o palpite 9022",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 9022"
         ],
-        "3242": [
-          "Dezena no nono prêmio!<br>com o palpite 3242",
-          "CAVALO 🐎 no nono prêmio!<br>com o palpite 3242"
+        "9042": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 9042"
         ],
-        "3244": [
-          "CAVALO 🐎 no nono prêmio!<br>com o palpite 3244"
+        "9422": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 9422",
+          "Dezena no sexto prêmio!<br>com o palpite 9422",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 9422"
         ],
-        "9205": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9205"
+        "9442": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 9442"
         ],
-        "9242": [
-          "Dezena no nono prêmio!<br>com o palpite 9242",
-          "CAVALO 🐎 no nono prêmio!<br>com o palpite 9242"
+        "0042": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 0042"
         ],
-        "9244": [
-          "CAVALO 🐎 no nono prêmio!<br>com o palpite 9244"
+        "0442": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 0442"
         ],
-        "0205": [
-          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 0205"
+        "0022": [
+          "Dezena no sexto prêmio!<br>com o palpite 0022",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 0022"
         ],
-        "0242": [
-          "Dezena no nono prêmio!<br>com o palpite 0242",
-          "CAVALO 🐎 no nono prêmio!<br>com o palpite 0242"
-        ],
-        "0244": [
-          "CAVALO 🐎 no nono prêmio!<br>com o palpite 0244"
+        "0422": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 0422",
+          "Dezena no sexto prêmio!<br>com o palpite 0422",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 0422"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 3,
+        "Centena": 2,
+        "Dezena": 4,
         "Grupo": [
-          "🦅",
-          "🐎"
+          "🐎",
+          "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0202, 0204, 0205, 0242, 0244, 0245, 3202, 3204, 3205, 3242, 3244, 3245, 9202, 9204, 9205, 9242, 9244, 9245"
+      "resumo": "Palpites dados para esta extração: 0022, 0032, 0042, 0422, 0432, 0442, 9022, 9032, 9042, 9422, 9432, 9442"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
