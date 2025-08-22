@@ -1209,64 +1209,20 @@
                             ctx.fill();
                         }
 
-                        ctx.font = 'bold 48px Inter, sans-serif';
+                        // Nome do animal e número do grupo
+                        ctx.font = 'bold 28px Inter, sans-serif';
                         ctx.fillStyle = 'white';
                         ctx.textAlign = 'left';
-                        const groupText = `${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`;
-                        const numbersTextForMeasurement = rowData.fullNumbers.join(' ');
-                        const prevFont = ctx.font;
-                        ctx.font = 'bold 32px JetBrains Mono, monospace';
-                        const numbersTextMetrics = ctx.measureText(numbersTextForMeasurement);
-                        const numbersTextWidth = numbersTextMetrics.width;
-                        ctx.font = prevFont;
-                        const textX = 50 + imageSize + 20;
-                        const textWidthForJustify = numbersTextWidth;
-
-                        const words = groupText.split(' ');
-                        let line = '';
-                        let yOffset = startY + 40;
-
-                        for (let n = 0; n < words.length; n++) {
-                            const testLine = line + words[n] + ' ';
-                            const metrics = ctx.measureText(testLine);
-                            const testWidth = metrics.width;
-                            if (testWidth > textWidthForJustify && n > 0) {
-                                (function() {
-                                    const lineStr = line.trim();
-                                    const parts = lineStr.split(" ");
-                                    if (parts.length > 1) {
-                                        // calcular largura das palavras sem espaços extras
-                                        let wordsWidth = 0;
-                                        parts.forEach(w => { wordsWidth += ctx.measureText(w).width; });
-                                        const gaps = parts.length - 1;
-                                        const extraSpace = Math.max(0, textWidthForJustify - wordsWidth);
-                                        const spaceWidth = extraSpace / gaps;
-                                        let cursorX = textX;
-                                        for (let i = 0; i < parts.length; i++) {
-                                            const w = parts[i];
-                                            ctx.fillText(w, cursorX, yOffset);
-                                            if (i < parts.length - 1) {
-                                                cursorX += ctx.measureText(w).width + spaceWidth;
-                                            }
-                                        }
-                                    } else {
-                                        ctx.fillText(lineStr, textX, yOffset);
-                                    }
-                                })();
-                                line = words[n] + ' ';
-                                yOffset += 50; // Ajuste para a próxima linha
-                            } else {
-                                line = testLine;
-                            }
-                        }
-                        ctx.fillText(line, textX, yOffset);
+                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 50 + imageSize + 20, startY + 40);
 
                         // Números completos em retângulos brancos
+                        const numbersText = rowData.fullNumbers.join(' ');
+                        const textX = 50 + imageSize + 20;
                         const textY = startY + 85;
                         
                         // Medir o texto para criar o retângulo
                         ctx.font = 'bold 32px JetBrains Mono, monospace';
-                        const textMetrics = ctx.measureText(numbersTextForMeasurement);
+                        const textMetrics = ctx.measureText(numbersText);
                         const textWidth = textMetrics.width;
                         const textHeight = 40; // Altura aproximada da fonte
                         
@@ -1281,7 +1237,7 @@
                         
                         // Desenhar texto em preto
                         ctx.fillStyle = 'black';
-                        ctx.fillText(numbersTextForMeasurement, textX, textY);
+                        ctx.fillText(numbersText, textX, textY);
 
                         startY += rowHeight;
                     } catch (error) {
@@ -1469,64 +1425,20 @@
                             ctx.fill();
                         }
 
-                        ctx.font = 'bold 48px Inter, sans-serif';
+                        // Nome do animal e número do grupo
+                        ctx.font = 'bold 28px Inter, sans-serif';
                         ctx.fillStyle = 'white';
                         ctx.textAlign = 'left';
-                        const groupText = `${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`;
-                        const numbersTextForMeasurement = rowData.fullNumbers.join(' ');
-                        const prevFont = ctx.font;
-                        ctx.font = 'bold 32px JetBrains Mono, monospace';
-                        const numbersTextMetrics = ctx.measureText(numbersTextForMeasurement);
-                        const numbersTextWidth = numbersTextMetrics.width;
-                        ctx.font = prevFont;
-                        const textX = 50 + imageSize + 20;
-                        const textWidthForJustify = numbersTextWidth;
-
-                        const words = groupText.split(' ');
-                        let line = '';
-                        let yOffset = startY + 40;
-
-                        for (let n = 0; n < words.length; n++) {
-                            const testLine = line + words[n] + ' ';
-                            const metrics = ctx.measureText(testLine);
-                            const testWidth = metrics.width;
-                            if (testWidth > textWidthForJustify && n > 0) {
-                                (function() {
-                                    const lineStr = line.trim();
-                                    const parts = lineStr.split(" ");
-                                    if (parts.length > 1) {
-                                        // calcular largura das palavras sem espaços extras
-                                        let wordsWidth = 0;
-                                        parts.forEach(w => { wordsWidth += ctx.measureText(w).width; });
-                                        const gaps = parts.length - 1;
-                                        const extraSpace = Math.max(0, textWidthForJustify - wordsWidth);
-                                        const spaceWidth = extraSpace / gaps;
-                                        let cursorX = textX;
-                                        for (let i = 0; i < parts.length; i++) {
-                                            const w = parts[i];
-                                            ctx.fillText(w, cursorX, yOffset);
-                                            if (i < parts.length - 1) {
-                                                cursorX += ctx.measureText(w).width + spaceWidth;
-                                            }
-                                        }
-                                    } else {
-                                        ctx.fillText(lineStr, textX, yOffset);
-                                    }
-                                })();
-                                line = words[n] + ' ';
-                                yOffset += 50; // Ajuste para a próxima linha
-                            } else {
-                                line = testLine;
-                            }
-                        }
-                        ctx.fillText(line, textX, yOffset);
+                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 50 + imageSize + 20, startY + 40);
 
                         // Números completos em retângulos brancos
+                        const numbersText = rowData.fullNumbers.join(' ');
+                        const textX = 50 + imageSize + 20;
                         const textY = startY + 85;
                         
                         // Medir o texto para criar o retângulo
                         ctx.font = 'bold 32px JetBrains Mono, monospace';
-                        const textMetrics = ctx.measureText(numbersTextForMeasurement);
+                        const textMetrics = ctx.measureText(numbersText);
                         const textWidth = textMetrics.width;
                         const textHeight = 40; // Altura aproximada da fonte
                         
@@ -1541,7 +1453,7 @@
                         
                         // Desenhar texto em preto
                         ctx.fillStyle = 'black';
-                        ctx.fillText(numbersTextForMeasurement, textX, textY);
+                        ctx.fillText(numbersText, textX, textY);
 
                         startY += rowHeight;
                     } catch (error) {
@@ -1733,64 +1645,20 @@
                             ctx.fill();
                         }
 
-                        ctx.font = 'bold 48px Inter, sans-serif';
+                        // Nome do animal e número do grupo
+                        ctx.font = 'bold 28px Inter, sans-serif';
                         ctx.fillStyle = 'white';
                         ctx.textAlign = 'left';
-                        const groupText = `${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`;
-                        const numbersTextForMeasurement = rowData.fullNumbers.join(' ');
-                        const prevFont = ctx.font;
-                        ctx.font = 'bold 32px JetBrains Mono, monospace';
-                        const numbersTextMetrics = ctx.measureText(numbersTextForMeasurement);
-                        const numbersTextWidth = numbersTextMetrics.width;
-                        ctx.font = prevFont;
-                        const textX = 50 + imageSize + 20;
-                        const textWidthForJustify = numbersTextWidth;
-
-                        const words = groupText.split(' ');
-                        let line = '';
-                        let yOffset = startY + 40;
-
-                        for (let n = 0; n < words.length; n++) {
-                            const testLine = line + words[n] + ' ';
-                            const metrics = ctx.measureText(testLine);
-                            const testWidth = metrics.width;
-                            if (testWidth > textWidthForJustify && n > 0) {
-                                (function() {
-                                    const lineStr = line.trim();
-                                    const parts = lineStr.split(" ");
-                                    if (parts.length > 1) {
-                                        // calcular largura das palavras sem espaços extras
-                                        let wordsWidth = 0;
-                                        parts.forEach(w => { wordsWidth += ctx.measureText(w).width; });
-                                        const gaps = parts.length - 1;
-                                        const extraSpace = Math.max(0, textWidthForJustify - wordsWidth);
-                                        const spaceWidth = extraSpace / gaps;
-                                        let cursorX = textX;
-                                        for (let i = 0; i < parts.length; i++) {
-                                            const w = parts[i];
-                                            ctx.fillText(w, cursorX, yOffset);
-                                            if (i < parts.length - 1) {
-                                                cursorX += ctx.measureText(w).width + spaceWidth;
-                                            }
-                                        }
-                                    } else {
-                                        ctx.fillText(lineStr, textX, yOffset);
-                                    }
-                                })();
-                                line = words[n] + ' ';
-                                yOffset += 50; // Ajuste para a próxima linha
-                            } else {
-                                line = testLine;
-                            }
-                        }
-                        ctx.fillText(line, textX, yOffset);
+                        ctx.fillText(`${rowData.grupoNome.toUpperCase()} GRUPO ${rowData.grupoNumero}`, 50 + imageSize + 20, startY + 40);
 
                         // Números completos em retângulos brancos
+                        const numbersText = rowData.fullNumbers.join(' ');
+                        const textX = 50 + imageSize + 20;
                         const textY = startY + 85;
                         
                         // Medir o texto para criar o retângulo
                         ctx.font = 'bold 32px JetBrains Mono, monospace';
-                        const textMetrics = ctx.measureText(numbersTextForMeasurement);
+                        const textMetrics = ctx.measureText(numbersText);
                         const textWidth = textMetrics.width;
                         const textHeight = 40; // Altura aproximada da fonte
                         
@@ -1805,7 +1673,7 @@
                         
                         // Desenhar texto em preto
                         ctx.fillStyle = 'black';
-                        ctx.fillText(numbersTextForMeasurement, textX, textY);
+                        ctx.fillText(numbersText, textX, textY);
 
                         startY += rowHeight;
                     } catch (error) {
