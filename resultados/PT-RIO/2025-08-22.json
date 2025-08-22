@@ -51,14 +51,29 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "2426": [
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2426"
+        ],
+        "2428": [
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2428"
+        ],
+        "2826": [
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2826"
+        ],
+        "2828": [
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2828"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐑"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1022, 1422, 1822, 2022, 2422, 2822, 7022, 7422, 7822"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2426, 2428, 2822, 2823, 2826, 2828"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,14 +126,29 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "2426": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2426"
+        ],
+        "2428": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2428"
+        ],
+        "2826": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2826"
+        ],
+        "2828": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2828"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐑"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1022, 1422, 1822, 2022, 2422, 2822, 7022, 7422, 7822"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2426, 2428, 2822, 2823, 2826, 2828"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -541,14 +571,33 @@
           "Bicho": "Coelho"
         }
       ],
-      "frases": {},
+      "frases": {
+        "2426": [
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2426",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 2426"
+        ],
+        "2428": [
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2428",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 2428"
+        ],
+        "2826": [
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2826",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 2826"
+        ],
+        "2828": [
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2828",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 2828"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐑"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1022, 1422, 1822, 2022, 2422, 2822, 7022, 7422, 7822"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2426, 2428, 2822, 2823, 2826, 2828"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -620,56 +669,50 @@
         }
       ],
       "frases": {
-        "1022": [
-          "Dezena no sexto prêmio!<br>com o palpite 1022",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 1022"
-        ],
-        "1422": [
-          "Milhar e Centena no sexto prêmio!<br>com o palpite 1422",
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 1422",
-          "Dezena no sexto prêmio!<br>com o palpite 1422",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 1422"
-        ],
-        "1822": [
-          "Dezena no sexto prêmio!<br>com o palpite 1822",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 1822"
-        ],
-        "2022": [
-          "Dezena no sexto prêmio!<br>com o palpite 2022",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2022"
-        ],
         "2422": [
           "Centena e Dezena no sexto prêmio!<br>com o palpite 2422",
           "Dezena no sexto prêmio!<br>com o palpite 2422",
           "CABRA 🐐 no sexto prêmio!<br>com o palpite 2422"
         ],
+        "2423": [
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2423"
+        ],
+        "2426": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2426",
+          "Dezena no nono prêmio!<br>com o palpite 2426",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 2426"
+        ],
+        "2428": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2428",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 2428"
+        ],
         "2822": [
           "Dezena no sexto prêmio!<br>com o palpite 2822",
           "CABRA 🐐 no sexto prêmio!<br>com o palpite 2822"
         ],
-        "7022": [
-          "Dezena no sexto prêmio!<br>com o palpite 7022",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 7022"
+        "2823": [
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2823"
         ],
-        "7422": [
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 7422",
-          "Dezena no sexto prêmio!<br>com o palpite 7422",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 7422"
+        "2826": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2826",
+          "Dezena no nono prêmio!<br>com o palpite 2826",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 2826"
         ],
-        "7822": [
-          "Dezena no sexto prêmio!<br>com o palpite 7822",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 7822"
+        "2828": [
+          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 2828",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 2828"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 3,
-        "Dezena": 9,
+        "Milhar": 0,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
+          "🐑",
           "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1022, 1422, 1822, 2022, 2422, 2822, 7022, 7422, 7822"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2426, 2428, 2822, 2823, 2826, 2828"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
