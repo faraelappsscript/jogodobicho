@@ -541,41 +541,14 @@
           "Bicho": "Coelho"
         }
       ],
-      "frases": {
-        "9042": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9042",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9042",
-          "Dezena no oitavo prêmio!<br>com o palpite 9042",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 9042"
-        ],
-        "9442": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9442",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 9442",
-          "Dezena no oitavo prêmio!<br>com o palpite 9442",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 9442"
-        ],
-        "0042": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0042",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 0042",
-          "Dezena no oitavo prêmio!<br>com o palpite 0042",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 0042"
-        ],
-        "0442": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0442",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 0442",
-          "Dezena no oitavo prêmio!<br>com o palpite 0442",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 0442"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 8,
-        "Grupo": [
-          "🐎"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0022, 0032, 0042, 0422, 0432, 0442, 9022, 9032, 9042, 9422, 9432, 9442"
+      "resumo": "Palpites dados para esta extração: 1022, 1422, 1822, 2022, 2422, 2822, 7022, 7422, 7822"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -647,47 +620,56 @@
         }
       ],
       "frases": {
-        "9022": [
-          "Dezena no sexto prêmio!<br>com o palpite 9022",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 9022"
+        "1022": [
+          "Dezena no sexto prêmio!<br>com o palpite 1022",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 1022"
         ],
-        "9042": [
-          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 9042"
+        "1422": [
+          "Milhar e Centena no sexto prêmio!<br>com o palpite 1422",
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 1422",
+          "Dezena no sexto prêmio!<br>com o palpite 1422",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 1422"
         ],
-        "9422": [
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 9422",
-          "Dezena no sexto prêmio!<br>com o palpite 9422",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 9422"
+        "1822": [
+          "Dezena no sexto prêmio!<br>com o palpite 1822",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 1822"
         ],
-        "9442": [
-          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 9442"
+        "2022": [
+          "Dezena no sexto prêmio!<br>com o palpite 2022",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2022"
         ],
-        "0042": [
-          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 0042"
+        "2422": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 2422",
+          "Dezena no sexto prêmio!<br>com o palpite 2422",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2422"
         ],
-        "0442": [
-          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 0442"
+        "2822": [
+          "Dezena no sexto prêmio!<br>com o palpite 2822",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2822"
         ],
-        "0022": [
-          "Dezena no sexto prêmio!<br>com o palpite 0022",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 0022"
+        "7022": [
+          "Dezena no sexto prêmio!<br>com o palpite 7022",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 7022"
         ],
-        "0422": [
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 0422",
-          "Dezena no sexto prêmio!<br>com o palpite 0422",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 0422"
+        "7422": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 7422",
+          "Dezena no sexto prêmio!<br>com o palpite 7422",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 7422"
+        ],
+        "7822": [
+          "Dezena no sexto prêmio!<br>com o palpite 7822",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 7822"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 4,
+        "Milhar": 1,
+        "Centena": 3,
+        "Dezena": 9,
         "Grupo": [
-          "🐎",
           "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0022, 0032, 0042, 0422, 0432, 0442, 9022, 9032, 9042, 9422, 9432, 9442"
+      "resumo": "Palpites dados para esta extração: 1022, 1422, 1822, 2022, 2422, 2822, 7022, 7422, 7822"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
