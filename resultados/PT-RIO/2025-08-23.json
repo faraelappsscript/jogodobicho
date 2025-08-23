@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0005, 0007, 0035, 0037, 0095, 0097"
+      "resumo": "Palpites dados para esta extração: 1210"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0005, 0007, 0035, 0037, 0095, 0097"
+      "resumo": "Palpites dados para esta extração: 1210"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -171,14 +171,20 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1210": [
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1210"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐴"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0005, 0007, 0035, 0037, 0095, 0097"
+      "resumo": "Palpites dados para esta extração: 1210"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -231,14 +237,22 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1210": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1210",
+          "Dezena no terceiro prêmio!<br>com o palpite 1210",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1210"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 1,
+        "Dezena": 1,
+        "Grupo": [
+          "🐴"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0005, 0007, 0035, 0037, 0095, 0097"
+      "resumo": "Palpites dados para esta extração: 1210"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
