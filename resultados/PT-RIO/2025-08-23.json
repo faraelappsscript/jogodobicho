@@ -190,61 +190,55 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "2698",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "1148",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "9139",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "6243",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "9222",
-          "Grupo": "06",
-          "Bicho": "Cabra"
+          "Milhar": "0210",
+          "Grupo": "03",
+          "Bicho": "Burro"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "5120",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
+          "Milhar": "7670",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "4090",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "8513",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "0269",
+          "Milhar": "3784",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "657",
+          "Milhar": "166",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1217": [
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1217"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐕"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1213, 1216, 1217, 1243, 1246, 1247, 1283, 1286, 1287"
+      "resumo": "Palpites dados para esta extração: 0005, 0007, 0035, 0037, 0095, 0097"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -403,6 +397,29 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 1213, 1216, 1217, 1243, 1246, 1247, 1283, 1286, 1287"
+    },
+    "A FEDERAL DO BRASIL - RJ": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   },
   "1-10": {
@@ -681,80 +698,91 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "2698",
+          "Milhar": "1148",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6243",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0210",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7670",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "8513",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "1607",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1226",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "4417",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "8300",
           "Grupo": "25",
           "Bicho": "Vaca"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "9139",
-          "Grupo": "10",
-          "Bicho": "Coelho"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "9222",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "5120",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "4090",
-          "Grupo": "23",
-          "Bicho": "Urso"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "2995",
-          "Grupo": "24",
-          "Bicho": "Veado"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "6121",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "9322",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "8920",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
           "Prêmio": "10º",
-          "Milhar": "7627",
-          "Grupo": "07",
-          "Bicho": "Carneiro"
+          "Milhar": "9334",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         }
       ],
       "frases": {
-        "1217": [
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1217",
-          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 1217"
+        "0005": [
+          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 0005"
+        ],
+        "0007": [
+          "Dezena no sexto prêmio!<br>com o palpite 0007",
+          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 0007"
+        ],
+        "0097": [
+          "VACA 🐄 no nono prêmio!<br>com o palpite 0097"
+        ],
+        "0035": [
+          "COBRA 🐍 no décimo prêmio!<br>com o palpite 0035"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
-          "🐕"
+          "🦅",
+          "🐄",
+          "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1213, 1216, 1217, 1243, 1246, 1247, 1283, 1286, 1287"
+      "resumo": "Palpites dados para esta extração: 0005, 0007, 0035, 0037, 0095, 0097"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -973,6 +1001,34 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 1213, 1216, 1217, 1243, 1246, 1247, 1283, 1286, 1287"
+    },
+    "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   }
 }
