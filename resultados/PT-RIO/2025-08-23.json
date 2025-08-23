@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5141"
+      "resumo": "Palpites dados para esta extração: 0101, 0107, 0131, 0137, 0141, 0147, 3101, 3107, 3131, 3137, 3141, 3147, 5101, 5107, 5131, 5137, 5141, 5147, 7101, 7107, 7131, 7137, 7141, 7147"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,14 +111,62 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "3131": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3131",
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 3131"
+        ],
+        "3147": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3147",
+          "Dezena no terceiro prêmio!<br>com o palpite 3147",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 3147",
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 3147",
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 3147"
+        ],
+        "5131": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5131",
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 5131"
+        ],
+        "5147": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 5147",
+          "Dezena no terceiro prêmio!<br>com o palpite 5147",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 5147",
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 5147",
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 5147"
+        ],
+        "7131": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7131",
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 7131"
+        ],
+        "7147": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 7147",
+          "Dezena no terceiro prêmio!<br>com o palpite 7147",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7147",
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 7147",
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 7147"
+        ],
+        "0131": [
+          "Dezena no primeiro prêmio!<br>com o palpite 0131",
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 0131"
+        ],
+        "0147": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 0147",
+          "Dezena no terceiro prêmio!<br>com o palpite 0147",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 0147",
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 0147",
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 0147"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 4,
+        "Dezena": 8,
+        "Grupo": [
+          "🐪",
+          "🐘"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 5141"
+      "resumo": "Palpites dados para esta extração: 0101, 0107, 0131, 0137, 0141, 0147, 3101, 3107, 3131, 3137, 3141, 3147, 5101, 5107, 5131, 5137, 5141, 5147, 7101, 7107, 7131, 7137, 7141, 7147"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -172,19 +220,45 @@
         }
       ],
       "frases": {
+        "3131": [
+          "Dezena no sexto prêmio!<br>com o palpite 3131",
+          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 3131"
+        ],
+        "3141": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3141"
+        ],
+        "5131": [
+          "Dezena no sexto prêmio!<br>com o palpite 5131",
+          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 5131"
+        ],
         "5141": [
           "CAVALO 🐎 no quinto prêmio!<br>com o palpite 5141"
+        ],
+        "7131": [
+          "Dezena no sexto prêmio!<br>com o palpite 7131",
+          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 7131"
+        ],
+        "7141": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 7141"
+        ],
+        "0141": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 0141"
+        ],
+        "0131": [
+          "Dezena no sexto prêmio!<br>com o palpite 0131",
+          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 0131"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 4,
         "Grupo": [
-          "🐎"
+          "🐎",
+          "🐪"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5141"
+      "resumo": "Palpites dados para esta extração: 0101, 0107, 0131, 0137, 0141, 0147, 3101, 3107, 3131, 3137, 3141, 3147, 5101, 5107, 5131, 5137, 5141, 5147, 7101, 7107, 7131, 7137, 7141, 7147"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -488,7 +562,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5141"
+      "resumo": "Palpites dados para esta extração: 0101, 0107, 0131, 0137, 0141, 0147, 3101, 3107, 3131, 3137, 3141, 3147, 5101, 5107, 5131, 5137, 5141, 5147, 7101, 7107, 7131, 7137, 7141, 7147"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -559,14 +633,75 @@
           "Bicho": "Avestruz"
         }
       ],
-      "frases": {},
+      "frases": {
+        "3101": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 3101"
+        ],
+        "3131": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3131",
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 3131"
+        ],
+        "3147": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3147",
+          "Dezena no terceiro prêmio!<br>com o palpite 3147",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 3147",
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 3147",
+          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 3147"
+        ],
+        "5101": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 5101"
+        ],
+        "5131": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5131",
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 5131"
+        ],
+        "5147": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 5147",
+          "Dezena no terceiro prêmio!<br>com o palpite 5147",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 5147",
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 5147",
+          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 5147"
+        ],
+        "7101": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 7101"
+        ],
+        "7131": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7131",
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 7131"
+        ],
+        "7147": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 7147",
+          "Dezena no terceiro prêmio!<br>com o palpite 7147",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 7147",
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 7147",
+          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 7147"
+        ],
+        "0131": [
+          "Dezena no primeiro prêmio!<br>com o palpite 0131",
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 0131"
+        ],
+        "0147": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 0147",
+          "Dezena no terceiro prêmio!<br>com o palpite 0147",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 0147",
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 0147",
+          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 0147"
+        ],
+        "0101": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 0101"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 4,
+        "Dezena": 8,
+        "Grupo": [
+          "🐪",
+          "🐘",
+          "🪶"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 5141"
+      "resumo": "Palpites dados para esta extração: 0101, 0107, 0131, 0137, 0141, 0147, 3101, 3107, 3131, 3137, 3141, 3147, 5101, 5107, 5131, 5137, 5141, 5147, 7101, 7107, 7131, 7137, 7141, 7147"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -638,8 +773,41 @@
         }
       ],
       "frases": {
+        "3107": [
+          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 3107"
+        ],
+        "3131": [
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 3131"
+        ],
+        "3141": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3141"
+        ],
+        "5107": [
+          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 5107"
+        ],
+        "5131": [
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 5131"
+        ],
         "5141": [
           "CAVALO 🐎 no quinto prêmio!<br>com o palpite 5141"
+        ],
+        "7107": [
+          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 7107"
+        ],
+        "7131": [
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 7131"
+        ],
+        "7141": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 7141"
+        ],
+        "0141": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 0141"
+        ],
+        "0131": [
+          "CAMELO 🐪 no sétimo prêmio!<br>com o palpite 0131"
+        ],
+        "0107": [
+          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 0107"
         ]
       },
       "acertos": {
@@ -647,10 +815,12 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐎"
+          "🐎",
+          "🐪",
+          "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5141"
+      "resumo": "Palpites dados para esta extração: 0101, 0107, 0131, 0137, 0141, 0147, 3101, 3107, 3131, 3137, 3141, 3147, 5101, 5107, 5131, 5137, 5141, 5147, 7101, 7107, 7131, 7137, 7141, 7147"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
