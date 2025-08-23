@@ -80,61 +80,55 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "1227",
-          "Grupo": "07",
-          "Bicho": "Carneiro"
+          "Milhar": "5231",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "4841",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "1561",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "2572",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "2147",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "2336",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "7261",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "7058",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "5448",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "8034",
+          "Milhar": "1648",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "939",
+          "Milhar": "165",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1243": [
-          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 1243"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐎"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1213, 1216, 1217, 1243, 1246, 1247, 1283, 1286, 1287"
+      "resumo": "Palpites dados para esta extração: 6988"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -528,79 +522,73 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "1227",
+          "Milhar": "5231",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1561",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "2147",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7261",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5448",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "5127",
           "Grupo": "07",
           "Bicho": "Carneiro"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "4841",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Prêmio": "7º",
+          "Milhar": "2512",
+          "Grupo": "03",
+          "Bicho": "Burro"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "2572",
+          "Prêmio": "8º",
+          "Milhar": "3646",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "1171",
           "Grupo": "18",
           "Bicho": "Porco"
         },
         {
-          "Prêmio": "4º",
-          "Milhar": "2336",
-          "Grupo": "09",
-          "Bicho": "Cobra"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "7058",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "1422",
-          "Grupo": "06",
-          "Bicho": "Cabra"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "2853",
-          "Grupo": "14",
-          "Bicho": "Gato"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "2473",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "7126",
-          "Grupo": "07",
-          "Bicho": "Carneiro"
-        },
-        {
           "Prêmio": "10º",
-          "Milhar": "1908",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "4104",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
         }
       ],
-      "frases": {
-        "1243": [
-          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 1243"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐎"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1213, 1216, 1217, 1243, 1246, 1247, 1283, 1286, 1287"
+      "resumo": "Palpites dados para esta extração: 6988"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
