@@ -608,33 +608,105 @@
         }
       ],
       "frases": {
+        "4447": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4447",
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4447",
+          "Dezena no sexto prêmio!<br>com o palpite 4447",
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 4447"
+        ],
+        "4448": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4448",
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 4448"
+        ],
+        "4467": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 4467",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 4467",
+          "MACACO 🐒 no nono prêmio!<br>com o palpite 4467"
+        ],
+        "4468": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 4468",
+          "Dezena no oitavo prêmio!<br>com o palpite 4468",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 4468",
+          "Dezena no nono prêmio!<br>com o palpite 4468",
+          "MACACO 🐒 no nono prêmio!<br>com o palpite 4468"
+        ],
+        "4487": [
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 4487"
+        ],
+        "4488": [
+          "Dezena no quarto prêmio!<br>com o palpite 4488",
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 4488"
+        ],
+        "5447": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5447",
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 5447",
+          "Dezena no sexto prêmio!<br>com o palpite 5447",
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 5447"
+        ],
+        "5448": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 5448",
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 5448"
+        ],
+        "5467": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 5467",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 5467",
+          "MACACO 🐒 no nono prêmio!<br>com o palpite 5467"
+        ],
+        "5468": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 5468",
+          "Dezena no oitavo prêmio!<br>com o palpite 5468",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 5468",
+          "Dezena no nono prêmio!<br>com o palpite 5468",
+          "MACACO 🐒 no nono prêmio!<br>com o palpite 5468"
+        ],
+        "5487": [
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 5487"
+        ],
+        "5488": [
+          "Dezena no quarto prêmio!<br>com o palpite 5488",
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 5488"
+        ],
         "7447": [
           "Dezena no primeiro prêmio!<br>com o palpite 7447",
           "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7447",
           "Dezena no sexto prêmio!<br>com o palpite 7447",
           "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 7447"
         ],
-        "7481": [
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 7481"
+        "7448": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7448",
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 7448"
         ],
-        "7484": [
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 7484"
+        "7467": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 7467",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 7467",
+          "MACACO 🐒 no nono prêmio!<br>com o palpite 7467"
+        ],
+        "7468": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 7468",
+          "Dezena no oitavo prêmio!<br>com o palpite 7468",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 7468",
+          "Dezena no nono prêmio!<br>com o palpite 7468",
+          "MACACO 🐒 no nono prêmio!<br>com o palpite 7468"
         ],
         "7487": [
           "TIGRE 🐅 no quarto prêmio!<br>com o palpite 7487"
+        ],
+        "7488": [
+          "Dezena no quarto prêmio!<br>com o palpite 7488",
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 7488"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 15,
         "Grupo": [
           "🐘",
-          "🐅",
-          "🐂"
+          "🐒",
+          "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7441, 7444, 7447, 7481, 7484, 7487"
+      "resumo": "Palpites dados para esta extração: 4447, 4448, 4467, 4468, 4487, 4488, 5447, 5448, 5467, 5468, 5487, 5488, 7447, 7448, 7467, 7468, 7487, 7488"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
