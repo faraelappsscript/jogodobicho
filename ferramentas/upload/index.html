@@ -35,11 +35,14 @@
         input[type="file"], input[type="text"] {
             width: 100%;
             padding: 10px;
-            border: 2px solid #ddd;
+            border: 1px solid #ddd;
             border-radius: 5px;
-            background-color: #fafafa;
+            box-sizing: border-box; /* Garante que o padding não afete a largura total */
         }
-        input[type="file"]:hover, input[type="text"]:hover {
+        input[type="file"] {
+             border-style: dashed;
+        }
+        input[type="file"]:hover, input[type="text"]:focus {
             border-color: #4285f4;
         }
         button {
@@ -82,6 +85,7 @@
             padding: 10px;
             border-radius: 5px;
             display: none;
+            word-break: break-word;
         }
         .success {
             background-color: #d4edda;
@@ -107,10 +111,12 @@
         <h1>Upload de Vídeo para Google Drive</h1>
         
         <form id="uploadForm">
+            <!-- NOVO: Campo para o título do vídeo -->
             <div class="form-group">
-                <label for="videoTitle">Título do Vídeo (máx. 100 caracteres):</label>
-                <input type="text" id="videoTitle" name="videoTitle" maxlength="100" placeholder="Digite o título do vídeo" required>
+                <label for="videoTitle">Título do Vídeo:</label>
+                <input type="text" id="videoTitle" name="videoTitle" placeholder="Digite o título aqui..." required maxlength="100">
             </div>
+
             <div class="form-group">
                 <label for="videoFile">Selecione um arquivo de vídeo:</label>
                 <input type="file" id="videoFile" name="videoFile" accept="video/*" required>
@@ -131,36 +137,31 @@
     </div>
 
     <script>
-        // URL do Google Apps Script Web App (substitua pela URL real)
+        // URL do seu Google Apps Script Web App
         const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxKysAzc01MekCkC0STUQ6wtl9DZwYZWuk1h65uVOymO0r8Jeh4cVlnvlVwBwFjQJ_j/exec';
         
-        const uploadForm = document.getElementById('uploadForm');
+        const uploadForm = document.getElementById('uploadForm' );
         const videoFile = document.getElementById('videoFile');
-        const videoTitle = document.getElementById('videoTitle');
+        const videoTitle = document.getElementById('videoTitle'); // NOVO: Referência ao campo de título
         const uploadBtn = document.getElementById('uploadBtn');
         const progressContainer = document.getElementById('progressContainer');
-        const progressFill = document.getElementById('progressFill');
-        const progressText = document.getElementById('progressText');
         const messageContainer = document.getElementById('messageContainer');
         const fileInfo = document.getElementById('fileInfo');
 
-        // Mostrar informações do arquivo selecionado
         videoFile.addEventListener('change', function(e) {
             const file = e.target.files[0];
             if (file) {
                 const fileSize = (file.size / (1024 * 1024)).toFixed(2);
                 fileInfo.innerHTML = `
-                    <strong>Arquivo selecionado:</strong><br>
-                    Nome: ${file.name}<br>
-                    Tamanho: ${fileSize} MB<br>
+                    <strong>Arquivo selecionado:</strong>  
+
+                    Nome: ${file.name}  
+
+                    Tamanho: ${fileSize} MB  
+
                     Tipo: ${file.type}
                 `;
                 fileInfo.style.display = 'block';
-                
-                // Verificar se o arquivo é muito grande (limite de exemplo: 100MB)
-                if (file.size > 100 * 1024 * 1024) {
-                    showMessage('Atenção: Arquivos muito grandes podem exceder o limite de tempo do Google Apps Script (6 minutos).', 'error');
-                }
             } else {
                 fileInfo.style.display = 'none';
             }
@@ -170,56 +171,52 @@
             e.preventDefault();
             
             const file = videoFile.files[0];
-            const title = videoTitle.value;
+            const title = videoTitle.value; // NOVO: Pega o valor do título
 
             if (!file) {
                 showMessage('Por favor, selecione um arquivo de vídeo.', 'error');
                 return;
             }
-
-            if (!title) {
-                showMessage('Por favor, digite um título para o vídeo.', 'error');
+            if (!title.trim()) { // NOVO: Validação do título
+                showMessage('Por favor, insira um título para o vídeo.', 'error');
                 return;
             }
 
-            // Desabilitar o botão e mostrar progresso
             uploadBtn.disabled = true;
             uploadBtn.textContent = 'Enviando...';
             progressContainer.style.display = 'block';
             messageContainer.style.display = 'none';
 
             try {
-                // Converter arquivo para base64
                 const base64Data = await fileToBase64(file);
                 
-                // Preparar dados para envio
-                const formData = new FormData();
-                formData.append('fileName', file.name);
-                formData.append('fileType', file.type);
-                formData.append('fileData', base64Data);
-                formData.append('videoTitle', title);
+                // NOVO: Usar URLSearchParams para construir o corpo da requisição
+                // Isso garante a codificação correta dos dados do formulário.
+                const body = new URLSearchParams();
+                body.append('fileName', file.name);
+                body.append('mimeType', file.type);
+                body.append('videoTitle', title); // Envia o título
+                body.append('fileData', base64Data);
 
-                // Enviar para o Google Apps Script
                 const response = await fetch(SCRIPT_URL, {
                     method: 'POST',
-                    body: formData
+                    body: body
                 });
 
-                const result = await response.text();
+                const resultText = await response.text();
                 
                 if (response.ok) {
-                    showMessage('Vídeo enviado com sucesso para o Google Drive!', 'success');
+                    showMessage(resultText, 'success');
                     uploadForm.reset();
                     fileInfo.style.display = 'none';
                 } else {
-                    throw new Error(result || 'Erro no servidor');
+                    throw new Error(resultText || 'Erro desconhecido no servidor');
                 }
 
             } catch (error) {
                 console.error('Erro no upload:', error);
                 showMessage(`Erro ao enviar o vídeo: ${error.message}`, 'error');
             } finally {
-                // Reabilitar o botão e esconder progresso
                 uploadBtn.disabled = false;
                 uploadBtn.textContent = 'Enviar Vídeo';
                 progressContainer.style.display = 'none';
@@ -231,7 +228,6 @@
                 const reader = new FileReader();
                 reader.readAsDataURL(file);
                 reader.onload = () => {
-                    // Remover o prefixo "data:video/mp4;base64," ou similar
                     const base64 = reader.result.split(',')[1];
                     resolve(base64);
                 };
@@ -247,4 +243,3 @@
     </script>
 </body>
 </html>
-
