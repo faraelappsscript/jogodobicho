@@ -32,14 +32,14 @@
             font-weight: bold;
             color: #555;
         }
-        input[type="file"] {
+        input[type="file"], input[type="text"] {
             width: 100%;
             padding: 10px;
-            border: 2px dashed #ddd;
+            border: 2px solid #ddd;
             border-radius: 5px;
             background-color: #fafafa;
         }
-        input[type="file"]:hover {
+        input[type="file"]:hover, input[type="text"]:hover {
             border-color: #4285f4;
         }
         button {
@@ -108,6 +108,10 @@
         
         <form id="uploadForm">
             <div class="form-group">
+                <label for="videoTitle">Título do Vídeo (máx. 100 caracteres):</label>
+                <input type="text" id="videoTitle" name="videoTitle" maxlength="100" placeholder="Digite o título do vídeo" required>
+            </div>
+            <div class="form-group">
                 <label for="videoFile">Selecione um arquivo de vídeo:</label>
                 <input type="file" id="videoFile" name="videoFile" accept="video/*" required>
                 <div class="file-info" id="fileInfo"></div>
@@ -132,6 +136,7 @@
         
         const uploadForm = document.getElementById('uploadForm');
         const videoFile = document.getElementById('videoFile');
+        const videoTitle = document.getElementById('videoTitle');
         const uploadBtn = document.getElementById('uploadBtn');
         const progressContainer = document.getElementById('progressContainer');
         const progressFill = document.getElementById('progressFill');
@@ -165,8 +170,15 @@
             e.preventDefault();
             
             const file = videoFile.files[0];
+            const title = videoTitle.value;
+
             if (!file) {
                 showMessage('Por favor, selecione um arquivo de vídeo.', 'error');
+                return;
+            }
+
+            if (!title) {
+                showMessage('Por favor, digite um título para o vídeo.', 'error');
                 return;
             }
 
@@ -185,6 +197,7 @@
                 formData.append('fileName', file.name);
                 formData.append('fileType', file.type);
                 formData.append('fileData', base64Data);
+                formData.append('videoTitle', title);
 
                 // Enviar para o Google Apps Script
                 const response = await fetch(SCRIPT_URL, {
