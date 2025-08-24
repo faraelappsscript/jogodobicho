@@ -343,74 +343,61 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "1299",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "7063",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "4257",
+          "Milhar": "9484",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4584",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8257",
           "Grupo": "15",
           "Bicho": "Jacaré"
         },
         {
-          "Prêmio": "3º",
-          "Milhar": "1847",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "3286",
-          "Grupo": "22",
-          "Bicho": "Tigre"
-        },
-        {
           "Prêmio": "5º",
-          "Milhar": "0205",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "7121",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "0894",
+          "Milhar": "6509",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "529",
+          "Milhar": "985",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
-        "1246": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 1246"
-        ],
-        "1247": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1247",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 1247"
-        ],
-        "1286": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 1286",
-          "Dezena no quarto prêmio!<br>com o palpite 1286",
-          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 1286"
-        ],
-        "1287": [
-          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 1287"
+        "1210": [
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 1210"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 2,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🐘",
-          "🐅"
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1213, 1216, 1217, 1243, 1246, 1247, 1283, 1286, 1287"
+      "resumo": "Palpites dados para esta extração: 1210"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -920,109 +907,73 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "1299",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "7063",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "4257",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "1847",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "3286",
-          "Grupo": "22",
-          "Bicho": "Tigre"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "0205",
-          "Grupo": "02",
-          "Bicho": "Águia"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "1413",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "2282",
+          "Milhar": "9484",
           "Grupo": "21",
           "Bicho": "Touro"
         },
         {
-          "Prêmio": "8º",
-          "Milhar": "9548",
+          "Prêmio": "3º",
+          "Milhar": "4584",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8257",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "7121",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7948",
           "Grupo": "12",
           "Bicho": "Elefante"
         },
         {
+          "Prêmio": "7º",
+          "Milhar": "0452",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6885",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
           "Prêmio": "9º",
-          "Milhar": "9776",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "3447",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "3913",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "5241",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         }
       ],
-      "frases": {
-        "1213": [
-          "Dezena no sexto prêmio!<br>com o palpite 1213",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1213",
-          "Dezena no décimo prêmio!<br>com o palpite 1213",
-          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 1213"
-        ],
-        "1216": [
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1216",
-          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 1216"
-        ],
-        "1246": [
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 1246",
-          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 1246"
-        ],
-        "1247": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1247",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 1247",
-          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 1247"
-        ],
-        "1283": [
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 1283"
-        ],
-        "1286": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 1286",
-          "Dezena no quarto prêmio!<br>com o palpite 1286",
-          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 1286"
-        ],
-        "1287": [
-          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 1287"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 4,
-        "Grupo": [
-          "🐘",
-          "🐅",
-          "🦋",
-          "🐂"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1213, 1216, 1217, 1243, 1246, 1247, 1283, 1286, 1287"
+      "resumo": "Palpites dados para esta extração: 1210"
     },
     "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
