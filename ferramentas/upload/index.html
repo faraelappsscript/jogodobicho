@@ -93,6 +93,7 @@
 
         // Função para exibir mensagens de feedback
         function showMessage(message, isError = false) {
+            console.log(`[Feedback] ${isError ? 'Erro' : 'Sucesso'}: ${message}`);
             const msgDiv = document.createElement('div');
             msgDiv.className = `p-4 mb-4 rounded-md ${isError ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'}`;
             msgDiv.textContent = message;
@@ -102,188 +103,306 @@
 
         // Função para carregar a lista de vídeos
         async function loadVideos() {
+            console.group('[loadVideos] Iniciando carregamento da lista de vídeos');
+            console.log(`[loadVideos] Enviando requisição GET para: ${WEB_APP_URL}?action=getVideos`);
             try {
                 const response = await fetch(`${WEB_APP_URL}?action=getVideos`);
+                console.log(`[loadVideos] Resposta recebida com status: ${response.status}`);
+                
+                if (!response.ok) {
+                    throw new Error(`Erro HTTP ${response.status}: ${response.statusText}`);
+                }
+
                 const videos = await response.json();
+                console.log('[loadVideos] Dados recebidos:', videos);
+
                 const tbody = document.getElementById('videosBody');
                 tbody.innerHTML = '';
                 videos.forEach((video, index) => {
+                    console.log(`[loadVideos] Processando vídeo ${index}:`, video);
                     const row = document.createElement('tr');
                     row.innerHTML = `
                         <td class="border p-2">${video.title}</td>
                         <td class="border p-2"><a href="${video.youtubeLink}" target="_blank">Assistir</a></td>
                         <td class="border p-2"><a href="${video.driveDownloadLink}" target="_blank">Download</a></td>
                         <td class="border p-2">
-                            <button class="editBtn bg-yellow-500 text-white p-1 rounded hover:bg-yellow-600" data-index="${index}" data-drivefileid="${video.driveFileId}">Editar</button>
+                            <button class="editBtn bg-yellow-500 text-white p-1 rounded hover:bg-yellow-600" data-index="${index}" data-drivefileid="${video.driveFileId || ''}">Editar</button>
                             <button class="deleteBtn bg-red-500 text-white p-1 rounded hover:bg-red-600" data-index="${index}">Excluir</button>
                         </td>
                     `;
                     tbody.appendChild(row);
                 });
 
+                console.log(`[loadVideos] ${videos.length} vídeos exibidos na tabela`);
+
                 // Adicionar eventos aos botões de edição e exclusão
                 document.querySelectorAll('.editBtn').forEach(btn => {
-                    btn.addEventListener('click', () => openEditModal(btn.dataset.index, videos[btn.dataset.index]));
+                    btn.addEventListener('click', () => {
+                        console.log(`[loadVideos] Botão de edição clicado para índice ${btn.dataset.index}`);
+                        openEditModal(btn.dataset.index, videos[btn.dataset.index]);
+                    });
                 });
                 document.querySelectorAll('.deleteBtn').forEach(btn => {
-                    btn.addEventListener('click', () => deleteVideo(btn.dataset.index));
+                    btn.addEventListener('click', () => {
+                        console.log(`[loadVideos] Botão de exclusão clicado para índice ${btn.dataset.index}`);
+                        deleteVideo(btn.dataset.index);
+                    });
                 });
+
+                console.groupEnd();
             } catch (error) {
+                console.error('[loadVideos] Erro ao carregar vídeos:', error);
                 showMessage('Erro ao carregar vídeos: ' + error.message, true);
+                console.groupEnd();
             }
         }
 
         // Função para abrir o modal de edição
         function openEditModal(index, video) {
+            console.group('[openEditModal] Abrindo modal de edição');
+            console.log(`[openEditModal] Índice: ${index}, Dados do vídeo:`, video);
             document.getElementById('editIndex').value = index;
             document.getElementById('editTitle').value = video.title;
             document.getElementById('editYoutubeLink').value = video.youtubeLink;
             document.getElementById('editDriveLink').value = video.driveDownloadLink;
             document.getElementById('editDriveFileId').value = video.driveFileId || '';
             document.getElementById('editModal').classList.remove('hidden');
+            console.log('[openEditModal] Modal aberto com valores preenchidos');
+            console.groupEnd();
         }
 
         // Função para fechar o modal de edição
         function closeEditModal() {
+            console.log('[closeEditModal] Fechando modal de edição');
             document.getElementById('editModal').classList.add('hidden');
         }
 
         // Função para excluir um vídeo
         async function deleteVideo(index) {
-            if (!confirm('Tem certeza que deseja excluir este vídeo?')) return;
+            console.group('[deleteVideo] Iniciando exclusão de vídeo');
+            console.log(`[deleteVideo] Índice do vídeo: ${index}`);
+            if (!confirm('Tem certeza que deseja excluir este vídeo?')) {
+                console.log('[deleteVideo] Exclusão cancelada pelo usuário');
+                console.groupEnd();
+                return;
+            }
+
             try {
+                console.log(`[deleteVideo] Enviando requisição para: ${WEB_APP_URL}?action=deleteVideo&index=${index}`);
                 const response = await fetch(`${WEB_APP_URL}?action=deleteVideo&index=${index}`);
+                console.log(`[deleteVideo] Resposta recebida com status: ${response.status}`);
+                
+                if (!response.ok) {
+                    throw new Error(`Erro HTTP ${response.status}: ${response.statusText}`);
+                }
+
                 const result = await response.json();
+                console.log('[deleteVideo] Resposta do servidor:', result);
+
                 if (result.status === 'success') {
                     showMessage(result.message);
+                    console.log('[deleteVideo] Vídeo excluído com sucesso, recarregando lista');
                     loadVideos();
                 } else {
-                    showMessage(result.message || 'Erro ao excluir vídeo.', true);
+                    throw new Error(result.message || 'Erro ao excluir vídeo');
                 }
+                console.groupEnd();
             } catch (error) {
+                console.error('[deleteVideo] Erro ao excluir vídeo:', error);
                 showMessage('Erro ao excluir vídeo: ' + error.message, true);
+                console.groupEnd();
             }
         }
 
         // Função para reordenar vídeos (drag-and-drop)
         function enableDragAndDrop() {
+            console.log('[enableDragAndDrop] Configurando drag-and-drop para reordenação');
             const tbody = document.getElementById('videosBody');
             let draggedRow = null;
 
             tbody.addEventListener('dragstart', (e) => {
                 draggedRow = e.target.closest('tr');
+                console.log(`[enableDragAndDrop] Iniciando arrasto da linha com índice: ${draggedRow.querySelector('.editBtn').dataset.index}`);
                 e.dataTransfer.setData('text/plain', '');
                 draggedRow.classList.add('opacity-50');
             });
 
             tbody.addEventListener('dragend', () => {
+                console.log('[enableDragAndDrop] Finalizando arrasto');
                 draggedRow.classList.remove('opacity-50');
                 draggedRow = null;
             });
 
             tbody.addEventListener('dragover', (e) => {
                 e.preventDefault();
+                console.log('[enableDragAndDrop] Evento dragover detectado');
             });
 
             tbody.addEventListener('drop', async (e) => {
                 e.preventDefault();
                 const targetRow = e.target.closest('tr');
+                console.log(`[enableDragAndDrop] Soltando na linha com índice: ${targetRow ? targetRow.querySelector('.editBtn').dataset.index : 'N/A'}`);
                 if (draggedRow && targetRow && draggedRow !== targetRow) {
                     const rows = Array.from(tbody.querySelectorAll('tr'));
                     const draggedIndex = rows.indexOf(draggedRow);
                     const targetIndex = rows.indexOf(targetRow);
+                    console.log(`[enableDragAndDrop] Movendo linha de índice ${draggedIndex} para posição ${targetIndex}`);
                     tbody.insertBefore(draggedRow, targetIndex > draggedIndex ? targetRow.nextSibling : targetRow);
 
-                    // Atualizar ordem no backend
                     const newOrder = Array.from(tbody.querySelectorAll('tr')).map(row => parseInt(row.querySelector('.editBtn').dataset.index));
+                    console.log('[enableDragAndDrop] Nova ordem dos vídeos:', newOrder);
+
                     try {
+                        console.log(`[enableDragAndDrop] Enviando requisição para: ${WEB_APP_URL}?action=reorderVideos&newOrder=${JSON.stringify(newOrder)}`);
                         const response = await fetch(`${WEB_APP_URL}?action=reorderVideos&newOrder=${JSON.stringify(newOrder)}`);
+                        console.log(`[enableDragAndDrop] Resposta recebida com status: ${response.status}`);
+                        
+                        if (!response.ok) {
+                            throw new Error(`Erro HTTP ${response.status}: ${response.statusText}`);
+                        }
+
                         const result = await response.json();
+                        console.log('[enableDragAndDrop] Resposta do servidor:', result);
+                        
                         if (result.status === 'success') {
                             showMessage(result.message);
                         } else {
-                            showMessage(result.message || 'Erro ao reordenar vídeos.', true);
+                            throw new Error(result.message || 'Erro ao reordenar vídeos');
                         }
                     } catch (error) {
+                        console.error('[enableDragAndDrop] Erro ao reordenar vídeos:', error);
                         showMessage('Erro ao reordenar vídeos: ' + error.message, true);
                     }
                 }
+                console.groupEnd();
             });
 
-            // Tornar linhas arrastáveis
             tbody.querySelectorAll('tr').forEach(row => {
                 row.draggable = true;
+                console.log(`[enableDragAndDrop] Linha com índice ${row.querySelector('.editBtn').dataset.index} configurada como arrastável`);
             });
         }
 
         // Evento de submit do formulário de upload
         document.getElementById('uploadForm').addEventListener('submit', async (e) => {
             e.preventDefault();
+            console.group('[uploadForm] Iniciando envio do formulário de upload');
             document.getElementById('processingModal').classList.remove('hidden');
+
             try {
                 const formData = new FormData(e.target);
+                console.log('[uploadForm] Dados do formulário:');
+                for (let [key, value] of formData.entries()) {
+                    console.log(`[uploadForm] ${key}: ${value instanceof File ? value.name : value}`);
+                }
+
+                console.log(`[uploadForm] Enviando requisição POST para: ${WEB_APP_URL}`);
                 const response = await fetch(WEB_APP_URL, {
                     method: 'POST',
                     body: formData
                 });
+                console.log(`[uploadForm] Resposta recebida com status: ${response.status}`);
+
                 const result = await response.text();
                 document.getElementById('processingModal').classList.add('hidden');
+                
                 try {
                     const jsonResult = JSON.parse(result);
+                    console.log('[uploadForm] Resposta do servidor:', jsonResult);
+                    
                     if (jsonResult.status === 'success') {
                         showMessage(jsonResult.message);
+                        console.log('[uploadForm] Vídeo processado com sucesso, recarregando lista');
                         e.target.reset();
                         loadVideos();
                     } else {
-                        showMessage(jsonResult.message || 'Erro ao processar vídeo.', true);
+                        throw new Error(jsonResult.message || 'Erro ao processar vídeo');
                     }
-                } catch {
+                } catch (parseError) {
+                    console.error('[uploadForm] Erro ao processar resposta do servidor:', parseError, 'Resposta bruta:', result);
                     showMessage(result, true);
                 }
+                console.groupEnd();
             } catch (error) {
+                console.error('[uploadForm] Erro ao enviar vídeo:', error);
                 document.getElementById('processingModal').classList.add('hidden');
                 showMessage('Erro ao enviar vídeo: ' + error.message, true);
+                console.groupEnd();
             }
         });
 
         // Evento de submit do formulário de edição
         document.getElementById('editForm').addEventListener('submit', async (e) => {
             e.preventDefault();
+            console.group('[editForm] Iniciando envio do formulário de edição');
             const formData = new FormData(e.target);
             const index = formData.get('index');
             const newTitle = formData.get('newTitle');
             const newYoutubeLink = formData.get('newYoutubeLink');
             const newDriveDownloadLink = formData.get('newDriveDownloadLink');
             const newDriveFileId = formData.get('newDriveFileId');
+            
+            console.log('[editForm] Dados do formulário:', {
+                index,
+                newTitle,
+                newYoutubeLink,
+                newDriveDownloadLink,
+                newDriveFileId
+            });
 
             try {
-                const response = await fetch(`${WEB_APP_URL}?action=updateVideo&index=${index}&newTitle=${encodeURIComponent(newTitle)}&newYoutubeLink=${encodeURIComponent(newYoutubeLink)}&newDriveDownloadLink=${encodeURIComponent(newDriveDownloadLink)}&newDriveFileId=${encodeURIComponent(newDriveFileId)}`);
+                const url = `${WEB_APP_URL}?action=updateVideo&index=${index}&newTitle=${encodeURIComponent(newTitle)}&newYoutubeLink=${encodeURIComponent(newYoutubeLink)}&newDriveDownloadLink=${encodeURIComponent(newDriveDownloadLink)}&newDriveFileId=${encodeURIComponent(newDriveFileId)}`;
+                console.log(`[editForm] Enviando requisição para: ${url}`);
+                const response = await fetch(url);
+                console.log(`[editForm] Resposta recebida com status: ${response.status}`);
+                
+                if (!response.ok) {
+                    throw new Error(`Erro HTTP ${response.status}: ${response.statusText}`);
+                }
+
                 const result = await response.json();
+                console.log('[editForm] Resposta do servidor:', result);
+                
                 if (result.status === 'success') {
                     showMessage(result.message);
+                    console.log('[editForm] Vídeo atualizado com sucesso, recarregando lista');
                     closeEditModal();
                     loadVideos();
                 } else {
-                    showMessage(result.message || 'Erro ao atualizar vídeo.', true);
+                    throw new Error(result.message || 'Erro ao atualizar vídeo');
                 }
+                console.groupEnd();
             } catch (error) {
+                console.error('[editForm] Erro ao atualizar vídeo:', error);
                 showMessage('Erro ao atualizar vídeo: ' + error.message, true);
+                console.groupEnd();
             }
         });
 
         // Evento de fechar o modal de edição
-        document.getElementById('closeEditModal').addEventListener('click', closeEditModal);
-        document.getElementById('cancelEdit').addEventListener('click', closeEditModal);
+        document.getElementById('closeEditModal').addEventListener('click', () => {
+            console.log('[closeEditModal] Botão de fechar modal clicado');
+            closeEditModal();
+        });
+        document.getElementById('cancelEdit').addEventListener('click', () => {
+            console.log('[cancelEdit] Botão de cancelar edição clicado');
+            closeEditModal();
+        });
 
         // Evento de atualizar lista
         document.getElementById('refreshList').addEventListener('click', () => {
+            console.log('[refreshList] Botão de atualizar lista clicado');
             loadVideos();
             showMessage('Lista de vídeos atualizada.');
         });
 
         // Inicializar a lista de vídeos e drag-and-drop
+        console.log('[main] Inicializando aplicação');
         loadVideos().then(() => {
+            console.log('[main] Lista de vídeos carregada, configurando drag-and-drop');
             enableDragAndDrop();
+        }).catch(error => {
+            console.error('[main] Erro ao inicializar aplicação:', error);
         });
     </script>
 </body>
