@@ -559,7 +559,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9305, 9315, 9355, 9505, 9515, 9555, 9905, 9915, 9955"
+      "resumo": "Palpites dados para esta extração: 9425, 9455"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -631,17 +631,9 @@
         }
       ],
       "frases": {
-        "9305": [
-          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 9305",
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 9305"
-        ],
-        "9505": [
-          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 9505",
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 9505"
-        ],
-        "9905": [
-          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 9905",
-          "ÁGUIA 🦅 no sétimo prêmio!<br>com o palpite 9905"
+        "9425": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9425",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 9425"
         ]
       },
       "acertos": {
@@ -649,10 +641,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🦅"
+          "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9305, 9315, 9355, 9505, 9515, 9555, 9905, 9915, 9955"
+      "resumo": "Palpites dados para esta extração: 9425, 9455"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -724,55 +716,20 @@
         }
       ],
       "frases": {
-        "9305": [
-          "Dezena no décimo prêmio!<br>com o palpite 9305",
-          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 9305"
-        ],
-        "9315": [
-          "Dezena no oitavo prêmio!<br>com o palpite 9315",
-          "BORBOLETA 🦋 no oitavo prêmio!<br>com o palpite 9315"
-        ],
-        "9355": [
-          "Dezena no quarto prêmio!<br>com o palpite 9355",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 9355"
-        ],
-        "9505": [
-          "Dezena no décimo prêmio!<br>com o palpite 9505",
-          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 9505"
-        ],
-        "9515": [
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 9515",
-          "Dezena no oitavo prêmio!<br>com o palpite 9515",
-          "BORBOLETA 🦋 no oitavo prêmio!<br>com o palpite 9515"
-        ],
-        "9555": [
-          "Dezena no quarto prêmio!<br>com o palpite 9555",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 9555"
-        ],
-        "9905": [
-          "Dezena no décimo prêmio!<br>com o palpite 9905",
-          "ÁGUIA 🦅 no décimo prêmio!<br>com o palpite 9905"
-        ],
-        "9915": [
-          "Dezena no oitavo prêmio!<br>com o palpite 9915",
-          "BORBOLETA 🦋 no oitavo prêmio!<br>com o palpite 9915"
-        ],
-        "9955": [
-          "Dezena no quarto prêmio!<br>com o palpite 9955",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 9955"
+        "9455": [
+          "Dezena no quarto prêmio!<br>com o palpite 9455",
+          "GATO 🐈 no quarto prêmio!<br>com o palpite 9455"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 9,
+        "Centena": 0,
+        "Dezena": 1,
         "Grupo": [
-          "🐈",
-          "🦋",
-          "🦅"
+          "🐈"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9305, 9315, 9355, 9505, 9515, 9555, 9905, 9915, 9955"
+      "resumo": "Palpites dados para esta extração: 9425, 9455"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -844,25 +801,26 @@
         }
       ],
       "frases": {
-        "9355": [
-          "GATO 🐈 no sétimo prêmio!<br>com o palpite 9355"
+        "9425": [
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9425",
+          "Dezena no quinto prêmio!<br>com o palpite 9425",
+          "CARNEIRO 🐑 no quinto prêmio!<br>com o palpite 9425",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 9425"
         ],
-        "9555": [
-          "GATO 🐈 no sétimo prêmio!<br>com o palpite 9555"
-        ],
-        "9955": [
-          "GATO 🐈 no sétimo prêmio!<br>com o palpite 9955"
+        "9455": [
+          "GATO 🐈 no sétimo prêmio!<br>com o palpite 9455"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
+          "🐑",
           "🐈"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9305, 9315, 9355, 9505, 9515, 9555, 9905, 9915, 9955"
+      "resumo": "Palpites dados para esta extração: 9425, 9455"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
