@@ -3,767 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerenciador de Vídeos - YouTube & Google Drive</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-
-        .header {
-            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
-
-        .header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            font-weight: 700;
-        }
-
-        .header p {
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-
-        .main-content {
-            padding: 40px;
-        }
-
-        .upload-section {
-            background: #f8f9fa;
-            border-radius: 15px;
-            padding: 30px;
-            margin-bottom: 40px;
-            border: 2px dashed #dee2e6;
-            transition: all 0.3s ease;
-        }
-
-        .upload-section:hover {
-            border-color: #667eea;
-            background: #f0f2ff;
-        }
-
-        .upload-form {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .form-group {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .form-group label {
-            font-weight: 600;
-            color: #333;
-            font-size: 1.1rem;
-        }
-
-        .form-group input[type="text"] {
-            padding: 15px;
-            border: 2px solid #e9ecef;
-            border-radius: 10px;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-        }
-
-        .form-group input[type="text"]:focus {
-            outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-        }
-
-        .file-input-wrapper {
-            position: relative;
-            display: inline-block;
-            width: 100%;
-        }
-
-        .file-input {
-            position: absolute;
-            opacity: 0;
-            width: 100%;
-            height: 100%;
-            cursor: pointer;
-        }
-
-        .file-input-label {
-            display: block;
-            padding: 20px;
-            background: #667eea;
-            color: white;
-            border-radius: 10px;
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 600;
-            font-size: 1.1rem;
-        }
-
-        .file-input-label:hover {
-            background: #5a6fd8;
-            transform: translateY(-2px);
-        }
-
-        .file-selected {
-            margin-top: 10px;
-            padding: 10px;
-            background: #d4edda;
-            border: 1px solid #c3e6cb;
-            border-radius: 5px;
-            color: #155724;
-            display: none;
-        }
-
-        .submit-btn {
-            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
-            color: white;
-            border: none;
-            padding: 18px 30px;
-            border-radius: 10px;
-            font-size: 1.2rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .submit-btn:hover:not(:disabled) {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(40, 167, 69, 0.3);
-        }
-
-        .submit-btn:disabled {
-            background: #6c757d;
-            cursor: not-allowed;
-            transform: none;
-        }
-
-        .loading {
-            display: none;
-            text-align: center;
-            padding: 30px;
-        }
-
-        .spinner {
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #667eea;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        .loading-text {
-            font-size: 1.2rem;
-            color: #667eea;
-            font-weight: 600;
-        }
-
-        .videos-section {
-            margin-top: 40px;
-        }
-
-        .videos-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .videos-header h2 {
-            color: #333;
-            font-size: 2rem;
-            font-weight: 700;
-        }
-
-        .refresh-btn {
-            background: #667eea;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
-
-        .refresh-btn:hover {
-            background: #5a6fd8;
-            transform: translateY(-1px);
-        }
-
-        .videos-list {
-            display: grid;
-            gap: 20px;
-        }
-
-        .video-item {
-            background: white;
-            border: 1px solid #e9ecef;
-            border-radius: 15px;
-            padding: 25px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease;
-        }
-
-        .video-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-        }
-
-        .video-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 15px;
-        }
-
-        .video-title {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 5px;
-        }
-
-        .video-links {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 15px;
-        }
-
-        .video-link {
-            padding: 8px 15px;
-            border-radius: 20px;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-        }
-
-        .youtube-link {
-            background: #ff0000;
-            color: white;
-        }
-
-        .youtube-link:hover {
-            background: #cc0000;
-            transform: translateY(-1px);
-        }
-
-        .drive-link {
-            background: #4285f4;
-            color: white;
-        }
-
-        .drive-link:hover {
-            background: #3367d6;
-            transform: translateY(-1px);
-        }
-
-        .video-actions {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-
-        .action-btn {
-            padding: 8px 15px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 500;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-        }
-
-        .edit-btn {
-            background: #ffc107;
-            color: #212529;
-        }
-
-        .edit-btn:hover {
-            background: #e0a800;
-            transform: translateY(-1px);
-        }
-
-        .delete-btn {
-            background: #dc3545;
-            color: white;
-        }
-
-        .delete-btn:hover {
-            background: #c82333;
-            transform: translateY(-1px);
-        }
-
-        .move-btn {
-            background: #6c757d;
-            color: white;
-        }
-
-        .move-btn:hover {
-            background: #5a6268;
-            transform: translateY(-1px);
-        }
-
-        .message {
-            padding: 15px;
-            border-radius: 8px;
-            margin: 20px 0;
-            font-weight: 500;
-        }
-
-        .message.success {
-            background: #d4edda;
-            border: 1px solid #c3e6cb;
-            color: #155724;
-        }
-
-        .message.error {
-            background: #f8d7da;
-            border: 1px solid #f5c6cb;
-            color: #721c24;
-        }
-
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-
-        .modal-content {
-            background-color: white;
-            margin: 15% auto;
-            padding: 30px;
-            border-radius: 15px;
-            width: 90%;
-            max-width: 500px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-        }
-
-        .modal-header {
-            margin-bottom: 20px;
-        }
-
-        .modal-header h3 {
-            color: #333;
-            font-size: 1.5rem;
-            font-weight: 600;
-        }
-
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-            line-height: 1;
-        }
-
-        .close:hover {
-            color: #333;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                margin: 10px;
-                border-radius: 15px;
-            }
-
-            .header h1 {
-                font-size: 2rem;
-            }
-
-            .main-content {
-                padding: 20px;
-            }
-
-            .upload-section {
-                padding: 20px;
-            }
-
-            .video-header {
-                flex-direction: column;
-                gap: 10px;
-            }
-
-            .video-actions {
-                justify-content: center;
-            }
-        }
-    </style>
+    <title>Gerenciador de Vídeos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>🎥 Gerenciador de Vídeos</h1>
-            <p>Upload para Google Drive e publicação automática no YouTube</p>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold text-center mb-4">🎥 Gerenciador de Vídeos</h1>
+        <p class="text-center mb-6">Upload para Google Drive e publicação automática no YouTube</p>
+
+        <!-- Formulário de Upload -->
+        <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+            <h2 class="text-xl font-semibold mb-4">📤 Enviar Novo Vídeo</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="mb-4">
+                    <label for="videoTitle" class="block text-sm font-medium text-gray-700">Título do Vídeo:</label>
+                    <input type="text" id="videoTitle" name="videoTitle" class="mt-1 p-2 w-full border rounded-md" required>
+                </div>
+                <div class="mb-4">
+                    <label for="videoFile" class="block text-sm font-medium text-gray-700">Arquivo de Vídeo:</label>
+                    <div class="mt-1 flex items-center">
+                        <input type="file" id="videoFile" name="videoFile" class="p-2 border rounded-md" accept="video/*" required>
+                        <span class="ml-2">📁 Escolher arquivo de vídeo</span>
+                    </div>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600">🚀 Enviar e Publicar</button>
+            </form>
         </div>
 
-        <div class="main-content">
-            <!-- Seção de Upload -->
-            <div class="upload-section" id="uploadSection">
-                <h2 style="margin-bottom: 20px; color: #333; font-size: 1.8rem;">📤 Enviar Novo Vídeo</h2>
-                <form class="upload-form" id="uploadForm">
-                    <div class="form-group">
-                        <label for="videoTitle">Título do Vídeo:</label>
-                        <input type="text" id="videoTitle" name="videoTitle" required placeholder="Digite o título do vídeo...">
+        <!-- Modal de Processamento -->
+        <div id="processingModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center hidden">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <p class="text-lg font-semibold">Processando vídeo... Aguarde!</p>
+                <p>Salvando no Google Drive, publicando no YouTube e atualizando GitHub...</p>
+            </div>
+        </div>
+
+        <!-- Lista de Vídeos -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-xl font-semibold">📋 Vídeos Gerenciados</h2>
+                <button id="refreshList" class="bg-green-500 text-white p-2 rounded-md hover:bg-green-600">🔄 Atualizar Lista</button>
+            </div>
+            <table id="videosTable" class="w-full border-collapse">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="border p-2">Título</th>
+                        <th class="border p-2">YouTube</th>
+                        <th class="border p-2">Google Drive</th>
+                        <th class="border p-2">Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="videosBody"></tbody>
+            </table>
+        </div>
+
+        <!-- Modal de Edição -->
+        <div id="editModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center hidden">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-lg font-semibold">✏️ Editar Vídeo</h2>
+                    <button id="closeEditModal" class="text-red-500">×</button>
+                </div>
+                <form id="editForm">
+                    <input type="hidden" id="editIndex" name="index">
+                    <input type="hidden" id="editDriveFileId" name="newDriveFileId">
+                    <div class="mb-4">
+                        <label for="editTitle" class="block text-sm font-medium text-gray-700">Título:</label>
+                        <input type="text" id="editTitle" name="newTitle" class="mt-1 p-2 w-full border rounded-md" required>
                     </div>
-                    <div class="form-group">
-                        <label>Arquivo de Vídeo:</label>
-                        <div class="file-input-wrapper">
-                            <input type="file" id="videoFile" name="videoFile" accept="video/*" class="file-input" required>
-                            <label for="videoFile" class="file-input-label">
-                                📁 Escolher arquivo de vídeo
-                            </label>
-                        </div>
-                        <div class="file-selected" id="fileSelected"></div>
+                    <div class="mb-4">
+                        <label for="editYoutubeLink" class="block text-sm font-medium text-gray-700">Link do YouTube:</label>
+                        <input type="text" id="editYoutubeLink" name="newYoutubeLink" class="mt-1 p-2 w-full border rounded-md" required>
                     </div>
-                    <button type="submit" class="submit-btn" id="submitBtn">🚀 Enviar e Publicar</button>
+                    <div class="mb-4">
+                        <label for="editDriveLink" class="block text-sm font-medium text-gray-700">Link do Google Drive:</label>
+                        <input type="text" id="editDriveLink" name="newDriveDownloadLink" class="mt-1 p-2 w-full border rounded-md" required>
+                    </div>
+                    <div class="flex justify-end">
+                        <button type="submit" class="bg-blue-500 text-white p-2 rounded-md mr-2 hover:bg-blue-600">💾 Salvar</button>
+                        <button type="button" id="cancelEdit" class="bg-red-500 text-white p-2 rounded-md hover:bg-red-600">❌ Cancelar</button>
+                    </div>
                 </form>
             </div>
-
-            <!-- Seção de Loading -->
-            <div class="loading" id="loadingSection">
-                <div class="spinner"></div>
-                <div class="loading-text">Processando vídeo... Aguarde!</div>
-                <p style="margin-top: 10px; color: #666;">Salvando no Google Drive, publicando no YouTube e atualizando GitHub...</p>
-            </div>
-
-            <!-- Mensagens -->
-            <div id="messageContainer"></div>
-
-            <!-- Seção de Vídeos -->
-            <div class="videos-section">
-                <div class="videos-header">
-                    <h2>📋 Vídeos Gerenciados</h2>
-                    <button class="refresh-btn" id="refreshBtn">🔄 Atualizar Lista</button>
-                </div>
-                <div class="videos-list" id="videosList">
-                    <!-- Vídeos serão carregados aqui -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal de Edição -->
-    <div id="editModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <span class="close">&times;</span>
-                <h3>✏️ Editar Vídeo</h3>
-            </div>
-            <form id="editForm">
-                <div class="form-group">
-                    <label for="editTitle">Título:</label>
-                    <input type="text" id="editTitle" required>
-                </div>
-                <div class="form-group">
-                    <label for="editYoutubeLink">Link do YouTube:</label>
-                    <input type="url" id="editYoutubeLink" required>
-                </div>
-                <div class="form-group">
-                    <label for="editDriveLink">Link do Google Drive:</label>
-                    <input type="url" id="editDriveLink" required>
-                </div>
-                <div style="display: flex; gap: 10px; margin-top: 20px;">
-                    <button type="submit" class="submit-btn" style="flex: 1;">💾 Salvar</button>
-                    <button type="button" class="action-btn delete-btn" onclick="closeEditModal()" style="flex: 1;">❌ Cancelar</button>
-                </div>
-            </form>
         </div>
     </div>
 
     <script>
-        // Configuração - SUBSTITUA PELA URL DO SEU GOOGLE APPS SCRIPT
-        const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzhJG9-e1YaVQ1hhymlfFdswQDureJ_nrUmfTPcjSpUEZzyQuKlfrIejBsMMXv7wbqsEA/exec';
-        
-        let currentVideos = [];
-        let editingIndex = -1;
+        const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbzhJG9-e1YaVQ1hhymlfFdswQDureJ_nrUmfTPcjSpUEZzyQuKlfrIejBsMMXv7wbqsEA/exec';
 
-        // Elementos DOM
-        const uploadForm = document.getElementById('uploadForm');
-        const uploadSection = document.getElementById('uploadSection');
-        const loadingSection = document.getElementById('loadingSection');
-        const messageContainer = document.getElementById('messageContainer');
-        const videosList = document.getElementById('videosList');
-        const refreshBtn = document.getElementById('refreshBtn');
-        const videoFileInput = document.getElementById('videoFile');
-        const fileSelected = document.getElementById('fileSelected');
-        const editModal = document.getElementById('editModal');
-        const editForm = document.getElementById('editForm');
-
-        // Event Listeners
-        uploadForm.addEventListener('submit', handleUpload);
-        refreshBtn.addEventListener('click', loadVideos);
-        videoFileInput.addEventListener('change', handleFileSelect);
-        editForm.addEventListener('submit', handleEditSubmit);
-
-        // Fechar modal ao clicar no X
-        document.querySelector('.close').addEventListener('click', closeEditModal);
-
-        // Fechar modal ao clicar fora dele
-        window.addEventListener('click', function(event) {
-            if (event.target === editModal) {
-                closeEditModal();
-            }
-        });
-
-        // Carregar vídeos ao inicializar a página
-        document.addEventListener('DOMContentLoaded', loadVideos);
-
-        function handleFileSelect() {
-            const file = videoFileInput.files[0];
-            if (file) {
-                fileSelected.textContent = `Arquivo selecionado: ${file.name} (${formatFileSize(file.size)})`;
-                fileSelected.style.display = 'block';
-            } else {
-                fileSelected.style.display = 'none';
-            }
+        // Função para exibir mensagens de feedback
+        function showMessage(message, isError = false) {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = `p-4 mb-4 rounded-md ${isError ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'}`;
+            msgDiv.textContent = message;
+            document.querySelector('.container').prepend(msgDiv);
+            setTimeout(() => msgDiv.remove(), 5000);
         }
 
-        function formatFileSize(bytes) {
-            if (bytes === 0) return '0 Bytes';
-            const k = 1024;
-            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
-            const i = Math.floor(Math.log(bytes) / Math.log(k));
-            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
-        }
-
-        async function handleUpload(event) {
-            event.preventDefault();
-            
-            const formData = new FormData();
-            const videoFile = document.getElementById('videoFile').files[0];
-            const videoTitle = document.getElementById('videoTitle').value;
-
-            if (!videoFile || !videoTitle) {
-                showMessage('Por favor, preencha todos os campos.', 'error');
-                return;
-            }
-
-            // Mostrar loading e ocultar formulário
-            uploadSection.style.display = 'none';
-            loadingSection.style.display = 'block';
-
-            formData.append('videoFile', videoFile);
-            formData.append('videoTitle', videoTitle);
-
-            try {
-                const response = await fetch(APPS_SCRIPT_URL, {
-                    method: 'POST',
-                    body: formData
-                });
-
-                const result = await response.text();
-                
-                try {
-                    const jsonResult = JSON.parse(result);
-                    if (jsonResult.status === 'success') {
-                        showMessage('Vídeo processado com sucesso! 🎉', 'success');
-                        uploadForm.reset();
-                        fileSelected.style.display = 'none';
-                        loadVideos(); // Recarregar lista de vídeos
-                    } else {
-                        showMessage(`Erro: ${jsonResult.message}`, 'error');
-                    }
-                } catch (e) {
-                    if (result.includes('success')) {
-                        showMessage('Vídeo processado com sucesso! 🎉', 'success');
-                        uploadForm.reset();
-                        fileSelected.style.display = 'none';
-                        loadVideos();
-                    } else {
-                        showMessage(`Erro no processamento: ${result}`, 'error');
-                    }
-                }
-            } catch (error) {
-                showMessage(`Erro na requisição: ${error.message}`, 'error');
-            } finally {
-                // Ocultar loading e mostrar formulário
-                loadingSection.style.display = 'none';
-                uploadSection.style.display = 'block';
-            }
-        }
-
+        // Função para carregar a lista de vídeos
         async function loadVideos() {
             try {
-                const response = await fetch(`${APPS_SCRIPT_URL}?action=getVideos`);
+                const response = await fetch(`${WEB_APP_URL}?action=getVideos`);
                 const videos = await response.json();
-                currentVideos = videos;
-                displayVideos(videos);
+                const tbody = document.getElementById('videosBody');
+                tbody.innerHTML = '';
+                videos.forEach((video, index) => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td class="border p-2">${video.title}</td>
+                        <td class="border p-2"><a href="${video.youtubeLink}" target="_blank">Assistir</a></td>
+                        <td class="border p-2"><a href="${video.driveDownloadLink}" target="_blank">Download</a></td>
+                        <td class="border p-2">
+                            <button class="editBtn bg-yellow-500 text-white p-1 rounded hover:bg-yellow-600" data-index="${index}" data-drivefileid="${video.driveFileId}">Editar</button>
+                            <button class="deleteBtn bg-red-500 text-white p-1 rounded hover:bg-red-600" data-index="${index}">Excluir</button>
+                        </td>
+                    `;
+                    tbody.appendChild(row);
+                });
+
+                // Adicionar eventos aos botões de edição e exclusão
+                document.querySelectorAll('.editBtn').forEach(btn => {
+                    btn.addEventListener('click', () => openEditModal(btn.dataset.index, videos[btn.dataset.index]));
+                });
+                document.querySelectorAll('.deleteBtn').forEach(btn => {
+                    btn.addEventListener('click', () => deleteVideo(btn.dataset.index));
+                });
             } catch (error) {
-                showMessage(`Erro ao carregar vídeos: ${error.message}`, 'error');
-                videosList.innerHTML = '<p style="text-align: center; color: #666; padding: 20px;">Erro ao carregar vídeos.</p>';
+                showMessage('Erro ao carregar vídeos: ' + error.message, true);
             }
         }
 
-        function displayVideos(videos) {
-            if (!videos || videos.length === 0) {
-                videosList.innerHTML = '<p style="text-align: center; color: #666; padding: 20px;">Nenhum vídeo encontrado.</p>';
-                return;
-            }
-
-            videosList.innerHTML = videos.map((video, index) => `
-                <div class="video-item" data-index="${index}">
-                    <div class="video-header">
-                        <div>
-                            <div class="video-title">${video.title}</div>
-                            <div style="color: #666; font-size: 0.9rem;">Posição: ${index + 1}</div>
-                        </div>
-                    </div>
-                    <div class="video-links">
-                        <a href="${video.youtubeLink}" target="_blank" class="video-link youtube-link">📺 YouTube</a>
-                        <a href="${video.driveDownloadLink}" target="_blank" class="video-link drive-link">💾 Download</a>
-                    </div>
-                    <div class="video-actions">
-                        <button class="action-btn edit-btn" onclick="editVideo(${index})">✏️ Editar</button>
-                        <button class="action-btn delete-btn" onclick="deleteVideo(${index})">🗑️ Excluir</button>
-                        <button class="action-btn move-btn" onclick="moveUp(${index})" ${index === 0 ? 'disabled' : ''}>⬆️ Subir</button>
-                        <button class="action-btn move-btn" onclick="moveDown(${index})" ${index === videos.length - 1 ? 'disabled' : ''}>⬇️ Descer</button>
-                    </div>
-                </div>
-            `).join('');
-        }
-
-        function editVideo(index) {
-            const video = currentVideos[index];
-            editingIndex = index;
-            
+        // Função para abrir o modal de edição
+        function openEditModal(index, video) {
+            document.getElementById('editIndex').value = index;
             document.getElementById('editTitle').value = video.title;
             document.getElementById('editYoutubeLink').value = video.youtubeLink;
             document.getElementById('editDriveLink').value = video.driveDownloadLink;
-            
-            editModal.style.display = 'block';
+            document.getElementById('editDriveFileId').value = video.driveFileId || '';
+            document.getElementById('editModal').classList.remove('hidden');
         }
 
+        // Função para fechar o modal de edição
         function closeEditModal() {
-            editModal.style.display = 'none';
-            editingIndex = -1;
+            document.getElementById('editModal').classList.add('hidden');
         }
 
-        async function handleEditSubmit(event) {
-            event.preventDefault();
-            
-            if (editingIndex === -1) return;
+        // Função para excluir um vídeo
+        async function deleteVideo(index) {
+            if (!confirm('Tem certeza que deseja excluir este vídeo?')) return;
+            try {
+                const response = await fetch(`${WEB_APP_URL}?action=deleteVideo&index=${index}`);
+                const result = await response.json();
+                if (result.status === 'success') {
+                    showMessage(result.message);
+                    loadVideos();
+                } else {
+                    showMessage(result.message || 'Erro ao excluir vídeo.', true);
+                }
+            } catch (error) {
+                showMessage('Erro ao excluir vídeo: ' + error.message, true);
+            }
+        }
 
-            const newTitle = document.getElementById('editTitle').value;
-            const newYoutubeLink = document.getElementById('editYoutubeLink').value;
-            const newDriveLink = document.getElementById('editDriveLink').value;
+        // Função para reordenar vídeos (drag-and-drop)
+        function enableDragAndDrop() {
+            const tbody = document.getElementById('videosBody');
+            let draggedRow = null;
+
+            tbody.addEventListener('dragstart', (e) => {
+                draggedRow = e.target.closest('tr');
+                e.dataTransfer.setData('text/plain', '');
+                draggedRow.classList.add('opacity-50');
+            });
+
+            tbody.addEventListener('dragend', () => {
+                draggedRow.classList.remove('opacity-50');
+                draggedRow = null;
+            });
+
+            tbody.addEventListener('dragover', (e) => {
+                e.preventDefault();
+            });
+
+            tbody.addEventListener('drop', async (e) => {
+                e.preventDefault();
+                const targetRow = e.target.closest('tr');
+                if (draggedRow && targetRow && draggedRow !== targetRow) {
+                    const rows = Array.from(tbody.querySelectorAll('tr'));
+                    const draggedIndex = rows.indexOf(draggedRow);
+                    const targetIndex = rows.indexOf(targetRow);
+                    tbody.insertBefore(draggedRow, targetIndex > draggedIndex ? targetRow.nextSibling : targetRow);
+
+                    // Atualizar ordem no backend
+                    const newOrder = Array.from(tbody.querySelectorAll('tr')).map(row => parseInt(row.querySelector('.editBtn').dataset.index));
+                    try {
+                        const response = await fetch(`${WEB_APP_URL}?action=reorderVideos&newOrder=${JSON.stringify(newOrder)}`);
+                        const result = await response.json();
+                        if (result.status === 'success') {
+                            showMessage(result.message);
+                        } else {
+                            showMessage(result.message || 'Erro ao reordenar vídeos.', true);
+                        }
+                    } catch (error) {
+                        showMessage('Erro ao reordenar vídeos: ' + error.message, true);
+                    }
+                }
+            });
+
+            // Tornar linhas arrastáveis
+            tbody.querySelectorAll('tr').forEach(row => {
+                row.draggable = true;
+            });
+        }
+
+        // Evento de submit do formulário de upload
+        document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            document.getElementById('processingModal').classList.remove('hidden');
+            try {
+                const formData = new FormData(e.target);
+                const response = await fetch(WEB_APP_URL, {
+                    method: 'POST',
+                    body: formData
+                });
+                const result = await response.text();
+                document.getElementById('processingModal').classList.add('hidden');
+                try {
+                    const jsonResult = JSON.parse(result);
+                    if (jsonResult.status === 'success') {
+                        showMessage(jsonResult.message);
+                        e.target.reset();
+                        loadVideos();
+                    } else {
+                        showMessage(jsonResult.message || 'Erro ao processar vídeo.', true);
+                    }
+                } catch {
+                    showMessage(result, true);
+                }
+            } catch (error) {
+                document.getElementById('processingModal').classList.add('hidden');
+                showMessage('Erro ao enviar vídeo: ' + error.message, true);
+            }
+        });
+
+        // Evento de submit do formulário de edição
+        document.getElementById('editForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const index = formData.get('index');
+            const newTitle = formData.get('newTitle');
+            const newYoutubeLink = formData.get('newYoutubeLink');
+            const newDriveDownloadLink = formData.get('newDriveDownloadLink');
+            const newDriveFileId = formData.get('newDriveFileId');
 
             try {
-                const response = await fetch(`${APPS_SCRIPT_URL}?action=updateVideo&index=${editingIndex}&newTitle=${encodeURIComponent(newTitle)}&newYoutubeLink=${encodeURIComponent(newYoutubeLink)}&newDriveDownloadLink=${encodeURIComponent(newDriveLink)}`);
+                const response = await fetch(`${WEB_APP_URL}?action=updateVideo&index=${index}&newTitle=${encodeURIComponent(newTitle)}&newYoutubeLink=${encodeURIComponent(newYoutubeLink)}&newDriveDownloadLink=${encodeURIComponent(newDriveDownloadLink)}&newDriveFileId=${encodeURIComponent(newDriveFileId)}`);
                 const result = await response.json();
-                
                 if (result.status === 'success') {
-                    showMessage('Vídeo atualizado com sucesso! ✅', 'success');
+                    showMessage(result.message);
                     closeEditModal();
                     loadVideos();
                 } else {
-                    showMessage(`Erro ao atualizar: ${result.message}`, 'error');
+                    showMessage(result.message || 'Erro ao atualizar vídeo.', true);
                 }
             } catch (error) {
-                showMessage(`Erro na requisição: ${error.message}`, 'error');
+                showMessage('Erro ao atualizar vídeo: ' + error.message, true);
             }
-        }
+        });
 
-        async function deleteVideo(index) {
-            if (!confirm('Tem certeza que deseja excluir este vídeo?')) return;
+        // Evento de fechar o modal de edição
+        document.getElementById('closeEditModal').addEventListener('click', closeEditModal);
+        document.getElementById('cancelEdit').addEventListener('click', closeEditModal);
 
-            try {
-                const response = await fetch(`${APPS_SCRIPT_URL}?action=deleteVideo&index=${index}`);
-                const result = await response.json();
-                
-                if (result.status === 'success') {
-                    showMessage('Vídeo excluído com sucesso! 🗑️', 'success');
-                    loadVideos();
-                } else {
-                    showMessage(`Erro ao excluir: ${result.message}`, 'error');
-                }
-            } catch (error) {
-                showMessage(`Erro na requisição: ${error.message}`, 'error');
-            }
-        }
+        // Evento de atualizar lista
+        document.getElementById('refreshList').addEventListener('click', () => {
+            loadVideos();
+            showMessage('Lista de vídeos atualizada.');
+        });
 
-        async function moveUp(index) {
-            if (index === 0) return;
-            await reorderVideos(index, index - 1);
-        }
-
-        async function moveDown(index) {
-            if (index === currentVideos.length - 1) return;
-            await reorderVideos(index, index + 1);
-        }
-
-        async function reorderVideos(fromIndex, toIndex) {
-            const newOrder = [...Array(currentVideos.length).keys()];
-            const [removed] = newOrder.splice(fromIndex, 1);
-            newOrder.splice(toIndex, 0, removed);
-
-            try {
-                const response = await fetch(`${APPS_SCRIPT_URL}?action=reorderVideos&newOrder=${encodeURIComponent(JSON.stringify(newOrder))}`);
-                const result = await response.json();
-                
-                if (result.status === 'success') {
-                    showMessage('Ordem dos vídeos atualizada! 🔄', 'success');
-                    loadVideos();
-                } else {
-                    showMessage(`Erro ao reordenar: ${result.message}`, 'error');
-                }
-            } catch (error) {
-                showMessage(`Erro na requisição: ${error.message}`, 'error');
-            }
-        }
-
-        function showMessage(message, type) {
-            const messageDiv = document.createElement('div');
-            messageDiv.className = `message ${type}`;
-            messageDiv.textContent = message;
-            
-            messageContainer.innerHTML = '';
-            messageContainer.appendChild(messageDiv);
-            
-            // Remover mensagem após 5 segundos
-            setTimeout(() => {
-                messageDiv.remove();
-            }, 5000);
-        }
+        // Inicializar a lista de vídeos e drag-and-drop
+        loadVideos().then(() => {
+            enableDragAndDrop();
+        });
     </script>
 </body>
 </html>
-
