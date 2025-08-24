@@ -122,38 +122,34 @@
         }
       ],
       "frases": {
-        "7441": [
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 7441"
+        "4368": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 4368"
         ],
-        "7444": [
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 7444"
+        "4468": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 4468"
         ],
-        "7447": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7447",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7447"
+        "4868": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 4868"
         ],
-        "7481": [
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 7481"
+        "5368": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 5368"
         ],
-        "7484": [
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 7484"
+        "5468": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 5468"
         ],
-        "7487": [
-          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 7487"
+        "5868": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 5868"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐘",
-          "🐅",
-          "🐂",
-          "🐎"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7441, 7444, 7447, 7481, 7484, 7487"
+      "resumo": "Palpites dados para esta extração: 4368, 4468, 4868, 5368, 5468, 5868"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
