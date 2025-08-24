@@ -80,59 +80,77 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "6680",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "5947",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "9968",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "6988",
-          "Grupo": "22",
-          "Bicho": "Tigre"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "8958",
+          "Milhar": "3458",
           "Grupo": "15",
           "Bicho": "Jacaré"
         },
         {
-          "Prêmio": "5º",
-          "Milhar": "6365",
+          "Prêmio": "3º",
+          "Milhar": "4766",
           "Grupo": "17",
           "Bicho": "Macaco"
         },
         {
+          "Prêmio": "4º",
+          "Milhar": "7088",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5883",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
           "Prêmio": "6º [soma]",
-          "Milhar": "8959",
+          "Milhar": "7142",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "586",
+          "Milhar": "564",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
+        "7441": [
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 7441"
+        ],
+        "7444": [
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 7444"
+        ],
+        "7447": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7447",
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7447"
+        ],
+        "7481": [
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 7481"
+        ],
+        "7484": [
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 7484"
+        ],
         "7487": [
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 7487",
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 7487"
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 7487"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
-          "🐅"
+          "🐘",
+          "🐅",
+          "🐂",
+          "🐎"
         ]
       },
       "resumo": "Palpites dados para esta extração: 7441, 7444, 7447, 7481, 7484, 7487"
@@ -530,78 +548,90 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "6680",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "5947",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "9968",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "6988",
-          "Grupo": "22",
-          "Bicho": "Tigre"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "8958",
+          "Milhar": "3458",
           "Grupo": "15",
           "Bicho": "Jacaré"
         },
         {
-          "Prêmio": "5º",
-          "Milhar": "6365",
+          "Prêmio": "3º",
+          "Milhar": "4766",
           "Grupo": "17",
           "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7088",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5883",
+          "Grupo": "21",
+          "Bicho": "Touro"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "6968",
+          "Milhar": "5347",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "9470",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "4568",
           "Grupo": "17",
           "Bicho": "Macaco"
         },
         {
-          "Prêmio": "7º",
-          "Milhar": "6999",
-          "Grupo": "25",
-          "Bicho": "Vaca"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "8685",
-          "Grupo": "22",
-          "Bicho": "Tigre"
-        },
-        {
           "Prêmio": "9º",
-          "Milhar": "0888",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "7868",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "2499",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "4395",
+          "Grupo": "24",
+          "Bicho": "Veado"
         }
       ],
       "frases": {
+        "7447": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7447",
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7447",
+          "Dezena no sexto prêmio!<br>com o palpite 7447",
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 7447"
+        ],
+        "7481": [
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 7481"
+        ],
+        "7484": [
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 7484"
+        ],
         "7487": [
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 7487",
-          "TIGRE 🐅 no oitavo prêmio!<br>com o palpite 7487",
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 7487"
+          "TIGRE 🐅 no quarto prêmio!<br>com o palpite 7487"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 2,
         "Grupo": [
-          "🐅"
+          "🐘",
+          "🐅",
+          "🐂"
         ]
       },
       "resumo": "Palpites dados para esta extração: 7441, 7444, 7447, 7481, 7484, 7487"
