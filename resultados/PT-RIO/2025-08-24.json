@@ -128,7 +128,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9305, 9315, 9355, 9505, 9515, 9555, 9905, 9915, 9955"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2424, 2428"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -181,14 +181,31 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "2422": [
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2422"
+        ],
+        "2423": [
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2423"
+        ],
+        "2424": [
+          "Dezena no sexto prêmio!<br>com o palpite 2424",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2424"
+        ],
+        "2428": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 2428"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 1,
+        "Grupo": [
+          "🐑",
+          "🐐"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9305, 9315, 9355, 9505, 9515, 9555, 9905, 9915, 9955"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2424, 2428"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -241,29 +258,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "9355": [
-          "Dezena no quarto prêmio!<br>com o palpite 9355",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 9355"
-        ],
-        "9555": [
-          "Dezena no quarto prêmio!<br>com o palpite 9555",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 9555"
-        ],
-        "9955": [
-          "Dezena no quarto prêmio!<br>com o palpite 9955",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 9955"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
-        "Grupo": [
-          "🐈"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9305, 9315, 9355, 9505, 9515, 9555, 9905, 9915, 9955"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2424, 2428"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -316,14 +318,34 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "2422": [
+          "Dezena no sétimo prêmio!<br>com o palpite 2422",
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 2422"
+        ],
+        "2423": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 2423"
+        ],
+        "2424": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 2424"
+        ],
+        "2428": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 2428",
+          "Dezena no quarto prêmio!<br>com o palpite 2428",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2428",
+          "CARNEIRO 🐑 no quinto prêmio!<br>com o palpite 2428"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 1,
+        "Dezena": 2,
+        "Grupo": [
+          "🐑",
+          "🐐"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9305, 9315, 9355, 9505, 9515, 9555, 9905, 9915, 9955"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2424, 2428"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -559,7 +581,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9425, 9455"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2424, 2428"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -631,9 +653,9 @@
         }
       ],
       "frases": {
-        "9425": [
-          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9425",
-          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 9425"
+        "2428": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 2428",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 2428"
         ]
       },
       "acertos": {
@@ -644,7 +666,7 @@
           "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9425, 9455"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2424, 2428"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -715,21 +737,14 @@
           "Bicho": "Águia"
         }
       ],
-      "frases": {
-        "9455": [
-          "Dezena no quarto prêmio!<br>com o palpite 9455",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 9455"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
-        "Grupo": [
-          "🐈"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9425, 9455"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2424, 2428"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -801,26 +816,24 @@
         }
       ],
       "frases": {
-        "9425": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 9425",
-          "Dezena no quinto prêmio!<br>com o palpite 9425",
-          "CARNEIRO 🐑 no quinto prêmio!<br>com o palpite 9425",
-          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 9425"
-        ],
-        "9455": [
-          "GATO 🐈 no sétimo prêmio!<br>com o palpite 9455"
+        "2428": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 2428",
+          "Dezena no quarto prêmio!<br>com o palpite 2428",
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 2428",
+          "CARNEIRO 🐑 no quinto prêmio!<br>com o palpite 2428",
+          "Dezena no nono prêmio!<br>com o palpite 2428",
+          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 2428"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 1,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
-          "🐑",
-          "🐈"
+          "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9425, 9455"
+      "resumo": "Palpites dados para esta extração: 2422, 2423, 2424, 2428"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
