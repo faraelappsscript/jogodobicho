@@ -76,7 +76,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6427, 6437, 7427, 7437"
+      "resumo": "Palpites dados para esta extração: 6532, 6536, 6537, 6632, 6636, 6637"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -148,33 +148,29 @@
         }
       ],
       "frases": {
-        "6427": [
-          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 6427",
-          "Dezena no oitavo prêmio!<br>com o palpite 6427",
-          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 6427"
+        "6532": [
+          "CAMELO 🐪 no segundo prêmio!<br>com o palpite 6532"
         ],
-        "6437": [
-          "COELHO 🐇 no décimo prêmio!<br>com o palpite 6437"
+        "6537": [
+          "COELHO 🐇 no décimo prêmio!<br>com o palpite 6537"
         ],
-        "7427": [
-          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 7427",
-          "Dezena no oitavo prêmio!<br>com o palpite 7427",
-          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 7427"
+        "6632": [
+          "CAMELO 🐪 no segundo prêmio!<br>com o palpite 6632"
         ],
-        "7437": [
-          "COELHO 🐇 no décimo prêmio!<br>com o palpite 7437"
+        "6637": [
+          "COELHO 🐇 no décimo prêmio!<br>com o palpite 6637"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 0,
         "Grupo": [
-          "🐑",
+          "🐪",
           "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6427, 6437, 7427, 7437"
+      "resumo": "Palpites dados para esta extração: 6532, 6536, 6537, 6632, 6636, 6637"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -246,29 +242,35 @@
         }
       ],
       "frases": {
-        "6427": [
-          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 6427",
-          "Milhar e Centena no nono prêmio!<br>com o palpite 6427",
-          "Centena e Dezena no nono prêmio!<br>com o palpite 6427",
-          "Dezena no nono prêmio!<br>com o palpite 6427",
-          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 6427"
+        "6532": [
+          "Dezena no décimo prêmio!<br>com o palpite 6532",
+          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 6532"
         ],
-        "7427": [
-          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 7427",
-          "Centena e Dezena no nono prêmio!<br>com o palpite 7427",
-          "Dezena no nono prêmio!<br>com o palpite 7427",
-          "CARNEIRO 🐑 no nono prêmio!<br>com o palpite 7427"
+        "6536": [
+          "Dezena no primeiro prêmio!<br>com o palpite 6536",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 6536",
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 6536"
+        ],
+        "6632": [
+          "Dezena no décimo prêmio!<br>com o palpite 6632",
+          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 6632"
+        ],
+        "6636": [
+          "Dezena no primeiro prêmio!<br>com o palpite 6636",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 6636",
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 6636"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 2,
-        "Dezena": 2,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 4,
         "Grupo": [
-          "🐑"
+          "🐍",
+          "🐪"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6427, 6437, 7427, 7437"
+      "resumo": "Palpites dados para esta extração: 6532, 6536, 6537, 6632, 6636, 6637"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
