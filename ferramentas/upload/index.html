@@ -3,234 +3,263 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload de Vídeo para Google Drive</title>
+    <title>Gerenciador de Vídeos</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .form-group {
-            margin-bottom: 20px;
-        }
-        label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: bold;
-            color: #555;
-        }
-        input[type="file"], input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-sizing: border-box; /* Garante que o padding não afete a largura total */
-        }
-        input[type="file"] {
-             border-style: dashed;
-        }
-        input[type="file"]:hover, input[type="text"]:focus {
-            border-color: #4285f4;
-        }
-        button {
-            background-color: #4285f4;
-            color: white;
-            padding: 12px 30px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            width: 100%;
-            margin-top: 10px;
-        }
-        button:hover {
-            background-color: #3367d6;
-        }
-        button:disabled {
-            background-color: #ccc;
-            cursor: not-allowed;
-        }
-        .progress {
-            display: none;
-            margin-top: 20px;
-        }
-        .progress-bar {
-            width: 100%;
-            height: 20px;
-            background-color: #f0f0f0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-        .progress-fill {
-            height: 100%;
-            background-color: #4285f4;
-            width: 0%;
-            transition: width 0.3s ease;
-        }
-        .message {
-            margin-top: 20px;
-            padding: 10px;
-            border-radius: 5px;
-            display: none;
-            word-break: break-word;
-        }
-        .success {
-            background-color: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
-        }
-        .error {
-            background-color: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
-        }
-        .file-info {
-            margin-top: 10px;
-            padding: 10px;
-            background-color: #e9ecef;
-            border-radius: 5px;
-            display: none;
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; background-color: #f7f7f7; color: #333; }
+        .container { background-color: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        h1, h2 { text-align: center; color: #111; border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 30px; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 8px; font-weight: 600; color: #555; }
+        input[type="file"], input[type="text"] { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; transition: border-color 0.2s; }
+        input[type="file"] { border-style: dashed; }
+        input:focus { border-color: #007aff; outline: none; }
+        button { background-color: #007aff; color: white; padding: 12px 30px; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; width: 100%; margin-top: 10px; transition: background-color 0.2s; font-weight: 600; }
+        button:hover:not(:disabled) { background-color: #005bb5; }
+        button:disabled { background-color: #ccc; cursor: not-allowed; }
+        .message { margin-top: 20px; padding: 15px; border-radius: 8px; display: none; word-break: break-word; text-align: center; }
+        .success { background-color: #d4edda; color: #155724; }
+        .error { background-color: #f8d7da; color: #721c24; }
+        .info { background-color: #e2e3e5; color: #383d41; }
+        #video-list-container { margin-top: 20px; border: 1px solid #eee; border-radius: 8px; padding: 10px; min-height: 50px; }
+        .video-item { display: flex; align-items: center; padding: 10px; border-bottom: 1px solid #f0f0f0; background-color: #fff; }
+        .video-item:last-child { border-bottom: none; }
+        .video-title-input { flex-grow: 1; border: none; padding: 5px; font-size: 16px; }
+        .video-title-input:focus { background-color: #f0f8ff; }
+        .video-actions button { width: auto; padding: 5px 10px; font-size: 14px; margin: 0 4px; background-color: #e9e9eb; color: #333; font-weight: normal; }
+        .video-actions button:hover { background-color: #dcdcdc; }
+        .delete-btn { background-color: #ffeaea !important; color: #d9534f !important; }
+        #publish-container { position: fixed; bottom: 20px; right: 20px; }
+        #publish-btn { width: auto; padding: 15px 25px; box-shadow: 0 4px 15px rgba(0,122,255,0.4); }
+        .loader { text-align: center; padding: 20px; font-size: 18px; color: #888; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Upload de Vídeo para Google Drive</h1>
-        
-        <form id="uploadForm">
-            <!-- NOVO: Campo para o título do vídeo -->
-            <div class="form-group">
-                <label for="videoTitle">Título do Vídeo:</label>
-                <input type="text" id="videoTitle" name="videoTitle" placeholder="Digite o título aqui..." required maxlength="100">
+        <!-- SEÇÃO DE GERENCIAMENTO -->
+        <section id="manager">
+            <h2>Gerenciar Vídeos</h2>
+            <div id="video-list-container">
+                <div class="loader" id="list-loader">Carregando vídeos...</div>
             </div>
+        </section>
 
-            <div class="form-group">
-                <label for="videoFile">Selecione um arquivo de vídeo:</label>
-                <input type="file" id="videoFile" name="videoFile" accept="video/*" required>
-                <div class="file-info" id="fileInfo"></div>
-            </div>
-            
-            <button type="submit" id="uploadBtn">Enviar Vídeo</button>
-        </form>
-        
-        <div class="progress" id="progressContainer">
-            <div class="progress-bar">
-                <div class="progress-fill" id="progressFill"></div>
-            </div>
-            <p id="progressText">Enviando...</p>
-        </div>
+        <hr style="margin: 40px 0; border: none; border-top: 1px solid #eee;">
+
+        <!-- SEÇÃO DE UPLOAD -->
+        <section id="uploader">
+            <h2>Adicionar Novo Vídeo</h2>
+            <form id="uploadForm">
+                <div class="form-group">
+                    <label for="videoTitle">Título do Vídeo:</label>
+                    <input type="text" id="videoTitle" required maxlength="100">
+                </div>
+                <div class="form-group">
+                    <label for="videoFile">Arquivo de Vídeo:</label>
+                    <input type="file" id="videoFile" accept="video/*" required>
+                </div>
+                <button type="submit" id="uploadBtn">Enviar Vídeo</button>
+            </form>
+        </section>
         
         <div class="message" id="messageContainer"></div>
     </div>
 
+    <div id="publish-container">
+        <button id="publish-btn" style="display: none;">Publicar Alterações</button>
+    </div>
+
     <script>
-        // URL do seu Google Apps Script Web App
         const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxKysAzc01MekCkC0STUQ6wtl9DZwYZWuk1h65uVOymO0r8Jeh4cVlnvlVwBwFjQJ_j/exec';
         
-        const uploadForm = document.getElementById('uploadForm' );
-        const videoFile = document.getElementById('videoFile');
-        const videoTitle = document.getElementById('videoTitle'); // NOVO: Referência ao campo de título
-        const uploadBtn = document.getElementById('uploadBtn');
-        const progressContainer = document.getElementById('progressContainer');
+        const listContainer = document.getElementById('video-list-container' );
+        const listLoader = document.getElementById('list-loader');
+        const publishBtn = document.getElementById('publish-btn');
+        const uploadForm = document.getElementById('uploadForm');
         const messageContainer = document.getElementById('messageContainer');
-        const fileInfo = document.getElementById('fileInfo');
+        
+        let originalVideoList = [];
 
-        videoFile.addEventListener('change', function(e) {
-            const file = e.target.files[0];
-            if (file) {
-                const fileSize = (file.size / (1024 * 1024)).toFixed(2);
-                fileInfo.innerHTML = `
-                    <strong>Arquivo selecionado:</strong>  
+        // --- FUNÇÕES DE RENDERIZAÇÃO E EVENTOS ---
 
-                    Nome: ${file.name}  
-
-                    Tamanho: ${fileSize} MB  
-
-                    Tipo: ${file.type}
+        function renderVideoList(videos) {
+            listContainer.innerHTML = '';
+            if (videos.length === 0) {
+                listContainer.innerHTML = '<div class="loader">Nenhum vídeo encontrado.</div>';
+                return;
+            }
+            videos.forEach((video, index) => {
+                const item = document.createElement('div');
+                item.className = 'video-item';
+                item.dataset.driveFileId = video.driveFileId;
+                item.innerHTML = `
+                    <input type="text" class="video-title-input" value="${escapeHtml(video.videoTitle)}">
+                    <div class="video-actions">
+                        <button class="move-up-btn" ${index === 0 ? 'disabled' : ''}>↑</button>
+                        <button class="move-down-btn" ${index === videos.length - 1 ? 'disabled' : ''}>↓</button>
+                        <button class="delete-btn">Excluir</button>
+                    </div>
                 `;
-                fileInfo.style.display = 'block';
-            } else {
-                fileInfo.style.display = 'none';
+                listContainer.appendChild(item);
+            });
+            attachEventListeners();
+        }
+
+        function attachEventListeners() {
+            document.querySelectorAll('.move-up-btn').forEach(btn => btn.addEventListener('click', moveItem));
+            document.querySelectorAll('.move-down-btn').forEach(btn => btn.addEventListener('click', moveItem));
+            document.querySelectorAll('.delete-btn').forEach(btn => btn.addEventListener('click', deleteItem));
+            document.querySelectorAll('.video-title-input').forEach(input => input.addEventListener('input', checkForChanges));
+        }
+
+        function moveItem(e) {
+            const item = e.target.closest('.video-item');
+            const direction = e.target.classList.contains('move-up-btn') ? 'up' : 'down';
+            if (direction === 'up' && item.previousElementSibling) {
+                listContainer.insertBefore(item, item.previousElementSibling);
+            } else if (direction === 'down' && item.nextElementSibling) {
+                listContainer.insertBefore(item.nextElementSibling, item);
+            }
+            updateButtonStates();
+            checkForChanges();
+        }
+
+        function deleteItem(e) {
+            const item = e.target.closest('.video-item');
+            const title = item.querySelector('.video-title-input').value;
+            if (confirm(`Tem certeza que deseja excluir o vídeo "${title}"? Esta ação também o removerá do Google Drive.`)) {
+                const driveFileId = item.dataset.driveFileId;
+                showMessage('Excluindo vídeo...', 'info');
+                fetch(SCRIPT_URL, {
+                    method: 'POST',
+                    body: new URLSearchParams({ command: 'deleteVideo', driveFileId: driveFileId })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.error) throw new Error(data.error);
+                    showMessage(data.message, 'success');
+                    item.remove();
+                    updateButtonStates();
+                })
+                .catch(err => showMessage(`Erro ao excluir: ${err.message}`, 'error'));
+            }
+        }
+
+        function updateButtonStates() {
+            const items = listContainer.querySelectorAll('.video-item');
+            items.forEach((item, index) => {
+                item.querySelector('.move-up-btn').disabled = (index === 0);
+                item.querySelector('.move-down-btn').disabled = (index === items.length - 1);
+            });
+        }
+
+        function getCurrentVideoListFromDOM() {
+            const items = listContainer.querySelectorAll('.video-item');
+            const newList = [];
+            items.forEach(item => {
+                const driveFileId = item.dataset.driveFileId;
+                const originalData = originalVideoList.find(v => v.driveFileId === driveFileId);
+                if (originalData) {
+                    newList.push({
+                        ...originalData,
+                        videoTitle: item.querySelector('.video-title-input').value
+                    });
+                }
+            });
+            return newList;
+        }
+
+        function checkForChanges() {
+            const currentList = getCurrentVideoListFromDOM();
+            const hasChanged = JSON.stringify(currentList) !== JSON.stringify(originalVideoList);
+            publishBtn.style.display = hasChanged ? 'block' : 'none';
+        }
+
+        // --- FUNÇÕES DE COMUNICAÇÃO COM O BACKEND ---
+
+        async function loadVideos() {
+            try {
+                const response = await fetch(`${SCRIPT_URL}?command=getVideos`);
+                if (!response.ok) throw new Error('Falha ao carregar a lista de vídeos.');
+                const videos = await response.json();
+                if (videos.error) throw new Error(videos.error);
+                originalVideoList = JSON.parse(JSON.stringify(videos)); // Deep copy
+                renderVideoList(videos);
+            } catch (error) {
+                listLoader.textContent = `Erro ao carregar: ${error.message}`;
+                listLoader.style.color = '#721c24';
+            }
+        }
+
+        publishBtn.addEventListener('click', async () => {
+            const updatedList = getCurrentVideoListFromDOM();
+            publishBtn.disabled = true;
+            publishBtn.textContent = 'Publicando...';
+            showMessage('Atualizando lista no GitHub...', 'info');
+            try {
+                const response = await fetch(SCRIPT_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(updatedList)
+                });
+                const result = await response.json();
+                if (result.error) throw new Error(result.error);
+                showMessage(result.message, 'success');
+                originalVideoList = JSON.parse(JSON.stringify(updatedList));
+                publishBtn.style.display = 'none';
+            } catch (error) {
+                showMessage(`Erro ao publicar: ${error.message}`, 'error');
+            } finally {
+                publishBtn.disabled = false;
+                publishBtn.textContent = 'Publicar Alterações';
             }
         });
 
-        uploadForm.addEventListener('submit', async function(e) {
+        uploadForm.addEventListener('submit', async (e) => {
             e.preventDefault();
-            
-            const file = videoFile.files[0];
-            const title = videoTitle.value; // NOVO: Pega o valor do título
-
-            if (!file) {
-                showMessage('Por favor, selecione um arquivo de vídeo.', 'error');
-                return;
-            }
-            if (!title.trim()) { // NOVO: Validação do título
-                showMessage('Por favor, insira um título para o vídeo.', 'error');
+            const file = document.getElementById('videoFile').files[0];
+            const title = document.getElementById('videoTitle').value;
+            if (!file || !title.trim()) {
+                showMessage('Título e arquivo são obrigatórios.', 'error');
                 return;
             }
 
+            const uploadBtn = document.getElementById('uploadBtn');
             uploadBtn.disabled = true;
             uploadBtn.textContent = 'Enviando...';
-            progressContainer.style.display = 'block';
-            messageContainer.style.display = 'none';
+            showMessage('Fazendo upload do vídeo...', 'info');
 
             try {
                 const base64Data = await fileToBase64(file);
-                
-                // NOVO: Usar URLSearchParams para construir o corpo da requisição
-                // Isso garante a codificação correta dos dados do formulário.
-                const body = new URLSearchParams();
-                body.append('fileName', file.name);
-                body.append('mimeType', file.type);
-                body.append('videoTitle', title); // Envia o título
-                body.append('fileData', base64Data);
-
-                const response = await fetch(SCRIPT_URL, {
-                    method: 'POST',
-                    body: body
+                const body = new URLSearchParams({
+                    command: 'uploadVideo',
+                    fileName: file.name,
+                    mimeType: file.type,
+                    videoTitle: title,
+                    fileData: base64Data
                 });
 
-                const resultText = await response.text();
+                const response = await fetch(SCRIPT_URL, { method: 'POST', body: body });
+                const result = await response.json();
+                if (result.error) throw new Error(result.error);
                 
-                if (response.ok) {
-                    showMessage(resultText, 'success');
-                    uploadForm.reset();
-                    fileInfo.style.display = 'none';
-                } else {
-                    throw new Error(resultText || 'Erro desconhecido no servidor');
-                }
-
+                showMessage(result.message, 'success');
+                uploadForm.reset();
+                loadVideos(); // Recarrega a lista para incluir o novo vídeo
             } catch (error) {
-                console.error('Erro no upload:', error);
-                showMessage(`Erro ao enviar o vídeo: ${error.message}`, 'error');
+                showMessage(`Erro no upload: ${error.message}`, 'error');
             } finally {
                 uploadBtn.disabled = false;
                 uploadBtn.textContent = 'Enviar Vídeo';
-                progressContainer.style.display = 'none';
             }
         });
+
+        // --- FUNÇÕES UTILITÁRIAS ---
 
         function fileToBase64(file) {
             return new Promise((resolve, reject) => {
                 const reader = new FileReader();
                 reader.readAsDataURL(file);
-                reader.onload = () => {
-                    const base64 = reader.result.split(',')[1];
-                    resolve(base64);
-                };
+                reader.onload = () => resolve(reader.result.split(',')[1]);
                 reader.onerror = error => reject(error);
             });
         }
@@ -239,7 +268,15 @@
             messageContainer.textContent = text;
             messageContainer.className = `message ${type}`;
             messageContainer.style.display = 'block';
+            setTimeout(() => { messageContainer.style.display = 'none'; }, 5000);
         }
+
+        function escapeHtml(unsafe) {
+            return unsafe.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+        }
+
+        // --- INICIALIZAÇÃO ---
+        document.addEventListener('DOMContentLoaded', loadVideos);
     </script>
 </body>
 </html>
