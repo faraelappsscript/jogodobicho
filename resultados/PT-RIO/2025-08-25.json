@@ -10,63 +10,63 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "5947",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "5485",
+          "Grupo": "22",
+          "Bicho": "Tigre"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "3458",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "4605",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "4766",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "7277",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "7088",
+          "Milhar": "0087",
           "Grupo": "22",
           "Bicho": "Tigre"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "5883",
-          "Grupo": "21",
-          "Bicho": "Touro"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "5347",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "9470",
+          "Milhar": "3971",
           "Grupo": "18",
           "Bicho": "Porco"
         },
         {
+          "Prêmio": "6º",
+          "Milhar": "5470",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "4620",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
           "Prêmio": "8º",
-          "Milhar": "4568",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "8078",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "7868",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "5577",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "4395",
-          "Grupo": "24",
-          "Bicho": "Veado"
+          "Milhar": "5170",
+          "Grupo": "18",
+          "Bicho": "Porco"
         }
       ],
       "frases": {},
@@ -370,53 +370,59 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "5947",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "5485",
+          "Grupo": "22",
+          "Bicho": "Tigre"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "3458",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "4605",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "4766",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "7277",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "7088",
+          "Milhar": "0087",
           "Grupo": "22",
           "Bicho": "Tigre"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "5883",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "3971",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "7142",
+          "Milhar": "1425",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "564",
+          "Milhar": "258",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "2428": [
+          "CARNEIRO 🐑 no sexto prêmio!<br>com o palpite 2428"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐑"
+        ]
       },
       "resumo": "Palpites dados para esta extração: 2422, 2423, 2424, 2428"
     },
