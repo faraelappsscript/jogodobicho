@@ -442,20 +442,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "7427": [
-          "CARNEIRO 🐑 no sexto prêmio!<br>com o palpite 7427"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐑"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 7427"
+      "resumo": "Palpites dados para esta extração: 6532, 6536, 6537, 6632, 6636, 6637"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -509,8 +503,11 @@
         }
       ],
       "frases": {
-        "7427": [
-          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 7427"
+        "6532": [
+          "CAMELO 🐪 no segundo prêmio!<br>com o palpite 6532"
+        ],
+        "6632": [
+          "CAMELO 🐪 no segundo prêmio!<br>com o palpite 6632"
         ]
       },
       "acertos": {
@@ -518,10 +515,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐑"
+          "🐪"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7427"
+      "resumo": "Palpites dados para esta extração: 6532, 6536, 6537, 6632, 6636, 6637"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -574,14 +571,25 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "6536": [
+          "Dezena no primeiro prêmio!<br>com o palpite 6536",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 6536"
+        ],
+        "6636": [
+          "Dezena no primeiro prêmio!<br>com o palpite 6636",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 6636"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 2,
+        "Grupo": [
+          "🐍"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 7427"
+      "resumo": "Palpites dados para esta extração: 6532, 6536, 6537, 6632, 6636, 6637"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
