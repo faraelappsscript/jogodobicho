@@ -70,11 +70,11 @@
         }
       ],
       "frases": {
-        "4736": [
-          "COBRA 🐍 no nono prêmio!<br>com o palpite 4736"
+        "2782": [
+          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 2782"
         ],
-        "7736": [
-          "COBRA 🐍 no nono prêmio!<br>com o palpite 7736"
+        "2783": [
+          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 2783"
         ]
       },
       "acertos": {
@@ -82,10 +82,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐍"
+          "🐂"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4736, 4746, 4776, 4786, 7736, 7746, 7776, 7786"
+      "resumo": "Palpites dados para esta extração: 2782, 2783, 2786, 2787"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -156,30 +156,14 @@
           "Bicho": "Elefante"
         }
       ],
-      "frases": {
-        "4746": [
-          "Milhar e Centena no primeiro prêmio!<br>com o palpite 4746",
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 4746",
-          "Dezena no primeiro prêmio!<br>com o palpite 4746",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4746",
-          "ELEFANTE 🐘 no décimo prêmio!<br>com o palpite 4746"
-        ],
-        "7746": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7746",
-          "Dezena no primeiro prêmio!<br>com o palpite 7746",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7746",
-          "ELEFANTE 🐘 no décimo prêmio!<br>com o palpite 7746"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 2,
-        "Dezena": 2,
-        "Grupo": [
-          "🐘"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4736, 4746, 4776, 4786, 7736, 7746, 7776, 7786"
+      "resumo": "Palpites dados para esta extração: 2782, 2783, 2786, 2787"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -251,52 +235,40 @@
         }
       ],
       "frases": {
-        "4736": [
-          "Dezena no quarto prêmio!<br>com o palpite 4736",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 4736"
+        "2782": [
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 2782",
+          "Dezena no quinto prêmio!<br>com o palpite 2782",
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 2782",
+          "Milhar e Centena no sexto prêmio!<br>com o palpite 2782",
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 2782",
+          "Dezena no sexto prêmio!<br>com o palpite 2782",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 2782",
+          "TOURO 🐂 no décimo prêmio!<br>com o palpite 2782"
         ],
-        "4746": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4746",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 4746"
+        "2783": [
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 2783",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 2783",
+          "TOURO 🐂 no décimo prêmio!<br>com o palpite 2783"
         ],
-        "4776": [
-          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 4776"
+        "2786": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 2786",
+          "Dezena no nono prêmio!<br>com o palpite 2786",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 2786"
         ],
-        "4786": [
-          "Centena e Dezena no nono prêmio!<br>com o palpite 4786",
-          "Dezena no nono prêmio!<br>com o palpite 4786",
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 4786"
-        ],
-        "7736": [
-          "Dezena no quarto prêmio!<br>com o palpite 7736",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7736"
-        ],
-        "7746": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7746",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 7746"
-        ],
-        "7776": [
-          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 7776"
-        ],
-        "7786": [
-          "Milhar e Centena no nono prêmio!<br>com o palpite 7786",
-          "Centena e Dezena no nono prêmio!<br>com o palpite 7786",
-          "Dezena no nono prêmio!<br>com o palpite 7786",
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 7786"
+        "2787": [
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 2787"
         ]
       },
       "acertos": {
         "Milhar": 1,
-        "Centena": 2,
-        "Dezena": 4,
+        "Centena": 3,
+        "Dezena": 3,
         "Grupo": [
-          "🐘",
-          "🐍",
-          "🦚",
+          "🐂",
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4736, 4746, 4776, 4786, 7736, 7746, 7776, 7786"
+      "resumo": "Palpites dados para esta extração: 2782, 2783, 2786, 2787"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
