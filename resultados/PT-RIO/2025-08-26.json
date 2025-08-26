@@ -463,73 +463,124 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "0172",
+          "Milhar": "6083",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "7280",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "7669",
           "Grupo": "18",
           "Bicho": "Porco"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "6746",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "2903",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
           "Prêmio": "4º",
-          "Milhar": "9874",
+          "Milhar": "5995",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6281",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "6775",
           "Grupo": "19",
           "Bicho": "Pavão"
         },
         {
-          "Prêmio": "5º",
-          "Milhar": "5602",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "0629",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
           "Prêmio": "7º",
-          "Milhar": "1798",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "0269",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "7407",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "8869",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "2634",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "3095",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "7765",
-          "Grupo": "17",
-          "Bicho": "Macaco"
+          "Milhar": "2316",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         }
       ],
-      "frases": {},
+      "frases": {
+        "5071": [
+          "PORCO 🐖 no terceiro prêmio!<br>com o palpite 5071",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 5071",
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 5071"
+        ],
+        "5075": [
+          "Dezena no sexto prêmio!<br>com o palpite 5075",
+          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 5075"
+        ],
+        "5077": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5077"
+        ],
+        "5079": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5079"
+        ],
+        "5471": [
+          "PORCO 🐖 no terceiro prêmio!<br>com o palpite 5471",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 5471",
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 5471"
+        ],
+        "5475": [
+          "Dezena no sexto prêmio!<br>com o palpite 5475",
+          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 5475"
+        ],
+        "5477": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5477"
+        ],
+        "5479": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5479"
+        ],
+        "5771": [
+          "PORCO 🐖 no terceiro prêmio!<br>com o palpite 5771",
+          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 5771",
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 5771"
+        ],
+        "5775": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 5775",
+          "Dezena no sexto prêmio!<br>com o palpite 5775",
+          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 5775"
+        ],
+        "5777": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5777"
+        ],
+        "5779": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5779"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 1,
+        "Dezena": 3,
+        "Grupo": [
+          "🦃",
+          "🐖",
+          "🦚"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1662, 8662"
+      "resumo": "Palpites dados para esta extração: 5071, 5075, 5077, 5079, 5471, 5475, 5477, 5479, 5771, 5775, 5777, 5779"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
@@ -967,55 +1018,86 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "0172",
+          "Milhar": "6083",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "7280",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "7669",
           "Grupo": "18",
           "Bicho": "Porco"
         },
         {
-          "Prêmio": "2º",
-          "Milhar": "6746",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "2903",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
           "Prêmio": "4º",
-          "Milhar": "9874",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "5995",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "5602",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "6281",
+          "Grupo": "21",
+          "Bicho": "Touro"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "5297",
+          "Milhar": "3308",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "160",
+          "Milhar": "284",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "5071": [
+          "PORCO 🐖 no terceiro prêmio!<br>com o palpite 5071"
+        ],
+        "5077": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5077"
+        ],
+        "5079": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5079"
+        ],
+        "5471": [
+          "PORCO 🐖 no terceiro prêmio!<br>com o palpite 5471"
+        ],
+        "5477": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5477"
+        ],
+        "5479": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5479"
+        ],
+        "5771": [
+          "PORCO 🐖 no terceiro prêmio!<br>com o palpite 5771"
+        ],
+        "5777": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5777"
+        ],
+        "5779": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5779"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦃",
+          "🐖"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1662, 8662"
+      "resumo": "Palpites dados para esta extração: 5071, 5075, 5077, 5079, 5471, 5475, 5477, 5479, 5771, 5775, 5777, 5779"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
