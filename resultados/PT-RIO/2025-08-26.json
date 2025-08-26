@@ -70,11 +70,11 @@
         }
       ],
       "frases": {
-        "4836": [
-          "COBRA 🐍 no nono prêmio!<br>com o palpite 4836"
+        "4736": [
+          "COBRA 🐍 no nono prêmio!<br>com o palpite 4736"
         ],
-        "6836": [
-          "COBRA 🐍 no nono prêmio!<br>com o palpite 6836"
+        "7736": [
+          "COBRA 🐍 no nono prêmio!<br>com o palpite 7736"
         ]
       },
       "acertos": {
@@ -85,7 +85,7 @@
           "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4806, 4836, 4846, 6806, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 4736, 4746, 4776, 4786, 7736, 7746, 7776, 7786"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -157,35 +157,29 @@
         }
       ],
       "frases": {
-        "4806": [
-          "Dezena no terceiro prêmio!<br>com o palpite 4806",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 4806"
+        "4746": [
+          "Milhar e Centena no primeiro prêmio!<br>com o palpite 4746",
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 4746",
+          "Dezena no primeiro prêmio!<br>com o palpite 4746",
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4746",
+          "ELEFANTE 🐘 no décimo prêmio!<br>com o palpite 4746"
         ],
-        "4846": [
-          "Dezena no primeiro prêmio!<br>com o palpite 4846",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4846",
-          "ELEFANTE 🐘 no décimo prêmio!<br>com o palpite 4846"
-        ],
-        "6806": [
-          "Dezena no terceiro prêmio!<br>com o palpite 6806",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 6806"
-        ],
-        "6846": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6846",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6846",
-          "ELEFANTE 🐘 no décimo prêmio!<br>com o palpite 6846"
+        "7746": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7746",
+          "Dezena no primeiro prêmio!<br>com o palpite 7746",
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7746",
+          "ELEFANTE 🐘 no décimo prêmio!<br>com o palpite 7746"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 4,
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 2,
         "Grupo": [
-          "🐘",
-          "🦅"
+          "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4806, 4836, 4846, 6806, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 4736, 4746, 4776, 4786, 7736, 7746, 7776, 7786"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -257,33 +251,52 @@
         }
       ],
       "frases": {
-        "4836": [
-          "Dezena no quarto prêmio!<br>com o palpite 4836",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 4836"
+        "4736": [
+          "Dezena no quarto prêmio!<br>com o palpite 4736",
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 4736"
         ],
-        "4846": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4846",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 4846"
+        "4746": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4746",
+          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 4746"
         ],
-        "6836": [
-          "Dezena no quarto prêmio!<br>com o palpite 6836",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 6836"
+        "4776": [
+          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 4776"
         ],
-        "6846": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6846",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6846"
+        "4786": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 4786",
+          "Dezena no nono prêmio!<br>com o palpite 4786",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 4786"
+        ],
+        "7736": [
+          "Dezena no quarto prêmio!<br>com o palpite 7736",
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7736"
+        ],
+        "7746": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7746",
+          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 7746"
+        ],
+        "7776": [
+          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 7776"
+        ],
+        "7786": [
+          "Milhar e Centena no nono prêmio!<br>com o palpite 7786",
+          "Centena e Dezena no nono prêmio!<br>com o palpite 7786",
+          "Dezena no nono prêmio!<br>com o palpite 7786",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 7786"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 2,
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 4,
         "Grupo": [
           "🐘",
-          "🐍"
+          "🐍",
+          "🦚",
+          "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4806, 4836, 4846, 6806, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 4736, 4746, 4776, 4786, 7736, 7746, 7776, 7786"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -588,7 +601,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4806, 4836, 4846, 6806, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 4736, 4746, 4776, 4786, 7736, 7746, 7776, 7786"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -642,33 +655,34 @@
         }
       ],
       "frases": {
-        "4806": [
-          "Dezena no terceiro prêmio!<br>com o palpite 4806",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 4806"
+        "4746": [
+          "Milhar e Centena no primeiro prêmio!<br>com o palpite 4746",
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 4746",
+          "Dezena no primeiro prêmio!<br>com o palpite 4746",
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4746"
         ],
-        "4846": [
-          "Dezena no primeiro prêmio!<br>com o palpite 4846",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4846"
+        "4786": [
+          "TIGRE 🐅 no sexto prêmio!<br>com o palpite 4786"
         ],
-        "6806": [
-          "Dezena no terceiro prêmio!<br>com o palpite 6806",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 6806"
+        "7746": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7746",
+          "Dezena no primeiro prêmio!<br>com o palpite 7746",
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7746"
         ],
-        "6846": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6846",
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6846"
+        "7786": [
+          "TIGRE 🐅 no sexto prêmio!<br>com o palpite 7786"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 4,
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 2,
         "Grupo": [
           "🐘",
-          "🦅"
+          "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4806, 4836, 4846, 6806, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 4736, 4746, 4776, 4786, 7736, 7746, 7776, 7786"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -722,21 +736,21 @@
         }
       ],
       "frases": {
-        "4836": [
-          "Dezena no quarto prêmio!<br>com o palpite 4836",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 4836"
+        "4736": [
+          "Dezena no quarto prêmio!<br>com o palpite 4736",
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 4736"
         ],
-        "4846": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4846",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 4846"
+        "4746": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 4746",
+          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 4746"
         ],
-        "6836": [
-          "Dezena no quarto prêmio!<br>com o palpite 6836",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 6836"
+        "7736": [
+          "Dezena no quarto prêmio!<br>com o palpite 7736",
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 7736"
         ],
-        "6846": [
-          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 6846",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6846"
+        "7746": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 7746",
+          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 7746"
         ]
       },
       "acertos": {
@@ -748,7 +762,7 @@
           "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4806, 4836, 4846, 6806, 6836, 6846"
+      "resumo": "Palpites dados para esta extração: 4736, 4746, 4776, 4786, 7736, 7746, 7776, 7786"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
