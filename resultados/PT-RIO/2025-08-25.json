@@ -681,7 +681,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0602, 0604, 0702, 0704, 2602, 2604, 2702, 2704, 7602, 7604, 7702, 7704"
+      "resumo": "Palpites dados para esta extração: 0602, 0662, 1602, 1662, 2602, 2662, 5602, 5662, 6602, 6662, 7602, 7662, 8602, 8662"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -741,7 +741,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0602, 0604, 0702, 0704, 2602, 2604, 2702, 2704, 7602, 7604, 7702, 7704"
+      "resumo": "Palpites dados para esta extração: 0602, 0662, 1602, 1662, 2602, 2662, 5602, 5662, 6602, 6662, 7602, 7662, 8602, 8662"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -801,7 +801,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0602, 0604, 0702, 0704, 2602, 2604, 2702, 2704, 7602, 7604, 7702, 7704"
+      "resumo": "Palpites dados para esta extração: 0602, 0662, 1602, 1662, 2602, 2662, 5602, 5662, 6602, 6662, 7602, 7662, 8602, 8662"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -854,14 +854,38 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1662": [
+          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 1662"
+        ],
+        "2662": [
+          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 2662"
+        ],
+        "5662": [
+          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 5662"
+        ],
+        "6662": [
+          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 6662"
+        ],
+        "7662": [
+          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 7662"
+        ],
+        "8662": [
+          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 8662"
+        ],
+        "0662": [
+          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 0662"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦁"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0602, 0604, 0702, 0704, 2602, 2604, 2702, 2704, 7602, 7604, 7702, 7704"
+      "resumo": "Palpites dados para esta extração: 0602, 0662, 1602, 1662, 2602, 2662, 5602, 5662, 6602, 6662, 7602, 7662, 8602, 8662"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -915,24 +939,30 @@
         }
       ],
       "frases": {
+        "1602": [
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 1602",
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 1602",
+          "Dezena no quinto prêmio!<br>com o palpite 1602",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 1602"
+        ],
         "2602": [
           "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2602",
           "Centena e Dezena no quinto prêmio!<br>com o palpite 2602",
           "Dezena no quinto prêmio!<br>com o palpite 2602",
           "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 2602"
         ],
-        "2604": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2604",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 2604"
+        "5602": [
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 5602",
+          "Milhar e Centena no quinto prêmio!<br>com o palpite 5602",
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 5602",
+          "Dezena no quinto prêmio!<br>com o palpite 5602",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 5602"
         ],
-        "2702": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2702",
-          "Dezena no quinto prêmio!<br>com o palpite 2702",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 2702"
-        ],
-        "2704": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 2704",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 2704"
+        "6602": [
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 6602",
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 6602",
+          "Dezena no quinto prêmio!<br>com o palpite 6602",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 6602"
         ],
         "7602": [
           "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 7602",
@@ -940,48 +970,28 @@
           "Dezena no quinto prêmio!<br>com o palpite 7602",
           "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7602"
         ],
-        "7604": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 7604",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7604"
-        ],
-        "7702": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 7702",
-          "Dezena no quinto prêmio!<br>com o palpite 7702",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7702"
-        ],
-        "7704": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 7704",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7704"
+        "8602": [
+          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 8602",
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 8602",
+          "Dezena no quinto prêmio!<br>com o palpite 8602",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 8602"
         ],
         "0602": [
           "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0602",
           "Centena e Dezena no quinto prêmio!<br>com o palpite 0602",
           "Dezena no quinto prêmio!<br>com o palpite 0602",
           "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0602"
-        ],
-        "0604": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0604",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0604"
-        ],
-        "0702": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0702",
-          "Dezena no quinto prêmio!<br>com o palpite 0702",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0702"
-        ],
-        "0704": [
-          "AVESTRUZ 🪶 no terceiro prêmio!<br>com o palpite 0704",
-          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 0704"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 3,
-        "Dezena": 6,
+        "Milhar": 1,
+        "Centena": 7,
+        "Dezena": 7,
         "Grupo": [
           "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0602, 0604, 0702, 0704, 2602, 2604, 2702, 2704, 7602, 7604, 7702, 7704"
+      "resumo": "Palpites dados para esta extração: 0602, 0662, 1602, 1662, 2602, 2662, 5602, 5662, 6602, 6662, 7602, 7662, 8602, 8662"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -1041,7 +1051,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0602, 0604, 0702, 0704, 2602, 2604, 2702, 2704, 7602, 7604, 7702, 7704"
+      "resumo": "Palpites dados para esta extração: 0602, 0662, 1602, 1662, 2602, 2662, 5602, 5662, 6602, 6662, 7602, 7662, 8602, 8662"
     }
   }
 }
