@@ -70,22 +70,44 @@
         }
       ],
       "frases": {
-        "2782": [
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 2782"
+        "1777": [
+          "Dezena no segundo prêmio!<br>com o palpite 1777",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 1777"
         ],
-        "2783": [
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 2783"
+        "2777": [
+          "Dezena no segundo prêmio!<br>com o palpite 2777",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 2777"
+        ],
+        "4777": [
+          "Dezena no segundo prêmio!<br>com o palpite 4777",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4777"
+        ],
+        "5777": [
+          "Dezena no segundo prêmio!<br>com o palpite 5777",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5777"
+        ],
+        "6777": [
+          "Dezena no segundo prêmio!<br>com o palpite 6777",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 6777"
+        ],
+        "7777": [
+          "Dezena no segundo prêmio!<br>com o palpite 7777",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 7777"
+        ],
+        "8777": [
+          "Dezena no segundo prêmio!<br>com o palpite 8777",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 8777"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 7,
         "Grupo": [
-          "🐂"
+          "🦃"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2782, 2783, 2786, 2787"
+      "resumo": "Palpites dados para esta extração: 1777, 1787, 2777, 2787, 4777, 4787, 5777, 5787, 6777, 6787, 7777, 7787, 8777, 8787"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -156,14 +178,38 @@
           "Bicho": "Elefante"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1777": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 1777"
+        ],
+        "2777": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 2777"
+        ],
+        "4777": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4777"
+        ],
+        "5777": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5777"
+        ],
+        "6777": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 6777"
+        ],
+        "7777": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 7777"
+        ],
+        "8777": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 8777"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦃"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 2782, 2783, 2786, 2787"
+      "resumo": "Palpites dados para esta extração: 1777, 1787, 2777, 2787, 4777, 4787, 5777, 5787, 6777, 6787, 7777, 7787, 8777, 8787"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -235,40 +281,59 @@
         }
       ],
       "frases": {
-        "2782": [
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 2782",
-          "Dezena no quinto prêmio!<br>com o palpite 2782",
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 2782",
-          "Milhar e Centena no sexto prêmio!<br>com o palpite 2782",
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 2782",
-          "Dezena no sexto prêmio!<br>com o palpite 2782",
-          "TOURO 🐂 no sexto prêmio!<br>com o palpite 2782",
-          "TOURO 🐂 no décimo prêmio!<br>com o palpite 2782"
+        "1777": [
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 1777"
         ],
-        "2783": [
-          "TOURO 🐂 no quinto prêmio!<br>com o palpite 2783",
-          "TOURO 🐂 no sexto prêmio!<br>com o palpite 2783",
-          "TOURO 🐂 no décimo prêmio!<br>com o palpite 2783"
+        "1787": [
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 1787"
         ],
-        "2786": [
-          "Centena e Dezena no nono prêmio!<br>com o palpite 2786",
-          "Dezena no nono prêmio!<br>com o palpite 2786",
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 2786"
+        "2777": [
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 2777"
         ],
         "2787": [
           "TIGRE 🐅 no nono prêmio!<br>com o palpite 2787"
+        ],
+        "4777": [
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 4777"
+        ],
+        "4787": [
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 4787"
+        ],
+        "5777": [
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 5777"
+        ],
+        "5787": [
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 5787"
+        ],
+        "6777": [
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 6777"
+        ],
+        "6787": [
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 6787"
+        ],
+        "7777": [
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 7777"
+        ],
+        "7787": [
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 7787"
+        ],
+        "8777": [
+          "PERU 🦃 no terceiro prêmio!<br>com o palpite 8777"
+        ],
+        "8787": [
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 8787"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 3,
-        "Dezena": 3,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🐂",
+          "🦃",
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2782, 2783, 2786, 2787"
+      "resumo": "Palpites dados para esta extração: 1777, 1787, 2777, 2787, 4777, 4787, 5777, 5787, 6777, 6787, 7777, 7787, 8777, 8787"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -340,11 +405,47 @@
         }
       ],
       "frases": {
-        "2786": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 2786"
+        "1777": [
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 1777"
+        ],
+        "1787": [
+          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 1787"
+        ],
+        "2777": [
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 2777"
         ],
         "2787": [
           "TIGRE 🐅 no décimo prêmio!<br>com o palpite 2787"
+        ],
+        "4777": [
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 4777"
+        ],
+        "4787": [
+          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 4787"
+        ],
+        "5777": [
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 5777"
+        ],
+        "5787": [
+          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 5787"
+        ],
+        "6777": [
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 6777"
+        ],
+        "6787": [
+          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 6787"
+        ],
+        "7777": [
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 7777"
+        ],
+        "7787": [
+          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 7787"
+        ],
+        "8777": [
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 8777"
+        ],
+        "8787": [
+          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 8787"
         ]
       },
       "acertos": {
@@ -352,10 +453,11 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
+          "🦃",
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2782, 2783, 2786, 2787"
+      "resumo": "Palpites dados para esta extração: 1777, 1787, 2777, 2787, 4777, 4787, 5777, 5787, 6777, 6787, 7777, 7787, 8777, 8787"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
