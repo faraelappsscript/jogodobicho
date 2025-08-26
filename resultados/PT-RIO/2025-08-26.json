@@ -70,41 +70,8 @@
         }
       ],
       "frases": {
-        "5079": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5079"
-        ],
-        "5089": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 5089"
-        ],
-        "5279": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5279"
-        ],
-        "5289": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 5289"
-        ],
-        "5779": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5779"
-        ],
-        "5789": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 5789"
-        ],
-        "6079": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6079"
-        ],
-        "6089": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 6089"
-        ],
-        "6279": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6279"
-        ],
         "6289": [
           "URSO 🐻 no primeiro prêmio!<br>com o palpite 6289"
-        ],
-        "6779": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6779"
-        ],
-        "6789": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 6789"
         ]
       },
       "acertos": {
@@ -112,11 +79,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐻",
-          "🦃"
+          "🐻"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5065, 5069, 5075, 5079, 5085, 5089, 5095, 5099, 5265, 5269, 5275, 5279, 5285, 5289, 5295, 5299, 5765, 5769, 5775, 5779, 5785, 5789, 5795, 5799, 6065, 6069, 6075, 6079, 6085, 6089, 6095, 6099, 6265, 6269, 6275, 6279, 6285, 6289, 6295, 6299, 6765, 6769, 6775, 6779, 6785, 6789, 6795, 6799"
+      "resumo": "Palpites dados para esta extração: 6265, 6269, 6285, 6289"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -188,59 +154,20 @@
         }
       ],
       "frases": {
-        "5069": [
-          "Dezena no nono prêmio!<br>com o palpite 5069",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 5069"
-        ],
-        "5079": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5079"
-        ],
-        "5269": [
-          "Dezena no nono prêmio!<br>com o palpite 5269",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 5269"
-        ],
-        "5279": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5279"
-        ],
-        "5769": [
-          "Dezena no nono prêmio!<br>com o palpite 5769",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 5769"
-        ],
-        "5779": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5779"
-        ],
-        "6069": [
-          "Dezena no nono prêmio!<br>com o palpite 6069",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 6069"
-        ],
-        "6079": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6079"
-        ],
         "6269": [
           "Dezena no nono prêmio!<br>com o palpite 6269",
           "PORCO 🐖 no nono prêmio!<br>com o palpite 6269"
-        ],
-        "6279": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6279"
-        ],
-        "6769": [
-          "Dezena no nono prêmio!<br>com o palpite 6769",
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 6769"
-        ],
-        "6779": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6779"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
+        "Dezena": 1,
         "Grupo": [
-          "🦃",
           "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5065, 5069, 5075, 5079, 5085, 5089, 5095, 5099, 5265, 5269, 5275, 5279, 5285, 5289, 5295, 5299, 5765, 5769, 5775, 5779, 5785, 5789, 5795, 5799, 6065, 6069, 6075, 6079, 6085, 6089, 6095, 6099, 6265, 6269, 6275, 6279, 6285, 6289, 6295, 6299, 6765, 6769, 6775, 6779, 6785, 6789, 6795, 6799"
+      "resumo": "Palpites dados para esta extração: 6265, 6269, 6285, 6289"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -312,59 +239,8 @@
         }
       ],
       "frases": {
-        "5075": [
-          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 5075"
-        ],
-        "5079": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 5079"
-        ],
-        "5085": [
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 5085"
-        ],
-        "5275": [
-          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 5275"
-        ],
-        "5279": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 5279"
-        ],
-        "5285": [
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 5285"
-        ],
-        "5775": [
-          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 5775"
-        ],
-        "5779": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 5779"
-        ],
-        "5785": [
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 5785"
-        ],
-        "6075": [
-          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 6075"
-        ],
-        "6079": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 6079"
-        ],
-        "6085": [
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 6085"
-        ],
-        "6275": [
-          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 6275"
-        ],
-        "6279": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 6279"
-        ],
         "6285": [
           "TIGRE 🐅 no nono prêmio!<br>com o palpite 6285"
-        ],
-        "6775": [
-          "PAVÃO 🦚 no oitavo prêmio!<br>com o palpite 6775"
-        ],
-        "6779": [
-          "PERU 🦃 no terceiro prêmio!<br>com o palpite 6779"
-        ],
-        "6785": [
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 6785"
         ]
       },
       "acertos": {
@@ -372,12 +248,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🦃",
-          "🦚",
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5065, 5069, 5075, 5079, 5085, 5089, 5095, 5099, 5265, 5269, 5275, 5279, 5285, 5289, 5295, 5299, 5765, 5769, 5775, 5779, 5785, 5789, 5795, 5799, 6065, 6069, 6075, 6079, 6085, 6089, 6095, 6099, 6265, 6269, 6275, 6279, 6285, 6289, 6295, 6299, 6765, 6769, 6775, 6779, 6785, 6789, 6795, 6799"
+      "resumo": "Palpites dados para esta extração: 6265, 6269, 6285, 6289"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -449,106 +323,6 @@
         }
       ],
       "frases": {
-        "5065": [
-          "Dezena no sexto prêmio!<br>com o palpite 5065",
-          "MACACO 🐒 no sexto prêmio!<br>com o palpite 5065"
-        ],
-        "5069": [
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 5069"
-        ],
-        "5075": [
-          "Dezena no primeiro prêmio!<br>com o palpite 5075",
-          "PAVÃO 🦚 no primeiro prêmio!<br>com o palpite 5075",
-          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 5075"
-        ],
-        "5079": [
-          "Dezena no quinto prêmio!<br>com o palpite 5079",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 5079"
-        ],
-        "5085": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 5085"
-        ],
-        "5089": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 5089"
-        ],
-        "5099": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 5099"
-        ],
-        "5265": [
-          "Dezena no sexto prêmio!<br>com o palpite 5265",
-          "MACACO 🐒 no sexto prêmio!<br>com o palpite 5265"
-        ],
-        "5269": [
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 5269"
-        ],
-        "5275": [
-          "Dezena no primeiro prêmio!<br>com o palpite 5275",
-          "PAVÃO 🦚 no primeiro prêmio!<br>com o palpite 5275",
-          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 5275"
-        ],
-        "5279": [
-          "Dezena no quinto prêmio!<br>com o palpite 5279",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 5279"
-        ],
-        "5285": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 5285"
-        ],
-        "5289": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 5289"
-        ],
-        "5299": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 5299"
-        ],
-        "5765": [
-          "Dezena no sexto prêmio!<br>com o palpite 5765",
-          "MACACO 🐒 no sexto prêmio!<br>com o palpite 5765"
-        ],
-        "5769": [
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 5769"
-        ],
-        "5775": [
-          "Dezena no primeiro prêmio!<br>com o palpite 5775",
-          "PAVÃO 🦚 no primeiro prêmio!<br>com o palpite 5775",
-          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 5775"
-        ],
-        "5779": [
-          "Dezena no quinto prêmio!<br>com o palpite 5779",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 5779"
-        ],
-        "5785": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 5785"
-        ],
-        "5789": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 5789"
-        ],
-        "5799": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 5799"
-        ],
-        "6065": [
-          "Dezena no sexto prêmio!<br>com o palpite 6065",
-          "MACACO 🐒 no sexto prêmio!<br>com o palpite 6065"
-        ],
-        "6069": [
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 6069"
-        ],
-        "6075": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6075",
-          "PAVÃO 🦚 no primeiro prêmio!<br>com o palpite 6075",
-          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 6075"
-        ],
-        "6079": [
-          "Dezena no quinto prêmio!<br>com o palpite 6079",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 6079"
-        ],
-        "6085": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 6085"
-        ],
-        "6089": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 6089"
-        ],
-        "6099": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 6099"
-        ],
         "6265": [
           "Dezena no sexto prêmio!<br>com o palpite 6265",
           "MACACO 🐒 no sexto prêmio!<br>com o palpite 6265"
@@ -556,65 +330,25 @@
         "6269": [
           "PORCO 🐖 no nono prêmio!<br>com o palpite 6269"
         ],
-        "6275": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6275",
-          "PAVÃO 🦚 no primeiro prêmio!<br>com o palpite 6275",
-          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 6275"
-        ],
-        "6279": [
-          "Dezena no quinto prêmio!<br>com o palpite 6279",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 6279"
-        ],
         "6285": [
           "TIGRE 🐅 no décimo prêmio!<br>com o palpite 6285"
         ],
         "6289": [
           "URSO 🐻 no quarto prêmio!<br>com o palpite 6289"
-        ],
-        "6299": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 6299"
-        ],
-        "6765": [
-          "Dezena no sexto prêmio!<br>com o palpite 6765",
-          "MACACO 🐒 no sexto prêmio!<br>com o palpite 6765"
-        ],
-        "6769": [
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 6769"
-        ],
-        "6775": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6775",
-          "PAVÃO 🦚 no primeiro prêmio!<br>com o palpite 6775",
-          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 6775"
-        ],
-        "6779": [
-          "Dezena no quinto prêmio!<br>com o palpite 6779",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 6779"
-        ],
-        "6785": [
-          "TIGRE 🐅 no décimo prêmio!<br>com o palpite 6785"
-        ],
-        "6789": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 6789"
-        ],
-        "6799": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 6799"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 18,
+        "Dezena": 1,
         "Grupo": [
-          "🦚",
           "🐻",
-          "🦃",
           "🐒",
-          "🐄",
           "🐖",
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5065, 5069, 5075, 5079, 5085, 5089, 5095, 5099, 5265, 5269, 5275, 5279, 5285, 5289, 5295, 5299, 5765, 5769, 5775, 5779, 5785, 5789, 5795, 5799, 6065, 6069, 6075, 6079, 6085, 6089, 6095, 6099, 6265, 6269, 6275, 6279, 6285, 6289, 6295, 6299, 6765, 6769, 6775, 6779, 6785, 6789, 6795, 6799"
+      "resumo": "Palpites dados para esta extração: 6265, 6269, 6285, 6289"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -686,94 +420,6 @@
         }
       ],
       "frases": {
-        "5069": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5069",
-          "PORCO 🐖 no terceiro prêmio!<br>com o palpite 5069",
-          "Dezena no sétimo prêmio!<br>com o palpite 5069",
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 5069",
-          "Dezena no oitavo prêmio!<br>com o palpite 5069",
-          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 5069"
-        ],
-        "5075": [
-          "Dezena no sexto prêmio!<br>com o palpite 5075",
-          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 5075"
-        ],
-        "5079": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5079"
-        ],
-        "5095": [
-          "Dezena no quarto prêmio!<br>com o palpite 5095",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 5095",
-          "Centena e Dezena no nono prêmio!<br>com o palpite 5095",
-          "Dezena no nono prêmio!<br>com o palpite 5095",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 5095"
-        ],
-        "5269": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5269",
-          "PORCO 🐖 no terceiro prêmio!<br>com o palpite 5269",
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 5269",
-          "Dezena no sétimo prêmio!<br>com o palpite 5269",
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 5269",
-          "Dezena no oitavo prêmio!<br>com o palpite 5269",
-          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 5269"
-        ],
-        "5275": [
-          "Dezena no sexto prêmio!<br>com o palpite 5275",
-          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 5275"
-        ],
-        "5279": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5279"
-        ],
-        "5295": [
-          "Dezena no quarto prêmio!<br>com o palpite 5295",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 5295",
-          "Dezena no nono prêmio!<br>com o palpite 5295",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 5295"
-        ],
-        "5769": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5769",
-          "PORCO 🐖 no terceiro prêmio!<br>com o palpite 5769",
-          "Dezena no sétimo prêmio!<br>com o palpite 5769",
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 5769",
-          "Dezena no oitavo prêmio!<br>com o palpite 5769",
-          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 5769"
-        ],
-        "5775": [
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 5775",
-          "Dezena no sexto prêmio!<br>com o palpite 5775",
-          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 5775"
-        ],
-        "5779": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5779"
-        ],
-        "5795": [
-          "Dezena no quarto prêmio!<br>com o palpite 5795",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 5795",
-          "Dezena no nono prêmio!<br>com o palpite 5795",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 5795"
-        ],
-        "6069": [
-          "Dezena no terceiro prêmio!<br>com o palpite 6069",
-          "PORCO 🐖 no terceiro prêmio!<br>com o palpite 6069",
-          "Dezena no sétimo prêmio!<br>com o palpite 6069",
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 6069",
-          "Dezena no oitavo prêmio!<br>com o palpite 6069",
-          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 6069"
-        ],
-        "6075": [
-          "Dezena no sexto prêmio!<br>com o palpite 6075",
-          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 6075"
-        ],
-        "6079": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6079"
-        ],
-        "6095": [
-          "Dezena no quarto prêmio!<br>com o palpite 6095",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 6095",
-          "Centena e Dezena no nono prêmio!<br>com o palpite 6095",
-          "Dezena no nono prêmio!<br>com o palpite 6095",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 6095"
-        ],
         "6269": [
           "Dezena no terceiro prêmio!<br>com o palpite 6269",
           "PORCO 🐖 no terceiro prêmio!<br>com o palpite 6269",
@@ -782,56 +428,17 @@
           "PORCO 🐖 no sétimo prêmio!<br>com o palpite 6269",
           "Dezena no oitavo prêmio!<br>com o palpite 6269",
           "PORCO 🐖 no oitavo prêmio!<br>com o palpite 6269"
-        ],
-        "6275": [
-          "Dezena no sexto prêmio!<br>com o palpite 6275",
-          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 6275"
-        ],
-        "6279": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6279"
-        ],
-        "6295": [
-          "Dezena no quarto prêmio!<br>com o palpite 6295",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 6295",
-          "Dezena no nono prêmio!<br>com o palpite 6295",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 6295"
-        ],
-        "6769": [
-          "Dezena no terceiro prêmio!<br>com o palpite 6769",
-          "PORCO 🐖 no terceiro prêmio!<br>com o palpite 6769",
-          "Dezena no sétimo prêmio!<br>com o palpite 6769",
-          "PORCO 🐖 no sétimo prêmio!<br>com o palpite 6769",
-          "Dezena no oitavo prêmio!<br>com o palpite 6769",
-          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 6769"
-        ],
-        "6775": [
-          "Milhar e Centena no sexto prêmio!<br>com o palpite 6775",
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 6775",
-          "Dezena no sexto prêmio!<br>com o palpite 6775",
-          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 6775"
-        ],
-        "6779": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 6779"
-        ],
-        "6795": [
-          "Dezena no quarto prêmio!<br>com o palpite 6795",
-          "VEADO 🦌 no quarto prêmio!<br>com o palpite 6795",
-          "Dezena no nono prêmio!<br>com o palpite 6795",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 6795"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 6,
-        "Dezena": 36,
+        "Milhar": 0,
+        "Centena": 1,
+        "Dezena": 3,
         "Grupo": [
-          "🦃",
-          "🐖",
-          "🦌",
-          "🦚"
+          "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5065, 5069, 5075, 5079, 5085, 5089, 5095, 5099, 5265, 5269, 5275, 5279, 5285, 5289, 5295, 5299, 5765, 5769, 5775, 5779, 5785, 5789, 5795, 5799, 6065, 6069, 6075, 6079, 6085, 6089, 6095, 6099, 6265, 6269, 6275, 6279, 6285, 6289, 6295, 6299, 6765, 6769, 6775, 6779, 6785, 6789, 6795, 6799"
+      "resumo": "Palpites dados para esta extração: 6265, 6269, 6285, 6289"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
