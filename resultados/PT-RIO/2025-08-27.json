@@ -235,43 +235,43 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "2447",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "4025",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "7747",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "5627",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "8578",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "5727",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "2336",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "5693",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "0782",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "5830",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "1890",
+          "Milhar": "6902",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "956",
+          "Milhar": "648",
           "Grupo": "",
           "Bicho": ""
         }
@@ -283,7 +283,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6557"
+      "resumo": "Palpites dados para esta extração: 2079, 2279, 2579, 2979, 3079, 3279, 3579, 3979, 5079, 5279, 5579, 5979"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -746,63 +746,63 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "2447",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "4025",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "7747",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "5627",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "8578",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "5727",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "2336",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "5693",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "0782",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "5830",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "2782",
-          "Grupo": "21",
-          "Bicho": "Touro"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "4753",
+          "Milhar": "4555",
           "Grupo": "14",
           "Bicho": "Gato"
         },
         {
-          "Prêmio": "8º",
-          "Milhar": "4473",
+          "Prêmio": "7º",
+          "Milhar": "0676",
           "Grupo": "19",
           "Bicho": "Pavão"
         },
         {
+          "Prêmio": "8º",
+          "Milhar": "2229",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
           "Prêmio": "9º",
-          "Milhar": "7786",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "5773",
+          "Grupo": "19",
+          "Bicho": "Pavão"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "1684",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "0135",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         }
       ],
       "frases": {},
@@ -812,7 +812,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6557"
+      "resumo": "Palpites dados para esta extração: 2079, 2279, 2579, 2979, 3079, 3279, 3579, 3979, 5079, 5279, 5579, 5979"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
