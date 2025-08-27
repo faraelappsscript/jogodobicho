@@ -51,14 +51,32 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "5005": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5005"
+        ],
+        "5035": [
+          "Dezena no sexto prêmio!<br>com o palpite 5035",
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 5035"
+        ],
+        "5805": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5805"
+        ],
+        "5835": [
+          "Dezena no sexto prêmio!<br>com o palpite 5835",
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 5835"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 2,
+        "Grupo": [
+          "🦅",
+          "🐍"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 5625"
+      "resumo": "Palpites dados para esta extração: 5005, 5035, 5085, 5805, 5835, 5885"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +136,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5625"
+      "resumo": "Palpites dados para esta extração: 5005, 5035, 5085, 5805, 5835, 5885"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -171,23 +189,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "5625": [
-          "Dezena no primeiro prêmio!<br>com o palpite 5625",
-          "CARNEIRO 🐑 no primeiro prêmio!<br>com o palpite 5625",
-          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 5625",
-          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 5625"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
-        "Grupo": [
-          "🐑"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5625"
+      "resumo": "Palpites dados para esta extração: 5005, 5035, 5085, 5805, 5835, 5885"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -240,14 +249,27 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "5005": [
+          "Milhar e Centena no quinto prêmio!<br>com o palpite 5005",
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 5005",
+          "Dezena no quinto prêmio!<br>com o palpite 5005",
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5005"
+        ],
+        "5805": [
+          "Dezena no quinto prêmio!<br>com o palpite 5805",
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 5805"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 5625"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 2,
+        "Grupo": [
+          "🦅"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5005, 5035, 5085, 5805, 5835, 5885"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
