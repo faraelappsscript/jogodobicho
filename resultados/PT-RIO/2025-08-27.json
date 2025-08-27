@@ -199,43 +199,43 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "1675",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "0355",
+          "Grupo": "14",
+          "Bicho": "Gato"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "5074",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "6870",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "6917",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
+          "Milhar": "8830",
+          "Grupo": "08",
+          "Bicho": "Camelo"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "5791",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "7095",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "8179",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "5005",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "7636",
+          "Milhar": "8155",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "498",
+          "Milhar": "438",
           "Grupo": "",
           "Bicho": ""
         }
@@ -247,7 +247,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6557"
+      "resumo": "Palpites dados para esta extração: 5625"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -376,6 +376,29 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 6557"
+    },
+    "A FEDERAL DO BRASIL - RJ": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   },
   "1-10": {
@@ -638,63 +661,63 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "1675",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "0355",
+          "Grupo": "14",
+          "Bicho": "Gato"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "5074",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
-          "Prêmio": "3º",
-          "Milhar": "6917",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "5791",
-          "Grupo": "23",
-          "Bicho": "Urso"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "8179",
-          "Grupo": "20",
-          "Bicho": "Peru"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "1565",
-          "Grupo": "17",
-          "Bicho": "Macaco"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "6097",
-          "Grupo": "25",
-          "Bicho": "Vaca"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "7719",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "5471",
+          "Milhar": "6870",
           "Grupo": "18",
           "Bicho": "Porco"
         },
         {
-          "Prêmio": "10º",
-          "Milhar": "8488",
+          "Prêmio": "3º",
+          "Milhar": "8830",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7095",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5005",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "0687",
           "Grupo": "22",
           "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "3880",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "5739",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "5005",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "3466",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         }
       ],
       "frases": {},
@@ -704,7 +727,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6557"
+      "resumo": "Palpites dados para esta extração: 5625"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -872,6 +895,34 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 6557"
+    },
+    "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   }
 }
