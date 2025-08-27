@@ -407,20 +407,69 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "9932",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1897",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "7035",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0045",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6445",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "5354",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "311",
+          "Grupo": "",
+          "Bicho": ""
+        }
       ],
-      "frases": {},
+      "frases": {
+        "5035": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 5035",
+          "Dezena no terceiro prêmio!<br>com o palpite 5035",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 5035"
+        ],
+        "5835": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5835",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 5835"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 1,
+        "Dezena": 2,
+        "Grupo": [
+          "🐍"
+        ]
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 5005, 5035, 5085, 5805, 5835, 5885"
     }
   },
   "1-10": {
@@ -964,25 +1013,89 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "9932",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1897",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "7035",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0045",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6445",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "9170",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "9800",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "3934",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "2755",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "1013",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        }
       ],
-      "frases": {},
+      "frases": {
+        "5035": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 5035",
+          "Dezena no terceiro prêmio!<br>com o palpite 5035",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 5035",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 5035"
+        ],
+        "5835": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5835",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 5835",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 5835"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 1,
+        "Dezena": 2,
+        "Grupo": [
+          "🐍"
+        ]
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 5005, 5035, 5085, 5805, 5835, 5885"
     }
   }
 }
