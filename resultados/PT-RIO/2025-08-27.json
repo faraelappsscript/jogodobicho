@@ -51,14 +51,53 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "2079": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 2079"
+        ],
+        "2279": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 2279"
+        ],
+        "2579": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 2579"
+        ],
+        "2979": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 2979"
+        ],
+        "3079": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3079"
+        ],
+        "3279": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3279"
+        ],
+        "3579": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3579"
+        ],
+        "3979": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3979"
+        ],
+        "5079": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 5079"
+        ],
+        "5279": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 5279"
+        ],
+        "5579": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 5579"
+        ],
+        "5979": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 5979"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦃"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0788"
+      "resumo": "Palpites dados para esta extração: 2079, 2279, 2579, 2979, 3079, 3279, 3579, 3979, 5079, 5279, 5579, 5979"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,14 +150,80 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "2079": [
+          "Dezena no quarto prêmio!<br>com o palpite 2079",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 2079",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 2079"
+        ],
+        "2279": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 2279",
+          "Dezena no quarto prêmio!<br>com o palpite 2279",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 2279",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 2279"
+        ],
+        "2579": [
+          "Dezena no quarto prêmio!<br>com o palpite 2579",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 2579",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 2579"
+        ],
+        "2979": [
+          "Dezena no quarto prêmio!<br>com o palpite 2979",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 2979",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 2979"
+        ],
+        "3079": [
+          "Dezena no quarto prêmio!<br>com o palpite 3079",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3079",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 3079"
+        ],
+        "3279": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 3279",
+          "Dezena no quarto prêmio!<br>com o palpite 3279",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3279",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 3279"
+        ],
+        "3579": [
+          "Dezena no quarto prêmio!<br>com o palpite 3579",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3579",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 3579"
+        ],
+        "3979": [
+          "Dezena no quarto prêmio!<br>com o palpite 3979",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3979",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 3979"
+        ],
+        "5079": [
+          "Dezena no quarto prêmio!<br>com o palpite 5079",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 5079",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 5079"
+        ],
+        "5279": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 5279",
+          "Dezena no quarto prêmio!<br>com o palpite 5279",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 5279",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 5279"
+        ],
+        "5579": [
+          "Dezena no quarto prêmio!<br>com o palpite 5579",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 5579",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 5579"
+        ],
+        "5979": [
+          "Dezena no quarto prêmio!<br>com o palpite 5979",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 5979",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 5979"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 3,
+        "Dezena": 12,
+        "Grupo": [
+          "🦃"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0788"
+      "resumo": "Palpites dados para esta extração: 2079, 2279, 2579, 2979, 3079, 3279, 3579, 3979, 5079, 5279, 5579, 5979"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
