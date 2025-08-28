@@ -321,14 +321,20 @@
           "Bicho": "Tigre"
         }
       ],
-      "frases": {},
+      "frases": {
+        "9432": [
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9432"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐪"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3436, 3936"
+      "resumo": "Palpites dados para esta extração: 9432, 9436, 9492, 9496"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -399,14 +405,21 @@
           "Bicho": "Borboleta"
         }
       ],
-      "frases": {},
+      "frases": {
+        "9492": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9492",
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 9492"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 1,
+        "Grupo": [
+          "🐻"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3436, 3936"
+      "resumo": "Palpites dados para esta extração: 9432, 9436, 9492, 9496"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -478,18 +491,20 @@
         }
       ],
       "frases": {
-        "3436": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3436",
-          "Dezena no quarto prêmio!<br>com o palpite 3436",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 3436",
-          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 3436",
-          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 3436"
+        "9432": [
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 9432"
         ],
-        "3936": [
-          "Dezena no quarto prêmio!<br>com o palpite 3936",
-          "COBRA 🐍 no quarto prêmio!<br>com o palpite 3936",
-          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 3936",
-          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 3936"
+        "9436": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 9436",
+          "Dezena no quarto prêmio!<br>com o palpite 9436",
+          "COBRA 🐍 no quarto prêmio!<br>com o palpite 9436",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 9436",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 9436"
+        ],
+        "9492": [
+          "Dezena no segundo prêmio!<br>com o palpite 9492",
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 9492",
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 9492"
         ]
       },
       "acertos": {
@@ -497,10 +512,12 @@
         "Centena": 1,
         "Dezena": 2,
         "Grupo": [
+          "🐻",
+          "🐪",
           "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3436, 3936"
+      "resumo": "Palpites dados para esta extração: 9432, 9436, 9492, 9496"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -578,9 +595,87 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3436, 3936"
+      "resumo": "Palpites dados para esta extração: 9432, 9436, 9492, 9496"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "6362",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2307",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6146",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3099",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5881",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "6263",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "3310",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6049",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "2769",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "2186",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 9432, 9436, 9492, 9496"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
