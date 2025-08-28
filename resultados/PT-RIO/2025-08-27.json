@@ -341,63 +341,66 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "6286",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "1567",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "1557",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "2595",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "3515",
+          "Milhar": "4151",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "5613",
           "Grupo": "04",
           "Bicho": "Borboleta"
         },
         {
-          "Prêmio": "4º",
-          "Milhar": "1807",
-          "Grupo": "02",
-          "Bicho": "Águia"
-        },
-        {
           "Prêmio": "5º",
-          "Milhar": "3802",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "6809",
+          "Grupo": "03",
+          "Bicho": "Burro"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "6967",
+          "Milhar": "0735",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "787",
+          "Milhar": "066",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
-        "6557": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 6557",
-          "Dezena no segundo prêmio!<br>com o palpite 6557",
-          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 6557"
+        "5035": [
+          "Dezena no sexto prêmio!<br>com o palpite 5035",
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 5035"
+        ],
+        "5835": [
+          "Dezena no sexto prêmio!<br>com o palpite 5835",
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 5835"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 1,
+        "Centena": 0,
+        "Dezena": 2,
         "Grupo": [
-          "🐊"
+          "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6557"
+      "resumo": "Palpites dados para esta extração: 5005, 5035, 5085, 5805, 5835, 5885"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -926,84 +929,73 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "6286",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "1567",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "1557",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "2595",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "3515",
+          "Milhar": "4151",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "5613",
           "Grupo": "04",
           "Bicho": "Borboleta"
         },
         {
-          "Prêmio": "4º",
-          "Milhar": "1807",
-          "Grupo": "02",
-          "Bicho": "Águia"
-        },
-        {
           "Prêmio": "5º",
-          "Milhar": "3802",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "6131",
-          "Grupo": "08",
-          "Bicho": "Camelo"
-        },
-        {
-          "Prêmio": "7º",
-          "Milhar": "2558",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
-        },
-        {
-          "Prêmio": "8º",
-          "Milhar": "8510",
+          "Milhar": "6809",
           "Grupo": "03",
           "Bicho": "Burro"
         },
         {
+          "Prêmio": "6º",
+          "Milhar": "1245",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "5516",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6951",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
           "Prêmio": "9º",
-          "Milhar": "6757",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "7513",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "0923",
-          "Grupo": "06",
-          "Bicho": "Cabra"
+          "Milhar": "1960",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
         }
       ],
-      "frases": {
-        "6557": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 6557",
-          "Dezena no segundo prêmio!<br>com o palpite 6557",
-          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 6557",
-          "JACARÉ 🐊 no sétimo prêmio!<br>com o palpite 6557",
-          "Dezena no nono prêmio!<br>com o palpite 6557",
-          "JACARÉ 🐊 no nono prêmio!<br>com o palpite 6557"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 2,
-        "Grupo": [
-          "🐊"
-        ]
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6557"
+      "resumo": "Palpites dados para esta extração: 5005, 5035, 5085, 5805, 5835, 5885"
     },
     "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
