@@ -51,6 +51,133 @@
           "Bicho": ""
         }
       ],
+      "frases": {
+        "5032": [
+          "Dezena no quarto prêmio!<br>com o palpite 5032",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 5032"
+        ],
+        "5092": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 5092"
+        ],
+        "5232": [
+          "Dezena no quarto prêmio!<br>com o palpite 5232",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 5232"
+        ],
+        "5292": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 5292"
+        ],
+        "5632": [
+          "Dezena no quarto prêmio!<br>com o palpite 5632",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 5632"
+        ],
+        "5692": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 5692"
+        ],
+        "6032": [
+          "Dezena no quarto prêmio!<br>com o palpite 6032",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 6032"
+        ],
+        "6092": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 6092"
+        ],
+        "6232": [
+          "Dezena no quarto prêmio!<br>com o palpite 6232",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 6232"
+        ],
+        "6292": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 6292"
+        ],
+        "6632": [
+          "Dezena no quarto prêmio!<br>com o palpite 6632",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 6632"
+        ],
+        "6692": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 6692"
+        ],
+        "9032": [
+          "Dezena no quarto prêmio!<br>com o palpite 9032",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9032"
+        ],
+        "9092": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 9092"
+        ],
+        "9232": [
+          "Dezena no quarto prêmio!<br>com o palpite 9232",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9232"
+        ],
+        "9292": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 9292"
+        ],
+        "9632": [
+          "Dezena no quarto prêmio!<br>com o palpite 9632",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9632"
+        ],
+        "9692": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 9692"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 9,
+        "Grupo": [
+          "🐻",
+          "🐪"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5002, 5022, 5032, 5092, 5202, 5222, 5232, 5292, 5602, 5622, 5632, 5692, 6002, 6022, 6032, 6092, 6202, 6222, 6232, 6292, 6602, 6622, 6632, 6692, 9002, 9022, 9032, 9092, 9202, 9222, 9232, 9292, 9602, 9622, 9632, 9692"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5364",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2185",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1378",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0487",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0555",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "9969",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "720",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
       "frases": {},
       "acertos": {
         "Milhar": 0,
@@ -58,9 +185,9 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6012, 6042, 6062, 6112, 6142, 6162, 6212, 6242, 6262, 6312, 6342, 6362"
+      "resumo": "Palpites dados para esta extração: 5002, 5022, 5032, 5092, 5202, 5222, 5232, 5292, 5602, 5622, 5632, 5692, 6002, 6022, 6032, 6092, 6202, 6222, 6232, 6292, 6602, 6622, 6632, 6692, 9002, 9022, 9032, 9092, 9202, 9222, 9232, 9292, 9602, 9622, 9632, 9692"
     },
-    "PT-RIO, RJ, 11:00, PTM": {
+    "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
@@ -154,6 +281,228 @@
           "Bicho": "Avestruz"
         }
       ],
+      "frases": {
+        "5002": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 5002"
+        ],
+        "5022": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 5022"
+        ],
+        "5032": [
+          "Dezena no quarto prêmio!<br>com o palpite 5032",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 5032",
+          "Centena e Dezena no nono prêmio!<br>com o palpite 5032",
+          "Dezena no nono prêmio!<br>com o palpite 5032",
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 5032"
+        ],
+        "5092": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 5092"
+        ],
+        "5202": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 5202"
+        ],
+        "5222": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 5222"
+        ],
+        "5232": [
+          "Dezena no quarto prêmio!<br>com o palpite 5232",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 5232",
+          "Dezena no nono prêmio!<br>com o palpite 5232",
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 5232"
+        ],
+        "5292": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 5292"
+        ],
+        "5602": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 5602"
+        ],
+        "5622": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 5622"
+        ],
+        "5632": [
+          "Dezena no quarto prêmio!<br>com o palpite 5632",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 5632",
+          "Dezena no nono prêmio!<br>com o palpite 5632",
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 5632"
+        ],
+        "5692": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 5692"
+        ],
+        "6002": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 6002"
+        ],
+        "6022": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 6022"
+        ],
+        "6032": [
+          "Dezena no quarto prêmio!<br>com o palpite 6032",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 6032",
+          "Centena e Dezena no nono prêmio!<br>com o palpite 6032",
+          "Dezena no nono prêmio!<br>com o palpite 6032",
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 6032"
+        ],
+        "6092": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 6092"
+        ],
+        "6202": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 6202"
+        ],
+        "6222": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 6222"
+        ],
+        "6232": [
+          "Dezena no quarto prêmio!<br>com o palpite 6232",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 6232",
+          "Dezena no nono prêmio!<br>com o palpite 6232",
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 6232"
+        ],
+        "6292": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 6292"
+        ],
+        "6602": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 6602"
+        ],
+        "6622": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 6622"
+        ],
+        "6632": [
+          "Dezena no quarto prêmio!<br>com o palpite 6632",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 6632",
+          "Dezena no nono prêmio!<br>com o palpite 6632",
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 6632"
+        ],
+        "6692": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 6692"
+        ],
+        "9002": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 9002"
+        ],
+        "9022": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9022"
+        ],
+        "9032": [
+          "Dezena no quarto prêmio!<br>com o palpite 9032",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9032",
+          "Centena e Dezena no nono prêmio!<br>com o palpite 9032",
+          "Dezena no nono prêmio!<br>com o palpite 9032",
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 9032"
+        ],
+        "9092": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 9092"
+        ],
+        "9202": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 9202"
+        ],
+        "9222": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9222"
+        ],
+        "9232": [
+          "Dezena no quarto prêmio!<br>com o palpite 9232",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9232",
+          "Dezena no nono prêmio!<br>com o palpite 9232",
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 9232"
+        ],
+        "9292": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 9292"
+        ],
+        "9602": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 9602"
+        ],
+        "9622": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9622"
+        ],
+        "9632": [
+          "Dezena no quarto prêmio!<br>com o palpite 9632",
+          "CAMELO 🐪 no quarto prêmio!<br>com o palpite 9632",
+          "Dezena no nono prêmio!<br>com o palpite 9632",
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 9632"
+        ],
+        "9692": [
+          "URSO 🐻 no segundo prêmio!<br>com o palpite 9692"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 3,
+        "Dezena": 18,
+        "Grupo": [
+          "🐻",
+          "🐪",
+          "🐐",
+          "🪶"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5002, 5022, 5032, 5092, 5202, 5222, 5232, 5292, 5602, 5622, 5632, 5692, 6002, 6022, 6032, 6092, 6202, 6222, 6232, 6292, 6602, 6622, 6632, 6692, 9002, 9022, 9032, 9092, 9202, 9222, 9232, 9292, 9602, 9622, 9632, 9692"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5364",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2185",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1378",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0487",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0555",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "5210",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "3134",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6878",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "4587",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "9778",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        }
+      ],
       "frases": {},
       "acertos": {
         "Milhar": 0,
@@ -161,9 +510,9 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6012, 6042, 6062, 6112, 6142, 6162, 6212, 6242, 6262, 6312, 6342, 6362"
+      "resumo": "Palpites dados para esta extração: 5002, 5022, 5032, 5092, 5202, 5222, 5232, 5292, 5602, 5622, 5632, 5692, 6002, 6022, 6032, 6092, 6202, 6222, 6232, 6292, 6602, 6622, 6632, 6692, 9002, 9022, 9032, 9092, 9202, 9222, 9232, 9292, 9602, 9622, 9632, 9692"
     },
-    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+    "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
