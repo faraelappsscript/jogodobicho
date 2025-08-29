@@ -51,14 +51,29 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "6042": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6042"
+        ],
+        "6142": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6142"
+        ],
+        "6242": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6242"
+        ],
+        "6342": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6342"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐎"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6369"
+      "resumo": "Palpites dados para esta extração: 6012, 6042, 6062, 6112, 6142, 6162, 6212, 6242, 6262, 6312, 6342, 6362"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,14 +126,29 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "6042": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 6042"
+        ],
+        "6142": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 6142"
+        ],
+        "6242": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 6242"
+        ],
+        "6342": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 6342"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐎"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6369"
+      "resumo": "Palpites dados para esta extração: 6012, 6042, 6062, 6112, 6142, 6162, 6212, 6242, 6262, 6312, 6342, 6362"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -171,14 +201,33 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "6012": [
+          "Dezena no quinto prêmio!<br>com o palpite 6012",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 6012"
+        ],
+        "6112": [
+          "Dezena no quinto prêmio!<br>com o palpite 6112",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 6112"
+        ],
+        "6212": [
+          "Dezena no quinto prêmio!<br>com o palpite 6212",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 6212"
+        ],
+        "6312": [
+          "Dezena no quinto prêmio!<br>com o palpite 6312",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 6312"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 4,
+        "Grupo": [
+          "🐴"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6369"
+      "resumo": "Palpites dados para esta extração: 6012, 6042, 6062, 6112, 6142, 6162, 6212, 6242, 6262, 6312, 6342, 6362"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -231,14 +280,29 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "6042": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 6042"
+        ],
+        "6142": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 6142"
+        ],
+        "6242": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 6242"
+        ],
+        "6342": [
+          "CAVALO 🐎 no segundo prêmio!<br>com o palpite 6342"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐎"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6369"
+      "resumo": "Palpites dados para esta extração: 6012, 6042, 6062, 6112, 6142, 6162, 6212, 6242, 6262, 6312, 6342, 6362"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -291,14 +355,35 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "6062": [
+          "Dezena no primeiro prêmio!<br>com o palpite 6062",
+          "LEÃO 🦁 no primeiro prêmio!<br>com o palpite 6062"
+        ],
+        "6162": [
+          "Dezena no primeiro prêmio!<br>com o palpite 6162",
+          "LEÃO 🦁 no primeiro prêmio!<br>com o palpite 6162"
+        ],
+        "6262": [
+          "Dezena no primeiro prêmio!<br>com o palpite 6262",
+          "LEÃO 🦁 no primeiro prêmio!<br>com o palpite 6262"
+        ],
+        "6362": [
+          "Milhar e Centena no primeiro prêmio!<br>com o palpite 6362",
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 6362",
+          "Dezena no primeiro prêmio!<br>com o palpite 6362",
+          "LEÃO 🦁 no primeiro prêmio!<br>com o palpite 6362"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6369"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 4,
+        "Grupo": [
+          "🦁"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 6012, 6042, 6062, 6112, 6142, 6162, 6212, 6242, 6262, 6312, 6342, 6362"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -351,14 +436,34 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "6042": [
+          "Dezena no quarto prêmio!<br>com o palpite 6042",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6042"
+        ],
+        "6142": [
+          "Dezena no quarto prêmio!<br>com o palpite 6142",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6142"
+        ],
+        "6242": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 6242",
+          "Dezena no quarto prêmio!<br>com o palpite 6242",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6242"
+        ],
+        "6342": [
+          "Dezena no quarto prêmio!<br>com o palpite 6342",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 6342"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 1,
+        "Dezena": 4,
+        "Grupo": [
+          "🐎"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6369"
+      "resumo": "Palpites dados para esta extração: 6012, 6042, 6062, 6112, 6142, 6162, 6212, 6242, 6262, 6312, 6342, 6362"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
