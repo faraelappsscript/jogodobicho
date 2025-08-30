@@ -106,5 +106,164 @@
       },
       "resumo": ""
     }
+  },
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2273",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9402",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5836",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0271",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6677",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "4459",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "370",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "2057": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 2057"
+        ],
+        "2077": [
+          "Dezena no quinto prêmio!<br>com o palpite 2077",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 2077"
+        ],
+        "2157": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 2157"
+        ],
+        "2177": [
+          "Dezena no quinto prêmio!<br>com o palpite 2177",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 2177"
+        ],
+        "2257": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 2257"
+        ],
+        "2277": [
+          "Dezena no quinto prêmio!<br>com o palpite 2277",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 2277"
+        ],
+        "2457": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 2457"
+        ],
+        "2477": [
+          "Dezena no quinto prêmio!<br>com o palpite 2477",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 2477"
+        ],
+        "2757": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 2757"
+        ],
+        "2777": [
+          "Dezena no quinto prêmio!<br>com o palpite 2777",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 2777"
+        ],
+        "0077": [
+          "Dezena no quinto prêmio!<br>com o palpite 0077",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 0077"
+        ],
+        "0177": [
+          "Dezena no quinto prêmio!<br>com o palpite 0177",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 0177"
+        ],
+        "0277": [
+          "Dezena no quinto prêmio!<br>com o palpite 0277",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 0277"
+        ],
+        "0477": [
+          "Dezena no quinto prêmio!<br>com o palpite 0477",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 0477"
+        ],
+        "0777": [
+          "Dezena no quinto prêmio!<br>com o palpite 0777",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 0777"
+        ],
+        "0057": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 0057"
+        ],
+        "0157": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 0157"
+        ],
+        "0257": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 0257"
+        ],
+        "0457": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 0457"
+        ],
+        "0757": [
+          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 0757"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 10,
+        "Grupo": [
+          "🦃",
+          "🐊"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0017, 0057, 0077, 0117, 0157, 0177, 0217, 0257, 0277, 0417, 0457, 0477, 0717, 0757, 0777, 2017, 2057, 2077, 2117, 2157, 2177, 2217, 2257, 2277, 2417, 2457, 2477, 2717, 2757, 2777"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
   }
 }
