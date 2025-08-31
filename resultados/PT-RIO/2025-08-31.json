@@ -1,0 +1,241 @@
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "3022",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6188",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4083",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0221",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "7760",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "1274",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "700",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 3032, 3038, 3832, 3838, 4032, 4038, 4832, 4838, 8032, 8038, 8832, 8838"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "3022",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6188",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4083",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0221",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "7760",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "3640",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "0102",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "2882",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "2831",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "0729",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        }
+      ],
+      "frases": {
+        "3032": [
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 3032",
+          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 3032"
+        ],
+        "3038": [
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 3038"
+        ],
+        "3832": [
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 3832",
+          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 3832"
+        ],
+        "3838": [
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 3838"
+        ],
+        "4032": [
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 4032",
+          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 4032"
+        ],
+        "4038": [
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 4038"
+        ],
+        "4832": [
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 4832",
+          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 4832"
+        ],
+        "4838": [
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 4838"
+        ],
+        "8032": [
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 8032",
+          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 8032"
+        ],
+        "8038": [
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 8038"
+        ],
+        "8832": [
+          "CAMELO 🐪 no nono prêmio!<br>com o palpite 8832",
+          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 8832"
+        ],
+        "8838": [
+          "COELHO 🐇 no sexto prêmio!<br>com o palpite 8838"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐇",
+          "🐪"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 3032, 3038, 3832, 3838, 4032, 4038, 4832, 4838, 8032, 8038, 8832, 8838"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
