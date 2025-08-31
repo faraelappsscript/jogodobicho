@@ -1,15 +1,16 @@
 {
-  "frase_1-5": "Palpites para a próxima extração (PT-RIO, RJ, 16:00, PTV):",
-  "frase_1-10": "Palpites para a próxima extração (PT-RIO, RJ, 16:00, PTV do 1º ao 10º):",
+  "frase_1-5": "Palpites para a próxima extração (A FEDERAL DO BRASIL - RJ):",
+  "frase_1-10": "Palpites para a próxima extração (A FEDERAL DO BRASIL - RJ do 1º ao 10º):",
   "palpites": [
-    "9109",
-    "9119",
-    "9129",
-    "9179",
-    "9609",
-    "9619",
-    "9629",
-    "9679"
+    "0105",
+    "0106",
+    "0109",
+    "5105",
+    "5106",
+    "5109",
+    "9105",
+    "9106",
+    "9109"
   ],
   "data_proxima_extracao": "2025-08-31"
 }
