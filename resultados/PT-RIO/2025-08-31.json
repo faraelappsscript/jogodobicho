@@ -51,6 +51,77 @@
           "Bicho": ""
         }
       ],
+      "frases": {
+        "3882": [
+          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 3882"
+        ],
+        "3888": [
+          "Dezena no segundo prêmio!<br>com o palpite 3888",
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 3888"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 1,
+        "Grupo": [
+          "🐅",
+          "🐂"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 3882, 3888"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9696",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6369",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8177",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0929",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4701",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "9872",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "753",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
       "frases": {},
       "acertos": {
         "Milhar": 0,
@@ -58,9 +129,9 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3032, 3038, 3832, 3838, 4032, 4038, 4832, 4838, 8032, 8038, 8832, 8838"
+      "resumo": "Palpites dados para esta extração: 3882, 3888"
     },
-    "PT-RIO, RJ, 11:00, PTM": {
+    "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
@@ -155,61 +226,107 @@
         }
       ],
       "frases": {
-        "3032": [
-          "CAMELO 🐪 no nono prêmio!<br>com o palpite 3032",
-          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 3032"
+        "3882": [
+          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 3882",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 3882",
+          "Dezena no oitavo prêmio!<br>com o palpite 3882",
+          "TOURO 🐂 no oitavo prêmio!<br>com o palpite 3882"
         ],
-        "3038": [
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 3038"
-        ],
-        "3832": [
-          "CAMELO 🐪 no nono prêmio!<br>com o palpite 3832",
-          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 3832"
-        ],
-        "3838": [
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 3838"
-        ],
-        "4032": [
-          "CAMELO 🐪 no nono prêmio!<br>com o palpite 4032",
-          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 4032"
-        ],
-        "4038": [
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 4038"
-        ],
-        "4832": [
-          "CAMELO 🐪 no nono prêmio!<br>com o palpite 4832",
-          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 4832"
-        ],
-        "4838": [
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 4838"
-        ],
-        "8032": [
-          "CAMELO 🐪 no nono prêmio!<br>com o palpite 8032",
-          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 8032"
-        ],
-        "8038": [
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 8038"
-        ],
-        "8832": [
-          "CAMELO 🐪 no nono prêmio!<br>com o palpite 8832",
-          "CAMELO 🐪 no décimo prêmio!<br>com o palpite 8832"
-        ],
-        "8838": [
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 8838"
+        "3888": [
+          "Dezena no segundo prêmio!<br>com o palpite 3888",
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 3888"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
-          "🐇",
-          "🐪"
+          "🐅",
+          "🐂"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3032, 3038, 3832, 3838, 4032, 4038, 4832, 4838, 8032, 8038, 8832, 8838"
+      "resumo": "Palpites dados para esta extração: 3882, 3888"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9696",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6369",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "8177",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0929",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4701",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "9680",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6319",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "9672",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "6979",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "2522",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 3882, 3888"
+    },
+    "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
