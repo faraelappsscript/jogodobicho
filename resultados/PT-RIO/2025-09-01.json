@@ -51,14 +51,25 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "7511": [
+          "Dezena no terceiro prêmio!<br>com o palpite 7511",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 7511"
+        ],
+        "7578": [
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 7578"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 1,
+        "Grupo": [
+          "🐴",
+          "🦃"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1518, 1618, 1818, 2518, 2618, 2818, 3518, 3618, 3818, 4518, 4618, 4818, 6518, 6618, 6818, 7518, 7618, 7818, 8518, 8618, 8818"
+      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -112,107 +123,28 @@
         }
       ],
       "frases": {
-        "1518": [
-          "Dezena no quarto prêmio!<br>com o palpite 1518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1518"
-        ],
-        "1618": [
-          "Dezena no quarto prêmio!<br>com o palpite 1618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1618"
-        ],
-        "1818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 1818",
-          "Dezena no quarto prêmio!<br>com o palpite 1818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1818"
-        ],
-        "2518": [
-          "Dezena no quarto prêmio!<br>com o palpite 2518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 2518"
-        ],
-        "2618": [
-          "Dezena no quarto prêmio!<br>com o palpite 2618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 2618"
-        ],
-        "2818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 2818",
-          "Dezena no quarto prêmio!<br>com o palpite 2818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 2818"
-        ],
-        "3518": [
-          "Dezena no quarto prêmio!<br>com o palpite 3518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 3518"
-        ],
-        "3618": [
-          "Dezena no quarto prêmio!<br>com o palpite 3618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 3618"
-        ],
-        "3818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3818",
-          "Dezena no quarto prêmio!<br>com o palpite 3818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 3818"
-        ],
-        "4518": [
-          "Dezena no quarto prêmio!<br>com o palpite 4518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 4518"
-        ],
-        "4618": [
-          "Dezena no quarto prêmio!<br>com o palpite 4618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 4618"
-        ],
-        "4818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 4818",
-          "Dezena no quarto prêmio!<br>com o palpite 4818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 4818"
-        ],
-        "6518": [
-          "Dezena no quarto prêmio!<br>com o palpite 6518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 6518"
-        ],
-        "6618": [
-          "Dezena no quarto prêmio!<br>com o palpite 6618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 6618"
-        ],
-        "6818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 6818",
-          "Dezena no quarto prêmio!<br>com o palpite 6818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 6818"
-        ],
         "7518": [
           "Dezena no quarto prêmio!<br>com o palpite 7518",
           "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7518"
         ],
-        "7618": [
-          "Dezena no quarto prêmio!<br>com o palpite 7618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7618"
-        ],
-        "7818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 7818",
-          "Dezena no quarto prêmio!<br>com o palpite 7818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7818"
-        ],
-        "8518": [
-          "Dezena no quarto prêmio!<br>com o palpite 8518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 8518"
-        ],
-        "8618": [
-          "Dezena no quarto prêmio!<br>com o palpite 8618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 8618"
-        ],
-        "8818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 8818",
-          "Dezena no quarto prêmio!<br>com o palpite 8818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 8818"
+        "7571": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 7571",
+          "Dezena no segundo prêmio!<br>com o palpite 7571",
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 7571",
+          "Dezena no quinto prêmio!<br>com o palpite 7571",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 7571"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 7,
-        "Dezena": 21,
+        "Centena": 1,
+        "Dezena": 3,
         "Grupo": [
+          "🐖",
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1518, 1618, 1818, 2518, 2618, 2818, 3518, 3618, 3818, 4518, 4618, 4818, 6518, 6618, 6818, 7518, 7618, 7818, 8518, 8618, 8818"
+      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -309,100 +241,25 @@
         }
       ],
       "frases": {
-        "1518": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1518",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1518"
-        ],
-        "1618": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1618",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1618"
-        ],
-        "1818": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1818",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1818"
-        ],
-        "2518": [
-          "Dezena no oitavo prêmio!<br>com o palpite 2518",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 2518"
-        ],
-        "2618": [
-          "Dezena no oitavo prêmio!<br>com o palpite 2618",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 2618"
-        ],
-        "2818": [
-          "Dezena no oitavo prêmio!<br>com o palpite 2818",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 2818"
-        ],
-        "3518": [
-          "Dezena no oitavo prêmio!<br>com o palpite 3518",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 3518"
-        ],
-        "3618": [
-          "Dezena no oitavo prêmio!<br>com o palpite 3618",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 3618"
-        ],
-        "3818": [
-          "Dezena no oitavo prêmio!<br>com o palpite 3818",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 3818"
-        ],
-        "4518": [
-          "Dezena no oitavo prêmio!<br>com o palpite 4518",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 4518"
-        ],
-        "4618": [
-          "Dezena no oitavo prêmio!<br>com o palpite 4618",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 4618"
-        ],
-        "4818": [
-          "Dezena no oitavo prêmio!<br>com o palpite 4818",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 4818"
-        ],
-        "6518": [
-          "Dezena no oitavo prêmio!<br>com o palpite 6518",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 6518"
-        ],
-        "6618": [
-          "Dezena no oitavo prêmio!<br>com o palpite 6618",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 6618"
-        ],
-        "6818": [
-          "Dezena no oitavo prêmio!<br>com o palpite 6818",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 6818"
+        "7511": [
+          "Dezena no terceiro prêmio!<br>com o palpite 7511",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 7511"
         ],
         "7518": [
           "Dezena no oitavo prêmio!<br>com o palpite 7518",
           "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 7518"
-        ],
-        "7618": [
-          "Dezena no oitavo prêmio!<br>com o palpite 7618",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 7618"
-        ],
-        "7818": [
-          "Dezena no oitavo prêmio!<br>com o palpite 7818",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 7818"
-        ],
-        "8518": [
-          "Dezena no oitavo prêmio!<br>com o palpite 8518",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 8518"
-        ],
-        "8618": [
-          "Dezena no oitavo prêmio!<br>com o palpite 8618",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 8618"
-        ],
-        "8818": [
-          "Dezena no oitavo prêmio!<br>com o palpite 8818",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 8818"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 21,
+        "Dezena": 2,
         "Grupo": [
+          "🐴",
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1518, 1618, 1818, 2518, 2618, 2818, 3518, 3618, 3818, 4518, 4618, 4818, 6518, 6618, 6818, 7518, 7618, 7818, 8518, 8618, 8818"
+      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -474,107 +331,33 @@
         }
       ],
       "frases": {
-        "1518": [
-          "Dezena no quarto prêmio!<br>com o palpite 1518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1518"
-        ],
-        "1618": [
-          "Dezena no quarto prêmio!<br>com o palpite 1618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1618"
-        ],
-        "1818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 1818",
-          "Dezena no quarto prêmio!<br>com o palpite 1818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1818"
-        ],
-        "2518": [
-          "Dezena no quarto prêmio!<br>com o palpite 2518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 2518"
-        ],
-        "2618": [
-          "Dezena no quarto prêmio!<br>com o palpite 2618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 2618"
-        ],
-        "2818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 2818",
-          "Dezena no quarto prêmio!<br>com o palpite 2818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 2818"
-        ],
-        "3518": [
-          "Dezena no quarto prêmio!<br>com o palpite 3518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 3518"
-        ],
-        "3618": [
-          "Dezena no quarto prêmio!<br>com o palpite 3618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 3618"
-        ],
-        "3818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3818",
-          "Dezena no quarto prêmio!<br>com o palpite 3818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 3818"
-        ],
-        "4518": [
-          "Dezena no quarto prêmio!<br>com o palpite 4518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 4518"
-        ],
-        "4618": [
-          "Dezena no quarto prêmio!<br>com o palpite 4618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 4618"
-        ],
-        "4818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 4818",
-          "Dezena no quarto prêmio!<br>com o palpite 4818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 4818"
-        ],
-        "6518": [
-          "Dezena no quarto prêmio!<br>com o palpite 6518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 6518"
-        ],
-        "6618": [
-          "Dezena no quarto prêmio!<br>com o palpite 6618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 6618"
-        ],
-        "6818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 6818",
-          "Dezena no quarto prêmio!<br>com o palpite 6818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 6818"
-        ],
         "7518": [
           "Dezena no quarto prêmio!<br>com o palpite 7518",
           "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7518"
         ],
-        "7618": [
-          "Dezena no quarto prêmio!<br>com o palpite 7618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7618"
+        "7531": [
+          "Dezena no oitavo prêmio!<br>com o palpite 7531",
+          "CAMELO 🐪 no oitavo prêmio!<br>com o palpite 7531"
         ],
-        "7818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 7818",
-          "Dezena no quarto prêmio!<br>com o palpite 7818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7818"
-        ],
-        "8518": [
-          "Dezena no quarto prêmio!<br>com o palpite 8518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 8518"
-        ],
-        "8618": [
-          "Dezena no quarto prêmio!<br>com o palpite 8618",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 8618"
-        ],
-        "8818": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 8818",
-          "Dezena no quarto prêmio!<br>com o palpite 8818",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 8818"
+        "7571": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 7571",
+          "Dezena no segundo prêmio!<br>com o palpite 7571",
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 7571",
+          "Dezena no quinto prêmio!<br>com o palpite 7571",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 7571"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 7,
-        "Dezena": 21,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
-          "🐕"
+          "🐖",
+          "🐕",
+          "🐪"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1518, 1618, 1818, 2518, 2618, 2818, 3518, 3618, 3818, 4518, 4618, 4818, 6518, 6618, 6818, 7518, 7618, 7818, 8518, 8618, 8818"
+      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
