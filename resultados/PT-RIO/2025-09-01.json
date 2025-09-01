@@ -154,6 +154,76 @@
         "Bicho"
       ],
       "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "1112",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4180",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "2141",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0399",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3856",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "1688",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "648",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "7511": [
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 7511"
+        ],
+        "7578": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 7578"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐴",
+          "🦃"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
+    },
+    "PT-RIO, RJ, 16:00, PTV": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
         {},
         {},
         {},
@@ -360,6 +430,99 @@
       "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "1112",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4180",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "2141",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0399",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3856",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "1420",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1113",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1849",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "2019",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "8089",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        }
+      ],
+      "frases": {
+        "7511": [
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 7511"
+        ],
+        "7518": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 7518",
+          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 7518"
+        ],
+        "7578": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 7578"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐴",
+          "🦃",
+          "🐕"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
+    },
+    "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
