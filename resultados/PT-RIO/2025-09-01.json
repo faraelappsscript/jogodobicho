@@ -52,24 +52,31 @@
         }
       ],
       "frases": {
-        "7511": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7511",
-          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 7511"
+        "1110": [
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1110"
         ],
-        "7578": [
-          "PERU 🦃 no sétimo prêmio!<br>com o palpite 7578"
+        "1111": [
+          "Dezena no terceiro prêmio!<br>com o palpite 1111",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1111"
+        ],
+        "1810": [
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1810"
+        ],
+        "1811": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1811",
+          "Dezena no terceiro prêmio!<br>com o palpite 1811",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1811"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 1,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
-          "🐴",
-          "🦃"
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
+      "resumo": "Palpites dados para esta extração: 1110, 1111, 1118, 1119, 1810, 1811, 1818, 1819"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -123,28 +130,31 @@
         }
       ],
       "frases": {
-        "7518": [
-          "Dezena no quarto prêmio!<br>com o palpite 7518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7518"
+        "1118": [
+          "Dezena no quarto prêmio!<br>com o palpite 1118",
+          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1118"
         ],
-        "7571": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 7571",
-          "Dezena no segundo prêmio!<br>com o palpite 7571",
-          "PORCO 🐖 no segundo prêmio!<br>com o palpite 7571",
-          "Dezena no quinto prêmio!<br>com o palpite 7571",
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 7571"
+        "1119": [
+          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1119"
+        ],
+        "1818": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 1818",
+          "Dezena no quarto prêmio!<br>com o palpite 1818",
+          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1818"
+        ],
+        "1819": [
+          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1819"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 1,
-        "Dezena": 3,
+        "Dezena": 2,
         "Grupo": [
-          "🐖",
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
+      "resumo": "Palpites dados para esta extração: 1110, 1111, 1118, 1119, 1810, 1811, 1818, 1819"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -198,11 +208,17 @@
         }
       ],
       "frases": {
-        "7511": [
-          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 7511"
+        "1110": [
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1110"
         ],
-        "7578": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 7578"
+        "1111": [
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1111"
+        ],
+        "1810": [
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1810"
+        ],
+        "1811": [
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1811"
         ]
       },
       "acertos": {
@@ -210,11 +226,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐴",
-          "🦃"
+          "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
+      "resumo": "Palpites dados para esta extração: 1110, 1111, 1118, 1119, 1810, 1811, 1818, 1819"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -311,25 +326,46 @@
         }
       ],
       "frases": {
-        "7511": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7511",
-          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 7511"
+        "1110": [
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1110"
         ],
-        "7518": [
-          "Dezena no oitavo prêmio!<br>com o palpite 7518",
-          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 7518"
+        "1111": [
+          "Dezena no terceiro prêmio!<br>com o palpite 1111",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1111"
+        ],
+        "1118": [
+          "Dezena no oitavo prêmio!<br>com o palpite 1118",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1118"
+        ],
+        "1119": [
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1119"
+        ],
+        "1810": [
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1810"
+        ],
+        "1811": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1811",
+          "Dezena no terceiro prêmio!<br>com o palpite 1811",
+          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 1811"
+        ],
+        "1818": [
+          "Dezena no oitavo prêmio!<br>com o palpite 1818",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1818"
+        ],
+        "1819": [
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1819"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 2,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
           "🐴",
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
+      "resumo": "Palpites dados para esta extração: 1110, 1111, 1118, 1119, 1810, 1811, 1818, 1819"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -401,33 +437,31 @@
         }
       ],
       "frases": {
-        "7518": [
-          "Dezena no quarto prêmio!<br>com o palpite 7518",
-          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 7518"
+        "1118": [
+          "Dezena no quarto prêmio!<br>com o palpite 1118",
+          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1118"
         ],
-        "7531": [
-          "Dezena no oitavo prêmio!<br>com o palpite 7531",
-          "CAMELO 🐪 no oitavo prêmio!<br>com o palpite 7531"
+        "1119": [
+          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1119"
         ],
-        "7571": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 7571",
-          "Dezena no segundo prêmio!<br>com o palpite 7571",
-          "PORCO 🐖 no segundo prêmio!<br>com o palpite 7571",
-          "Dezena no quinto prêmio!<br>com o palpite 7571",
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 7571"
+        "1818": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 1818",
+          "Dezena no quarto prêmio!<br>com o palpite 1818",
+          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1818"
+        ],
+        "1819": [
+          "CACHORRO 🐕 no quarto prêmio!<br>com o palpite 1819"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 1,
-        "Dezena": 4,
+        "Dezena": 2,
         "Grupo": [
-          "🐖",
-          "🐕",
-          "🐪"
+          "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
+      "resumo": "Palpites dados para esta extração: 1110, 1111, 1118, 1119, 1810, 1811, 1818, 1819"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -499,28 +533,47 @@
         }
       ],
       "frases": {
-        "7511": [
-          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 7511"
+        "1110": [
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1110"
         ],
-        "7518": [
-          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 7518",
-          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 7518"
+        "1111": [
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1111"
         ],
-        "7578": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 7578"
+        "1118": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 1118",
+          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 1118"
+        ],
+        "1119": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 1119",
+          "Dezena no nono prêmio!<br>com o palpite 1119",
+          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 1119"
+        ],
+        "1810": [
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1810"
+        ],
+        "1811": [
+          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 1811"
+        ],
+        "1818": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 1818",
+          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 1818"
+        ],
+        "1819": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 1819",
+          "Dezena no nono prêmio!<br>com o palpite 1819",
+          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 1819"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 2,
         "Grupo": [
           "🐴",
-          "🦃",
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7511, 7518, 7531, 7538, 7571, 7578"
+      "resumo": "Palpites dados para esta extração: 1110, 1111, 1118, 1119, 1810, 1811, 1818, 1819"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
