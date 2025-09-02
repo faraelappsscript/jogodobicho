@@ -51,51 +51,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1617": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 1617",
-          "Dezena no segundo prêmio!<br>com o palpite 1617",
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 1617"
-        ],
-        "1618": [
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 1618"
-        ],
-        "1637": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1637",
-          "Dezena no terceiro prêmio!<br>com o palpite 1637",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 1637"
-        ],
-        "1638": [
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 1638"
-        ],
-        "0617": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 0617",
-          "Dezena no segundo prêmio!<br>com o palpite 0617",
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 0617"
-        ],
-        "0618": [
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 0618"
-        ],
-        "0637": [
-          "Milhar e Centena no terceiro prêmio!<br>com o palpite 0637",
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 0637",
-          "Dezena no terceiro prêmio!<br>com o palpite 0637",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 0637"
-        ],
-        "0638": [
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 0638"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 4,
-        "Dezena": 4,
-        "Grupo": [
-          "🐕",
-          "🐇"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0607, 0608, 0617, 0618, 0637, 0638, 1607, 1608, 1617, 1618, 1637, 1638"
+      "resumo": "Palpites dados para esta extração: 1632, 1652, 1692, 3632, 3652, 3692, 5632, 5652, 5692, 6632, 6652, 6692"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -148,14 +111,33 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1652": [
+          "Dezena no quinto prêmio!<br>com o palpite 1652",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 1652"
+        ],
+        "3652": [
+          "Dezena no quinto prêmio!<br>com o palpite 3652",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 3652"
+        ],
+        "5652": [
+          "Dezena no quinto prêmio!<br>com o palpite 5652",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 5652"
+        ],
+        "6652": [
+          "Dezena no quinto prêmio!<br>com o palpite 6652",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 6652"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 4,
+        "Grupo": [
+          "🐓"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0607, 0608, 0617, 0618, 0637, 0638, 1607, 1608, 1617, 1618, 1637, 1638"
+      "resumo": "Palpites dados para esta extração: 1632, 1652, 1692, 3632, 3652, 3692, 5632, 5652, 5692, 6632, 6652, 6692"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -497,70 +479,14 @@
           "Bicho": "Jacaré"
         }
       ],
-      "frases": {
-        "1607": [
-          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 1607"
-        ],
-        "1608": [
-          "Dezena no sexto prêmio!<br>com o palpite 1608",
-          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 1608"
-        ],
-        "1617": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 1617",
-          "Dezena no segundo prêmio!<br>com o palpite 1617",
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 1617"
-        ],
-        "1618": [
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 1618"
-        ],
-        "1637": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1637",
-          "Dezena no terceiro prêmio!<br>com o palpite 1637",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 1637",
-          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 1637"
-        ],
-        "1638": [
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 1638",
-          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 1638"
-        ],
-        "0617": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 0617",
-          "Dezena no segundo prêmio!<br>com o palpite 0617",
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 0617"
-        ],
-        "0618": [
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 0618"
-        ],
-        "0637": [
-          "Milhar e Centena no terceiro prêmio!<br>com o palpite 0637",
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 0637",
-          "Dezena no terceiro prêmio!<br>com o palpite 0637",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 0637",
-          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 0637"
-        ],
-        "0638": [
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 0638",
-          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 0638"
-        ],
-        "0607": [
-          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 0607"
-        ],
-        "0608": [
-          "Dezena no sexto prêmio!<br>com o palpite 0608",
-          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 0608"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 4,
-        "Dezena": 6,
-        "Grupo": [
-          "🐕",
-          "🐇",
-          "🦅"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0607, 0608, 0617, 0618, 0637, 0638, 1607, 1608, 1617, 1618, 1637, 1638"
+      "resumo": "Palpites dados para esta extração: 1632, 1652, 1692, 3632, 3652, 3692, 5632, 5652, 5692, 6632, 6652, 6692"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -631,14 +557,50 @@
           "Bicho": "Veado"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1652": [
+          "Dezena no quinto prêmio!<br>com o palpite 1652",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 1652"
+        ],
+        "1692": [
+          "Dezena no oitavo prêmio!<br>com o palpite 1692",
+          "URSO 🐻 no oitavo prêmio!<br>com o palpite 1692"
+        ],
+        "3652": [
+          "Dezena no quinto prêmio!<br>com o palpite 3652",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 3652"
+        ],
+        "3692": [
+          "Dezena no oitavo prêmio!<br>com o palpite 3692",
+          "URSO 🐻 no oitavo prêmio!<br>com o palpite 3692"
+        ],
+        "5652": [
+          "Dezena no quinto prêmio!<br>com o palpite 5652",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 5652"
+        ],
+        "5692": [
+          "Dezena no oitavo prêmio!<br>com o palpite 5692",
+          "URSO 🐻 no oitavo prêmio!<br>com o palpite 5692"
+        ],
+        "6652": [
+          "Dezena no quinto prêmio!<br>com o palpite 6652",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 6652"
+        ],
+        "6692": [
+          "Dezena no oitavo prêmio!<br>com o palpite 6692",
+          "URSO 🐻 no oitavo prêmio!<br>com o palpite 6692"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 8,
+        "Grupo": [
+          "🐓",
+          "🐻"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0607, 0608, 0617, 0618, 0637, 0638, 1607, 1608, 1617, 1618, 1637, 1638"
+      "resumo": "Palpites dados para esta extração: 1632, 1652, 1692, 3632, 3652, 3692, 5632, 5652, 5692, 6632, 6652, 6692"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
