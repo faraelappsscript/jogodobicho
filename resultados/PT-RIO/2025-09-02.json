@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1632, 1652, 1692, 3632, 3652, 3692, 5632, 5652, 5692, 6632, 6652, 6692"
+      "resumo": "Palpites dados para esta extração: 1552, 1592"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -112,32 +112,20 @@
         }
       ],
       "frases": {
-        "1652": [
-          "Dezena no quinto prêmio!<br>com o palpite 1652",
-          "GALO 🐓 no quinto prêmio!<br>com o palpite 1652"
-        ],
-        "3652": [
-          "Dezena no quinto prêmio!<br>com o palpite 3652",
-          "GALO 🐓 no quinto prêmio!<br>com o palpite 3652"
-        ],
-        "5652": [
-          "Dezena no quinto prêmio!<br>com o palpite 5652",
-          "GALO 🐓 no quinto prêmio!<br>com o palpite 5652"
-        ],
-        "6652": [
-          "Dezena no quinto prêmio!<br>com o palpite 6652",
-          "GALO 🐓 no quinto prêmio!<br>com o palpite 6652"
+        "1552": [
+          "Dezena no quinto prêmio!<br>com o palpite 1552",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 1552"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 4,
+        "Dezena": 1,
         "Grupo": [
           "🐓"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1632, 1652, 1692, 3632, 3652, 3692, 5632, 5652, 5692, 6632, 6652, 6692"
+      "resumo": "Palpites dados para esta extração: 1552, 1592"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -149,43 +137,43 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "1112",
-          "Grupo": "03",
-          "Bicho": "Burro"
+          "Milhar": "7605",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "4180",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "1022",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "2141",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "9162",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "0399",
-          "Grupo": "25",
-          "Bicho": "Vaca"
+          "Milhar": "9615",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "3856",
-          "Grupo": "14",
-          "Bicho": "Gato"
+          "Milhar": "9335",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "1688",
+          "Milhar": "6739",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "648",
+          "Milhar": "772",
           "Grupo": "",
           "Bicho": ""
         }
@@ -197,7 +185,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1005, 1025, 1035, 1205, 1225, 1235"
+      "resumo": "Palpites dados para esta extração: 1552, 1592"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -486,7 +474,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1632, 1652, 1692, 3632, 3652, 3692, 5632, 5652, 5692, 6632, 6652, 6692"
+      "resumo": "Palpites dados para esta extração: 1552, 1592"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -558,49 +546,26 @@
         }
       ],
       "frases": {
-        "1652": [
-          "Dezena no quinto prêmio!<br>com o palpite 1652",
-          "GALO 🐓 no quinto prêmio!<br>com o palpite 1652"
+        "1552": [
+          "Dezena no quinto prêmio!<br>com o palpite 1552",
+          "GALO 🐓 no quinto prêmio!<br>com o palpite 1552"
         ],
-        "1692": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1692",
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 1692"
-        ],
-        "3652": [
-          "Dezena no quinto prêmio!<br>com o palpite 3652",
-          "GALO 🐓 no quinto prêmio!<br>com o palpite 3652"
-        ],
-        "3692": [
-          "Dezena no oitavo prêmio!<br>com o palpite 3692",
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 3692"
-        ],
-        "5652": [
-          "Dezena no quinto prêmio!<br>com o palpite 5652",
-          "GALO 🐓 no quinto prêmio!<br>com o palpite 5652"
-        ],
-        "5692": [
-          "Dezena no oitavo prêmio!<br>com o palpite 5692",
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 5692"
-        ],
-        "6652": [
-          "Dezena no quinto prêmio!<br>com o palpite 6652",
-          "GALO 🐓 no quinto prêmio!<br>com o palpite 6652"
-        ],
-        "6692": [
-          "Dezena no oitavo prêmio!<br>com o palpite 6692",
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 6692"
+        "1592": [
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 1592",
+          "Dezena no oitavo prêmio!<br>com o palpite 1592",
+          "URSO 🐻 no oitavo prêmio!<br>com o palpite 1592"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 8,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
           "🐓",
           "🐻"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1632, 1652, 1692, 3632, 3652, 3692, 5632, 5652, 5692, 6632, 6652, 6692"
+      "resumo": "Palpites dados para esta extração: 1552, 1592"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -612,63 +577,63 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "1112",
-          "Grupo": "03",
-          "Bicho": "Burro"
+          "Milhar": "7605",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "4180",
-          "Grupo": "20",
-          "Bicho": "Peru"
+          "Milhar": "1022",
+          "Grupo": "06",
+          "Bicho": "Cabra"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "2141",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "9162",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "0399",
+          "Milhar": "9615",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9335",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7199",
           "Grupo": "25",
           "Bicho": "Vaca"
         },
         {
-          "Prêmio": "5º",
-          "Milhar": "3856",
-          "Grupo": "14",
-          "Bicho": "Gato"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "1420",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
           "Prêmio": "7º",
-          "Milhar": "1113",
+          "Milhar": "6016",
           "Grupo": "04",
           "Bicho": "Borboleta"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "1849",
-          "Grupo": "13",
-          "Bicho": "Galo"
+          "Milhar": "0261",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "2019",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
+          "Milhar": "5225",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "8089",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "5440",
+          "Grupo": "10",
+          "Bicho": "Coelho"
         }
       ],
       "frases": {},
@@ -678,7 +643,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1005, 1025, 1035, 1205, 1225, 1235"
+      "resumo": "Palpites dados para esta extração: 1552, 1592"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
