@@ -52,32 +52,38 @@
         }
       ],
       "frases": {
-        "3633": [
-          "COBRA 🐍 no segundo prêmio!<br>com o palpite 3633"
+        "1033": [
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1033"
         ],
-        "3636": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 3636",
-          "Dezena no segundo prêmio!<br>com o palpite 3636",
-          "COBRA 🐍 no segundo prêmio!<br>com o palpite 3636"
+        "1035": [
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1035"
         ],
-        "7633": [
-          "COBRA 🐍 no segundo prêmio!<br>com o palpite 7633"
+        "1036": [
+          "Dezena no segundo prêmio!<br>com o palpite 1036",
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1036"
         ],
-        "7636": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 7636",
-          "Dezena no segundo prêmio!<br>com o palpite 7636",
-          "COBRA 🐍 no segundo prêmio!<br>com o palpite 7636"
+        "1633": [
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1633"
+        ],
+        "1635": [
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1635"
+        ],
+        "1636": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 1636",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 1636",
+          "Dezena no segundo prêmio!<br>com o palpite 1636",
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1636"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 2,
+        "Milhar": 1,
+        "Centena": 1,
         "Dezena": 2,
         "Grupo": [
           "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3631, 3633, 3636, 3637, 3638, 3651, 3653, 3656, 3657, 3658, 7631, 7633, 7636, 7637, 7638, 7651, 7653, 7656, 7657, 7658"
+      "resumo": "Palpites dados para esta extração: 1031, 1033, 1035, 1036, 1038, 1631, 1633, 1635, 1636, 1638"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -131,17 +137,23 @@
         }
       ],
       "frases": {
-        "3633": [
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 3633"
+        "1033": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 1033"
         ],
-        "3636": [
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 3636"
+        "1035": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 1035"
         ],
-        "7633": [
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 7633"
+        "1036": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 1036"
         ],
-        "7636": [
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 7636"
+        "1633": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 1633"
+        ],
+        "1635": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 1635"
+        ],
+        "1636": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 1636"
         ]
       },
       "acertos": {
@@ -152,7 +164,7 @@
           "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3631, 3633, 3636, 3637, 3638, 3651, 3653, 3656, 3657, 3658, 7631, 7633, 7636, 7637, 7638, 7651, 7653, 7656, 7657, 7658"
+      "resumo": "Palpites dados para esta extração: 1031, 1033, 1035, 1036, 1038, 1631, 1633, 1635, 1636, 1638"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -205,31 +217,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "3653": [
-          "GATO 🐈 no quinto prêmio!<br>com o palpite 3653"
-        ],
-        "3656": [
-          "Dezena no quinto prêmio!<br>com o palpite 3656",
-          "GATO 🐈 no quinto prêmio!<br>com o palpite 3656"
-        ],
-        "7653": [
-          "GATO 🐈 no quinto prêmio!<br>com o palpite 7653"
-        ],
-        "7656": [
-          "Dezena no quinto prêmio!<br>com o palpite 7656",
-          "GATO 🐈 no quinto prêmio!<br>com o palpite 7656"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐈"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3631, 3633, 3636, 3637, 3638, 3651, 3653, 3656, 3657, 3658, 7631, 7633, 7636, 7637, 7638, 7651, 7653, 7656, 7657, 7658"
+      "resumo": "Palpites dados para esta extração: 1031, 1033, 1035, 1036, 1038, 1631, 1633, 1635, 1636, 1638"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -282,48 +277,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "3653": [
-          "GATO 🐈 no quinto prêmio!<br>com o palpite 3653"
-        ],
-        "3656": [
-          "GATO 🐈 no quinto prêmio!<br>com o palpite 3656"
-        ],
-        "3657": [
-          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 3657",
-          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 3657"
-        ],
-        "3658": [
-          "Dezena no segundo prêmio!<br>com o palpite 3658",
-          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 3658",
-          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 3658"
-        ],
-        "7653": [
-          "GATO 🐈 no quinto prêmio!<br>com o palpite 7653"
-        ],
-        "7656": [
-          "GATO 🐈 no quinto prêmio!<br>com o palpite 7656"
-        ],
-        "7657": [
-          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 7657",
-          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 7657"
-        ],
-        "7658": [
-          "Dezena no segundo prêmio!<br>com o palpite 7658",
-          "JACARÉ 🐊 no segundo prêmio!<br>com o palpite 7658",
-          "JACARÉ 🐊 no sexto prêmio!<br>com o palpite 7658"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐊",
-          "🐈"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 3631, 3633, 3636, 3637, 3638, 3651, 3653, 3656, 3657, 3658, 7631, 7633, 7636, 7637, 7638, 7651, 7653, 7656, 7657, 7658"
+      "resumo": "Palpites dados para esta extração: 1031, 1033, 1035, 1036, 1038, 1631, 1633, 1635, 1636, 1638"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -377,65 +338,46 @@
         }
       ],
       "frases": {
-        "3631": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3631",
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 3631"
+        "1031": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1031",
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 1031"
         ],
-        "3633": [
-          "COBRA 🐍 no segundo prêmio!<br>com o palpite 3633"
+        "1033": [
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1033"
         ],
-        "3636": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 3636",
-          "Dezena no segundo prêmio!<br>com o palpite 3636",
-          "COBRA 🐍 no segundo prêmio!<br>com o palpite 3636"
+        "1035": [
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1035"
         ],
-        "3651": [
-          "GALO 🐓 no sétimo prêmio!<br>com o palpite 3651"
+        "1036": [
+          "Dezena no segundo prêmio!<br>com o palpite 1036",
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1036"
         ],
-        "3657": [
-          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 3657"
+        "1631": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1631",
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 1631"
         ],
-        "3658": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 3658",
-          "Dezena no quarto prêmio!<br>com o palpite 3658",
-          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 3658"
+        "1633": [
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1633"
         ],
-        "7631": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7631",
-          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 7631"
+        "1635": [
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1635"
         ],
-        "7633": [
-          "COBRA 🐍 no segundo prêmio!<br>com o palpite 7633"
-        ],
-        "7636": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 7636",
-          "Dezena no segundo prêmio!<br>com o palpite 7636",
-          "COBRA 🐍 no segundo prêmio!<br>com o palpite 7636"
-        ],
-        "7651": [
-          "GALO 🐓 no sétimo prêmio!<br>com o palpite 7651"
-        ],
-        "7657": [
-          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 7657"
-        ],
-        "7658": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 7658",
-          "Dezena no quarto prêmio!<br>com o palpite 7658",
-          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 7658"
+        "1636": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 1636",
+          "Dezena no segundo prêmio!<br>com o palpite 1636",
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 1636"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 4,
-        "Dezena": 6,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
           "🐪",
-          "🐍",
-          "🐊",
-          "🐓"
+          "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3631, 3633, 3636, 3637, 3638, 3651, 3653, 3656, 3657, 3658, 7631, 7633, 7636, 7637, 7638, 7651, 7653, 7656, 7657, 7658"
+      "resumo": "Palpites dados para esta extração: 1031, 1033, 1035, 1036, 1038, 1631, 1633, 1635, 1636, 1638"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -489,13 +431,13 @@
         }
       ],
       "frases": {
-        "3631": [
-          "Dezena no terceiro prêmio!<br>com o palpite 3631",
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 3631"
+        "1031": [
+          "Dezena no terceiro prêmio!<br>com o palpite 1031",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 1031"
         ],
-        "7631": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7631",
-          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 7631"
+        "1631": [
+          "Dezena no terceiro prêmio!<br>com o palpite 1631",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 1631"
         ]
       },
       "acertos": {
@@ -506,7 +448,7 @@
           "🐪"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3631, 3633, 3636, 3637, 3638, 3651, 3653, 3656, 3657, 3658, 7631, 7633, 7636, 7637, 7638, 7651, 7653, 7656, 7657, 7658"
+      "resumo": "Palpites dados para esta extração: 1031, 1033, 1035, 1036, 1038, 1631, 1633, 1635, 1636, 1638"
     }
   },
   "1-10": {
