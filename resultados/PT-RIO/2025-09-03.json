@@ -1,0 +1,316 @@
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9988",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9625",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9918",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "4268",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4908",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "8707",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "134",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "5520": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 5520"
+        ],
+        "5526": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 5526"
+        ],
+        "5527": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 5527"
+        ],
+        "5528": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 5528"
+        ],
+        "5533": [
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 5533"
+        ],
+        "5536": [
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 5536"
+        ],
+        "5586": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 5586"
+        ],
+        "5587": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 5587"
+        ],
+        "5588": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5588",
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 5588"
+        ],
+        "9520": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 9520"
+        ],
+        "9526": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9526"
+        ],
+        "9527": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9527"
+        ],
+        "9528": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9528"
+        ],
+        "9533": [
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 9533"
+        ],
+        "9536": [
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 9536"
+        ],
+        "9586": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 9586"
+        ],
+        "9587": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 9587"
+        ],
+        "9588": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9588",
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 9588"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 2,
+        "Grupo": [
+          "🐅",
+          "🐑",
+          "🐕",
+          "🐍"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5520, 5521, 5522, 5523, 5526, 5527, 5528, 5530, 5531, 5532, 5533, 5536, 5537, 5538, 5540, 5541, 5542, 5543, 5546, 5547, 5548, 5550, 5551, 5552, 5553, 5556, 5557, 5558, 5580, 5581, 5582, 5583, 5586, 5587, 5588, 9520, 9521, 9522, 9523, 9526, 9527, 9528, 9530, 9531, 9532, 9533, 9536, 9537, 9538, 9540, 9541, 9542, 9543, 9546, 9547, 9548, 9550, 9551, 9552, 9553, 9556, 9557, 9558, 9580, 9581, 9582, 9583, 9586, 9587, 9588"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9988",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9625",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9918",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "4268",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4908",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "9994",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "9692",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "8216",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "8588",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "5197",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        }
+      ],
+      "frases": {
+        "5520": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 5520"
+        ],
+        "5526": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 5526"
+        ],
+        "5527": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 5527"
+        ],
+        "5528": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 5528"
+        ],
+        "5586": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 5586",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 5586"
+        ],
+        "5587": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 5587",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 5587"
+        ],
+        "5588": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5588",
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 5588",
+          "Centena e Dezena no nono prêmio!<br>com o palpite 5588",
+          "Dezena no nono prêmio!<br>com o palpite 5588",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 5588"
+        ],
+        "9520": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 9520"
+        ],
+        "9526": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9526"
+        ],
+        "9527": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9527"
+        ],
+        "9528": [
+          "CARNEIRO 🐑 no segundo prêmio!<br>com o palpite 9528"
+        ],
+        "9586": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 9586",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 9586"
+        ],
+        "9587": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 9587",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 9587"
+        ],
+        "9588": [
+          "Dezena no primeiro prêmio!<br>com o palpite 9588",
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 9588",
+          "Centena e Dezena no nono prêmio!<br>com o palpite 9588",
+          "Dezena no nono prêmio!<br>com o palpite 9588",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 9588"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 2,
+        "Dezena": 4,
+        "Grupo": [
+          "🐅",
+          "🐑",
+          "🐕"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5520, 5521, 5522, 5523, 5526, 5527, 5528, 5530, 5531, 5532, 5533, 5536, 5537, 5538, 5540, 5541, 5542, 5543, 5546, 5547, 5548, 5550, 5551, 5552, 5553, 5556, 5557, 5558, 5580, 5581, 5582, 5583, 5586, 5587, 5588, 9520, 9521, 9522, 9523, 9526, 9527, 9528, 9530, 9531, 9532, 9533, 9536, 9537, 9538, 9540, 9541, 9542, 9543, 9546, 9547, 9548, 9550, 9551, 9552, 9553, 9556, 9557, 9558, 9580, 9581, 9582, 9583, 9586, 9587, 9588"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
