@@ -55,14 +55,6 @@
         "8105": [
           "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 8105",
           "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 8105"
-        ],
-        "8405": [
-          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 8405",
-          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 8405"
-        ],
-        "8505": [
-          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 8505",
-          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 8505"
         ]
       },
       "acertos": {
@@ -73,7 +65,7 @@
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8105, 8405, 8505"
+      "resumo": "Palpites dados para esta extração: 8101, 8105"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -130,25 +122,17 @@
         "8105": [
           "Dezena no terceiro prêmio!<br>com o palpite 8105",
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8105"
-        ],
-        "8405": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8405",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8405"
-        ],
-        "8505": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8505",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8505"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
+        "Dezena": 1,
         "Grupo": [
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8105, 8405, 8505"
+      "resumo": "Palpites dados para esta extração: 8101, 8105"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -202,25 +186,24 @@
         }
       ],
       "frases": {
+        "8101": [
+          "Dezena no quarto prêmio!<br>com o palpite 8101",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 8101"
+        ],
         "8105": [
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8105"
-        ],
-        "8405": [
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8405"
-        ],
-        "8505": [
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8505"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
-          "🦅"
+          "🦅",
+          "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8105, 8405, 8505"
+      "resumo": "Palpites dados para esta extração: 8101, 8105"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -319,12 +302,6 @@
       "frases": {
         "8105": [
           "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 8105"
-        ],
-        "8405": [
-          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 8405"
-        ],
-        "8505": [
-          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 8505"
         ]
       },
       "acertos": {
@@ -335,7 +312,7 @@
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8105, 8405, 8505"
+      "resumo": "Palpites dados para esta extração: 8101, 8105"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -412,29 +389,17 @@
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8105",
           "Dezena no oitavo prêmio!<br>com o palpite 8105",
           "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 8105"
-        ],
-        "8405": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8405",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8405",
-          "Dezena no oitavo prêmio!<br>com o palpite 8405",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 8405"
-        ],
-        "8505": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8505",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8505",
-          "Dezena no oitavo prêmio!<br>com o palpite 8505",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 8505"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
+        "Dezena": 2,
         "Grupo": [
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8105, 8405, 8505"
+      "resumo": "Palpites dados para esta extração: 8101, 8105"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -506,25 +471,24 @@
         }
       ],
       "frases": {
+        "8101": [
+          "Dezena no quarto prêmio!<br>com o palpite 8101",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 8101"
+        ],
         "8105": [
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8105"
-        ],
-        "8405": [
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8405"
-        ],
-        "8505": [
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 8505"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
-          "🦅"
+          "🦅",
+          "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 8105, 8405, 8505"
+      "resumo": "Palpites dados para esta extração: 8101, 8105"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
