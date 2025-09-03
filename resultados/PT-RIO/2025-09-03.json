@@ -52,19 +52,19 @@
         }
       ],
       "frases": {
-        "3187": [
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 3187"
-        ],
-        "3188": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3188",
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 3188"
-        ],
         "4187": [
           "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4187"
         ],
         "4188": [
           "Dezena no primeiro prêmio!<br>com o palpite 4188",
           "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4188"
+        ],
+        "4387": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4387"
+        ],
+        "4388": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4388",
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4388"
         ]
       },
       "acertos": {
@@ -75,7 +75,7 @@
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3181, 3184, 3187, 3188, 3191, 3194, 3197, 3198, 4181, 4184, 4187, 4188, 4191, 4194, 4197, 4198"
+      "resumo": "Palpites dados para esta extração: 4184, 4187, 4188, 4194, 4197, 4198, 4384, 4387, 4388, 4394, 4397, 4398"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -129,19 +129,19 @@
         }
       ],
       "frases": {
-        "3187": [
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 3187"
-        ],
-        "3188": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3188",
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 3188"
-        ],
         "4187": [
           "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4187"
         ],
         "4188": [
           "Dezena no primeiro prêmio!<br>com o palpite 4188",
           "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4188"
+        ],
+        "4387": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4387"
+        ],
+        "4388": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4388",
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4388"
         ]
       },
       "acertos": {
@@ -152,7 +152,7 @@
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3181, 3184, 3187, 3188, 3191, 3194, 3197, 3198, 4181, 4184, 4187, 4188, 4191, 4194, 4197, 4198"
+      "resumo": "Palpites dados para esta extração: 4184, 4187, 4188, 4194, 4197, 4198, 4384, 4387, 4388, 4394, 4397, 4398"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -206,24 +206,6 @@
         }
       ],
       "frases": {
-        "3187": [
-          "Dezena no quinto prêmio!<br>com o palpite 3187",
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 3187"
-        ],
-        "3188": [
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 3188"
-        ],
-        "3191": [
-          "Dezena no sétimo prêmio!<br>com o palpite 3191",
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 3191"
-        ],
-        "3197": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3197",
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 3197"
-        ],
-        "3198": [
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 3198"
-        ],
         "4187": [
           "Dezena no quinto prêmio!<br>com o palpite 4187",
           "TIGRE 🐅 no quinto prêmio!<br>com o palpite 4187"
@@ -231,29 +213,38 @@
         "4188": [
           "TIGRE 🐅 no quinto prêmio!<br>com o palpite 4188"
         ],
-        "4191": [
-          "Dezena no sétimo prêmio!<br>com o palpite 4191",
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 4191"
-        ],
         "4197": [
           "Dezena no primeiro prêmio!<br>com o palpite 4197",
           "VACA 🐄 no primeiro prêmio!<br>com o palpite 4197"
         ],
         "4198": [
           "VACA 🐄 no primeiro prêmio!<br>com o palpite 4198"
+        ],
+        "4387": [
+          "Dezena no quinto prêmio!<br>com o palpite 4387",
+          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 4387"
+        ],
+        "4388": [
+          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 4388"
+        ],
+        "4397": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4397",
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 4397"
+        ],
+        "4398": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 4398"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
+        "Dezena": 4,
         "Grupo": [
           "🐄",
-          "🐅",
-          "🐻"
+          "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3181, 3184, 3187, 3188, 3191, 3194, 3197, 3198, 4181, 4184, 4187, 4188, 4191, 4194, 4197, 4198"
+      "resumo": "Palpites dados para esta extração: 4184, 4187, 4188, 4194, 4197, 4198, 4384, 4387, 4388, 4394, 4397, 4398"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -307,29 +298,6 @@
         }
       ],
       "frases": {
-        "3187": [
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 3187",
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3187"
-        ],
-        "3188": [
-          "Milhar e Centena no terceiro prêmio!<br>com o palpite 3188",
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3188",
-          "Dezena no terceiro prêmio!<br>com o palpite 3188",
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 3188",
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3188"
-        ],
-        "3194": [
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 3194",
-          "Dezena no quinto prêmio!<br>com o palpite 3194",
-          "VEADO 🦌 no quinto prêmio!<br>com o palpite 3194"
-        ],
-        "3197": [
-          "Dezena no quarto prêmio!<br>com o palpite 3197",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 3197"
-        ],
-        "3198": [
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 3198"
-        ],
         "4187": [
           "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 4187",
           "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 4187"
@@ -351,10 +319,32 @@
         ],
         "4198": [
           "VACA 🐄 no quarto prêmio!<br>com o palpite 4198"
+        ],
+        "4387": [
+          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 4387",
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 4387"
+        ],
+        "4388": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4388",
+          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 4388",
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 4388"
+        ],
+        "4394": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 4394",
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 4394",
+          "Dezena no quinto prêmio!<br>com o palpite 4394",
+          "VEADO 🦌 no quinto prêmio!<br>com o palpite 4394"
+        ],
+        "4397": [
+          "Dezena no quarto prêmio!<br>com o palpite 4397",
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 4397"
+        ],
+        "4398": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 4398"
         ]
       },
       "acertos": {
-        "Milhar": 1,
+        "Milhar": 0,
         "Centena": 2,
         "Dezena": 6,
         "Grupo": [
@@ -363,7 +353,7 @@
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3181, 3184, 3187, 3188, 3191, 3194, 3197, 3198, 4181, 4184, 4187, 4188, 4191, 4194, 4197, 4198"
+      "resumo": "Palpites dados para esta extração: 4184, 4187, 4188, 4194, 4197, 4198, 4384, 4387, 4388, 4394, 4397, 4398"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -460,31 +450,6 @@
         }
       ],
       "frases": {
-        "3187": [
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 3187",
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 3187"
-        ],
-        "3188": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3188",
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 3188",
-          "Dezena no nono prêmio!<br>com o palpite 3188",
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 3188"
-        ],
-        "3191": [
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 3191"
-        ],
-        "3194": [
-          "Dezena no sexto prêmio!<br>com o palpite 3194",
-          "VEADO 🦌 no sexto prêmio!<br>com o palpite 3194"
-        ],
-        "3197": [
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 3197",
-          "Dezena no décimo prêmio!<br>com o palpite 3197",
-          "VACA 🐄 no décimo prêmio!<br>com o palpite 3197"
-        ],
-        "3198": [
-          "VACA 🐄 no décimo prêmio!<br>com o palpite 3198"
-        ],
         "4187": [
           "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4187",
           "TIGRE 🐅 no nono prêmio!<br>com o palpite 4187"
@@ -494,9 +459,6 @@
           "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4188",
           "Dezena no nono prêmio!<br>com o palpite 4188",
           "TIGRE 🐅 no nono prêmio!<br>com o palpite 4188"
-        ],
-        "4191": [
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 4191"
         ],
         "4194": [
           "Dezena no sexto prêmio!<br>com o palpite 4194",
@@ -509,20 +471,40 @@
         ],
         "4198": [
           "VACA 🐄 no décimo prêmio!<br>com o palpite 4198"
+        ],
+        "4387": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4387",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 4387"
+        ],
+        "4388": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4388",
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4388",
+          "Dezena no nono prêmio!<br>com o palpite 4388",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 4388"
+        ],
+        "4394": [
+          "Dezena no sexto prêmio!<br>com o palpite 4394",
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 4394"
+        ],
+        "4397": [
+          "Dezena no décimo prêmio!<br>com o palpite 4397",
+          "VACA 🐄 no décimo prêmio!<br>com o palpite 4397"
+        ],
+        "4398": [
+          "VACA 🐄 no décimo prêmio!<br>com o palpite 4398"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
+        "Centena": 1,
         "Dezena": 8,
         "Grupo": [
           "🐅",
           "🦌",
-          "🐻",
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3181, 3184, 3187, 3188, 3191, 3194, 3197, 3198, 4181, 4184, 4187, 4188, 4191, 4194, 4197, 4198"
+      "resumo": "Palpites dados para esta extração: 4184, 4187, 4188, 4194, 4197, 4198, 4384, 4387, 4388, 4394, 4397, 4398"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -594,22 +576,6 @@
         }
       ],
       "frases": {
-        "3181": [
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3181"
-        ],
-        "3184": [
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3184"
-        ],
-        "3187": [
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 3187"
-        ],
-        "3188": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3188",
-          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 3188"
-        ],
-        "4181": [
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 4181"
-        ],
         "4184": [
           "TOURO 🐂 no sétimo prêmio!<br>com o palpite 4184"
         ],
@@ -619,6 +585,16 @@
         "4188": [
           "Dezena no primeiro prêmio!<br>com o palpite 4188",
           "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4188"
+        ],
+        "4384": [
+          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 4384"
+        ],
+        "4387": [
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4387"
+        ],
+        "4388": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4388",
+          "TIGRE 🐅 no primeiro prêmio!<br>com o palpite 4388"
         ]
       },
       "acertos": {
@@ -630,7 +606,7 @@
           "🐂"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3181, 3184, 3187, 3188, 3191, 3194, 3197, 3198, 4181, 4184, 4187, 4188, 4191, 4194, 4197, 4198"
+      "resumo": "Palpites dados para esta extração: 4184, 4187, 4188, 4194, 4197, 4198, 4384, 4387, 4388, 4394, 4397, 4398"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -702,35 +678,6 @@
         }
       ],
       "frases": {
-        "3181": [
-          "Centena e Dezena no nono prêmio!<br>com o palpite 3181",
-          "Dezena no nono prêmio!<br>com o palpite 3181",
-          "TOURO 🐂 no nono prêmio!<br>com o palpite 3181"
-        ],
-        "3184": [
-          "TOURO 🐂 no nono prêmio!<br>com o palpite 3184"
-        ],
-        "3187": [
-          "Dezena no quinto prêmio!<br>com o palpite 3187",
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 3187"
-        ],
-        "3188": [
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 3188"
-        ],
-        "3197": [
-          "Dezena no primeiro prêmio!<br>com o palpite 3197",
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 3197",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 3197"
-        ],
-        "3198": [
-          "VACA 🐄 no primeiro prêmio!<br>com o palpite 3198",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 3198"
-        ],
-        "4181": [
-          "Centena e Dezena no nono prêmio!<br>com o palpite 4181",
-          "Dezena no nono prêmio!<br>com o palpite 4181",
-          "TOURO 🐂 no nono prêmio!<br>com o palpite 4181"
-        ],
         "4184": [
           "TOURO 🐂 no nono prêmio!<br>com o palpite 4184"
         ],
@@ -749,19 +696,38 @@
         "4198": [
           "VACA 🐄 no primeiro prêmio!<br>com o palpite 4198",
           "VACA 🐄 no oitavo prêmio!<br>com o palpite 4198"
+        ],
+        "4384": [
+          "TOURO 🐂 no nono prêmio!<br>com o palpite 4384"
+        ],
+        "4387": [
+          "Dezena no quinto prêmio!<br>com o palpite 4387",
+          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 4387"
+        ],
+        "4388": [
+          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 4388"
+        ],
+        "4397": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4397",
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 4397",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 4397"
+        ],
+        "4398": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 4398",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 4398"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 6,
+        "Centena": 0,
+        "Dezena": 4,
         "Grupo": [
           "🐄",
           "🐅",
           "🐂"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3181, 3184, 3187, 3188, 3191, 3194, 3197, 3198, 4181, 4184, 4187, 4188, 4191, 4194, 4197, 4198"
+      "resumo": "Palpites dados para esta extração: 4184, 4187, 4188, 4194, 4197, 4198, 4384, 4387, 4388, 4394, 4397, 4398"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -833,35 +799,6 @@
         }
       ],
       "frases": {
-        "3187": [
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 3187",
-          "Milhar e Centena no nono prêmio!<br>com o palpite 3187",
-          "Centena e Dezena no nono prêmio!<br>com o palpite 3187",
-          "Dezena no nono prêmio!<br>com o palpite 3187",
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 3187"
-        ],
-        "3188": [
-          "Milhar e Centena no terceiro prêmio!<br>com o palpite 3188",
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3188",
-          "Dezena no terceiro prêmio!<br>com o palpite 3188",
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 3188",
-          "TIGRE 🐅 no nono prêmio!<br>com o palpite 3188"
-        ],
-        "3191": [
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 3191"
-        ],
-        "3194": [
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 3194",
-          "Dezena no quinto prêmio!<br>com o palpite 3194",
-          "VEADO 🦌 no quinto prêmio!<br>com o palpite 3194"
-        ],
-        "3197": [
-          "Dezena no quarto prêmio!<br>com o palpite 3197",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 3197"
-        ],
-        "3198": [
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 3198"
-        ],
         "4187": [
           "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 4187",
           "Centena e Dezena no nono prêmio!<br>com o palpite 4187",
@@ -874,9 +811,6 @@
           "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 4188",
           "TIGRE 🐅 no nono prêmio!<br>com o palpite 4188"
         ],
-        "4191": [
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 4191"
-        ],
         "4194": [
           "VEADO 🦌 no primeiro prêmio!<br>com o palpite 4194",
           "Dezena no quinto prêmio!<br>com o palpite 4194",
@@ -888,20 +822,42 @@
         ],
         "4198": [
           "VACA 🐄 no quarto prêmio!<br>com o palpite 4198"
+        ],
+        "4387": [
+          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 4387",
+          "Dezena no nono prêmio!<br>com o palpite 4387",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 4387"
+        ],
+        "4388": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4388",
+          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 4388",
+          "TIGRE 🐅 no nono prêmio!<br>com o palpite 4388"
+        ],
+        "4394": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 4394",
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 4394",
+          "Dezena no quinto prêmio!<br>com o palpite 4394",
+          "VEADO 🦌 no quinto prêmio!<br>com o palpite 4394"
+        ],
+        "4397": [
+          "Dezena no quarto prêmio!<br>com o palpite 4397",
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 4397"
+        ],
+        "4398": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 4398"
         ]
       },
       "acertos": {
-        "Milhar": 2,
-        "Centena": 4,
+        "Milhar": 0,
+        "Centena": 3,
         "Dezena": 8,
         "Grupo": [
           "🦌",
           "🐅",
-          "🐄",
-          "🐻"
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 3181, 3184, 3187, 3188, 3191, 3194, 3197, 3198, 4181, 4184, 4187, 4188, 4191, 4194, 4197, 4198"
+      "resumo": "Palpites dados para esta extração: 4184, 4187, 4188, 4194, 4197, 4198, 4384, 4387, 4388, 4394, 4397, 4398"
     },
     "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
