@@ -52,30 +52,92 @@
         }
       ],
       "frases": {
-        "4194": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4194"
+        "2894": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 2894"
         ],
-        "4394": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4394"
+        "2895": [
+          "Dezena no terceiro prêmio!<br>com o palpite 2895",
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 2895"
         ],
-        "4494": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4494"
+        "8894": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 8894"
         ],
-        "4894": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4894"
+        "8895": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8895",
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 8895"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 2,
         "Grupo": [
           "🦌"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4194, 4394, 4494, 4894"
+      "resumo": "Palpites dados para esta extração: 2894, 2895, 8894, 8895"
     },
     "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7320",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1778",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6020",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0267",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1117",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "6502",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "014",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 2894, 2895, 8894, 8895"
+    },
+    "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
@@ -170,30 +232,110 @@
         }
       ],
       "frases": {
-        "4194": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4194"
+        "2894": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 2894"
         ],
-        "4394": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4394"
+        "2895": [
+          "Dezena no terceiro prêmio!<br>com o palpite 2895",
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 2895"
         ],
-        "4494": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4494"
+        "8894": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 8894"
         ],
-        "4894": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4894"
+        "8895": [
+          "Dezena no terceiro prêmio!<br>com o palpite 8895",
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 8895"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 2,
         "Grupo": [
           "🦌"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4194, 4394, 4494, 4894"
+      "resumo": "Palpites dados para esta extração: 2894, 2895, 8894, 8895"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7320",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1778",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6020",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0267",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1117",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7160",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "3702",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "2726",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "0807",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "0897",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 2894, 2895, 8894, 8895"
+    },
+    "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
