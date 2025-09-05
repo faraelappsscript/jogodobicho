@@ -52,52 +52,53 @@
         }
       ],
       "frases": {
-        "4397": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 4397"
+        "4305": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4305",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 4305"
         ],
-        "4597": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 4597"
+        "4805": [
+          "Milhar e Centena no primeiro prêmio!<br>com o palpite 4805",
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 4805",
+          "Dezena no primeiro prêmio!<br>com o palpite 4805",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 4805"
         ],
-        "4897": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 4897"
+        "5305": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5305",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5305"
         ],
-        "5397": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 5397"
+        "5805": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 5805",
+          "Dezena no primeiro prêmio!<br>com o palpite 5805",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5805"
         ],
-        "5597": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 5597"
+        "7305": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7305",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7305"
         ],
-        "5897": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 5897"
+        "7805": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7805",
+          "Dezena no primeiro prêmio!<br>com o palpite 7805",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7805"
         ],
-        "7397": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 7397"
+        "8305": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8305",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 8305"
         ],
-        "7597": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 7597"
-        ],
-        "7897": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 7897"
-        ],
-        "8397": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 8397"
-        ],
-        "8597": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 8597"
-        ],
-        "8897": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 8897"
+        "8805": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 8805",
+          "Dezena no primeiro prêmio!<br>com o palpite 8805",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 8805"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 8,
         "Grupo": [
-          "🐄"
+          "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4311, 4314, 4315, 4317, 4351, 4354, 4355, 4357, 4391, 4394, 4395, 4397, 4511, 4514, 4515, 4517, 4551, 4554, 4555, 4557, 4591, 4594, 4595, 4597, 4811, 4814, 4815, 4817, 4851, 4854, 4855, 4857, 4891, 4894, 4895, 4897, 5311, 5314, 5315, 5317, 5351, 5354, 5355, 5357, 5391, 5394, 5395, 5397, 5511, 5514, 5515, 5517, 5551, 5554, 5555, 5557, 5591, 5594, 5595, 5597, 5811, 5814, 5815, 5817, 5851, 5854, 5855, 5857, 5891, 5894, 5895, 5897, 7311, 7314, 7315, 7317, 7351, 7354, 7355, 7357, 7391, 7394, 7395, 7397, 7511, 7514, 7515, 7517, 7551, 7554, 7555, 7557, 7591, 7594, 7595, 7597, 7811, 7814, 7815, 7817, 7851, 7854, 7855, 7857, 7891, 7894, 7895, 7897, 8311, 8314, 8315, 8317, 8351, 8354, 8355, 8357, 8391, 8394, 8395, 8397, 8511, 8514, 8515, 8517, 8551, 8554, 8555, 8557, 8591, 8594, 8595, 8597, 8811, 8814, 8815, 8817, 8851, 8854, 8855, 8857, 8891, 8894, 8895, 8897"
+      "resumo": "Palpites dados para esta extração: 4305, 4335, 4805, 4835, 5305, 5335, 5805, 5835, 7305, 7335, 7805, 7835, 8305, 8335, 8805, 8835"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -194,210 +195,53 @@
         }
       ],
       "frases": {
-        "4314": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 4314"
+        "4305": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4305",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 4305"
         ],
-        "4315": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 4315"
+        "4805": [
+          "Milhar e Centena no primeiro prêmio!<br>com o palpite 4805",
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 4805",
+          "Dezena no primeiro prêmio!<br>com o palpite 4805",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 4805"
         ],
-        "4357": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 4357"
+        "5305": [
+          "Dezena no primeiro prêmio!<br>com o palpite 5305",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5305"
         ],
-        "4394": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4394"
+        "5805": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 5805",
+          "Dezena no primeiro prêmio!<br>com o palpite 5805",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5805"
         ],
-        "4395": [
-          "Dezena no nono prêmio!<br>com o palpite 4395",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4395"
+        "7305": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7305",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7305"
         ],
-        "4514": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 4514"
+        "7805": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7805",
+          "Dezena no primeiro prêmio!<br>com o palpite 7805",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7805"
         ],
-        "4515": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 4515"
+        "8305": [
+          "Dezena no primeiro prêmio!<br>com o palpite 8305",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 8305"
         ],
-        "4557": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 4557"
-        ],
-        "4594": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4594"
-        ],
-        "4595": [
-          "Dezena no nono prêmio!<br>com o palpite 4595",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4595"
-        ],
-        "4814": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 4814"
-        ],
-        "4815": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 4815"
-        ],
-        "4857": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 4857"
-        ],
-        "4894": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4894"
-        ],
-        "4895": [
-          "Dezena no nono prêmio!<br>com o palpite 4895",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4895"
-        ],
-        "5314": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 5314"
-        ],
-        "5315": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 5315"
-        ],
-        "5357": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 5357"
-        ],
-        "5394": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 5394"
-        ],
-        "5395": [
-          "Dezena no nono prêmio!<br>com o palpite 5395",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 5395"
-        ],
-        "5514": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 5514"
-        ],
-        "5515": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 5515"
-        ],
-        "5557": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 5557"
-        ],
-        "5594": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 5594"
-        ],
-        "5595": [
-          "Dezena no nono prêmio!<br>com o palpite 5595",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 5595"
-        ],
-        "5814": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 5814"
-        ],
-        "5815": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 5815"
-        ],
-        "5857": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 5857"
-        ],
-        "5894": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 5894"
-        ],
-        "5895": [
-          "Dezena no nono prêmio!<br>com o palpite 5895",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 5895"
-        ],
-        "7314": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 7314"
-        ],
-        "7315": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 7315"
-        ],
-        "7357": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 7357"
-        ],
-        "7394": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 7394"
-        ],
-        "7395": [
-          "Dezena no nono prêmio!<br>com o palpite 7395",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 7395"
-        ],
-        "7514": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 7514"
-        ],
-        "7515": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 7515"
-        ],
-        "7557": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 7557"
-        ],
-        "7594": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 7594"
-        ],
-        "7595": [
-          "Dezena no nono prêmio!<br>com o palpite 7595",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 7595"
-        ],
-        "7814": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 7814"
-        ],
-        "7815": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 7815"
-        ],
-        "7857": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 7857"
-        ],
-        "7894": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 7894"
-        ],
-        "7895": [
-          "Dezena no nono prêmio!<br>com o palpite 7895",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 7895"
-        ],
-        "8314": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 8314"
-        ],
-        "8315": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 8315"
-        ],
-        "8357": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 8357"
-        ],
-        "8394": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 8394"
-        ],
-        "8395": [
-          "Dezena no nono prêmio!<br>com o palpite 8395",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 8395"
-        ],
-        "8514": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 8514"
-        ],
-        "8515": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 8515"
-        ],
-        "8557": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 8557"
-        ],
-        "8594": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 8594"
-        ],
-        "8595": [
-          "Dezena no nono prêmio!<br>com o palpite 8595",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 8595"
-        ],
-        "8814": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 8814"
-        ],
-        "8815": [
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 8815"
-        ],
-        "8857": [
-          "JACARÉ 🐊 no décimo prêmio!<br>com o palpite 8857"
-        ],
-        "8894": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 8894"
-        ],
-        "8895": [
-          "Dezena no nono prêmio!<br>com o palpite 8895",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 8895"
+        "8805": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 8805",
+          "Dezena no primeiro prêmio!<br>com o palpite 8805",
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 8805"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 12,
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 8,
         "Grupo": [
-          "🦋",
-          "🦌",
-          "🐊"
+          "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4311, 4314, 4315, 4317, 4351, 4354, 4355, 4357, 4391, 4394, 4395, 4397, 4511, 4514, 4515, 4517, 4551, 4554, 4555, 4557, 4591, 4594, 4595, 4597, 4811, 4814, 4815, 4817, 4851, 4854, 4855, 4857, 4891, 4894, 4895, 4897, 5311, 5314, 5315, 5317, 5351, 5354, 5355, 5357, 5391, 5394, 5395, 5397, 5511, 5514, 5515, 5517, 5551, 5554, 5555, 5557, 5591, 5594, 5595, 5597, 5811, 5814, 5815, 5817, 5851, 5854, 5855, 5857, 5891, 5894, 5895, 5897, 7311, 7314, 7315, 7317, 7351, 7354, 7355, 7357, 7391, 7394, 7395, 7397, 7511, 7514, 7515, 7517, 7551, 7554, 7555, 7557, 7591, 7594, 7595, 7597, 7811, 7814, 7815, 7817, 7851, 7854, 7855, 7857, 7891, 7894, 7895, 7897, 8311, 8314, 8315, 8317, 8351, 8354, 8355, 8357, 8391, 8394, 8395, 8397, 8511, 8514, 8515, 8517, 8551, 8554, 8555, 8557, 8591, 8594, 8595, 8597, 8811, 8814, 8815, 8817, 8851, 8854, 8855, 8857, 8891, 8894, 8895, 8897"
+      "resumo": "Palpites dados para esta extração: 4305, 4335, 4805, 4835, 5305, 5335, 5805, 5835, 7305, 7335, 7805, 7835, 8305, 8335, 8805, 8835"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
