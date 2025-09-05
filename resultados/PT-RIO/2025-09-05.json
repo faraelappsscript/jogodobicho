@@ -52,15 +52,6 @@
         }
       ],
       "frases": {
-        "7107": [
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7107"
-        ],
-        "7127": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7127"
-        ],
-        "7137": [
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 7137"
-        ],
         "7307": [
           "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7307"
         ],
@@ -81,7 +72,7 @@
           "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7107, 7117, 7127, 7137, 7307, 7317, 7327, 7337"
+      "resumo": "Palpites dados para esta extração: 7307, 7317, 7327, 7337"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -135,9 +126,6 @@
         }
       ],
       "frases": {
-        "7117": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 7117"
-        ],
         "7317": [
           "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 7317"
         ]
@@ -150,7 +138,7 @@
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7107, 7117, 7127, 7137, 7307, 7317, 7327, 7337"
+      "resumo": "Palpites dados para esta extração: 7307, 7317, 7327, 7337"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -204,16 +192,6 @@
         }
       ],
       "frases": {
-        "7107": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7107",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7107"
-        ],
-        "7117": [
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7117"
-        ],
-        "7127": [
-          "CARNEIRO 🐑 no sexto prêmio!<br>com o palpite 7127"
-        ],
         "7307": [
           "Dezena no terceiro prêmio!<br>com o palpite 7307",
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7307"
@@ -228,14 +206,14 @@
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 1,
         "Grupo": [
           "🐕",
           "🦅",
           "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7107, 7117, 7127, 7137, 7307, 7317, 7327, 7337"
+      "resumo": "Palpites dados para esta extração: 7307, 7317, 7327, 7337"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -289,13 +267,6 @@
         }
       ],
       "frases": {
-        "7117": [
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7117"
-        ],
-        "7127": [
-          "Dezena no quarto prêmio!<br>com o palpite 7127",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7127"
-        ],
         "7317": [
           "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7317"
         ],
@@ -309,15 +280,81 @@
       "acertos": {
         "Milhar": 1,
         "Centena": 1,
-        "Dezena": 2,
+        "Dezena": 1,
         "Grupo": [
           "🐕",
           "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7107, 7117, 7127, 7137, 7307, 7317, 7327, 7337"
+      "resumo": "Palpites dados para esta extração: 7307, 7317, 7327, 7337"
     },
     "PT-RIO, RJ, 18:20, PTN": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5852",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4099",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "2115",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3328",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9668",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "5062",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "987",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "7327": [
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7327"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐑"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 7307, 7317, 7327, 7337"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
@@ -412,15 +449,6 @@
         }
       ],
       "frases": {
-        "7107": [
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7107"
-        ],
-        "7127": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7127"
-        ],
-        "7137": [
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 7137"
-        ],
         "7307": [
           "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7307"
         ],
@@ -441,7 +469,7 @@
           "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7107, 7117, 7127, 7137, 7307, 7317, 7327, 7337"
+      "resumo": "Palpites dados para esta extração: 7307, 7317, 7327, 7337"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -513,9 +541,6 @@
         }
       ],
       "frases": {
-        "7117": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 7117"
-        ],
         "7317": [
           "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 7317"
         ]
@@ -528,7 +553,7 @@
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7107, 7117, 7127, 7137, 7307, 7317, 7327, 7337"
+      "resumo": "Palpites dados para esta extração: 7307, 7317, 7327, 7337"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -600,15 +625,6 @@
         }
       ],
       "frases": {
-        "7107": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7107",
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7107",
-          "ÁGUIA 🦅 no oitavo prêmio!<br>com o palpite 7107"
-        ],
-        "7117": [
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7117",
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 7117"
-        ],
         "7307": [
           "Dezena no terceiro prêmio!<br>com o palpite 7307",
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 7307",
@@ -622,13 +638,13 @@
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 1,
         "Grupo": [
           "🐕",
           "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7107, 7117, 7127, 7137, 7307, 7317, 7327, 7337"
+      "resumo": "Palpites dados para esta extração: 7307, 7317, 7327, 7337"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -700,19 +716,6 @@
         }
       ],
       "frases": {
-        "7117": [
-          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7117"
-        ],
-        "7127": [
-          "Dezena no quarto prêmio!<br>com o palpite 7127",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7127"
-        ],
-        "7137": [
-          "Milhar e Centena no sexto prêmio!<br>com o palpite 7137",
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 7137",
-          "Dezena no sexto prêmio!<br>com o palpite 7137",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 7137"
-        ],
         "7317": [
           "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 7317"
         ],
@@ -728,18 +731,102 @@
         ]
       },
       "acertos": {
-        "Milhar": 2,
-        "Centena": 2,
-        "Dezena": 4,
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
           "🐕",
           "🐑",
           "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7107, 7117, 7127, 7137, 7307, 7317, 7327, 7337"
+      "resumo": "Palpites dados para esta extração: 7307, 7317, 7327, 7337"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5852",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4099",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "2115",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3328",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9668",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "5423",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "8013",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "5912",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "2958",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "7368",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        }
+      ],
+      "frases": {
+        "7327": [
+          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 7327"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐑"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 7307, 7317, 7327, 7337"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
