@@ -51,54 +51,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "4305": [
-          "Dezena no primeiro prêmio!<br>com o palpite 4305",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 4305"
-        ],
-        "4805": [
-          "Milhar e Centena no primeiro prêmio!<br>com o palpite 4805",
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 4805",
-          "Dezena no primeiro prêmio!<br>com o palpite 4805",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 4805"
-        ],
-        "5305": [
-          "Dezena no primeiro prêmio!<br>com o palpite 5305",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5305"
-        ],
-        "5805": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 5805",
-          "Dezena no primeiro prêmio!<br>com o palpite 5805",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 5805"
-        ],
-        "7305": [
-          "Dezena no primeiro prêmio!<br>com o palpite 7305",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7305"
-        ],
-        "7805": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 7805",
-          "Dezena no primeiro prêmio!<br>com o palpite 7805",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 7805"
-        ],
-        "8305": [
-          "Dezena no primeiro prêmio!<br>com o palpite 8305",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 8305"
-        ],
-        "8805": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 8805",
-          "Dezena no primeiro prêmio!<br>com o palpite 8805",
-          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 8805"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 4,
-        "Dezena": 8,
-        "Grupo": [
-          "🦅"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4305, 4335, 4805, 4835, 5305, 5335, 5805, 5835, 7305, 7335, 7805, 7835, 8305, 8335, 8805, 8835"
+      "resumo": "Palpites dados para esta extração: 8018, 8118, 8518, 8918, 9018, 9118, 9518, 9918"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -151,16 +111,140 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "8018": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 8018"
+        ],
+        "8118": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 8118"
+        ],
+        "8518": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 8518"
+        ],
+        "8918": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 8918"
+        ],
+        "9018": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 9018"
+        ],
+        "9118": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 9118"
+        ],
+        "9518": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 9518"
+        ],
+        "9918": [
+          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 9918"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐕"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 4305, 4335, 4805, 4835, 5305, 5335, 5805, 5835, 7305, 7335, 7805, 7835, 8305, 8335, 8805, 8835"
+      "resumo": "Palpites dados para esta extração: 8018, 8118, 8518, 8918, 9018, 9118, 9518, 9918"
     },
     "PT-RIO, RJ, 14:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7030",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3918",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6207",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8087",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9683",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "4925",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "543",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "8018": [
+          "Dezena no segundo prêmio!<br>com o palpite 8018",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8018"
+        ],
+        "8118": [
+          "Dezena no segundo prêmio!<br>com o palpite 8118",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8118"
+        ],
+        "8518": [
+          "Dezena no segundo prêmio!<br>com o palpite 8518",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8518"
+        ],
+        "8918": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 8918",
+          "Dezena no segundo prêmio!<br>com o palpite 8918",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 8918"
+        ],
+        "9018": [
+          "Dezena no segundo prêmio!<br>com o palpite 9018",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 9018"
+        ],
+        "9118": [
+          "Dezena no segundo prêmio!<br>com o palpite 9118",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 9118"
+        ],
+        "9518": [
+          "Dezena no segundo prêmio!<br>com o palpite 9518",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 9518"
+        ],
+        "9918": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 9918",
+          "Dezena no segundo prêmio!<br>com o palpite 9918",
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 9918"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 2,
+        "Dezena": 8,
+        "Grupo": [
+          "🐕"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 8018, 8118, 8518, 8918, 9018, 9118, 9518, 9918"
+    },
+    "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
