@@ -52,11 +52,8 @@
         }
       ],
       "frases": {
-        "2012": [
-          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2012"
-        ],
-        "2312": [
-          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2312"
+        "2710": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2710"
         ],
         "2712": [
           "BURRO 🐴 no quinto prêmio!<br>com o palpite 2712"
@@ -70,9 +67,69 @@
           "🐴"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2012, 2018, 2312, 2318, 2712, 2718"
+      "resumo": "Palpites dados para esta extração: 2710, 2712, 2715"
     },
     "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4085",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6965",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4988",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3787",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2926",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "2751",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "452",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 2710, 2712, 2715"
+    },
+    "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
@@ -167,30 +224,109 @@
         }
       ],
       "frases": {
-        "2012": [
-          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2012",
-          "BURRO 🐴 no décimo prêmio!<br>com o palpite 2012"
-        ],
-        "2312": [
-          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2312",
-          "BURRO 🐴 no décimo prêmio!<br>com o palpite 2312"
+        "2710": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2710",
+          "Dezena no décimo prêmio!<br>com o palpite 2710",
+          "BURRO 🐴 no décimo prêmio!<br>com o palpite 2710"
         ],
         "2712": [
           "BURRO 🐴 no quinto prêmio!<br>com o palpite 2712",
           "BURRO 🐴 no décimo prêmio!<br>com o palpite 2712"
+        ],
+        "2715": [
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 2715"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
-          "🐴"
+          "🐴",
+          "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2012, 2018, 2312, 2318, 2712, 2718"
+      "resumo": "Palpites dados para esta extração: 2710, 2712, 2715"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4085",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6965",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4988",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3787",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2926",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "4643",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "0997",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "8688",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "5587",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "2666",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 2710, 2712, 2715"
+    },
+    "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
