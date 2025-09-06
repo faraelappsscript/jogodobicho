@@ -1,0 +1,222 @@
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7625",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "7673",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "2190",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9665",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9911",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "7064",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "506",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "2012": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2012"
+        ],
+        "2312": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2312"
+        ],
+        "2712": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2712"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐴"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2012, 2018, 2312, 2318, 2712, 2718"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7625",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "7673",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "2190",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9665",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9911",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7729",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6616",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "2796",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "5305",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "9510",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        }
+      ],
+      "frases": {
+        "2012": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2012",
+          "BURRO 🐴 no décimo prêmio!<br>com o palpite 2012"
+        ],
+        "2312": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2312",
+          "BURRO 🐴 no décimo prêmio!<br>com o palpite 2312"
+        ],
+        "2712": [
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 2712",
+          "BURRO 🐴 no décimo prêmio!<br>com o palpite 2712"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐴"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2012, 2018, 2312, 2318, 2712, 2718"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
