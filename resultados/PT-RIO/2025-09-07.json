@@ -51,54 +51,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "2638": [
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 2638"
-        ],
-        "2688": [
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 2688"
-        ],
-        "2738": [
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 2738"
-        ],
-        "2788": [
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 2788"
-        ],
-        "5638": [
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5638"
-        ],
-        "5688": [
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 5688"
-        ],
-        "5738": [
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 5738"
-        ],
-        "5788": [
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 5788"
-        ],
-        "0688": [
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 0688"
-        ],
-        "0788": [
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 0788"
-        ],
-        "0638": [
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 0638"
-        ],
-        "0738": [
-          "COELHO 🐇 no quarto prêmio!<br>com o palpite 0738"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐅",
-          "🐇"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0638, 0668, 0688, 0738, 0768, 0788, 2638, 2668, 2688, 2738, 2768, 2788, 5638, 5668, 5688, 5738, 5768, 5788"
+      "resumo": "Palpites dados para esta extração: 2829, 2889, 2899"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -151,16 +111,90 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "2829": [
+          "Dezena no primeiro prêmio!<br>com o palpite 2829",
+          "CAMELO 🐪 no primeiro prêmio!<br>com o palpite 2829"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 1,
+        "Grupo": [
+          "🐪"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2829, 2889, 2899"
+    },
+    "PT-RIO, RJ, 14:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2600",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5809",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4181",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2697",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1888",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "7175",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "103",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "2899": [
+          "VACA 🐄 no primeiro prêmio!<br>com o palpite 2899",
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 2899"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐄"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0638, 0668, 0688, 0738, 0768, 0788, 2638, 2668, 2688, 2738, 2768, 2788, 5638, 5668, 5688, 5738, 5768, 5788"
+      "resumo": "Palpites dados para esta extração: 2829, 2889, 2899"
     },
-    "PT-RIO, RJ, 14:20, PT": {
+    "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
