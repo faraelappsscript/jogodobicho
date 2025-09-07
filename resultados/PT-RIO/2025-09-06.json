@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0460, 0900, 0960, 1400, 1460, 1900, 1960, 4400, 4460, 4900, 4960, 6400, 6460, 6900, 6960, 8400, 8460, 8900, 8960"
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0460, 0900, 0960, 1400, 1460, 1900, 1960, 4400, 4460, 4900, 4960, 6400, 6460, 6900, 6960, 8400, 8460, 8900, 8960"
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -178,7 +178,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0460, 0900, 0960, 1400, 1460, 1900, 1960, 4400, 4460, 4900, 4960, 6400, 6460, 6900, 6960, 8400, 8460, 8900, 8960"
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -232,56 +232,46 @@
         }
       ],
       "frases": {
-        "1400": [
-          "Dezena no quarto prêmio!<br>com o palpite 1400",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1400"
+        "4470": [
+          "Dezena no quinto prêmio!<br>com o palpite 4470",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4470",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 4470"
         ],
-        "1900": [
-          "Dezena no quarto prêmio!<br>com o palpite 1900",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1900"
+        "4670": [
+          "Dezena no quinto prêmio!<br>com o palpite 4670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4670",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 4670"
         ],
-        "4400": [
-          "Dezena no quarto prêmio!<br>com o palpite 4400",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 4400"
+        "4970": [
+          "Dezena no quinto prêmio!<br>com o palpite 4970",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4970",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 4970"
         ],
-        "4900": [
-          "Dezena no quarto prêmio!<br>com o palpite 4900",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 4900"
+        "0470": [
+          "Dezena no quinto prêmio!<br>com o palpite 0470",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 0470",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 0470"
         ],
-        "6400": [
-          "Dezena no quarto prêmio!<br>com o palpite 6400",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 6400"
+        "0670": [
+          "Dezena no quinto prêmio!<br>com o palpite 0670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 0670",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 0670"
         ],
-        "6900": [
-          "Dezena no quarto prêmio!<br>com o palpite 6900",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 6900"
-        ],
-        "8400": [
-          "Dezena no quarto prêmio!<br>com o palpite 8400",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 8400"
-        ],
-        "8900": [
-          "Dezena no quarto prêmio!<br>com o palpite 8900",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 8900"
-        ],
-        "0400": [
-          "Dezena no quarto prêmio!<br>com o palpite 0400",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0400"
-        ],
-        "0900": [
-          "Dezena no quarto prêmio!<br>com o palpite 0900",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0900"
+        "0970": [
+          "Dezena no quinto prêmio!<br>com o palpite 0970",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 0970",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 0970"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 10,
+        "Dezena": 6,
         "Grupo": [
-          "🐄"
+          "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0460, 0900, 0960, 1400, 1460, 1900, 1960, 4400, 4460, 4900, 4960, 6400, 6460, 6900, 6960, 8400, 8460, 8900, 8960"
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -341,7 +331,90 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0460, 0900, 0960, 1400, 1460, 1900, 1960, 4400, 4460, 4900, 4960, 6400, 6460, 6900, 6960, 8400, 8460, 8900, 8960"
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4065",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3627",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6638",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8388",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2755",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "5473",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "743",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
+    },
+    "PT-RIO, RJ, 18:20, PTN": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   },
   "1-10": {
@@ -421,7 +494,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0460, 0900, 0960, 1400, 1460, 1900, 1960, 4400, 4460, 4900, 4960, 6400, 6460, 6900, 6960, 8400, 8460, 8900, 8960"
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -492,47 +565,14 @@
           "Bicho": "Macaco"
         }
       ],
-      "frases": {
-        "1400": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 1400"
-        ],
-        "1900": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 1900"
-        ],
-        "4400": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 4400"
-        ],
-        "4900": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 4900"
-        ],
-        "6400": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 6400"
-        ],
-        "6900": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 6900"
-        ],
-        "8400": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 8400"
-        ],
-        "8900": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 8900"
-        ],
-        "0400": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 0400"
-        ],
-        "0900": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 0900"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐄"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0460, 0900, 0960, 1400, 1460, 1900, 1960, 4400, 4460, 4900, 4960, 6400, 6460, 6900, 6960, 8400, 8460, 8900, 8960"
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -604,35 +644,23 @@
         }
       ],
       "frases": {
-        "1400": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 1400"
+        "4470": [
+          "PORCO 🐖 no nono prêmio!<br>com o palpite 4470"
         ],
-        "1900": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 1900"
+        "4670": [
+          "PORCO 🐖 no nono prêmio!<br>com o palpite 4670"
         ],
-        "4400": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 4400"
+        "4970": [
+          "PORCO 🐖 no nono prêmio!<br>com o palpite 4970"
         ],
-        "4900": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 4900"
+        "0470": [
+          "PORCO 🐖 no nono prêmio!<br>com o palpite 0470"
         ],
-        "6400": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 6400"
+        "0670": [
+          "PORCO 🐖 no nono prêmio!<br>com o palpite 0670"
         ],
-        "6900": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 6900"
-        ],
-        "8400": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 8400"
-        ],
-        "8900": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 8900"
-        ],
-        "0400": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 0400"
-        ],
-        "0900": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 0900"
+        "0970": [
+          "PORCO 🐖 no nono prêmio!<br>com o palpite 0970"
         ]
       },
       "acertos": {
@@ -640,10 +668,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐄"
+          "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0460, 0900, 0960, 1400, 1460, 1900, 1960, 4400, 4460, 4900, 4960, 6400, 6460, 6900, 6960, 8400, 8460, 8900, 8960"
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -715,56 +743,67 @@
         }
       ],
       "frases": {
-        "1400": [
-          "Dezena no quarto prêmio!<br>com o palpite 1400",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1400"
+        "4420": [
+          "Dezena no oitavo prêmio!<br>com o palpite 4420",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 4420"
         ],
-        "1900": [
-          "Dezena no quarto prêmio!<br>com o palpite 1900",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1900"
+        "4470": [
+          "Dezena no quinto prêmio!<br>com o palpite 4470",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4470"
         ],
-        "4400": [
-          "Dezena no quarto prêmio!<br>com o palpite 4400",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 4400"
+        "4620": [
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 4620",
+          "Dezena no oitavo prêmio!<br>com o palpite 4620",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 4620"
         ],
-        "4900": [
-          "Dezena no quarto prêmio!<br>com o palpite 4900",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 4900"
+        "4670": [
+          "Dezena no quinto prêmio!<br>com o palpite 4670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4670"
         ],
-        "6400": [
-          "Dezena no quarto prêmio!<br>com o palpite 6400",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 6400"
+        "4920": [
+          "Dezena no oitavo prêmio!<br>com o palpite 4920",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 4920"
         ],
-        "6900": [
-          "Dezena no quarto prêmio!<br>com o palpite 6900",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 6900"
+        "4970": [
+          "Dezena no quinto prêmio!<br>com o palpite 4970",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4970"
         ],
-        "8400": [
-          "Dezena no quarto prêmio!<br>com o palpite 8400",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 8400"
+        "0470": [
+          "Dezena no quinto prêmio!<br>com o palpite 0470",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 0470"
         ],
-        "8900": [
-          "Dezena no quarto prêmio!<br>com o palpite 8900",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 8900"
+        "0670": [
+          "Dezena no quinto prêmio!<br>com o palpite 0670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 0670"
         ],
-        "0400": [
-          "Dezena no quarto prêmio!<br>com o palpite 0400",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0400"
+        "0970": [
+          "Dezena no quinto prêmio!<br>com o palpite 0970",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 0970"
         ],
-        "0900": [
-          "Dezena no quarto prêmio!<br>com o palpite 0900",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0900"
+        "0420": [
+          "Dezena no oitavo prêmio!<br>com o palpite 0420",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 0420"
+        ],
+        "0620": [
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 0620",
+          "Dezena no oitavo prêmio!<br>com o palpite 0620",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 0620"
+        ],
+        "0920": [
+          "Dezena no oitavo prêmio!<br>com o palpite 0920",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 0920"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 10,
+        "Centena": 2,
+        "Dezena": 12,
         "Grupo": [
-          "🐄"
+          "🐖",
+          "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0460, 0900, 0960, 1400, 1460, 1900, 1960, 4400, 4460, 4900, 4960, 6400, 6460, 6900, 6960, 8400, 8460, 8900, 8960"
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
     },
     "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
@@ -835,6 +874,105 @@
           "Bicho": "Cavalo"
         }
       ],
+      "frases": {
+        "4420": [
+          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 4420"
+        ],
+        "4620": [
+          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 4620"
+        ],
+        "4920": [
+          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 4920"
+        ],
+        "0420": [
+          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 0420"
+        ],
+        "0620": [
+          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 0620"
+        ],
+        "0920": [
+          "CACHORRO 🐕 no nono prêmio!<br>com o palpite 0920"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐕"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4065",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3627",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6638",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8388",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2755",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "4368",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "0663",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6238",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "5788",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "2530",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        }
+      ],
       "frases": {},
       "acertos": {
         "Milhar": 0,
@@ -842,7 +980,35 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0460, 0900, 0960, 1400, 1460, 1900, 1960, 4400, 4460, 4900, 4960, 6400, 6460, 6900, 6960, 8400, 8460, 8900, 8960"
+      "resumo": "Palpites dados para esta extração: 0420, 0460, 0470, 0620, 0660, 0670, 0920, 0960, 0970, 4420, 4460, 4470, 4620, 4660, 4670, 4920, 4960, 4970"
+    },
+    "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   }
 }
