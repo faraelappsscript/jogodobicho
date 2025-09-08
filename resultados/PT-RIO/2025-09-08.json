@@ -51,14 +51,49 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "2104": [
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 2104"
+        ],
+        "2174": [
+          "Dezena no quarto prêmio!<br>com o palpite 2174",
+          "PAVÃO 🦚 no quarto prêmio!<br>com o palpite 2174"
+        ],
+        "2184": [
+          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 2184"
+        ],
+        "2604": [
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 2604"
+        ],
+        "2674": [
+          "Dezena no quarto prêmio!<br>com o palpite 2674",
+          "PAVÃO 🦚 no quarto prêmio!<br>com o palpite 2674"
+        ],
+        "2684": [
+          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 2684"
+        ],
+        "2804": [
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 2804"
+        ],
+        "2874": [
+          "Dezena no quarto prêmio!<br>com o palpite 2874",
+          "PAVÃO 🦚 no quarto prêmio!<br>com o palpite 2874"
+        ],
+        "2884": [
+          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 2884"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 3,
+        "Grupo": [
+          "🐂",
+          "🦚",
+          "🪶"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0509, 0539, 0589, 0609, 0639, 0689, 0709, 0739, 0789, 0809, 0839, 0889, 0909, 0939, 0989, 2509, 2539, 2589, 2609, 2639, 2689, 2709, 2739, 2789, 2809, 2839, 2889, 2909, 2939, 2989, 5509, 5539, 5589, 5609, 5639, 5689, 5709, 5739, 5789, 5809, 5839, 5889, 5909, 5939, 5989"
+      "resumo": "Palpites dados para esta extração: 2104, 2114, 2174, 2184, 2604, 2614, 2674, 2684, 2804, 2814, 2874, 2884"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
