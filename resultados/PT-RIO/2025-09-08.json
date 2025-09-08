@@ -1,1 +1,243 @@
-{}
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2479",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1856",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9181",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2374",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0608",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "6498",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "601",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 0509, 0539, 0589, 0609, 0639, 0689, 0709, 0739, 0789, 0809, 0839, 0889, 0909, 0939, 0989, 2509, 2539, 2589, 2609, 2639, 2689, 2709, 2739, 2789, 2809, 2839, 2889, 2909, 2939, 2989, 5509, 5539, 5589, 5609, 5639, 5689, 5709, 5739, 5789, 5809, 5839, 5889, 5909, 5939, 5989"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2479",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1856",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "9181",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2374",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0608",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "2192",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "4813",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "7587",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "9614",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "0704",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        }
+      ],
+      "frases": {
+        "2589": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 2589"
+        ],
+        "2689": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 2689"
+        ],
+        "2789": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 2789"
+        ],
+        "2889": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 2889"
+        ],
+        "2989": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 2989"
+        ],
+        "5589": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 5589"
+        ],
+        "5689": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 5689"
+        ],
+        "5789": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 5789"
+        ],
+        "5889": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 5889"
+        ],
+        "5989": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 5989"
+        ],
+        "0589": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 0589"
+        ],
+        "0689": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 0689"
+        ],
+        "0789": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 0789"
+        ],
+        "0889": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 0889"
+        ],
+        "0989": [
+          "URSO 🐻 no sexto prêmio!<br>com o palpite 0989"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐻"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0509, 0539, 0589, 0609, 0639, 0689, 0709, 0739, 0789, 0809, 0839, 0889, 0909, 0939, 0989, 2509, 2539, 2589, 2609, 2639, 2689, 2709, 2739, 2789, 2809, 2839, 2889, 2909, 2939, 2989, 5509, 5539, 5589, 5609, 5639, 5689, 5709, 5739, 5789, 5809, 5839, 5889, 5909, 5939, 5989"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
