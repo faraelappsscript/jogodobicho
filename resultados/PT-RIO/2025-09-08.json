@@ -103,6 +103,91 @@
         "Bicho"
       ],
       "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9972",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5829",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4236",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7502",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9484",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "7023",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "126",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "2104": [
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 2104"
+        ],
+        "2184": [
+          "Dezena no quinto prêmio!<br>com o palpite 2184",
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 2184"
+        ],
+        "2604": [
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 2604"
+        ],
+        "2684": [
+          "Dezena no quinto prêmio!<br>com o palpite 2684",
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 2684"
+        ],
+        "2804": [
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 2804"
+        ],
+        "2884": [
+          "Dezena no quinto prêmio!<br>com o palpite 2884",
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 2884"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 3,
+        "Grupo": [
+          "🪶",
+          "🐂"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2104, 2114, 2174, 2184, 2604, 2614, 2674, 2684, 2804, 2814, 2874, 2884"
+    },
+    "PT-RIO, RJ, 14:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
         {},
         {},
         {},
@@ -254,6 +339,109 @@
       "resumo": "Palpites dados para esta extração: 2104, 2114, 2174, 2184, 2604, 2614, 2674, 2684, 2804, 2814, 2874, 2884"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9972",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5829",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4236",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7502",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9484",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "9547",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "9825",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "7230",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "2962",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "6587",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        }
+      ],
+      "frases": {
+        "2104": [
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 2104"
+        ],
+        "2184": [
+          "Dezena no quinto prêmio!<br>com o palpite 2184",
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 2184"
+        ],
+        "2604": [
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 2604"
+        ],
+        "2684": [
+          "Dezena no quinto prêmio!<br>com o palpite 2684",
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 2684"
+        ],
+        "2804": [
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 2804"
+        ],
+        "2884": [
+          "Dezena no quinto prêmio!<br>com o palpite 2884",
+          "TOURO 🐂 no quinto prêmio!<br>com o palpite 2884"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 3,
+        "Grupo": [
+          "🪶",
+          "🐂"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2104, 2114, 2174, 2184, 2604, 2614, 2674, 2684, 2804, 2814, 2874, 2884"
+    },
+    "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
