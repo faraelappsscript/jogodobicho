@@ -362,20 +362,72 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "2912",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5496",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1586",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7537",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0865",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "8396",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "004",
+          "Grupo": "",
+          "Bicho": ""
+        }
       ],
-      "frases": {},
+      "frases": {
+        "4637": [
+          "Dezena no quarto prêmio!<br>com o palpite 4637",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4637"
+        ],
+        "4837": [
+          "Dezena no quarto prêmio!<br>com o palpite 4837",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4837"
+        ],
+        "4937": [
+          "Dezena no quarto prêmio!<br>com o palpite 4937",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4937"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 3,
+        "Grupo": [
+          "🐇"
+        ]
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 4637, 4677, 4837, 4877, 4937, 4977"
     }
   },
   "1-10": {
@@ -857,25 +909,90 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "2912",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "5496",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1586",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7537",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0865",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "2517",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "9455",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1983",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "2667",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "5018",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        }
       ],
-      "frases": {},
+      "frases": {
+        "4637": [
+          "Dezena no quarto prêmio!<br>com o palpite 4637",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4637"
+        ],
+        "4837": [
+          "Dezena no quarto prêmio!<br>com o palpite 4837",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4837"
+        ],
+        "4937": [
+          "Dezena no quarto prêmio!<br>com o palpite 4937",
+          "COELHO 🐇 no quarto prêmio!<br>com o palpite 4937"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 3,
+        "Grupo": [
+          "🐇"
+        ]
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 4637, 4677, 4837, 4877, 4937, 4977"
     }
   }
 }
