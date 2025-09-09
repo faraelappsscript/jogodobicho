@@ -248,6 +248,134 @@
         "Bicho"
       ],
       "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7691",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6708",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5040",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8488",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1911",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "9838",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "591",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "1011": [
+          "Dezena no quinto prêmio!<br>com o palpite 1011",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1011"
+        ],
+        "1091": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1091",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1091",
+          "Dezena no sétimo prêmio!<br>com o palpite 1091",
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 1091"
+        ],
+        "1911": [
+          "Milhar e Centena no quinto prêmio!<br>com o palpite 1911",
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 1911",
+          "Dezena no quinto prêmio!<br>com o palpite 1911",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1911"
+        ],
+        "1991": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1991",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1991",
+          "Dezena no sétimo prêmio!<br>com o palpite 1991",
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 1991"
+        ],
+        "4011": [
+          "Dezena no quinto prêmio!<br>com o palpite 4011",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 4011"
+        ],
+        "4091": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4091",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 4091",
+          "Dezena no sétimo prêmio!<br>com o palpite 4091",
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 4091"
+        ],
+        "4911": [
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 4911",
+          "Dezena no quinto prêmio!<br>com o palpite 4911",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 4911"
+        ],
+        "4991": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4991",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 4991",
+          "Dezena no sétimo prêmio!<br>com o palpite 4991",
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 4991"
+        ],
+        "7011": [
+          "Dezena no quinto prêmio!<br>com o palpite 7011",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 7011"
+        ],
+        "7091": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7091",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 7091",
+          "Dezena no sétimo prêmio!<br>com o palpite 7091",
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 7091"
+        ],
+        "7911": [
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 7911",
+          "Dezena no quinto prêmio!<br>com o palpite 7911",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 7911"
+        ],
+        "7991": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7991",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 7991",
+          "Dezena no sétimo prêmio!<br>com o palpite 7991",
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 7991"
+        ]
+      },
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 3,
+        "Dezena": 18,
+        "Grupo": [
+          "🐻",
+          "🐴"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 1011, 1021, 1091, 1911, 1921, 1991, 4011, 4021, 4091, 4911, 4921, 4991, 7011, 7021, 7091, 7911, 7921, 7991"
+    },
+    "PT-RIO, RJ, 16:00, PTV": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
         {},
         {},
         {},
@@ -570,6 +698,140 @@
       "resumo": "Palpites dados para esta extração: 1011, 1021, 1091, 1911, 1921, 1991, 4011, 4021, 4091, 4911, 4921, 4991, 7011, 7021, 7091, 7911, 7921, 7991"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7691",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6708",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5040",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8488",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1911",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7658",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6704",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "9048",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "1808",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "5056",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        }
+      ],
+      "frases": {
+        "1011": [
+          "Dezena no quinto prêmio!<br>com o palpite 1011",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1011"
+        ],
+        "1091": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1091",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1091"
+        ],
+        "1911": [
+          "Milhar e Centena no quinto prêmio!<br>com o palpite 1911",
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 1911",
+          "Dezena no quinto prêmio!<br>com o palpite 1911",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 1911"
+        ],
+        "1991": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1991",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1991"
+        ],
+        "4011": [
+          "Dezena no quinto prêmio!<br>com o palpite 4011",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 4011"
+        ],
+        "4091": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4091",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 4091"
+        ],
+        "4911": [
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 4911",
+          "Dezena no quinto prêmio!<br>com o palpite 4911",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 4911"
+        ],
+        "4991": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4991",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 4991"
+        ],
+        "7011": [
+          "Dezena no quinto prêmio!<br>com o palpite 7011",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 7011"
+        ],
+        "7091": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7091",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 7091"
+        ],
+        "7911": [
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 7911",
+          "Dezena no quinto prêmio!<br>com o palpite 7911",
+          "BURRO 🐴 no quinto prêmio!<br>com o palpite 7911"
+        ],
+        "7991": [
+          "Dezena no primeiro prêmio!<br>com o palpite 7991",
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 7991"
+        ]
+      },
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 3,
+        "Dezena": 12,
+        "Grupo": [
+          "🐻",
+          "🐴"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 1011, 1021, 1091, 1911, 1921, 1991, 4011, 4021, 4091, 4911, 4921, 4991, 7011, 7021, 7091, 7911, 7921, 7991"
+    },
+    "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
