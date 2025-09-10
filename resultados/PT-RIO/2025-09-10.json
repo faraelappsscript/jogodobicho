@@ -51,14 +51,33 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "9534": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9534",
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9534"
+        ],
+        "9634": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9634",
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9634"
+        ],
+        "9734": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9734",
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9734"
+        ],
+        "9934": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9934",
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9934"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐍"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0191, 0199, 0291, 0299, 0491, 0499, 0591, 0599, 0691, 0699, 0791, 0799, 0891, 0899, 1191, 1199, 1291, 1299, 1491, 1499, 1591, 1599, 1691, 1699, 1791, 1799, 1891, 1899, 2191, 2199, 2291, 2299, 2491, 2499, 2591, 2599, 2691, 2699, 2791, 2799, 2891, 2899"
+      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,193 +130,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1191": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1191",
-          "Dezena no terceiro prêmio!<br>com o palpite 1191",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1191"
-        ],
-        "1199": [
-          "Dezena no quarto prêmio!<br>com o palpite 1199",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1199"
-        ],
-        "1291": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1291",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1291"
-        ],
-        "1299": [
-          "Dezena no quarto prêmio!<br>com o palpite 1299",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1299"
-        ],
-        "1491": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1491",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1491"
-        ],
-        "1499": [
-          "Dezena no quarto prêmio!<br>com o palpite 1499",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1499"
-        ],
-        "1591": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1591",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1591"
-        ],
-        "1599": [
-          "Dezena no quarto prêmio!<br>com o palpite 1599",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1599"
-        ],
-        "1691": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1691",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1691"
-        ],
-        "1699": [
-          "Dezena no quarto prêmio!<br>com o palpite 1699",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1699"
-        ],
-        "1791": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1791",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1791"
-        ],
-        "1799": [
-          "Dezena no quarto prêmio!<br>com o palpite 1799",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1799"
-        ],
-        "1891": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1891",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1891"
-        ],
-        "1899": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 1899",
-          "Dezena no quarto prêmio!<br>com o palpite 1899",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1899"
-        ],
-        "2191": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 2191",
-          "Dezena no terceiro prêmio!<br>com o palpite 2191",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2191"
-        ],
-        "2199": [
-          "Dezena no quarto prêmio!<br>com o palpite 2199",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2199"
-        ],
-        "2291": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2291",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2291"
-        ],
-        "2299": [
-          "Dezena no quarto prêmio!<br>com o palpite 2299",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2299"
-        ],
-        "2491": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2491",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2491"
-        ],
-        "2499": [
-          "Dezena no quarto prêmio!<br>com o palpite 2499",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2499"
-        ],
-        "2591": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2591",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2591"
-        ],
-        "2599": [
-          "Dezena no quarto prêmio!<br>com o palpite 2599",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2599"
-        ],
-        "2691": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2691",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2691"
-        ],
-        "2699": [
-          "Dezena no quarto prêmio!<br>com o palpite 2699",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2699"
-        ],
-        "2791": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2791",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2791"
-        ],
-        "2799": [
-          "Dezena no quarto prêmio!<br>com o palpite 2799",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2799"
-        ],
-        "2891": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2891",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2891"
-        ],
-        "2899": [
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 2899",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 2899",
-          "Dezena no quarto prêmio!<br>com o palpite 2899",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2899"
-        ],
-        "0191": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 0191",
-          "Dezena no terceiro prêmio!<br>com o palpite 0191",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0191"
-        ],
-        "0291": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0291",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0291"
-        ],
-        "0491": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0491",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0491"
-        ],
-        "0591": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0591",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0591"
-        ],
-        "0691": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0691",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0691"
-        ],
-        "0791": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0791",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0791"
-        ],
-        "0891": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0891",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0891"
-        ],
-        "0199": [
-          "Dezena no quarto prêmio!<br>com o palpite 0199",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0199"
-        ],
-        "0299": [
-          "Dezena no quarto prêmio!<br>com o palpite 0299",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0299"
-        ],
-        "0499": [
-          "Dezena no quarto prêmio!<br>com o palpite 0499",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0499"
-        ],
-        "0599": [
-          "Dezena no quarto prêmio!<br>com o palpite 0599",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0599"
-        ],
-        "0699": [
-          "Dezena no quarto prêmio!<br>com o palpite 0699",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0699"
-        ],
-        "0799": [
-          "Dezena no quarto prêmio!<br>com o palpite 0799",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0799"
-        ],
-        "0899": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 0899",
-          "Dezena no quarto prêmio!<br>com o palpite 0899",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0899"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 6,
-        "Dezena": 42,
-        "Grupo": [
-          "🐻",
-          "🐄"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0191, 0199, 0291, 0299, 0491, 0499, 0591, 0599, 0691, 0699, 0791, 0799, 0891, 0899, 1191, 1199, 1291, 1299, 1491, 1499, 1591, 1599, 1691, 1699, 1791, 1799, 1891, 1899, 2191, 2199, 2291, 2299, 2491, 2499, 2591, 2599, 2691, 2699, 2791, 2799, 2891, 2899"
+      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -351,125 +191,32 @@
         }
       ],
       "frases": {
-        "1191": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1191",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1191",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1191"
+        "9534": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9534",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9534"
         ],
-        "1291": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1291",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1291",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1291"
+        "9634": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9634",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9634"
         ],
-        "1491": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1491",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1491",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1491"
+        "9734": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9734",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9734"
         ],
-        "1591": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 1591",
-          "Dezena no primeiro prêmio!<br>com o palpite 1591",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1591",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1591"
-        ],
-        "1691": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1691",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1691",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1691"
-        ],
-        "1791": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1791",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1791",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1791"
-        ],
-        "1891": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1891",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1891",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1891"
-        ],
-        "2191": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2191",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2191",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2191"
-        ],
-        "2291": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2291",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2291",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2291"
-        ],
-        "2491": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2491",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2491",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2491"
-        ],
-        "2591": [
-          "Milhar e Centena no primeiro prêmio!<br>com o palpite 2591",
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 2591",
-          "Dezena no primeiro prêmio!<br>com o palpite 2591",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2591",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2591"
-        ],
-        "2691": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2691",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2691",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2691"
-        ],
-        "2791": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2791",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2791",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2791"
-        ],
-        "2891": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2891",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2891",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2891"
-        ],
-        "0191": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0191",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0191",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0191"
-        ],
-        "0291": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0291",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0291",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0291"
-        ],
-        "0491": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0491",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0491",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0491"
-        ],
-        "0591": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 0591",
-          "Dezena no primeiro prêmio!<br>com o palpite 0591",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0591",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0591"
-        ],
-        "0691": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0691",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0691",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0691"
-        ],
-        "0791": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0791",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0791",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0791"
-        ],
-        "0891": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0891",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0891",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0891"
+        "9934": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9934",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9934"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 3,
-        "Dezena": 21,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 4,
         "Grupo": [
-          "🐻"
+          "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0191, 0199, 0291, 0299, 0491, 0499, 0591, 0599, 0691, 0699, 0791, 0799, 0891, 0899, 1191, 1199, 1291, 1299, 1491, 1499, 1591, 1599, 1691, 1699, 1791, 1799, 1891, 1899, 2191, 2199, 2291, 2299, 2491, 2499, 2591, 2599, 2691, 2699, 2791, 2799, 2891, 2899"
+      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -523,68 +270,17 @@
         }
       ],
       "frases": {
-        "1191": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1191"
+        "9534": [
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9534"
         ],
-        "1291": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1291"
+        "9634": [
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9634"
         ],
-        "1491": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1491"
+        "9734": [
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9734"
         ],
-        "1591": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1591"
-        ],
-        "1691": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1691"
-        ],
-        "1791": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1791"
-        ],
-        "1891": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1891"
-        ],
-        "2191": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2191"
-        ],
-        "2291": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2291"
-        ],
-        "2491": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2491"
-        ],
-        "2591": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2591"
-        ],
-        "2691": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2691"
-        ],
-        "2791": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2791"
-        ],
-        "2891": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2891"
-        ],
-        "0191": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0191"
-        ],
-        "0291": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0291"
-        ],
-        "0491": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0491"
-        ],
-        "0591": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0591"
-        ],
-        "0691": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0691"
-        ],
-        "0791": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0791"
-        ],
-        "0891": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0891"
+        "9934": [
+          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9934"
         ]
       },
       "acertos": {
@@ -592,10 +288,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐻"
+          "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0191, 0199, 0291, 0299, 0491, 0499, 0591, 0599, 0691, 0699, 0791, 0799, 0891, 0899, 1191, 1199, 1291, 1299, 1491, 1499, 1591, 1599, 1691, 1699, 1791, 1799, 1891, 1899, 2191, 2199, 2291, 2299, 2491, 2499, 2591, 2599, 2691, 2699, 2791, 2799, 2891, 2899"
+      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -605,11 +301,48 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "8613",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0546",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4932",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "1386",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2389",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "7866",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "042",
+          "Grupo": "",
+          "Bicho": ""
+        }
       ],
       "frases": {},
       "acertos": {
@@ -618,7 +351,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
     }
   },
   "1-10": {
@@ -691,14 +424,29 @@
           "Bicho": "Elefante"
         }
       ],
-      "frases": {},
+      "frases": {
+        "9534": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9534"
+        ],
+        "9634": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9634"
+        ],
+        "9734": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9734"
+        ],
+        "9934": [
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9934"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐍"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0191, 0199, 0291, 0299, 0491, 0499, 0591, 0599, 0691, 0699, 0791, 0799, 0891, 0899, 1191, 1199, 1291, 1299, 1491, 1499, 1591, 1599, 1691, 1699, 1791, 1799, 1891, 1899, 2191, 2199, 2291, 2299, 2491, 2499, 2591, 2599, 2691, 2699, 2791, 2799, 2891, 2899"
+      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -769,259 +517,14 @@
           "Bicho": "Porco"
         }
       ],
-      "frases": {
-        "1191": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 1191",
-          "Dezena no terceiro prêmio!<br>com o palpite 1191",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1191",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 1191"
-        ],
-        "1199": [
-          "Dezena no quarto prêmio!<br>com o palpite 1199",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1199",
-          "Dezena no oitavo prêmio!<br>com o palpite 1199",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 1199"
-        ],
-        "1291": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1291",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1291",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 1291"
-        ],
-        "1299": [
-          "Dezena no quarto prêmio!<br>com o palpite 1299",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1299",
-          "Dezena no oitavo prêmio!<br>com o palpite 1299",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 1299"
-        ],
-        "1491": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1491",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1491",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 1491"
-        ],
-        "1499": [
-          "Dezena no quarto prêmio!<br>com o palpite 1499",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1499",
-          "Dezena no oitavo prêmio!<br>com o palpite 1499",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 1499"
-        ],
-        "1591": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1591",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1591",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 1591"
-        ],
-        "1599": [
-          "Dezena no quarto prêmio!<br>com o palpite 1599",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1599",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 1599",
-          "Dezena no oitavo prêmio!<br>com o palpite 1599",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 1599"
-        ],
-        "1691": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1691",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1691",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 1691"
-        ],
-        "1699": [
-          "Dezena no quarto prêmio!<br>com o palpite 1699",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1699",
-          "Dezena no oitavo prêmio!<br>com o palpite 1699",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 1699"
-        ],
-        "1791": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1791",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1791",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 1791"
-        ],
-        "1799": [
-          "Dezena no quarto prêmio!<br>com o palpite 1799",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1799",
-          "Dezena no oitavo prêmio!<br>com o palpite 1799",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 1799"
-        ],
-        "1891": [
-          "Dezena no terceiro prêmio!<br>com o palpite 1891",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1891",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 1891"
-        ],
-        "1899": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 1899",
-          "Dezena no quarto prêmio!<br>com o palpite 1899",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 1899",
-          "Dezena no oitavo prêmio!<br>com o palpite 1899",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 1899"
-        ],
-        "2191": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 2191",
-          "Dezena no terceiro prêmio!<br>com o palpite 2191",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2191",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 2191"
-        ],
-        "2199": [
-          "Dezena no quarto prêmio!<br>com o palpite 2199",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2199",
-          "Dezena no oitavo prêmio!<br>com o palpite 2199",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 2199"
-        ],
-        "2291": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2291",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2291",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 2291"
-        ],
-        "2299": [
-          "Dezena no quarto prêmio!<br>com o palpite 2299",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2299",
-          "Dezena no oitavo prêmio!<br>com o palpite 2299",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 2299"
-        ],
-        "2491": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2491",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2491",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 2491"
-        ],
-        "2499": [
-          "Dezena no quarto prêmio!<br>com o palpite 2499",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2499",
-          "Dezena no oitavo prêmio!<br>com o palpite 2499",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 2499"
-        ],
-        "2591": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2591",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2591",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 2591"
-        ],
-        "2599": [
-          "Dezena no quarto prêmio!<br>com o palpite 2599",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2599",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 2599",
-          "Dezena no oitavo prêmio!<br>com o palpite 2599",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 2599"
-        ],
-        "2691": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2691",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2691",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 2691"
-        ],
-        "2699": [
-          "Dezena no quarto prêmio!<br>com o palpite 2699",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2699",
-          "Dezena no oitavo prêmio!<br>com o palpite 2699",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 2699"
-        ],
-        "2791": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2791",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2791",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 2791"
-        ],
-        "2799": [
-          "Dezena no quarto prêmio!<br>com o palpite 2799",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2799",
-          "Dezena no oitavo prêmio!<br>com o palpite 2799",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 2799"
-        ],
-        "2891": [
-          "Dezena no terceiro prêmio!<br>com o palpite 2891",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2891",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 2891"
-        ],
-        "2899": [
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 2899",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 2899",
-          "Dezena no quarto prêmio!<br>com o palpite 2899",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 2899",
-          "Dezena no oitavo prêmio!<br>com o palpite 2899",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 2899"
-        ],
-        "0191": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 0191",
-          "Dezena no terceiro prêmio!<br>com o palpite 0191",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0191",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 0191"
-        ],
-        "0291": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0291",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0291",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 0291"
-        ],
-        "0491": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0491",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0491",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 0491"
-        ],
-        "0591": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0591",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0591",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 0591"
-        ],
-        "0691": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0691",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0691",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 0691"
-        ],
-        "0791": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0791",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0791",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 0791"
-        ],
-        "0891": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0891",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0891",
-          "URSO 🐻 no sexto prêmio!<br>com o palpite 0891"
-        ],
-        "0199": [
-          "Dezena no quarto prêmio!<br>com o palpite 0199",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0199",
-          "Dezena no oitavo prêmio!<br>com o palpite 0199",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 0199"
-        ],
-        "0299": [
-          "Dezena no quarto prêmio!<br>com o palpite 0299",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0299",
-          "Dezena no oitavo prêmio!<br>com o palpite 0299",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 0299"
-        ],
-        "0499": [
-          "Dezena no quarto prêmio!<br>com o palpite 0499",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0499",
-          "Dezena no oitavo prêmio!<br>com o palpite 0499",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 0499"
-        ],
-        "0599": [
-          "Dezena no quarto prêmio!<br>com o palpite 0599",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0599",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 0599",
-          "Dezena no oitavo prêmio!<br>com o palpite 0599",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 0599"
-        ],
-        "0699": [
-          "Dezena no quarto prêmio!<br>com o palpite 0699",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0699",
-          "Dezena no oitavo prêmio!<br>com o palpite 0699",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 0699"
-        ],
-        "0799": [
-          "Dezena no quarto prêmio!<br>com o palpite 0799",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0799",
-          "Dezena no oitavo prêmio!<br>com o palpite 0799",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 0799"
-        ],
-        "0899": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 0899",
-          "Dezena no quarto prêmio!<br>com o palpite 0899",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 0899",
-          "Dezena no oitavo prêmio!<br>com o palpite 0899",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 0899"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 9,
-        "Dezena": 63,
-        "Grupo": [
-          "🐻",
-          "🐄"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0191, 0199, 0291, 0299, 0491, 0499, 0591, 0599, 0691, 0699, 0791, 0799, 0891, 0899, 1191, 1199, 1291, 1299, 1491, 1499, 1591, 1599, 1691, 1699, 1791, 1799, 1891, 1899, 2191, 2199, 2291, 2299, 2491, 2499, 2591, 2599, 2691, 2699, 2791, 2799, 2891, 2899"
+      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -1093,167 +596,40 @@
         }
       ],
       "frases": {
-        "1191": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1191",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1191",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1191",
-          "Dezena no décimo prêmio!<br>com o palpite 1191",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 1191"
+        "9534": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9534",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9534",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 9534",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 9534"
         ],
-        "1291": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1291",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1291",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1291",
-          "Dezena no décimo prêmio!<br>com o palpite 1291",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 1291"
+        "9634": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9634",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9634",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 9634",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 9634"
         ],
-        "1491": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1491",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1491",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1491",
-          "Dezena no décimo prêmio!<br>com o palpite 1491",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 1491"
+        "9734": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9734",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9734",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 9734",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 9734"
         ],
-        "1591": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 1591",
-          "Dezena no primeiro prêmio!<br>com o palpite 1591",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1591",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1591",
-          "Dezena no décimo prêmio!<br>com o palpite 1591",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 1591"
-        ],
-        "1691": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1691",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1691",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1691",
-          "Dezena no décimo prêmio!<br>com o palpite 1691",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 1691"
-        ],
-        "1791": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1791",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1791",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1791",
-          "Dezena no décimo prêmio!<br>com o palpite 1791",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 1791"
-        ],
-        "1891": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1891",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 1891",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 1891",
-          "Dezena no décimo prêmio!<br>com o palpite 1891",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 1891"
-        ],
-        "2191": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2191",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2191",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2191",
-          "Dezena no décimo prêmio!<br>com o palpite 2191",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 2191"
-        ],
-        "2291": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2291",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2291",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2291",
-          "Dezena no décimo prêmio!<br>com o palpite 2291",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 2291"
-        ],
-        "2491": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2491",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2491",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2491",
-          "Dezena no décimo prêmio!<br>com o palpite 2491",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 2491"
-        ],
-        "2591": [
-          "Milhar e Centena no primeiro prêmio!<br>com o palpite 2591",
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 2591",
-          "Dezena no primeiro prêmio!<br>com o palpite 2591",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2591",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2591",
-          "Dezena no décimo prêmio!<br>com o palpite 2591",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 2591"
-        ],
-        "2691": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2691",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2691",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2691",
-          "Dezena no décimo prêmio!<br>com o palpite 2691",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 2691"
-        ],
-        "2791": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2791",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2791",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2791",
-          "Dezena no décimo prêmio!<br>com o palpite 2791",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 2791"
-        ],
-        "2891": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2891",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 2891",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 2891",
-          "Dezena no décimo prêmio!<br>com o palpite 2891",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 2891"
-        ],
-        "0191": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0191",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0191",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0191",
-          "Dezena no décimo prêmio!<br>com o palpite 0191",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 0191"
-        ],
-        "0291": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0291",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0291",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0291",
-          "Dezena no décimo prêmio!<br>com o palpite 0291",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 0291"
-        ],
-        "0491": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0491",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0491",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0491",
-          "Dezena no décimo prêmio!<br>com o palpite 0491",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 0491"
-        ],
-        "0591": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 0591",
-          "Dezena no primeiro prêmio!<br>com o palpite 0591",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0591",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0591",
-          "Dezena no décimo prêmio!<br>com o palpite 0591",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 0591"
-        ],
-        "0691": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0691",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0691",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0691",
-          "Dezena no décimo prêmio!<br>com o palpite 0691",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 0691"
-        ],
-        "0791": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0791",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0791",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0791",
-          "Dezena no décimo prêmio!<br>com o palpite 0791",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 0791"
-        ],
-        "0891": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0891",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0891",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0891",
-          "Dezena no décimo prêmio!<br>com o palpite 0891",
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 0891"
+        "9934": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9934",
+          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9934",
+          "COBRA 🐍 no sétimo prêmio!<br>com o palpite 9934",
+          "COBRA 🐍 no oitavo prêmio!<br>com o palpite 9934"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 3,
-        "Dezena": 42,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 4,
         "Grupo": [
-          "🐻"
+          "🐍"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0191, 0199, 0291, 0299, 0491, 0499, 0591, 0599, 0691, 0699, 0791, 0799, 0891, 0899, 1191, 1199, 1291, 1299, 1491, 1499, 1591, 1599, 1691, 1699, 1791, 1799, 1891, 1899, 2191, 2199, 2291, 2299, 2491, 2499, 2591, 2599, 2691, 2699, 2791, 2799, 2891, 2899"
+      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -1324,80 +700,14 @@
           "Bicho": "Carneiro"
         }
       ],
-      "frases": {
-        "1191": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1191"
-        ],
-        "1291": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1291"
-        ],
-        "1491": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1491"
-        ],
-        "1591": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1591"
-        ],
-        "1691": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1691"
-        ],
-        "1791": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1791"
-        ],
-        "1891": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1891"
-        ],
-        "2191": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2191"
-        ],
-        "2291": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2291"
-        ],
-        "2491": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2491"
-        ],
-        "2591": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2591"
-        ],
-        "2691": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2691"
-        ],
-        "2791": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2791"
-        ],
-        "2891": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 2891"
-        ],
-        "0191": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0191"
-        ],
-        "0291": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0291"
-        ],
-        "0491": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0491"
-        ],
-        "0591": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0591"
-        ],
-        "0691": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0691"
-        ],
-        "0791": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0791"
-        ],
-        "0891": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 0891"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐻"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0191, 0199, 0291, 0299, 0491, 0499, 0591, 0599, 0691, 0699, 0791, 0799, 0891, 0899, 1191, 1199, 1291, 1299, 1491, 1499, 1591, 1599, 1691, 1699, 1791, 1799, 1891, 1899, 2191, 2199, 2291, 2299, 2491, 2499, 2591, 2599, 2691, 2699, 2791, 2799, 2891, 2899"
+      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
     },
     "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
@@ -1407,16 +717,66 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "8613",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0546",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4932",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "1386",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2389",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "8041",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6593",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1438",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "3626",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "7564",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        }
       ],
       "frases": {},
       "acertos": {
@@ -1425,7 +785,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
     }
   }
 }
