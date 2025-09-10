@@ -52,32 +52,49 @@
         }
       ],
       "frases": {
-        "9534": [
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9534",
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9534"
+        "9467": [
+          "Dezena no segundo prêmio!<br>com o palpite 9467",
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9467"
         ],
-        "9634": [
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9634",
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9634"
+        "9477": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9477",
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 9477"
         ],
-        "9734": [
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9734",
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9734"
+        "9567": [
+          "Dezena no segundo prêmio!<br>com o palpite 9567",
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9567"
         ],
-        "9934": [
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9934",
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9934"
+        "9577": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9577",
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 9577"
+        ],
+        "9667": [
+          "Dezena no segundo prêmio!<br>com o palpite 9667",
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9667"
+        ],
+        "9677": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9677",
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 9677"
+        ],
+        "9967": [
+          "Dezena no segundo prêmio!<br>com o palpite 9967",
+          "MACACO 🐒 no segundo prêmio!<br>com o palpite 9967"
+        ],
+        "9977": [
+          "Dezena no sétimo prêmio!<br>com o palpite 9977",
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 9977"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 8,
         "Grupo": [
-          "🐍"
+          "🐒",
+          "🦃"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
+      "resumo": "Palpites dados para esta extração: 9437, 9467, 9477, 9497, 9537, 9567, 9577, 9597, 9637, 9667, 9677, 9697, 9937, 9967, 9977, 9997"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -130,14 +147,29 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "9497": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 9497"
+        ],
+        "9597": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 9597"
+        ],
+        "9697": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 9697"
+        ],
+        "9997": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 9997"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐄"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
+      "resumo": "Palpites dados para esta extração: 9437, 9467, 9477, 9497, 9537, 9567, 9577, 9597, 9637, 9667, 9677, 9697, 9937, 9967, 9977, 9997"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -190,33 +222,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "9534": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9534",
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9534"
-        ],
-        "9634": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9634",
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9634"
-        ],
-        "9734": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9734",
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9734"
-        ],
-        "9934": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9934",
-          "COBRA 🐍 no terceiro prêmio!<br>com o palpite 9934"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 4,
-        "Grupo": [
-          "🐍"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
+      "resumo": "Palpites dados para esta extração: 9437, 9467, 9477, 9497, 9537, 9567, 9577, 9597, 9637, 9667, 9677, 9697, 9937, 9967, 9977, 9997"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -270,28 +283,51 @@
         }
       ],
       "frases": {
-        "9534": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9534"
+        "9437": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9437",
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 9437"
         ],
-        "9634": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9634"
+        "9467": [
+          "Dezena no quinto prêmio!<br>com o palpite 9467",
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9467"
         ],
-        "9734": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9734"
+        "9537": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9537",
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 9537"
         ],
-        "9934": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9934"
+        "9567": [
+          "Dezena no quinto prêmio!<br>com o palpite 9567",
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9567"
+        ],
+        "9637": [
+          "Dezena no terceiro prêmio!<br>com o palpite 9637",
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 9637"
+        ],
+        "9667": [
+          "Centena e Dezena no quinto prêmio!<br>com o palpite 9667",
+          "Dezena no quinto prêmio!<br>com o palpite 9667",
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9667"
+        ],
+        "9937": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 9937",
+          "Dezena no terceiro prêmio!<br>com o palpite 9937",
+          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 9937"
+        ],
+        "9967": [
+          "Dezena no quinto prêmio!<br>com o palpite 9967",
+          "MACACO 🐒 no quinto prêmio!<br>com o palpite 9967"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 2,
+        "Dezena": 8,
         "Grupo": [
-          "🐍"
+          "🐇",
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
+      "resumo": "Palpites dados para esta extração: 9437, 9467, 9477, 9497, 9537, 9567, 9577, 9597, 9637, 9667, 9677, 9697, 9937, 9967, 9977, 9997"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -344,14 +380,29 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "9467": [
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 9467"
+        ],
+        "9567": [
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 9567"
+        ],
+        "9667": [
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 9667"
+        ],
+        "9967": [
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 9967"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐒"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9534, 9634, 9734, 9934"
+      "resumo": "Palpites dados para esta extração: 9437, 9467, 9477, 9497, 9537, 9567, 9577, 9597, 9637, 9667, 9677, 9697, 9937, 9967, 9977, 9997"
     }
   },
   "1-10": {
