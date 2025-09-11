@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
+      "resumo": "Palpites dados para esta extração: 1674, 6674"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
+      "resumo": "Palpites dados para esta extração: 1674, 6674"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -171,78 +171,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1042": [
-          "Dezena no quinto prêmio!<br>com o palpite 1042",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1042"
-        ],
-        "1044": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1044"
-        ],
-        "1048": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1048"
-        ],
-        "1642": [
-          "Dezena no quinto prêmio!<br>com o palpite 1642",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1642"
-        ],
-        "1644": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1644"
-        ],
-        "1648": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1648"
-        ],
-        "1742": [
-          "Dezena no quinto prêmio!<br>com o palpite 1742",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1742"
-        ],
-        "1744": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1744"
-        ],
-        "1748": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1748"
-        ],
-        "6042": [
-          "Dezena no quinto prêmio!<br>com o palpite 6042",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6042"
-        ],
-        "6044": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6044"
-        ],
-        "6048": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 6048"
-        ],
-        "6642": [
-          "Dezena no quinto prêmio!<br>com o palpite 6642",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6642"
-        ],
-        "6644": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6644"
-        ],
-        "6648": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 6648"
-        ],
-        "6742": [
-          "Dezena no quinto prêmio!<br>com o palpite 6742",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6742"
-        ],
-        "6744": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6744"
-        ],
-        "6748": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 6748"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
-        "Grupo": [
-          "🐎",
-          "🐘"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
+      "resumo": "Palpites dados para esta extração: 1674, 6674"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -296,58 +232,26 @@
         }
       ],
       "frases": {
-        "1042": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1042"
+        "1674": [
+          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 1674",
+          "Dezena no quinto prêmio!<br>com o palpite 1674",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 1674"
         ],
-        "1044": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1044",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1044"
-        ],
-        "1642": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1642"
-        ],
-        "1644": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1644",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1644"
-        ],
-        "1742": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1742"
-        ],
-        "1744": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1744",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1744"
-        ],
-        "6042": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6042"
-        ],
-        "6044": [
-          "Dezena no sétimo prêmio!<br>com o palpite 6044",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6044"
-        ],
-        "6642": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6642"
-        ],
-        "6644": [
-          "Dezena no sétimo prêmio!<br>com o palpite 6644",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6644"
-        ],
-        "6742": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6742"
-        ],
-        "6744": [
-          "Dezena no sétimo prêmio!<br>com o palpite 6744",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6744"
+        "6674": [
+          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 6674",
+          "Dezena no quinto prêmio!<br>com o palpite 6674",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 6674"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
+        "Dezena": 2,
         "Grupo": [
-          "🐎"
+          "🦚"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
+      "resumo": "Palpites dados para esta extração: 1674, 6674"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -443,53 +347,14 @@
           "Bicho": "Cavalo"
         }
       ],
-      "frases": {
-        "1042": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1042"
-        ],
-        "1044": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1044"
-        ],
-        "1642": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1642"
-        ],
-        "1644": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1644"
-        ],
-        "1742": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1742"
-        ],
-        "1744": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1744"
-        ],
-        "6042": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6042"
-        ],
-        "6044": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6044"
-        ],
-        "6642": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6642"
-        ],
-        "6644": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6644"
-        ],
-        "6742": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6742"
-        ],
-        "6744": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6744"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐎"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
+      "resumo": "Palpites dados para esta extração: 1674, 6674"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -567,7 +432,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
+      "resumo": "Palpites dados para esta extração: 1674, 6674"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -638,80 +503,14 @@
           "Bicho": "Coelho"
         }
       ],
-      "frases": {
-        "1042": [
-          "Dezena no quinto prêmio!<br>com o palpite 1042",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1042",
-          "Dezena no oitavo prêmio!<br>com o palpite 1042",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1042"
-        ],
-        "1044": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1044",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1044"
-        ],
-        "1642": [
-          "Dezena no quinto prêmio!<br>com o palpite 1642",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1642",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 1642",
-          "Dezena no oitavo prêmio!<br>com o palpite 1642",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1642"
-        ],
-        "1644": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1644",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1644"
-        ],
-        "1742": [
-          "Dezena no quinto prêmio!<br>com o palpite 1742",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1742",
-          "Dezena no oitavo prêmio!<br>com o palpite 1742",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1742"
-        ],
-        "1744": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1744",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1744"
-        ],
-        "6042": [
-          "Dezena no quinto prêmio!<br>com o palpite 6042",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6042",
-          "Dezena no oitavo prêmio!<br>com o palpite 6042",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6042"
-        ],
-        "6044": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6044",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6044"
-        ],
-        "6642": [
-          "Dezena no quinto prêmio!<br>com o palpite 6642",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6642",
-          "Milhar e Centena no oitavo prêmio!<br>com o palpite 6642",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 6642",
-          "Dezena no oitavo prêmio!<br>com o palpite 6642",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6642"
-        ],
-        "6644": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6644",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6644"
-        ],
-        "6742": [
-          "Dezena no quinto prêmio!<br>com o palpite 6742",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6742",
-          "Dezena no oitavo prêmio!<br>com o palpite 6742",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6742"
-        ],
-        "6744": [
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6744",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6744"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 2,
-        "Dezena": 12,
-        "Grupo": [
-          "🐎"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
+      "resumo": "Palpites dados para esta extração: 1674, 6674"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -783,40 +582,26 @@
         }
       ],
       "frases": {
-        "1048": [
-          "Dezena no nono prêmio!<br>com o palpite 1048",
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1048"
+        "1674": [
+          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 1674",
+          "Dezena no quinto prêmio!<br>com o palpite 1674",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 1674"
         ],
-        "1648": [
-          "Dezena no nono prêmio!<br>com o palpite 1648",
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1648"
-        ],
-        "1748": [
-          "Dezena no nono prêmio!<br>com o palpite 1748",
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1748"
-        ],
-        "6048": [
-          "Dezena no nono prêmio!<br>com o palpite 6048",
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 6048"
-        ],
-        "6648": [
-          "Dezena no nono prêmio!<br>com o palpite 6648",
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 6648"
-        ],
-        "6748": [
-          "Dezena no nono prêmio!<br>com o palpite 6748",
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 6748"
+        "6674": [
+          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 6674",
+          "Dezena no quinto prêmio!<br>com o palpite 6674",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 6674"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
+        "Dezena": 2,
         "Grupo": [
-          "🐘"
+          "🦚"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
+      "resumo": "Palpites dados para esta extração: 1674, 6674"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
