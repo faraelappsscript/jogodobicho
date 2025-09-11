@@ -52,108 +52,36 @@
         }
       ],
       "frases": {
-        "7434": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 7434"
-        ],
-        "7437": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7437"
-        ],
-        "7438": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7438"
-        ],
-        "7439": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7439"
-        ],
-        "7490": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7490",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7490"
-        ],
-        "7491": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7491"
-        ],
-        "7492": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7492"
-        ],
-        "7734": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 7734"
-        ],
-        "7737": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7737"
-        ],
-        "7738": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7738"
-        ],
-        "7739": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 7739"
+        "2790": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 2790",
+          "Dezena no terceiro prêmio!<br>com o palpite 2790",
+          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2790"
         ],
         "7790": [
           "Centena e Dezena no terceiro prêmio!<br>com o palpite 7790",
           "Dezena no terceiro prêmio!<br>com o palpite 7790",
           "URSO 🐻 no terceiro prêmio!<br>com o palpite 7790"
         ],
-        "7791": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7791"
+        "8790": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 8790",
+          "Dezena no terceiro prêmio!<br>com o palpite 8790",
+          "URSO 🐻 no terceiro prêmio!<br>com o palpite 8790"
         ],
-        "7792": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7792"
-        ],
-        "9434": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9434"
-        ],
-        "9437": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9437"
-        ],
-        "9438": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9438"
-        ],
-        "9439": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9439"
-        ],
-        "9490": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9490",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9490"
-        ],
-        "9491": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9491"
-        ],
-        "9492": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9492"
-        ],
-        "9734": [
-          "COBRA 🐍 no sexto prêmio!<br>com o palpite 9734"
-        ],
-        "9737": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9737"
-        ],
-        "9738": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9738"
-        ],
-        "9739": [
-          "COELHO 🐇 no sétimo prêmio!<br>com o palpite 9739"
-        ],
-        "9790": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 9790",
-          "Dezena no terceiro prêmio!<br>com o palpite 9790",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9790"
-        ],
-        "9791": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9791"
-        ],
-        "9792": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9792"
+        "0790": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 0790",
+          "Dezena no terceiro prêmio!<br>com o palpite 0790",
+          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0790"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
+        "Centena": 4,
         "Dezena": 4,
         "Grupo": [
-          "🐻",
-          "🐍",
-          "🐇"
+          "🐻"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7430, 7431, 7432, 7434, 7437, 7438, 7439, 7490, 7491, 7492, 7494, 7497, 7498, 7499, 7730, 7731, 7732, 7734, 7737, 7738, 7739, 7790, 7791, 7792, 7794, 7797, 7798, 7799, 9430, 9431, 9432, 9434, 9437, 9438, 9439, 9490, 9491, 9492, 9494, 9497, 9498, 9499, 9730, 9731, 9732, 9734, 9737, 9738, 9739, 9790, 9791, 9792, 9794, 9797, 9798, 9799"
+      "resumo": "Palpites dados para esta extração: 0700, 0730, 0750, 0790, 2700, 2730, 2750, 2790, 7700, 7730, 7750, 7790, 8700, 8730, 8750, 8790"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -250,112 +178,53 @@
         }
       ],
       "frases": {
-        "7430": [
-          "Dezena no sexto prêmio!<br>com o palpite 7430",
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 7430"
+        "2730": [
+          "Dezena no sexto prêmio!<br>com o palpite 2730",
+          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 2730"
         ],
-        "7431": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 7431"
-        ],
-        "7432": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 7432"
-        ],
-        "7490": [
-          "Dezena no terceiro prêmio!<br>com o palpite 7490",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7490"
-        ],
-        "7491": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7491"
-        ],
-        "7492": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7492"
-        ],
-        "7494": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 7494"
+        "2790": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 2790",
+          "Dezena no terceiro prêmio!<br>com o palpite 2790",
+          "URSO 🐻 no terceiro prêmio!<br>com o palpite 2790"
         ],
         "7730": [
           "Dezena no sexto prêmio!<br>com o palpite 7730",
           "CAMELO 🐪 no sexto prêmio!<br>com o palpite 7730"
-        ],
-        "7731": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 7731"
-        ],
-        "7732": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 7732"
         ],
         "7790": [
           "Centena e Dezena no terceiro prêmio!<br>com o palpite 7790",
           "Dezena no terceiro prêmio!<br>com o palpite 7790",
           "URSO 🐻 no terceiro prêmio!<br>com o palpite 7790"
         ],
-        "7791": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7791"
+        "8730": [
+          "Dezena no sexto prêmio!<br>com o palpite 8730",
+          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 8730"
         ],
-        "7792": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 7792"
+        "8790": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 8790",
+          "Dezena no terceiro prêmio!<br>com o palpite 8790",
+          "URSO 🐻 no terceiro prêmio!<br>com o palpite 8790"
         ],
-        "7794": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 7794"
+        "0790": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 0790",
+          "Dezena no terceiro prêmio!<br>com o palpite 0790",
+          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0790"
         ],
-        "9430": [
-          "Dezena no sexto prêmio!<br>com o palpite 9430",
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 9430"
-        ],
-        "9431": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 9431"
-        ],
-        "9432": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 9432"
-        ],
-        "9490": [
-          "Dezena no terceiro prêmio!<br>com o palpite 9490",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9490"
-        ],
-        "9491": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9491"
-        ],
-        "9492": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9492"
-        ],
-        "9494": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 9494"
-        ],
-        "9730": [
-          "Dezena no sexto prêmio!<br>com o palpite 9730",
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 9730"
-        ],
-        "9731": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 9731"
-        ],
-        "9732": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 9732"
-        ],
-        "9790": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 9790",
-          "Dezena no terceiro prêmio!<br>com o palpite 9790",
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9790"
-        ],
-        "9791": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9791"
-        ],
-        "9792": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 9792"
-        ],
-        "9794": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 9794"
+        "0730": [
+          "Dezena no sexto prêmio!<br>com o palpite 0730",
+          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 0730"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
+        "Centena": 4,
         "Dezena": 8,
         "Grupo": [
           "🐻",
-          "🐪",
-          "🦌"
+          "🐪"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7430, 7431, 7432, 7434, 7437, 7438, 7439, 7490, 7491, 7492, 7494, 7497, 7498, 7499, 7730, 7731, 7732, 7734, 7737, 7738, 7739, 7790, 7791, 7792, 7794, 7797, 7798, 7799, 9430, 9431, 9432, 9434, 9437, 9438, 9439, 9490, 9491, 9492, 9494, 9497, 9498, 9499, 9730, 9731, 9732, 9734, 9737, 9738, 9739, 9790, 9791, 9792, 9794, 9797, 9798, 9799"
+      "resumo": "Palpites dados para esta extração: 0700, 0730, 0750, 0790, 2700, 2730, 2750, 2790, 7700, 7730, 7750, 7790, 8700, 8730, 8750, 8790"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
