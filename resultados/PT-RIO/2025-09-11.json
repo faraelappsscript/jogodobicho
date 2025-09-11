@@ -51,108 +51,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1255": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1255"
-        ],
-        "1256": [
-          "Dezena no quarto prêmio!<br>com o palpite 1256",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1256"
-        ],
-        "1292": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1292"
-        ],
-        "1355": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1355"
-        ],
-        "1356": [
-          "Dezena no quarto prêmio!<br>com o palpite 1356",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1356"
-        ],
-        "1392": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1392"
-        ],
-        "1555": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1555"
-        ],
-        "1556": [
-          "Dezena no quarto prêmio!<br>com o palpite 1556",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1556"
-        ],
-        "1592": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1592"
-        ],
-        "4255": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4255"
-        ],
-        "4256": [
-          "Dezena no quarto prêmio!<br>com o palpite 4256",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4256"
-        ],
-        "4292": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 4292"
-        ],
-        "4355": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4355"
-        ],
-        "4356": [
-          "Dezena no quarto prêmio!<br>com o palpite 4356",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4356"
-        ],
-        "4392": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 4392"
-        ],
-        "4555": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4555"
-        ],
-        "4556": [
-          "Dezena no quarto prêmio!<br>com o palpite 4556",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4556"
-        ],
-        "4592": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 4592"
-        ],
-        "0292": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0292"
-        ],
-        "0392": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0392"
-        ],
-        "0592": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0592"
-        ],
-        "0255": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0255"
-        ],
-        "0256": [
-          "Dezena no quarto prêmio!<br>com o palpite 0256",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0256"
-        ],
-        "0355": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0355"
-        ],
-        "0356": [
-          "Dezena no quarto prêmio!<br>com o palpite 0356",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0356"
-        ],
-        "0555": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0555"
-        ],
-        "0556": [
-          "Dezena no quarto prêmio!<br>com o palpite 0556",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0556"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 9,
-        "Grupo": [
-          "🐻",
-          "🐈"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0222, 0225, 0226, 0242, 0245, 0246, 0252, 0255, 0256, 0292, 0295, 0296, 0322, 0325, 0326, 0342, 0345, 0346, 0352, 0355, 0356, 0392, 0395, 0396, 0522, 0525, 0526, 0542, 0545, 0546, 0552, 0555, 0556, 0592, 0595, 0596, 1222, 1225, 1226, 1242, 1245, 1246, 1252, 1255, 1256, 1292, 1295, 1296, 1322, 1325, 1326, 1342, 1345, 1346, 1352, 1355, 1356, 1392, 1395, 1396, 1522, 1525, 1526, 1542, 1545, 1546, 1552, 1555, 1556, 1592, 1595, 1596, 4222, 4225, 4226, 4242, 4245, 4246, 4252, 4255, 4256, 4292, 4295, 4296, 4322, 4325, 4326, 4342, 4345, 4346, 4352, 4355, 4356, 4392, 4395, 4396, 4522, 4525, 4526, 4542, 4545, 4546, 4552, 4555, 4556, 4592, 4595, 4596"
+      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -205,157 +111,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1255": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1255",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1255"
-        ],
-        "1256": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1256",
-          "Dezena no segundo prêmio!<br>com o palpite 1256",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1256"
-        ],
-        "1295": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1295"
-        ],
-        "1296": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1296"
-        ],
-        "1355": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1355",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1355"
-        ],
-        "1356": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1356",
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 1356",
-          "Dezena no segundo prêmio!<br>com o palpite 1356",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1356"
-        ],
-        "1395": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1395"
-        ],
-        "1396": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1396"
-        ],
-        "1555": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1555",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1555"
-        ],
-        "1556": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1556",
-          "Dezena no segundo prêmio!<br>com o palpite 1556",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1556"
-        ],
-        "1595": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1595"
-        ],
-        "1596": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1596"
-        ],
-        "4255": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4255",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4255"
-        ],
-        "4256": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4256",
-          "Dezena no segundo prêmio!<br>com o palpite 4256",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4256"
-        ],
-        "4295": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4295"
-        ],
-        "4296": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4296"
-        ],
-        "4355": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4355",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4355"
-        ],
-        "4356": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4356",
-          "Milhar e Centena no segundo prêmio!<br>com o palpite 4356",
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 4356",
-          "Dezena no segundo prêmio!<br>com o palpite 4356",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4356"
-        ],
-        "4395": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4395"
-        ],
-        "4396": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4396"
-        ],
-        "4555": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4555",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4555"
-        ],
-        "4556": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4556",
-          "Dezena no segundo prêmio!<br>com o palpite 4556",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4556"
-        ],
-        "4595": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4595"
-        ],
-        "4596": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4596"
-        ],
-        "0255": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0255",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0255"
-        ],
-        "0256": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0256",
-          "Dezena no segundo prêmio!<br>com o palpite 0256",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0256"
-        ],
-        "0355": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0355",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0355"
-        ],
-        "0356": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0356",
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 0356",
-          "Dezena no segundo prêmio!<br>com o palpite 0356",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0356"
-        ],
-        "0555": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0555",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0555"
-        ],
-        "0556": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0556",
-          "Dezena no segundo prêmio!<br>com o palpite 0556",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0556"
-        ],
-        "0295": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0295"
-        ],
-        "0296": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0296"
-        ],
-        "0395": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0395"
-        ],
-        "0396": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0396"
-        ],
-        "0595": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0595"
-        ],
-        "0596": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0596"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 3,
-        "Dezena": 9,
-        "Grupo": [
-          "🐈",
-          "🦌"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0222, 0225, 0226, 0242, 0245, 0246, 0252, 0255, 0256, 0292, 0295, 0296, 0322, 0325, 0326, 0342, 0345, 0346, 0352, 0355, 0356, 0392, 0395, 0396, 0522, 0525, 0526, 0542, 0545, 0546, 0552, 0555, 0556, 0592, 0595, 0596, 1222, 1225, 1226, 1242, 1245, 1246, 1252, 1255, 1256, 1292, 1295, 1296, 1322, 1325, 1326, 1342, 1345, 1346, 1352, 1355, 1356, 1392, 1395, 1396, 1522, 1525, 1526, 1542, 1545, 1546, 1552, 1555, 1556, 1592, 1595, 1596, 4222, 4225, 4226, 4242, 4245, 4246, 4252, 4255, 4256, 4292, 4295, 4296, 4322, 4325, 4326, 4342, 4345, 4346, 4352, 4355, 4356, 4392, 4395, 4396, 4522, 4525, 4526, 4542, 4545, 4546, 4552, 4555, 4556, 4592, 4595, 4596"
+      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -409,212 +172,77 @@
         }
       ],
       "frases": {
-        "1225": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1225"
+        "1042": [
+          "Dezena no quinto prêmio!<br>com o palpite 1042",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1042"
         ],
-        "1226": [
-          "Dezena no quarto prêmio!<br>com o palpite 1226",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1226"
+        "1044": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1044"
         ],
-        "1242": [
-          "Dezena no quinto prêmio!<br>com o palpite 1242",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1242"
+        "1048": [
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1048"
         ],
-        "1245": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1245"
+        "1642": [
+          "Dezena no quinto prêmio!<br>com o palpite 1642",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1642"
         ],
-        "1246": [
-          "Dezena no sexto prêmio!<br>com o palpite 1246",
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1246"
+        "1644": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1644"
         ],
-        "1252": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1252"
+        "1648": [
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1648"
         ],
-        "1325": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1325"
+        "1742": [
+          "Dezena no quinto prêmio!<br>com o palpite 1742",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1742"
         ],
-        "1326": [
-          "Dezena no quarto prêmio!<br>com o palpite 1326",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1326"
+        "1744": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1744"
         ],
-        "1342": [
-          "Dezena no quinto prêmio!<br>com o palpite 1342",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1342"
+        "1748": [
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1748"
         ],
-        "1345": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1345"
+        "6042": [
+          "Dezena no quinto prêmio!<br>com o palpite 6042",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6042"
         ],
-        "1346": [
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 1346",
-          "Dezena no sexto prêmio!<br>com o palpite 1346",
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1346"
+        "6044": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6044"
         ],
-        "1352": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1352"
+        "6048": [
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 6048"
         ],
-        "1525": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1525"
+        "6642": [
+          "Dezena no quinto prêmio!<br>com o palpite 6642",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6642"
         ],
-        "1526": [
-          "Dezena no quarto prêmio!<br>com o palpite 1526",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1526"
+        "6644": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6644"
         ],
-        "1542": [
-          "Dezena no quinto prêmio!<br>com o palpite 1542",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1542"
+        "6648": [
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 6648"
         ],
-        "1545": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1545"
+        "6742": [
+          "Dezena no quinto prêmio!<br>com o palpite 6742",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6742"
         ],
-        "1546": [
-          "Dezena no sexto prêmio!<br>com o palpite 1546",
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 1546"
+        "6744": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6744"
         ],
-        "1552": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1552"
-        ],
-        "4225": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4225"
-        ],
-        "4226": [
-          "Dezena no quarto prêmio!<br>com o palpite 4226",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4226"
-        ],
-        "4242": [
-          "Dezena no quinto prêmio!<br>com o palpite 4242",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 4242"
-        ],
-        "4245": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 4245"
-        ],
-        "4246": [
-          "Dezena no sexto prêmio!<br>com o palpite 4246",
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 4246"
-        ],
-        "4252": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 4252"
-        ],
-        "4325": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4325"
-        ],
-        "4326": [
-          "Dezena no quarto prêmio!<br>com o palpite 4326",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4326"
-        ],
-        "4342": [
-          "Dezena no quinto prêmio!<br>com o palpite 4342",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 4342"
-        ],
-        "4345": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 4345"
-        ],
-        "4346": [
-          "Milhar e Centena no sexto prêmio!<br>com o palpite 4346",
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 4346",
-          "Dezena no sexto prêmio!<br>com o palpite 4346",
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 4346"
-        ],
-        "4352": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 4352"
-        ],
-        "4525": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4525"
-        ],
-        "4526": [
-          "Dezena no quarto prêmio!<br>com o palpite 4526",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4526"
-        ],
-        "4542": [
-          "Dezena no quinto prêmio!<br>com o palpite 4542",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 4542"
-        ],
-        "4545": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 4545"
-        ],
-        "4546": [
-          "Dezena no sexto prêmio!<br>com o palpite 4546",
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 4546"
-        ],
-        "4552": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 4552"
-        ],
-        "0252": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 0252"
-        ],
-        "0352": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 0352"
-        ],
-        "0552": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 0552"
-        ],
-        "0225": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0225"
-        ],
-        "0226": [
-          "Dezena no quarto prêmio!<br>com o palpite 0226",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0226"
-        ],
-        "0325": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0325"
-        ],
-        "0326": [
-          "Dezena no quarto prêmio!<br>com o palpite 0326",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0326"
-        ],
-        "0525": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0525"
-        ],
-        "0526": [
-          "Dezena no quarto prêmio!<br>com o palpite 0526",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0526"
-        ],
-        "0242": [
-          "Dezena no quinto prêmio!<br>com o palpite 0242",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 0242"
-        ],
-        "0342": [
-          "Dezena no quinto prêmio!<br>com o palpite 0342",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 0342"
-        ],
-        "0542": [
-          "Dezena no quinto prêmio!<br>com o palpite 0542",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 0542"
-        ],
-        "0245": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 0245"
-        ],
-        "0246": [
-          "Dezena no sexto prêmio!<br>com o palpite 0246",
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 0246"
-        ],
-        "0345": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 0345"
-        ],
-        "0346": [
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 0346",
-          "Dezena no sexto prêmio!<br>com o palpite 0346",
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 0346"
-        ],
-        "0545": [
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 0545"
-        ],
-        "0546": [
-          "Dezena no sexto prêmio!<br>com o palpite 0546",
-          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 0546"
+        "6748": [
+          "ELEFANTE 🐘 no sexto prêmio!<br>com o palpite 6748"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 3,
-        "Dezena": 27,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 6,
         "Grupo": [
-          "🐓",
-          "🐑",
           "🐎",
           "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0222, 0225, 0226, 0242, 0245, 0246, 0252, 0255, 0256, 0292, 0295, 0296, 0322, 0325, 0326, 0342, 0345, 0346, 0352, 0355, 0356, 0392, 0395, 0396, 0522, 0525, 0526, 0542, 0545, 0546, 0552, 0555, 0556, 0592, 0595, 0596, 1222, 1225, 1226, 1242, 1245, 1246, 1252, 1255, 1256, 1292, 1295, 1296, 1322, 1325, 1326, 1342, 1345, 1346, 1352, 1355, 1356, 1392, 1395, 1396, 1522, 1525, 1526, 1542, 1545, 1546, 1552, 1555, 1556, 1592, 1595, 1596, 4222, 4225, 4226, 4242, 4245, 4246, 4252, 4255, 4256, 4292, 4295, 4296, 4322, 4325, 4326, 4342, 4345, 4346, 4352, 4355, 4356, 4392, 4395, 4396, 4522, 4525, 4526, 4542, 4545, 4546, 4552, 4555, 4556, 4592, 4595, 4596"
+      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -668,43 +296,58 @@
         }
       ],
       "frases": {
-        "1242": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1242"
+        "1042": [
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1042"
         ],
-        "1342": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1342"
+        "1044": [
+          "Dezena no sétimo prêmio!<br>com o palpite 1044",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1044"
         ],
-        "1542": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1542"
+        "1642": [
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1642"
         ],
-        "4242": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 4242"
+        "1644": [
+          "Dezena no sétimo prêmio!<br>com o palpite 1644",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1644"
         ],
-        "4342": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 4342"
+        "1742": [
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1742"
         ],
-        "4542": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 4542"
+        "1744": [
+          "Dezena no sétimo prêmio!<br>com o palpite 1744",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 1744"
         ],
-        "0242": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 0242"
+        "6042": [
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6042"
         ],
-        "0342": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 0342"
+        "6044": [
+          "Dezena no sétimo prêmio!<br>com o palpite 6044",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6044"
         ],
-        "0542": [
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 0542"
+        "6642": [
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6642"
+        ],
+        "6644": [
+          "Dezena no sétimo prêmio!<br>com o palpite 6644",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6644"
+        ],
+        "6742": [
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6742"
+        ],
+        "6744": [
+          "Dezena no sétimo prêmio!<br>com o palpite 6744",
+          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 6744"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 6,
         "Grupo": [
           "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0222, 0225, 0226, 0242, 0245, 0246, 0252, 0255, 0256, 0292, 0295, 0296, 0322, 0325, 0326, 0342, 0345, 0346, 0352, 0355, 0356, 0392, 0395, 0396, 0522, 0525, 0526, 0542, 0545, 0546, 0552, 0555, 0556, 0592, 0595, 0596, 1222, 1225, 1226, 1242, 1245, 1246, 1252, 1255, 1256, 1292, 1295, 1296, 1322, 1325, 1326, 1342, 1345, 1346, 1352, 1355, 1356, 1392, 1395, 1396, 1522, 1525, 1526, 1542, 1545, 1546, 1552, 1555, 1556, 1592, 1595, 1596, 4222, 4225, 4226, 4242, 4245, 4246, 4252, 4255, 4256, 4292, 4295, 4296, 4322, 4325, 4326, 4342, 4345, 4346, 4352, 4355, 4356, 4392, 4395, 4396, 4522, 4525, 4526, 4542, 4545, 4546, 4552, 4555, 4556, 4592, 4595, 4596"
+      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -801,199 +444,52 @@
         }
       ],
       "frases": {
-        "1242": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1242"
+        "1042": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1042"
         ],
-        "1255": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1255"
+        "1044": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1044"
         ],
-        "1256": [
-          "Dezena no quarto prêmio!<br>com o palpite 1256",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1256"
+        "1642": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1642"
         ],
-        "1292": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1292"
+        "1644": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1644"
         ],
-        "1295": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1295",
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 1295"
+        "1742": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1742"
         ],
-        "1296": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 1296"
+        "1744": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1744"
         ],
-        "1342": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1342"
+        "6042": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6042"
         ],
-        "1355": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1355"
+        "6044": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6044"
         ],
-        "1356": [
-          "Dezena no quarto prêmio!<br>com o palpite 1356",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1356"
+        "6642": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6642"
         ],
-        "1392": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1392"
+        "6644": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6644"
         ],
-        "1395": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1395",
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 1395"
+        "6742": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6742"
         ],
-        "1396": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 1396"
-        ],
-        "1542": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1542"
-        ],
-        "1555": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1555"
-        ],
-        "1556": [
-          "Dezena no quarto prêmio!<br>com o palpite 1556",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 1556"
-        ],
-        "1592": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 1592"
-        ],
-        "1595": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1595",
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 1595"
-        ],
-        "1596": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 1596"
-        ],
-        "4242": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 4242"
-        ],
-        "4255": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4255"
-        ],
-        "4256": [
-          "Dezena no quarto prêmio!<br>com o palpite 4256",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4256"
-        ],
-        "4292": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 4292"
-        ],
-        "4295": [
-          "Dezena no oitavo prêmio!<br>com o palpite 4295",
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 4295"
-        ],
-        "4296": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 4296"
-        ],
-        "4342": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 4342"
-        ],
-        "4355": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4355"
-        ],
-        "4356": [
-          "Dezena no quarto prêmio!<br>com o palpite 4356",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4356"
-        ],
-        "4392": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 4392"
-        ],
-        "4395": [
-          "Dezena no oitavo prêmio!<br>com o palpite 4395",
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 4395"
-        ],
-        "4396": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 4396"
-        ],
-        "4542": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 4542"
-        ],
-        "4555": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4555"
-        ],
-        "4556": [
-          "Dezena no quarto prêmio!<br>com o palpite 4556",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 4556"
-        ],
-        "4592": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 4592"
-        ],
-        "4595": [
-          "Dezena no oitavo prêmio!<br>com o palpite 4595",
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 4595"
-        ],
-        "4596": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 4596"
-        ],
-        "0292": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0292"
-        ],
-        "0392": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0392"
-        ],
-        "0592": [
-          "URSO 🐻 no terceiro prêmio!<br>com o palpite 0592"
-        ],
-        "0255": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0255"
-        ],
-        "0256": [
-          "Dezena no quarto prêmio!<br>com o palpite 0256",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0256"
-        ],
-        "0355": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0355"
-        ],
-        "0356": [
-          "Dezena no quarto prêmio!<br>com o palpite 0356",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0356"
-        ],
-        "0555": [
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0555"
-        ],
-        "0556": [
-          "Dezena no quarto prêmio!<br>com o palpite 0556",
-          "GATO 🐈 no quarto prêmio!<br>com o palpite 0556"
-        ],
-        "0295": [
-          "Dezena no oitavo prêmio!<br>com o palpite 0295",
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 0295"
-        ],
-        "0296": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 0296"
-        ],
-        "0395": [
-          "Dezena no oitavo prêmio!<br>com o palpite 0395",
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 0395"
-        ],
-        "0396": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 0396"
-        ],
-        "0595": [
-          "Dezena no oitavo prêmio!<br>com o palpite 0595",
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 0595"
-        ],
-        "0596": [
-          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 0596"
-        ],
-        "0242": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 0242"
-        ],
-        "0342": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 0342"
-        ],
-        "0542": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 0542"
+        "6744": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 6744"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 18,
+        "Dezena": 0,
         "Grupo": [
-          "🐻",
-          "🐈",
-          "🦌",
           "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0222, 0225, 0226, 0242, 0245, 0246, 0252, 0255, 0256, 0292, 0295, 0296, 0322, 0325, 0326, 0342, 0345, 0346, 0352, 0355, 0356, 0392, 0395, 0396, 0522, 0525, 0526, 0542, 0545, 0546, 0552, 0555, 0556, 0592, 0595, 0596, 1222, 1225, 1226, 1242, 1245, 1246, 1252, 1255, 1256, 1292, 1295, 1296, 1322, 1325, 1326, 1342, 1345, 1346, 1352, 1355, 1356, 1392, 1395, 1396, 1522, 1525, 1526, 1542, 1545, 1546, 1552, 1555, 1556, 1592, 1595, 1596, 4222, 4225, 4226, 4242, 4245, 4246, 4252, 4255, 4256, 4292, 4295, 4296, 4322, 4325, 4326, 4342, 4345, 4346, 4352, 4355, 4356, 4392, 4395, 4396, 4522, 4525, 4526, 4542, 4545, 4546, 4552, 4555, 4556, 4592, 4595, 4596"
+      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -1064,257 +560,14 @@
           "Bicho": "Gato"
         }
       ],
-      "frases": {
-        "1222": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1222",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 1222"
-        ],
-        "1255": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1255",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1255",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 1255",
-          "Dezena no décimo prêmio!<br>com o palpite 1255",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 1255"
-        ],
-        "1256": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1256",
-          "Dezena no segundo prêmio!<br>com o palpite 1256",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1256",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 1256"
-        ],
-        "1292": [
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 1292"
-        ],
-        "1295": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1295"
-        ],
-        "1296": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1296"
-        ],
-        "1322": [
-          "Milhar e Centena no sétimo prêmio!<br>com o palpite 1322",
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 1322",
-          "Dezena no sétimo prêmio!<br>com o palpite 1322",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 1322"
-        ],
-        "1355": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1355",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1355",
-          "Dezena no décimo prêmio!<br>com o palpite 1355",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 1355"
-        ],
-        "1356": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1356",
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 1356",
-          "Dezena no segundo prêmio!<br>com o palpite 1356",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1356",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 1356"
-        ],
-        "1392": [
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 1392"
-        ],
-        "1395": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1395"
-        ],
-        "1396": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1396"
-        ],
-        "1522": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1522",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 1522"
-        ],
-        "1555": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1555",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1555",
-          "Dezena no décimo prêmio!<br>com o palpite 1555",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 1555"
-        ],
-        "1556": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 1556",
-          "Dezena no segundo prêmio!<br>com o palpite 1556",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 1556",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 1556"
-        ],
-        "1592": [
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 1592"
-        ],
-        "1595": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1595"
-        ],
-        "1596": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 1596"
-        ],
-        "4222": [
-          "Dezena no sétimo prêmio!<br>com o palpite 4222",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 4222"
-        ],
-        "4255": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4255",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4255",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 4255",
-          "Dezena no décimo prêmio!<br>com o palpite 4255",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 4255"
-        ],
-        "4256": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4256",
-          "Dezena no segundo prêmio!<br>com o palpite 4256",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4256",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 4256"
-        ],
-        "4292": [
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 4292"
-        ],
-        "4295": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4295"
-        ],
-        "4296": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4296"
-        ],
-        "4322": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 4322",
-          "Dezena no sétimo prêmio!<br>com o palpite 4322",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 4322"
-        ],
-        "4355": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4355",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4355",
-          "Dezena no décimo prêmio!<br>com o palpite 4355",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 4355"
-        ],
-        "4356": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4356",
-          "Milhar e Centena no segundo prêmio!<br>com o palpite 4356",
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 4356",
-          "Dezena no segundo prêmio!<br>com o palpite 4356",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4356",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 4356"
-        ],
-        "4392": [
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 4392"
-        ],
-        "4395": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4395"
-        ],
-        "4396": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4396"
-        ],
-        "4522": [
-          "Dezena no sétimo prêmio!<br>com o palpite 4522",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 4522"
-        ],
-        "4555": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4555",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4555",
-          "Dezena no décimo prêmio!<br>com o palpite 4555",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 4555"
-        ],
-        "4556": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 4556",
-          "Dezena no segundo prêmio!<br>com o palpite 4556",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 4556",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 4556"
-        ],
-        "4592": [
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 4592"
-        ],
-        "4595": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4595"
-        ],
-        "4596": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 4596"
-        ],
-        "0255": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0255",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0255",
-          "Milhar e Centena no décimo prêmio!<br>com o palpite 0255",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 0255",
-          "Dezena no décimo prêmio!<br>com o palpite 0255",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 0255"
-        ],
-        "0256": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0256",
-          "Dezena no segundo prêmio!<br>com o palpite 0256",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0256",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 0256"
-        ],
-        "0355": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0355",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0355",
-          "Dezena no décimo prêmio!<br>com o palpite 0355",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 0355"
-        ],
-        "0356": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0356",
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 0356",
-          "Dezena no segundo prêmio!<br>com o palpite 0356",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0356",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 0356"
-        ],
-        "0555": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0555",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0555",
-          "Dezena no décimo prêmio!<br>com o palpite 0555",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 0555"
-        ],
-        "0556": [
-          "GATO 🐈 no primeiro prêmio!<br>com o palpite 0556",
-          "Dezena no segundo prêmio!<br>com o palpite 0556",
-          "GATO 🐈 no segundo prêmio!<br>com o palpite 0556",
-          "GATO 🐈 no décimo prêmio!<br>com o palpite 0556"
-        ],
-        "0295": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0295"
-        ],
-        "0296": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0296"
-        ],
-        "0395": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0395"
-        ],
-        "0396": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0396"
-        ],
-        "0595": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0595"
-        ],
-        "0596": [
-          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 0596"
-        ],
-        "0222": [
-          "Dezena no sétimo prêmio!<br>com o palpite 0222",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 0222"
-        ],
-        "0322": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 0322",
-          "Dezena no sétimo prêmio!<br>com o palpite 0322",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 0322"
-        ],
-        "0522": [
-          "Dezena no sétimo prêmio!<br>com o palpite 0522",
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 0522"
-        ],
-        "0292": [
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 0292"
-        ],
-        "0392": [
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 0392"
-        ],
-        "0592": [
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 0592"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 3,
-        "Centena": 9,
-        "Dezena": 27,
-        "Grupo": [
-          "🐈",
-          "🦌",
-          "🐐",
-          "🐻"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0222, 0225, 0226, 0242, 0245, 0246, 0252, 0255, 0256, 0292, 0295, 0296, 0322, 0325, 0326, 0342, 0345, 0346, 0352, 0355, 0356, 0392, 0395, 0396, 0522, 0525, 0526, 0542, 0545, 0546, 0552, 0555, 0556, 0592, 0595, 0596, 1222, 1225, 1226, 1242, 1245, 1246, 1252, 1255, 1256, 1292, 1295, 1296, 1322, 1325, 1326, 1342, 1345, 1346, 1352, 1355, 1356, 1392, 1395, 1396, 1522, 1525, 1526, 1542, 1545, 1546, 1552, 1555, 1556, 1592, 1595, 1596, 4222, 4225, 4226, 4242, 4245, 4246, 4252, 4255, 4256, 4292, 4295, 4296, 4322, 4325, 4326, 4342, 4345, 4346, 4352, 4355, 4356, 4392, 4395, 4396, 4522, 4525, 4526, 4542, 4545, 4546, 4552, 4555, 4556, 4592, 4595, 4596"
+      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -1386,226 +639,79 @@
         }
       ],
       "frases": {
-        "1225": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1225"
+        "1042": [
+          "Dezena no quinto prêmio!<br>com o palpite 1042",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1042",
+          "Dezena no oitavo prêmio!<br>com o palpite 1042",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1042"
         ],
-        "1226": [
-          "Dezena no quarto prêmio!<br>com o palpite 1226",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1226"
+        "1044": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1044",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1044"
         ],
-        "1242": [
-          "Dezena no quinto prêmio!<br>com o palpite 1242",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1242",
-          "Dezena no oitavo prêmio!<br>com o palpite 1242",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1242"
+        "1642": [
+          "Dezena no quinto prêmio!<br>com o palpite 1642",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1642",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 1642",
+          "Dezena no oitavo prêmio!<br>com o palpite 1642",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1642"
         ],
-        "1252": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1252"
+        "1644": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1644",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1644"
         ],
-        "1295": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 1295"
+        "1742": [
+          "Dezena no quinto prêmio!<br>com o palpite 1742",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1742",
+          "Dezena no oitavo prêmio!<br>com o palpite 1742",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1742"
         ],
-        "1296": [
-          "Dezena no nono prêmio!<br>com o palpite 1296",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 1296"
+        "1744": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1744",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1744"
         ],
-        "1325": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1325"
+        "6042": [
+          "Dezena no quinto prêmio!<br>com o palpite 6042",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6042",
+          "Dezena no oitavo prêmio!<br>com o palpite 6042",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6042"
         ],
-        "1326": [
-          "Dezena no quarto prêmio!<br>com o palpite 1326",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1326"
+        "6044": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6044",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6044"
         ],
-        "1342": [
-          "Dezena no quinto prêmio!<br>com o palpite 1342",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1342",
-          "Dezena no oitavo prêmio!<br>com o palpite 1342",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1342"
+        "6642": [
+          "Dezena no quinto prêmio!<br>com o palpite 6642",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6642",
+          "Milhar e Centena no oitavo prêmio!<br>com o palpite 6642",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 6642",
+          "Dezena no oitavo prêmio!<br>com o palpite 6642",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6642"
         ],
-        "1352": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1352"
+        "6644": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6644",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6644"
         ],
-        "1395": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 1395"
+        "6742": [
+          "Dezena no quinto prêmio!<br>com o palpite 6742",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6742",
+          "Dezena no oitavo prêmio!<br>com o palpite 6742",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6742"
         ],
-        "1396": [
-          "Dezena no nono prêmio!<br>com o palpite 1396",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 1396"
-        ],
-        "1525": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1525"
-        ],
-        "1526": [
-          "Dezena no quarto prêmio!<br>com o palpite 1526",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 1526"
-        ],
-        "1542": [
-          "Dezena no quinto prêmio!<br>com o palpite 1542",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1542",
-          "Dezena no oitavo prêmio!<br>com o palpite 1542",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1542"
-        ],
-        "1552": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 1552"
-        ],
-        "1595": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 1595"
-        ],
-        "1596": [
-          "Dezena no nono prêmio!<br>com o palpite 1596",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 1596"
-        ],
-        "4225": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4225"
-        ],
-        "4226": [
-          "Dezena no quarto prêmio!<br>com o palpite 4226",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4226"
-        ],
-        "4242": [
-          "Dezena no quinto prêmio!<br>com o palpite 4242",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 4242",
-          "Dezena no oitavo prêmio!<br>com o palpite 4242",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 4242"
-        ],
-        "4252": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 4252"
-        ],
-        "4295": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4295"
-        ],
-        "4296": [
-          "Dezena no nono prêmio!<br>com o palpite 4296",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4296"
-        ],
-        "4325": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4325"
-        ],
-        "4326": [
-          "Dezena no quarto prêmio!<br>com o palpite 4326",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4326"
-        ],
-        "4342": [
-          "Dezena no quinto prêmio!<br>com o palpite 4342",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 4342",
-          "Dezena no oitavo prêmio!<br>com o palpite 4342",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 4342"
-        ],
-        "4352": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 4352"
-        ],
-        "4395": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4395"
-        ],
-        "4396": [
-          "Dezena no nono prêmio!<br>com o palpite 4396",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4396"
-        ],
-        "4525": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4525"
-        ],
-        "4526": [
-          "Dezena no quarto prêmio!<br>com o palpite 4526",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 4526"
-        ],
-        "4542": [
-          "Dezena no quinto prêmio!<br>com o palpite 4542",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 4542",
-          "Dezena no oitavo prêmio!<br>com o palpite 4542",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 4542"
-        ],
-        "4552": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 4552"
-        ],
-        "4595": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4595"
-        ],
-        "4596": [
-          "Dezena no nono prêmio!<br>com o palpite 4596",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 4596"
-        ],
-        "0252": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 0252"
-        ],
-        "0352": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 0352"
-        ],
-        "0552": [
-          "GALO 🐓 no terceiro prêmio!<br>com o palpite 0552"
-        ],
-        "0225": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0225"
-        ],
-        "0226": [
-          "Dezena no quarto prêmio!<br>com o palpite 0226",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0226"
-        ],
-        "0325": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0325"
-        ],
-        "0326": [
-          "Dezena no quarto prêmio!<br>com o palpite 0326",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0326"
-        ],
-        "0525": [
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0525"
-        ],
-        "0526": [
-          "Dezena no quarto prêmio!<br>com o palpite 0526",
-          "CARNEIRO 🐑 no quarto prêmio!<br>com o palpite 0526"
-        ],
-        "0242": [
-          "Dezena no quinto prêmio!<br>com o palpite 0242",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 0242",
-          "Dezena no oitavo prêmio!<br>com o palpite 0242",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 0242"
-        ],
-        "0342": [
-          "Dezena no quinto prêmio!<br>com o palpite 0342",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 0342",
-          "Dezena no oitavo prêmio!<br>com o palpite 0342",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 0342"
-        ],
-        "0542": [
-          "Dezena no quinto prêmio!<br>com o palpite 0542",
-          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 0542",
-          "Dezena no oitavo prêmio!<br>com o palpite 0542",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 0542"
-        ],
-        "0295": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 0295"
-        ],
-        "0296": [
-          "Dezena no nono prêmio!<br>com o palpite 0296",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 0296"
-        ],
-        "0395": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 0395"
-        ],
-        "0396": [
-          "Dezena no nono prêmio!<br>com o palpite 0396",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 0396"
-        ],
-        "0595": [
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 0595"
-        ],
-        "0596": [
-          "Dezena no nono prêmio!<br>com o palpite 0596",
-          "VEADO 🦌 no nono prêmio!<br>com o palpite 0596"
+        "6744": [
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 6744",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 6744"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 36,
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 12,
         "Grupo": [
-          "🐓",
-          "🐑",
-          "🐎",
-          "🦌"
+          "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0222, 0225, 0226, 0242, 0245, 0246, 0252, 0255, 0256, 0292, 0295, 0296, 0322, 0325, 0326, 0342, 0345, 0346, 0352, 0355, 0356, 0392, 0395, 0396, 0522, 0525, 0526, 0542, 0545, 0546, 0552, 0555, 0556, 0592, 0595, 0596, 1222, 1225, 1226, 1242, 1245, 1246, 1252, 1255, 1256, 1292, 1295, 1296, 1322, 1325, 1326, 1342, 1345, 1346, 1352, 1355, 1356, 1392, 1395, 1396, 1522, 1525, 1526, 1542, 1545, 1546, 1552, 1555, 1556, 1592, 1595, 1596, 4222, 4225, 4226, 4242, 4245, 4246, 4252, 4255, 4256, 4292, 4295, 4296, 4322, 4325, 4326, 4342, 4345, 4346, 4352, 4355, 4356, 4392, 4395, 4396, 4522, 4525, 4526, 4542, 4545, 4546, 4552, 4555, 4556, 4592, 4595, 4596"
+      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -1677,70 +783,40 @@
         }
       ],
       "frases": {
-        "1245": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1245"
+        "1048": [
+          "Dezena no nono prêmio!<br>com o palpite 1048",
+          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1048"
         ],
-        "1246": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1246"
+        "1648": [
+          "Dezena no nono prêmio!<br>com o palpite 1648",
+          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1648"
         ],
-        "1345": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1345"
+        "1748": [
+          "Dezena no nono prêmio!<br>com o palpite 1748",
+          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1748"
         ],
-        "1346": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1346"
+        "6048": [
+          "Dezena no nono prêmio!<br>com o palpite 6048",
+          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 6048"
         ],
-        "1545": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1545"
+        "6648": [
+          "Dezena no nono prêmio!<br>com o palpite 6648",
+          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 6648"
         ],
-        "1546": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 1546"
-        ],
-        "4245": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 4245"
-        ],
-        "4246": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 4246"
-        ],
-        "4345": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 4345"
-        ],
-        "4346": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 4346"
-        ],
-        "4545": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 4545"
-        ],
-        "4546": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 4546"
-        ],
-        "0245": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 0245"
-        ],
-        "0246": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 0246"
-        ],
-        "0345": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 0345"
-        ],
-        "0346": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 0346"
-        ],
-        "0545": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 0545"
-        ],
-        "0546": [
-          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 0546"
+        "6748": [
+          "Dezena no nono prêmio!<br>com o palpite 6748",
+          "ELEFANTE 🐘 no nono prêmio!<br>com o palpite 6748"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 6,
         "Grupo": [
           "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0222, 0225, 0226, 0242, 0245, 0246, 0252, 0255, 0256, 0292, 0295, 0296, 0322, 0325, 0326, 0342, 0345, 0346, 0352, 0355, 0356, 0392, 0395, 0396, 0522, 0525, 0526, 0542, 0545, 0546, 0552, 0555, 0556, 0592, 0595, 0596, 1222, 1225, 1226, 1242, 1245, 1246, 1252, 1255, 1256, 1292, 1295, 1296, 1322, 1325, 1326, 1342, 1345, 1346, 1352, 1355, 1356, 1392, 1395, 1396, 1522, 1525, 1526, 1542, 1545, 1546, 1552, 1555, 1556, 1592, 1595, 1596, 4222, 4225, 4226, 4242, 4245, 4246, 4252, 4255, 4256, 4292, 4295, 4296, 4322, 4325, 4326, 4342, 4345, 4346, 4352, 4355, 4356, 4392, 4395, 4396, 4522, 4525, 4526, 4542, 4545, 4546, 4552, 4555, 4556, 4592, 4595, 4596"
+      "resumo": "Palpites dados para esta extração: 1042, 1044, 1048, 1642, 1644, 1648, 1742, 1744, 1748, 6042, 6044, 6048, 6642, 6644, 6648, 6742, 6744, 6748"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
