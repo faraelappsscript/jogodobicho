@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1616, 1686, 1816, 1886, 2616, 2686, 2816, 2886"
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1616, 1686, 1816, 1886, 2616, 2686, 2816, 2886"
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -172,17 +172,8 @@
         }
       ],
       "frases": {
-        "1686": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 1686"
-        ],
         "1886": [
           "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 1886"
-        ],
-        "2686": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 2686"
-        ],
-        "2886": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 2886"
         ]
       },
       "acertos": {
@@ -193,7 +184,7 @@
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1616, 1686, 1816, 1886, 2616, 2686, 2816, 2886"
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -247,17 +238,8 @@
         }
       ],
       "frases": {
-        "1686": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 1686"
-        ],
         "1886": [
           "TIGRE 🐅 no segundo prêmio!<br>com o palpite 1886"
-        ],
-        "2686": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 2686"
-        ],
-        "2886": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 2886"
         ]
       },
       "acertos": {
@@ -268,7 +250,7 @@
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1616, 1686, 1816, 1886, 2616, 2686, 2816, 2886"
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -322,32 +304,20 @@
         }
       ],
       "frases": {
-        "1616": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1616",
-          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1616"
-        ],
         "1816": [
           "Dezena no primeiro prêmio!<br>com o palpite 1816",
           "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1816"
-        ],
-        "2616": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2616",
-          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 2616"
-        ],
-        "2816": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2816",
-          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 2816"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 4,
+        "Dezena": 1,
         "Grupo": [
           "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1616, 1686, 1816, 1886, 2616, 2686, 2816, 2886"
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -450,7 +420,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1616, 1686, 1816, 1886, 2616, 2686, 2816, 2886"
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -522,17 +492,8 @@
         }
       ],
       "frases": {
-        "1686": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 1686"
-        ],
         "1886": [
           "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 1886"
-        ],
-        "2686": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 2686"
-        ],
-        "2886": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 2886"
         ]
       },
       "acertos": {
@@ -543,7 +504,7 @@
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1616, 1686, 1816, 1886, 2616, 2686, 2816, 2886"
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -621,7 +582,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1616, 1686, 1816, 1886, 2616, 2686, 2816, 2886"
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -693,47 +654,24 @@
         }
       ],
       "frases": {
-        "1616": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 1616",
-          "Dezena no sétimo prêmio!<br>com o palpite 1616",
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1616"
-        ],
-        "1686": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 1686"
-        ],
         "1816": [
           "Dezena no sétimo prêmio!<br>com o palpite 1816",
           "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1816"
         ],
         "1886": [
           "TIGRE 🐅 no segundo prêmio!<br>com o palpite 1886"
-        ],
-        "2616": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 2616",
-          "Dezena no sétimo prêmio!<br>com o palpite 2616",
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 2616"
-        ],
-        "2686": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 2686"
-        ],
-        "2816": [
-          "Dezena no sétimo prêmio!<br>com o palpite 2816",
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 2816"
-        ],
-        "2886": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 2886"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 4,
+        "Centena": 0,
+        "Dezena": 1,
         "Grupo": [
           "🐅",
           "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1616, 1686, 1816, 1886, 2616, 2686, 2816, 2886"
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -805,15 +743,6 @@
         }
       ],
       "frases": {
-        "1616": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1616",
-          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1616",
-          "Dezena no sexto prêmio!<br>com o palpite 1616",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1616",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 1616",
-          "Dezena no décimo prêmio!<br>com o palpite 1616",
-          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 1616"
-        ],
         "1816": [
           "Dezena no primeiro prêmio!<br>com o palpite 1816",
           "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1816",
@@ -821,34 +750,17 @@
           "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1816",
           "Dezena no décimo prêmio!<br>com o palpite 1816",
           "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 1816"
-        ],
-        "2616": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2616",
-          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 2616",
-          "Dezena no sexto prêmio!<br>com o palpite 2616",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 2616",
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 2616",
-          "Dezena no décimo prêmio!<br>com o palpite 2616",
-          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 2616"
-        ],
-        "2816": [
-          "Dezena no primeiro prêmio!<br>com o palpite 2816",
-          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 2816",
-          "Dezena no sexto prêmio!<br>com o palpite 2816",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 2816",
-          "Dezena no décimo prêmio!<br>com o palpite 2816",
-          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 2816"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 12,
+        "Centena": 0,
+        "Dezena": 3,
         "Grupo": [
           "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1616, 1686, 1816, 1886, 2616, 2686, 2816, 2886"
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
