@@ -1,0 +1,273 @@
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8004",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9267",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6908",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "6502",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5898",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "6579",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "173",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "5000": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5000"
+        ],
+        "5007": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5007"
+        ],
+        "5077": [
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 5077"
+        ],
+        "5500": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5500"
+        ],
+        "5507": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5507"
+        ],
+        "5577": [
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 5577"
+        ],
+        "5600": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5600"
+        ],
+        "5607": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5607"
+        ],
+        "5677": [
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 5677"
+        ],
+        "5700": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5700"
+        ],
+        "5707": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5707"
+        ],
+        "5777": [
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 5777"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦅",
+          "🐄",
+          "🦃"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5000, 5007, 5050, 5057, 5070, 5077, 5500, 5507, 5550, 5557, 5570, 5577, 5600, 5607, 5650, 5657, 5670, 5677, 5700, 5707, 5750, 5757, 5770, 5777"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8004",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9267",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6908",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "6502",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5898",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "8966",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "0295",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "0600",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "4782",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "1222",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        }
+      ],
+      "frases": {
+        "5000": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5000",
+          "Dezena no oitavo prêmio!<br>com o palpite 5000",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 5000"
+        ],
+        "5007": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5007"
+        ],
+        "5500": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5500",
+          "Dezena no oitavo prêmio!<br>com o palpite 5500",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 5500"
+        ],
+        "5507": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5507"
+        ],
+        "5600": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5600",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 5600",
+          "Dezena no oitavo prêmio!<br>com o palpite 5600",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 5600"
+        ],
+        "5607": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5607"
+        ],
+        "5700": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5700",
+          "Dezena no oitavo prêmio!<br>com o palpite 5700",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 5700"
+        ],
+        "5707": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5707"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 1,
+        "Dezena": 4,
+        "Grupo": [
+          "🦅",
+          "🐄"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5000, 5007, 5050, 5057, 5070, 5077, 5500, 5507, 5550, 5557, 5570, 5577, 5600, 5607, 5650, 5657, 5670, 5677, 5700, 5707, 5750, 5757, 5770, 5777"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
