@@ -52,54 +52,132 @@
         }
       ],
       "frases": {
+        "1000": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1000"
+        ],
+        "1002": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 1002",
+          "Dezena no quarto prêmio!<br>com o palpite 1002",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 1002"
+        ],
+        "1005": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1005"
+        ],
+        "1007": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1007"
+        ],
+        "1200": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1200"
+        ],
+        "1202": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 1202",
+          "Dezena no quarto prêmio!<br>com o palpite 1202",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 1202"
+        ],
+        "1205": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1205"
+        ],
+        "1207": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1207"
+        ],
+        "1500": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1500"
+        ],
+        "1502": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 1502",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 1502",
+          "Dezena no quarto prêmio!<br>com o palpite 1502",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 1502"
+        ],
+        "1505": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1505"
+        ],
+        "1507": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1507"
+        ],
+        "1700": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1700"
+        ],
+        "1702": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 1702",
+          "Dezena no quarto prêmio!<br>com o palpite 1702",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 1702"
+        ],
+        "1705": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1705"
+        ],
+        "1707": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1707"
+        ],
         "5000": [
           "VACA 🐄 no quinto prêmio!<br>com o palpite 5000"
+        ],
+        "5002": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 5002",
+          "Dezena no quarto prêmio!<br>com o palpite 5002",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 5002"
+        ],
+        "5005": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5005"
         ],
         "5007": [
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5007"
         ],
-        "5077": [
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 5077"
+        "5200": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5200"
+        ],
+        "5202": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 5202",
+          "Dezena no quarto prêmio!<br>com o palpite 5202",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 5202"
+        ],
+        "5205": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5205"
+        ],
+        "5207": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5207"
         ],
         "5500": [
           "VACA 🐄 no quinto prêmio!<br>com o palpite 5500"
         ],
+        "5502": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 5502",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 5502",
+          "Dezena no quarto prêmio!<br>com o palpite 5502",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 5502"
+        ],
+        "5505": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5505"
+        ],
         "5507": [
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5507"
-        ],
-        "5577": [
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 5577"
-        ],
-        "5600": [
-          "VACA 🐄 no quinto prêmio!<br>com o palpite 5600"
-        ],
-        "5607": [
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5607"
-        ],
-        "5677": [
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 5677"
         ],
         "5700": [
           "VACA 🐄 no quinto prêmio!<br>com o palpite 5700"
         ],
+        "5702": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 5702",
+          "Dezena no quarto prêmio!<br>com o palpite 5702",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 5702"
+        ],
+        "5705": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5705"
+        ],
         "5707": [
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5707"
-        ],
-        "5777": [
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 5777"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 2,
+        "Dezena": 8,
         "Grupo": [
+          "🪶",
           "🦅",
-          "🐄",
-          "🦃"
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5000, 5007, 5050, 5057, 5070, 5077, 5500, 5507, 5550, 5557, 5570, 5577, 5600, 5607, 5650, 5657, 5670, 5677, 5700, 5707, 5750, 5757, 5770, 5777"
+      "resumo": "Palpites dados para esta extração: 1000, 1002, 1005, 1007, 1200, 1202, 1205, 1207, 1500, 1502, 1505, 1507, 1700, 1702, 1705, 1707, 5000, 5002, 5005, 5007, 5200, 5202, 5205, 5207, 5500, 5502, 5505, 5507, 5700, 5702, 5705, 5707"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -196,35 +274,132 @@
         }
       ],
       "frases": {
+        "1000": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1000",
+          "Dezena no oitavo prêmio!<br>com o palpite 1000",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 1000"
+        ],
+        "1002": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 1002",
+          "Dezena no quarto prêmio!<br>com o palpite 1002",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 1002"
+        ],
+        "1005": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1005"
+        ],
+        "1007": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1007"
+        ],
+        "1200": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1200",
+          "Dezena no oitavo prêmio!<br>com o palpite 1200",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 1200"
+        ],
+        "1202": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 1202",
+          "Dezena no quarto prêmio!<br>com o palpite 1202",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 1202"
+        ],
+        "1205": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1205"
+        ],
+        "1207": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1207"
+        ],
+        "1500": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1500",
+          "Dezena no oitavo prêmio!<br>com o palpite 1500",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 1500"
+        ],
+        "1502": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 1502",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 1502",
+          "Dezena no quarto prêmio!<br>com o palpite 1502",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 1502"
+        ],
+        "1505": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1505"
+        ],
+        "1507": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1507"
+        ],
+        "1700": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 1700",
+          "Dezena no oitavo prêmio!<br>com o palpite 1700",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 1700"
+        ],
+        "1702": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 1702",
+          "Dezena no quarto prêmio!<br>com o palpite 1702",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 1702"
+        ],
+        "1705": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1705"
+        ],
+        "1707": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 1707"
+        ],
         "5000": [
           "VACA 🐄 no quinto prêmio!<br>com o palpite 5000",
           "Dezena no oitavo prêmio!<br>com o palpite 5000",
           "VACA 🐄 no oitavo prêmio!<br>com o palpite 5000"
         ],
+        "5002": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 5002",
+          "Dezena no quarto prêmio!<br>com o palpite 5002",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 5002"
+        ],
+        "5005": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5005"
+        ],
         "5007": [
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5007"
+        ],
+        "5200": [
+          "VACA 🐄 no quinto prêmio!<br>com o palpite 5200",
+          "Dezena no oitavo prêmio!<br>com o palpite 5200",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 5200"
+        ],
+        "5202": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 5202",
+          "Dezena no quarto prêmio!<br>com o palpite 5202",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 5202"
+        ],
+        "5205": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5205"
+        ],
+        "5207": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5207"
         ],
         "5500": [
           "VACA 🐄 no quinto prêmio!<br>com o palpite 5500",
           "Dezena no oitavo prêmio!<br>com o palpite 5500",
           "VACA 🐄 no oitavo prêmio!<br>com o palpite 5500"
         ],
+        "5502": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 5502",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 5502",
+          "Dezena no quarto prêmio!<br>com o palpite 5502",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 5502"
+        ],
+        "5505": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5505"
+        ],
         "5507": [
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5507"
-        ],
-        "5600": [
-          "VACA 🐄 no quinto prêmio!<br>com o palpite 5600",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 5600",
-          "Dezena no oitavo prêmio!<br>com o palpite 5600",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 5600"
-        ],
-        "5607": [
-          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5607"
         ],
         "5700": [
           "VACA 🐄 no quinto prêmio!<br>com o palpite 5700",
           "Dezena no oitavo prêmio!<br>com o palpite 5700",
           "VACA 🐄 no oitavo prêmio!<br>com o palpite 5700"
+        ],
+        "5702": [
+          "AVESTRUZ 🪶 no primeiro prêmio!<br>com o palpite 5702",
+          "Dezena no quarto prêmio!<br>com o palpite 5702",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 5702"
+        ],
+        "5705": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5705"
         ],
         "5707": [
           "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 5707"
@@ -232,14 +407,15 @@
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 4,
+        "Centena": 2,
+        "Dezena": 16,
         "Grupo": [
+          "🪶",
           "🦅",
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5000, 5007, 5050, 5057, 5070, 5077, 5500, 5507, 5550, 5557, 5570, 5577, 5600, 5607, 5650, 5657, 5670, 5677, 5700, 5707, 5750, 5757, 5770, 5777"
+      "resumo": "Palpites dados para esta extração: 1000, 1002, 1005, 1007, 1200, 1202, 1205, 1207, 1500, 1502, 1505, 1507, 1700, 1702, 1705, 1707, 5000, 5002, 5005, 5007, 5200, 5202, 5205, 5207, 5500, 5502, 5505, 5507, 5700, 5702, 5705, 5707"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
