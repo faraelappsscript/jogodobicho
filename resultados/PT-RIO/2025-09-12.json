@@ -182,6 +182,94 @@
         "Bicho"
       ],
       "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7599",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9947",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "7205",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7523",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9848",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "2122",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "587",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "4408": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 4408"
+        ],
+        "4423": [
+          "Dezena no quarto prêmio!<br>com o palpite 4423",
+          "CABRA 🐐 no quarto prêmio!<br>com o palpite 4423",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 4423"
+        ],
+        "4608": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 4608"
+        ],
+        "4623": [
+          "Dezena no quarto prêmio!<br>com o palpite 4623",
+          "CABRA 🐐 no quarto prêmio!<br>com o palpite 4623",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 4623"
+        ],
+        "4808": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 4808"
+        ],
+        "4823": [
+          "Dezena no quarto prêmio!<br>com o palpite 4823",
+          "CABRA 🐐 no quarto prêmio!<br>com o palpite 4823",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 4823"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 3,
+        "Grupo": [
+          "🦅",
+          "🐐"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 4403, 4408, 4409, 4423, 4428, 4429, 4603, 4608, 4609, 4623, 4628, 4629, 4803, 4808, 4809, 4823, 4828, 4829"
+    },
+    "PT-RIO, RJ, 16:00, PTV": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
         {},
         {},
         {},
@@ -462,6 +550,129 @@
       "resumo": "Palpites dados para esta extração: 4403, 4408, 4409, 4423, 4428, 4429, 4603, 4608, 4609, 4623, 4628, 4629, 4803, 4808, 4809, 4823, 4828, 4829"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7599",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9947",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "7205",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7523",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9848",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7977",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "5925",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "9402",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "9753",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "5179",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        }
+      ],
+      "frases": {
+        "4403": [
+          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 4403"
+        ],
+        "4408": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 4408"
+        ],
+        "4423": [
+          "Dezena no quarto prêmio!<br>com o palpite 4423",
+          "CABRA 🐐 no quarto prêmio!<br>com o palpite 4423"
+        ],
+        "4428": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 4428"
+        ],
+        "4603": [
+          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 4603"
+        ],
+        "4608": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 4608"
+        ],
+        "4623": [
+          "Dezena no quarto prêmio!<br>com o palpite 4623",
+          "CABRA 🐐 no quarto prêmio!<br>com o palpite 4623"
+        ],
+        "4628": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 4628"
+        ],
+        "4803": [
+          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 4803"
+        ],
+        "4808": [
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 4808"
+        ],
+        "4823": [
+          "Dezena no quarto prêmio!<br>com o palpite 4823",
+          "CABRA 🐐 no quarto prêmio!<br>com o palpite 4823"
+        ],
+        "4828": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 4828"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 3,
+        "Grupo": [
+          "🦅",
+          "🐐",
+          "🐑",
+          "🪶"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 4403, 4408, 4409, 4423, 4428, 4429, 4603, 4608, 4609, 4623, 4628, 4629, 4803, 4808, 4809, 4823, 4828, 4829"
+    },
+    "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
