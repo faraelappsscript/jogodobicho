@@ -51,14 +51,41 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1670": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 1670"
+        ],
+        "1671": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 1671"
+        ],
+        "3670": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 3670"
+        ],
+        "3671": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 3671"
+        ],
+        "6670": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 6670"
+        ],
+        "6671": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 6671"
+        ],
+        "0670": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 0670"
+        ],
+        "0671": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 0671"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐖"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1674, 6674"
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,7 +145,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1674, 6674"
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -178,7 +205,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1674, 6674"
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -237,21 +264,60 @@
           "Dezena no quinto prêmio!<br>com o palpite 1674",
           "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 1674"
         ],
+        "1677": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 1677"
+        ],
+        "1678": [
+          "Dezena no quarto prêmio!<br>com o palpite 1678",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 1678"
+        ],
+        "3674": [
+          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 3674",
+          "Dezena no quinto prêmio!<br>com o palpite 3674",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 3674"
+        ],
+        "3677": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3677"
+        ],
+        "3678": [
+          "Dezena no quarto prêmio!<br>com o palpite 3678",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3678"
+        ],
         "6674": [
           "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 6674",
           "Dezena no quinto prêmio!<br>com o palpite 6674",
           "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 6674"
+        ],
+        "6677": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 6677"
+        ],
+        "6678": [
+          "Dezena no quarto prêmio!<br>com o palpite 6678",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 6678"
+        ],
+        "0674": [
+          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 0674",
+          "Dezena no quinto prêmio!<br>com o palpite 0674",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 0674"
+        ],
+        "0677": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 0677"
+        ],
+        "0678": [
+          "Dezena no quarto prêmio!<br>com o palpite 0678",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 0678"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 8,
         "Grupo": [
-          "🦚"
+          "🦚",
+          "🦃"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1674, 6674"
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -309,22 +375,121 @@
           "Dezena no terceiro prêmio!<br>com o palpite 1674",
           "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 1674"
         ],
+        "3674": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3674",
+          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 3674"
+        ],
         "6674": [
           "Dezena no terceiro prêmio!<br>com o palpite 6674",
           "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 6674"
+        ],
+        "0674": [
+          "Dezena no terceiro prêmio!<br>com o palpite 0674",
+          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 0674"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 4,
         "Grupo": [
           "🦚"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1674, 6674"
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5615",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1700",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0550",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "1527",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "8570",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "7962",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "545",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "1670": [
+          "Dezena no quinto prêmio!<br>com o palpite 1670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 1670"
+        ],
+        "1671": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 1671"
+        ],
+        "3670": [
+          "Dezena no quinto prêmio!<br>com o palpite 3670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 3670"
+        ],
+        "3671": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 3671"
+        ],
+        "6670": [
+          "Dezena no quinto prêmio!<br>com o palpite 6670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 6670"
+        ],
+        "6671": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 6671"
+        ],
+        "0670": [
+          "Dezena no quinto prêmio!<br>com o palpite 0670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 0670"
+        ],
+        "0671": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 0671"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 4,
+        "Grupo": [
+          "🐖"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
+    },
+    "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
@@ -418,14 +583,70 @@
           "Bicho": "Cavalo"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1670": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 1670"
+        ],
+        "1671": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 1671"
+        ],
+        "1677": [
+          "Dezena no sétimo prêmio!<br>com o palpite 1677",
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 1677"
+        ],
+        "1678": [
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 1678"
+        ],
+        "3670": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 3670"
+        ],
+        "3671": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 3671"
+        ],
+        "3677": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3677",
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 3677"
+        ],
+        "3678": [
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 3678"
+        ],
+        "6670": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 6670"
+        ],
+        "6671": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 6671"
+        ],
+        "6677": [
+          "Dezena no sétimo prêmio!<br>com o palpite 6677",
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 6677"
+        ],
+        "6678": [
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 6678"
+        ],
+        "0670": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 0670"
+        ],
+        "0671": [
+          "PORCO 🐖 no segundo prêmio!<br>com o palpite 0671"
+        ],
+        "0677": [
+          "Dezena no sétimo prêmio!<br>com o palpite 0677",
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 0677"
+        ],
+        "0678": [
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 0678"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 4,
+        "Grupo": [
+          "🐖",
+          "🦃"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1674, 6674"
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -496,14 +717,45 @@
           "Bicho": "Gato"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1670": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 1670"
+        ],
+        "1671": [
+          "Dezena no sexto prêmio!<br>com o palpite 1671",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 1671"
+        ],
+        "3670": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 3670"
+        ],
+        "3671": [
+          "Dezena no sexto prêmio!<br>com o palpite 3671",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 3671"
+        ],
+        "6670": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 6670"
+        ],
+        "6671": [
+          "Dezena no sexto prêmio!<br>com o palpite 6671",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 6671"
+        ],
+        "0670": [
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 0670"
+        ],
+        "0671": [
+          "Dezena no sexto prêmio!<br>com o palpite 0671",
+          "PORCO 🐖 no sexto prêmio!<br>com o palpite 0671"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 4,
+        "Grupo": [
+          "🐖"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1674, 6674"
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -581,7 +833,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1674, 6674"
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -658,21 +910,60 @@
           "Dezena no quinto prêmio!<br>com o palpite 1674",
           "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 1674"
         ],
+        "1677": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 1677"
+        ],
+        "1678": [
+          "Dezena no quarto prêmio!<br>com o palpite 1678",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 1678"
+        ],
+        "3674": [
+          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 3674",
+          "Dezena no quinto prêmio!<br>com o palpite 3674",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 3674"
+        ],
+        "3677": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3677"
+        ],
+        "3678": [
+          "Dezena no quarto prêmio!<br>com o palpite 3678",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 3678"
+        ],
         "6674": [
           "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 6674",
           "Dezena no quinto prêmio!<br>com o palpite 6674",
           "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 6674"
+        ],
+        "6677": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 6677"
+        ],
+        "6678": [
+          "Dezena no quarto prêmio!<br>com o palpite 6678",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 6678"
+        ],
+        "0674": [
+          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 0674",
+          "Dezena no quinto prêmio!<br>com o palpite 0674",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 0674"
+        ],
+        "0677": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 0677"
+        ],
+        "0678": [
+          "Dezena no quarto prêmio!<br>com o palpite 0678",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 0678"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 8,
         "Grupo": [
-          "🦚"
+          "🦚",
+          "🦃"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1674, 6674"
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -744,26 +1035,197 @@
         }
       ],
       "frases": {
+        "1670": [
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 1670"
+        ],
+        "1671": [
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 1671"
+        ],
         "1674": [
           "Dezena no terceiro prêmio!<br>com o palpite 1674",
           "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 1674"
         ],
+        "3670": [
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 3670"
+        ],
+        "3671": [
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 3671"
+        ],
+        "3674": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3674",
+          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 3674"
+        ],
+        "6670": [
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 6670"
+        ],
+        "6671": [
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 6671"
+        ],
         "6674": [
           "Dezena no terceiro prêmio!<br>com o palpite 6674",
           "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 6674"
+        ],
+        "0674": [
+          "Dezena no terceiro prêmio!<br>com o palpite 0674",
+          "PAVÃO 🦚 no terceiro prêmio!<br>com o palpite 0674"
+        ],
+        "0670": [
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 0670"
+        ],
+        "0671": [
+          "PORCO 🐖 no oitavo prêmio!<br>com o palpite 0671"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 4,
         "Grupo": [
-          "🦚"
+          "🦚",
+          "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1674, 6674"
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5615",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1700",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0550",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "1527",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "8570",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "5101",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6755",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1052",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "5007",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "5877",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        }
+      ],
+      "frases": {
+        "1670": [
+          "Dezena no quinto prêmio!<br>com o palpite 1670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 1670"
+        ],
+        "1671": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 1671"
+        ],
+        "1677": [
+          "Dezena no décimo prêmio!<br>com o palpite 1677",
+          "PERU 🦃 no décimo prêmio!<br>com o palpite 1677"
+        ],
+        "1678": [
+          "PERU 🦃 no décimo prêmio!<br>com o palpite 1678"
+        ],
+        "3670": [
+          "Dezena no quinto prêmio!<br>com o palpite 3670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 3670"
+        ],
+        "3671": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 3671"
+        ],
+        "3677": [
+          "Dezena no décimo prêmio!<br>com o palpite 3677",
+          "PERU 🦃 no décimo prêmio!<br>com o palpite 3677"
+        ],
+        "3678": [
+          "PERU 🦃 no décimo prêmio!<br>com o palpite 3678"
+        ],
+        "6670": [
+          "Dezena no quinto prêmio!<br>com o palpite 6670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 6670"
+        ],
+        "6671": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 6671"
+        ],
+        "6677": [
+          "Dezena no décimo prêmio!<br>com o palpite 6677",
+          "PERU 🦃 no décimo prêmio!<br>com o palpite 6677"
+        ],
+        "6678": [
+          "PERU 🦃 no décimo prêmio!<br>com o palpite 6678"
+        ],
+        "0670": [
+          "Dezena no quinto prêmio!<br>com o palpite 0670",
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 0670"
+        ],
+        "0671": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 0671"
+        ],
+        "0677": [
+          "Dezena no décimo prêmio!<br>com o palpite 0677",
+          "PERU 🦃 no décimo prêmio!<br>com o palpite 0677"
+        ],
+        "0678": [
+          "PERU 🦃 no décimo prêmio!<br>com o palpite 0678"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 8,
+        "Grupo": [
+          "🐖",
+          "🦃"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0670, 0671, 0674, 0677, 0678, 1670, 1671, 1674, 1677, 1678, 3670, 3671, 3674, 3677, 3678, 6670, 6671, 6674, 6677, 6678"
+    },
+    "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
