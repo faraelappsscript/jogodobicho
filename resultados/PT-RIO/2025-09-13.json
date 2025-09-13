@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5944, 5949"
+      "resumo": "Palpites dados para esta extração: 1344, 1384, 1844, 1884, 1944, 1984, 3344, 3384, 3844, 3884, 3944, 3984"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -112,23 +112,48 @@
         }
       ],
       "frases": {
-        "5944": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 5944",
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 5944",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 5944",
-          "Dezena no quarto prêmio!<br>com o palpite 5944",
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 5944"
+        "1344": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1344",
+          "Dezena no quarto prêmio!<br>com o palpite 1344",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 1344"
+        ],
+        "1844": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1844",
+          "Dezena no quarto prêmio!<br>com o palpite 1844",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 1844"
+        ],
+        "1944": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1944",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 1944",
+          "Dezena no quarto prêmio!<br>com o palpite 1944",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 1944"
+        ],
+        "3344": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3344",
+          "Dezena no quarto prêmio!<br>com o palpite 3344",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 3344"
+        ],
+        "3844": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3844",
+          "Dezena no quarto prêmio!<br>com o palpite 3844",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 3844"
+        ],
+        "3944": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3944",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 3944",
+          "Dezena no quarto prêmio!<br>com o palpite 3944",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 3944"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 1,
-        "Dezena": 1,
+        "Milhar": 0,
+        "Centena": 2,
+        "Dezena": 6,
         "Grupo": [
           "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5944, 5949"
+      "resumo": "Palpites dados para esta extração: 1344, 1384, 1844, 1884, 1944, 1984, 3344, 3384, 3844, 3884, 3944, 3984"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -188,9 +213,96 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5944, 5949"
+      "resumo": "Palpites dados para esta extração: 1344, 1384, 1844, 1884, 1944, 1984, 3344, 3384, 3844, 3884, 3944, 3984"
     },
     "PT-RIO, RJ, 16:00, PTV": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "1049",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9161",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6742",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3451",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1943",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "2346",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "609",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "1344": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1344",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1344"
+        ],
+        "1844": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1844",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1844"
+        ],
+        "1944": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1944",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1944"
+        ],
+        "3344": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3344",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3344"
+        ],
+        "3844": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3844",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3844"
+        ],
+        "3944": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3944",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3944"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐎"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 1344, 1384, 1844, 1884, 1944, 1984, 3344, 3384, 3844, 3884, 3944, 3984"
+    },
+    "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
@@ -291,7 +403,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5944, 5949"
+      "resumo": "Palpites dados para esta extração: 1344, 1384, 1844, 1884, 1944, 1984, 3344, 3384, 3844, 3884, 3944, 3984"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -363,32 +475,82 @@
         }
       ],
       "frases": {
-        "5944": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 5944",
-          "Milhar e Centena no quarto prêmio!<br>com o palpite 5944",
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 5944",
-          "Dezena no quarto prêmio!<br>com o palpite 5944",
-          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 5944",
-          "Dezena no oitavo prêmio!<br>com o palpite 5944",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 5944"
+        "1344": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1344",
+          "Dezena no quarto prêmio!<br>com o palpite 1344",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 1344",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 1344",
+          "Dezena no oitavo prêmio!<br>com o palpite 1344",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1344"
         ],
-        "5949": [
-          "Milhar e Centena no sétimo prêmio!<br>com o palpite 5949",
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 5949",
-          "Dezena no sétimo prêmio!<br>com o palpite 5949",
-          "GALO 🐓 no sétimo prêmio!<br>com o palpite 5949"
+        "1384": [
+          "TOURO 🐂 no décimo prêmio!<br>com o palpite 1384"
+        ],
+        "1844": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1844",
+          "Dezena no quarto prêmio!<br>com o palpite 1844",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 1844",
+          "Dezena no oitavo prêmio!<br>com o palpite 1844",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1844"
+        ],
+        "1884": [
+          "TOURO 🐂 no décimo prêmio!<br>com o palpite 1884"
+        ],
+        "1944": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1944",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 1944",
+          "Dezena no quarto prêmio!<br>com o palpite 1944",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 1944",
+          "Dezena no oitavo prêmio!<br>com o palpite 1944",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 1944"
+        ],
+        "1984": [
+          "TOURO 🐂 no décimo prêmio!<br>com o palpite 1984"
+        ],
+        "3344": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3344",
+          "Dezena no quarto prêmio!<br>com o palpite 3344",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 3344",
+          "Milhar e Centena no oitavo prêmio!<br>com o palpite 3344",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 3344",
+          "Dezena no oitavo prêmio!<br>com o palpite 3344",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 3344"
+        ],
+        "3384": [
+          "TOURO 🐂 no décimo prêmio!<br>com o palpite 3384"
+        ],
+        "3844": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3844",
+          "Dezena no quarto prêmio!<br>com o palpite 3844",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 3844",
+          "Dezena no oitavo prêmio!<br>com o palpite 3844",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 3844"
+        ],
+        "3884": [
+          "TOURO 🐂 no décimo prêmio!<br>com o palpite 3884"
+        ],
+        "3944": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3944",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 3944",
+          "Dezena no quarto prêmio!<br>com o palpite 3944",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 3944",
+          "Dezena no oitavo prêmio!<br>com o palpite 3944",
+          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 3944"
+        ],
+        "3984": [
+          "TOURO 🐂 no décimo prêmio!<br>com o palpite 3984"
         ]
       },
       "acertos": {
-        "Milhar": 2,
-        "Centena": 2,
-        "Dezena": 3,
+        "Milhar": 1,
+        "Centena": 4,
+        "Dezena": 12,
         "Grupo": [
           "🐎",
-          "🐓"
+          "🐂"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5944, 5949"
+      "resumo": "Palpites dados para esta extração: 1344, 1384, 1844, 1884, 1944, 1984, 3344, 3384, 3844, 3884, 3944, 3984"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -466,9 +628,114 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5944, 5949"
+      "resumo": "Palpites dados para esta extração: 1344, 1384, 1844, 1884, 1944, 1984, 3344, 3384, 3844, 3884, 3944, 3984"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "1049",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "9161",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6742",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3451",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1943",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "1963",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "0174",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "4645",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "9121",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "8249",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        }
+      ],
+      "frases": {
+        "1344": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1344",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1344"
+        ],
+        "1844": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1844",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1844"
+        ],
+        "1944": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 1944",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 1944"
+        ],
+        "3344": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3344",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3344"
+        ],
+        "3844": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3844",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3844"
+        ],
+        "3944": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3944",
+          "CAVALO 🐎 no quinto prêmio!<br>com o palpite 3944"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐎"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 1344, 1384, 1844, 1884, 1944, 1984, 3344, 3384, 3844, 3884, 3944, 3984"
+    },
+    "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
