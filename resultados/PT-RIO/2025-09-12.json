@@ -327,11 +327,48 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "3536",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "7763",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "3291",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3454",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6797",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "4841",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "449",
+          "Grupo": "",
+          "Bicho": ""
+        }
       ],
       "frases": {},
       "acertos": {
@@ -340,7 +377,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     }
   },
   "1-10": {
@@ -770,25 +807,81 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "3536",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "7763",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "3291",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3454",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6797",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "3733",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "5724",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "3695",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "6314",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "4307",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        }
       ],
-      "frases": {},
+      "frases": {
+        "1816": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 1816"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦋"
+        ]
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 1816, 1886"
     }
   }
 }
