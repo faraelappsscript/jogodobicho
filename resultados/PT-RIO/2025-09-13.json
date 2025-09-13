@@ -51,14 +51,88 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "3223": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3223"
+        ],
+        "3224": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3224",
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3224"
+        ],
+        "3233": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3233",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3233"
+        ],
+        "3234": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3234"
+        ],
+        "3236": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3236"
+        ],
+        "3423": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3423"
+        ],
+        "3424": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3424",
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3424"
+        ],
+        "3433": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3433",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3433"
+        ],
+        "3434": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3434"
+        ],
+        "3436": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3436"
+        ],
+        "3723": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3723"
+        ],
+        "3724": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3724",
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3724"
+        ],
+        "3733": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3733",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3733"
+        ],
+        "3734": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3734"
+        ],
+        "3736": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3736"
+        ],
+        "3923": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3923"
+        ],
+        "3924": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3924",
+          "Dezena no terceiro prêmio!<br>com o palpite 3924",
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3924"
+        ],
+        "3933": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 3933",
+          "Dezena no primeiro prêmio!<br>com o palpite 3933",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3933"
+        ],
+        "3934": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3934"
+        ],
+        "3936": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3936"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 2,
+        "Dezena": 8,
+        "Grupo": [
+          "🐍",
+          "🐐"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3794"
+      "resumo": "Palpites dados para esta extração: 3223, 3224, 3226, 3227, 3233, 3234, 3236, 3237, 3293, 3294, 3296, 3297, 3423, 3424, 3426, 3427, 3433, 3434, 3436, 3437, 3493, 3494, 3496, 3497, 3723, 3724, 3726, 3727, 3733, 3734, 3736, 3737, 3793, 3794, 3796, 3797, 3923, 3924, 3926, 3927, 3933, 3934, 3936, 3937, 3993, 3994, 3996, 3997"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -154,14 +228,138 @@
           "Bicho": "Carneiro"
         }
       ],
-      "frases": {},
+      "frases": {
+        "3223": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3223"
+        ],
+        "3224": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3224",
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3224"
+        ],
+        "3226": [
+          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 3226",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 3226"
+        ],
+        "3227": [
+          "Dezena no oitavo prêmio!<br>com o palpite 3227",
+          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 3227",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 3227"
+        ],
+        "3233": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3233",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3233"
+        ],
+        "3234": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3234"
+        ],
+        "3236": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3236"
+        ],
+        "3297": [
+          "VACA 🐄 no sétimo prêmio!<br>com o palpite 3297"
+        ],
+        "3423": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3423"
+        ],
+        "3424": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3424",
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3424"
+        ],
+        "3426": [
+          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 3426",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 3426"
+        ],
+        "3427": [
+          "Dezena no oitavo prêmio!<br>com o palpite 3427",
+          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 3427",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 3427"
+        ],
+        "3433": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3433",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3433"
+        ],
+        "3434": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3434"
+        ],
+        "3436": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3436"
+        ],
+        "3497": [
+          "VACA 🐄 no sétimo prêmio!<br>com o palpite 3497"
+        ],
+        "3723": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3723"
+        ],
+        "3724": [
+          "Dezena no terceiro prêmio!<br>com o palpite 3724",
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3724"
+        ],
+        "3726": [
+          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 3726",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 3726"
+        ],
+        "3727": [
+          "Dezena no oitavo prêmio!<br>com o palpite 3727",
+          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 3727",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 3727"
+        ],
+        "3733": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3733",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3733"
+        ],
+        "3734": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3734"
+        ],
+        "3736": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3736"
+        ],
+        "3797": [
+          "VACA 🐄 no sétimo prêmio!<br>com o palpite 3797"
+        ],
+        "3923": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3923"
+        ],
+        "3924": [
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 3924",
+          "Dezena no terceiro prêmio!<br>com o palpite 3924",
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 3924"
+        ],
+        "3926": [
+          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 3926",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 3926"
+        ],
+        "3927": [
+          "Dezena no oitavo prêmio!<br>com o palpite 3927",
+          "CARNEIRO 🐑 no oitavo prêmio!<br>com o palpite 3927",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 3927"
+        ],
+        "3933": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 3933",
+          "Dezena no primeiro prêmio!<br>com o palpite 3933",
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3933"
+        ],
+        "3934": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3934"
+        ],
+        "3936": [
+          "COBRA 🐍 no primeiro prêmio!<br>com o palpite 3936"
+        ],
+        "3997": [
+          "VACA 🐄 no sétimo prêmio!<br>com o palpite 3997"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 2,
+        "Dezena": 12,
+        "Grupo": [
+          "🐍",
+          "🐐",
+          "🐄",
+          "🐑"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 3794"
+      "resumo": "Palpites dados para esta extração: 3223, 3224, 3226, 3227, 3233, 3234, 3236, 3237, 3293, 3294, 3296, 3297, 3423, 3424, 3426, 3427, 3433, 3434, 3436, 3437, 3493, 3494, 3496, 3497, 3723, 3724, 3726, 3727, 3733, 3734, 3736, 3737, 3793, 3794, 3796, 3797, 3923, 3924, 3926, 3927, 3933, 3934, 3936, 3937, 3993, 3994, 3996, 3997"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
