@@ -138,6 +138,66 @@
         "Bicho"
       ],
       "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "1631",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3372",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1880",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3874",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1045",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "1802",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "499",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 5944, 5949"
+    },
+    "PT-RIO, RJ, 16:00, PTV": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
         {},
         {},
         {},
@@ -331,6 +391,84 @@
       "resumo": "Palpites dados para esta extração: 5944, 5949"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "1631",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3372",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1880",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3874",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1045",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "1313",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6388",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "3787",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "1204",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "4494",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 5944, 5949"
+    },
+    "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
