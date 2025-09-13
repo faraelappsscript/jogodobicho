@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,14 +111,58 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "3383": [
+          "Dezena no quarto prêmio!<br>com o palpite 3383",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3383",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 3383"
+        ],
+        "3384": [
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3384",
+          "Dezena no sexto prêmio!<br>com o palpite 3384",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 3384"
+        ],
+        "3683": [
+          "Dezena no quarto prêmio!<br>com o palpite 3683",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3683",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 3683"
+        ],
+        "3684": [
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3684",
+          "Dezena no sexto prêmio!<br>com o palpite 3684",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 3684"
+        ],
+        "3783": [
+          "Dezena no quarto prêmio!<br>com o palpite 3783",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3783",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 3783"
+        ],
+        "3784": [
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3784",
+          "Dezena no sexto prêmio!<br>com o palpite 3784",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 3784"
+        ],
+        "3883": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 3883",
+          "Dezena no quarto prêmio!<br>com o palpite 3883",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3883",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 3883"
+        ],
+        "3884": [
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3884",
+          "Dezena no sexto prêmio!<br>com o palpite 3884",
+          "TOURO 🐂 no sexto prêmio!<br>com o palpite 3884"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Centena": 1,
+        "Dezena": 8,
+        "Grupo": [
+          "🐂"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -172,8 +216,17 @@
         }
       ],
       "frases": {
-        "1886": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 1886"
+        "3386": [
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3386"
+        ],
+        "3686": [
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3686"
+        ],
+        "3786": [
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3786"
+        ],
+        "3886": [
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3886"
         ]
       },
       "acertos": {
@@ -184,7 +237,7 @@
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -238,8 +291,53 @@
         }
       ],
       "frases": {
-        "1886": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 1886"
+        "3386": [
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 3386"
+        ],
+        "3393": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3393"
+        ],
+        "3394": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3394"
+        ],
+        "3396": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3396"
+        ],
+        "3686": [
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 3686"
+        ],
+        "3693": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3693"
+        ],
+        "3694": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3694"
+        ],
+        "3696": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3696"
+        ],
+        "3786": [
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 3786"
+        ],
+        "3793": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3793"
+        ],
+        "3794": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3794"
+        ],
+        "3796": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3796"
+        ],
+        "3886": [
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 3886"
+        ],
+        "3893": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3893"
+        ],
+        "3894": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3894"
+        ],
+        "3896": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3896"
         ]
       },
       "acertos": {
@@ -247,10 +345,11 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐅"
+          "🐅",
+          "🦌"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -304,20 +403,56 @@
         }
       ],
       "frases": {
-        "1816": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1816",
-          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1816"
+        "3313": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3313"
+        ],
+        "3314": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3314"
+        ],
+        "3316": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3316",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3316"
+        ],
+        "3613": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3613"
+        ],
+        "3614": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3614"
+        ],
+        "3616": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3616",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3616"
+        ],
+        "3713": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3713"
+        ],
+        "3714": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3714"
+        ],
+        "3716": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3716",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3716"
+        ],
+        "3813": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3813"
+        ],
+        "3814": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3814"
+        ],
+        "3816": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3816",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3816"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 4,
         "Grupo": [
           "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -377,7 +512,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     }
   },
   "1-10": {
@@ -450,14 +585,78 @@
           "Bicho": "Cabra"
         }
       ],
-      "frases": {},
+      "frases": {
+        "3383": [
+          "TOURO 🐂 no nono prêmio!<br>com o palpite 3383"
+        ],
+        "3384": [
+          "TOURO 🐂 no nono prêmio!<br>com o palpite 3384"
+        ],
+        "3393": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3393"
+        ],
+        "3394": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3394"
+        ],
+        "3396": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3396"
+        ],
+        "3683": [
+          "TOURO 🐂 no nono prêmio!<br>com o palpite 3683"
+        ],
+        "3684": [
+          "TOURO 🐂 no nono prêmio!<br>com o palpite 3684"
+        ],
+        "3693": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3693"
+        ],
+        "3694": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3694"
+        ],
+        "3696": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3696"
+        ],
+        "3783": [
+          "TOURO 🐂 no nono prêmio!<br>com o palpite 3783"
+        ],
+        "3784": [
+          "TOURO 🐂 no nono prêmio!<br>com o palpite 3784"
+        ],
+        "3793": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3793"
+        ],
+        "3794": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3794"
+        ],
+        "3796": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3796"
+        ],
+        "3883": [
+          "TOURO 🐂 no nono prêmio!<br>com o palpite 3883"
+        ],
+        "3884": [
+          "TOURO 🐂 no nono prêmio!<br>com o palpite 3884"
+        ],
+        "3893": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3893"
+        ],
+        "3894": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3894"
+        ],
+        "3896": [
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 3896"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦌",
+          "🐂"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -529,19 +728,58 @@
         }
       ],
       "frases": {
-        "1886": [
-          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 1886"
+        "3383": [
+          "Dezena no quarto prêmio!<br>com o palpite 3383",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3383"
+        ],
+        "3384": [
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3384"
+        ],
+        "3386": [
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3386"
+        ],
+        "3683": [
+          "Dezena no quarto prêmio!<br>com o palpite 3683",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3683"
+        ],
+        "3684": [
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3684"
+        ],
+        "3686": [
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3686"
+        ],
+        "3783": [
+          "Dezena no quarto prêmio!<br>com o palpite 3783",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3783"
+        ],
+        "3784": [
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3784"
+        ],
+        "3786": [
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3786"
+        ],
+        "3883": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 3883",
+          "Dezena no quarto prêmio!<br>com o palpite 3883",
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3883"
+        ],
+        "3884": [
+          "TOURO 🐂 no quarto prêmio!<br>com o palpite 3884"
+        ],
+        "3886": [
+          "TIGRE 🐅 no sétimo prêmio!<br>com o palpite 3886"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
+          "🐂",
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -619,7 +857,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -691,24 +929,125 @@
         }
       ],
       "frases": {
-        "1816": [
-          "Dezena no sétimo prêmio!<br>com o palpite 1816",
-          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 1816"
+        "3313": [
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3313"
         ],
-        "1886": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 1886"
+        "3314": [
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3314"
+        ],
+        "3316": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3316",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3316"
+        ],
+        "3386": [
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 3386"
+        ],
+        "3393": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3393",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3393"
+        ],
+        "3394": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3394",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3394"
+        ],
+        "3396": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3396",
+          "Dezena no oitavo prêmio!<br>com o palpite 3396",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3396"
+        ],
+        "3613": [
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3613"
+        ],
+        "3614": [
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3614"
+        ],
+        "3616": [
+          "Milhar e Centena no sétimo prêmio!<br>com o palpite 3616",
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 3616",
+          "Dezena no sétimo prêmio!<br>com o palpite 3616",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3616"
+        ],
+        "3686": [
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 3686"
+        ],
+        "3693": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3693",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3693"
+        ],
+        "3694": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3694",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3694"
+        ],
+        "3696": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3696",
+          "Dezena no oitavo prêmio!<br>com o palpite 3696",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3696"
+        ],
+        "3713": [
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3713"
+        ],
+        "3714": [
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3714"
+        ],
+        "3716": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3716",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3716"
+        ],
+        "3786": [
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 3786"
+        ],
+        "3793": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3793",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3793"
+        ],
+        "3794": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3794",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3794"
+        ],
+        "3796": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3796",
+          "Dezena no oitavo prêmio!<br>com o palpite 3796",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3796"
+        ],
+        "3813": [
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3813"
+        ],
+        "3814": [
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3814"
+        ],
+        "3816": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3816",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 3816"
+        ],
+        "3886": [
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 3886"
+        ],
+        "3893": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3893",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3893"
+        ],
+        "3894": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3894",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3894"
+        ],
+        "3896": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 3896",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 3896",
+          "Dezena no oitavo prêmio!<br>com o palpite 3896",
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3896"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 1,
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 8,
         "Grupo": [
           "🐅",
+          "🦌",
           "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -780,24 +1119,120 @@
         }
       ],
       "frases": {
-        "1816": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1816",
-          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 1816",
-          "Dezena no sexto prêmio!<br>com o palpite 1816",
-          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 1816",
-          "Dezena no décimo prêmio!<br>com o palpite 1816",
-          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 1816"
+        "3313": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3313",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3313",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3313"
+        ],
+        "3314": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3314",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3314",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3314"
+        ],
+        "3316": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3316",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3316",
+          "Dezena no sexto prêmio!<br>com o palpite 3316",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3316",
+          "Dezena no décimo prêmio!<br>com o palpite 3316",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3316"
+        ],
+        "3383": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3383",
+          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3383"
+        ],
+        "3384": [
+          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3384"
+        ],
+        "3613": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3613",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3613",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3613"
+        ],
+        "3614": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3614",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3614",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3614"
+        ],
+        "3616": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3616",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3616",
+          "Dezena no sexto prêmio!<br>com o palpite 3616",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3616",
+          "Milhar e Centena no décimo prêmio!<br>com o palpite 3616",
+          "Centena e Dezena no décimo prêmio!<br>com o palpite 3616",
+          "Dezena no décimo prêmio!<br>com o palpite 3616",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3616"
+        ],
+        "3683": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3683",
+          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3683"
+        ],
+        "3684": [
+          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3684"
+        ],
+        "3713": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3713",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3713",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3713"
+        ],
+        "3714": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3714",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3714",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3714"
+        ],
+        "3716": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3716",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3716",
+          "Dezena no sexto prêmio!<br>com o palpite 3716",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3716",
+          "Dezena no décimo prêmio!<br>com o palpite 3716",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3716"
+        ],
+        "3783": [
+          "Dezena no sétimo prêmio!<br>com o palpite 3783",
+          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3783"
+        ],
+        "3784": [
+          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3784"
+        ],
+        "3813": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3813",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3813",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3813"
+        ],
+        "3814": [
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3814",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3814",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3814"
+        ],
+        "3816": [
+          "Dezena no primeiro prêmio!<br>com o palpite 3816",
+          "BORBOLETA 🦋 no primeiro prêmio!<br>com o palpite 3816",
+          "Dezena no sexto prêmio!<br>com o palpite 3816",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 3816",
+          "Dezena no décimo prêmio!<br>com o palpite 3816",
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 3816"
+        ],
+        "3883": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 3883",
+          "Dezena no sétimo prêmio!<br>com o palpite 3883",
+          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3883"
+        ],
+        "3884": [
+          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 3884"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 3,
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 16,
         "Grupo": [
-          "🦋"
+          "🦋",
+          "🐂"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
@@ -869,19 +1304,94 @@
         }
       ],
       "frases": {
-        "1816": [
-          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 1816"
+        "3313": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3313"
+        ],
+        "3314": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 3314",
+          "Dezena no nono prêmio!<br>com o palpite 3314",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3314"
+        ],
+        "3316": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3316"
+        ],
+        "3393": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3393"
+        ],
+        "3394": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3394"
+        ],
+        "3396": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3396"
+        ],
+        "3613": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3613"
+        ],
+        "3614": [
+          "Dezena no nono prêmio!<br>com o palpite 3614",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3614"
+        ],
+        "3616": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3616"
+        ],
+        "3693": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3693"
+        ],
+        "3694": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3694"
+        ],
+        "3696": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3696"
+        ],
+        "3713": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3713"
+        ],
+        "3714": [
+          "Dezena no nono prêmio!<br>com o palpite 3714",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3714"
+        ],
+        "3716": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3716"
+        ],
+        "3793": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3793"
+        ],
+        "3794": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3794"
+        ],
+        "3796": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3796"
+        ],
+        "3813": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3813"
+        ],
+        "3814": [
+          "Dezena no nono prêmio!<br>com o palpite 3814",
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3814"
+        ],
+        "3816": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 3816"
+        ],
+        "3893": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3893"
+        ],
+        "3894": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3894"
+        ],
+        "3896": [
+          "VEADO 🦌 no oitavo prêmio!<br>com o palpite 3896"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
+          "🦌",
           "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1816, 1886"
+      "resumo": "Palpites dados para esta extração: 3313, 3314, 3316, 3383, 3384, 3386, 3393, 3394, 3396, 3613, 3614, 3616, 3683, 3684, 3686, 3693, 3694, 3696, 3713, 3714, 3716, 3783, 3784, 3786, 3793, 3794, 3796, 3813, 3814, 3816, 3883, 3884, 3886, 3893, 3894, 3896"
     }
   }
 }
