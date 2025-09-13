@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 9926, 9927, 9928"
+      "resumo": "Palpites dados para esta extração: 5944, 5949"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -111,14 +111,24 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "5944": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 5944",
+          "Milhar e Centena no quarto prêmio!<br>com o palpite 5944",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 5944",
+          "Dezena no quarto prêmio!<br>com o palpite 5944",
+          "CAVALO 🐎 no quarto prêmio!<br>com o palpite 5944"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 9926, 9927, 9928"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 1,
+        "Grupo": [
+          "🐎"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 5944, 5949"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
