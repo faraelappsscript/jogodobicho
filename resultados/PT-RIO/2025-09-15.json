@@ -52,26 +52,95 @@
         }
       ],
       "frases": {
-        "1161": [
-          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 1161"
+        "1145": [
+          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 1145",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 1145"
         ],
         "1165": [
           "Dezena no primeiro prêmio!<br>com o palpite 1165",
           "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1165"
+        ],
+        "6145": [
+          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6145",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6145"
+        ],
+        "6165": [
+          "Dezena no primeiro prêmio!<br>com o palpite 6165",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6165"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 2,
         "Grupo": [
           "🐒",
-          "🦁"
+          "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1151, 1155, 1161, 1165, 1191, 1195"
+      "resumo": "Palpites dados para esta extração: 1145, 1165, 6145, 6165"
     },
     "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4170",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4914",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "7581",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8291",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2257",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "7213",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "491",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 1145, 1165, 6145, 6165"
+    },
+    "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
@@ -166,38 +235,117 @@
         }
       ],
       "frases": {
-        "1161": [
-          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 1161"
+        "1145": [
+          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 1145",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 1145",
+          "Dezena no oitavo prêmio!<br>com o palpite 1145",
+          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 1145"
         ],
         "1165": [
           "Dezena no primeiro prêmio!<br>com o palpite 1165",
           "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1165"
         ],
-        "1191": [
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 1191",
-          "Dezena no sétimo prêmio!<br>com o palpite 1191",
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 1191"
+        "6145": [
+          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6145",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6145",
+          "Dezena no oitavo prêmio!<br>com o palpite 6145",
+          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 6145"
         ],
-        "1195": [
-          "Centena e Dezena no décimo prêmio!<br>com o palpite 1195",
-          "Dezena no décimo prêmio!<br>com o palpite 1195",
-          "VEADO 🦌 no décimo prêmio!<br>com o palpite 1195"
+        "6165": [
+          "Dezena no primeiro prêmio!<br>com o palpite 6165",
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6165"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 2,
-        "Dezena": 3,
+        "Centena": 0,
+        "Dezena": 4,
         "Grupo": [
           "🐒",
-          "🦁",
-          "🐻",
-          "🦌"
+          "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1151, 1155, 1161, 1165, 1191, 1195"
+      "resumo": "Palpites dados para esta extração: 1145, 1165, 6145, 6165"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4170",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4914",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "7581",
+          "Grupo": "21",
+          "Bicho": "Touro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8291",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "2257",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "4478",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1952",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "7189",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "0411",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "1243",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 1145, 1165, 6145, 6165"
+    },
+    "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
