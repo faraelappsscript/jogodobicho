@@ -274,24 +274,14 @@
           "Bicho": "Veado"
         }
       ],
-      "frases": {
-        "4471": [
-          "PORCO 🐖 no nono prêmio!<br>com o palpite 4471"
-        ],
-        "4489": [
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 4489"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐻",
-          "🐖"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4441, 4443, 4444, 4449, 4471, 4473, 4474, 4479, 4481, 4483, 4484, 4489"
+      "resumo": "Palpites dados para esta extração: 4449, 9449"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -363,55 +353,22 @@
         }
       ],
       "frases": {
-        "4441": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 4441"
-        ],
-        "4443": [
-          "Dezena no décimo prêmio!<br>com o palpite 4443",
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 4443"
-        ],
-        "4444": [
-          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 4444"
-        ],
         "4449": [
           "GALO 🐓 no sétimo prêmio!<br>com o palpite 4449"
         ],
-        "4471": [
-          "PORCO 🐖 no primeiro prêmio!<br>com o palpite 4471"
-        ],
-        "4479": [
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 4479"
-        ],
-        "4481": [
-          "Dezena no terceiro prêmio!<br>com o palpite 4481",
-          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 4481"
-        ],
-        "4483": [
-          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 4483"
-        ],
-        "4484": [
-          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 4484"
-        ],
-        "4489": [
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 4489",
-          "Dezena no oitavo prêmio!<br>com o palpite 4489",
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 4489"
+        "9449": [
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 9449"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
+        "Dezena": 0,
         "Grupo": [
-          "🐖",
-          "🐂",
-          "🐻",
-          "🦃",
-          "🐓",
-          "🐎"
+          "🐓"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4441, 4443, 4444, 4449, 4471, 4473, 4474, 4479, 4481, 4483, 4484, 4489"
+      "resumo": "Palpites dados para esta extração: 4449, 9449"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -482,63 +439,14 @@
           "Bicho": "Carneiro"
         }
       ],
-      "frases": {
-        "4441": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 4441",
-          "Milhar e Centena no sétimo prêmio!<br>com o palpite 4441",
-          "Centena e Dezena no sétimo prêmio!<br>com o palpite 4441",
-          "Dezena no sétimo prêmio!<br>com o palpite 4441",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 4441",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 4441"
-        ],
-        "4443": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 4443",
-          "Dezena no terceiro prêmio!<br>com o palpite 4443",
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 4443",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 4443",
-          "Dezena no oitavo prêmio!<br>com o palpite 4443",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 4443"
-        ],
-        "4444": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 4444",
-          "CAVALO 🐎 no sétimo prêmio!<br>com o palpite 4444",
-          "CAVALO 🐎 no oitavo prêmio!<br>com o palpite 4444"
-        ],
-        "4471": [
-          "PORCO 🐖 no sexto prêmio!<br>com o palpite 4471"
-        ],
-        "4473": [
-          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 4473"
-        ],
-        "4474": [
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 4474",
-          "Dezena no segundo prêmio!<br>com o palpite 4474",
-          "PAVÃO 🦚 no segundo prêmio!<br>com o palpite 4474"
-        ],
-        "4481": [
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 4481"
-        ],
-        "4483": [
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 4483"
-        ],
-        "4484": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 4484",
-          "Dezena no primeiro prêmio!<br>com o palpite 4484",
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 4484"
-        ]
-      },
+      "frases": {},
       "acertos": {
-        "Milhar": 1,
-        "Centena": 4,
-        "Dezena": 5,
-        "Grupo": [
-          "🐂",
-          "🦚",
-          "🐎",
-          "🐖"
-        ]
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4441, 4443, 4444, 4449, 4471, 4473, 4474, 4479, 4481, 4483, 4484, 4489"
+      "resumo": "Palpites dados para esta extração: 4449, 9449"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
