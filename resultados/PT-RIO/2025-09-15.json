@@ -51,20 +51,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "1161": [
-          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 1161"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🦁"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1111, 1141, 1151, 1161, 1191"
+      "resumo": "Palpites dados para esta extração: 4211, 4251, 4271, 4281"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,22 +112,24 @@
         }
       ],
       "frases": {
-        "1191": [
-          "Dezena no quarto prêmio!<br>com o palpite 1191",
-          "URSO 🐻 no quarto prêmio!<br>com o palpite 1191",
-          "Dezena no sétimo prêmio!<br>com o palpite 1191",
-          "URSO 🐻 no sétimo prêmio!<br>com o palpite 1191"
+        "4271": [
+          "PORCO 🐖 no primeiro prêmio!<br>com o palpite 4271"
+        ],
+        "4281": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4281",
+          "TOURO 🐂 no terceiro prêmio!<br>com o palpite 4281"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 1,
         "Grupo": [
-          "🐻"
+          "🐖",
+          "🐂"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1111, 1141, 1151, 1161, 1191"
+      "resumo": "Palpites dados para esta extração: 4211, 4251, 4271, 4281"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
