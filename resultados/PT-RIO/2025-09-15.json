@@ -52,26 +52,19 @@
         }
       ],
       "frases": {
-        "4446": [
-          "Dezena no segundo prêmio!<br>com o palpite 4446",
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 4446",
-          "Dezena no terceiro prêmio!<br>com o palpite 4446",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 4446"
-        ],
-        "4466": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 4466"
+        "4366": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 4366"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 0,
         "Grupo": [
-          "🐒",
-          "🐘"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4446, 4466, 4486"
+      "resumo": "Palpites dados para esta extração: 4366, 4386"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -131,7 +124,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4446, 4466, 4486"
+      "resumo": "Palpites dados para esta extração: 4366, 4386"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -191,7 +184,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4446, 4466, 4486"
+      "resumo": "Palpites dados para esta extração: 4366, 4386"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -245,14 +238,14 @@
         }
       ],
       "frases": {
-        "4466": [
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 4466",
-          "MACACO 🐒 no sexto prêmio!<br>com o palpite 4466"
+        "4366": [
+          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 4366",
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 4366"
         ],
-        "4486": [
-          "Dezena no terceiro prêmio!<br>com o palpite 4486",
-          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 4486",
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 4486"
+        "4386": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4386",
+          "TIGRE 🐅 no terceiro prêmio!<br>com o palpite 4386",
+          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 4386"
         ]
       },
       "acertos": {
@@ -264,7 +257,7 @@
           "🐅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4446, 4466, 4486"
+      "resumo": "Palpites dados para esta extração: 4366, 4386"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
