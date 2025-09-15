@@ -52,33 +52,19 @@
         }
       ],
       "frases": {
-        "1145": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 1145",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 1145"
-        ],
-        "1165": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1165",
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1165"
-        ],
-        "6145": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6145",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6145"
-        ],
-        "6165": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6165",
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6165"
+        "1161": [
+          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 1161"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 0,
         "Grupo": [
-          "🐒",
-          "🐘"
+          "🦁"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1145, 1165, 6145, 6165"
+      "resumo": "Palpites dados para esta extração: 1111, 1141, 1151, 1161, 1191"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -131,14 +117,23 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1191": [
+          "Dezena no quarto prêmio!<br>com o palpite 1191",
+          "URSO 🐻 no quarto prêmio!<br>com o palpite 1191",
+          "Dezena no sétimo prêmio!<br>com o palpite 1191",
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 1191"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 2,
+        "Grupo": [
+          "🐻"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1145, 1165, 6145, 6165"
+      "resumo": "Palpites dados para esta extração: 1111, 1141, 1151, 1161, 1191"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -235,37 +230,31 @@
         }
       ],
       "frases": {
-        "1145": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 1145",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 1145",
-          "Dezena no oitavo prêmio!<br>com o palpite 1145",
-          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 1145"
+        "1111": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 1111",
+          "Dezena no sexto prêmio!<br>com o palpite 1111",
+          "BURRO 🐴 no sexto prêmio!<br>com o palpite 1111"
         ],
-        "1165": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1165",
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 1165"
+        "1161": [
+          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 1161"
         ],
-        "6145": [
-          "ELEFANTE 🐘 no segundo prêmio!<br>com o palpite 6145",
-          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 6145",
-          "Dezena no oitavo prêmio!<br>com o palpite 6145",
-          "ELEFANTE 🐘 no oitavo prêmio!<br>com o palpite 6145"
-        ],
-        "6165": [
-          "Dezena no primeiro prêmio!<br>com o palpite 6165",
-          "MACACO 🐒 no primeiro prêmio!<br>com o palpite 6165"
+        "1191": [
+          "Centena e Dezena no sétimo prêmio!<br>com o palpite 1191",
+          "Dezena no sétimo prêmio!<br>com o palpite 1191",
+          "URSO 🐻 no sétimo prêmio!<br>com o palpite 1191"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 4,
+        "Centena": 2,
+        "Dezena": 2,
         "Grupo": [
-          "🐒",
-          "🐘"
+          "🦁",
+          "🐴",
+          "🐻"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1145, 1165, 6145, 6165"
+      "resumo": "Palpites dados para esta extração: 1111, 1141, 1151, 1161, 1191"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -336,14 +325,35 @@
           "Bicho": "Cavalo"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1111": [
+          "Dezena no nono prêmio!<br>com o palpite 1111",
+          "BURRO 🐴 no nono prêmio!<br>com o palpite 1111"
+        ],
+        "1141": [
+          "CAVALO 🐎 no décimo prêmio!<br>com o palpite 1141"
+        ],
+        "1151": [
+          "GALO 🐓 no sétimo prêmio!<br>com o palpite 1151"
+        ],
+        "1191": [
+          "Dezena no quarto prêmio!<br>com o palpite 1191",
+          "URSO 🐻 no quarto prêmio!<br>com o palpite 1191",
+          "URSO 🐻 no oitavo prêmio!<br>com o palpite 1191"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 2,
+        "Grupo": [
+          "🐻",
+          "🐓",
+          "🐴",
+          "🐎"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1145, 1165, 6145, 6165"
+      "resumo": "Palpites dados para esta extração: 1111, 1141, 1151, 1161, 1191"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
