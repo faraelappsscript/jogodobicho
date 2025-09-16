@@ -52,20 +52,8 @@
         }
       ],
       "frases": {
-        "2770": [
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 2770"
-        ],
-        "2777": [
-          "Milhar e Centena no segundo prêmio!<br>com o palpite 2777",
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 2777",
-          "Dezena no segundo prêmio!<br>com o palpite 2777",
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 2777"
-        ],
         "2779": [
           "PERU 🦃 no segundo prêmio!<br>com o palpite 2779"
-        ],
-        "2797": [
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 2797"
         ],
         "2799": [
           "Milhar e Centena no terceiro prêmio!<br>com o palpite 2799",
@@ -75,16 +63,15 @@
         ]
       },
       "acertos": {
-        "Milhar": 2,
-        "Centena": 2,
-        "Dezena": 2,
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 1,
         "Grupo": [
           "🦃",
-          "🐄",
-          "🐖"
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2740, 2747, 2749, 2770, 2777, 2779, 2790, 2797, 2799"
+      "resumo": "Palpites dados para esta extração: 2779, 2799"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -181,26 +168,8 @@
         }
       ],
       "frases": {
-        "2770": [
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 2770"
-        ],
-        "2777": [
-          "Milhar e Centena no segundo prêmio!<br>com o palpite 2777",
-          "Centena e Dezena no segundo prêmio!<br>com o palpite 2777",
-          "Dezena no segundo prêmio!<br>com o palpite 2777",
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 2777"
-        ],
         "2779": [
           "PERU 🦃 no segundo prêmio!<br>com o palpite 2779"
-        ],
-        "2790": [
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 2790",
-          "Dezena no oitavo prêmio!<br>com o palpite 2790",
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 2790"
-        ],
-        "2797": [
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 2797",
-          "VACA 🐄 no nono prêmio!<br>com o palpite 2797"
         ],
         "2799": [
           "Milhar e Centena no terceiro prêmio!<br>com o palpite 2799",
@@ -213,17 +182,15 @@
         ]
       },
       "acertos": {
-        "Milhar": 2,
-        "Centena": 4,
-        "Dezena": 4,
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 2,
         "Grupo": [
           "🦃",
-          "🐄",
-          "🐖",
-          "🐻"
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 2740, 2747, 2749, 2770, 2777, 2779, 2790, 2797, 2799"
+      "resumo": "Palpites dados para esta extração: 2779, 2799"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
