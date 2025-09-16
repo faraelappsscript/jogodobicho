@@ -52,35 +52,46 @@
         }
       ],
       "frases": {
-        "5570": [
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 5570"
+        "4470": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4470"
         ],
-        "5577": [
-          "Dezena no segundo prêmio!<br>com o palpite 5577",
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5577"
+        "4477": [
+          "Dezena no segundo prêmio!<br>com o palpite 4477",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4477"
         ],
-        "5579": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5579"
+        "4570": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4570"
         ],
-        "5597": [
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5597"
+        "4577": [
+          "Dezena no segundo prêmio!<br>com o palpite 4577",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4577"
         ],
-        "5599": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5599",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5599"
+        "4770": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4770"
+        ],
+        "4777": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 4777",
+          "Dezena no segundo prêmio!<br>com o palpite 4777",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4777"
+        ],
+        "4970": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4970"
+        ],
+        "4977": [
+          "Dezena no segundo prêmio!<br>com o palpite 4977",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4977"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 2,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
           "🦃",
-          "🐄",
           "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -134,32 +145,61 @@
         }
       ],
       "frases": {
-        "5577": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5577",
-          "Dezena no sexto prêmio!<br>com o palpite 5577",
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 5577"
+        "4437": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4437"
         ],
-        "5579": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5579",
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 5579"
+        "4440": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4440"
         ],
-        "5597": [
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 5597"
+        "4477": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4477",
+          "Dezena no sexto prêmio!<br>com o palpite 4477",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 4477"
         ],
-        "5599": [
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 5599"
+        "4537": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4537"
+        ],
+        "4540": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4540"
+        ],
+        "4577": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4577",
+          "Dezena no sexto prêmio!<br>com o palpite 4577",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 4577"
+        ],
+        "4737": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4737"
+        ],
+        "4740": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4740"
+        ],
+        "4777": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4777",
+          "Dezena no sexto prêmio!<br>com o palpite 4777",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 4777"
+        ],
+        "4937": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4937"
+        ],
+        "4940": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4940"
+        ],
+        "4977": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4977",
+          "Dezena no sexto prêmio!<br>com o palpite 4977",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 4977"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 4,
         "Grupo": [
-          "🦃",
-          "🐄"
+          "🐇",
+          "🦃"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -212,24 +252,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "5597": [
-          "Dezena no segundo prêmio!<br>com o palpite 5597",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 5597"
-        ],
-        "5599": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 5599"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
-        "Grupo": [
-          "🐄"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -283,36 +313,49 @@
         }
       ],
       "frases": {
-        "5570": [
-          "Dezena no quarto prêmio!<br>com o palpite 5570",
-          "PORCO 🐖 no quarto prêmio!<br>com o palpite 5570"
+        "4470": [
+          "Dezena no quarto prêmio!<br>com o palpite 4470",
+          "PORCO 🐖 no quarto prêmio!<br>com o palpite 4470"
         ],
-        "5577": [
-          "Dezena no quinto prêmio!<br>com o palpite 5577",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 5577"
+        "4477": [
+          "Dezena no quinto prêmio!<br>com o palpite 4477",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 4477"
         ],
-        "5579": [
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 5579"
+        "4570": [
+          "Dezena no quarto prêmio!<br>com o palpite 4570",
+          "PORCO 🐖 no quarto prêmio!<br>com o palpite 4570"
         ],
-        "5597": [
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5597"
+        "4577": [
+          "Dezena no quinto prêmio!<br>com o palpite 4577",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 4577"
         ],
-        "5599": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5599",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5599"
+        "4770": [
+          "Dezena no quarto prêmio!<br>com o palpite 4770",
+          "PORCO 🐖 no quarto prêmio!<br>com o palpite 4770"
+        ],
+        "4777": [
+          "Dezena no quinto prêmio!<br>com o palpite 4777",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 4777"
+        ],
+        "4970": [
+          "Dezena no quarto prêmio!<br>com o palpite 4970",
+          "PORCO 🐖 no quarto prêmio!<br>com o palpite 4970"
+        ],
+        "4977": [
+          "Dezena no quinto prêmio!<br>com o palpite 4977",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 4977"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
+        "Dezena": 8,
         "Grupo": [
-          "🐄",
           "🐖",
           "🦃"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -366,32 +409,79 @@
         }
       ],
       "frases": {
-        "5577": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 5577",
-          "Dezena no quarto prêmio!<br>com o palpite 5577",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 5577"
+        "4430": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4430",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 4430"
         ],
-        "5579": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 5579"
+        "4437": [
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4437"
         ],
-        "5597": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 5597"
+        "4440": [
+          "Dezena no quinto prêmio!<br>com o palpite 4440",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4440"
         ],
-        "5599": [
-          "Dezena no segundo prêmio!<br>com o palpite 5599",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 5599"
+        "4477": [
+          "Dezena no quarto prêmio!<br>com o palpite 4477",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 4477"
+        ],
+        "4530": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4530",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 4530"
+        ],
+        "4537": [
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4537"
+        ],
+        "4540": [
+          "Dezena no quinto prêmio!<br>com o palpite 4540",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4540"
+        ],
+        "4577": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 4577",
+          "Dezena no quarto prêmio!<br>com o palpite 4577",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 4577"
+        ],
+        "4730": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4730",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 4730"
+        ],
+        "4737": [
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4737"
+        ],
+        "4740": [
+          "Dezena no quinto prêmio!<br>com o palpite 4740",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4740"
+        ],
+        "4777": [
+          "Dezena no quarto prêmio!<br>com o palpite 4777",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 4777"
+        ],
+        "4930": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4930",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 4930"
+        ],
+        "4937": [
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4937"
+        ],
+        "4940": [
+          "Dezena no quinto prêmio!<br>com o palpite 4940",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4940"
+        ],
+        "4977": [
+          "Dezena no quarto prêmio!<br>com o palpite 4977",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 4977"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 1,
-        "Dezena": 2,
+        "Dezena": 12,
         "Grupo": [
-          "🐄",
-          "🦃"
+          "🐪",
+          "🦃",
+          "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -488,43 +578,46 @@
         }
       ],
       "frases": {
-        "5570": [
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 5570"
+        "4470": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4470"
         ],
-        "5577": [
-          "Dezena no segundo prêmio!<br>com o palpite 5577",
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5577"
+        "4477": [
+          "Dezena no segundo prêmio!<br>com o palpite 4477",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4477"
         ],
-        "5579": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5579"
+        "4570": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4570"
         ],
-        "5590": [
-          "Dezena no oitavo prêmio!<br>com o palpite 5590",
-          "URSO 🐻 no oitavo prêmio!<br>com o palpite 5590"
+        "4577": [
+          "Dezena no segundo prêmio!<br>com o palpite 4577",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4577"
         ],
-        "5597": [
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5597",
-          "VACA 🐄 no nono prêmio!<br>com o palpite 5597"
+        "4770": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4770"
         ],
-        "5599": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5599",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5599",
-          "Dezena no nono prêmio!<br>com o palpite 5599",
-          "VACA 🐄 no nono prêmio!<br>com o palpite 5599"
+        "4777": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 4777",
+          "Dezena no segundo prêmio!<br>com o palpite 4777",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4777"
+        ],
+        "4970": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4970"
+        ],
+        "4977": [
+          "Dezena no segundo prêmio!<br>com o palpite 4977",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4977"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
+        "Centena": 1,
         "Dezena": 4,
         "Grupo": [
           "🦃",
-          "🐄",
-          "🐖",
-          "🐻"
+          "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -596,29 +689,65 @@
         }
       ],
       "frases": {
-        "5577": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5577"
+        "4437": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4437",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 4437"
         ],
-        "5579": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 5579"
+        "4440": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4440",
+          "Dezena no nono prêmio!<br>com o palpite 4440",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 4440"
         ],
-        "5597": [
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 5597"
+        "4477": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4477"
         ],
-        "5599": [
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 5599"
+        "4537": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4537",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 4537"
+        ],
+        "4540": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4540",
+          "Dezena no nono prêmio!<br>com o palpite 4540",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 4540"
+        ],
+        "4577": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4577"
+        ],
+        "4737": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4737",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 4737"
+        ],
+        "4740": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4740",
+          "Dezena no nono prêmio!<br>com o palpite 4740",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 4740"
+        ],
+        "4777": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4777"
+        ],
+        "4937": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4937",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 4937"
+        ],
+        "4940": [
+          "COELHO 🐇 no primeiro prêmio!<br>com o palpite 4940",
+          "Dezena no nono prêmio!<br>com o palpite 4940",
+          "COELHO 🐇 no nono prêmio!<br>com o palpite 4940"
+        ],
+        "4977": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 4977"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 4,
         "Grupo": [
-          "🦃",
-          "🐄"
+          "🐇",
+          "🦃"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -689,28 +818,14 @@
           "Bicho": "Urso"
         }
       ],
-      "frases": {
-        "5590": [
-          "URSO 🐻 no décimo prêmio!<br>com o palpite 5590"
-        ],
-        "5597": [
-          "Dezena no segundo prêmio!<br>com o palpite 5597",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 5597"
-        ],
-        "5599": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 5599"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
-        "Grupo": [
-          "🐄",
-          "🐻"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -782,44 +897,49 @@
         }
       ],
       "frases": {
-        "5570": [
-          "Dezena no quarto prêmio!<br>com o palpite 5570",
-          "PORCO 🐖 no quarto prêmio!<br>com o palpite 5570"
+        "4470": [
+          "Dezena no quarto prêmio!<br>com o palpite 4470",
+          "PORCO 🐖 no quarto prêmio!<br>com o palpite 4470"
         ],
-        "5577": [
-          "Dezena no quinto prêmio!<br>com o palpite 5577",
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 5577"
+        "4477": [
+          "Dezena no quinto prêmio!<br>com o palpite 4477",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 4477"
         ],
-        "5579": [
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 5579"
+        "4570": [
+          "Dezena no quarto prêmio!<br>com o palpite 4570",
+          "PORCO 🐖 no quarto prêmio!<br>com o palpite 4570"
         ],
-        "5590": [
-          "Dezena no nono prêmio!<br>com o palpite 5590",
-          "URSO 🐻 no nono prêmio!<br>com o palpite 5590"
+        "4577": [
+          "Dezena no quinto prêmio!<br>com o palpite 4577",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 4577"
         ],
-        "5597": [
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5597",
-          "Dezena no oitavo prêmio!<br>com o palpite 5597",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 5597"
+        "4770": [
+          "Dezena no quarto prêmio!<br>com o palpite 4770",
+          "PORCO 🐖 no quarto prêmio!<br>com o palpite 4770"
         ],
-        "5599": [
-          "Dezena no terceiro prêmio!<br>com o palpite 5599",
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5599",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 5599"
+        "4777": [
+          "Dezena no quinto prêmio!<br>com o palpite 4777",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 4777"
+        ],
+        "4970": [
+          "Dezena no quarto prêmio!<br>com o palpite 4970",
+          "PORCO 🐖 no quarto prêmio!<br>com o palpite 4970"
+        ],
+        "4977": [
+          "Dezena no quinto prêmio!<br>com o palpite 4977",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 4977"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 5,
+        "Dezena": 8,
         "Grupo": [
-          "🐄",
           "🐖",
-          "🦃",
-          "🐻"
+          "🦃"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -891,32 +1011,92 @@
         }
       ],
       "frases": {
-        "5577": [
-          "Centena e Dezena no quarto prêmio!<br>com o palpite 5577",
-          "Dezena no quarto prêmio!<br>com o palpite 5577",
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 5577"
+        "4430": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4430",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 4430"
         ],
-        "5579": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 5579"
+        "4437": [
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4437",
+          "Dezena no oitavo prêmio!<br>com o palpite 4437",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 4437"
         ],
-        "5597": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 5597"
+        "4440": [
+          "Dezena no quinto prêmio!<br>com o palpite 4440",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4440",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 4440"
         ],
-        "5599": [
-          "Dezena no segundo prêmio!<br>com o palpite 5599",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 5599"
+        "4477": [
+          "Dezena no quarto prêmio!<br>com o palpite 4477",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 4477"
+        ],
+        "4530": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4530",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 4530"
+        ],
+        "4537": [
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4537",
+          "Dezena no oitavo prêmio!<br>com o palpite 4537",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 4537"
+        ],
+        "4540": [
+          "Dezena no quinto prêmio!<br>com o palpite 4540",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4540",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 4540"
+        ],
+        "4577": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 4577",
+          "Dezena no quarto prêmio!<br>com o palpite 4577",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 4577"
+        ],
+        "4730": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4730",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 4730"
+        ],
+        "4737": [
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4737",
+          "Dezena no oitavo prêmio!<br>com o palpite 4737",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 4737"
+        ],
+        "4740": [
+          "Dezena no quinto prêmio!<br>com o palpite 4740",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4740",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 4740"
+        ],
+        "4777": [
+          "Dezena no quarto prêmio!<br>com o palpite 4777",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 4777"
+        ],
+        "4930": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4930",
+          "CAMELO 🐪 no terceiro prêmio!<br>com o palpite 4930"
+        ],
+        "4937": [
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4937",
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 4937",
+          "Dezena no oitavo prêmio!<br>com o palpite 4937",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 4937"
+        ],
+        "4940": [
+          "Dezena no quinto prêmio!<br>com o palpite 4940",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 4940",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 4940"
+        ],
+        "4977": [
+          "Dezena no quarto prêmio!<br>com o palpite 4977",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 4977"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 2,
+        "Centena": 2,
+        "Dezena": 16,
         "Grupo": [
-          "🐄",
-          "🦃"
+          "🐪",
+          "🦃",
+          "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
