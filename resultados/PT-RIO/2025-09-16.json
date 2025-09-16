@@ -55,29 +55,19 @@
         "9700": [
           "VACA 🐄 no terceiro prêmio!<br>com o palpite 9700"
         ],
-        "9709": [
-          "Dezena no quarto prêmio!<br>com o palpite 9709",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 9709"
-        ],
-        "9770": [
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 9770"
-        ],
-        "9779": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 9779"
+        "9800": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 9800"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🦃",
-          "🐄",
-          "🐴",
-          "🐖"
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9700, 9709, 9770, 9779"
+      "resumo": "Palpites dados para esta extração: 9700, 9750, 9800, 9850"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -135,21 +125,20 @@
           "Dezena no quarto prêmio!<br>com o palpite 9700",
           "VACA 🐄 no quarto prêmio!<br>com o palpite 9700"
         ],
-        "9779": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 9779",
-          "PERU 🦃 no sexto prêmio!<br>com o palpite 9779"
+        "9800": [
+          "Dezena no quarto prêmio!<br>com o palpite 9800",
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 9800"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 2,
         "Grupo": [
-          "🦃",
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9700, 9709, 9770, 9779"
+      "resumo": "Palpites dados para esta extração: 9700, 9750, 9800, 9850"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -250,29 +239,20 @@
           "VACA 🐄 no terceiro prêmio!<br>com o palpite 9700",
           "VACA 🐄 no nono prêmio!<br>com o palpite 9700"
         ],
-        "9709": [
-          "Dezena no quarto prêmio!<br>com o palpite 9709",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 9709"
-        ],
-        "9770": [
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 9770"
-        ],
-        "9779": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 9779"
+        "9800": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 9800",
+          "VACA 🐄 no nono prêmio!<br>com o palpite 9800"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🦃",
-          "🐄",
-          "🐴",
-          "🐖"
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9700, 9709, 9770, 9779"
+      "resumo": "Palpites dados para esta extração: 9700, 9750, 9800, 9850"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -348,20 +328,30 @@
           "Dezena no quarto prêmio!<br>com o palpite 9700",
           "VACA 🐄 no quarto prêmio!<br>com o palpite 9700"
         ],
-        "9779": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 9779"
+        "9750": [
+          "Centena e Dezena no oitavo prêmio!<br>com o palpite 9750",
+          "Dezena no oitavo prêmio!<br>com o palpite 9750",
+          "GALO 🐓 no oitavo prêmio!<br>com o palpite 9750"
+        ],
+        "9800": [
+          "Dezena no quarto prêmio!<br>com o palpite 9800",
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 9800"
+        ],
+        "9850": [
+          "Dezena no oitavo prêmio!<br>com o palpite 9850",
+          "GALO 🐓 no oitavo prêmio!<br>com o palpite 9850"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 1,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
-          "🦃",
-          "🐄"
+          "🐄",
+          "🐓"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9700, 9709, 9770, 9779"
+      "resumo": "Palpites dados para esta extração: 9700, 9750, 9800, 9850"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
