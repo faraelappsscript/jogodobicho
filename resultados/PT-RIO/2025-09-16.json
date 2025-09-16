@@ -52,6 +52,16 @@
         }
       ],
       "frases": {
+        "5570": [
+          "PORCO 🐖 no quinto prêmio!<br>com o palpite 5570"
+        ],
+        "5577": [
+          "Dezena no segundo prêmio!<br>com o palpite 5577",
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5577"
+        ],
+        "5579": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5579"
+        ],
         "5597": [
           "VACA 🐄 no terceiro prêmio!<br>com o palpite 5597"
         ],
@@ -63,12 +73,14 @@
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 2,
         "Grupo": [
-          "🐄"
+          "🦃",
+          "🐄",
+          "🐖"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5590, 5596, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -122,6 +134,15 @@
         }
       ],
       "frases": {
+        "5577": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5577",
+          "Dezena no sexto prêmio!<br>com o palpite 5577",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 5577"
+        ],
+        "5579": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 5579",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 5579"
+        ],
         "5597": [
           "VACA 🐄 no quarto prêmio!<br>com o palpite 5597"
         ],
@@ -132,12 +153,13 @@
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
+          "🦃",
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5590, 5596, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -207,7 +229,7 @@
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5590, 5596, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -261,6 +283,17 @@
         }
       ],
       "frases": {
+        "5570": [
+          "Dezena no quarto prêmio!<br>com o palpite 5570",
+          "PORCO 🐖 no quarto prêmio!<br>com o palpite 5570"
+        ],
+        "5577": [
+          "Dezena no quinto prêmio!<br>com o palpite 5577",
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 5577"
+        ],
+        "5579": [
+          "PERU 🦃 no quinto prêmio!<br>com o palpite 5579"
+        ],
         "5597": [
           "VACA 🐄 no terceiro prêmio!<br>com o palpite 5597"
         ],
@@ -272,12 +305,14 @@
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 3,
         "Grupo": [
-          "🐄"
+          "🐄",
+          "🐖",
+          "🦃"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5590, 5596, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -331,8 +366,13 @@
         }
       ],
       "frases": {
-        "5596": [
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 5596"
+        "5577": [
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 5577",
+          "Dezena no quarto prêmio!<br>com o palpite 5577",
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 5577"
+        ],
+        "5579": [
+          "PERU 🦃 no quarto prêmio!<br>com o palpite 5579"
         ],
         "5597": [
           "VACA 🐄 no segundo prêmio!<br>com o palpite 5597"
@@ -344,14 +384,14 @@
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 1,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
           "🐄",
-          "🦌"
+          "🦃"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 5590, 5596, 5597, 5599"
+      "resumo": "Palpites dados para esta extração: 5570, 5577, 5579, 5590, 5597, 5599"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
