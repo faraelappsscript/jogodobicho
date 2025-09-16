@@ -81,6 +81,77 @@
         "Bicho"
       ],
       "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9539",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1878",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5754",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8600",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9306",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "5077",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "914",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "2779": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 2779",
+          "PERU 🦃 no sexto prêmio!<br>com o palpite 2779"
+        ],
+        "2799": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 2799"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦃",
+          "🐄"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2779, 2799"
+    },
+    "PT-RIO, RJ, 14:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
         {},
         {},
         {},
@@ -193,6 +264,94 @@
       "resumo": "Palpites dados para esta extração: 2779, 2799"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "9539",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "1878",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5754",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8600",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "9306",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "9158",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "5876",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "3750",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "9840",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "3701",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        }
+      ],
+      "frases": {
+        "2779": [
+          "PERU 🦃 no segundo prêmio!<br>com o palpite 2779"
+        ],
+        "2799": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 2799"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦃",
+          "🐄"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2779, 2799"
+    },
+    "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
