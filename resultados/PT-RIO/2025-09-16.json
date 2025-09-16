@@ -52,25 +52,23 @@
         }
       ],
       "frases": {
-        "3711": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3711"
+        "5597": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5597"
         ],
-        "4711": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 4711"
-        ],
-        "0711": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0711"
+        "5599": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5599",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5599"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 1,
         "Grupo": [
-          "🐴"
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0711, 3711, 4711"
+      "resumo": "Palpites dados para esta extração: 5590, 5596, 5597, 5599"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -123,14 +121,23 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "5597": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 5597"
+        ],
+        "5599": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 5599"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐄"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0711, 3711, 4711"
+      "resumo": "Palpites dados para esta extração: 5590, 5596, 5597, 5599"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -184,31 +191,23 @@
         }
       ],
       "frases": {
-        "3711": [
-          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 3711",
-          "Dezena no quarto prêmio!<br>com o palpite 3711",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 3711"
+        "5597": [
+          "Dezena no segundo prêmio!<br>com o palpite 5597",
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 5597"
         ],
-        "4711": [
-          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 4711",
-          "Dezena no quarto prêmio!<br>com o palpite 4711",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 4711"
-        ],
-        "0711": [
-          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 0711",
-          "Dezena no quarto prêmio!<br>com o palpite 0711",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0711"
+        "5599": [
+          "VACA 🐄 no segundo prêmio!<br>com o palpite 5599"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 3,
+        "Dezena": 1,
         "Grupo": [
-          "🐴"
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0711, 3711, 4711"
+      "resumo": "Palpites dados para esta extração: 5590, 5596, 5597, 5599"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -261,14 +260,24 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "5597": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5597"
+        ],
+        "5599": [
+          "Dezena no terceiro prêmio!<br>com o palpite 5599",
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 5599"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 1,
+        "Grupo": [
+          "🐄"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0711, 3711, 4711"
+      "resumo": "Palpites dados para esta extração: 5590, 5596, 5597, 5599"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
