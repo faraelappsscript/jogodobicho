@@ -175,25 +175,23 @@
         }
       ],
       "frases": {
-        "1019": [
-          "Dezena no primeiro prêmio!<br>com o palpite 1019",
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1019"
+        "1939": [
+          "Dezena no quinto prêmio!<br>com o palpite 1939",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 1939",
+          "Dezena no oitavo prêmio!<br>com o palpite 1939",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 1939"
         ],
-        "1039": [
-          "Dezena no quinto prêmio!<br>com o palpite 1039",
-          "COELHO 🐇 no quinto prêmio!<br>com o palpite 1039",
-          "Dezena no oitavo prêmio!<br>com o palpite 1039",
-          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 1039"
+        "9939": [
+          "Dezena no quinto prêmio!<br>com o palpite 9939",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 9939",
+          "Dezena no oitavo prêmio!<br>com o palpite 9939",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 9939"
         ],
-        "9019": [
-          "Dezena no primeiro prêmio!<br>com o palpite 9019",
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 9019"
-        ],
-        "9039": [
-          "Dezena no quinto prêmio!<br>com o palpite 9039",
-          "COELHO 🐇 no quinto prêmio!<br>com o palpite 9039",
-          "Dezena no oitavo prêmio!<br>com o palpite 9039",
-          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 9039"
+        "0939": [
+          "Dezena no quinto prêmio!<br>com o palpite 0939",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 0939",
+          "Dezena no oitavo prêmio!<br>com o palpite 0939",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 0939"
         ]
       },
       "acertos": {
@@ -201,11 +199,10 @@
         "Centena": 0,
         "Dezena": 6,
         "Grupo": [
-          "🐕",
           "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1009, 1019, 1039, 1069, 9009, 9019, 9039, 9069"
+      "resumo": "Palpites dados para esta extração: 0939, 1939, 9939"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
