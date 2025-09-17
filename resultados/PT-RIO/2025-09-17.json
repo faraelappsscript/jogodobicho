@@ -52,27 +52,33 @@
         }
       ],
       "frases": {
-        "9003": [
-          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 9003"
+        "1019": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1019",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1019"
         ],
-        "9018": [
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 9018"
+        "1039": [
+          "Dezena no quinto prêmio!<br>com o palpite 1039",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 1039"
         ],
         "9019": [
           "Dezena no primeiro prêmio!<br>com o palpite 9019",
           "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 9019"
+        ],
+        "9039": [
+          "Dezena no quinto prêmio!<br>com o palpite 9039",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 9039"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 4,
         "Grupo": [
           "🐕",
-          "🪶"
+          "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9000, 9003, 9008, 9009, 9010, 9013, 9018, 9019"
+      "resumo": "Palpites dados para esta extração: 1009, 1019, 1039, 1069, 9009, 9019, 9039, 9069"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -169,27 +175,37 @@
         }
       ],
       "frases": {
-        "9000": [
-          "VACA 🐄 no sétimo prêmio!<br>com o palpite 9000"
+        "1019": [
+          "Dezena no primeiro prêmio!<br>com o palpite 1019",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1019"
         ],
-        "9018": [
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 9018"
+        "1039": [
+          "Dezena no quinto prêmio!<br>com o palpite 1039",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 1039",
+          "Dezena no oitavo prêmio!<br>com o palpite 1039",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 1039"
         ],
         "9019": [
           "Dezena no primeiro prêmio!<br>com o palpite 9019",
           "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 9019"
+        ],
+        "9039": [
+          "Dezena no quinto prêmio!<br>com o palpite 9039",
+          "COELHO 🐇 no quinto prêmio!<br>com o palpite 9039",
+          "Dezena no oitavo prêmio!<br>com o palpite 9039",
+          "COELHO 🐇 no oitavo prêmio!<br>com o palpite 9039"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 6,
         "Grupo": [
           "🐕",
-          "🐄"
+          "🐇"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 9000, 9003, 9008, 9009, 9010, 9013, 9018, 9019"
+      "resumo": "Palpites dados para esta extração: 1009, 1019, 1039, 1069, 9009, 9019, 9039, 9069"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
