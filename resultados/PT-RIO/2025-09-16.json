@@ -491,11 +491,48 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "4912",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0308",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1760",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9803",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5016",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "1799",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "512",
+          "Grupo": "",
+          "Bicho": ""
+        }
       ],
       "frases": {},
       "acertos": {
@@ -504,7 +541,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     }
   },
   "1-10": {
@@ -1106,25 +1143,90 @@
         "Bicho"
       ],
       "dados": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "Prêmio": "1º",
+          "Milhar": "4912",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0308",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "1760",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "9803",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5016",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "4019",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "9378",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "1060",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "2803",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "9059",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        }
       ],
-      "frases": {},
+      "frases": {
+        "4477": [
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 4477"
+        ],
+        "4577": [
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 4577"
+        ],
+        "4777": [
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 4777"
+        ],
+        "4977": [
+          "PERU 🦃 no sétimo prêmio!<br>com o palpite 4977"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦃"
+        ]
       },
-      "resumo": ""
+      "resumo": "Palpites dados para esta extração: 4430, 4437, 4440, 4447, 4470, 4477, 4530, 4537, 4540, 4547, 4570, 4577, 4730, 4737, 4740, 4747, 4770, 4777, 4930, 4937, 4940, 4947, 4970, 4977"
     }
   }
 }
