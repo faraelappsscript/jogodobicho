@@ -534,23 +534,6 @@
         }
       ],
       "frases": {
-        "4000": [
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 4000",
-          "VACA 🐄 no nono prêmio!<br>com o palpite 4000"
-        ],
-        "4009": [
-          "Dezena no quarto prêmio!<br>com o palpite 4009",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 4009"
-        ],
-        "4010": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 4010"
-        ],
-        "4070": [
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 4070"
-        ],
-        "4079": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 4079"
-        ],
         "9000": [
           "VACA 🐄 no terceiro prêmio!<br>com o palpite 9000",
           "VACA 🐄 no nono prêmio!<br>com o palpite 9000"
@@ -562,25 +545,21 @@
         "9010": [
           "BURRO 🐴 no quarto prêmio!<br>com o palpite 9010"
         ],
-        "9070": [
-          "PORCO 🐖 no quinto prêmio!<br>com o palpite 9070"
-        ],
-        "9079": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 9079"
+        "9013": [
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 9013"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 1,
         "Grupo": [
-          "🦃",
           "🐄",
           "🐴",
-          "🐖"
+          "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4000, 4009, 4010, 4019, 4070, 4079, 9000, 9009, 9010, 9019, 9070, 9079"
+      "resumo": "Palpites dados para esta extração: 9000, 9003, 9008, 9009, 9010, 9013, 9018, 9019"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -652,31 +631,28 @@
         }
       ],
       "frases": {
-        "4000": [
-          "Dezena no quarto prêmio!<br>com o palpite 4000",
-          "VACA 🐄 no quarto prêmio!<br>com o palpite 4000"
-        ],
-        "4079": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 4079"
-        ],
         "9000": [
           "Dezena no quarto prêmio!<br>com o palpite 9000",
           "VACA 🐄 no quarto prêmio!<br>com o palpite 9000"
         ],
-        "9079": [
-          "PERU 🦃 no segundo prêmio!<br>com o palpite 9079"
+        "9003": [
+          "AVESTRUZ 🪶 no décimo prêmio!<br>com o palpite 9003"
+        ],
+        "9008": [
+          "ÁGUIA 🦅 no quinto prêmio!<br>com o palpite 9008"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 1,
         "Grupo": [
-          "🦃",
-          "🐄"
+          "🐄",
+          "🦅",
+          "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4000, 4009, 4010, 4019, 4070, 4079, 9000, 9009, 9010, 9019, 9070, 9079"
+      "resumo": "Palpites dados para esta extração: 9000, 9003, 9008, 9009, 9010, 9013, 9018, 9019"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -748,25 +724,12 @@
         }
       ],
       "frases": {
-        "4000": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 4000"
-        ],
-        "4009": [
-          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 4009",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 4009",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 4009"
-        ],
-        "4010": [
-          "BURRO 🐴 no terceiro prêmio!<br>com o palpite 4010",
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 4010",
-          "BURRO 🐴 no oitavo prêmio!<br>com o palpite 4010"
-        ],
-        "4019": [
-          "Dezena no sétimo prêmio!<br>com o palpite 4019",
-          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 4019"
-        ],
         "9000": [
           "VACA 🐄 no segundo prêmio!<br>com o palpite 9000"
+        ],
+        "9008": [
+          "Dezena no sexto prêmio!<br>com o palpite 9008",
+          "ÁGUIA 🦅 no sexto prêmio!<br>com o palpite 9008"
         ],
         "9009": [
           "BURRO 🐴 no terceiro prêmio!<br>com o palpite 9009",
@@ -777,6 +740,9 @@
           "BURRO 🐴 no terceiro prêmio!<br>com o palpite 9010",
           "BURRO 🐴 no quarto prêmio!<br>com o palpite 9010",
           "BURRO 🐴 no oitavo prêmio!<br>com o palpite 9010"
+        ],
+        "9018": [
+          "CACHORRO 🐕 no sétimo prêmio!<br>com o palpite 9018"
         ],
         "9019": [
           "Dezena no sétimo prêmio!<br>com o palpite 9019",
@@ -790,10 +756,11 @@
         "Grupo": [
           "🐄",
           "🐴",
+          "🦅",
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4000, 4009, 4010, 4019, 4070, 4079, 9000, 9009, 9010, 9019, 9070, 9079"
+      "resumo": "Palpites dados para esta extração: 9000, 9003, 9008, 9009, 9010, 9013, 9018, 9019"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -865,40 +832,29 @@
         }
       ],
       "frases": {
-        "4000": [
-          "VACA 🐄 no terceiro prêmio!<br>com o palpite 4000",
-          "VACA 🐄 no oitavo prêmio!<br>com o palpite 4000"
-        ],
-        "4070": [
-          "Dezena no quarto prêmio!<br>com o palpite 4070",
-          "PORCO 🐖 no quarto prêmio!<br>com o palpite 4070"
-        ],
-        "4079": [
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 4079"
-        ],
         "9000": [
           "VACA 🐄 no terceiro prêmio!<br>com o palpite 9000",
           "VACA 🐄 no oitavo prêmio!<br>com o palpite 9000"
         ],
-        "9070": [
-          "Dezena no quarto prêmio!<br>com o palpite 9070",
-          "PORCO 🐖 no quarto prêmio!<br>com o palpite 9070"
+        "9003": [
+          "Dezena no segundo prêmio!<br>com o palpite 9003",
+          "AVESTRUZ 🪶 no segundo prêmio!<br>com o palpite 9003"
         ],
-        "9079": [
-          "PERU 🦃 no quinto prêmio!<br>com o palpite 9079"
+        "9013": [
+          "BORBOLETA 🦋 no décimo prêmio!<br>com o palpite 9013"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 1,
         "Grupo": [
+          "🪶",
           "🐄",
-          "🐖",
-          "🦃"
+          "🦋"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4000, 4009, 4010, 4019, 4070, 4079, 9000, 9009, 9010, 9019, 9070, 9079"
+      "resumo": "Palpites dados para esta extração: 9000, 9003, 9008, 9009, 9010, 9013, 9018, 9019"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -970,23 +926,20 @@
         }
       ],
       "frases": {
-        "4000": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 4000"
-        ],
-        "4019": [
-          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 4019"
-        ],
-        "4079": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 4079"
-        ],
         "9000": [
           "VACA 🐄 no segundo prêmio!<br>com o palpite 9000"
         ],
+        "9008": [
+          "ÁGUIA 🦅 no nono prêmio!<br>com o palpite 9008"
+        ],
+        "9013": [
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 9013"
+        ],
+        "9018": [
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 9018"
+        ],
         "9019": [
           "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 9019"
-        ],
-        "9079": [
-          "PERU 🦃 no quarto prêmio!<br>com o palpite 9079"
         ]
       },
       "acertos": {
@@ -996,10 +949,11 @@
         "Grupo": [
           "🐕",
           "🐄",
-          "🦃"
+          "🦋",
+          "🦅"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4000, 4009, 4010, 4019, 4070, 4079, 9000, 9009, 9010, 9019, 9070, 9079"
+      "resumo": "Palpites dados para esta extração: 9000, 9003, 9008, 9009, 9010, 9013, 9018, 9019"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
@@ -1071,20 +1025,15 @@
         }
       ],
       "frases": {
-        "4009": [
-          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 4009"
+        "9003": [
+          "Dezena no quarto prêmio!<br>com o palpite 9003",
+          "AVESTRUZ 🪶 no quarto prêmio!<br>com o palpite 9003",
+          "Dezena no nono prêmio!<br>com o palpite 9003",
+          "AVESTRUZ 🪶 no nono prêmio!<br>com o palpite 9003"
         ],
-        "4010": [
-          "BURRO 🐴 no primeiro prêmio!<br>com o palpite 4010"
-        ],
-        "4019": [
-          "Milhar e Centena no sexto prêmio!<br>com o palpite 4019",
-          "Centena e Dezena no sexto prêmio!<br>com o palpite 4019",
-          "Dezena no sexto prêmio!<br>com o palpite 4019",
-          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 4019"
-        ],
-        "4079": [
-          "PERU 🦃 no sétimo prêmio!<br>com o palpite 4079"
+        "9008": [
+          "Dezena no segundo prêmio!<br>com o palpite 9008",
+          "ÁGUIA 🦅 no segundo prêmio!<br>com o palpite 9008"
         ],
         "9009": [
           "BURRO 🐴 no primeiro prêmio!<br>com o palpite 9009"
@@ -1092,26 +1041,31 @@
         "9010": [
           "BURRO 🐴 no primeiro prêmio!<br>com o palpite 9010"
         ],
+        "9013": [
+          "BORBOLETA 🦋 no quinto prêmio!<br>com o palpite 9013"
+        ],
+        "9018": [
+          "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 9018"
+        ],
         "9019": [
           "Centena e Dezena no sexto prêmio!<br>com o palpite 9019",
           "Dezena no sexto prêmio!<br>com o palpite 9019",
           "CACHORRO 🐕 no sexto prêmio!<br>com o palpite 9019"
-        ],
-        "9079": [
-          "PERU 🦃 no sétimo prêmio!<br>com o palpite 9079"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 2,
-        "Dezena": 2,
+        "Milhar": 0,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
           "🐴",
-          "🐕",
-          "🦃"
+          "🦅",
+          "🪶",
+          "🦋",
+          "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4000, 4009, 4010, 4019, 4070, 4079, 9000, 9009, 9010, 9019, 9070, 9079"
+      "resumo": "Palpites dados para esta extração: 9000, 9003, 9008, 9009, 9010, 9013, 9018, 9019"
     }
   }
 }
