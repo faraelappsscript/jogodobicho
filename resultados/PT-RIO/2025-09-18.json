@@ -111,14 +111,41 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "1003": [
+          "Dezena no quinto prêmio!<br>com o palpite 1003",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 1003"
+        ],
+        "1603": [
+          "Dezena no quinto prêmio!<br>com o palpite 1603",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 1603"
+        ],
+        "2003": [
+          "Dezena no quinto prêmio!<br>com o palpite 2003",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 2003"
+        ],
+        "2603": [
+          "Dezena no quinto prêmio!<br>com o palpite 2603",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 2603"
+        ],
+        "7003": [
+          "Dezena no quinto prêmio!<br>com o palpite 7003",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7003"
+        ],
+        "7603": [
+          "Dezena no quinto prêmio!<br>com o palpite 7603",
+          "AVESTRUZ 🪶 no quinto prêmio!<br>com o palpite 7603"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 6,
+        "Grupo": [
+          "🪶"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 1663, 1666, 1683, 1686, 4663, 4666, 4683, 4686, 6663, 6666, 6683, 6686, 7663, 7666, 7683, 7686"
+      "resumo": "Palpites dados para esta extração: 1003, 1603, 2003, 2603, 7003, 7603"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
