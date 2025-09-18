@@ -279,55 +279,66 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7443",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "1494",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "2337",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "0216",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "2503",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "6267",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "4740",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "2165",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "6569",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "2134",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "3592",
+          "Milhar": "2276",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "394",
+          "Milhar": "322",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "6016": [
+          "Dezena no segundo prêmio!<br>com o palpite 6016",
+          "BORBOLETA 🦋 no segundo prêmio!<br>com o palpite 6016"
+        ],
+        "6096": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 6096"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 1,
+        "Grupo": [
+          "🦌",
+          "🦋"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
+      "resumo": "Palpites dados para esta extração: 6016, 6018, 6019, 6096, 6098, 6099"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -421,6 +432,29 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
+    },
+    "PT-RIO, RJ, 18:20, PTN": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   },
   "1-10": {
@@ -783,73 +817,91 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "7443",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "1494",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "2337",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "0216",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "2503",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "6267",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "4740",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "2165",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "6569",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "2134",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "7224",
+          "Milhar": "1062",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "4221",
           "Grupo": "06",
           "Bicho": "Cabra"
         },
         {
-          "Prêmio": "7º",
-          "Milhar": "4357",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
-        },
-        {
           "Prêmio": "8º",
-          "Milhar": "4304",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "9166",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "3730",
-          "Grupo": "08",
-          "Bicho": "Camelo"
+          "Milhar": "4675",
+          "Grupo": "19",
+          "Bicho": "Pavão"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "3207",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "1400",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         }
       ],
-      "frases": {},
+      "frases": {
+        "6016": [
+          "Dezena no segundo prêmio!<br>com o palpite 6016",
+          "BORBOLETA 🦋 no segundo prêmio!<br>com o palpite 6016"
+        ],
+        "6096": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 6096"
+        ],
+        "6098": [
+          "VACA 🐄 no décimo prêmio!<br>com o palpite 6098"
+        ],
+        "6099": [
+          "VACA 🐄 no décimo prêmio!<br>com o palpite 6099"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+        "Dezena": 1,
+        "Grupo": [
+          "🦌",
+          "🦋",
+          "🐄"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
+      "resumo": "Palpites dados para esta extração: 6016, 6018, 6019, 6096, 6098, 6099"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
@@ -967,6 +1019,34 @@
         ]
       },
       "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
+    },
+    "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   }
 }
