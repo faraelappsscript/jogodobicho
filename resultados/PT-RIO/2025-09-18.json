@@ -111,20 +111,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "6016": [
-          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 6016"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🦋"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6016, 6018, 6019, 6096, 6098, 6099"
+      "resumo": "Palpites dados para esta extração: 1164, 1165, 1166, 1264, 1265, 1266"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -177,20 +171,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "6096": [
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 6096"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🦌"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6016, 6018, 6019, 6096, 6098, 6099"
+      "resumo": "Palpites dados para esta extração: 1164, 1165, 1166, 1264, 1265, 1266"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -243,31 +231,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "6018": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 6018"
-        ],
-        "6019": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 6019"
-        ],
-        "6098": [
-          "Dezena no segundo prêmio!<br>com o palpite 6098",
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 6098"
-        ],
-        "6099": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 6099"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
-        "Grupo": [
-          "🐄",
-          "🐕"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6016, 6018, 6019, 6096, 6098, 6099"
+      "resumo": "Palpites dados para esta extração: 1164, 1165, 1166, 1264, 1265, 1266"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -321,24 +292,35 @@
         }
       ],
       "frases": {
-        "6016": [
-          "Dezena no segundo prêmio!<br>com o palpite 6016",
-          "BORBOLETA 🦋 no segundo prêmio!<br>com o palpite 6016"
+        "1165": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 1165",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 1165",
+          "Dezena no quarto prêmio!<br>com o palpite 1165",
+          "MACACO 🐒 no quarto prêmio!<br>com o palpite 1165"
         ],
-        "6096": [
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 6096"
+        "1166": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 1166",
+          "MACACO 🐒 no quarto prêmio!<br>com o palpite 1166"
+        ],
+        "1265": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 1265",
+          "Dezena no quarto prêmio!<br>com o palpite 1265",
+          "MACACO 🐒 no quarto prêmio!<br>com o palpite 1265"
+        ],
+        "1266": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 1266",
+          "MACACO 🐒 no quarto prêmio!<br>com o palpite 1266"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 1,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
-          "🦌",
-          "🦋"
+          "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 6016, 6018, 6019, 6096, 6098, 6099"
+      "resumo": "Palpites dados para esta extração: 1164, 1165, 1166, 1264, 1265, 1266"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -606,32 +588,11 @@
         }
       ],
       "frases": {
-        "1064": [
-          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 1064"
-        ],
         "1164": [
           "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 1164"
         ],
         "1264": [
           "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 1264"
-        ],
-        "6064": [
-          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 6064"
-        ],
-        "6164": [
-          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 6164"
-        ],
-        "6264": [
-          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 6264"
-        ],
-        "0064": [
-          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 0064"
-        ],
-        "0164": [
-          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 0164"
-        ],
-        "0264": [
-          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 0264"
         ]
       },
       "acertos": {
@@ -642,7 +603,7 @@
           "🦁"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0064, 0066, 0164, 0166, 0264, 0266, 1064, 1066, 1164, 1166, 1264, 1266, 6064, 6066, 6164, 6166, 6264, 6266"
+      "resumo": "Palpites dados para esta extração: 1164, 1165, 1166, 1264, 1265, 1266"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -714,32 +675,11 @@
         }
       ],
       "frases": {
-        "1064": [
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 1064"
-        ],
         "1164": [
           "LEÃO 🦁 no décimo prêmio!<br>com o palpite 1164"
         ],
         "1264": [
           "LEÃO 🦁 no décimo prêmio!<br>com o palpite 1264"
-        ],
-        "6064": [
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 6064"
-        ],
-        "6164": [
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 6164"
-        ],
-        "6264": [
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 6264"
-        ],
-        "0064": [
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 0064"
-        ],
-        "0164": [
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 0164"
-        ],
-        "0264": [
-          "LEÃO 🦁 no décimo prêmio!<br>com o palpite 0264"
         ]
       },
       "acertos": {
@@ -750,7 +690,7 @@
           "🦁"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0064, 0066, 0164, 0166, 0264, 0266, 1064, 1066, 1164, 1166, 1264, 1266, 6064, 6066, 6164, 6166, 6264, 6266"
+      "resumo": "Palpites dados para esta extração: 1164, 1165, 1166, 1264, 1265, 1266"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -828,7 +768,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0064, 0066, 0164, 0166, 0264, 0266, 1064, 1066, 1164, 1166, 1264, 1266, 6064, 6066, 6164, 6166, 6264, 6266"
+      "resumo": "Palpites dados para esta extração: 1164, 1165, 1166, 1264, 1265, 1266"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -900,17 +840,15 @@
         }
       ],
       "frases": {
-        "1064": [
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 1064"
-        ],
-        "1066": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 1066",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 1066",
-          "Dezena no oitavo prêmio!<br>com o palpite 1066",
-          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 1066"
-        ],
         "1164": [
           "LEÃO 🦁 no sexto prêmio!<br>com o palpite 1164"
+        ],
+        "1165": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 1165",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 1165",
+          "Dezena no quarto prêmio!<br>com o palpite 1165",
+          "MACACO 🐒 no quarto prêmio!<br>com o palpite 1165",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 1165"
         ],
         "1166": [
           "MACACO 🐒 no terceiro prêmio!<br>com o palpite 1166",
@@ -922,79 +860,29 @@
         "1264": [
           "LEÃO 🦁 no sexto prêmio!<br>com o palpite 1264"
         ],
+        "1265": [
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 1265",
+          "Dezena no quarto prêmio!<br>com o palpite 1265",
+          "MACACO 🐒 no quarto prêmio!<br>com o palpite 1265",
+          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 1265"
+        ],
         "1266": [
           "MACACO 🐒 no terceiro prêmio!<br>com o palpite 1266",
           "MACACO 🐒 no quarto prêmio!<br>com o palpite 1266",
           "Dezena no oitavo prêmio!<br>com o palpite 1266",
           "MACACO 🐒 no oitavo prêmio!<br>com o palpite 1266"
-        ],
-        "6064": [
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 6064"
-        ],
-        "6066": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 6066",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 6066",
-          "Dezena no oitavo prêmio!<br>com o palpite 6066",
-          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 6066"
-        ],
-        "6164": [
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 6164"
-        ],
-        "6166": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 6166",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 6166",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 6166",
-          "Dezena no oitavo prêmio!<br>com o palpite 6166",
-          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 6166"
-        ],
-        "6264": [
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 6264"
-        ],
-        "6266": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 6266",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 6266",
-          "Dezena no oitavo prêmio!<br>com o palpite 6266",
-          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 6266"
-        ],
-        "0066": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 0066",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 0066",
-          "Dezena no oitavo prêmio!<br>com o palpite 0066",
-          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 0066"
-        ],
-        "0166": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 0166",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 0166",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 0166",
-          "Dezena no oitavo prêmio!<br>com o palpite 0166",
-          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 0166"
-        ],
-        "0266": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 0266",
-          "MACACO 🐒 no quarto prêmio!<br>com o palpite 0266",
-          "Dezena no oitavo prêmio!<br>com o palpite 0266",
-          "MACACO 🐒 no oitavo prêmio!<br>com o palpite 0266"
-        ],
-        "0064": [
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 0064"
-        ],
-        "0164": [
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 0164"
-        ],
-        "0264": [
-          "LEÃO 🦁 no sexto prêmio!<br>com o palpite 0264"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 3,
-        "Dezena": 9,
+        "Centena": 2,
+        "Dezena": 4,
         "Grupo": [
           "🐒",
           "🦁"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0064, 0066, 0164, 0166, 0264, 0266, 1064, 1066, 1164, 1166, 1264, 1266, 6064, 6066, 6164, 6166, 6264, 6266"
+      "resumo": "Palpites dados para esta extração: 1164, 1165, 1166, 1264, 1265, 1266"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
