@@ -52,30 +52,29 @@
         }
       ],
       "frases": {
-        "4366": [
-          "Dezena no sexto prêmio!<br>com o palpite 4366",
-          "MACACO 🐒 no sexto prêmio!<br>com o palpite 4366"
-        ],
-        "4367": [
-          "MACACO 🐒 no sexto prêmio!<br>com o palpite 4367"
-        ],
         "6366": [
           "Dezena no sexto prêmio!<br>com o palpite 6366",
           "MACACO 🐒 no sexto prêmio!<br>com o palpite 6366"
         ],
-        "6367": [
-          "MACACO 🐒 no sexto prêmio!<br>com o palpite 6367"
+        "6666": [
+          "Dezena no sexto prêmio!<br>com o palpite 6666",
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 6666"
+        ],
+        "6966": [
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 6966",
+          "Dezena no sexto prêmio!<br>com o palpite 6966",
+          "MACACO 🐒 no sexto prêmio!<br>com o palpite 6966"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 2,
+        "Centena": 1,
+        "Dezena": 3,
         "Grupo": [
           "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4363, 4364, 4366, 4367, 4383, 4384, 4386, 4387, 6363, 6364, 6366, 6367, 6383, 6384, 6386, 6387"
+      "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -128,29 +127,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "4383": [
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 4383"
-        ],
-        "4384": [
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 4384"
-        ],
-        "6383": [
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 6383"
-        ],
-        "6384": [
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 6384"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐂"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4363, 4364, 4366, 4367, 4383, 4384, 4386, 4387, 6363, 6364, 6366, 6367, 6383, 6384, 6386, 6387"
+      "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -203,48 +187,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "4363": [
-          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 4363",
-          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 4363"
-        ],
-        "4364": [
-          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 4364",
-          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 4364"
-        ],
-        "4383": [
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 4383"
-        ],
-        "4384": [
-          "Dezena no sétimo prêmio!<br>com o palpite 4384",
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 4384"
-        ],
-        "6363": [
-          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 6363",
-          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 6363"
-        ],
-        "6364": [
-          "LEÃO 🦁 no quarto prêmio!<br>com o palpite 6364",
-          "LEÃO 🦁 no quinto prêmio!<br>com o palpite 6364"
-        ],
-        "6383": [
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 6383"
-        ],
-        "6384": [
-          "Dezena no sétimo prêmio!<br>com o palpite 6384",
-          "TOURO 🐂 no sétimo prêmio!<br>com o palpite 6384"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🦁",
-          "🐂"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4363, 4364, 4366, 4367, 4383, 4384, 4386, 4387, 6363, 6364, 6366, 6367, 6383, 6384, 6386, 6387"
+      "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -304,7 +254,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4363, 4364, 4366, 4367, 4383, 4384, 4386, 4387, 6363, 6364, 6366, 6367, 6383, 6384, 6386, 6387"
+      "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -364,7 +314,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 4363, 4364, 4366, 4367, 4383, 4384, 4386, 4387, 6363, 6364, 6366, 6367, 6383, 6384, 6386, 6387"
+      "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -418,64 +368,46 @@
         }
       ],
       "frases": {
-        "4366": [
-          "Dezena no terceiro prêmio!<br>com o palpite 4366",
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 4366",
-          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 4366"
-        ],
-        "4367": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 4367",
-          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 4367"
-        ],
-        "4383": [
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 4383"
-        ],
-        "4384": [
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 4384"
-        ],
-        "4386": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 4386",
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 4386"
-        ],
-        "4387": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 4387",
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 4387"
-        ],
         "6366": [
           "Dezena no terceiro prêmio!<br>com o palpite 6366",
           "MACACO 🐒 no terceiro prêmio!<br>com o palpite 6366",
           "MACACO 🐒 no sétimo prêmio!<br>com o palpite 6366"
         ],
-        "6367": [
-          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 6367",
-          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 6367"
-        ],
-        "6383": [
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 6383"
-        ],
-        "6384": [
-          "TOURO 🐂 no primeiro prêmio!<br>com o palpite 6384"
-        ],
         "6386": [
           "TIGRE 🐅 no segundo prêmio!<br>com o palpite 6386",
           "TIGRE 🐅 no quinto prêmio!<br>com o palpite 6386"
         ],
-        "6387": [
-          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 6387",
-          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 6387"
+        "6666": [
+          "Dezena no terceiro prêmio!<br>com o palpite 6666",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 6666",
+          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 6666"
+        ],
+        "6686": [
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 6686",
+          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 6686"
+        ],
+        "6966": [
+          "Milhar e Centena no terceiro prêmio!<br>com o palpite 6966",
+          "Centena e Dezena no terceiro prêmio!<br>com o palpite 6966",
+          "Dezena no terceiro prêmio!<br>com o palpite 6966",
+          "MACACO 🐒 no terceiro prêmio!<br>com o palpite 6966",
+          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 6966"
+        ],
+        "6986": [
+          "TIGRE 🐅 no segundo prêmio!<br>com o palpite 6986",
+          "TIGRE 🐅 no quinto prêmio!<br>com o palpite 6986"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 2,
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 3,
         "Grupo": [
-          "🐂",
           "🐅",
           "🐒"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 4363, 4364, 4366, 4367, 4383, 4384, 4386, 4387, 6363, 6364, 6366, 6367, 6383, 6384, 6386, 6387"
+      "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
