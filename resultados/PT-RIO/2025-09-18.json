@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
+      "resumo": "Palpites dados para esta extração: 1663, 1666, 1683, 1686, 4663, 4666, 4683, 4686, 6663, 6666, 6683, 6686, 7663, 7666, 7683, 7686"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -542,14 +542,29 @@
           "Bicho": "Peru"
         }
       ],
-      "frases": {},
+      "frases": {
+        "1663": [
+          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 1663"
+        ],
+        "4663": [
+          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 4663"
+        ],
+        "6663": [
+          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 6663"
+        ],
+        "7663": [
+          "LEÃO 🦁 no oitavo prêmio!<br>com o palpite 7663"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🦁"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 6366, 6386, 6666, 6686, 6966, 6986"
+      "resumo": "Palpites dados para esta extração: 1663, 1666, 1683, 1686, 4663, 4666, 4683, 4686, 6663, 6666, 6683, 6686, 7663, 7666, 7683, 7686"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
