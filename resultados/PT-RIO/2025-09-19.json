@@ -52,26 +52,11 @@
         }
       ],
       "frases": {
-        "2143": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 2143"
+        "0442": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 0442"
         ],
-        "3143": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 3143"
-        ],
-        "4143": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4143"
-        ],
-        "5143": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 5143"
-        ],
-        "7143": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 7143"
-        ],
-        "8143": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 8143"
-        ],
-        "0143": [
-          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 0143"
+        "0446": [
+          "ELEFANTE 🐘 no quinto prêmio!<br>com o palpite 0446"
         ]
       },
       "acertos": {
@@ -79,10 +64,11 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🐎"
+          "🐎",
+          "🐘"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0143, 2143, 3143, 4143, 5143, 7143, 8143"
+      "resumo": "Palpites dados para esta extração: 0442, 0446"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -136,44 +122,22 @@
         }
       ],
       "frases": {
-        "2143": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 2143",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 2143"
-        ],
-        "3143": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3143",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 3143"
-        ],
-        "4143": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 4143",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 4143"
-        ],
-        "5143": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 5143",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 5143"
-        ],
-        "7143": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 7143",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 7143"
-        ],
-        "8143": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8143",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 8143"
-        ],
-        "0143": [
-          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 0143",
-          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 0143"
+        "0442": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 0442",
+          "Centena e Dezena no sexto prêmio!<br>com o palpite 0442",
+          "Dezena no sexto prêmio!<br>com o palpite 0442",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 0442"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 1,
+        "Dezena": 1,
         "Grupo": [
           "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0143, 2143, 3143, 4143, 5143, 7143, 8143"
+      "resumo": "Palpites dados para esta extração: 0442, 0446"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -233,7 +197,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0143, 2143, 3143, 4143, 5143, 7143, 8143"
+      "resumo": "Palpites dados para esta extração: 0442, 0446"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -286,14 +250,21 @@
           "Bicho": ""
         }
       ],
-      "frases": {},
+      "frases": {
+        "0446": [
+          "ELEFANTE 🐘 no primeiro prêmio!<br>com o palpite 0446",
+          "ELEFANTE 🐘 no terceiro prêmio!<br>com o palpite 0446"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐘"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0143, 2143, 3143, 4143, 5143, 7143, 8143"
+      "resumo": "Palpites dados para esta extração: 0442, 0446"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
