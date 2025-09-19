@@ -1,25 +1,19 @@
 {
-  "frase_1-5": "Palpites para a próxima extração (PT-RIO, RJ, 21:20, CORUJA):",
-  "frase_1-10": "Palpites para a próxima extração (PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º):",
+  "frase_1-5": "Palpites para a próxima extração (A FEDERAL DO BRASIL - RJ):",
+  "frase_1-10": "Palpites para a próxima extração (A FEDERAL DO BRASIL - RJ do 1º ao 10º):",
   "palpites": [
     "0023",
-    "0029",
-    "0083",
-    "0089",
-    "0093",
-    "0099",
+    "0423",
+    "0923",
+    "2023",
+    "2423",
+    "2923",
     "5023",
-    "5029",
-    "5083",
-    "5089",
-    "5093",
-    "5099",
+    "5423",
+    "5923",
     "9023",
-    "9029",
-    "9083",
-    "9089",
-    "9093",
-    "9099"
+    "9423",
+    "9923"
   ],
   "data_proxima_extracao": "2025-09-18"
 }
