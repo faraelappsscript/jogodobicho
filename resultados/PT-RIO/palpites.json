@@ -1,26 +1,15 @@
 {
-  "frase_1-10": "Palpites para a próxima extração (PT-RIO, RJ, 11:00, PTM do 1º ao 10º):",
+  "frase_1-5": "Palpites para a próxima extração (PT-RIO, RJ, 14:20, PT):",
+  "frase_1-10": "Palpites para a próxima extração (PT-RIO, RJ, 14:20, PT do 1º ao 10º):",
   "palpites": [
-    "2440",
-    "2443",
-    "2444",
-    "2447",
-    "2449",
-    "2640",
-    "2643",
-    "2644",
-    "2647",
-    "2649",
-    "2740",
+    "2143",
     "2743",
-    "2744",
-    "2747",
-    "2749",
-    "2840",
-    "2843",
-    "2844",
-    "2847",
-    "2849"
+    "4143",
+    "4743",
+    "7143",
+    "7743",
+    "8143",
+    "8743"
   ],
   "data_proxima_extracao": "2025-09-19"
 }
