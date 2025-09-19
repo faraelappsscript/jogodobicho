@@ -118,7 +118,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0029, 0083, 0089, 0093, 0099, 5023, 5029, 5083, 5089, 5093, 5099, 9023, 9029, 9083, 9089, 9093, 9099"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -171,26 +171,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "5093": [
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 5093"
-        ],
-        "9093": [
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 9093"
-        ],
-        "0093": [
-          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 0093"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🦌"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0029, 0083, 0089, 0093, 0099, 5023, 5029, 5083, 5089, 5093, 5099, 9023, 9029, 9083, 9089, 9093, 9099"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -243,36 +231,14 @@
           "Bicho": ""
         }
       ],
-      "frases": {
-        "5029": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 5029"
-        ],
-        "5099": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 5099"
-        ],
-        "9029": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 9029"
-        ],
-        "9099": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 9099"
-        ],
-        "0099": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 0099"
-        ],
-        "0029": [
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 0029"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": [
-          "🐄",
-          "🐪"
-        ]
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0029, 0083, 0089, 0093, 0099, 5023, 5029, 5083, 5089, 5093, 5099, 9023, 9029, 9083, 9089, 9093, 9099"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -326,23 +292,8 @@
         }
       ],
       "frases": {
-        "5023": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 5023"
-        ],
-        "5093": [
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 5093"
-        ],
-        "9023": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9023"
-        ],
-        "9093": [
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 9093"
-        ],
-        "0093": [
-          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 0093"
-        ],
-        "0023": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 0023"
+        "2423": [
+          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 2423"
         ]
       },
       "acertos": {
@@ -350,11 +301,10 @@
         "Centena": 0,
         "Dezena": 0,
         "Grupo": [
-          "🦌",
           "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0029, 0083, 0089, 0093, 0099, 5023, 5029, 5083, 5089, 5093, 5099, 9023, 9029, 9083, 9089, 9093, 9099"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     },
     "PT-RIO, RJ, 21:20, CORUJA": {
       "cabecalhos": [
@@ -408,44 +358,21 @@
         }
       ],
       "frases": {
-        "5023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 5023",
-          "Dezena no sexto prêmio!<br>com o palpite 5023",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 5023"
-        ],
-        "5089": [
-          "Dezena no segundo prêmio!<br>com o palpite 5089",
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 5089"
-        ],
-        "9023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9023",
-          "Dezena no sexto prêmio!<br>com o palpite 9023",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 9023"
-        ],
-        "9089": [
-          "Dezena no segundo prêmio!<br>com o palpite 9089",
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 9089"
-        ],
-        "0089": [
-          "Dezena no segundo prêmio!<br>com o palpite 0089",
-          "URSO 🐻 no segundo prêmio!<br>com o palpite 0089"
-        ],
-        "0023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 0023",
-          "Dezena no sexto prêmio!<br>com o palpite 0023",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 0023"
+        "2423": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 2423",
+          "Dezena no sexto prêmio!<br>com o palpite 2423",
+          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2423"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 6,
+        "Dezena": 1,
         "Grupo": [
-          "🐻",
           "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0029, 0083, 0089, 0093, 0099, 5023, 5029, 5083, 5089, 5093, 5099, 9023, 9029, 9083, 9089, 9093, 9099"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     },
     "PT-RIO, RJ, 18:20, PTN": {
       "cabecalhos": [
@@ -499,74 +426,19 @@
         }
       ],
       "frases": {
-        "5023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 5023"
-        ],
-        "5029": [
-          "Dezena no sexto prêmio!<br>com o palpite 5029",
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 5029"
-        ],
-        "5089": [
-          "Milhar e Centena no primeiro prêmio!<br>com o palpite 5089",
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 5089",
-          "Dezena no primeiro prêmio!<br>com o palpite 5089",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 5089",
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 5089",
-          "Dezena no quinto prêmio!<br>com o palpite 5089",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 5089"
-        ],
-        "5099": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 5099"
-        ],
-        "9023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9023"
-        ],
-        "9029": [
-          "Dezena no sexto prêmio!<br>com o palpite 9029",
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 9029"
-        ],
-        "9089": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 9089",
-          "Dezena no primeiro prêmio!<br>com o palpite 9089",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 9089",
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 9089",
-          "Dezena no quinto prêmio!<br>com o palpite 9089",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 9089"
-        ],
-        "9099": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 9099"
-        ],
-        "0089": [
-          "Centena e Dezena no primeiro prêmio!<br>com o palpite 0089",
-          "Dezena no primeiro prêmio!<br>com o palpite 0089",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0089",
-          "Centena e Dezena no quinto prêmio!<br>com o palpite 0089",
-          "Dezena no quinto prêmio!<br>com o palpite 0089",
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0089"
-        ],
-        "0099": [
-          "VACA 🐄 no segundo prêmio!<br>com o palpite 0099"
-        ],
-        "0023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 0023"
-        ],
-        "0029": [
-          "Dezena no sexto prêmio!<br>com o palpite 0029",
-          "CAMELO 🐪 no sexto prêmio!<br>com o palpite 0029"
+        "2423": [
+          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 2423"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 6,
-        "Dezena": 9,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🐻",
-          "🐄",
-          "🐐",
-          "🐪"
+          "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0029, 0083, 0089, 0093, 0099, 5023, 5029, 5083, 5089, 5093, 5099, 9023, 9029, 9083, 9089, 9093, 9099"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     }
   },
   "1-10": {
@@ -724,7 +596,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0423, 0923, 2023, 2423, 2923, 5023, 5423, 5923, 9023, 9423, 9923"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -802,7 +674,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0423, 0923, 2023, 2423, 2923, 5023, 5423, 5923, 9023, 9423, 9923"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -873,14 +745,20 @@
           "Bicho": "Gato"
         }
       ],
-      "frases": {},
+      "frases": {
+        "2453": [
+          "GATO 🐈 no décimo prêmio!<br>com o palpite 2453"
+        ]
+      },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
         "Dezena": 0,
-        "Grupo": []
+        "Grupo": [
+          "🐈"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0423, 0923, 2023, 2423, 2923, 5023, 5423, 5923, 9023, 9423, 9923"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -952,41 +830,8 @@
         }
       ],
       "frases": {
-        "2023": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 2023"
-        ],
         "2423": [
           "CABRA 🐐 no sétimo prêmio!<br>com o palpite 2423"
-        ],
-        "2923": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 2923"
-        ],
-        "5023": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 5023"
-        ],
-        "5423": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 5423"
-        ],
-        "5923": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 5923"
-        ],
-        "9023": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9023"
-        ],
-        "9423": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9423"
-        ],
-        "9923": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 9923"
-        ],
-        "0023": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 0023"
-        ],
-        "0423": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 0423"
-        ],
-        "0923": [
-          "CABRA 🐐 no sétimo prêmio!<br>com o palpite 0923"
         ]
       },
       "acertos": {
@@ -997,7 +842,7 @@
           "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0423, 0923, 2023, 2423, 2923, 5023, 5423, 5923, 9023, 9423, 9923"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     },
     "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
       "cabecalhos": [
@@ -1069,76 +914,21 @@
         }
       ],
       "frases": {
-        "2023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 2023",
-          "Dezena no sexto prêmio!<br>com o palpite 2023",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2023"
-        ],
         "2423": [
           "CABRA 🐐 no terceiro prêmio!<br>com o palpite 2423",
           "Dezena no sexto prêmio!<br>com o palpite 2423",
           "CABRA 🐐 no sexto prêmio!<br>com o palpite 2423"
-        ],
-        "2923": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 2923",
-          "Dezena no sexto prêmio!<br>com o palpite 2923",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 2923"
-        ],
-        "5023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 5023",
-          "Dezena no sexto prêmio!<br>com o palpite 5023",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 5023"
-        ],
-        "5423": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 5423",
-          "Dezena no sexto prêmio!<br>com o palpite 5423",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 5423"
-        ],
-        "5923": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 5923",
-          "Dezena no sexto prêmio!<br>com o palpite 5923",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 5923"
-        ],
-        "9023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9023",
-          "Dezena no sexto prêmio!<br>com o palpite 9023",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 9023"
-        ],
-        "9423": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9423",
-          "Dezena no sexto prêmio!<br>com o palpite 9423",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 9423"
-        ],
-        "9923": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9923",
-          "Dezena no sexto prêmio!<br>com o palpite 9923",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 9923"
-        ],
-        "0023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 0023",
-          "Dezena no sexto prêmio!<br>com o palpite 0023",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 0023"
-        ],
-        "0423": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 0423",
-          "Dezena no sexto prêmio!<br>com o palpite 0423",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 0423"
-        ],
-        "0923": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 0923",
-          "Dezena no sexto prêmio!<br>com o palpite 0923",
-          "CABRA 🐐 no sexto prêmio!<br>com o palpite 0923"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 12,
+        "Dezena": 1,
         "Grupo": [
           "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0423, 0923, 2023, 2423, 2923, 5023, 5423, 5923, 9023, 9423, 9923"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     },
     "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
       "cabecalhos": [
@@ -1210,80 +1000,21 @@
         }
       ],
       "frases": {
-        "2023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 2023",
-          "Dezena no oitavo prêmio!<br>com o palpite 2023",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2023"
-        ],
         "2423": [
           "CABRA 🐐 no terceiro prêmio!<br>com o palpite 2423",
           "Dezena no oitavo prêmio!<br>com o palpite 2423",
           "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2423"
-        ],
-        "2923": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 2923",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 2923",
-          "Dezena no oitavo prêmio!<br>com o palpite 2923",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 2923"
-        ],
-        "5023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 5023",
-          "Dezena no oitavo prêmio!<br>com o palpite 5023",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 5023"
-        ],
-        "5423": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 5423",
-          "Dezena no oitavo prêmio!<br>com o palpite 5423",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 5423"
-        ],
-        "5923": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 5923",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 5923",
-          "Dezena no oitavo prêmio!<br>com o palpite 5923",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 5923"
-        ],
-        "9023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9023",
-          "Dezena no oitavo prêmio!<br>com o palpite 9023",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9023"
-        ],
-        "9423": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9423",
-          "Dezena no oitavo prêmio!<br>com o palpite 9423",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9423"
-        ],
-        "9923": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 9923",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 9923",
-          "Dezena no oitavo prêmio!<br>com o palpite 9923",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 9923"
-        ],
-        "0023": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 0023",
-          "Dezena no oitavo prêmio!<br>com o palpite 0023",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 0023"
-        ],
-        "0423": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 0423",
-          "Dezena no oitavo prêmio!<br>com o palpite 0423",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 0423"
-        ],
-        "0923": [
-          "CABRA 🐐 no terceiro prêmio!<br>com o palpite 0923",
-          "Centena e Dezena no oitavo prêmio!<br>com o palpite 0923",
-          "Dezena no oitavo prêmio!<br>com o palpite 0923",
-          "CABRA 🐐 no oitavo prêmio!<br>com o palpite 0923"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 4,
-        "Dezena": 12,
+        "Centena": 0,
+        "Dezena": 1,
         "Grupo": [
           "🐐"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0023, 0423, 0923, 2023, 2423, 2923, 5023, 5423, 5923, 9023, 9423, 9923"
+      "resumo": "Palpites dados para esta extração: 2423, 2453"
     }
   }
 }
