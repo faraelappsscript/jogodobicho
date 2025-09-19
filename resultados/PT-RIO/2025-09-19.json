@@ -52,8 +52,26 @@
         }
       ],
       "frases": {
+        "2143": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 2143"
+        ],
+        "3143": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 3143"
+        ],
+        "4143": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 4143"
+        ],
+        "5143": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 5143"
+        ],
         "7143": [
           "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 7143"
+        ],
+        "8143": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 8143"
+        ],
+        "0143": [
+          "CAVALO 🐎 no primeiro prêmio!<br>com o palpite 0143"
         ]
       },
       "acertos": {
@@ -64,7 +82,7 @@
           "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7143"
+      "resumo": "Palpites dados para esta extração: 0143, 2143, 3143, 4143, 5143, 7143, 8143"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -118,9 +136,33 @@
         }
       ],
       "frases": {
+        "2143": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 2143",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 2143"
+        ],
+        "3143": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 3143",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 3143"
+        ],
+        "4143": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 4143",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 4143"
+        ],
+        "5143": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 5143",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 5143"
+        ],
         "7143": [
           "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 7143",
           "CAVALO 🐎 no sexto prêmio!<br>com o palpite 7143"
+        ],
+        "8143": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 8143",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 8143"
+        ],
+        "0143": [
+          "CAVALO 🐎 no terceiro prêmio!<br>com o palpite 0143",
+          "CAVALO 🐎 no sexto prêmio!<br>com o palpite 0143"
         ]
       },
       "acertos": {
@@ -131,9 +173,69 @@
           "🐎"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 7143"
+      "resumo": "Palpites dados para esta extração: 0143, 2143, 3143, 4143, 5143, 7143, 8143"
     },
     "PT-RIO, RJ, 14:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "5092",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0152",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "2411",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3125",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4927",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "5707",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "773",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 0143, 2143, 3143, 4143, 5143, 7143, 8143"
+    },
+    "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
         "Prêmio",
         "Milhar",
