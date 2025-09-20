@@ -154,14 +154,23 @@
           "Bicho": "Coelho"
         }
       ],
-      "frases": {},
-      "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
-        "Grupo": []
+      "frases": {
+        "7135": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 7135",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 7135",
+          "Dezena no segundo prêmio!<br>com o palpite 7135",
+          "COBRA 🐍 no segundo prêmio!<br>com o palpite 7135"
+        ]
       },
-      "resumo": "Palpites dados para esta extração: 4453, 4553"
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 1,
+        "Grupo": [
+          "🐍"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 7105, 7115, 7135"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
