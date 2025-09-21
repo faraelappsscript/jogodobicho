@@ -1,1 +1,283 @@
-{}
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8457",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6247",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0840",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "1870",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5191",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "2605",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "830",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 0600, 0602, 0603, 0620, 0622, 0623, 0700, 0702, 0703, 0720, 0722, 0723, 2600, 2602, 2603, 2620, 2622, 2623, 2700, 2702, 2703, 2720, 2722, 2723, 3600, 3602, 3603, 3620, 3622, 3623, 3700, 3702, 3703, 3720, 3722, 3723, 6600, 6602, 6603, 6620, 6622, 6623, 6700, 6702, 6703, 6720, 6722, 6723"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8457",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "6247",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0840",
+          "Grupo": "10",
+          "Bicho": "Coelho"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "1870",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5191",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "8601",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "4288",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "5447",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "7700",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "8641",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        }
+      ],
+      "frases": {
+        "2600": [
+          "Dezena no nono prêmio!<br>com o palpite 2600",
+          "VACA 🐄 no nono prêmio!<br>com o palpite 2600"
+        ],
+        "2602": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 2602"
+        ],
+        "2603": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 2603"
+        ],
+        "2700": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 2700",
+          "Dezena no nono prêmio!<br>com o palpite 2700",
+          "VACA 🐄 no nono prêmio!<br>com o palpite 2700"
+        ],
+        "2702": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 2702"
+        ],
+        "2703": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 2703"
+        ],
+        "3600": [
+          "Dezena no nono prêmio!<br>com o palpite 3600",
+          "VACA 🐄 no nono prêmio!<br>com o palpite 3600"
+        ],
+        "3602": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 3602"
+        ],
+        "3603": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 3603"
+        ],
+        "3700": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 3700",
+          "Dezena no nono prêmio!<br>com o palpite 3700",
+          "VACA 🐄 no nono prêmio!<br>com o palpite 3700"
+        ],
+        "3702": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 3702"
+        ],
+        "3703": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 3703"
+        ],
+        "6600": [
+          "Dezena no nono prêmio!<br>com o palpite 6600",
+          "VACA 🐄 no nono prêmio!<br>com o palpite 6600"
+        ],
+        "6602": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 6602"
+        ],
+        "6603": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 6603"
+        ],
+        "6700": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 6700",
+          "Dezena no nono prêmio!<br>com o palpite 6700",
+          "VACA 🐄 no nono prêmio!<br>com o palpite 6700"
+        ],
+        "6702": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 6702"
+        ],
+        "6703": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 6703"
+        ],
+        "0602": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0602"
+        ],
+        "0603": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0603"
+        ],
+        "0702": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0702"
+        ],
+        "0703": [
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0703"
+        ],
+        "0600": [
+          "Dezena no nono prêmio!<br>com o palpite 0600",
+          "VACA 🐄 no nono prêmio!<br>com o palpite 0600"
+        ],
+        "0700": [
+          "Centena e Dezena no nono prêmio!<br>com o palpite 0700",
+          "Dezena no nono prêmio!<br>com o palpite 0700",
+          "VACA 🐄 no nono prêmio!<br>com o palpite 0700"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 4,
+        "Dezena": 8,
+        "Grupo": [
+          "🪶",
+          "🐄"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 0600, 0602, 0603, 0620, 0622, 0623, 0700, 0702, 0703, 0720, 0722, 0723, 2600, 2602, 2603, 2620, 2622, 2623, 2700, 2702, 2703, 2720, 2722, 2723, 3600, 3602, 3603, 3620, 3622, 3623, 3700, 3702, 3703, 3720, 3722, 3723, 6600, 6602, 6603, 6620, 6622, 6623, 6700, 6702, 6703, 6720, 6722, 6723"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
+    }
+  }
+}
