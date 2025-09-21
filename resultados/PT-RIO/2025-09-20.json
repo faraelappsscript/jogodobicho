@@ -58,7 +58,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1720, 1730"
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
     },
     "PT-RIO, RJ, 11:00, PTM": {
       "cabecalhos": [
@@ -115,17 +115,25 @@
         "1720": [
           "Dezena no primeiro prêmio!<br>com o palpite 1720",
           "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1720"
+        ],
+        "2720": [
+          "Dezena no primeiro prêmio!<br>com o palpite 2720",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 2720"
+        ],
+        "4720": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4720",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 4720"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 3,
         "Grupo": [
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1720, 1730"
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -181,6 +189,12 @@
       "frases": {
         "1720": [
           "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 1720"
+        ],
+        "2720": [
+          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 2720"
+        ],
+        "4720": [
+          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 4720"
         ]
       },
       "acertos": {
@@ -191,7 +205,7 @@
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1720, 1730"
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -247,17 +261,45 @@
       "frases": {
         "1720": [
           "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 1720"
+        ],
+        "1726": [
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 1726"
+        ],
+        "1727": [
+          "Dezena no terceiro prêmio!<br>com o palpite 1727",
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 1727"
+        ],
+        "2720": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 2720"
+        ],
+        "2726": [
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 2726"
+        ],
+        "2727": [
+          "Dezena no terceiro prêmio!<br>com o palpite 2727",
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 2727"
+        ],
+        "4720": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 4720"
+        ],
+        "4726": [
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 4726"
+        ],
+        "4727": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4727",
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 4727"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 0,
+        "Dezena": 3,
         "Grupo": [
-          "🐕"
+          "🐕",
+          "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1720, 1730"
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
     },
     "A FEDERAL DO BRASIL - RJ": {
       "cabecalhos": [
@@ -317,7 +359,111 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1720, 1730"
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "0333",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0678",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6250",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2392",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6301",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "5954",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "225",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "1726": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 1726"
+        ],
+        "1727": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 1727"
+        ],
+        "2726": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 2726"
+        ],
+        "2727": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 2727"
+        ],
+        "4726": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 4726"
+        ],
+        "4727": [
+          "CARNEIRO 🐑 no sétimo prêmio!<br>com o palpite 4727"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🐑"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
+    },
+    "PT-RIO, RJ, 18:20, PTN": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   },
   "1-10": {
@@ -397,7 +543,7 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1720, 1730"
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -472,17 +618,25 @@
         "1720": [
           "Dezena no primeiro prêmio!<br>com o palpite 1720",
           "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 1720"
+        ],
+        "2720": [
+          "Dezena no primeiro prêmio!<br>com o palpite 2720",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 2720"
+        ],
+        "4720": [
+          "Dezena no primeiro prêmio!<br>com o palpite 4720",
+          "CACHORRO 🐕 no primeiro prêmio!<br>com o palpite 4720"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 3,
         "Grupo": [
           "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1720, 1730"
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -557,21 +711,22 @@
         "1720": [
           "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 1720"
         ],
-        "1730": [
-          "Dezena no oitavo prêmio!<br>com o palpite 1730",
-          "CAMELO 🐪 no oitavo prêmio!<br>com o palpite 1730"
+        "2720": [
+          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 2720"
+        ],
+        "4720": [
+          "CACHORRO 🐕 no quinto prêmio!<br>com o palpite 4720"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 0,
         "Grupo": [
-          "🐕",
-          "🐪"
+          "🐕"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1720, 1730"
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
@@ -647,17 +802,55 @@
           "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 1720",
           "Dezena no oitavo prêmio!<br>com o palpite 1720",
           "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 1720"
+        ],
+        "1726": [
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 1726",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 1726"
+        ],
+        "1727": [
+          "Dezena no terceiro prêmio!<br>com o palpite 1727",
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 1727",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 1727"
+        ],
+        "2720": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 2720",
+          "Dezena no oitavo prêmio!<br>com o palpite 2720",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 2720"
+        ],
+        "2726": [
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 2726",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 2726"
+        ],
+        "2727": [
+          "Dezena no terceiro prêmio!<br>com o palpite 2727",
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 2727",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 2727"
+        ],
+        "4720": [
+          "CACHORRO 🐕 no segundo prêmio!<br>com o palpite 4720",
+          "Dezena no oitavo prêmio!<br>com o palpite 4720",
+          "CACHORRO 🐕 no oitavo prêmio!<br>com o palpite 4720"
+        ],
+        "4726": [
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 4726",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 4726"
+        ],
+        "4727": [
+          "Dezena no terceiro prêmio!<br>com o palpite 4727",
+          "CARNEIRO 🐑 no terceiro prêmio!<br>com o palpite 4727",
+          "CARNEIRO 🐑 no décimo prêmio!<br>com o palpite 4727"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 1,
+        "Dezena": 6,
         "Grupo": [
-          "🐕"
+          "🐕",
+          "🐑"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 1720, 1730"
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
     },
     "A FEDERAL DO BRASIL - RJ do 1º ao 10º": {
       "cabecalhos": [
@@ -735,7 +928,113 @@
         "Dezena": 0,
         "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 1720, 1730"
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "0333",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "0678",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6250",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "2392",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6301",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "0062",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "3623",
+          "Grupo": "06",
+          "Bicho": "Cabra"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "3759",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "3802",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "7200",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 1720, 1726, 1727, 2720, 2726, 2727, 4720, 4726, 4727"
+    },
+    "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": ""
     }
   }
 }
