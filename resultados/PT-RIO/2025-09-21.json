@@ -365,111 +365,33 @@
         }
       ],
       "frases": {
-        "8400": [
-          "Dezena no nono prêmio!<br>com o palpite 8400",
-          "VACA 🐄 no nono prêmio!<br>com o palpite 8400"
-        ],
-        "8440": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8440",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 8440"
-        ],
-        "8490": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 8490"
-        ],
-        "8600": [
-          "Dezena no nono prêmio!<br>com o palpite 8600",
-          "VACA 🐄 no nono prêmio!<br>com o palpite 8600"
-        ],
-        "8640": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8640",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 8640"
-        ],
-        "8690": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 8690"
-        ],
-        "8700": [
-          "Centena e Dezena no nono prêmio!<br>com o palpite 8700",
-          "Dezena no nono prêmio!<br>com o palpite 8700",
-          "VACA 🐄 no nono prêmio!<br>com o palpite 8700"
-        ],
-        "8740": [
-          "Dezena no terceiro prêmio!<br>com o palpite 8740",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 8740"
-        ],
-        "8790": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 8790"
-        ],
-        "8800": [
-          "Dezena no nono prêmio!<br>com o palpite 8800",
-          "VACA 🐄 no nono prêmio!<br>com o palpite 8800"
-        ],
-        "8840": [
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 8840",
-          "Dezena no terceiro prêmio!<br>com o palpite 8840",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 8840"
-        ],
-        "8890": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 8890"
-        ],
-        "0440": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0440",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 0440"
-        ],
-        "0640": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0640",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 0640"
-        ],
-        "0740": [
-          "Dezena no terceiro prêmio!<br>com o palpite 0740",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 0740"
-        ],
-        "0840": [
-          "Milhar e Centena no terceiro prêmio!<br>com o palpite 0840",
-          "Centena e Dezena no terceiro prêmio!<br>com o palpite 0840",
-          "Dezena no terceiro prêmio!<br>com o palpite 0840",
-          "COELHO 🐇 no terceiro prêmio!<br>com o palpite 0840"
-        ],
         "0490": [
           "URSO 🐻 no quinto prêmio!<br>com o palpite 0490"
         ],
-        "0690": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0690"
+        "0491": [
+          "Dezena no quinto prêmio!<br>com o palpite 0491",
+          "URSO 🐻 no quinto prêmio!<br>com o palpite 0491"
         ],
-        "0790": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0790"
-        ],
-        "0890": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0890"
+        "0401": [
+          "Dezena no sexto prêmio!<br>com o palpite 0401",
+          "AVESTRUZ 🪶 no sexto prêmio!<br>com o palpite 0401"
         ],
         "0400": [
           "Dezena no nono prêmio!<br>com o palpite 0400",
           "VACA 🐄 no nono prêmio!<br>com o palpite 0400"
-        ],
-        "0600": [
-          "Dezena no nono prêmio!<br>com o palpite 0600",
-          "VACA 🐄 no nono prêmio!<br>com o palpite 0600"
-        ],
-        "0700": [
-          "Centena e Dezena no nono prêmio!<br>com o palpite 0700",
-          "Dezena no nono prêmio!<br>com o palpite 0700",
-          "VACA 🐄 no nono prêmio!<br>com o palpite 0700"
-        ],
-        "0800": [
-          "Dezena no nono prêmio!<br>com o palpite 0800",
-          "VACA 🐄 no nono prêmio!<br>com o palpite 0800"
         ]
       },
       "acertos": {
-        "Milhar": 1,
-        "Centena": 4,
-        "Dezena": 16,
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 3,
         "Grupo": [
-          "🐇",
           "🐻",
+          "🪶",
           "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0440, 0480, 0490, 0600, 0640, 0680, 0690, 0700, 0740, 0780, 0790, 0800, 0840, 0880, 0890, 8400, 8440, 8480, 8490, 8600, 8640, 8680, 8690, 8700, 8740, 8780, 8790, 8800, 8840, 8880, 8890"
+      "resumo": "Palpites dados para esta extração: 0400, 0401, 0405, 0410, 0411, 0415, 0490, 0491, 0495"
     },
     "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
       "cabecalhos": [
@@ -541,73 +463,35 @@
         }
       ],
       "frases": {
-        "8400": [
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 8400"
-        ],
-        "8490": [
-          "Dezena no nono prêmio!<br>com o palpite 8490",
-          "URSO 🐻 no nono prêmio!<br>com o palpite 8490"
-        ],
-        "8600": [
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 8600"
-        ],
-        "8690": [
-          "Dezena no nono prêmio!<br>com o palpite 8690",
-          "URSO 🐻 no nono prêmio!<br>com o palpite 8690"
-        ],
-        "8700": [
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 8700"
-        ],
-        "8790": [
-          "Dezena no nono prêmio!<br>com o palpite 8790",
-          "URSO 🐻 no nono prêmio!<br>com o palpite 8790"
-        ],
-        "8800": [
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 8800"
-        ],
-        "8890": [
-          "Dezena no nono prêmio!<br>com o palpite 8890",
-          "URSO 🐻 no nono prêmio!<br>com o palpite 8890"
+        "0405": [
+          "ÁGUIA 🦅 no primeiro prêmio!<br>com o palpite 0405"
         ],
         "0400": [
           "VACA 🐄 no sexto prêmio!<br>com o palpite 0400"
         ],
-        "0600": [
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 0600"
-        ],
-        "0700": [
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 0700"
-        ],
-        "0800": [
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 0800"
+        "0415": [
+          "BORBOLETA 🦋 no oitavo prêmio!<br>com o palpite 0415"
         ],
         "0490": [
           "Dezena no nono prêmio!<br>com o palpite 0490",
           "URSO 🐻 no nono prêmio!<br>com o palpite 0490"
         ],
-        "0690": [
-          "Dezena no nono prêmio!<br>com o palpite 0690",
-          "URSO 🐻 no nono prêmio!<br>com o palpite 0690"
-        ],
-        "0790": [
-          "Dezena no nono prêmio!<br>com o palpite 0790",
-          "URSO 🐻 no nono prêmio!<br>com o palpite 0790"
-        ],
-        "0890": [
-          "Dezena no nono prêmio!<br>com o palpite 0890",
-          "URSO 🐻 no nono prêmio!<br>com o palpite 0890"
+        "0491": [
+          "URSO 🐻 no nono prêmio!<br>com o palpite 0491"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 8,
+        "Dezena": 1,
         "Grupo": [
+          "🦅",
           "🐄",
+          "🦋",
           "🐻"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0440, 0480, 0490, 0600, 0640, 0680, 0690, 0700, 0740, 0780, 0790, 0800, 0840, 0880, 0890, 8400, 8440, 8480, 8490, 8600, 8640, 8680, 8690, 8700, 8740, 8780, 8790, 8800, 8840, 8880, 8890"
+      "resumo": "Palpites dados para esta extração: 0400, 0401, 0405, 0410, 0411, 0415, 0490, 0491, 0495"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
@@ -679,73 +563,48 @@
         }
       ],
       "frases": {
-        "8440": [
-          "Dezena no sexto prêmio!<br>com o palpite 8440",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 8440"
-        ],
-        "8490": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 8490"
-        ],
-        "8640": [
-          "Dezena no sexto prêmio!<br>com o palpite 8640",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 8640"
-        ],
-        "8690": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 8690"
-        ],
-        "8740": [
-          "Dezena no sexto prêmio!<br>com o palpite 8740",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 8740"
-        ],
-        "8790": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 8790"
-        ],
-        "8840": [
-          "Dezena no sexto prêmio!<br>com o palpite 8840",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 8840"
-        ],
-        "8890": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 8890"
-        ],
         "0490": [
           "URSO 🐻 no primeiro prêmio!<br>com o palpite 0490"
         ],
-        "0690": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0690"
+        "0491": [
+          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0491"
         ],
-        "0790": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0790"
+        "0405": [
+          "Dezena no terceiro prêmio!<br>com o palpite 0405",
+          "ÁGUIA 🦅 no terceiro prêmio!<br>com o palpite 0405"
         ],
-        "0890": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0890"
+        "0410": [
+          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0410"
         ],
-        "0440": [
-          "Dezena no sexto prêmio!<br>com o palpite 0440",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 0440"
+        "0411": [
+          "Milhar e Centena no quarto prêmio!<br>com o palpite 0411",
+          "Centena e Dezena no quarto prêmio!<br>com o palpite 0411",
+          "Dezena no quarto prêmio!<br>com o palpite 0411",
+          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0411"
         ],
-        "0640": [
-          "Dezena no sexto prêmio!<br>com o palpite 0640",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 0640"
+        "0415": [
+          "Dezena no quinto prêmio!<br>com o palpite 0415",
+          "BORBOLETA 🦋 no quinto prêmio!<br>com o palpite 0415"
         ],
-        "0740": [
-          "Dezena no sexto prêmio!<br>com o palpite 0740",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 0740"
-        ],
-        "0840": [
-          "Dezena no sexto prêmio!<br>com o palpite 0840",
-          "COELHO 🐇 no sexto prêmio!<br>com o palpite 0840"
+        "0401": [
+          "AVESTRUZ 🪶 no sétimo prêmio!<br>com o palpite 0401",
+          "Dezena no oitavo prêmio!<br>com o palpite 0401",
+          "AVESTRUZ 🪶 no oitavo prêmio!<br>com o palpite 0401"
         ]
       },
       "acertos": {
-        "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 8,
+        "Milhar": 1,
+        "Centena": 1,
+        "Dezena": 4,
         "Grupo": [
           "🐻",
-          "🐇"
+          "🦅",
+          "🐴",
+          "🦋",
+          "🪶"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0400, 0440, 0480, 0490, 0600, 0640, 0680, 0690, 0700, 0740, 0780, 0790, 0800, 0840, 0880, 0890, 8400, 8440, 8480, 8490, 8600, 8640, 8680, 8690, 8700, 8740, 8780, 8790, 8800, 8840, 8880, 8890"
+      "resumo": "Palpites dados para esta extração: 0400, 0401, 0405, 0410, 0411, 0415, 0490, 0491, 0495"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
