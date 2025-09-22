@@ -86,73 +86,67 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "0508",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "8569",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "9783",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "2961",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "9319",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
+          "Milhar": "7100",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "8660",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
+          "Milhar": "0766",
+          "Grupo": "17",
+          "Bicho": "Macaco"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "6475",
-          "Grupo": "19",
-          "Bicho": "Pavão"
+          "Milhar": "1480",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "4745",
+          "Milhar": "0876",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "969",
+          "Milhar": "372",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
-        "0118": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 0118"
+        "1697": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 1697"
         ],
-        "0318": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 0318"
+        "1797": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 1797"
         ],
-        "0160": [
-          "Dezena no quarto prêmio!<br>com o palpite 0160",
-          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 0160"
-        ],
-        "0360": [
-          "Dezena no quarto prêmio!<br>com o palpite 0360",
-          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 0360"
+        "1997": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 1997"
         ]
       },
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
+        "Dezena": 0,
         "Grupo": [
-          "🐕",
-          "🐊"
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0110, 0112, 0118, 0160, 0162, 0168, 0190, 0192, 0198, 0310, 0312, 0318, 0360, 0362, 0368, 0390, 0392, 0398"
+      "resumo": "Palpites dados para esta extração: 1697, 1797, 1997"
     },
     "PT-RIO, RJ, 14:20, PT": {
       "cabecalhos": [
@@ -445,116 +439,85 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "0508",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "8569",
+          "Grupo": "18",
+          "Bicho": "Porco"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "9783",
-          "Grupo": "21",
-          "Bicho": "Touro"
+          "Milhar": "2961",
+          "Grupo": "16",
+          "Bicho": "Leão"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "9319",
-          "Grupo": "05",
-          "Bicho": "Cachorro"
-        },
-        {
-          "Prêmio": "4º",
-          "Milhar": "8660",
-          "Grupo": "15",
-          "Bicho": "Jacaré"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "6475",
-          "Grupo": "19",
-          "Bicho": "Pavão"
-        },
-        {
-          "Prêmio": "6º",
-          "Milhar": "0998",
+          "Milhar": "7100",
           "Grupo": "25",
           "Bicho": "Vaca"
         },
         {
+          "Prêmio": "4º",
+          "Milhar": "0766",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1480",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "8270",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
           "Prêmio": "7º",
-          "Milhar": "5736",
-          "Grupo": "09",
-          "Bicho": "Cobra"
+          "Milhar": "5917",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "0816",
-          "Grupo": "04",
-          "Bicho": "Borboleta"
+          "Milhar": "6606",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "8390",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "9106",
+          "Grupo": "02",
+          "Bicho": "Águia"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "0685",
-          "Grupo": "22",
-          "Bicho": "Tigre"
+          "Milhar": "0775",
+          "Grupo": "19",
+          "Bicho": "Pavão"
         }
       ],
       "frases": {
-        "0118": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 0118"
+        "1697": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 1697"
         ],
-        "0318": [
-          "CACHORRO 🐕 no terceiro prêmio!<br>com o palpite 0318"
+        "1797": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 1797"
         ],
-        "0160": [
-          "Dezena no quarto prêmio!<br>com o palpite 0160",
-          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 0160"
-        ],
-        "0360": [
-          "Dezena no quarto prêmio!<br>com o palpite 0360",
-          "JACARÉ 🐊 no quarto prêmio!<br>com o palpite 0360"
-        ],
-        "0198": [
-          "Dezena no sexto prêmio!<br>com o palpite 0198",
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 0198"
-        ],
-        "0398": [
-          "Dezena no sexto prêmio!<br>com o palpite 0398",
-          "VACA 🐄 no sexto prêmio!<br>com o palpite 0398"
-        ],
-        "0190": [
-          "Dezena no nono prêmio!<br>com o palpite 0190",
-          "URSO 🐻 no nono prêmio!<br>com o palpite 0190"
-        ],
-        "0192": [
-          "URSO 🐻 no nono prêmio!<br>com o palpite 0192"
-        ],
-        "0390": [
-          "Centena e Dezena no nono prêmio!<br>com o palpite 0390",
-          "Dezena no nono prêmio!<br>com o palpite 0390",
-          "URSO 🐻 no nono prêmio!<br>com o palpite 0390"
-        ],
-        "0392": [
-          "URSO 🐻 no nono prêmio!<br>com o palpite 0392"
+        "1997": [
+          "VACA 🐄 no terceiro prêmio!<br>com o palpite 1997"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 1,
-        "Dezena": 6,
+        "Centena": 0,
+        "Dezena": 0,
         "Grupo": [
-          "🐕",
-          "🐊",
-          "🐄",
-          "🐻"
+          "🐄"
         ]
       },
-      "resumo": "Palpites dados para esta extração: 0110, 0112, 0118, 0160, 0162, 0168, 0190, 0192, 0198, 0310, 0312, 0318, 0360, 0362, 0368, 0390, 0392, 0398"
+      "resumo": "Palpites dados para esta extração: 1697, 1797, 1997"
     },
     "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
       "cabecalhos": [
