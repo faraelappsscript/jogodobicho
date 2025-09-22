@@ -10,74 +10,78 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "8457",
+          "Milhar": "1160",
           "Grupo": "15",
           "Bicho": "Jacaré"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "6247",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "3679",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "0840",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "2896",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "1870",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "7797",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "5191",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "5944",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "6º [soma]",
-          "Milhar": "2605",
+          "Milhar": "1476",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "830",
+          "Milhar": "267",
           "Grupo": "",
           "Bicho": ""
         }
       ],
       "frases": {
         "0160": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 0160",
+          "Dezena no primeiro prêmio!<br>com o palpite 0160",
           "JACARÉ 🐊 no primeiro prêmio!<br>com o palpite 0160"
         ],
         "0360": [
+          "Dezena no primeiro prêmio!<br>com o palpite 0360",
           "JACARÉ 🐊 no primeiro prêmio!<br>com o palpite 0360"
         ],
-        "0190": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0190"
+        "0198": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 0198"
         ],
-        "0192": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0192"
+        "0398": [
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 0398"
         ],
-        "0390": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0390"
+        "0168": [
+          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 0168"
         ],
-        "0392": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0392"
+        "0368": [
+          "MACACO 🐒 no sétimo prêmio!<br>com o palpite 0368"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
           "🐊",
-          "🐻"
+          "🐄",
+          "🐒"
         ]
       },
       "resumo": "Palpites dados para esta extração: 0110, 0112, 0118, 0160, 0162, 0168, 0190, 0192, 0198, 0310, 0312, 0318, 0360, 0362, 0368, 0390, 0392, 0398"
@@ -354,99 +358,98 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "8457",
+          "Milhar": "1160",
           "Grupo": "15",
           "Bicho": "Jacaré"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "6247",
-          "Grupo": "12",
-          "Bicho": "Elefante"
+          "Milhar": "3679",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "0840",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "2896",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "1870",
-          "Grupo": "18",
-          "Bicho": "Porco"
+          "Milhar": "7797",
+          "Grupo": "25",
+          "Bicho": "Vaca"
         },
         {
           "Prêmio": "5º",
-          "Milhar": "5191",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "5944",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "6º",
-          "Milhar": "8601",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "1327",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "4288",
+          "Milhar": "1687",
           "Grupo": "22",
           "Bicho": "Tigre"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "5447",
-          "Grupo": "12",
-          "Bicho": "Elefante"
-        },
-        {
-          "Prêmio": "9º",
-          "Milhar": "7700",
+          "Milhar": "6799",
           "Grupo": "25",
           "Bicho": "Vaca"
         },
         {
+          "Prêmio": "9º",
+          "Milhar": "0967",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
           "Prêmio": "10º",
-          "Milhar": "8641",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "2256",
+          "Grupo": "14",
+          "Bicho": "Gato"
         }
       ],
       "frases": {
         "0160": [
+          "Centena e Dezena no primeiro prêmio!<br>com o palpite 0160",
+          "Dezena no primeiro prêmio!<br>com o palpite 0160",
           "JACARÉ 🐊 no primeiro prêmio!<br>com o palpite 0160"
         ],
         "0360": [
+          "Dezena no primeiro prêmio!<br>com o palpite 0360",
           "JACARÉ 🐊 no primeiro prêmio!<br>com o palpite 0360"
         ],
-        "0190": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0190"
-        ],
-        "0192": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0192"
-        ],
-        "0390": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0390"
-        ],
-        "0392": [
-          "URSO 🐻 no quinto prêmio!<br>com o palpite 0392"
-        ],
         "0198": [
-          "VACA 🐄 no nono prêmio!<br>com o palpite 0198"
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 0198",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 0198"
         ],
         "0398": [
-          "VACA 🐄 no nono prêmio!<br>com o palpite 0398"
+          "VACA 🐄 no quarto prêmio!<br>com o palpite 0398",
+          "VACA 🐄 no oitavo prêmio!<br>com o palpite 0398"
+        ],
+        "0168": [
+          "MACACO 🐒 no nono prêmio!<br>com o palpite 0168"
+        ],
+        "0368": [
+          "MACACO 🐒 no nono prêmio!<br>com o palpite 0368"
         ]
       },
       "acertos": {
         "Milhar": 0,
-        "Centena": 0,
-        "Dezena": 0,
+        "Centena": 1,
+        "Dezena": 2,
         "Grupo": [
           "🐊",
-          "🐻",
-          "🐄"
+          "🐄",
+          "🐒"
         ]
       },
       "resumo": "Palpites dados para esta extração: 0110, 0112, 0118, 0160, 0162, 0168, 0190, 0192, 0198, 0310, 0312, 0318, 0360, 0362, 0368, 0390, 0392, 0398"
