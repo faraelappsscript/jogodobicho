@@ -254,85 +254,55 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "3092",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "2195",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "1424",
-          "Grupo": "06",
-          "Bicho": "Cabra"
+          "Milhar": "4735",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "4005",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "4745",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "0411",
-          "Grupo": "03",
-          "Bicho": "Burro"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "9715",
+          "Milhar": "6915",
           "Grupo": "04",
           "Bicho": "Borboleta"
         },
         {
+          "Prêmio": "5º",
+          "Milhar": "4285",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
           "Prêmio": "6º [soma]",
-          "Milhar": "8647",
+          "Milhar": "2875",
           "Grupo": "",
           "Bicho": ""
         },
         {
           "Prêmio": "7º [mult]",
-          "Milhar": "403",
+          "Milhar": "393",
           "Grupo": "",
           "Bicho": ""
         }
       ],
-      "frases": {
-        "0190": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0190"
-        ],
-        "0192": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0192",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0192"
-        ],
-        "0390": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0390"
-        ],
-        "0392": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0392",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0392"
-        ],
-        "0110": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0110"
-        ],
-        "0112": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0112"
-        ],
-        "0310": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0310"
-        ],
-        "0312": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0312"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐻",
-          "🐴"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0110, 0112, 0118, 0160, 0162, 0168, 0190, 0192, 0198, 0310, 0312, 0318, 0360, 0362, 0368, 0390, 0392, 0398"
+      "resumo": "Palpites dados para esta extração: 0100, 0106, 0160, 0166, 0700, 0706, 0760, 0766, 0900, 0906, 0960, 0966, 8100, 8106, 8160, 8166, 8700, 8706, 8760, 8766, 8900, 8906, 8960, 8966"
     },
     "PT-RIO, RJ, 16:00, PTV": {
       "cabecalhos": [
@@ -763,103 +733,73 @@
       "dados": [
         {
           "Prêmio": "1º",
-          "Milhar": "3092",
-          "Grupo": "23",
-          "Bicho": "Urso"
+          "Milhar": "2195",
+          "Grupo": "24",
+          "Bicho": "Veado"
         },
         {
           "Prêmio": "2º",
-          "Milhar": "1424",
-          "Grupo": "06",
-          "Bicho": "Cabra"
+          "Milhar": "4735",
+          "Grupo": "09",
+          "Bicho": "Cobra"
         },
         {
           "Prêmio": "3º",
-          "Milhar": "4005",
-          "Grupo": "02",
-          "Bicho": "Águia"
+          "Milhar": "4745",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "4º",
-          "Milhar": "0411",
-          "Grupo": "03",
-          "Bicho": "Burro"
-        },
-        {
-          "Prêmio": "5º",
-          "Milhar": "9715",
+          "Milhar": "6915",
           "Grupo": "04",
           "Bicho": "Borboleta"
         },
         {
+          "Prêmio": "5º",
+          "Milhar": "4285",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
           "Prêmio": "6º",
-          "Milhar": "3140",
-          "Grupo": "10",
-          "Bicho": "Coelho"
+          "Milhar": "2446",
+          "Grupo": "12",
+          "Bicho": "Elefante"
         },
         {
           "Prêmio": "7º",
-          "Milhar": "0404",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "1779",
+          "Grupo": "20",
+          "Bicho": "Peru"
         },
         {
           "Prêmio": "8º",
-          "Milhar": "9201",
-          "Grupo": "01",
-          "Bicho": "Avestruz"
+          "Milhar": "9341",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
         },
         {
           "Prêmio": "9º",
-          "Milhar": "2451",
-          "Grupo": "13",
-          "Bicho": "Galo"
+          "Milhar": "5555",
+          "Grupo": "14",
+          "Bicho": "Gato"
         },
         {
           "Prêmio": "10º",
-          "Milhar": "3843",
-          "Grupo": "11",
-          "Bicho": "Cavalo"
+          "Milhar": "1996",
+          "Grupo": "24",
+          "Bicho": "Veado"
         }
       ],
-      "frases": {
-        "0190": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0190"
-        ],
-        "0192": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0192",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0192"
-        ],
-        "0390": [
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0390"
-        ],
-        "0392": [
-          "Dezena no primeiro prêmio!<br>com o palpite 0392",
-          "URSO 🐻 no primeiro prêmio!<br>com o palpite 0392"
-        ],
-        "0110": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0110"
-        ],
-        "0112": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0112"
-        ],
-        "0310": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0310"
-        ],
-        "0312": [
-          "BURRO 🐴 no quarto prêmio!<br>com o palpite 0312"
-        ]
-      },
+      "frases": {},
       "acertos": {
         "Milhar": 0,
         "Centena": 0,
-        "Dezena": 2,
-        "Grupo": [
-          "🐻",
-          "🐴"
-        ]
+        "Dezena": 0,
+        "Grupo": []
       },
-      "resumo": "Palpites dados para esta extração: 0110, 0112, 0118, 0160, 0162, 0168, 0190, 0192, 0198, 0310, 0312, 0318, 0360, 0362, 0368, 0390, 0392, 0398"
+      "resumo": "Palpites dados para esta extração: 0100, 0106, 0160, 0166, 0700, 0706, 0760, 0766, 0900, 0906, 0960, 0966, 8100, 8106, 8160, 8166, 8700, 8706, 8760, 8766, 8900, 8906, 8960, 8966"
     },
     "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
       "cabecalhos": [
