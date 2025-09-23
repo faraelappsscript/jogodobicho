@@ -1,0 +1,1070 @@
+{
+  "1-5": {
+    "PT-RIO, RJ, 09:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "1160",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3679",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "2896",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7797",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5944",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "1476",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "267",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "2173": [
+          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 2173"
+        ],
+        "2193": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 2193"
+        ],
+        "7173": [
+          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 7173"
+        ],
+        "7193": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 7193"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦌",
+          "🦚"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    },
+    "PT-RIO, RJ, 11:00, PTM": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8569",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2961",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "7100",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0766",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1480",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "0876",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "372",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "2163": [
+          "LEÃO 🦁 no segundo prêmio!<br>com o palpite 2163"
+        ],
+        "2173": [
+          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 2173"
+        ],
+        "7163": [
+          "LEÃO 🦁 no segundo prêmio!<br>com o palpite 7163"
+        ],
+        "7173": [
+          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 7173"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦁",
+          "🦚"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    },
+    "PT-RIO, RJ, 14:20, PT": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2195",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4735",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4745",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "6915",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4285",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "2875",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "393",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "2113": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 2113"
+        ],
+        "2173": [
+          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 2173"
+        ],
+        "2193": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 2193",
+          "Dezena no sétimo prêmio!<br>com o palpite 2193",
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 2193"
+        ],
+        "7113": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 7113"
+        ],
+        "7173": [
+          "PAVÃO 🦚 no sexto prêmio!<br>com o palpite 7173"
+        ],
+        "7193": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 7193",
+          "Dezena no sétimo prêmio!<br>com o palpite 7193",
+          "VEADO 🦌 no sétimo prêmio!<br>com o palpite 7193"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 2,
+        "Grupo": [
+          "🦌",
+          "🦋",
+          "🦚"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    },
+    "PT-RIO, RJ, 16:00, PTV": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2580",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "8077",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0117",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8344",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6776",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "5894",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "838",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "2173": [
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 2173"
+        ],
+        "2193": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 2193"
+        ],
+        "7173": [
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 7173"
+        ],
+        "7193": [
+          "VEADO 🦌 no sexto prêmio!<br>com o palpite 7193"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦚",
+          "🦌"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    },
+    "PT-RIO, RJ, 18:20, PTN": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4691",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4947",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6631",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0925",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3910",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "1104",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "206",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {},
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": []
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7272",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2163",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5516",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3091",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0773",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "6º [soma]",
+          "Milhar": "8815",
+          "Grupo": "",
+          "Bicho": ""
+        },
+        {
+          "Prêmio": "7º [mult]",
+          "Milhar": "729",
+          "Grupo": "",
+          "Bicho": ""
+        }
+      ],
+      "frases": {
+        "2113": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 2113",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 2113"
+        ],
+        "2163": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 2163",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 2163",
+          "Dezena no segundo prêmio!<br>com o palpite 2163",
+          "LEÃO 🦁 no segundo prêmio!<br>com o palpite 2163"
+        ],
+        "2173": [
+          "Dezena no quinto prêmio!<br>com o palpite 2173",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 2173"
+        ],
+        "7113": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 7113",
+          "BORBOLETA 🦋 no sexto prêmio!<br>com o palpite 7113"
+        ],
+        "7163": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 7163",
+          "Dezena no segundo prêmio!<br>com o palpite 7163",
+          "LEÃO 🦁 no segundo prêmio!<br>com o palpite 7163"
+        ],
+        "7173": [
+          "Dezena no quinto prêmio!<br>com o palpite 7173",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 7173"
+        ]
+      },
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 4,
+        "Grupo": [
+          "🦁",
+          "🦋",
+          "🦚"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    }
+  },
+  "1-10": {
+    "PT-RIO, RJ, 09:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "1160",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "3679",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "2896",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "7797",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "5944",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "1327",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1687",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6799",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "0967",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "2256",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        }
+      ],
+      "frases": {
+        "2153": [
+          "GATO 🐈 no décimo prêmio!<br>com o palpite 2153"
+        ],
+        "2193": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 2193"
+        ],
+        "7153": [
+          "GATO 🐈 no décimo prêmio!<br>com o palpite 7153"
+        ],
+        "7193": [
+          "VEADO 🦌 no terceiro prêmio!<br>com o palpite 7193"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦌",
+          "🐈"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    },
+    "PT-RIO, RJ, 11:00, PTM do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "8569",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2961",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "7100",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0766",
+          "Grupo": "17",
+          "Bicho": "Macaco"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "1480",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "8270",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "5917",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "6606",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "9106",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "0775",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        }
+      ],
+      "frases": {
+        "2163": [
+          "LEÃO 🦁 no segundo prêmio!<br>com o palpite 2163"
+        ],
+        "2173": [
+          "PAVÃO 🦚 no décimo prêmio!<br>com o palpite 2173"
+        ],
+        "7163": [
+          "LEÃO 🦁 no segundo prêmio!<br>com o palpite 7163"
+        ],
+        "7173": [
+          "PAVÃO 🦚 no décimo prêmio!<br>com o palpite 7173"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦁",
+          "🦚"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    },
+    "PT-RIO, RJ, 14:20, PT do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2195",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4735",
+          "Grupo": "09",
+          "Bicho": "Cobra"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "4745",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "6915",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "4285",
+          "Grupo": "22",
+          "Bicho": "Tigre"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "2446",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "1779",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "9341",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "5555",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "1996",
+          "Grupo": "24",
+          "Bicho": "Veado"
+        }
+      ],
+      "frases": {
+        "2113": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 2113"
+        ],
+        "2153": [
+          "GATO 🐈 no nono prêmio!<br>com o palpite 2153"
+        ],
+        "2193": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 2193",
+          "VEADO 🦌 no décimo prêmio!<br>com o palpite 2193"
+        ],
+        "7113": [
+          "BORBOLETA 🦋 no quarto prêmio!<br>com o palpite 7113"
+        ],
+        "7153": [
+          "GATO 🐈 no nono prêmio!<br>com o palpite 7153"
+        ],
+        "7193": [
+          "VEADO 🦌 no primeiro prêmio!<br>com o palpite 7193",
+          "VEADO 🦌 no décimo prêmio!<br>com o palpite 7193"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦌",
+          "🦋",
+          "🐈"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    },
+    "PT-RIO, RJ, 16:00, PTV do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "2580",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "8077",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "0117",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "8344",
+          "Grupo": "11",
+          "Bicho": "Cavalo"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "6776",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "2808",
+          "Grupo": "02",
+          "Bicho": "Águia"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "5013",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "8714",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "0774",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "3203",
+          "Grupo": "01",
+          "Bicho": "Avestruz"
+        }
+      ],
+      "frases": {
+        "2113": [
+          "Dezena no sétimo prêmio!<br>com o palpite 2113",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 2113",
+          "BORBOLETA 🦋 no oitavo prêmio!<br>com o palpite 2113"
+        ],
+        "2173": [
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 2173",
+          "PAVÃO 🦚 no nono prêmio!<br>com o palpite 2173"
+        ],
+        "7113": [
+          "Dezena no sétimo prêmio!<br>com o palpite 7113",
+          "BORBOLETA 🦋 no sétimo prêmio!<br>com o palpite 7113",
+          "BORBOLETA 🦋 no oitavo prêmio!<br>com o palpite 7113"
+        ],
+        "7173": [
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 7173",
+          "PAVÃO 🦚 no nono prêmio!<br>com o palpite 7173"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 2,
+        "Grupo": [
+          "🦚",
+          "🦋"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    },
+    "PT-RIO, RJ, 18:20, PTN do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "4691",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "4947",
+          "Grupo": "12",
+          "Bicho": "Elefante"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "6631",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "0925",
+          "Grupo": "07",
+          "Bicho": "Carneiro"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "3910",
+          "Grupo": "03",
+          "Bicho": "Burro"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "4460",
+          "Grupo": "15",
+          "Bicho": "Jacaré"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "6969",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "9432",
+          "Grupo": "08",
+          "Bicho": "Camelo"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "1715",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "3680",
+          "Grupo": "20",
+          "Bicho": "Peru"
+        }
+      ],
+      "frases": {
+        "2113": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 2113"
+        ],
+        "7113": [
+          "BORBOLETA 🦋 no nono prêmio!<br>com o palpite 7113"
+        ]
+      },
+      "acertos": {
+        "Milhar": 0,
+        "Centena": 0,
+        "Dezena": 0,
+        "Grupo": [
+          "🦋"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    },
+    "PT-RIO, RJ, 21:20, CORUJA do 1º ao 10º": {
+      "cabecalhos": [
+        "Prêmio",
+        "Milhar",
+        "Grupo",
+        "Bicho"
+      ],
+      "dados": [
+        {
+          "Prêmio": "1º",
+          "Milhar": "7272",
+          "Grupo": "18",
+          "Bicho": "Porco"
+        },
+        {
+          "Prêmio": "2º",
+          "Milhar": "2163",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "3º",
+          "Milhar": "5516",
+          "Grupo": "04",
+          "Bicho": "Borboleta"
+        },
+        {
+          "Prêmio": "4º",
+          "Milhar": "3091",
+          "Grupo": "23",
+          "Bicho": "Urso"
+        },
+        {
+          "Prêmio": "5º",
+          "Milhar": "0773",
+          "Grupo": "19",
+          "Bicho": "Pavão"
+        },
+        {
+          "Prêmio": "6º",
+          "Milhar": "7253",
+          "Grupo": "14",
+          "Bicho": "Gato"
+        },
+        {
+          "Prêmio": "7º",
+          "Milhar": "2150",
+          "Grupo": "13",
+          "Bicho": "Galo"
+        },
+        {
+          "Prêmio": "8º",
+          "Milhar": "7619",
+          "Grupo": "05",
+          "Bicho": "Cachorro"
+        },
+        {
+          "Prêmio": "9º",
+          "Milhar": "2361",
+          "Grupo": "16",
+          "Bicho": "Leão"
+        },
+        {
+          "Prêmio": "10º",
+          "Milhar": "8198",
+          "Grupo": "25",
+          "Bicho": "Vaca"
+        }
+      ],
+      "frases": {
+        "2113": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 2113"
+        ],
+        "2153": [
+          "Dezena no sexto prêmio!<br>com o palpite 2153",
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 2153"
+        ],
+        "2163": [
+          "Milhar e Centena no segundo prêmio!<br>com o palpite 2163",
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 2163",
+          "Dezena no segundo prêmio!<br>com o palpite 2163",
+          "LEÃO 🦁 no segundo prêmio!<br>com o palpite 2163",
+          "LEÃO 🦁 no nono prêmio!<br>com o palpite 2163"
+        ],
+        "2173": [
+          "Dezena no quinto prêmio!<br>com o palpite 2173",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 2173"
+        ],
+        "7113": [
+          "BORBOLETA 🦋 no terceiro prêmio!<br>com o palpite 7113"
+        ],
+        "7153": [
+          "Dezena no sexto prêmio!<br>com o palpite 7153",
+          "GATO 🐈 no sexto prêmio!<br>com o palpite 7153"
+        ],
+        "7163": [
+          "Centena e Dezena no segundo prêmio!<br>com o palpite 7163",
+          "Dezena no segundo prêmio!<br>com o palpite 7163",
+          "LEÃO 🦁 no segundo prêmio!<br>com o palpite 7163",
+          "LEÃO 🦁 no nono prêmio!<br>com o palpite 7163"
+        ],
+        "7173": [
+          "Dezena no quinto prêmio!<br>com o palpite 7173",
+          "PAVÃO 🦚 no quinto prêmio!<br>com o palpite 7173"
+        ]
+      },
+      "acertos": {
+        "Milhar": 1,
+        "Centena": 2,
+        "Dezena": 6,
+        "Grupo": [
+          "🦁",
+          "🦋",
+          "🦚",
+          "🐈"
+        ]
+      },
+      "resumo": "Palpites dados para esta extração: 2113, 2153, 2163, 2173, 2193, 7113, 7153, 7163, 7173, 7193"
+    }
+  }
+}
